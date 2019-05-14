@@ -17,20 +17,20 @@ This work was created as part of the Data Curation Network “Specialized Data C
 
 ## **Format overview**
 
-| File extensions |
-| :------------- |
+| File extensions |    |
+| :------------- | :------------- |
 | .xlsx | Standard; most common |
 | .xlsm | Contains macros |
 | .xlsb | Binary equivalent of .xlsx; uncommon |
 | .xls | Legacy |
 
-| MIME type     |
+| MIME type     |     |
 | :------------- | :------------- |
 | .xlsx | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
 | .xlsm | application/vnd.ms-excel.sheet.macroEnabled.12 |
 | .xlsb | application/vnd.ms-excel.sheet.binary.macroenabled.12 |
 
-| Additional Information     |
+| Additional Information     |     |
 | :------------- | :------------- |
 |  Structure | ZIP archive adhering to Open Packaging Conventions containing multiple, interrelated XML documents     |  
 | Versions | Many proprietary legacy versions; since 2007, an ISO standard that has undergone only minor revisions. Nevertheless, closely tied to the Microsoft Excel application, whose present version is v16.0.xx. |
