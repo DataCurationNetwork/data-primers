@@ -10,12 +10,37 @@
 **Mentor:**       Wendy Kozlowski, Cornell University ([wak57@cornell.edu](mailto:wak57@cornell.edu))
 
 
-**Suggested Citation:** Greg Janée, Sandra Sawchuk, Ho Jung Yoo. (2019). Microsoft Excel Data Curation Primer.  
+**Suggested Citation:** Greg Janée, Sandra Sawchuk, Ho Jung Yoo. (2019). Microsoft Excel Data Curation Primer. Data Curation Network.  
 
-This work was created as part of the Data Curation Network “Specialized Data Curation” Workshop #1 co-located with the Digital Library Federation (DLF) Forum 2018 in Las Vegas, Nevada on October 17-18, 2018.  These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18. See also: Primers authored by the workshop attendees at DLF: http://datacurationnetwork.org.
+An archived version of this primer is available at:  Greg Janée, Sandra Sawchuk, Ho Jung Yoo. (2019). Microsoft Excel Data Curation Primer. Retrieved from the University of Minnesota Digital Conservancy.  http://hdl.handle.net/11299/202816.
 
 
-## **Format overview**
+This work was created as part of the Data Curation Network “Specialized Data Curation” Workshop #1 co-located with the Digital Library Federation (DLF) Forum 2018 in Las Vegas, Nevada on October 17-18, 2018.  These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
+See also: Primers authored by the workshop attendees at DLF: http://datacurationnetwork.org.
+
+
+# Table of contents
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:undetermined orderedList:0 -->
+
+- [Format overview](#format-overview)
+- [Description of format](#description-of-format)
+	- [Background](#background)
+	- [Characteristics](#characteristics)
+	- [Typical purposes and functions](#typical-purposes-and-functions)
+- [What to look for](#what-to-look-for)
+	- [Problems opening the file](#problems-opening-the-file)
+	- [Content problems](#content-problems)
+- [Software for viewing or analyzing data](#software-for-viewing-or-analyzing-data)
+- [Preservation actions](#preservation-actions)
+- [Excel CURATED checklist](#excel-curated-checklist)
+- [Appendix: Creating a data dictionary](#appendix-creating-a-data-dictionary)
+- [References](#references)
+
+<!-- /TOC -->
+
+# **Format overview**
 
 | File extensions |    |
 | :------------- | :------------- |
@@ -44,29 +69,9 @@ This work was created as part of the Data Curation Network “Specialized Data C
 | Date updated and summary of changes made | April 26, 2019 <ul><li>Added data dictionary resources for different disciplines.</li> <li>Added links to support &#39;Legacy File Format&#39; section </li> <li>Added information to support &#39;Document&#39; step in the CURATE(D) checklist </li></ul>
 
 
-# Table of contents
-
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:no orderedList:0 -->
-
-
-- [Description of format](#description-of-format)
-	- [Overview](#overview)
-	- [Characteristics](#characteristics)
-	- [Typical purposes and functions](#typical-purposes-and-functions)
-- [What to look for](#what-to-look-for)
-	- [Problems opening the file](#problems-opening-the-file)
-	- [Content problems](#content-problems)
-- [Software for viewing or analyzing data](#software-for-viewing-or-analyzing-data)
-- [Preservation actions](#preservation-actions)
-- [Excel CURATED checklist](#excel-curated-checklist)
-- [Appendix: Creating a data dictionary](#appendix-creating-a-data-dictionary)
-- [References](#references)
-
-<!-- /TOC -->
-
 # Description of format
 
-## Overview
+## Background
 
 Microsoft Excel&#39;s widespread adoption in the corporate sector is well known, but the application has also found use in many areas of scholarship. Despite the ubiquity of tabular data in CSV (comma-separated values) format, and the availability of many tools and analysis platforms that operate on CSV files, Microsoft Excel continues to be used widely in the natural sciences and social sciences. As a consequence, Excel files are routinely deposited in data repositories and curators are likely to encounter them.
 
