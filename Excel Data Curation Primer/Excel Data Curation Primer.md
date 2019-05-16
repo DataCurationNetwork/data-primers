@@ -10,7 +10,7 @@
 **Mentor:**       Wendy Kozlowski, Cornell University ([wak57@cornell.edu](mailto:wak57@cornell.edu))
 
 
-**Suggested Citation:** Greg Janée, Sandra Sawchuk, Ho Jung Yoo. (2019). Microsoft Excel Data Curation Primer. Data Curation Network.  
+**Suggested Citation:** Greg Janée, Sandra Sawchuk, Ho Jung Yoo, (2019), Microsoft Excel Data Curation Primer, v.1.0, Data Curation Network GitHub Repository, https://github.com/DataCurationNetwork/data-primers/edit/master/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md   
 
 An archived version of this primer is available at:  Greg Janée, Sandra Sawchuk, Ho Jung Yoo. (2019). Microsoft Excel Data Curation Primer. Retrieved from the University of Minnesota Digital Conservancy.  http://hdl.handle.net/11299/202816.
 
