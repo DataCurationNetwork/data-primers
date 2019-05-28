@@ -22,10 +22,8 @@ This work was created as part of the Data Curation Network “Specialized Data C
 See also: Primers authored by the workshop attendees at DLF: http://datacurationnetwork.org.
 
 # Table of Contents
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 orderedList:0 -->
 
-- [GeoDatabase Data Curation Primer](#geodatabase-data-curation-primer)
-- [Table of Contents](#table-of-contents)
 - [Format overview](#format-overview)
 - [Description of format](#description-of-format)
 	- [File geodatabases](#file-geodatabases)
