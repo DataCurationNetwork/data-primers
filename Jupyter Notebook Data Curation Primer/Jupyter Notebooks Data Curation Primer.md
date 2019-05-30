@@ -124,8 +124,8 @@ The following elements outline recommendations for repositories accepting Jupyte
     - Documents what the Jupyter Notebook is for
     - Request that this file include citation(s) to third-party algorithms and analyses
     - Recommend code comments within the Notebook file itself in addition to the README file
- - Alternate identifiers and supplemental links associated with the Notebook
- - License information
+  - Alternate identifiers and supplemental links associated with the Notebook
+  - License information
 
 
 - **Runnable submission:** allows another researcher to execute the Notebook locally using sample data and files provided by the depositor (12); minimal submission metadata plus:
@@ -159,7 +159,7 @@ Once a decision has been made to accept and curate Jupyter Notebook submissions 
 		- Is information about supplemental files included within the Notebook or in separate files?
 		- If separate files, can those files be opened and read?
 	- Are there multiple Notebooks in the deposit?
-  	 - If multiple Notebooks were deposited together, do they require different metadata to meet the depositor&#39;s functionality expectations?
+		- If multiple Notebooks were deposited together, do they require different metadata to meet the depositor&#39;s functionality expectations?
 5. What are the technical characteristics of the Notebook? Including:
 	- File size
 	-	Availability of alternate format(s)
