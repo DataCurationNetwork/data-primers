@@ -4,7 +4,7 @@
 
 **Participants:**        
 - Daina Bouquin, Center for Astrophysics. Harvard & Smithsonian.  ([daina.bouquin@cfa.harvard.edu](mailto:daina.bouquin@cfa.harvard.edu))
-- Sophie Hou, UCAR ([hou@ucar.edu](mailto:hou@ucar.edu))
+- Sophie Hou, NCAR/UCAR ([hou@ucar.edu](mailto:hou@ucar.edu))
 - Matthew Benzing, Miami University ([matt.benzing@miamioh.edu](mailto:matt.benzing@miamioh.edu))
 - Lee Wilson, Portage Network, ([lee.wilson@ace-net.ca](mailto:lee.wilson@ace-net.ca))
 
@@ -124,8 +124,9 @@ The following elements outline recommendations for repositories accepting Jupyte
     - Documents what the Jupyter Notebook is for
     - Request that this file include citation(s) to third-party algorithms and analyses
     - Recommend code comments within the Notebook file itself in addition to the README file
-	- Alternate identifiers and supplemental links associated with the Notebook
-	- License information
+ - Alternate identifiers and supplemental links associated with the Notebook
+ - License information
+
 
 - **Runnable submission:** allows another researcher to execute the Notebook locally using sample data and files provided by the depositor (12); minimal submission metadata plus:
 
@@ -158,7 +159,7 @@ Once a decision has been made to accept and curate Jupyter Notebook submissions 
 		- Is information about supplemental files included within the Notebook or in separate files?
 		- If separate files, can those files be opened and read?
 	- Are there multiple Notebooks in the deposit?
-  	- If multiple Notebooks were deposited together, do they require different metadata to meet the depositor&#39;s functionality expectations?
+  	 - If multiple Notebooks were deposited together, do they require different metadata to meet the depositor&#39;s functionality expectations?
 5. What are the technical characteristics of the Notebook? Including:
 	- File size
 	-	Availability of alternate format(s)
@@ -177,6 +178,9 @@ The following decision trees (15) illustrate questions and actions that should b
 
 ## Repository Suitability
 ![](DT-Repo.png)
+
+*https://datacurationnetwork.org/home/resources/ <br/>
+**http://hdl.handle.net/11299/202815
 
 ## Curatorial Activities
 ![](DT-Curat.png)
