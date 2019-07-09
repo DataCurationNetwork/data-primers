@@ -222,11 +222,11 @@ b. Researchers are recommended to to provide data dictionaries for their dataset
 
 In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result.
 
-![]()
+![](SPSSfig1.jpg)
 
 **Figure 1**: In the data file, click File> Display Data File Information > Working file, to display and print its variable information to the Output Viewer window.
 
-![]()
+![](SPSSfig2.jpg)
 
 **Figure 2**: Variable information is printed to the Output Viewer window.
 
@@ -234,7 +234,7 @@ c. The variable information can be saved as Viewer Files (.spv), SPSS Web Report
 
 To export the variable information as a .pdf file, in the output Viewer window, click File > Export, and the "Export Output" window will open. In this opened new window, under "Objects to export," select "All visible" under the "Document" section, click the "Type" drop-down menu, and choose "Portable Document Format (.pdf)", then in the "File name" section, click "Browse" to go to the dictionary you'd like to save the file to and create a filename (such as datadictionary_projectname.pdf), click "OK" (See Figure 3).
 
-![]()
+![](SPSSfig3.jpg)
 
 **Figure 3**: Variable information is saved as a data dictionary in PDF format.
 
@@ -504,7 +504,7 @@ There are two DDI standards: [DDI Lifecycle](http://www.ddialliance.org/Specific
 
 An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The dictionary schema (http://xml.spss.com/spss/data/dictionary-1.0.xsd) is installed with the software (IBM Knowledge Center) and is shown in Figure 4.
 
-![]()
+![](SPSSfig4.jpg)
 
 **Figure 4**: Documentation of dictionary schema provided by IBM.
 
