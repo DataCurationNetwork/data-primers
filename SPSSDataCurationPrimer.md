@@ -86,9 +86,9 @@ While this primer primarily discusses .sav and .por files, there are other possi
 
 **Examples below link to study in the iCPSR which offers SPSS as a download option.**
   
-  1.United States. Bureau of Justice Statistics. Survey of Inmates in State and Federal Correctional Facilities, [United States], 2004. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-19. [https://doi.org/10.3886/ICPSR0472.v5](https://doi.org/10.3886/ICPSR0472.v5)
+  - United States. Bureau of Justice Statistics. Survey of Inmates in State and Federal Correctional Facilities, [United States], 2004. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-19. [https://doi.org/10.3886/ICPSR0472.v5](https://doi.org/10.3886/ICPSR0472.v5)
 
-  2.Cohen, Deborah (Deborah Ann). Evaluation of the Balance Calories Initiative, 2016 Baseline, Alabama and Mississippi. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-17. [https://doi.org/10.3886/ICPSR37110.v1](https://doi.org/10.3886/ICPSR37110.v1)
+  - Cohen, Deborah (Deborah Ann). Evaluation of the Balance Calories Initiative, 2016 Baseline, Alabama and Mississippi. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-17. [https://doi.org/10.3886/ICPSR37110.v1](https://doi.org/10.3886/ICPSR37110.v1)
 
 # Start the Conversation Broad Questions and Clarifications on Research Data
 
