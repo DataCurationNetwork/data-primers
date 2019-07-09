@@ -27,7 +27,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 - [Format Overview](#Format-Overview)
 - [Description of Format](#Description-of-Format)
 - [Example Data](#Example-Data)
-- [Start the Conversation Broad Questions and Clarifications on Research Data](#Start-the-Conversation-Broad-Questions-and-Clarifications-on-Research-Data)
+- [Start the Conversation, Broad Questions and Clarifications on Research Data](#Start-the-Conversation,-Broad-Questions-and-Clarifications-on-Research-Data)
 - [Key Questions](#Key-Questions)
 - [Key Clarifications](#Key-Clarifications)
 - [Applicable Metadata Standards, Recommended Elements and Readme File](#Applicable-Metadata-Standards,-Recommended-Elements-and-Readme-File)
@@ -90,7 +90,7 @@ While this primer primarily discusses .sav and .por files, there are other possi
 
   - Cohen, Deborah (Deborah Ann). Evaluation of the Balance Calories Initiative, 2016 Baseline, Alabama and Mississippi. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-17. [https://doi.org/10.3886/ICPSR37110.v1](https://doi.org/10.3886/ICPSR37110.v1)
 
-# Start the Conversation Broad Questions and Clarifications on Research Data
+# Start the Conversation, Broad Questions and Clarifications on Research Data
 
 Before going into technical details specific to the SPSS data, having a short conversation with researchers about their area of research, and data practices is helpful.
 
