@@ -84,7 +84,7 @@ While this primer primarily discusses .sav and .por files, there are other possi
 
 # Example Data
 
-**Examples below link to study in the iCPSR which offers SPSS as a download option.**
+**Examples below link to study in the ICPSR which offers SPSS as a download option.**
   
   - United States. Bureau of Justice Statistics. Survey of Inmates in State and Federal Correctional Facilities, [United States], 2004. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-19. [https://doi.org/10.3886/ICPSR0472.v5](https://doi.org/10.3886/ICPSR0472.v5)
 
