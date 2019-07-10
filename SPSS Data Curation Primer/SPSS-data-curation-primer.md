@@ -186,7 +186,7 @@ It is recommended to document datasets created in the research lifecycle, and us
 
 **Data Level Metadata**
 
-The IBM SPSS Statistics software can create embedded documentation for the dataset. Data files in the software contain embedded metadata that describes and defines the data in the file. This data level metadatacan be exported.
+The IBM SPSS Statistics software can create embedded documentation for the dataset. Data files in the software contain embedded metadata that describes and defines the data in the file. This data level metadata can be exported.
 
 The most important metadata for SPSS data includes:
 
