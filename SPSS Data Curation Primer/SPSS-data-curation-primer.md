@@ -118,7 +118,7 @@ Researchers generally described making use of SPSS functions to document their d
 
 **What kind of data outputs are researchers able or willing to share from SPSS?**
 
-Researchers interviewed primarily export their data file created in SPSS into a non-proprietary format (e.g., csv), if they intend to share it or analyze it with another piece of software. Researchersalso reported sharing the syntax file to describe table structures and methods of analysis. Codebooks were also considered essential for sharing data. Based on the interviews, while the practices of researchers vary, the curators can include essential data for the datasets. If needed, the curator can generate from the datasets the researchers provided such as variable list and data dictionary.
+Researchers interviewed primarily export their data file created in SPSS into a non-proprietary format (e.g., csv), if they intend to share it or analyze it with another piece of software. Researchers also reported sharing the syntax file to describe table structures and methods of analysis. Codebooks were also considered essential for sharing data. Based on the interviews, while the practices of researchers vary, the curators can include essential data for the datasets. If needed, the curator can generate from the datasets the researchers provided such as variable list and data dictionary.
 
 # Key Questions
 
