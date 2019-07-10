@@ -218,7 +218,7 @@ A **codebook**, or a **data dictionary** can be created from an SPSS data file.
 
 a. The data dictionary contains metadata that describes various properties of the data file.
 
-b. Researchers are recommended to to provide data dictionaries for their dataset. If this information is not provided, the curator can export one from the dataset project file. The data dictionary can be saved as a .pdf or a text file. The following steps can be followed to export a data dictionary.
+b. Researchers are recommended to provide data dictionaries for their dataset. If this information is not provided, the curator can export one from the dataset project file. The data dictionary can be saved as a .pdf or a text file. The following steps can be followed to export a data dictionary.
 
 In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result.
 
