@@ -106,7 +106,7 @@ Researchers noted the proprietary (and expensive) nature of SPSS software as par
 
 **What kind of data do researchers generate on import into SPSS?**
 
-Researchers interviewed used a range of structured data inputs with SPSS including tabular data and relational databeses, with information from a variety of sources: web data, survey responses, model simulations, etc.
+Researchers interviewed used a range of structured data inputs with SPSS including tabular data and relational databases, with information from a variety of sources: web data, survey responses, model simulations, etc.
 
 One researcher described his research using a diary study for a project in cognitive psychology. The participant diaries were coded by hand, and the codes were input as tabular data into SPSS. The researcher then used regression analysis and structural equation modeling tools within SPSS to look for patterns across diaries.
 
