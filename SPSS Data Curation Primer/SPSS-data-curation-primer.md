@@ -204,7 +204,7 @@ Other metadata information includes:
 
 1. Width: the maximum number of characters that a value can have. (Required)
 
-2. Decimals: information on howto display numeric values. (Required)
+2. Decimals: information on how to display numeric values. (Required)
 
 3. Columns: Column width for a variable. (Required)
 
