@@ -44,7 +44,7 @@ WordPress.com is the hosted version of the open source WordPress.org software (h
 - [Metadata](#Metadata)
 - [Transforming the exported blog into a PDF](#Transforming-the-exported-blog-into-a-PDF)
 - [Ensuring the deposit meets FAIR principles](#Ensuring-the-deposit-meets-FAIR-principles)
-- [Appendix A, filetype CURATED checklist](#Appendix-A,-filetype-CURATED-checklist)
+- [Appendix A](#Appendix-A)
 
 <!-- /TOC -->
 
@@ -164,6 +164,7 @@ Export process (https://en.support.wordpress.com/export/; as dashboard is set up
 
 - Ensure that the site is not set to Private (see “Receiving exported files” below). In “Export media library” box, select “Download.” Follow prompts for handling download according to your machine’s settings (i.e. Save File or Open, etc.)
 
+
 ![](Wordpress1.jpg)
 
 Screenshot of Settings page on My Sites dashboard
@@ -222,7 +223,9 @@ This is largely the same as above. It will be highly case-specific for a curator
 
 Documenting the curation process, either within the ReadMe file or as an additional file will also help users understand the choices made during the deposit process and any additional information gathered during the curation process that is not already covered in the ReadMe file. This may aid in reuse in other ways.
 
-# Appendix A - Data Curation Network [Curated Steps](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)
+# Appendix A - 
+
+Data Curation Network [Curated Steps](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)
 
 Consulted: 
 
