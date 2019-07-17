@@ -164,7 +164,7 @@ Export process (https://en.support.wordpress.com/export/; as dashboard is set up
 
 - Ensure that the site is not set to Private (see “Receiving exported files” below). In “Export media library” box, select “Download.” Follow prompts for handling download according to your machine’s settings (i.e. Save File or Open, etc.)
 
-![]()
+![](Wordpress1.jpg)
 
 Screenshot of Settings page on My Sites dashboard
 
@@ -188,7 +188,7 @@ The header of the XML file contains the disclaimer, “This file is not intended
 
 WP XML export header (WXR header) excerpts
 
-![]()
+![](Wordpress2.jpg)
 
 # Transforming the exported blog into a PDF
 
