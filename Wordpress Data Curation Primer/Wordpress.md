@@ -162,8 +162,7 @@ Export process (https://en.support.wordpress.com/export/; as dashboard is set up
 
 - In “Export your content” box, either select “Export All” button for whole site export, or select drop down arrow for options to select specific content (options include targeted posts, pages, or all feedback). (See “Receiving exported files” below for notes on receiving exported XML file.)
 
-- Ensure that the site is not set to Private (see “Receiving exported files” below). In “Export media library” box, select “Download.” Follow prompts for handling download according to your machine’s settings (i.e. Save File or Open, etc.)
-
+- Ensure that the site is not set to Private (see "Receiving exported files" below). In "Export media library" box, select "Download." Follow prompts for handling download according to your machine's settings (i.e. Save File or Open, etc.)
 
 ![](Wordpress1.jpg)
 
