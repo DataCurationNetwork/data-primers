@@ -224,7 +224,7 @@ Documenting the curation process, either within the ReadMe file or as an additio
 
 # Appendix A - 
 
-[Wordpress Curated Checklist](https://docs.google.com/document/d/1TqGhf2LP8XkKTt2G65bU3wzWY4NQhJmy0wrnFn3M2qA/edit). Modified by Heather James from the Data Curation Network [Checklist of Curated Steps](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)
+[Wordpress Curated Checklist](https://docs.google.com/document/d/1TqGhf2LP8XkKTt2G65bU3wzWY4NQhJmy0wrnFn3M2qA/edit). Modified by Heather James from the Data Curation Network's [Checklist of Curated Steps](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)
 
 Consulted: 
 
