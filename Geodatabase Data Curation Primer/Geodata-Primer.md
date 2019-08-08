@@ -3,13 +3,13 @@
 # GeoDatabase Data Curation Primer
 
 **Participants:**
-- Andrew Battista, New York University  ([ab6137@nyu.edu(mailto:ab6137@ny.edu))
+- Andrew Battista, New York University, ([ab6137@.nyu.edu](mailto:ab6137@nyu.edu))
 - Tom Brittnacher, University of California, Santa Barbara ([ tombritt@ucsb.edu](mailto:tombritt@ucsb.edu))
 - Zenobie Garrett, University of Oklahoma ([zenobie.s.garrett@ou.edu](mailto:zenobie.s.garrett@ou.edu))
 - Jennifer Moore, Washington University in St. Louis, ([j.moore@wustl.edu](mailto:j.moore@wustl.edu))
-- Carrie Pirmann, Bucknell University, ([carrie.pirmann@bucknell.edu] (mailto:carrie.pirmann@bucknell.edu))
+- Carrie Pirmann, Bucknell University, ([carrie.pirmann@bucknell.edu](mailto:carrie.pirmann@bucknell.edu))
 
-**Mentor:**       Jennifer Moore, Washington University in St. Louis ([j.moore@wustl.edu](mailto:j.moore@wustl.edu))
+**Mentor:** Jennifer Moore, Washington University in St. Louis ([j.moore@wustl.edu](mailto:j.moore@wustl.edu))
 
 
 **Suggested Citation:** Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase Data Curation Primer, v. 1.0, Data Curation Network GitHub Repository.
@@ -26,20 +26,20 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 
 - [Format overview](#format-overview)
 - [Description of format](#description-of-format)
-	- [File geodatabases](#file-geodatabases)
-	- [Personal geodatabase](#personal-geodatabase)
-	- [ArcSDE geodatabase](#arcsde-geodatabase)
-	- [Exploring geodatabases](#exploring-geodatabases)
+- [File geodatabases](#file-geodatabases)
+- [Personal geodatabase](#personal-geodatabase)
+- [ArcSDE geodatabase](#arcsde-geodatabase)
+- [Exploring geodatabases](#exploring-geodatabases)
 - [Examples of geodatabase datasets](#examples-of-geodatabase-datasets)
-	- [Public .gdb data collections](#public-gdb-data-collections)
-	- [Sample data set used in this document](#sample-data-set-used-in-this-document)
+- [Public .gdb data collections](#public-gdb-data-collections)
+- [Sample data set used in this document](#sample-data-set-used-in-this-document)
 - [Key questions](#key-questions)
 - [Instructions for resources to use in the curation review of geodatabase files](#instructions-for-resources-to-use-in-the-curation-review-of-geodatabase-files)
 - [Metadata](#metadata)
-	- [Geospatial Metadata Standards](#geospatial-metadata-standards)
-	- [Viewing and Exporting Metadata](#viewing-and-exporting-metadata)
-	- [Metadata Completeness](#metadata-completeness)
-	- [Other Metadata Schemas](#other-metadata-schemas)
+- [Geospatial Metadata Standards](#geospatial-metadata-standards)
+- [Viewing and Exporting Metadata](#viewing-and-exporting-metadata)
+- [Metadata Completeness](#metadata-completeness)
+- [Other Metadata Schemas](#other-metadata-schemas)
 - [Preservation actions](#preservation-actions)
 - [Bibliography](#bibliography)
 
@@ -135,7 +135,7 @@ The ESRI geodatabase is designed to work with all of ESRI’s ArcGIS products. E
 These products will only work with Windows OS, so you must either be using a Windows computer or have a Windows partition if on a Mac. If you are trying to decide whether ArcPro or ArcDesktop should be used to view files consider the following: ArcPro will require a 64-bit processor while ArcDesktop requires 32-bit. Additionally, ArcGIS Desktop was designed to only use 4GB of RAM, so if you would like to check individual files within the geodatabase that are extremely large, ArcGIS Pro is better suited to this task. Finally, changes to how the ArcGIS Pro and ArcGIS Desktop are written requires any customization scripts to be uniquely written for each suite of software. If scripts are stored as toolkits within the geodatabase, it will be necessary to know which software was used to generate the toolkit.
 
 _Website of this tool?_
-- ArcGIS Pro:	 					https://pro.arcgis.com/en/pro-app/
+- ArcGIS Pro:	https://pro.arcgis.com/en/pro-app/
 - ArcGIS Desktop(includes ArcMap and ArcCatalog):	http://desktop.arcgis.com/en/arcmap/
 
 _What does this tool do?_  
@@ -189,34 +189,42 @@ Proficient ArcGIS users will often use models, scripts, and toolboxes to customi
 **QGIS**
 
 _Website of this tool?_
-https://www.qgis.org/en/site/ 	
+https://www.qgis.org/en/site/
 
 _What does this tool do?_  
 QGIS is free and open-source desktop GIS application. It is operating system agnostic so can be run in Windows, Mac, or Linux. QGIS allows for the viewing, editing, and analysis of vector and raster geospatial data.
 
-QGIS supports shapefiles, coverages, personal geodatabases, dxf, MapInfo, PostGIS, Web services, etc
+QGIS supports shapefiles, coverages, personal geodatabases, dxf, MapInfo, PostGIS, Web services, etc.
 
 _Who supports this tool?_
-QGIS Development Team
+QGIS Development team https://qgis.org/en/site/getinvolved/governance/index.html/.
 
 _How can I get access to this tool?_
 QGIS is available as a free download from https://www.qgis.org/en/site/. It’s important to view the readme file in the installation package because installation in the wrong order will inhibit full functionality. Instructions vary by platform.
 
-_How do I use this tool?_
+_Can I see all elements of a geodatabase in QGIS?_
 
-To view open a Geodatabase in QGIS:
+It is possible to open geodatabase in QGIS and view its contents, as long as no part of the geodatabase contains raster files. Current versions of QGIS do not support rasters within geodatabases, which means that curators will need to figure out if the submitted geodatabses have rasters before opening. One way to do this is to locate the geodatabase file in File Explorer or Finder and open it.  Then, print each file listed that ends in .gdbindexes as a text document (by using Notepad or some other similar text editing software). If the file listed has `raster_id` in the header, that file pertains to a raster in the database, and you can at least know that a raster is present among the other components of the geodatabase. Another option is to use homegrown tools such as [ArcRasterRescue](https://github.com/r-barnes/ArcRasterRescue) in order to separate out raster files and save them separately.  
 
-To open a geodatabase in QGIS, be sure to choose
+To open a geodatabase in QGIS, choose:
 
-1. "Add vector layer",
+1. "Add vector layer"
+
 ![](image13-gd-dc.png)
-2. ”Source Type = Directory"  ![](image14-gd-dc.png)
-3. Navigate to and source should be either "OpenFileGDB" or "ESRI FileGDB".![](image15-gd-dc.png)
+
+2. ”Source Type = Directory"  
+
+![](image14-gd-dc.png)
+
+3. Navigate to and source should be either "OpenFileGDB" or "ESRI FileGDB"
+
+![](image15-gd-dc.png)
+
 4. Click add
 5. Select the coordinate system
 6. Choose the layers to open
 7. Select coordinate system.
-Note: each layer in the geodatabase can either be added one by one, or you can select multiple to add at one time.
+Note: each layer in the geodatabase can either be added one by one, or you can select multiple to add at one time
 
 **Reviewing attribute information in a feature layer**
 Vector data is made up of features (the shapes you see on the map) and attributes (the information associated with those features). In QGIS you can view this attribute information by:
