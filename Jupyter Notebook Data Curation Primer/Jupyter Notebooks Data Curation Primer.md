@@ -4,7 +4,7 @@
 
 **Participants:**        
 - Daina Bouquin, Center for Astrophysics. Harvard & Smithsonian.  ([daina.bouquin@cfa.harvard.edu](mailto:daina.bouquin@cfa.harvard.edu))
-- Sophie Hou, NCAR/UCAR ([hou@ucar.edu](mailto:hou@ucar.edu))
+- Sophie Hou, NCAR/UCAR ([sophie.hou@ronininstitute.org](mailto:sophie.hou@ronininstitute.org))
 - Matthew Benzing, Miami University ([matt.benzing@miamioh.edu](mailto:matt.benzing@miamioh.edu))
 - Lee Wilson, Portage Network, ([lee.wilson@ace-net.ca](mailto:lee.wilson@ace-net.ca))
 
