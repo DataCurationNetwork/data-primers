@@ -79,7 +79,7 @@ Since 2007 the Excel file format has been open and defined by ISO and ECMA stand
 
 The Excel file format is technically a ZIP archive, organized according to Open Packaging Conventions, that contains a number of interrelated XML files adhering to the Spreadsheet ML language. But because the individual files have no independently reusable value, from a curation and reuse perspective, in practice, an Excel file is always treated as an indivisible unit.
 
-The close association of the Excel file format with a proprietary application limits its long-term reusability. And reusability of Excel data is further hindered by both the complexity of the file format (it is difficult to create new tools that fully support the format) and incompatibilities that can appear when moving Excel files across platforms (macOS vs. Windows) and even across versions of Microsoft Excel on the same platform. As a consequence, the curation recommendation for Excel files is to, where feasible, convert the files into more preservation friendly and reusable formats such as CSV for data tables and PNG for graphs and plots.
+The close association of the Excel file format with a proprietary application limits its long-term reusability. Reusability of Excel data is further hindered by both the complexity of the file format (it is difficult to create new tools that fully support the format) and incompatibilities that can appear when moving Excel files across platforms (macOS vs. Windows) and even across versions of Microsoft Excel on the same platform. As a consequence, the curation recommendation for Excel files is to, where feasible, convert the files into more preservation friendly and reusable formats such as CSV for data tables and PNG for graphs and plots.
 
 ## Characteristics
 
