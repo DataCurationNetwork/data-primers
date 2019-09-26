@@ -1,5 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="DCNlogo.png" >
+
+</body>
+</html>
+
 <html>
 <body style="margin-top:0px;">
+<p>
 
 <h4 style="font-family:Arial; font-size:20; margin:0px;"> Overview </h4> <span style="font-family:Nunito; font-size:11; margin:0px;">This primer describes curation of MS Access files.</span>
 
@@ -75,14 +85,13 @@
 
 <div>
 Note: This primer assumes a conceptual familiarity with relational databases (and associated terminology) and a basic level of experience with Microsoft Access. For introductory material on relational database concepts and MS Access see
-<ul><li> <a href="https://open.umn.edu/opentextbooks/textbooks/relational-databases-and-microsoft-access">Relational Databases and Microsoft Access by Ron McFayden </li> <li> <a href="https://www.khanacademy.org/computing/computer-programming/sql">Intro to SQL: Querying and managing data from Khan Academy </li><li> <a href="https://librarycarpentry.org/lc-sql/">SQL for Librarians from Library Carpentry</li></ul>
+<ul><li> <a href="https://open.umn.edu/opentextbooks/textbooks/relational-databases-and-microsoft-access">Relational Databases and Microsoft Access by Ron McFayden </a></li> <li> <a href="https://www.khanacademy.org/computing/computer-programming/sql">Intro to SQL: Querying and managing data from Khan Academy </a></li> <li> <a href="https://librarycarpentry.org/lc-sql/">SQL for Librarians from Library Carpentry </a></li></ul>
 </div>
+_________
+<p> Suggested Citation: Author. Date Released. Title. </br>
+This work was created as part of the Data Curation Network Training Cohort #1. </br>
 
-________
-<p> Suggested Citation: Author. Date Released. Title. <br>
-This work was created as part of the Data Curation Network Training Cohort #1.</p>
 
-<p style="page-break-before: always">
 
 <h4 style="font-family:Arial; font-size:20; margin:0"> Description of Format </h4>
 
