@@ -11,7 +11,7 @@
 <body style="margin-top:0px;">
 <p>
 
-<h4 style="font-family:Arial; font-size:20; margin:0px;"> Overview </h4> <span style="font-family:Nunito; font-size:11; margin:0px;">This primer describes curation of MS Access files.</span>
+<h3 style="font-family:Arial; font-size:20; margin:0px;"> Overview </h3> <span style="font-family:Nunito; font-size:11; margin:0px;">This primer describes curation of MS Access files.</span>
 
 <table>
   <col width="300">
@@ -93,7 +93,7 @@ This work was created as part of the Data Curation Network Training Cohort #1. <
 
 
 
-<h4 style="font-family:Arial; font-size:20; margin:0"> Description of Format </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0"> Description of Format </h3>
 
 A Microsoft Access (MS Access) database could be in one of two main formats: MDB and ACCDB. There are variations on these<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> but they will not be discussed further. The MDB format is the native format for MS Access 1.0 through MS Access 2003. Note that although the MDB file extension was used for all those versions, the internal format changed significantly.  Starting with Access 2007, the ACCDB format was used by default.
 
@@ -139,7 +139,7 @@ The following descriptions of the MDB and ACCDB formats are largely summarized f
 <div style="page-break-after: always;"></div>
 
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Examples </h4> <h5 style="margin:0.5px"> Common use cases</h5>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Examples </h3> <h5 style="margin:0.5px"> Common use cases</h5>
 <ul><li> Tabular data associated with spatial information - geodatabases <li> Capturing survey results <li>Storing metadata about other datasets <li>Data entry forms - Makes use of the way Access can be used to easily create forms for more efficient data entry.	<li> Basic statistical analysis functionality and other data analysis uses such as content coding.</li></ul>
 
 <h5 style="margin:0.5px">Dataset Examples</h5>
@@ -165,7 +165,7 @@ These are drawn from a variety of disciplines and contain entries which are and 
 
 <div style="page-break-after: always;"></div>
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Viewing </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Viewing </h3>
 
 Recent version of Access (e.g., Access 2016) can still open and save databases down to Access 2000 however functionality may be changed when migrating from an older to newer or newer to older format. There is no version for Macintosh OS.
 
@@ -175,7 +175,7 @@ For opening very old Access versions, the Library of Congress provides resources
 
 A basic requirement of opening these very old formats is a copy of Access 2007. If it is anticipated that there could be the need to open and curate these old databases, it is recommended to procure and maintain a virtual machine with a working copy of Access 2007 to allow migrations between older and newer versions of Access.
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Key questions to ask yourself </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Key questions to ask yourself </h3>
 
 
 - Is documentation about the columns included? I.e., a codebook. The codebook is especially critical to understand the relationships between the tables
@@ -190,7 +190,7 @@ A basic requirement of opening these very old formats is a copy of Access 2007. 
 -	Is your version of MS Access secure?
 	- Make sure options to disable macros and other code from executing automatically is disabled since you don't know if the dataset could be malicious. The default of newer versions of Access is to disable such functionality
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Key clarifications to get from researcher </h4> <h5 style="margin:0.5px"> Very useful clarifications</h5>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Key clarifications to get from researcher </h3> <h5 style="margin:0.5px"> Very useful clarifications</h5>
 
 -	For data entry databases with forms, a description of the data entry workflow would help with understanding the underlying database structure
 	- What is the main entry form? Where does the entry workflow start? Etc.
@@ -204,12 +204,12 @@ A basic requirement of opening these very old formats is a copy of Access 2007. 
 -	What version of Access was used?
 -	Which tables and/or queries do specific results from the paper come from (in cases where the database is specifically associated with a publication)
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Applicable metadata standard, core elements and readme requirements </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Applicable metadata standard, core elements and readme requirements </h3>
 
 <b style="font-size: 11;margin:0.5px"> Accessing metadata schema:</b> Most database platforms have standard means of exporting database schema: descriptions of the database structure and design, including the tables, fields, relationships, and, sometimes the calculations or procedures used by the database. In Access, the Database Documenter (on the Database Tools tab, Fig. 1) is the direct means of generating reports on the database schema.
 <p>
 <center><img src="fig1.png"></center>
-      <center><p><i><font size="1" color="darkblue">Figure 1: Database Documenter</font></i></p></center> </p>
+
 
 The Documenter report includes a lengthy property report of each field, including description. Exporting as .txt format is recommended for utility. The decision to generate schema reports for curation may depend on plans for preservation rather than documentation that is of direct use to researchers interested in the data itself, since much of the content consists of properties of fields, tables, and relationships relevant to the database design schema. For example, table fields could include descriptions as a useful addition to documentation and usage. These are easily viewed within Access Table Design View. See the Preservation section for details on generating the Database Documenter report.
 
@@ -218,7 +218,7 @@ Metadata may be accessed in other ways. Access uses Database Object Listing (MSy
 -	MS Access does NOT use information_schema standards common to a range of SQL databases, which is one of the standards for reporting information about tables, views, columns, and procedures or calculations in a database. (c.f. https://en.wikipedia.org/wiki/Information_schema.
 -	Access also uses its own SQL standard, Access SQL, which may be incompatible with other SQL standards such as Transaction-SQL. http://rogersaccessblog.blogspot.com/2013/05/what-are-differences-between-access-sql.html
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Preservation </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Preservation </h3>
 
 In this section, we present the following recommendations for basic preservation of MS Access databases. These consist of 1) exporting tables and other objects into interoperable formats, and 2), Making extensive use of the Database Documenter and Relationship Tool to export contributor- and machine-generated metadata. Finally, additional preservation avenues developed by 3rd parties for more advanced preservation are presented.
 
@@ -234,7 +234,7 @@ Following the ICPSR recommendations, at minimum, the database tables should be e
 5.	Click the Advanced button in Fig 2b to change date export format and other settings as shown in Fig. 2c. Save the export settings to apply the date export to other tables more quickly.
 6.	Repeat 2-5 for every table in the database. Also see Linked Tables below for how to deal with linked tables. Note: there is no built-in way to export more than one table at a time.
 
-<center><img src="fig2screen.png"></center>
+<center><img src="fig2.png"></center>
 
 
 <div style="page-break-after: always;"></div>
@@ -251,7 +251,7 @@ In addition to tables, other types of objects can also be exported, and they sho
 In addition, it is strongly recommended that the output of the Database Documenter be included alongside the exported tables/objects and any other documentation. The Database Documenter report includes detailed information on each table (data types, any user-entered metadata, etc.) and other Access objects. It also includes detailed information on the relationships in the database. In the report, each relationship is identified individually using the two table names and the two fields involved, as well as the type of the relationships and any attributes (e.g., whether the relationship is enforced when entering data or whether the deletion of a record cascades to associated tables) as shown in Fig. 3. This information is critical so as to enable understanding the relationships between the exported tables as, upon export, the relationship information is lost.
 
 <center><img src="fig3.png"></center>
-     <center><p><i><font size="1" color="darkblue">Figure 3: Relationship information generated by Database Documenter</font></i></p></center>
+
 <div>
  To generate the Database Documenter Report:
  <ol><li>Click on Database Tools in the ribbon and open the Database Documenter</li>
@@ -264,15 +264,15 @@ In addition, it is strongly recommended that the output of the Database Document
 <div style="page-break-after: always;"></div>
 
 <center><img src="fig4.png"></center>
-     <center><p><i><font size="1" color="darkblue">Figure 4: Options for the Database Documenter. The settings shown will capture all available information that is of use to re-users.</font></i></p></center>
+
 
 Finally, in addition to the Relationships Report generated by the Database Documenter, the diagram from the Relationships editor should be included as a standalone attachment in the form of an image. This is because the relationships report generated by the Database Documenter does not include an overview of all the relationships in the database. To obtain the diagram click on the Relationships button in the Database Tools tab (Fig. 5a) and you will see a window that details the relationships within the database (Fig 5b). You can take a screenshot or export the report to PDF. Typically, the database contributor, rather than the curator, would arrange the relationship diagram in a way that makes sense, especially if intending the shared database to be repurposed.
 
-<center><p><img src="fig5screen.png" vspace="0px"> </p></center>
+<center><p><img src="fig5.png" vspace="0px"> </p></center>
 
 
 <center><img src="fig6.png"></center>
-     <center><p><i><font size="1" color="darkblue" vspace="50">Figure 6: Linked table manager</font></i></p></center>
+
 
 **Linked Tables**
 Linked tables are tables that exist in another Access database. If the table is not included with the database being curated, they cannot be opened. These tables can be converted to local tables by right clicking the table and selecting the appropriate menu entry (assuming the linked table was part of the deposit as a separate file or otherwise made available). You can also use the Linked Table Manager (Fig. 6) to see and update all linked tables. Additionally, there is a consideration if a query in Access references external databases (e.g., SQL servers)
@@ -285,16 +285,16 @@ The Database Preservation Toolkit facilitates digital preservation of databases 
 
 <div style="page-break-after: always;"></div>
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> What to look for to make sure this file meets FAIR principles </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> What to look for to make sure this file meets FAIR principles </h3>
 
 <ul><li>Make sure to verify (either by testing each table individually or asking the researcher) that the database does not contain tables that are linked to other databases. In recent version of Access it is indicated by the small arrow beside the table icon (Fig. 7).
 
-<center><img src="fig7.jpg"></center>
-      <center><p><i><font size="1" color="blue">Figure 7: the small arrow to the left of the table indicates it is a linked table</font></i></p></center>
+<center><img src="fig7.png"></center>
+      
 <div style="width:550px; display:block; margin:2px"> Trying to open these linked tables will result in an error. See the Curation section for more information</div>
 <li> Eporting tables to CSV will ensure at least the data is accessible in a non-proprietary format</li></ul>
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Unresolved Issues/Further Questions </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Unresolved Issues/Further Questions </h3>
 
 -	Can LibreOffice (open-source alternative to Microsoft Office) open Access databases directly or can the Access database be exported to a format that can be opened by LibreOffice Base?
 	- No, but tables can be linked between Base and Access. [See here for details](https://ask.libreoffice.org/en/question/60559/base-and-ms-access-2007-2013/).
@@ -303,7 +303,7 @@ The Database Preservation Toolkit facilitates digital preservation of databases 
 -	Investigating 3rd party tools for accessing Access databases for obtaining version numbers, counts of tables, existence of linked tables without having to manually open each table and query in Access.  There are some tools for \*nix like [mdbtools](http://mdbtools.sourceforge.net) that claim to be able to interact with Access databases.
 -	Converting Access to MySQL as an alternative open format. Guidelines can be found [at this link](http://www.bullzip.com/products/a2m/info.php). Bullzip offers an [Access to MySQL converter utility](http://www.bullzip.com/products/a2m/info.php).
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Documentation of curation process: What do capture from curation process </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Documentation of curation process: What do capture from curation process </h3>
 
 -	Exporting tables to CSV: did curator do it or were they provided by the researcher?
 -	Documenting the presence of linked tables or queries that reference external servers
@@ -315,7 +315,7 @@ The Database Preservation Toolkit facilitates digital preservation of databases 
 <div style="page-break-after: always;"></div>
 
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Bibliography </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Bibliography </h3>
 
 <ul><li> Data Carpentry SQL discussion</li>
 <li>Library of Congress has some good descriptions  </li>
@@ -331,7 +331,7 @@ The Database Preservation Toolkit facilitates digital preservation of databases 
 
 <div style="page-break-after: always;"></div>
 
-<h4 style="font-family:Arial; font-size:20; margin:0px"> Appendix A - MS Access CURATED checklist </h4>
+<h3 style="font-family:Arial; font-size:20; margin:0px"> Appendix A - MS Access CURATED checklist </h3>
 
 <h5 style="margin:0px"> Checklist of CURATED Steps Performed by the DCN</h5>
 
@@ -349,7 +349,7 @@ The Database Preservation Toolkit facilitates digital preservation of databases 
 
 <p style="margin:12px;"> <small><b>Evaluate</b> for FAIRness (licences, responsibility standards, metrics for tracking use) </small></p>
 
-<p style="margin:10px;"> <small><b>Document</b> fyour curation activities </small></p>
+<p style="margin:10px;"> <small><b>Document</b> your curation activities </small></p>
 <p>
 
 <h4 style="font-family:Arial; font-size:20; margin-top: 25px; margin-left: 0px;margin:0px;"> CHECK Step</h4>
@@ -366,31 +366,31 @@ The Database Preservation Toolkit facilitates digital preservation of databases 
 
 | CURATE Action |  Curator Checklist     |
 | :------------- | :------------- |
-| Understand the data (or try to)<ul><li>	Check for quality assurance and usability issues such as missing data, ambiguous headings, code execution failures, and data presentation concerns.</li> <li> 	Try to detect and extract any "hidden documentation" inherent to the data files that may facilitate reuse. </li> <li>Determine if the documentation of the data is sufficient for a user with similar qualifications to the author's to understand and reuse the data. If not, recommend or create additional documentation (e.g., a readme.txt template).| Varies based on file formats and subject domain. For example…. <br><br> MS Access</br> <ul style="padding-left:5px;width:280px; display:block;"> &#9744;	Is there documentation on tables, relationships, queries, etc? <br> <ul> &#9744;	Exists in separate file </ul> <ul> &#9744;	Included in Access comment fields for tables</ul> <ul> &#9744;	Other ________ </ul>  &#9744;	Can the data be exported to CSVs easily? <ul> &#9744;	Yes, no information is lost</ul> <ul> &#9744;	No, database contains many queries and relationships </ul><ul> &#9744;	No, Database also has forms/code/macros</ul> <ul> &#9744;	Other __________ </ul>  &#9744;	Is the database self-contained? <ul> &#9744;	Yes </ul> <ul>&#9744;	No, there are linked tables </ul><ul> &#9744;	No, queries access external data sources.</ul>  &#9744;	Is there or can you obtain documentation or information on how the database was used? <br> &#9744;	Which tables or queries are the relevant ones used in a publication?</ul>|
+| Understand the data (or try to)<ul><li>	Check for quality assurance and usability issues such as missing data, ambiguous headings, code execution failures, and data presentation concerns.</li> <li> 	Try to detect and extract any "hidden documentation" inherent to the data files that may facilitate reuse. </li> <li>Determine if the documentation of the data is sufficient for a user with similar qualifications to the author's to understand and reuse the data. If not, recommend or create additional documentation (e.g., a readme.txt template).| Varies based on file formats and subject domain. For example…. <br><br> MS Access</br> <ul style="padding-left:5px;width:420px; display:block;"> &#9744;	Is there documentation on tables, relationships, queries, etc? <br> <ul> &#9744;	Exists in separate file </ul> <ul> &#9744;	Included in Access comment fields for tables</ul> <ul> &#9744;	Other ________ </ul>  &#9744;	Can the data be exported to CSVs easily? <ul> &#9744;	Yes, no information is lost</ul> <ul> &#9744;	No, database contains many queries and relationships </ul><ul> &#9744;	No, Database also has forms/code/macros</ul> <ul> &#9744;	Other __________ </ul>  &#9744;	Is the database self-contained? <ul> &#9744;	Yes </ul> <ul>&#9744;	No, there are linked tables </ul><ul> &#9744;	No, queries access external data sources.</ul>  &#9744;	Is there or can you obtain documentation or information on how the database was used? <br> &#9744;	Which tables or queries are the relevant ones used in a publication?</ul>|
 
 <h4 style="font-family:Arial; font-size:20; margin:0px"> REQUEST Step</h4>
 
 | CURATE Action |  Curator Checklist     |
 | :------------- | :------------- |
-| Request missing information or changes <ul><li>	Generate a list of questions for the data author to fix any errors or issues. |Narrative describing the concerns, issues, and needed improvements to the data submission.</li></ul>|
+| Request missing information or changes <ul><li>	Generate a list of questions for the data author to fix any errors or issues. |<ul style="padding-left:5px;width:420px; display:block;"> Narrative describing the concerns, issues, and needed improvements to the data submission.</li></ul>|
 
 <h4 style="font-family:Arial; font-size:20; margin:0px"> AUGMENT Step</h4>
 
 | CURATE Action |  Curator Checklist     |
 | :------------- | :------------- |
-| Augment the submission <ul><li>	Enhance metadata to best facilitate discoverability.<li>	Create and apply metadata for the data record, including descriptive keywords.<li>	When appropriate, structure and present metadata in domain-specific schemas to facilitate interoperability with other systems.</li></ul>|<ul style="padding-left:5px;width:250px; display:block;"> &#9744;	Discoverability sufficient <ul> &#9744;	Recommend (circle one) full-text index / file rename / file reorder / file descriptions / zip files into one archive Other  ______________ </ul> &#9744;	Keywords Sufficient <ul> &#9744;	Suggestions _______________ </ul>  &#9744; Linkages Sufficient <ul> &#9744;	Link to report/paper</ul> <ul> &#9744;	Link to related data sets </ul> <ul> &#9744;	Link to source data</ul> <ul> &#9744;	Link to other ____________</ul>|
+| Augment the submission <ul><li>	Enhance metadata to best facilitate discoverability.<li>	Create and apply metadata for the data record, including descriptive keywords.<li>	When appropriate, structure and present metadata in domain-specific schemas to facilitate interoperability with other systems.</li></ul>|<ul style="padding-left:5px;width:420px; display:block;"> &#9744;	Discoverability sufficient <ul> &#9744;	Recommend (circle one) full-text index / file rename / file reorder / file descriptions / zip files into one archive Other  ______________ </ul> &#9744;	Keywords Sufficient <ul> &#9744;	Suggestions _______________ </ul>  &#9744; Linkages Sufficient <ul> &#9744;	Link to report/paper</ul> <ul> &#9744;	Link to related data sets </ul> <ul> &#9744;	Link to source data</ul> <ul> &#9744;	Link to other ____________</ul>|
 
 <h4 style="font-family:Arial; font-size:20; margin:0px"> TRANSFORM Step</h4>
 
 | CURATE Action |  Curator Checklist     |
 | :------------- | :------------- |
-| Transform file formats <ul><li>	Identify specialized file formats and their restrictions (e.g., Is the software freely available? Link to it or archive it alongside the data).</li> <li>	Transform files into open, non-proprietary file formats that broaden the potential audience for reuse and ensure that preservation actions might be taken by the repository in later steps. Retain original files if data transfer is not perfect.</li></ul>|<ul style="padding-left:5px;width:230px; display:block;"> &#9744;	Preferred file formats in use <ul> &#9744;	Recommend conversion from _________ 	to     _________ </ul> <ul> &#9744;	Retain original formats</ul>  &#9744;	Software needed is readily available <ul> &#9744;	Unclear version of software</ul> <ul> &#9744;	Unclear software used  </ul>   &#9744;	Visualization of data easily accessible <ul> &#9744;	Recommend graphical representation ____________ </ul><ul> &#9744;	Recommend web-accessible surrogate ________________</ul></ul>|
+| Transform file formats <ul><li>	Identify specialized file formats and their restrictions (e.g., Is the software freely available? Link to it or archive it alongside the data).</li> <li>	Transform files into open, non-proprietary file formats that broaden the potential audience for reuse and ensure that preservation actions might be taken by the repository in later steps. Retain original files if data transfer is not perfect.</li></ul>|<ul style="padding-left:5px;width:420px; display:block;"> &#9744;	Preferred file formats in use <ul> &#9744;	Recommend conversion from _________ 	to     _________ </ul> <ul> &#9744;	Retain original formats</ul>  &#9744;	Software needed is readily available <ul> &#9744;	Unclear version of software</ul> <ul> &#9744;	Unclear software used  </ul>   &#9744;	Visualization of data easily accessible <ul> &#9744;	Recommend graphical representation ____________ </ul><ul> &#9744;	Recommend web-accessible surrogate ________________</ul></ul>|
 
 <h4 style="font-family:Arial; font-size:20; margin:0px"> EVALUATE Step</h4>
 
 | CURATE Action |  Curator Checklist     |
 | :------------- | :------------- |
-| Evaluate and rate the overall data record for FAIRness.<sup>*</sup> <br> <ul><li>	Score the dataset and recommend ways to increase the FAIRness of the data and become "DCN approved." </li></ul>| <ul style="padding-left:5px;width:350px; display:block;"> Findable - <ul> &#9744; Metadata exceeds author/ title/ date, </ul> <ul> &#9744; Unique PID (DOI, Handle, PURL, etc.). </ul> <ul> &#9744;	Discoverable via web search engines.</ul>  Accessible - <ul> &#9744;Retrievable via a standard protocol (e.g., HTTP). </ul>	<ul> &#9744;Free, open (e.g., download link).</ul> Interoperable - <ul> &#9744;	Metadata formatted in a standard schema (e.g., Dublin Core).</ul><ul> &#9744; 	Metadata provided in machine-readable format (OAI feed).</ul> Reusable - <ul> &#9744;	Data include sufficient metadata about the data characteristics to reuse </ul> <ul> &#9744;	Contact info displayed if the direct assistance of the author needed. </ul>	<ul> &#9744;Clear indicators of who created, owns, and stewards the data. </ul> <ul> &#9744;	Data are released with clear data usage terms (e.g., a CC License).</ul>|
+| Evaluate and rate the overall data record for FAIRness.<sup>*</sup> <br> <ul><li>	Score the dataset and recommend ways to increase the FAIRness of the data and become "DCN approved." </li></ul>| <ul style="padding-left:5px;width:420px; display:block;"> Findable - <ul> &#9744; Metadata exceeds author/ title/ date, </ul> <ul> &#9744; Unique PID (DOI, Handle, PURL, etc.). </ul> <ul> &#9744;	Discoverable via web search engines.</ul>  Accessible - <ul> &#9744;Retrievable via a standard protocol (e.g., HTTP). </ul>	<ul> &#9744;Free, open (e.g., download link).</ul> Interoperable - <ul> &#9744;	Metadata formatted in a standard schema (e.g., Dublin Core).</ul><ul> &#9744; 	Metadata provided in machine-readable format (OAI feed).</ul> Reusable - <ul> &#9744;	Data include sufficient metadata about the data characteristics to reuse </ul> <ul> &#9744;	Contact info displayed if the direct assistance of the author needed. </ul>	<ul> &#9744;Clear indicators of who created, owns, and stewards the data. </ul> <ul> &#9744;	Data are released with clear data usage terms (e.g., a CC License).</ul>|
 
 <sup>*</sup>Rubric evaluating the FAIR principles are based on the scoring matrix by Dunning, de Smaele, & Böhmer (2017).
 
@@ -398,7 +398,7 @@ The Database Preservation Toolkit facilitates digital preservation of databases 
 
 | CURATE Action |  Curator Checklist     |
 | :------------- | :------------- |
-| Document throughout curation activities. <ul><li>	Record all necessary information capturing who did what to the dataset and when</li></ul>|<ul style="padding-left:20px;width:330px; display:block;"> &#9744;	Accessioning & deposit records (Names, dates, contact information, submission agreements, etc)<br> &#9744;	Repository collection metadata <br> &#9744;	Provenance logs <br> &#9744;	Service workflow <br> &#9744;	Preservation packaging <br> &#9744;	Any additional  requirements at your institution</ul>|
+| Document throughout curation activities. <ul><li>	Record all necessary information capturing who did what to the dataset and when</li></ul>|<ul style="padding-left:20px;width:420px; display:block;"> &#9744;	Accessioning & deposit records (Names, dates, contact information, submission agreements, etc)<br> &#9744;	Repository collection metadata <br> &#9744;	Provenance logs <br> &#9744;	Service workflow <br> &#9744;	Preservation packaging <br> &#9744;	Any additional  requirements at your institution</ul>|
 
 </body>
 </html>
