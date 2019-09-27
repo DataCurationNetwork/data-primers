@@ -1,4 +1,4 @@
-#### Contributing to Data Curation Primers
+### Contributing to Data Curation Primers
 _________
 When contributing to this repository, please first discuss the change you wish to make by creating an issue, email, or other communications with the owners of this repository before making a change.
 Please follow our code of conduct in all your interactions with the project.
@@ -50,10 +50,10 @@ This Code of Conduct is adapted from The Contributor Covenant, version 1.4, avai
 The contribution template and pull requests process is adapted from The Atom contribution guidelines, available at https://github.com/atom/atom/blob/master/CONTRIBUTING.md
 
 
-### Contribution template for each primer starts below line
+## Contribution template for each primer starts below line
 -----
 
-#### Requirements for Contributing Documentation
+### Requirements for Contributing Documentation
 
 * Fill out the template below. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion.
 
@@ -75,7 +75,7 @@ Please describe the changes in a single line that explains this fixation or impr
 
 
 
-### Readme.md template for each primer starts below line
+## Readme.md template for each primer starts below line
 ---
 #### License:
 
