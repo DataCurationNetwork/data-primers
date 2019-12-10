@@ -262,15 +262,15 @@ However, GeoJSON is just one of several commonly used geospatial file types. In 
 
 Because some of these other file formats run the risk of becoming obsolete over time or are proprietary, it is recommended to keep both the original GeoJSON file and the conversion files such as shapefile and GeoPackage (descriptions below), and document all of this in an accompanying README file.
 
-## Shapefile
+### Shapefile
 
 Shapefiles are a proprietary geospatial format created by Esri. While proprietary, it is one of the most widely used file formats for vector spatial data. It is well established and considered a de facto standard in many cases. It can be read by popular GIS desktop software, such as Esri’s ArcGIS Pro and ArcMap, as well as the open source GIS desktop software QGIS. However, its file size is restricted to 2 GB, it is proprietary, and it is a multi-file format that is difficult to read and share without using the proper software and precautions. Shapefiles also have a limited number of columns they can hold. It is recommended that a shapefile version be saved along with the original GeoJSON file.
 
-## GeoPackage
+### GeoPackage
 
 The [GeoPackage](https://web.archive.org/web/20191024131431/http://www.geopackage.org/) is a relatively young file format that is becoming increasingly popular and adopted, particularly among the open source community. Its encoding standard was adopted by the OGC in 2014. It is an open, non-proprietary, platform-independent, and standards-based data format for geographic information systems implemented as a SQLite database container. It is now the default vector spatial file format in QGIS, replacing the shapefile as of QGIS version 3. Because it is platform-independent, it is broadly implemented and can be used in GIS desktop software such as ArcGIS and QGIS, but also with programming languages such as R and Python. It is also lightweight and fast. It is recommended that a GeoPackage version be saved along with the original GeoJSON file.
 
-## Conversion Tools
+### Conversion Tools
 
 While there are a number of conversion tools available to transform a GeoJSON file to another format, it is recommended to use QGIS because of its ability to convert to both data formats listed above. A walkthrough for converting GeoJSON to a shapefile in QGIS is provided below. Note: an additional explanation of saving a layer as a shapefile is provided in the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#geospatial-metadata-standards).
 
@@ -295,3 +295,47 @@ ArcGIS Pro and ArcGIS Desktop (also known as ArcMap) are part of Esri’s suite 
 
 - EsriJSON supports any coordinate reference system and preserves other Esri-proprietary file format structures, like the GlobalID in geodatabases. The file name also ends with ‘.json’, as opposed to ‘.geojson’.
 
+------------------------------
+<figure> <img src="IMG_16_geojson_primer.png" alt="ArcGIS Pro interface for exporting to JSON/GeoJSON" style="">Fig. 12 Leaving “Output to GeoJSON” unchecked in ArcGIS Pro will result in the creation of an EsriJSON file. <figcaption></figcaption> </figure>
+
+------------------------------
+<figure> <img src="IMG_17_geojson_primer.png" alt="EsriJSON syntax in notepad++" style=""> <figcaption>Fig. 13 Example of EsriJSON syntax.</figcaption> </figure>
+
+------------------------------
+When validating a file, online validation platforms like GeoJSONlint will throw an error if an EsriJSON file is pasted in. The file should also be examined in QGIS. To see if a file is an EsriJSON file as opposed to a GeoJSON file, check the layer properties in QGIS; the CRS could be something other than EPSG:4326 - WGS84, and the storage type will be “EsriJSON”.
+
+------------------------------
+<figure> <img src="IMG_18_geojson_primer.png" alt="Layer properties in QGIS for EsriJSON file" style=""> <figcaption>Fig. 14 In Layer Properties, the storage type is set to “ESRIJSON”, and for this particular file, the CRS is EPSG:2249, a CRS not supported by GeoJSON.</figcaption> </figure>
+
+------------------------------
+While similar to GeoJSON, EsriJSON is a proprietary format developed and managed by Esri. If an EsriJSON file is submitted for curation, the data owner should be contacted and asked to provide the original dataset in another file format if possible.
+
+------------------------------
+### Additional options for converting GeoJSON
+
+- [Mapshaper](https://web.archive.org/web/20191029171147/https://mapshaper.org/)is a free software for editing shapefile, GeoJSON, TopoJSON, CSV and other data formats. It can be used to convert easily from one file format to another, and can be operated from the command line, but also through a web user interface. Instructions on converting a GeoJSON file to shapefile is [documented by StatSilk](https://web.archive.org/web/20191024131646/https://www.statsilk.com/maps/convert-geojson-esri-shapefile-map-format).
+
+- The [ogr2ogr](https://web.archive.org/web/20191024131558/https://gdal.org/programs/ogr2ogr.html) package is part of the Geospatial Data Abstraction Library and provides a way to convert data between common geospatial file formats, including GeoJSON, shapefiles, and GeoPackages. It can be downloaded as part of the [FW Tools Toolkit](https://web.archive.org/web/20190711172245/http://fwtools.maptools.org/), and is usually run from the command line with the following syntax: ogr2ogr -f "file_format" destination_data source_data
+
+## Checking Transformations
+
+After converting a GeoJSON dataset to both shapefile and GeoPackage format, confirm that both transformations were completed successfully using QGIS. These new data formats can be opened following the steps outlined in the earlier section ​Software for Opening and Viewing GeoJSON Files​. Verify that the newly created shapefile and GeoPackage can be opened successfully. Compare the number of features in the original dataset with the new version to ensure that no data was lost in the process of file transformation.
+
+--------------------------------
+<figure> <img src="IMG_19_geojson_primer.png" alt="Layer properties in QGIS showing feature count and fields information" style=""> <figcaption>Fig. 15 In layer properties, the Information tab provides details on the feature count and fields. Inspect the feature count and the fields in the original dataset and in the newly converted datasets and confirm that they are the same.</figcaption> </figure>
+
+--------------------------------
+## Creating Metadata using ArcCatalog
+
+One option for creating metadata for geospatial files involves using ArcCatalog, which is part of the Esri ArcGIS for Desktop suite. The program, however, does not recognize or allow previewing GeoJSON files. As a result, it is necessary to first convert a GeoJSON file to a shapefile using the steps above. The shapefile is then opened in ArcCatalog, which allows for the creation of a separate metadata XML file that can be stored alongside the original GeoJSON file.
+
+
+In ArcCatalog, the metadata style can be set by going to “ArcCatalog Options”, and clicking on the “Metadata” tab as demonstrated below. More information on the metadata styles and standards supported in ArcCatalog can be found on [Esri's metadata styles and standards documentation page](http://web.archive.org/web/20191026034158/http://desktop.arcgis.com/en/arcmap/latest/manage-data/metadata/metadata-standards-and-styles.htm).
+
+---------------------------------
+<figure> <img src="IMG_20_geojson_primer.png" alt="Changing metadata style in ArcCatalog" style=""> <figcaption>Fig. 16 Metadata styles can be set through the ArcCatalog Options pane.</figcaption> </figure>
+
+---------------------------------
+After selecting a metadata style, establish a connection to the folder where the converted shapefile is located. To view the metadata for a specific file, click on the description tab. To edit the metadata, click “Edit”. This will display the metadata for the file, using the metadata style selected. Items that are required will be identified with a red ‘x’ in the left-hand navigator, and across the top for each section.
+
+---------------------------------
