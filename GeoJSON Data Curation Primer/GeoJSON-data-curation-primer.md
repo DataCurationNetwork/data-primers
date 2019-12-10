@@ -157,10 +157,10 @@ While there are many web-based and desktop software options for viewing GeoJSON,
 <figure> <img src="IMG_6_geojson_primer.png" alt="Adding vector layer to QGIS" style=""> <figcaption>Fig. 2 After creating a new project, add the GeoJSON as a new layer. This can be done by going to “Layer” in the QGIS toolbar and selecting “Add Vector Layer...”</figcaption> </figure>
 
 ----------------
-<figure> <img src="IMG_7_geojson_primer.png" alt="Locating file to load in QGIS" style="> <figcaption>Fig. 3 Select the ellipsis [...] box and then select the GeoJSON you would like to view.</figcaption> </figure>
+<figure> <img src="IMG_7_geojson_primer.png" alt="Locating file to load in QGIS" style=""> <figcaption>Fig. 3 Select the ellipsis [...] box and then select the GeoJSON you would like to view.</figcaption> </figure>
 
 ----------------
-<figure> <img src="IMG_8_geojson_primer.png" alt="QGIS interface with layer added"> <figcaption>Fig. 4 The GeoJSON has been loaded as a layer and is now shown in the “Layers” sidebar located on the bottom left.</figcaption> </figure>
+<figure> <img src="IMG_8_geojson_primer.png" alt="QGIS interface with layer added" style=""> <figcaption>Fig. 4 The GeoJSON has been loaded as a layer and is now shown in the “Layers” sidebar located on the bottom left.</figcaption> </figure>
 
 ----------------
 <figure> <img src="IMG_9_geojson_primer.png" alt="Basemap added to map in QGIS" style=""> <figcaption>Fig. 5 A basemap can be added so that the layer is given context. To add a basemap in QGIS, go to “Plugins”, then “Manage and Install Plugins.” In the search box enter “QuickMapServices”. After adding this plugin, a global icon with a plus sign will be available on the toolbar. Use this to add one of the several basemaps available from QMS. [Alternatively, you can add the plugin “OpenLayers”. After adding this plugin, an OpenStreetMap basemap will be a nested option under XYZ Tiles located in the “Browser” sidebar to the left.]</figcaption> </figure>
