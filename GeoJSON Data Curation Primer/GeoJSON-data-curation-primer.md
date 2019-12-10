@@ -16,7 +16,7 @@
 | Key questions for curation review | <ul><li> Are coordinates listed in the following format:[longitude, latitude, elevation]</li><li> Can the file be opened in a text editor and viewed in QGIS</li><li> Does the file pass validation</li><li>Is there associated metadata/README.md files |
 | Tools for curation review | QGIS; [geojsonlint.com](geojsonlint.com); [geojson.io](http://geojson.io/#map=2/20.0/0.0); ArcCatalog |
 | Date Created | July 2019 |
-| Created by | Nadia Dixson (City Archivist for the City of Somerville), Genevieve Milliken (NYU, Digital Library Technology Services), Keshav Mukunda (SFU Library, Data Services), Reina Murray (Johns Hopkins University, Sheridan Libraries). |
+| Created by | Nadia Dixson (City Archivist for the City of Somerville), Genevieve Milliken (NYU, Digital Library Technology Services), Keshav Mukunda (SFU Library, Data Services), Reina Murray (Johns Hopkins University, Sheridan Libraries), Rachel Starry (University at Buffalo, University Libraries). |
 | Date updated and summary of changes made | |
 
 **Suggested Citation:** Dixson, Nadia; Milliken, Genevieve; Mukunda, Keshav; Murray, Reina; Starry, Rachel. (2019). GeoJSON Data Curation Primer. Data Curation Network GitHub Repository. [REPO-LINK]
