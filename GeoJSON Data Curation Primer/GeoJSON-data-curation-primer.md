@@ -200,14 +200,24 @@ Validating GeoJSON can be conducted on a few web-based validation services. One 
 
 ## GeoJSON Metadata Standards
 
-Currently, there is no metadata standard for GeoJSON.1 As there is no particular standard, it is recommended that the curator select a metadata standard that best fits the repository’s needs and/or policies. Metadata should be stored in a separate XML metadata file, rather than in the GeoJSON file itself. Finally, a README file should be prepared for each GeoJSON file. Descriptions of the most common geospatial metadata standards are available in the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#geospatial-metadata-standards).
+Currently, there is no metadata standard for GeoJSON. <sup>1</sup> As there is no particular standard, it is recommended that the curator select a metadata standard that best fits the repository’s needs and/or policies. Metadata should be stored in a separate XML metadata file, rather than in the GeoJSON file itself. Finally, a README file should be prepared for each GeoJSON file. Descriptions of the most common geospatial metadata standards are available in the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#geospatial-metadata-standards).
 
 If a separate XML metadata file exists, it can be viewed using a text editor. If a separate metadata file does not exist and it is unclear what, if any, metadata is in the GeoJSON file itself, QGIS can be used to view a GeoJSON’s metadata.
+
+<p  id="note1"><sup>1</sup> Gillies, S. (2016, August 17). Re: [Geojson] metadata in GeoJSONgeojson. Retrieved from https://mailarchive.ietf.org/arch/browse/geojson/?q=metadata </p>
 
 ### Viewing Metadata in QGIS
 
 After a GeoJSON layer is added to a project in QGIS, metadata can be viewed using the properties menu.
 
-![]()
+<figure> <img src="IMG_11_geojson_primer.png" alt="Checking properties on layer in QGIS" style=""> <figcaption>Fig. 7 In QGIS, right-click on the layer and select “Properties”.</figcaption> </figure>
 
-------------
+--------------------------
+<figure> <img src="IMG_12_geojson_primer.png" alt="Metadata pane in Layer Properties in QGIS" style=""> <figcaption>Fig. 8 The properties menu includes a metadata tab, in addition to tabs providing general information, Coordinate Reference System (CRS) and source fields.</figcaption> </figure>
+
+In QGIS, the completeness of the metadata can be assessed by examining the information in the metadata tab. However, it is important to note that QGIS currently does not offer ways to view metadata using geospatial metadata standards such as ISO 191xx. Additionally, edits made to the metadata will not be preserved when converting the file to another format. The section *Preservation Strategy and Recommendations for Transformations* below gives details on metadata creation and augmentation.
+
+### What to Include in a README File
+
+A README file provides information about a data file and ensures that data can be correctly interpreted by others. They are normally written as text files or as markdown. Below is a list of the recommended minimum content need to describe a data file. For more information about README files, please see the Cornell “[Guide to writing "readme" style metadata](http://web.archive.org/web/20191029170357/https://data.research.cornell.edu/content/readme).”
+
