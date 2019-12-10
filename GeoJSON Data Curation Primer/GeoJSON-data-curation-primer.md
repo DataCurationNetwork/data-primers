@@ -90,15 +90,15 @@ Every GeoJSON object contains a member named “type”, which must be one of th
 
 - **Point:** For type "Point", the coordinates member is a single position. For example, a position with longitude -122.918958, latitude 49.279778, and elevation 340 in WGS84 is specified as:
 
-![](IMG_1_geojson_primer.png)
+<figure> <img src="IMG_1_geojson_primer.png" alt="GeoJSON syntax displaying a single point as an ordered array of longitude, latitude, and elevation." style=""> <figcaption></figcaption> </figure>
 
 - **Linestring:** For type "LineString", the coordinates member is an array of two or more positions. This geometry consists of connected line segments:
 
-![](IMG_2_geojson_primer.png)
+<figure> <img src="IMG_2_geojson_primer.png" alt="GeoJSON syntax displaying a LineString comprised of three points. Points are expressed as ordered triples of longitude, latitude, and (optional) elevation." style=""> <figcaption></figcaption> </figure>
 
 - **Polygon:** For type "Polygon", the coordinates member must be an array of one or more linear ring coordinate arrays, where each array has at least four points and the first and last points must be the same. These linear rings define boundaries of the Polygon. For Polygons with more than one of these linear rings, the first must be the exterior ring, and any others must be interior rings. The exterior ring is the boundary of the polygon, and the interior rings (if present) are the boundaries of holes within the polygon. Here is an example of a four-sided polygon with one triangular hole inside it:
 
-![](IMG_3_geojson_primer.png)
+<figure> <img src="IMG_3_geojson_primer.png" alt="GeoJSON syntax representing a four-sided polygon with one triangle hole inside it." style=""> <figcaption></figcaption> </figure>
 
 - **MultiPoint:** For type "MultiPoint", the coordinates member is an array of positions. This geometry specifies a collection of points.
 
@@ -108,7 +108,7 @@ Every GeoJSON object contains a member named “type”, which must be one of th
 
 - **GeometryCollection:** A GeoJSON object with type "GeometryCollection" is a heterogeneous collection of point, line, and polygon geometries grouped together. A GeometryCollection has a member with the name "geometries". The value of "geometries" is an array. Each element of this array is a GeoJSON Geometry object with its own coordinates. Here is an example of a GeometryCollection that contains a MultiPoint and a Polygon:
 
-![](IMG_4_geojson_primer.png)
+<figure> <img src="IMG_4_geojson_primer.png" alt="GeoJSON syntax for a Geometry Collection. The collection is comprised of a single multipoint and a polygon." style=""> <figcaption></figcaption> </figure>
 
 The last two types specified in GeoJSON describe ​Features​, which are a combination of simple geometry and their descriptive properties.
 
@@ -151,15 +151,19 @@ Key questions to ask:
 
 While there are many web-based and desktop software options for viewing GeoJSON, the free and open-source software [QGIS](https://qgis.org/en/site/) is recommended. QGIS supports MacOS, Windows, and Linux, allows for numerous vector, raster, and database formats, and has a robust user community. Below is a walkthrough for loading and viewing GeoJSON in QGIS 3.8. Supplemental instructions on opening data in QGIS can be found in the [QGIS User Guide](https://web.archive.org/web/20191024130221/https://docs.qgis.org/testing/en/docs/user_manual/managing_data_source/opening_data.html?highlight=geojson). This walkthrough uses the [Habitat Blocks and Wildlife Corridors](https://web.archive.org/web/20191030124350/https://catalog.data.gov/dataset/habitat-blocks-and-wildlife-corridors) in Vermont dataset.
 
-![]()
+<figure> <img src="IMG_5_geojson_primer.png" alt="QGIS interface" style=""> <figcaption>Fig. 1 Begin by going to “Project” in the QGIS toolbar and selecting “New” from the dropdown menu. </figcaption> </figure>
 
-![]()
+----------------
+<figure> <img src="IMG_6_geojson_primer.png" alt="Adding vector layer to QGIS" style=""> <figcaption>Fig. 2 After creating a new project, add the GeoJSON as a new layer. This can be done by going to “Layer” in the QGIS toolbar and selecting “Add Vector Layer...”</figcaption> </figure>
 
-![]()
+----------------
+<figure> <img src="IMG_7_geojson_primer.png" alt="Locating file to load in QGIS" style="> <figcaption>Fig. 3 Select the ellipsis [...] box and then select the GeoJSON you would like to view.</figcaption> </figure>
 
-![]()
+----------------
+<figure> <img src="IMG_8_geojson_primer.png" alt="QGIS interface with layer added"> <figcaption>Fig. 4 The GeoJSON has been loaded as a layer and is now shown in the “Layers” sidebar located on the bottom left.</figcaption> </figure>
 
-![]()
+----------------
+<figure> <img src="IMG_9_geojson_primer.png" alt="Basemap added to map in QGIS" style=""> <figcaption>Fig. 5 A basemap can be added so that the layer is given context. To add a basemap in QGIS, go to “Plugins”, then “Manage and Install Plugins.” In the search box enter “QuickMapServices”. After adding this plugin, a global icon with a plus sign will be available on the toolbar. Use this to add one of the several basemaps available from QMS. [Alternatively, you can add the plugin “OpenLayers”. After adding this plugin, an OpenStreetMap basemap will be a nested option under XYZ Tiles located in the “Browser” sidebar to the left.]</figcaption> </figure>
 
 While QGIS is the preferred software for viewing geospatial data, other software and platforms exist. Some options include, but are not limited to, the following. Please note that some options may be subscription-based:
 
@@ -181,5 +185,5 @@ Key questions to ask:
 
 Validating GeoJSON can be conducted on a few web-based validation services. One of the recommended web-based services is [GeoJSONLint](http://geojsonlint.com). Linting is the process of running a program that analyses code for potential syntax errors. To validate using GeoJSOLint, GeoJSON files can be copied and pasted or dropped into the provided text box. Examples of the nine GeoJSON types are also available via the dropdown headers in GeoJSONLint, all which can be used as additional reference examples. Please note that GeoJSONLint closely follows the most recent syntax and returns error codes identifying where problems occur. These errors may be minor and files could operate normally even with these errors. Viewing the file in [QGIS](https://qgis.org/en/site/) and/or [geojson.io](http://geojson.io/#map=2/20.0/0.0) in addition to linting is advisable and recommended.
 
-![]()
+<figure> <img src="IMG_10_geojson_primer.png" alt="GeoJSONLint web application" style=""> <figcaption>Fig. 6 Web Interface for validating GeoJSON of New York City Bike Lanes with GeoJSONLint</figcaption> </figure>
 
