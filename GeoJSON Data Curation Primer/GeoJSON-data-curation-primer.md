@@ -215,6 +215,7 @@ After a GeoJSON layer is added to a project in QGIS, metadata can be viewed usin
 --------------------------
 <figure> <img src="IMG_12_geojson_primer.png" alt="Metadata pane in Layer Properties in QGIS" style=""> <figcaption>Fig. 8 The properties menu includes a metadata tab, in addition to tabs providing general information, Coordinate Reference System (CRS) and source fields.</figcaption> </figure>
 
+--------------------------
 In QGIS, the completeness of the metadata can be assessed by examining the information in the metadata tab. However, it is important to note that QGIS currently does not offer ways to view metadata using geospatial metadata standards such as ISO 191xx. Additionally, edits made to the metadata will not be preserved when converting the file to another format. The section *Preservation Strategy and Recommendations for Transformations* below gives details on metadata creation and augmentation.
 
 ### What to Include in a README File
