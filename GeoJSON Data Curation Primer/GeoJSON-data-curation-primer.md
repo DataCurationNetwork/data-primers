@@ -339,3 +339,25 @@ In ArcCatalog, the metadata style can be set by going to “ArcCatalog Options�
 After selecting a metadata style, establish a connection to the folder where the converted shapefile is located. To view the metadata for a specific file, click on the description tab. To edit the metadata, click “Edit”. This will display the metadata for the file, using the metadata style selected. Items that are required will be identified with a red ‘x’ in the left-hand navigator, and across the top for each section.
 
 ---------------------------------
+<figure> <img src="IMG_21_geojson_primer.png" alt="Missing metadata in ArcCatalog" style=""> <figcaption>Fig. 17 Metadata for a dataset can be edited through the Description tab. Required items will be marked by the software.</figcaption> </figure>
+
+---------------------------------
+After editing/augmenting a file’s metadata, hit “Save”. Then, hit the “Export” button to export the metadata as a separate XML file. Saving the metadata as a separate XML file allows it to be associated with the original GeoJSON as well as the other created spatial formats: the shapefile and the GeoPackage.
+
+---------------------------------
+<figure> <img src="IMG_22_geojson_primer.png" alt="Export option in ArcCatalog" style=""> <figcaption>Fig. 18 Use the Export tab to create a separate metadata file in XML format..</figcaption> </figure>
+
+---------------------------------
+## Creating Metadata using mdEditor
+
+If an XML metadata file already exists for the GeoJSON file in question, or ArcCatalog is not available to use, [mdEditor](http://web.archive.org/web/20191029171635/https://www.mdeditor.org/) may be a viable option. An open source web application, mdEditor is designed for both the creation and editing of metadata, and accommodates geospatial metadata standards such as ISO 191XX and CSDGM. However, as of October 2019, it is only available in beta.
+
+# Evaluating GeoJSON Files for FAIRness
+
+### What are the FAIR principles?
+
+“In 2016, the ‘[FAIR Guiding Principles for scientific data management and stewardship](https://web.archive.org/web/20191024131752/https://www.nature.com/articles/sdata201618)’ were published in Scientific Data. The authors intended to provide guidelines to improve the findability, accessibility, interoperability, and reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with no or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.” (Source: [Go-Fair.org](https://web.archive.org/web/20191024131826/https://www.go-fair.org/fair-principles/))
+
+### FAIR GeoJSON: Components Evaluated
+
+To meet the standards for (meta)data documentation required by the [FAIR principles](https://web.archive.org/web/20191024131826/https://www.go-fair.org/fair-principles/), multiple entities must be evaluated for FAIRness: (1) the data stored in GeoJSON format, (2) the GeoJSON data’s associated metadata, and (3) the repository infrastructure in which the data is deposited. The following table indicates which entities (data, metadata, and/or infrastructure) must be evaluated to meet the standards for each FAIR principle.
