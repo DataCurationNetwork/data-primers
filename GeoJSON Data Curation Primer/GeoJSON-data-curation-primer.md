@@ -188,6 +188,7 @@ Validating GeoJSON can be conducted on a few web-based validation services. One 
 
 <figure> <img src="IMG_10_geojson_primer.png" alt="GeoJSONLint web application" style=""> <figcaption>Fig. 6 Web Interface for validating GeoJSON of New York City Bike Lanes with GeoJSONLint</figcaption> </figure>
 
+------------------------------
 # GeoJSON Metadata Standards and README Requirements
 
 *Key Questions to Ask:*
@@ -221,4 +222,76 @@ In QGIS, the completeness of the metadata can be assessed by examining the infor
 ### What to Include in a README File
 
 A README file provides information about a data file and ensures that data can be correctly interpreted by others. They are normally written as text files or as markdown. Below is a list of the recommended minimum content need to describe a data file. For more information about README files, please see the Cornell “[Guide to writing "readme" style metadata](http://web.archive.org/web/20191029170357/https://data.research.cornell.edu/content/readme).”
+
+General Information:
+
+- Title of GeoJSON file
+
+- Name/institution/address/email information of author or PI
+
+- Date of data collection (can be a single date, or a range)
+
+- Information about geographic location of data collection
+
+Data and File Overview:
+
+- a short description of what data it contains
+
+- Date that the file was created
+
+- What other datasets or data sources (if any) were combined to create this GeoJSON file? How are they
+referenced?
+
+Sharing and Access Information:
+
+- Licenses or restrictions placed on the data
+
+Methodological Information:
+
+- Description of methods used for data processing (describe how the data were generated from the raw or collected data)
+
+- Any software or instrument-specific information needed to understand or interpret the data, including software and hardware version numbers.
+
+- If data pertains to human subjects or endangered species or is otherwise sensitive, have data been sufficiently anonymized?
+
+# Preservation Strategy and Recommendations for Transformations
+
+While GeoJSON is a relatively young file type, it is widely used and has become one of the most common formats for spatial vector data, particularly for web-based projects. It is an approved international standard and is well documented. Finally, because GeoJSON is written in plaintext, it is well suited for preservation.
+
+However, GeoJSON is just one of several commonly used geospatial file types. In a survey released in July 2019 for this primer, 100% of respondents stated that they regularly create or use shapefile data. While GeoJSON is an excellent format for preservation, only 11.1% responded that they always reuse data in GeoJSON format. The majority do not—55.6% responding sometimes, 27.8% responding rarely, and 5.5% responding never. It is therefore recommended to convert GeoJSON files into other file formats to ensure broad data access.
+
+Because some of these other file formats run the risk of becoming obsolete over time or are proprietary, it is recommended to keep both the original GeoJSON file and the conversion files such as shapefile and GeoPackage (descriptions below), and document all of this in an accompanying README file.
+
+## Shapefile
+
+Shapefiles are a proprietary geospatial format created by Esri. While proprietary, it is one of the most widely used file formats for vector spatial data. It is well established and considered a de facto standard in many cases. It can be read by popular GIS desktop software, such as Esri’s ArcGIS Pro and ArcMap, as well as the open source GIS desktop software QGIS. However, its file size is restricted to 2 GB, it is proprietary, and it is a multi-file format that is difficult to read and share without using the proper software and precautions. Shapefiles also have a limited number of columns they can hold. It is recommended that a shapefile version be saved along with the original GeoJSON file.
+
+## GeoPackage
+
+The [GeoPackage](https://web.archive.org/web/20191024131431/http://www.geopackage.org/) is a relatively young file format that is becoming increasingly popular and adopted, particularly among the open source community. Its encoding standard was adopted by the OGC in 2014. It is an open, non-proprietary, platform-independent, and standards-based data format for geographic information systems implemented as a SQLite database container. It is now the default vector spatial file format in QGIS, replacing the shapefile as of QGIS version 3. Because it is platform-independent, it is broadly implemented and can be used in GIS desktop software such as ArcGIS and QGIS, but also with programming languages such as R and Python. It is also lightweight and fast. It is recommended that a GeoPackage version be saved along with the original GeoJSON file.
+
+## Conversion Tools
+
+While there are a number of conversion tools available to transform a GeoJSON file to another format, it is recommended to use QGIS because of its ability to convert to both data formats listed above. A walkthrough for converting GeoJSON to a shapefile in QGIS is provided below. Note: an additional explanation of saving a layer as a shapefile is provided in the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#geospatial-metadata-standards).
+
+----------------------------
+<figure> <img src="IMG_13_geojson_primer.png" alt="Export option in QGIS" style=""> <figcaption>Fig. 9 Right-click on layer and select “Export” and “Save Features As...”.</figcaption> </figure>
+
+-----------------------------
+<figure> <img src="IMG_14_geojson_primer.png" alt="Entering parameters to save vector layer" style=""> <figcaption>Fig. 10 Change format to “Esri Shapefile” or “GeoPackage”. Click on “...” and navigate to a folder to save the file. Enter a file name in the new window prompt. Click OK.</figcaption> </figure>
+
+------------------------------
+<figure> <img src="IMG_15_geojson_primer.png" alt="Entering file name for new vector layer in QGIS" style=""> <figcaption>Fig. 11 Notice that the file name includes the full path. The full path is required to avoid generating an error. Leave encoding as UTF-8. Leave CRS as EPSG:4326 - WGS84. Do not resize the data. Click OK to finish conversion. </figcaption> </figure>
+
+------------------------------
+While QGIS is recommended for transforming file formats, other software and platform options exist:
+
+- ArcGIS Pro and ArcGIS Desktop: [JSON to Features conversion tool](http://web.archive.org/web/20191029170611/https://pro.arcgis.com/en/pro-app/tool-reference/conversion/json-to-features.htm)
+ArcGIS Pro and ArcGIS Desktop (also known as ArcMap) are part of Esri’s suite of geospatial desktop software. Both offer a geoprocessing tool, JSON to Features, which can convert JSON and GeoJSON files to feature layers.
+
+- Note on Esri’s [Features to JSON conversion tool](http://web.archive.org/web/20191029170647/https://pro.arcgis.com/en/pro-app/tool-reference/conversion/features-to-json.htm): Esri also provides a geoprocessing tool, Features to JSON, which converts spatial data to JSON or GeoJSON format. It is important to note that Esri’s proprietary version of a GeoJSON, known as EsriJSON, is created if the “Output to GeoJSON” parameter is not checked.
+
+- While similar to a GeoJSON file, an EsriJSON has its own categories for certain syntax, such as “esriGeometryType” for geometryType and “esriFieldTypeOID” for type. The full list of field types can be found on Esri’s documentation for [ArcGIS REST API services](https://web.archive.org/web/20191029170736/https://developers.arcgis.com/rest/services-reference/layer-feature-service-.htm).
+
+- EsriJSON supports any coordinate reference system and preserves other Esri-proprietary file format structures, like the GlobalID in geodatabases. The file name also ends with ‘.json’, as opposed to ‘.geojson’.
 
