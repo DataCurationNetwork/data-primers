@@ -165,6 +165,7 @@ While there are many web-based and desktop software options for viewing GeoJSON,
 ----------------
 <figure> <img src="IMG_9_geojson_primer.png" alt="Basemap added to map in QGIS" style=""> <figcaption>Fig. 5 A basemap can be added so that the layer is given context. To add a basemap in QGIS, go to “Plugins”, then “Manage and Install Plugins.” In the search box enter “QuickMapServices”. After adding this plugin, a global icon with a plus sign will be available on the toolbar. Use this to add one of the several basemaps available from QMS. [Alternatively, you can add the plugin “OpenLayers”. After adding this plugin, an OpenStreetMap basemap will be a nested option under XYZ Tiles located in the “Browser” sidebar to the left.]</figcaption> </figure>
 
+----------------
 While QGIS is the preferred software for viewing geospatial data, other software and platforms exist. Some options include, but are not limited to, the following. Please note that some options may be subscription-based:
 
 - [geojson.io](http://geojson.io/#map=2/20.0/0.0) (free, browser-based; useful for validating small .geojson files)
@@ -187,3 +188,26 @@ Validating GeoJSON can be conducted on a few web-based validation services. One 
 
 <figure> <img src="IMG_10_geojson_primer.png" alt="GeoJSONLint web application" style=""> <figcaption>Fig. 6 Web Interface for validating GeoJSON of New York City Bike Lanes with GeoJSONLint</figcaption> </figure>
 
+# GeoJSON Metadata Standards and README Requirements
+
+*Key Questions to Ask:*
+
+- Is there a separate metadata file? If yes, is it complete? If not, is there metadata stored in the GeoJSON file?
+
+- Is the GeoJSON filename adequately descriptive?
+
+- Are the recommended minimum requirements for README files met?
+
+## GeoJSON Metadata Standards
+
+Currently, there is no metadata standard for GeoJSON.1 As there is no particular standard, it is recommended that the curator select a metadata standard that best fits the repository’s needs and/or policies. Metadata should be stored in a separate XML metadata file, rather than in the GeoJSON file itself. Finally, a README file should be prepared for each GeoJSON file. Descriptions of the most common geospatial metadata standards are available in the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#geospatial-metadata-standards).
+
+If a separate XML metadata file exists, it can be viewed using a text editor. If a separate metadata file does not exist and it is unclear what, if any, metadata is in the GeoJSON file itself, QGIS can be used to view a GeoJSON’s metadata.
+
+### Viewing Metadata in QGIS
+
+After a GeoJSON layer is added to a project in QGIS, metadata can be viewed using the properties menu.
+
+![]()
+
+------------
