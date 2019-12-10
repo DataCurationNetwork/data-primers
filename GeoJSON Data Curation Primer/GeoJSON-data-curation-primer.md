@@ -90,15 +90,15 @@ Every GeoJSON object contains a member named “type”, which must be one of th
 
 - **Point:** For type "Point", the coordinates member is a single position. For example, a position with longitude -122.918958, latitude 49.279778, and elevation 340 in WGS84 is specified as:
 
-![]()
+![](IMG_1_geojson_primer.png)
 
 - **Linestring:** For type "LineString", the coordinates member is an array of two or more positions. This geometry consists of connected line segments:
 
-![]()
+![](IMG_2_geojson_primer.png)
 
 - **Polygon:** For type "Polygon", the coordinates member must be an array of one or more linear ring coordinate arrays, where each array has at least four points and the first and last points must be the same. These linear rings define boundaries of the Polygon. For Polygons with more than one of these linear rings, the first must be the exterior ring, and any others must be interior rings. The exterior ring is the boundary of the polygon, and the interior rings (if present) are the boundaries of holes within the polygon. Here is an example of a four-sided polygon with one triangular hole inside it:
 
-![]()
+![](IMG_3_geojson_primer.png)
 
 - **MultiPoint:** For type "MultiPoint", the coordinates member is an array of positions. This geometry specifies a collection of points.
 
@@ -108,7 +108,7 @@ Every GeoJSON object contains a member named “type”, which must be one of th
 
 - **GeometryCollection:** A GeoJSON object with type "GeometryCollection" is a heterogeneous collection of point, line, and polygon geometries grouped together. A GeometryCollection has a member with the name "geometries". The value of "geometries" is an array. Each element of this array is a GeoJSON Geometry object with its own coordinates. Here is an example of a GeometryCollection that contains a MultiPoint and a Polygon:
 
-![]()
+![](IMG_4_geojson_primer.png)
 
 The last two types specified in GeoJSON describe ​Features​, which are a combination of simple geometry and their descriptive properties.
 
