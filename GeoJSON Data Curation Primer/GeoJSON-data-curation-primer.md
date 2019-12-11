@@ -413,3 +413,177 @@ The following questions can assist researchers in evaluating the FAIRness of the
 
 This curation workflow is meant to serve as an example, demonstrating the recommendations made within this primer. It follows the Data Curation Network’s recommended [CURATED](https://web.archive.org/web/20191101143957/https://datacurationnetwork.org/resources/) steps:
 
+- C - check files and read documentation
+- U - understand (or try to) the data
+- R - request missing information
+- A - augment metadata
+- T - transform file formats for reuse
+- E - evaluate for fairness
+- D - document all curation activities
+
+Dataset: SomervilleParcels
+
+Description of dataset: This dataset was provided by the City of Somerville, MA for this data curation primer and represents the City of Somerville, MA’s parcels.
+
+File size: 10.4 MB
+
+### C - check files and read documentation
+
+1. Does the file open as expected?
+
+Yes. The file was opened using notepad++, a text editor.
+
+--------------------------------------
+
+<figure> <img src="IMG_23_geojson_primer.png" alt="GeoJSON file in notepad++" style=""> <figcaption>Fig. 19 SomervilleParcels GeoJSON file opened in notepad++.</figcaption> </figure>
+
+--------------------------------------
+
+2. Is the dataset valid?
+
+At first glance, the dataset appears to be a valid GeoJSON file – in notepad++, one can see that the dataset has a type of “FeatureCollection”, with coordinates that appear to be in the format [longitude, latitude]. However, to properly validate the dataset, the dataset was opened in both an online validation service ([GeoJSONLint](http://web.archive.org/web/20191029171822/http://geojsonlint.com/)) and QGIS, an open source GIS desktop software program.
+
+To validate using online services, the full text in notepad++ was copied and pasted into the website. Note that with online validation services, the size of the file in question can cause the site to stall and/or become unresponsive. At 10.4 MB, this file took GeoJSONLint approximately 3 minutes to load:
+
+-----------------------------------------
+<figure> <img src="IMG_24_geojson_primer.png" alt="Validating dataset in GeoJSONLint" style=""> <figcaption>Fig. 20 SomervilleParcels dataset validated using GeoJSONLint.</figcaption> </figure>
+
+------------------------------------------
+The dataset was also brought into QGIS, where it could be verified that the dataset appears to be what it is stating to be: a collection of polygons representing parcels.
+
+The dataset’s property details panel was used to discover further information. The first tab, “Information” is read-only and serves as a place to quickly grab summarized information and metadata on the layer in question. Here several key pieces of information were verified for the dataset, such as its title (SomervilleParcels), its storage file format (GeoJSON), its geometry (Polygon -- MultiPolygon), its coordinate reference system, or CRS (EPSG:4326), the extent or bounding box of the dataset, and the feature count (14,095). The storage file format and CRS help us verify that this dataset is a valid GeoJSON file.
+
+--------------------------------------------
+<figure> <img src="IMG_25_geojson_primer.png" alt="Layer properties for Somerville Parcels dataset" style=""> <figcaption>Fig. 21 Layer properties panel for SomervilleParcels dataset.</figcaption> </figure>
+
+--------------------------------------------
+3. Is there a separate metadata file?
+
+No. The GeoJSON file did not come with an XML metadata file.
+
+4. Is the metadata quality rich, accurate, and complete?
+
+No. The GeoJSON file was opened in QGIS, and the metadata tab was examined. The metadata is incomplete. Critical information is missing, such as the formal title; parent identifier (collections this dataset is a part of); abstract; access policies and/or use restrictions; contact information; etc.
+
+In particular, for geospatial data, the following are required by both of the two most common geospatial metadata standards (ISO 191xx and FCGC CSDGM):
+
+- Bounding box
+- Geographic location (place keywords)
+- Spatial representation type (vector, raster, etc)
+- Projection/coordinate system
+
+Due to the definition of a GeoJSON file, the spatial representation type is always a vector, and the projection/coordinate system will always be WGS84, or EPGS:4326. The extent of the dataset, provided in the layer’s properties information tab, serves as the bounding box. However, geographic location, or place keywords, is missing for this dataset.
+
+---------------------------------------------
+<figure> <img src="IMG_26_geojson_primer.png" alt="Metadata panel in QGIS" style=""> <figcaption>Fig. 22 Blank metadata tab in SomervilleParcels geojson file.</figcaption> </figure>
+
+---------------------------------------------
+5. What documentation exists?
+
+There is no associated README.md file, or other document providing additional context. There is also no codebook or description for the attribute table column names.
+
+6. Is additional documentation necessary for interpretation?
+
+Yes. Additional documentation will help to provide context to this dataset.
+
+7. Is the filename adequately descriptive?
+
+No – the filename, “SomervilleParcels”, provides only some key information on this dataset. We know the dataset in question concerns parcel data in Somerville, but from the title, one cannot ascertain which city/town/township/area/local administration the dataset is referring to. The filename was changed to “2019_CityOfSomervilleMA_Parcels.”
+
+8. Were any tools used to create the dataset? Software? Hardware?
+
+It is unclear what tools, software, or hardware were used to create this dataset, as well as what other datasets or data sources were combined, if any, to create this file.
+
+### U - understand (or try to) the data
+
+
+1. View the data on a map. Does the location of the parcels match the general description of the dataset?
+
+Yes. The dataset is located in Somerville, Massachusetts. A basemap can be added to confirm the general location of the layer in QGIS.
+
+2. Ascertain number of rows and columns. Are the column names understandable?
+
+In QGIS, the Information tab in Layer Properties provides a count of the total number of rows, as well as a list and count of the field names in the dataset. This dataset has 14,095 rows of data and 17 attribute fields:
+
+- FID
+- OBJECTID
+- Map
+- Block
+- Lot
+- MBL
+- PolyType
+- AddNum
+- Street
+- AddNum2
+- Street2
+- AddNum3
+- Street3
+- SublotOf
+- TaxParMBL
+- Shape_Leng
+- Shape_Area
+
+The column names do not have aliases. A code book is not included with the dataset, making it difficult to know for sure what the columns describe. The documentation of the data is not sufficient for reuse. For example, what does the column “Map” or “Block” refer to?
+
+3. Inspect the attribute table.
+
+The attribute table can be accessed by right-clicking on the layer and selecting “Open Attribute Table”. Viewing the attribute table, we can assess that the dataset in question does have a populated attribute table; while there are some rows with missing values for some columns (such as Street2, AddNumb3, SublotOf), the dataset overall appears to be complete. There are no empty rows. Each item appears to have a unique ID (FID and OBJECTID). The data in the table is readable, with no strange encodings or text.
+
+----------------------------------
+<figure> <img src="IMG_27_geojson_primer.png" alt="Attribute table for SomervilleParcels GeoJSON file." style=""> <figcaption>Fig. 23 Attribute table for SomervilleParcels geojson file.</figcaption> </figure>
+
+----------------------------------
+### R - request missing information
+
+1. Solidify list of questions and missing information
+
+The first two steps result in a list of questions and missing information, the bulk of which is needed in order to adequately curate this dataset. These should be gathered and used to formulate a list of recommendations/questions to communicate to the data author. This can include clarifying assumptions about the dataset, as well as missing information:
+
+- Who created this dataset?
+- What year was it created?
+- What year of data does it show?
+- What is the primary purpose of this dataset?
+- How was this dataset created?
+- How often is it updated?
+- Are there any restrictions on accessing and sharing this dataset?
+- Is this dataset related to other data we should be aware of?
+- Is there a codebook or detailed descriptions for the columns in the attribute table?
+- Is there a README file available? Other relevant documentation?
+
+2. From the list of questions/recommendations, identify the top 3-5 questions/recommendations to ask the data author:
+
+- Is there any documentation, such as a README file, that provides some information on this dataset (year of creation, who created it, how often it is updated, how it was created, etc)?
+- Are there any restrictions on access to this data, and how should it be cited?
+- Is there a codebook for the attribute table headers? If not, can you provide a brief description for
+the headers?
+- Please verify if you should be listed as the contact for this dataset and provide your contact
+information.
+- Are there other GIS data this dataset is related to?
+
+3. Incorporate recommendations into email to the data author.
+
+The Data Curation Network provides a sample letter for requesting changes from data authors in their
+[manual on the CURATED steps](https://web.archive.org/web/20191025195429/https://datacurationnetwork.org/resources/).
+
+### A - augment metadata and T - transform file formats for reuse
+
+Due to the lack of a metadata XML file, and the metadata editing limitations in QGIS, the steps to augment metadata and transform file formats for reuse are done concurrently for this dataset. The following steps are taken:
+
+1. Draft a [README file]().
+2. [Convert GeoJSON to shapefile]().
+3. [Edit metadata in ArcCatalog](): 
+<BLOCKQUOTE>a. Change the metadata style to ISO 19139<BR>b. Edit metadata sections<BR>c. Export metadata as a separate XML file.</BLOCKQUOTE>
+
+4. [Convert GeoJSON to GeoPackage]().
+5. [Check conversions]().
+
+Both the newly created shapefile and GeoPackage were opened in QGIS to confirm that 1) the files opened properly, and 2) the files overlapped with the original GeoJSON file. The attribute table was opened and examined to verify that both have the same number of rows and columns as the original dataset.
+
+6. Inspect final file folder.
+
+After metadata creation, file conversions, and verifications are complete, the resulting file folder for the dataset in question should contain the original GeoJSON file (.geojson), a metadata XML file (.xml), a ReadMe file (.md), a GeoPackage file (.gpkg), and a shapefile (.cpg, .dbf, .prj, .qpj, .shp, and .shx):
+
+---------------------------------------
+<figure> <img src="IMG_28_geojson_primer.png" alt="Final file folder with original GeoJSON file, converted file types, XML and ReadMe file." style=""> <figcaption>Fig. 24 File folder with renamed geojson file, converted files, metadata and ReadMe file. </figcaption> </figure>
+
+---------------------------------------
