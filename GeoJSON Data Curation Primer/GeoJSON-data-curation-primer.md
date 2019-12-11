@@ -587,3 +587,65 @@ After metadata creation, file conversions, and verifications are complete, the r
 <figure> <img src="IMG_28_geojson_primer.png" alt="Final file folder with original GeoJSON file, converted file types, XML and ReadMe file." style=""> <figcaption>Fig. 24 File folder with renamed geojson file, converted files, metadata and ReadMe file. </figcaption> </figure>
 
 ---------------------------------------
+### E - evaluate for fairness
+
+1. [Go through the FAIR principles]() and assess both the metadata and the GeoJSON file:
+
+Note: this dataset was provided as an example for this primer. It has not been curated/preserved in a repository. Principles that could not be assessed are marked as “N/A”.
+
+|  Principle  |  Description   |   Data  |  Metadata  |
+| :------------- | :------------- | :------------- | :------------- |
+| Findable | F1. globally unique, persistent identifier | N/A | N/A |
+| Findable | F2. data described with rich metadata | yes | blank |
+| Findable | F3. metadata explicitly reference data identifier | blank | N/A |
+| Findable | F4. data indexed in searchable resource | N/A | N/A |
+| Accessible | A1. data/metadata retrievable by identifier | N/A | N/A |
+| Accessible | A2. metadata accessible beyond life of data | blank | yes |
+| Interoperable | I1. data/metadata represented in standard format | yes | yes |
+| Interoperable | I2. data/metadata uses standard vocabularies | yes | yes |
+| Interoperable | I3. data/metadata cross-reference other data/metadata | N/A | N/A |
+| Reusable | R1. metadata richly described | blank | yes |
+
+### D - document all curation activities
+
+Documentation should be created throughout the CURATE process. Going through each of the steps above, take notes on the following, making sure to also note who was responsible for each step and when it was done:
+
+1. Original dataset and documentation
+<BLOCKQUOTE>a. Software and tools were used to assess and validate data<BR>b. Questions/concerns that came up through validation process<BR>c. State of metadata and other documentation files</BLOCKQUOTE>
+ 
+2. Conversions
+<BLOCKQUOTE>a. Software and tools used to transform data<BR>b. Transformations done to data (shapefile, GeoPackage)</BLOCKQUOTE>
+
+3. Metadata and documentation augmentation/creation
+<BLOCKQUOTE>a. Creation of shapefile and exporting of metadata to XML<BR>b. Changes made to metadata and documentation</BLOCKQUOTE>
+
+4. Correspondence with data owner on dataset
+<BLOCKQUOTE>a. Request for missing information</BLOCKQUOTE>
+
+5. Evaluation for fairness
+
+This example did not include the final step of depositing a dataset into a repository. Additional notes to document when undertaking this step include:
+
+6. Submission records
+7. Repository collection metadata
+8. Any additional requirements at repository in question
+
+# Appendix B: Researcher Survey Results
+
+In July 2019, the GeoJSON primer authors created and deployed a short online questionnaire, intended to gather information about researchers’ creation, use, and reuse of geospatial vector data in GeoJSON format. The survey - delivered as a Google Poll - was shared with various email lists and GIS working groups and received a total of 18 responses, as of August 8, 2019.
+
+## Survey Questions
+  
+1. What discipline or field do you work in? (short answer)
+2. What is your general level of familiarity or expertise with geospatial data? (multiple choice (select one) + “other” (short answer))
+3. (Optional) What is your position or title? (short answer)
+4. How often do you CREATE data in GeoJSON format? (multiple choice (select one) + “other” (short answer))
+5. How often do you (RE)USE data that is in GeoJSON format? (multiple choice (select one) + “other” (short answer))
+6. What tools or platforms do you use to create, view, or manipulate GeoJSON data? (multiple choice (select many) + “other” (short answer))
+7. Aside from GeoJSON, what other vector data formats do you create or use regularly? (multiple choice (select many) + “other” (short answer))
+8. What online resources do you consult for creating or using GeoJSON data? (multiple choice (select many) + “other” (short answer))
+9. Where do you search for and find reusable GeoJSON data? Please mention specific repositories or platforms if applicable. (long answer)
+10. In what ways do you share your geospatial data, including data in GeoJSON format? Please mention specific repositories or platforms if applicable. (long answer)
+11. Do you create metadata files to accompany your GeoJSON data files? (multiple choice (select one) + “other” (short answer))
+12. If you store or share your geospatial data in a data repository, do you primarily submit it in GeoJSON format? (multiple choice (select one) + “other” (short answer))
+13. If you do share your data, what other file formats do you submit to data repositories? (long answer)
