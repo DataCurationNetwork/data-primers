@@ -361,3 +361,55 @@ If an XML metadata file already exists for the GeoJSON file in question, or ArcC
 ### FAIR GeoJSON: Components Evaluated
 
 To meet the standards for (meta)data documentation required by the [FAIR principles](https://web.archive.org/web/20191024131826/https://www.go-fair.org/fair-principles/), multiple entities must be evaluated for FAIRness: (1) the data stored in GeoJSON format, (2) the GeoJSON data’s associated metadata, and (3) the repository infrastructure in which the data is deposited. The following table indicates which entities (data, metadata, and/or infrastructure) must be evaluated to meet the standards for each FAIR principle.
+
+|   Principle   |   Entities Evaluated for FAIRness  |
+| :------------- | :------------- |
+| [F1: globally unique, persistent identifier](https://web.archive.org/web/20190808070341/https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/) | data; metadata |
+| [F2: data described with rich metadata](https://web.archive.org/web/20190808070346/https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/) (see R1) | metadata |
+| [F3: metadata explicitly reference data identifier](https://web.archive.org/web/20190808070416/https://www.go-fair.org/fair-principles/f3-metadata-clearly-explicitly-include-identifier-data-describe/) | metadata |
+| [F4: data indexed in searchable resource](https://web.archive.org/web/20190808070346/https://www.go-fair.org/fair-principles/f4-metadata-registered-indexed-searchable-resource/) | data; metadata; infrastructure |
+| [A1: data/metadata retrievable by identifier](https://web.archive.org/web/20190808070357/https://www.go-fair.org/fair-principles/metadata-retrievable-identifier-standardised-communication-protocol/) | data; metadata; infrastructure |
+| [A2: metadata accessible beyond life of data](https://web.archive.org/web/20190808070420/https://www.go-fair.org/fair-principles/a2-metadata-accessible-even-data-no-longer-available/) | infrastructure |
+| [I1: data/metadata represented in standard format](https://web.archive.org/web/20190808070418/https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/) | data; metadata |
+| [I2: data/metadata use standard vocabularies](https://web.archive.org/web/20190808070353/https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/) | data; metadata |
+| [I3: data/metadata cross-reference other data/metadata](https://web.archive.org/web/20190808070352/https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/) | data; metadata |
+| [R1: metadata richly described](https://web.archive.org/web/20190808070351/https://www.go-fair.org/fair-principles/r1-metadata-richly-described-plurality-accurate-relevant-attributes/) (license, provenance, domain-relevant community standards) | metadata |
+
+### Assessing GeoJSON Data for FAIRness
+
+The following questions can assist researchers in evaluating the FAIRness of their GeoJSON data. The questions are organized according to each FAIR principle, and most questions pertain to both the data itself and its accompanying metadata: both intrinsic metadata such as variable names and controlled vocabularies as well as external metadata that describes the GeoJSON data file.
+
+#### Findable
+
+- **F1.** Does each GeoJSON and accompanying metadata file have a globally unique, persistent identifier?
+
+- **F2.** **(a)** Does each GeoJSON have an accompanying metadata file? **(b)** Does the filename of each accompanying metadata file explicitly reference the globally unique, persistent identifier for the GeoJSON it describes?
+
+- **F3.** Does each metadata file accompanying a GeoJSON include a field explicitly referencing the file’s globally unique, persistent identifier?
+
+- **F4.** **(a)** Are the GeoJSON and accompanying metadata file(s) stored in a repository with full index and search functionality? **(b)** Does the title of the repository item accurately and fully describe the key components of the file’s contents, including at least the name of the dataset, general geographical coverage of the dataset, name of the dataset creator, and date(s) of temporal coverage of the dataset? **(c)** Does the repository metadata include the globally unique, persistent identifiers for GeoJSON and accompanying metadata file(s)?
+
+#### Accessible
+
+- **A1.** Is each GeoJSON and accompanying metadata file(s) able to be retrieved using the file’s globally unique, persistent identifier? If the data files are not public, does the repository in which the data and metadata are stored permit retrieval of the data and metadata via secure authentication protocols such as HTTPS or FTPS?
+
+- **A2.** Does the repository in which the GeoJSON is stored permit the perpetual storage of metadata about the file in the event that the data itself becomes unavailable? (According to a [2017 study by Dunning et al.](http://www.ijdc.net/article/view/567), many repositories do not have clear policy statements on the perpetual availability of metadata.)
+
+#### Interoperable
+
+- **I1.** **(a)** To meet filetype standards, GeoJSON must be organized as JSON data structures representing a *geometry*, *feature*, or *collection of features.* Does each GeoJSON meet the [RFC 7946](https://web.archive.org/web/20191024124836/https://tools.ietf.org/html/rfc7946) standard? **(b)** Does the accompanying metadata file for each GeoJSON include standard metadata fields for geospatial information? (see [ISO 19115:2003](https://web.archive.org/web/20191024132257/https://www.iso.org/standard/26020.html) for the metadata standards for geospatial data)
+
+- **I2.** **(a)** To meet file type standards, GeoJSON should use the following vocabulary for values in at least the starting name/value pair: *Point, MultiPoint, LineString, MultiLineString, Polygon, MultiPolygon, GeometryCollection, Feature, FeatureCollection.* Does each file meet this vocabulary standard? **(b)** Does the accompanying metadata file for each use the standard vocabularies for the chosen metadata schema?
+
+- **I3.** Does each GeoJSON and accompanying metadata file(s) properly cite any related publications or datasets (using those publications’ or datasets’ globally unique and persistent identifiers)?
+
+#### Reusable
+
+- **R1.** The metadata file(s) accompanying each GeoJSON should include, at a minimum, information about the dataset’s provenance, ownership, licensing, and any other contextual information that is necessary for the data to be reused. Do(es) the metadata file(s) meet these minimum metadata standards?
+
+# Appendix A: Example CURATED Checklist for GeoJSON
+
+### CURATED Checklist for GeoJSON
+
+This curation workflow is meant to serve as an example, demonstrating the recommendations made within this primer. It follows the Data Curation Network’s recommended [CURATED](https://web.archive.org/web/20191101143957/https://datacurationnetwork.org/resources/) steps:
+
