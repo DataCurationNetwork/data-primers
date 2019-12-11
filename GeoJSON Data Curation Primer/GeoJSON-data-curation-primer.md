@@ -696,3 +696,34 @@ The most frequent responses to Question 13 on other file formats respondents com
 
 # Bibliography
 
+Arora, S. K. (2018, February 3). A primer on GeoJSON standard and visualization tools. Retrieved June 17, 2019, from Medium website: https://medium.com/@sumit.arora/what-is-geojson-geojson-basics-visualize-geojson-open-geojson-using-q gis-open-geojson-3432039e336d
+
+Esri. (n.d.). ArcGIS Online Reference: GeoJSON (Reference). Retrieved from ArcGIS Online website: https://doc.arcgis.com/en/arcgis-online/reference/geojson.htm
+
+Gillies, S. (n.d.). geojson: Python bindings and utilities for GeoJSON (Version 2.4.1) (Python, OS Independent). Retrieved from https://github.com/frewsxcv/python-geojson
+
+Gillies, S. (2016, August 17). *Re: (Geojson) metadata in GeoJSONgeojson*. Retrieved from https://mailarchive.ietf.org/arch/browse/geojson/?q=metadata
+
+Gillies, S., Butler, H., Daly, M., Doyle, A., & Schaub, T. (n.d.). The GeoJSON Format. Retrieved April 18, 2019,from https://tools.ietf.org/html/rfc7946
+
+Hanson, B. A., & Seeger, C. J. (2015). Validate GeoJSON: GeoJSONLint. *Extension and Outreach Publications*, 183, 3.
+
+Lampros, M. (n.d.). Processing of GeoJSON data in R. Retrieved April 18, 2019, from https://cran.r-project.org/web/packages/geojsonR/vignettes/the_geojsonR_package.html
+
+Library of Congress. (2014). GeoJSON, Version 1.0 [Web page]. Retrieved April 18, 2019, from https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml
+
+MacWright, T. (2015). More than you ever wanted to know about GeoJSON. Retrieved August 9, 2019, from macwright.org website: https://macwright.org/2015/03/23/geojson-second-bite.html
+
+MacWright, T. (2019). *GeoJSON utilities that will make your life easier*. Retrieved from https://github.com/tmcw/awesome-geojson (Original work published 2015)
+
+Mapbox. (n.d.). GeoJSON (Text). Retrieved April 18, 2019, from Mapbox website: https://www.mapbox.com/help/glossary/geojson/
+
+MapBox. (n.d.). geojson.io. Retrieved April 18, 2019, from geojson.io website: https://geojson.io/
+
+MongoDB. (n.d.). GeoJSON Objects (Text). Retrieved April 18, 2019, from https://github.com/mongodb/docs/blob/v4.0/source/reference/geojson.txt website: https://docs.mongodb.com/manual/reference/geojson
+
+SpatiaLite. (n.d.). SpatiaLite: Supporting GeoJSON. Retrieved April 18, 2019, from https://www.gaia-gis.it/fossil/libspatialite/wiki?name=Supporting+GeoJSON
+
+Switch from Shapefile. (n.d.). Retrieved from Switch from Shapefile website: http://switchfromshapefile.org/#alternatives
+
+Wikipedia. (2019). GeoJSON. In *Wikipedia*. Retrieved from https://en.wikipedia.org/w/index.php?title=GeoJSON&oldid=900774444
