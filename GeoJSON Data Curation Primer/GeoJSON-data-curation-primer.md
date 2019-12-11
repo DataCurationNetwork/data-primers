@@ -649,3 +649,50 @@ In July 2019, the GeoJSON primer authors created and deployed a short online que
 11. Do you create metadata files to accompany your GeoJSON data files? (multiple choice (select one) + “other” (short answer))
 12. If you store or share your geospatial data in a data repository, do you primarily submit it in GeoJSON format? (multiple choice (select one) + “other” (short answer))
 13. If you do share your data, what other file formats do you submit to data repositories? (long answer)
+
+## Survey Results
+
+Preliminary results indicate that survey participants primarily represented researchers and librarians. About 83% or respondents said they possess advanced familiarity or expertise with geospatial data (Question 2), with about 17% stating that they have intermediate familiarity.
+
+The following charts summarize responses regarding respondents’ use of GeoJSON data (Questions 4 and 5):
+
+---------------------------------------------------
+<figure> <img src="IMG_29_geojson_primer.png" alt="Survey result for “How often do you CREATE data in GeoJSON format?" style=""> <figcaption></figcaption> </figure>
+
+---------------------------------------------------
+<figure> <img src="IMG_30_geojson_primer.png" alt="Survey result for “How often do you (RE)USE data that is in GeoJSON format?" style=""> <figcaption></figcaption> </figure>
+
+---------------------------------------------------
+
+In response to the question regarding which tools or platforms respondents use to create or use GeoJSON data (Question 6), 94.4% of respondents stated that they use commercial or open-source GIS software. The second most common response was scripting languages and packages such as R or python (66.7% of respondents), and browser-based tools were used by 55.6% of respondents.
+
+A full 100% of respondents stated that, aside from GeoJSON, they regularly create or use shapefile data (Question 7), and 50% stated that they use XML-based GIS standard data such as GML or KML files.
+
+
+The most common response to the question regarding what online resources respondents consult regarding GeoJSON data (Question 8) was “I do not typically consult online resources or documentation for GeoJSON,” although 27.8% of respondents said they consult GeoJSON help pages on software guides and 27.8% of respondents said they consult the official GeoJSON documentation ([RFC 7946](https://web.archive.org/web/20191024124836/https://tools.ietf.org/html/rfc7946)).
+
+Among the most useful responses to Question 9 on repositories and platforms where respondents search for GeoJSON data were the following statements:
+
+<BLOCKQUOTE>“I don't search specifically for GeoJSON. I search for the data I need (for example, sidewalks in Oklahoma City), and once I find it, consider the format. Many government agencies rely on the ArcGIS platform, which has far more robust GeoJSON support in recent versions.”</BLOCKQUOTE>
+
+<BLOCKQUOTE>“When searching for vector data, I'm not usually searching for a specific vector format. Most repositories or platforms I frequent for my work (NED, GADM) do not provide GeoJSON. If I need GeoJSON, I'll convert it myself.”</BLOCKQUOTE>
+
+<BLOCKQUOTE>“I frequently see it as an option for exporting from the Socrata platform, which is the infrastructure behind many cities' open data portals.”</BLOCKQUOTE>
+
+Other responses to Question 9 include: OpenIndexMaps, commercial vendors, Data.gov, GitHub, Geonames, Zenodo, Geoservers, city data portals, earthworks.stanford.edu, and data.humdata.org.
+
+Among the most common responses to Question 10 on ways respondents share GeoJSON data were the following: OpenIndexMaps, geodatabase files, Zenodo, GitHub, static HTML pages, institutional repositories, cloud storage, and ArcGIS Online.
+
+The following charts summarize responses regarding respondents’ creation of metadata and sharing of GeoJSON files (Questions 11 and 12).
+
+---------------------------------------------------
+<figure> <img src="IMG_31_geojson_primer.png" alt="Survey result for “Do you create metadata files to accompany your GeoJSON data files?"style=""> <figcaption>Fig. 26 </figcaption> </figure>
+
+---------------------------------------------------
+<figure> <img src="IMG_32_geojson_primer.png" alt="If you store or share your geospatial data in a data repository, do you primarily submit it in GeoJSON format?" style=""> <figcaption></figcaption> </figure>
+
+---------------------------------------------------
+The most frequent responses to Question 13 on other file formats respondents commonly use to submit geospatial data to repositories include: shapefiles, geodatabase, CSV, JSON, geotiff, and kmz/klm.
+
+# Bibliography
+
