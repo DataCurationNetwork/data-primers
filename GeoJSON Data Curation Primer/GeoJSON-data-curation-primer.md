@@ -13,13 +13,13 @@
 | Primary fields or areas of use | Geographical Information Systems (GIS), web mapping applications, mobile applications, web APIs, JavaScript web-mapping libraries, JSON-based document databases |
 | Source and affiliation | Internet Engineering Task Force (IETF) |
 | Metadata standards | None specific to GeoJSON |
-| Key questions for curation review | <ul><li> Are coordinates listed in the following format:[longitude, latitude, elevation]</li><li> Can the file be opened in a text editor and viewed in QGIS</li><li> Does the file pass validation</li><li>Is there associated metadata/README.md files |
-| Tools for curation review | QGIS; [geojsonlint.com](geojsonlint.com); [geojson.io](http://geojson.io/#map=2/20.0/0.0); ArcCatalog |
+| Key questions for curation review | <ul><li> Are coordinates listed in the following format:[longitude, latitude, elevation]?</li><li> Can the file be opened in a text editor and viewed in QGIS?</li><li> Does the file pass validation?</li><li>Are there associated metadata/README.md files? |
+| Tools for curation review | [QGIS](https://www.qgis.org/en/site/); [geojsonlint.com](geojsonlint.com); [geojson.io](http://geojson.io/#map=2/20.0/0.0); [ArcCatalog](https://en.wikipedia.org/wiki/ArcGIS) |
 | Date Created | July 2019 |
 | Created by | Nadia Dixson (City Archivist for the City of Somerville), Genevieve Milliken (NYU, Digital Library Technology Services), Keshav Mukunda (SFU Library, Data Services), Reina Murray (Johns Hopkins University, Sheridan Libraries), Rachel Starry (University at Buffalo, University Libraries). |
 | Date updated and summary of changes made | |
 
-**Suggested Citation:** Dixson, Nadia; Milliken, Genevieve; Mukunda, Keshav; Murray, Reina; Starry, Rachel. (2019). GeoJSON Data Curation Primer. Data Curation Network GitHub Repository. [REPO-LINK]
+**Suggested Citation:** Dixson, Nadia; Milliken, Genevieve; Mukunda, Keshav; Murray, Reina; Starry, Rachel. (2019). GeoJSON Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
 
@@ -92,7 +92,7 @@ Every GeoJSON object contains a member named “type”, which must be one of th
 
 <figure> <img src="IMG_1_geojson_primer.png" alt="GeoJSON syntax displaying a single point as an ordered array of longitude, latitude, and elevation." style=""> <figcaption></figcaption> </figure>
 
-- **Linestring:** For type "LineString", the coordinates member is an array of two or more positions. This geometry consists of connected line segments:
+- **LineString:** For type "LineString", the coordinates member is an array of two or more positions. This geometry consists of connected line segments:
 
 <figure> <img src="IMG_2_geojson_primer.png" alt="GeoJSON syntax displaying a LineString comprised of three points. Points are expressed as ordered triples of longitude, latitude, and (optional) elevation." style=""> <figcaption></figcaption> </figure>
 
@@ -142,7 +142,7 @@ Key questions to ask:
 
 - Can the file first be opened and viewed in a text editor before loading in geospatial software?
 
-- Are coordinates listed in the following format: ​[longitude, latitude, elevation]
+- Are coordinates listed in the following format: ​[longitude, latitude, elevation]?
 
 - What aspects of the visualization are important? (geometry, color scale, distribution of data, etc.)
 
@@ -235,7 +235,7 @@ General Information:
 
 Data and File Overview:
 
-- a short description of what data it contains
+- A short description of what data it contains
 
 - Date that the file was created
 
@@ -313,7 +313,7 @@ While similar to GeoJSON, EsriJSON is a proprietary format developed and managed
 ------------------------------
 ### Additional options for converting GeoJSON
 
-- [Mapshaper](https://web.archive.org/web/20191029171147/https://mapshaper.org/)is a free software for editing shapefile, GeoJSON, TopoJSON, CSV and other data formats. It can be used to convert easily from one file format to another, and can be operated from the command line, but also through a web user interface. Instructions on converting a GeoJSON file to shapefile is [documented by StatSilk](https://web.archive.org/web/20191024131646/https://www.statsilk.com/maps/convert-geojson-esri-shapefile-map-format).
+- [Mapshaper](https://web.archive.org/web/20191029171147/https://mapshaper.org/) is a free software for editing shapefile, GeoJSON, TopoJSON, CSV and other data formats. It can be used to convert easily from one file format to another, and can be operated from the command line, but also through a web user interface. Instructions on converting a GeoJSON file to shapefile is [documented by StatSilk](https://web.archive.org/web/20191024131646/https://www.statsilk.com/maps/convert-geojson-esri-shapefile-map-format).
 
 - The [ogr2ogr](https://web.archive.org/web/20191024131558/https://gdal.org/programs/ogr2ogr.html) package is part of the Geospatial Data Abstraction Library and provides a way to convert data between common geospatial file formats, including GeoJSON, shapefiles, and GeoPackages. It can be downloaded as part of the [FW Tools Toolkit](https://web.archive.org/web/20190711172245/http://fwtools.maptools.org/), and is usually run from the command line with the following syntax: ogr2ogr -f "file_format" destination_data source_data
 
@@ -569,13 +569,13 @@ The Data Curation Network provides a sample letter for requesting changes from d
 
 Due to the lack of a metadata XML file, and the metadata editing limitations in QGIS, the steps to augment metadata and transform file formats for reuse are done concurrently for this dataset. The following steps are taken:
 
-1. Draft a [README file]().
-2. [Convert GeoJSON to shapefile]().
-3. [Edit metadata in ArcCatalog](): 
+1. Draft a [README file](#what-to-include-in-a-readme-file).
+2. [Convert GeoJSON to shapefile](#shapefile).
+3. [Edit metadata in ArcCatalog](#creating-metadata-using-arccatalog): 
 <BLOCKQUOTE>a. Change the metadata style to ISO 19139<BR>b. Edit metadata sections<BR>c. Export metadata as a separate XML file.</BLOCKQUOTE>
 
-4. [Convert GeoJSON to GeoPackage]().
-5. [Check conversions]().
+4. [Convert GeoJSON to GeoPackage](#geopackage).
+5. [Check conversions](#checking-transformations).
 
 Both the newly created shapefile and GeoPackage were opened in QGIS to confirm that 1) the files opened properly, and 2) the files overlapped with the original GeoJSON file. The attribute table was opened and examined to verify that both have the same number of rows and columns as the original dataset.
 
@@ -589,7 +589,7 @@ After metadata creation, file conversions, and verifications are complete, the r
 ---------------------------------------
 ### E - evaluate for fairness
 
-1. [Go through the FAIR principles]() and assess both the metadata and the GeoJSON file:
+1. [Go through the FAIR principles](#what-are-the-fair-principles) and assess both the metadata and the GeoJSON file:
 
 Note: this dataset was provided as an example for this primer. It has not been curated/preserved in a repository. Principles that could not be assessed are marked as “N/A”.
 
@@ -686,17 +686,17 @@ Among the most common responses to Question 10 on ways respondents share GeoJSON
 The following charts summarize responses regarding respondents’ creation of metadata and sharing of GeoJSON files (Questions 11 and 12).
 
 ---------------------------------------------------
-<figure> <img src="IMG_31_geojson_primer.png" alt="Survey result for “Do you create metadata files to accompany your GeoJSON data files?"style=""> <figcaption>Fig. 26 </figcaption> </figure>
+<figure> <img src="IMG_31_geojson_primer.png" alt="Survey result for “Do you create metadata files to accompany your GeoJSON data files?"style=""> <figcaption></figcaption> </figure>
 
 ---------------------------------------------------
-<figure> <img src="IMG_32_geojson_primer.png" alt="If you store or share your geospatial data in a data repository, do you primarily submit it in GeoJSON format?" style=""> <figcaption></figcaption> </figure>
+<figure> <img src="IMG_32_geojson_primer.png" alt="Survey result for 'If you store or share your geospatial data in a data repository, do you primarily submit it in GeoJSON format?'" style=""> <figcaption></figcaption> </figure>
 
 ---------------------------------------------------
 The most frequent responses to Question 13 on other file formats respondents commonly use to submit geospatial data to repositories include: shapefiles, geodatabase, CSV, JSON, geotiff, and kmz/klm.
 
 # Bibliography
 
-Arora, S. K. (2018, February 3). A primer on GeoJSON standard and visualization tools. Retrieved June 17, 2019, from Medium website: https://medium.com/@sumit.arora/what-is-geojson-geojson-basics-visualize-geojson-open-geojson-using-q gis-open-geojson-3432039e336d
+Arora, S. K. (2018, February 3). A primer on GeoJSON standard and visualization tools. Retrieved June 17, 2019, from Medium website: https://medium.com/@sumit.arora/what-is-geojson-geojson-basics-visualize-geojson-open-geojson-using-qgis-open-geojson-3432039e336d
 
 Esri. (n.d.). ArcGIS Online Reference: GeoJSON (Reference). Retrieved from ArcGIS Online website: https://doc.arcgis.com/en/arcgis-online/reference/geojson.htm
 
