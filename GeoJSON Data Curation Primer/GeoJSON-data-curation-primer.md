@@ -27,7 +27,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:undetermined orderedList:0 -->
 
-- [Description of Format: What is GeoJSON?](#description-of-format-what-is-geojson)
+- [Description of Format: What is GeoJSON?](#description-of-format)
   - [Syntax for GeoJSON](#syntax-for-geojson)
   - [Existing GeoJSON Documentation](#existing-geojson-documentation)
   - [Example GeoJSON Datasets](#example-geojson-datasets)
@@ -38,7 +38,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 - [GeoJSON Metadata Standards and README Requirements](#geojson-metadata-standards-and-readme-requirements)
   - [GeoJSON Metadata Standards](#geojson-metadata-standards)
   - [Viewing Metadata in QGIS](#viewing-metadata-in-qgis)
-  - [What to Include in a README File](what-to-include-in-a-readme-file)
+  - [What to Include in a README File](#what-to-include-in-a-readme-file)
 
 - [Preservation Strategy and Recommendations for Transformations](#preservation-strategy-and-recommendations-for-transformations)
   - [Shapefile](#shapefile)
@@ -50,7 +50,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
   - [Creating Metadata using mdEditor](#creating-metadata-using-mdeditor)
 
 - [Evaluating GeoJSON Files for FAIRness](#evaluating-geojson-files-for-fairness)
-  - [What are the FAIR principles?](#what-are-the-fair-principles?)
+  - [What are the FAIR principles?](#what-are-the-fair-principles)
   - [FAIR GeoJSON: Components Evaluated](#fair-geojson-components-evaluated)
   - [Assessing GeoJSON Data for FAIRness](#assessing-geojson-data-for-fairness)
   - [Findable](#findable)
@@ -60,12 +60,12 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 - [Appendix A: Example CURATED Checklist for GeoJSON](#appendix-a-example-curated-checklist-for-geojson)
   - [CURATED Checklist for GeoJSON](#curated-checklist-for-geojson)
-    - [C - check files and read documentation](#c-check-files-and-read-documentation)
-    - [U - understand (or try to) the data](#u-understand-or-try-to-the-data)
-    - [R - request missing information](#r-request-missing-information)
-    - [A - augment metadata and T - transform file formats for reuse](#a-augment-metadata-and-t-transform-file-formats-for-reuse)
-    - [E - evaluate for fairness](#e-evaluate-for-fairness)
-    - [D - document all curation activities](#d-document-all-curation-activities)
+    - [C - check files and read documentation](#c---check-files-and-read-documentation)
+    - [U - understand (or try to) the data](#u---understand-or-try-to-the-data)
+    - [R - request missing information](#r---request-missing-information)
+    - [A - augment metadata and T - transform file formats for reuse](#a---augment-metadata-and-t---transform-file-formats-for-reuse)
+    - [E - evaluate for fairness](#e---evaluate-for-fairness)
+    - [D - document all curation activities](#d---document-all-curation-activities)
 
 - [Appendix B: Researcher Survey Results](#appendix-b-researcher-survey-results)
   - [Survey Questions](#survey-questions)
@@ -138,7 +138,7 @@ The GeoJSON format is often a download option in geospatial data repositories, a
 
 # Software for Opening and Viewing GeoJSON Files
 
-Key questions to ask:
+*Key questions to ask:*
 
 - Can the file first be opened and viewed in a text editor before loading in geospatial software?
 
@@ -176,7 +176,7 @@ While QGIS is the preferred software for viewing geospatial data, other software
 
 ## Validating GeoJSON Datasets
 
-Key questions to ask:
+*Key questions to ask:*
 
 - Is this dataset a valid GeoJSON file?
 
@@ -191,7 +191,7 @@ Validating GeoJSON can be conducted on a few web-based validation services. One 
 ------------------------------
 # GeoJSON Metadata Standards and README Requirements
 
-*Key Questions to Ask:*
+*Key questions to ask:*
 
 - Is there a separate metadata file? If yes, is it complete? If not, is there metadata stored in the GeoJSON file?
 
@@ -201,7 +201,7 @@ Validating GeoJSON can be conducted on a few web-based validation services. One 
 
 ## GeoJSON Metadata Standards
 
-Currently, there is no metadata standard for GeoJSON. <sup>1</sup> As there is no particular standard, it is recommended that the curator select a metadata standard that best fits the repository’s needs and/or policies. Metadata should be stored in a separate XML metadata file, rather than in the GeoJSON file itself. Finally, a README file should be prepared for each GeoJSON file. Descriptions of the most common geospatial metadata standards are available in the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#geospatial-metadata-standards).
+Currently, there is no metadata standard for GeoJSON.<sup>1</sup> As there is no particular standard, it is recommended that the curator select a metadata standard that best fits the repository’s needs and/or policies. Metadata should be stored in a separate XML metadata file, rather than in the GeoJSON file itself. Finally, a README file should be prepared for each GeoJSON file. Descriptions of the most common geospatial metadata standards are available in the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#geospatial-metadata-standards).
 
 If a separate XML metadata file exists, it can be viewed using a text editor. If a separate metadata file does not exist and it is unclear what, if any, metadata is in the GeoJSON file itself, QGIS can be used to view a GeoJSON’s metadata.
 
