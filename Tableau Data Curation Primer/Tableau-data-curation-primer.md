@@ -1,6 +1,6 @@
 ![](DCNlogo.png)
 
-# Tableau Primers
+# Tableau Primer
 
 # Summary or Format Overview
 
@@ -11,13 +11,17 @@
 | Structure | <ul><li> .twb: proprietary XML format that contains references to an external data source file. </li><li> .twbx: proprietary compressed package of files that includes a data source file (tabular), .twb (XML), and any accessory files for producing the Tableau workbook (e.g., images). |
 | Versions | [Tableau Desktop 2019.2](https://perma.cc/MXM7-E7BZ) (current as of 2019-09-06) |
 | Primary fields or areas of use | business intelligence, though increasingly across many disciplines |
-| Source and affiliation | [Tableau](https://perma.cc/7VES-77HK) is proprietary software. In 2019, Tableau Software was acquired by ​[Salesforce​](https://perma.cc/EH65-7ZSN). |
+| Source and affiliation | [Tableau](https://perma.cc/7VES-77HK) is proprietary software. In 2019, Tableau Software was acquired by [Salesforce](https://perma.cc/EH65-7ZSN). |
 | Metadata | Metadata can be modified or extended for use in a Tableau workbook. Use [Tableau Catalog](https://perma.cc/5VA4-FMDY), a Data Management Add-on, to get a complete view of the data being used in Tableau. |
 | Key questions for curation review | <ul><li> Can the Tableau workbook file be opened? </li><li> If the Tableau workbook is provided as a .twb file, is there an accompanying data source file or data extract? </li><li> Is there documentation for how to navigate and work with the Tableau workbook? </li><li> Is there an accompanying snapshot to show how a workbook, dashboard, or story view should be rendered? |
-| Tools for curation review | <p> [Tableau Desktop​](https://perma.cc/C655-UDH2) (licensed) <br> [Tableau Reader](https://perma.cc/8S6G-99B7) (free) <br> XML editor/viewer <br> Data source native software (e.g., Excel) </p> |
+| Tools for curation review | <p> [Tableau Desktop](https://perma.cc/C655-UDH2) (licensed) <br> [Tableau Reader](https://perma.cc/8S6G-99B7) (free) <br> XML editor/viewer <br> Data source native software (e.g., Excel) </p> |
 | Date Created | 2019-09-06 |
 | Created by | <p> Christine Malinowski (cmalin@mit.edu) <br> Trisha Adamus (adamus@wisc.edu) </p> |
 | Date updated and summary of changes made | <p> 2019-11-15 draft primer completed <br> (updated links, fleshed out all sections) </p> |
+  
+**Suggested citation:** Malinowski, Christine, & Adamus, Trisha (2019). Tableau Primer, v.1.0, [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
 
 # Table of Contents
 
