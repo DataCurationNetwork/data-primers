@@ -39,7 +39,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 [Preservation actions](#preservation-actions)
 
-[What to look for to make sure this file meets FAIR principles](#what-tolook-for-to-make-sure-this-file-meets-fair-principles)
+[What to look for to make sure this file meets FAIR principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)
 
 [Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format)
 
@@ -52,10 +52,10 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 [Appendix B: Other Tableau file formats](#appendix-b)
 
 [References and Resources](#references-and-resources) <br>
-  > General Tableau resources <br>
-  > Tableau Desktop components <br>
-  > Tableau how to’s <br>
-  > Data curation general resources
+  > [General Tableau resources](#general-tableau-resources) <br>
+  > [Tableau Desktop components](#tableau-desktop-components) <br>
+  > [Tableau how to’s](#tableau-how-to) <br>
+  > [Data curation general resources](#data-curation-general-resources)
 
  # Description of Format
 
