@@ -21,19 +21,31 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
 **Table of Contents**
 
-1. Description of format  
-2. Examples 
-3. Sample data set citations 
-4. Key questions to ask yourself 
-5. Key clarifications to get from researcher 
-6. Applicable metadata standard, core elements and readme requirements
-7. Resources for reviewing data 
-8. Software for viewing or analyzing data 
-9. Preservation actions 
-10.What to look for to make sure this file meets FAIR principles 
-11.Ways in which fields may use this format 
-12.Documentation of curation process: What do capture from curation process
-13.Appendix A - filetype CURATED checklist
+[Description of format](#description-of-format)  
+
+[Examples](#examples) 
+
+[Sample data set citations](#sample-data-set-citations) 
+
+[Key questions to ask yourself](#key-questions-to-ask-yourself) 
+
+[Key clarifications to get from researcher](#key-clarifications-to-get-from-the-researcher) 
+
+[Applicable metadata standard, core elements and readme requirements](#applicable-metadata-standard)
+
+[Resources for reviewing data](#resources-for-reviewing-data) 
+
+[Software for viewing or analyzing data](#software-for-viewing-or-analyzing-data) 
+
+[Preservation actions](#preservation-actions) 
+
+[What to look for to make sure this file meets FAIR principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles) 
+
+[Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format) 
+
+[Documentation of curation process: What do capture from curation process](#documentation-of-curation-process)
+
+[Appendix A - filetype CURATED checklist](#appendix-a)
 
  # Description of Format
 
