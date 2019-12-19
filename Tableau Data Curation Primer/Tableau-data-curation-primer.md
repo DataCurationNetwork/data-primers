@@ -45,7 +45,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 [Documentation of curation process](#documentation-of-curation-process)
 
-[This primer as a living document](#this-primer-as-aliving-document)
+[This primer as a living document](#this-primer-as-a-living-document)
 
 [Appendix A: filetype CURATED checklist](#appendix-a)
 
@@ -59,7 +59,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
  # Description of Format
 
- ***Overview.*** Tableau Software is a proprietary ​[suite of products​​](https://perma.cc/6XJU-R2ZH) for data exploration, analysis, and visualization with an initial concentration in business intelligence. This primer focuses on the Tableau workbook files – .twb and .twbx – produced using ​[Tableau Desktop​](https://perma.cc/C655-UDH2). Like Microsoft Excel, Tableau Desktop uses a workbook and sheet file structure. Workbooks can contain worksheets, dashboards, and stories.
+ ***Overview.*** Tableau Software is a proprietary [suite of products](https://perma.cc/6XJU-R2ZH) for data exploration, analysis, and visualization with an initial concentration in business intelligence. This primer focuses on the Tableau workbook files – .twb and .twbx – produced using [Tableau Desktop](https://perma.cc/C655-UDH2). Like Microsoft Excel, Tableau Desktop uses a workbook and sheet file structure. Workbooks can contain worksheets, dashboards, and stories.
 
   - **Worksheets** are single views (e.g., tables, maps, charts, etc.) of data built by dragging and dropping fields onto “column and row shelves” that define the structure of the visualization and “marks cards” that add contextual detail (e.g., color representation). See ​[More information on specific Tableau Desktop components​]( )​.
 
@@ -79,11 +79,11 @@ While .twb and .twbx files are the main shareable output of Tableau workbooks, t
 
 |  Example Tableau project | Sample data set citation  |
 | :------------- | :------------- |
-| [Side Effects of Medicinal Drugs](https://public.tableau.com/en-us/gallery/side-effects-medicinal-drugs) | Lafosse, Simon, 2019, “Side Effects of Medicinal Drugs,” https://public.tableau.com/en-us/gallery/side-effects-medicinal-dru gs​, Tableau Public. |
-| [Data Visualization of US Wildfire 1992 - 2015](https://zenodo.org/record/1242654#.XerPlHdFyUk) | Li, Yi, 2018, “Data Visualization of US Wildfire 1992 - 2015,” https://doi.org/10.5281/zenodo.1242654​, Zenodo |
-| [89 DJs at Ultra Music Festival 2015](https://zenodo.org/record/806207#.XerPzHdFyUk) | Steen Andersen, Jesper, 2017, “Data and scripts for 89 DJs at Ultra Music Festival 2015,” ​http://doi.org/10.5281/zenodo.806207​, Zenodo |
+| [Side Effects of Medicinal Drugs](https://public.tableau.com/en-us/gallery/side-effects-medicinal-drugs) | Lafosse, Simon, 2019, “Side Effects of Medicinal Drugs,” https://public.tableau.com/en-us/gallery/side-effects-medicinal-dru gs, Tableau Public. |
+| [Data Visualization of US Wildfire 1992 - 2015](https://zenodo.org/record/1242654#.XerPlHdFyUk) | Li, Yi, 2018, “Data Visualization of US Wildfire 1992 - 2015,” https://doi.org/10.5281/zenodo.1242654, Zenodo |
+| [89 DJs at Ultra Music Festival 2015](https://zenodo.org/record/806207#.XerPzHdFyUk) | Steen Andersen, Jesper, 2017, “Data and scripts for 89 DJs at Ultra Music Festival 2015,” http://doi.org/10.5281/zenodo.806207, Zenodo |
 
-The Tableau Public Gallery, ​https://public.tableau.com/en-us/gallery/​, includes additional examples.
+The Tableau Public Gallery, https://public.tableau.com/en-us/gallery/, includes additional examples.
 
 # Key questions for curation review
 
@@ -103,7 +103,7 @@ The Tableau Public Gallery, ​https://public.tableau.com/en-us/gallery/​, inc
 
 **Metadata**
 
-The original data source metadata cannot be modified using Tableau. Metadata can be modified or extended for use in a Tableau workbook. Use [Tableau Catalog​](https://perma.cc/5VA4-FMDY), a Data Management Add-on, to get a complete view of the data being used in Tableau. Data owners can automatically track information about the data (i.e., metadata), including user permissions, usage metrics, and lineage.
+The original data source metadata cannot be modified using Tableau. Metadata can be modified or extended for use in a Tableau workbook. Use [Tableau Catalog](https://perma.cc/5VA4-FMDY), a Data Management Add-on, to get a complete view of the data being used in Tableau. Data owners can automatically track information about the data (i.e., metadata), including user permissions, usage metrics, and lineage.
 
 **README requirements**
 
@@ -123,15 +123,15 @@ In addition to basic README components as defined by Cornell Research Data Manag
 
 # Resources/Software for viewing or analyzing data
 
-For those unfamiliar with Tableau, there’s a series of [​free training videos](https://perma.cc/82PU-8V5J).
+For those unfamiliar with Tableau, there’s a series of [free training videos](https://perma.cc/82PU-8V5J).
 
 Tableau workbooks can be opened and interacted with using:
 
-- **Tableau Desktop** (https://www.tableau.com/products/desktop​) is a native proprietary software for the .twb and .twbx file formats.
+- **Tableau Desktop** (https://www.tableau.com/products/desktop) is a native proprietary software for the .twb and .twbx file formats.
 
-- **Tableau Reader** (https://www.tableau.com/products/reader​) is a free desktop application for opening and viewing Tableau workbooks in .twbx format. Tableau Reader does not support live connections to data sources and will not be able to open a .twb file. Note, Tableau Desktop is backwards compatible, meaning that Tableau workbook files (both .twb and .twbx) created in an older version of Tableau Desktop may be upgraded and opened by a newer version of Tableau Desktop, but a workbook file created with a newer version of Tableau Desktop cannot be downgraded and opened with an older version.
+- **Tableau Reader** (https://www.tableau.com/products/reader) is a free desktop application for opening and viewing Tableau workbooks in .twbx format. Tableau Reader does not support live connections to data sources and will not be able to open a .twb file. Note, Tableau Desktop is backwards compatible, meaning that Tableau workbook files (both .twb and .twbx) created in an older version of Tableau Desktop may be upgraded and opened by a newer version of Tableau Desktop, but a workbook file created with a newer version of Tableau Desktop cannot be downgraded and opened with an older version.
 
-- **Tableau Viewer** (https://www.tableau.com/products/viewer​) is a role-based license option on Tableau Server that allows users to interact with Tableau workbook content without putting the security of the underlying data at risk. Given the specific role of this resource for partitioning views of the data, this is not likely to be an appropriate tool for interacting with Tableau data during the curation process.
+- **Tableau Viewer** (https://www.tableau.com/products/viewer) is a role-based license option on Tableau Server that allows users to interact with Tableau workbook content without putting the security of the underlying data at risk. Given the specific role of this resource for partitioning views of the data, this is not likely to be an appropriate tool for interacting with Tableau data during the curation process.
 
 As the Tableau workbook (.twb) is a XML-structured format, the file can be opened with any XML-compatible viewer or editor to review the source XML code.
 
