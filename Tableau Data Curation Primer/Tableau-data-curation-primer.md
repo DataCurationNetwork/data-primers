@@ -27,37 +27,37 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 **Summary**
 
-**1.0 Description of Format**
+[Description of Format](description-of-format)
 
-**2.0 Examples with sample data set citations**
+[Examples with sample data set citations](examples-with-sample-data-set-citations)
 
-**3.0 Key questions for curation review**
+[Key questions for curation review](key-qustions-for-curation-review)
 
-**4.0 Applicable metadata standard, core elements, and README requirements**
+[Applicable metadata standard, core elements, and README requirements](applicable-metadata-standard)
 
-**5.0 Resources/Software for viewing or analyzing data**
+[Resources or Software for viewing or analyzing data](resources-or-software-for-viewing-or-analyzing-data)
 
-**6.0 Preservation actions**
+[Preservation actions](preservation-actions)
 
-**7.0 What to look for to make sure this file meets FAIR principles**
+[What to look for to make sure this file meets FAIR principles](what-tolook-for-to-make-sure-this-file-meets-fair-principles)
 
-**8.0 Ways in which fields may use this format**
+[Ways in which fields may use this format](ways-in-which-fields-may-use-this-format)
 
-**9.0 Documentation of curation process**
+[Documentation of curation process](documentation-of-curation-process)
 
-**10.0 This primer as a living document**
+[This primer as a living document](this-primer-as-aliving-document)
 
-**Appendix A: filetype CURATED checklist**
+[Appendix A: filetype CURATED checklist](appendix-a)
 
-**Appendix B: Other Tableau file formats**
+[Appendix B: Other Tableau file formats](appendix-b)
 
-**References and Resources** <br>
+[References and Resources](references-and-resources) <br>
   > General Tableau resources <br>
   > Tableau Desktop components <br>
   > Tableau how to’s <br>
   > Data curation general resources
 
- # 1.0 Description of Format
+ # Description of Format
 
  ***Overview.*** Tableau Software is a proprietary ​[suite of products​​](https://perma.cc/6XJU-R2ZH) for data exploration, analysis, and visualization with an initial concentration in business intelligence. This primer focuses on the Tableau workbook files – .twb and .twbx – produced using ​[Tableau Desktop​](https://perma.cc/C655-UDH2). Like Microsoft Excel, Tableau Desktop uses a workbook and sheet file structure. Workbooks can contain worksheets, dashboards, and stories.
 
@@ -75,7 +75,7 @@ Tableau Desktop is backwards compatible, meaning that Tableau workbook files (bo
 
 While .twb and .twbx files are the main shareable output of Tableau workbooks, there are additional file formats which can be associated with Tableau projects (See [Appendix B​]( )​).
 
-# 2.0 Examples with sample data set citations
+# Examples with sample data set citations
 
 |  Example Tableau project | Sample data set citation  |
 | :------------- | :------------- |
@@ -85,7 +85,7 @@ While .twb and .twbx files are the main shareable output of Tableau workbooks, t
 
 The Tableau Public Gallery, ​https://public.tableau.com/en-us/gallery/​, includes additional examples.
 
-# 3.0 Key questions for curation review
+# Key questions for curation review
 
 - Can the Tableau workbook file be opened?
  - What version of Tableau Desktop is required to open the Tableau project
@@ -99,7 +99,7 @@ The Tableau Public Gallery, ​https://public.tableau.com/en-us/gallery/​, inc
 
 - Is there an accompanying snapshot (e.g., screenshot, exported PDF) to show how a workbook, dashboard, or story view should be rendered?
 
-# 4.0 Applicable metadata standard, core elements, and README requirements
+# Applicable metadata standard, core elements, and README requirements
 
 **Metadata**
 
@@ -107,7 +107,7 @@ The original data source metadata cannot be modified using Tableau. Metadata can
 
 **README requirements**
 
-In addition to basic README components as defined by Cornell Research Data Management Service Group’s "[Guide to writing ‘readme’ style metadata​​](https://perma.cc/CST5-26KM)" <br> (​https://data.research.cornell.edu/content/readme#recommendedcontent​), a Tableau workbook README should include:
+In addition to basic README components as defined by Cornell Research Data Management Service Group’s "[Guide to writing ‘readme’ style metadata](https://perma.cc/CST5-26KM)" <br> (https://data.research.cornell.edu/content/readme#recommendedcontent), a Tableau workbook README should include:
 
 - Tableau Desktop version from which the workbook was created
 
@@ -121,7 +121,7 @@ In addition to basic README components as defined by Cornell Research Data Manag
  - Information on the original source data from which the linked data source or data extract came from (e.g., creator, location, availability, etc.)
  - data security requirements or access restrictions of extracts or linked data sources
 
-# 5.0 Resources/Software for viewing or analyzing data
+# Resources/Software for viewing or analyzing data
 
 For those unfamiliar with Tableau, there’s a series of [​free training videos](https://perma.cc/82PU-8V5J).
 
@@ -145,7 +145,7 @@ Data extracts (.tde and .hyper) may be opened and reviewed using Tableau Desktop
 
 - [Compatibility information regarding .hyper, .tde, and versions of Tableau Desktop](https://help.tableau.com/current/pro/desktop/en-us/extracting_upgrade.htm)
 
-# 6.0 Preservation actions
+# Preservation actions
 
 Tableau workbook files are a proprietary format. That said, there are advantages to keeping data files generated in Tableau Desktop in their original .twb and .twbx formats; it maintains the overlying exploration and analysis actions performed on the source data (e.g., calculated fields, dynamic data views).
 
@@ -157,7 +157,7 @@ To save the Tableau views, static images of the dashboard can be saved as PDF fi
 
 https://help.tableau.com/current/pro/desktop/en-us/save_export_image.htm
 
-# 7.0 What to look for to make sure this file meets FAIR principles
+# What to look for to make sure this file meets FAIR principles
 
 The FAIR principles emphasize machine-actionability of digital assets. (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention).
 
@@ -169,7 +169,7 @@ The FAIR principles emphasize machine-actionability of digital assets. (i.e., th
 
 **Reusable:** If not included in the non-proprietary version of the visualization, the Tableau metadata needs to describe the scope of the data, parameters of data collections, and ensure that all variable names are explained or self-explanatory.
 
-# 8.0 Ways in which fields may use this format
+# Ways in which fields may use this format
 
 ***Tableau use.*** Tableau visualizations have origins in business intelligence though their use has expanded throughout the private and academic sectors. Tableau applications mainly fall into two categories:
 
@@ -193,7 +193,7 @@ Note, while Tableau Desktop does have mapping capabilities, other GIS tools may 
 
 - [Information on reshaping (survey) data for Tableau](https://perma.cc/QQL6-7SKL)
 
-# 9.0 Documentation of curation process
+# Documentation of curation process
 
 During the curation process, it’s important to include:
 
@@ -201,13 +201,13 @@ During the curation process, it’s important to include:
 
 - Information on changes made between versions or file formats (e.g., converting .tde to .hyper data extract or upgrading a .twb or .twbx to a newer Tableau Desktop version), including software versions used.
 
-# 10.0 This primer as a living document
+# This primer as a living document
 
 This primer is intended as a living document, one that should be regularly evaluated and revised as it is tested and used in the curation process. The initial draft aimed to demystify the Tableau formats for curators that may increasingly encounter them. It is expected that revisions will be needed as additional needed clarifications are flagged, updates are made to the Tableau formats and products, and curation workflows are tweaked.
 
 # Appendix A: filetype CURATED checklist
 
-The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps ​https://datacurationnetwork.org/resources/resources-2/​.
+The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps https://datacurationnetwork.org/resources/resources-2/.
 
 **Check** files and read documentation
 - View the files in Tableau desktop and Tableau Public to see the files in their native formats.
@@ -248,7 +248,7 @@ For more information on the Tableau file types, see the [Tableau documentation](
 
   “Salesforce Completes Acquisition of Tableau | Tableau Software.” Accessed August 21, 2019.
 
-  > https://perma.cc/P94J-VQKT​.
+  > https://perma.cc/P94J-VQKT.
 
   “Tableau File Types and Folders - Tableau.” Accessed May 14, 2019.
 
@@ -260,21 +260,21 @@ For more information on the Tableau file types, see the [Tableau documentation](
 
   “Workbook Version Compatibility - Tableau.” Accessed September 5, 2019.
 
-  > https://help.tableau.com/current/pro/desktop/en-gb/publish_version_compatibility.htm​.
+  > https://help.tableau.com/current/pro/desktop/en-gb/publish_version_compatibility.htm.
  
 ### Tableau Desktop components
 
   “Dimensions and Measures, Blue and Green - Tableau.” Accessed September 6, 2019.
 
-  > https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm​.
+  > https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm.
 
   “Shelves and Cards Reference - Tableau.” Accessed September 6, 2019.
 
-  > https://help.tableau.com/current/pro/desktop/en-us/buildmanual_shelves.htm​.
+  > https://help.tableau.com/current/pro/desktop/en-us/buildmanual_shelves.htm.
 
   “Workbooks and Sheets - Tableau.” Accessed September 5, 2019.
 
-  > https://help.tableau.com/current/pro/desktop/en-us/environ_workbooksandsheets.htm​.
+  > https://help.tableau.com/current/pro/desktop/en-us/environ_workbooksandsheets.htm.
 
 ### Tableau how to’s
 
