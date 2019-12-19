@@ -27,31 +27,31 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 **Summary**
 
-[Description of Format](description-of-format)
+[Description of Format](#description-of-format)
 
-[Examples with sample data set citations](examples-with-sample-data-set-citations)
+[Examples with sample data set citations](#examples-with-sample-data-set-citations)
 
-[Key questions for curation review](key-qustions-for-curation-review)
+[Key questions for curation review](#key-qustions-for-curation-review)
 
-[Applicable metadata standard, core elements, and README requirements](applicable-metadata-standard)
+[Applicable metadata standard, core elements, and README requirements](#applicable-metadata-standard)
 
-[Resources or Software for viewing or analyzing data](resources-or-software-for-viewing-or-analyzing-data)
+[Resources or Software for viewing or analyzing data](#resources-or-software-for-viewing-or-analyzing-data)
 
-[Preservation actions](preservation-actions)
+[Preservation actions](#preservation-actions)
 
-[What to look for to make sure this file meets FAIR principles](what-tolook-for-to-make-sure-this-file-meets-fair-principles)
+[What to look for to make sure this file meets FAIR principles](#what-tolook-for-to-make-sure-this-file-meets-fair-principles)
 
-[Ways in which fields may use this format](ways-in-which-fields-may-use-this-format)
+[Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format)
 
-[Documentation of curation process](documentation-of-curation-process)
+[Documentation of curation process](#documentation-of-curation-process)
 
-[This primer as a living document](this-primer-as-aliving-document)
+[This primer as a living document](#this-primer-as-aliving-document)
 
-[Appendix A: filetype CURATED checklist](appendix-a)
+[Appendix A: filetype CURATED checklist](#appendix-a)
 
-[Appendix B: Other Tableau file formats](appendix-b)
+[Appendix B: Other Tableau file formats](#appendix-b)
 
-[References and Resources](references-and-resources) <br>
+[References and Resources](#references-and-resources) <br>
   > General Tableau resources <br>
   > Tableau Desktop components <br>
   > Tableau how to’s <br>
