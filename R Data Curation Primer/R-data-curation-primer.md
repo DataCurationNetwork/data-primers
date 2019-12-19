@@ -45,7 +45,7 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
 [Documentation of curation process: What do we capture from curation process](#documentation-of-curation-process-what-do-we-capture-from-curation-process)
 
-[Appendix A - filetype CURATED checklist](#appendix-a)
+[Appendix A - filetype CURATED checklist](#appendix-a-filetype-curated-checklist)
 
  # Description of Format
 
@@ -153,15 +153,15 @@ See software for viewing data (below). 
 
 R is a plain text file that can be opened in any text editor, but in order to work it needs to be run in the R  environment.  Simple text editor is sufficient for the file review, but editor with syntax highlighting, such as [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), or [Notepad++](https://notepad-plus-plus.org/) will make the review much easier. 
 - [R](https://www.r-project.org/): The R software environment is free to download and use.
-- [RStudio](https://rstudio.com/products/rstudio/download/): RStudio is an open source IDE (or integrated development environment) for R. It is free for non-commercial use. RStudio provides a nicer interface to view and analyze .R script files. RStudio requires R to be installed separately. They maintain a mirror as part of the Comprehensive R Archive Network (CRAN) for ​[precompiled binary distributions](https://cran.rstudio.com/)​ of the base system for download. 
+- [RStudio](https://rstudio.com/products/rstudio/download/): RStudio is an open source IDE (or integrated development environment) for R. It is free for non-commercial use. RStudio provides a nicer interface to view and analyze .R script files. RStudio requires R to be installed separately. They maintain a mirror as part of the Comprehensive R Archive Network (CRAN) for [precompiled binary distributions](https://cran.rstudio.com/) of the base system for download. 
 
 # Preservation actions
 
 R file is a plain text file, therefore the preservation stakes are not very high. Curators should be able to open  *.R files with any text editor, including Notepad, Notepad++, gedit, etc. There are no special concerns. One  possible concern may be with character encoding. For that, UTF-8 encoding is the best option, but if no  special or foreign language characters (such as Greek letters) or mathematical formulas are present, simple  ASCII is adequate. All other character encodings should probably be converted to Unicode. 
 
-# What to look for to make sure this file meets FAIR principle <sup>1</sup>
+# What to look for to make sure this file meets FAIR principle
 
-In order to evaluate an .R script file under the FAIR principles, it must be published in a manner that meets the  following:
+In order to evaluate an .R script file under the FAIR principles<sup>1</sup>, it must be published in a manner that meets the  following:
 
 - To be Findable: 
  - F1. metadata are assigned a globally unique and persistent identifier (e.g., DOI)
