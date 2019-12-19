@@ -53,11 +53,11 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
  ![](Rprimer1.jpeg)
 
-# Example .R File
+# Examples
 
 [WUSTL University Libraries](https://libguides.wustl.edu/c.php?g=385216&p=3093966) created a good [sample R code](  ) file that includes common R syntax including assignment statements, arithmetic functions, basic vectors and structures, and how to access data. Information about reading R code is included in the Resources for Reviewing Data section of this primer
 
-# Sample data set citation
+# Sample data set citations
 
 Hall, H., Ma, J., Shekhar, S., Leon-Salas, W. D., Weake, V. M. (2018). Blue light induces a neuroprotective gene  expression program in Drosophila photoreceptors - Supporting data for Hall and Ma et al. (2018). Purdue  University Research Repository. doi:10.4231/R77W69FM  (https://purr.purdue.edu/publications/3003/1)
 
@@ -111,10 +111,10 @@ README should provide information on  
 
 Since some R Packages are actively developed, it is a Best Practice to keep track of the version used. 
 
-- **Best Practices**​: A README will list the packages used by the script. This list should include the version  of the package and links to the package repository. 
- - (e.g.  ggplot v.3.2.0, ​https://cran.r-project.org/web/packages/ggplot2/index.html <br> dplyr v.0.8.3, ​https://cran.r-project.org/web/packages/dplyr/index.html​)  
+- **Best Practices**: A README will list the packages used by the script. This list should include the version  of the package and links to the package repository. 
+ - (e.g.  ggplot v.3.2.0, https://cran.r-project.org/web/packages/ggplot2/index.html <br> dplyr v.0.8.3, https://cran.r-project.org/web/packages/dplyr/index.html)  
 
-- **Good Enough Practices**: packages are usually listed at the beginning of a script in a block of text (see  image).  Typically the name of a package is in parentheses following the term ​library​. 
+- **Good Enough Practices** packages are usually listed at the beginning of a script in a block of text (see  image).  Typically the name of a package is in parentheses following the term *library*. 
 
 ![](Rprimer2.jpeg)
 
