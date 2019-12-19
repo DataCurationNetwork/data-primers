@@ -43,7 +43,7 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
 [Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format) 
 
-[Documentation of curation process: What do we capture from curation process](#documentation-of-curation-process-what-do--we-capture-from-curaiton-process)
+[Documentation of curation process: What do we capture from curation process](#documentation-of-curation-process-what-do-we capture-from-curation-process)
 
 [Appendix A - filetype CURATED checklist](#appendix-a)
 
