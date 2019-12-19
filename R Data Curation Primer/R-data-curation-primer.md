@@ -31,7 +31,7 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
 [Key clarifications to get from researcher](#key-clarifications-to-get-from-the-researcher) 
 
-[Applicable metadata standard, core elements and readme requirements](#applicable-metadata-standard)
+[Applicable metadata standard, core elements and readme requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
 
 [Resources for reviewing data](#resources-for-reviewing-data) 
 
