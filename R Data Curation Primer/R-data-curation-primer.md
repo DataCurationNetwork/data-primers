@@ -51,7 +51,7 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
  The file with the extension R (.R) typically contains a script written in R, which is a programming language and  environment for statistical computing and graphics. An R script file is a plain text file that stores the R code. R  script contains only instructions for analysing, manipulating, and visualising data, and optionally comments  explaining the code. The data are usually stored elsewhere and have to be loaded first, as well as optional R  packages that are often needed, so that script runs successfully.
 
- ![](Rprimer1.jpeg)
+ ![](Rprimer1.JPG)
 
 # Examples
 
@@ -116,7 +116,7 @@ Since some R Packages are actively developed, it is a Best Practice to keep trac
 
 - **Good Enough Practices** packages are usually listed at the beginning of a script in a block of text (see  image).  Typically the name of a package is in parentheses following the term *library*. 
 
-![](Rprimer2.jpeg)
+![](Rprimer2.JPG)
 
 **Metadata Standards**
 
