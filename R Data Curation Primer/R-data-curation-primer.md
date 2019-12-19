@@ -43,7 +43,7 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
 [Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format) 
 
-[Documentation of curation process: What do capture from curation process](#documentation-of-curation-process)
+[Documentation of curation process: What do we capture from curation process](#documentation-of-curation-process-what-do--we-capture-from-curaiton-process)
 
 [Appendix A - filetype CURATED checklist](#appendix-a)
 
@@ -59,9 +59,9 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
 # Sample data set citation
 
-Hall, H., Ma, J., Shekhar, S., Leon-Salas, W. D., Weake, V. M. (2018). Blue light induces a neuroprotective gene  expression program in Drosophila photoreceptors - Supporting data for Hall and Ma et al. (2018). Purdue  University Research Repository. doi:10.4231/R77W69FM  (​https://purr.purdue.edu/publications/3003/1​)
+Hall, H., Ma, J., Shekhar, S., Leon-Salas, W. D., Weake, V. M. (2018). Blue light induces a neuroprotective gene  expression program in Drosophila photoreceptors - Supporting data for Hall and Ma et al. (2018). Purdue  University Research Repository. doi:10.4231/R77W69FM  (https://purr.purdue.edu/publications/3003/1)
 
-Seliger, C. S. (2018). Text Mining and Plotting Tools for KSA / DS / HEI Research Study. Purdue University  Research Repository. doi:10.4231/R7MK6B49  (​https://purr.purdue.edu/publications/3041/1​)  
+Seliger, C. S. (2018). Text Mining and Plotting Tools for KSA / DS / HEI Research Study. Purdue University  Research Repository. doi:10.4231/R7MK6B49  (https://purr.purdue.edu/publications/3041/1)  
 
 # Key questions to ask yourself
 
@@ -114,7 +114,7 @@ Since some R Packages are actively developed, it is a Best Practice to keep trac
 - **Best Practices**​: A README will list the packages used by the script. This list should include the version  of the package and links to the package repository. 
  - (e.g.  ggplot v.3.2.0, ​https://cran.r-project.org/web/packages/ggplot2/index.html <br> dplyr v.0.8.3, ​https://cran.r-project.org/web/packages/dplyr/index.html​)  
 
-- **Good Enough Practices​**: packages are usually listed at the beginning of a script in a block of text (see  image).  Typically the name of a package is in parentheses following the term ​library​. 
+- **Good Enough Practices**: packages are usually listed at the beginning of a script in a block of text (see  image).  Typically the name of a package is in parentheses following the term ​library​. 
 
 ![](Rprimer2.jpeg)
 
@@ -151,7 +151,7 @@ See software for viewing data (below). 
 
 # Software for viewing or analyzing data
 
-R is a plain text file that can be opened in any text editor, but in order to work it needs to be run in the R  environment.  Simple text editor is sufficient for the file review, but editor with syntax highlighting, such as [Atom](https://atom.io/)​, [​Sublime Text​](https://www.sublimetext.com/), or [​Notepad++](https://notepad-plus-plus.org/)​ will make the review much easier. 
+R is a plain text file that can be opened in any text editor, but in order to work it needs to be run in the R  environment.  Simple text editor is sufficient for the file review, but editor with syntax highlighting, such as [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), or [Notepad++](https://notepad-plus-plus.org/) will make the review much easier. 
 - [R](https://www.r-project.org/): The R software environment is free to download and use.
 - [RStudio](https://rstudio.com/products/rstudio/download/): RStudio is an open source IDE (or integrated development environment) for R. It is free for non-commercial use. RStudio provides a nicer interface to view and analyze .R script files. RStudio requires R to be installed separately. They maintain a mirror as part of the Comprehensive R Archive Network (CRAN) for ​[precompiled binary distributions](https://cran.rstudio.com/)​ of the base system for download. 
 
