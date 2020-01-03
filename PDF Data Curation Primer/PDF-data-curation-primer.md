@@ -134,12 +134,11 @@ Data description documents provide additional details relating to the data to al
 Other related files that are often stored as PDF documents are those describing or including the research methods or  findings. These include protocols, figures, and the research manuscript or article itself. See below for examples.
 
 - Data collection methods
+  - Example 1: computational biology research steps: ​ https://conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
+  - Example 2: systematic review search strategy, quality appraisal, etc.:  ​ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008964/ (Supplementary Materials)
 
- - Example 1: computational biology research steps - ​ https://conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
-
- - Example 2: systematic review search strategy, quality appraisal, etc. -  ​ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008964/ (Supplementary Materials)
-
-- Charts, tables, and visualizations of findings - Example: figures from a geohistorical immigrant study -  ​ https://doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
+- Charts, tables, and visualizations of findings
+  - Example: figures from a geohistorical immigrant study:  ​ https://doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
 
 Sharing the underlying data as only the publication or in graphs or charts is common but impractical or labor-intensive.  “‘Send me your data—pdf is fine,’ said no one ever” by Rivers (2013) details basic steps to better share these files along  with the machine-actionable data. These supplemental files reporting methods and findings, including the manuscript  itself, as PDF documents along with the data files can assist with interpretation of the data and related findings. 
 
