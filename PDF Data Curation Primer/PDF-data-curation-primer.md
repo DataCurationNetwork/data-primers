@@ -118,16 +118,16 @@ Data description documents provide additional details relating to the data to al
 - Codebooks and Data Dictionaries:  
   - Additional Recommendations: ​ www.dataone.org/best-practices/create-data-dictionary
   - Example: American Time Use Survey data dictionaries - ​ www.bls.gov/tus/dictionaries.htm 
-  - Blank Template: ​ data.nal.usda.gov/data-dictionary-blank-template
+  - Blank Template: ​ https://data.nal.usda.gov/data-dictionary-blank-template
 
 - README Files: 
-  - Additional Recommendations: ​ data.research.cornell.edu/content/readme
-  - Example: Implicit Association Test README - ​ osf.io/s27xd 
-  - Blank Template: ​ cornell.app.box.com/v/ReadmeTemplate 
+  - Additional Recommendations: ​ https://data.research.cornell.edu/content/readme
+  - Example: Implicit Association Test README - ​ https://osf.io/s27xd/ 
+  - Blank Template: ​ https://cornell.app.box.com/v/ReadmeTemplate 
 
 - Survey Instruments - usually exported from the program
-  - Additional Recommendations:<br> ​ res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
-  - Example: Child Care Market Rate Survey instrument - ​ doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
+  - Additional Recommendations:<br> ​ https://res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
+  - Example: Child Care Market Rate Survey instrument - ​ https://doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
 
 ## Reporting Related Methods and Results
 
@@ -135,11 +135,11 @@ Other related files that are often stored as PDF documents are those describing 
 
 - Data collection methods
 
- - Example 1: computational biology research steps - ​ conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
+ - Example 1: computational biology research steps - ​ https://conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
 
- - Example 2: systematic review protocol -  ​ datadryad.org/bitstream/handle/10255/dryad.211406/Search%20protocol.pdf 
+ - Example 2: systematic review search strategy, quality appraisal, etc. -  ​ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008964/ (Supplementary Materials)
 
-- Charts, tables, and visualizations of findings - Example: figures from a geohistorical immigrant study -  ​ doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
+- Charts, tables, and visualizations of findings - Example: figures from a geohistorical immigrant study -  ​ https://doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
 
 Sharing the underlying data as only the publication or in graphs or charts is common but impractical or labor-intensive.  “‘Send me your data—pdf is fine,’ said no one ever” by Rivers (2013) details basic steps to better share these files along  with the machine-actionable data. These supplemental files reporting methods and findings, including the manuscript  itself, as PDF documents along with the data files can assist with interpretation of the data and related findings. 
 
@@ -173,7 +173,7 @@ Mobile applications allowing for reading PDF documents include Amazon Kindle app
 
 *__Uses Definitions__: ​ *creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.*
 
-<sub>*Information on this page adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*</sub>
+<sub>*Information adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*</sub>
 
 ## PDF CURATED Checklist
 
@@ -200,7 +200,7 @@ The following checklist is adapted from the original Data Curation Network (2018
 
 ## Additional Resources
 
-1. The FAIR Data Principles (2016). Available at ​force11.org/group/fairgroup/fairprinciples 
+1. The FAIR Data Principles (2016). Available at ​ https://www.force11.org/group/fairgroup/fairprinciples
 
 2. PDF/A Family, PDF for Long-term Preservation (2019). Available at  www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml  
 
