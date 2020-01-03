@@ -117,7 +117,7 @@ Data description documents provide additional details relating to the data to al
 
 - Codebooks and Data Dictionaries:  
   - Additional Recommendations: ​ www.dataone.org/best-practices/create-data-dictionary
-  - Example: American Time Use Survey data dictionaries: ​ www.bls.gov/tus/dictionaries.htm 
+  - Example: American Time Use Survey data dictionaries: ​ www.bls.gov/tus/dictionaries.htm 
   - Blank Template: ​ https://data.nal.usda.gov/data-dictionary-blank-template
 
 - README Files: 
@@ -171,7 +171,7 @@ The table below lists ​other **commonly used tools​**:  
 
 Mobile applications allowing for reading PDF documents include Amazon Kindle app, Google Drive app, iBooks, and Hancom  Office Editor. Web tools include Smallpdf (conversion); PDFVue, A.nnotate, DigiSigner (reading, annotating, filling out forms,  signing); and Docstoc, Issuu, PDF.js, and PDFTron Systems (reading).
 
-*__Uses Definitions__: ​ *creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.*
+***__Uses Definitions__: ​ creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.**
 
 <sub>*Information adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*</sub>
 
