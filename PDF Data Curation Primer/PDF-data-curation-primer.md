@@ -116,25 +116,18 @@ Data description documents provide additional details relating to the data to al
 **Common Types**
 
 - Codebooks and Data Dictionaries:  
- - Additional Recommendations: ​www.dataone.org/best-practices/create-data-dictionary
-  
- - Example: American Time Use Survey data dictionaries - ​www.bls.gov/tus/dictionaries.htm 
-
- - Blank Template: ​data.nal.usda.gov/data-dictionary-blank-template
+  - Additional Recommendations: ​ www.dataone.org/best-practices/create-data-dictionary
+  - Example: American Time Use Survey data dictionaries - ​ www.bls.gov/tus/dictionaries.htm 
+  - Blank Template: ​ data.nal.usda.gov/data-dictionary-blank-template
 
 - README Files: 
-
- - Additional Recommendations: ​data.research.cornell.edu/content/readme
-
- - Example: Implicit Association Test README - ​osf.io/s27xd 
-
- - Blank Template: ​cornell.app.box.com/v/ReadmeTemplate 
+  - Additional Recommendations: ​ data.research.cornell.edu/content/readme
+  - Example: Implicit Association Test README - ​ osf.io/s27xd 
+  - Blank Template: ​ cornell.app.box.com/v/ReadmeTemplate 
 
 - Survey Instruments - usually exported from the program
-
- - Additional Recommendations:<br> res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
-
- - Example: Child Care Market Rate Survey instrument - ​doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
+  - Additional Recommendations:<br> ​ res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
+  - Example: Child Care Market Rate Survey instrument - ​ doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
 
 ## Reporting Related Methods and Results
 
@@ -142,11 +135,11 @@ Other related files that are often stored as PDF documents are those describing 
 
 - Data collection methods
 
- - Example 1: computational biology research steps - ​conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
+ - Example 1: computational biology research steps - ​ conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
 
- - Example 2: systematic review protocol -  datadryad.org/bitstream/handle/10255/dryad.211406/Search%20protocol.pdf 
+ - Example 2: systematic review protocol -  ​ datadryad.org/bitstream/handle/10255/dryad.211406/Search%20protocol.pdf 
 
-- Charts, tables, and visualizations of findings - Example: figures from a geohistorical immigrant study -  doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
+- Charts, tables, and visualizations of findings - Example: figures from a geohistorical immigrant study -  ​ doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
 
 Sharing the underlying data as only the publication or in graphs or charts is common but impractical or labor-intensive.  “‘Send me your data—pdf is fine,’ said no one ever” by Rivers (2013) details basic steps to better share these files along  with the machine-actionable data. These supplemental files reporting methods and findings, including the manuscript  itself, as PDF documents along with the data files can assist with interpretation of the data and related findings. 
 
