@@ -98,8 +98,8 @@ README should provide information on  
 - The expected output.
 
 - List of dependencies (things the script(s) need(s) to successfully run) such as
- - Other datasets or additional scripts that are called in the .R file.  
- - Packages
+    - Other datasets or additional scripts that are called in the .R file.  
+    - Packages
 
  Optional
 
@@ -112,7 +112,7 @@ README should provide information on  
 Since some R Packages are actively developed, it is a Best Practice to keep track of the version used. 
 
 - **Best Practices**: A README will list the packages used by the script. This list should include the version  of the package and links to the package repository. 
- - (e.g.  ggplot v.3.2.0, https://cran.r-project.org/web/packages/ggplot2/index.html <br> dplyr v.0.8.3, https://cran.r-project.org/web/packages/dplyr/index.html)  
+    - (e.g.  ggplot v.3.2.0, https://cran.r-project.org/web/packages/ggplot2/index.html <br> dplyr v.0.8.3, https://cran.r-project.org/web/packages/dplyr/index.html)  
 
 - **Good Enough Practices** packages are usually listed at the beginning of a script in a block of text (see  image).  Typically the name of a package is in parentheses following the term *library*. 
 
@@ -135,17 +135,17 @@ See software for viewing data (below). 
 
 **R Tutorials**
 - Software Carpentry lessons are generally more accessible for new learners. An overview of the **R Studio interface** is included in this tutorial.
- - http://swcarpentry.github.io/r-novice-gapminder/
+    - http://swcarpentry.github.io/r-novice-gapminder/
 
 - Tutorials as part of the R Network
- - https://cran.r-project.org/manuals.html#R-exts
- - https://cran.r-project.org/doc/manuals/r-release/R-intro.html 
+    - https://cran.r-project.org/manuals.html#R-exts
+    - https://cran.r-project.org/doc/manuals/r-release/R-intro.html 
 
 - Tutorials curated by R Studio
- - https://www.rstudio.com/online-learning/ 
+    - https://www.rstudio.com/online-learning/ 
 
  Peng, R. D. (2016). R Programming for Data Science. 5th Edition edition. lulu.com. 
- > https://bookdown.org/rdpeng/rprogdatascience/ 
+- https://bookdown.org/rdpeng/rprogdatascience/ 
 
  Wickham, H., & Grolemund, G. (2017). R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (1 edition). Sebastopol, CA: O’Reilly Media. ​http://r4ds.had.co.nz/ 
 
@@ -164,22 +164,22 @@ R file is a plain text file, therefore the preservation stakes are not very high
 In order to evaluate an .R script file under the FAIR principles<sup>1</sup>, it must be published in a manner that meets the  following:
 
 - To be Findable: 
- - F1. metadata are assigned a globally unique and persistent identifier (e.g., DOI)
- - F2. .R file is described with rich metadata 
- - F3. metadata clearly and explicitly include the identifier of the data it describes 
- - F4. metadata are registered or indexed in a searchable resource 
+    - F1. metadata are assigned a globally unique and persistent identifier (e.g., DOI)
+    - F2. .R file is described with rich metadata 
+    - F3. metadata clearly and explicitly include the identifier of the data it describes 
+    - F4. metadata are registered or indexed in a searchable resource 
 
 - To be Accessible:
- - A1. metadata are retrievable by their identifier using a standardized communications protocol
- - A2. metadata are accessible, even when the .R file is no longer available
+    - A1. metadata are retrievable by their identifier using a standardized communications protocol
+    - A2. metadata are accessible, even when the .R file is no longer available
 
 - To be Interoperable: 
- - I1. metadata use a formal, accessible, shared, and broadly applicable language 
- - I2. metadata use vocabularies that follow FAIR principles 
- - I3. metadata include qualified references to other metadata
+    - I1. metadata use a formal, accessible, shared, and broadly applicable language 
+    - I2. metadata use vocabularies that follow FAIR principles 
+    - I3. metadata include qualified references to other metadata
 
 - To be Reusable:
- - R1. metadata are richly described with a plurality of accurate and relevant attributes including  usage license, provenance, and domain-relevant community standards 
+    - R1. metadata are richly described with a plurality of accurate and relevant attributes including  usage license, provenance, and domain-relevant community standards 
 
 As the Tableau workbook (.twb) is a XML-structured format, the file can be opened with any XML-compatible viewer or editor to review the source XML code.
 
