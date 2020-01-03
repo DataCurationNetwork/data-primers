@@ -117,7 +117,7 @@ Data description documents provide additional details relating to the data to al
 
 - Codebooks and Data Dictionaries:  
   - Additional Recommendations: ​ www.dataone.org/best-practices/create-data-dictionary
-  - Example: American Time Use Survey data dictionaries - ​ www.bls.gov/tus/dictionaries.htm 
+  - Example: American Time Use Survey data dictionaries: ​ www.bls.gov/tus/dictionaries.htm 
   - Blank Template: ​ https://data.nal.usda.gov/data-dictionary-blank-template
 
 - README Files: 
@@ -127,7 +127,7 @@ Data description documents provide additional details relating to the data to al
 
 - Survey Instruments - usually exported from the program
   - Additional Recommendations:<br> ​ https://res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
-  - Example: Child Care Market Rate Survey instrument - ​ https://doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
+  - Example: Child Care Market Rate Survey instrument - ​ https://doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
 
 ## Reporting Related Methods and Results
 
