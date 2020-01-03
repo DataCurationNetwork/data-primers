@@ -11,7 +11,9 @@
 | Extension | .pdf  |
 | MIME Type | <p> application/pdf &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; application/x-bzpdf <br> application/x-pdf &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; application/x-gzpdf <br> application/acrobat &nbsp; &nbsp; &nbsp; &nbsp; text/pdf <br> application/vnd.pdf &nbsp; &nbsp; &nbsp; &nbsp; text/x-pdf</p> |
 | Structure | 7-bit ASCII file that consists of a subset of PostScript for layout and graphics along with a  font-embedding/replacement system and a structured storage system bundling embedded elements  and associated content into one file. |
-| Versions | <p> Recent versions: PDF 1.7 (ISO 32000:1:2008) does not include Adobe Extensions; however, PDF 2.0 (ISO 32000-2:2017) is fully inclusive and open technology (PDF Association, 2017). <br> <br> **Notable Past Versions** <li> ***PDF Version (Year)***: 1.0 (1993) <br> ***Significant Features Added***: Hyperlinks, bookmarks <br> ***Acrobat Reader Version (No.)***: Carousel </li> <br> <li> ***PDF Version (Year)***: 1.2 (1996) <br> ***Significant Features Added***: Interactive page elements (radio buttons, checkboxes), AcroForm and FDF <br> ***Acrobat Reader Version (No.)***: 3.0 </li> <br> <li> ***PDF Version (Year)***: 1.3 (2000) <br> ***Significant Features Added***: Digital signatures; capture, conversion, and mapping functionality <br> ***Acrobat Reader Version (No.)***: 4.0 </li> <br> <li> ***PDF Version (Year)***: 1.4 (2001) <br> ***Significant Features Added***: RC4 encryption key lengths 40-128 bits, embedded FDF files, accessibility features, XMP metadata streams, importing content from other PDF documents <br> ***Acrobat Reader Version (No.)***: 5.0 </li> <br> <li> ***PDF Version (Year)***: 1.5 <br> ***Significant Features Added***: XML FDF (XFDF) <br> ***Acrobat Reader Version (No.)***: 6.0 </li> <br> <li> ***PDF Version (Year)***: 1.6 <br> ***Significant Features Added***: OpenType font embedding, cross-document linking <br> ***Acrobat Reader Version (No.)***: 7.0 </li> <br><br> *Information adapted from​ https://en.wikipedia.org/wiki/History_of_the_Portable_Document_Format_(PDF)* </p> |
+| Versions | <p> Recent versions: PDF 1.7 (ISO 32000:1:2008) does not include Adobe Extensions; however, PDF 2.0 (ISO 32000-2:2017) is fully inclusive and open technology (PDF Association, 2017). <br> <br> **Notable Past Versions**<br> <sub>**Version(Year)**</sub> <li>
+ - __Version 1.0__ (1993)
+   - __Significant Features Added__: Hyperlinks, bookmarks <br> __Acrobat Reader Version (No.)__: Carousel </li>  - __PDF Version (Year)__: 1.2 (1996) <br> __Significant Features Added__: Interactive page elements (radio buttons, checkboxes), AcroForm and FDF <br> __Acrobat Reader Version (No.)__: 3.0 </li> <br> <li> __PDF Version (Year)__: 1.3 (2000) <br> __Significant Features Added__: Digital signatures; capture, conversion, and mapping functionality <br> __Acrobat Reader Version (No.)__: 4.0 </li> <br> <li> __PDF Version (Year)__: 1.4 (2001) <br> __Significant Features Added__: RC4 encryption key lengths 40-128 bits, embedded FDF files, accessibility features, XMP metadata streams, importing content from other PDF documents <br> __Acrobat Reader Version (No.)__: 5.0 </li> <br> <li> __PDF Version (Year)__: 1.5 <br> __Significant Features Added__: XML FDF (XFDF) <br> __Acrobat Reader Version (No.)__: 6.0 </li> <br> <li> __PDF Version (Year)__: 1.6 <br> __Significant Features Added__: OpenType font embedding, cross-document linking <br> __Acrobat Reader Version (No.)__: 7.0 </li> <br><br> <sub>*Information adapted from​ https://en.wikipedia.org/wiki/History_of_the_Portable_Document_Format_(PDF)*</sub> </p> |
 | Primary fields or areas of use | Ubiquitous use |
 | Source and affiliation | Versions 1.0 -1.6 were proprietary - developed and managed by Adobe Systems, adding new features  from 1993-2006. Versions 1.7 and onward are open standards, managed by ISO. |
 | Metadata | |
@@ -71,7 +73,7 @@
 
 - electronic forms to gather data and integrate with business systems.
 
-*List adapted from ​ https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf, p vii.*
+<sub>*List adapted from ​ https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf, p vii.*</sub>
 
 ### Standards, Specifications, and Subsets
 
@@ -178,9 +180,9 @@ The table below lists ​other **commonly used tools​**:  
 
 Mobile applications allowing for reading PDF documents include Amazon Kindle app, Google Drive app, iBooks, and Hancom  Office Editor. Web tools include Smallpdf (conversion); PDFVue, A.nnotate, DigiSigner (reading, annotating, filling out forms,  signing); and Docstoc, Issuu, PDF.js, and PDFTron Systems (reading).
 
-***Uses Definitions***: ​ *creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.*
+*__Uses Definitions__: ​ *creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.*
 
-*Information on this page adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*
+<sub>*Information on this page adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*</sub>
 
 ## PDF CURATED Checklist
 
