@@ -27,7 +27,7 @@
 
 ## Curation workflow decision tree
 
-![](Confocal1.jpeg)
+![](Confocal1.JPG)
 
 Figure 1. Curation flowchart.
 
@@ -77,7 +77,7 @@ The purpose of this primer is to guide a data curator through the curation proce
 
 Many microscopes produce proprietary formats, but it is recommended that users convert to TIFF to be submitted to repository, because it is sufficient to reproduce analysis using the TIFF format.
 
-![](Confocal2.jpeg)
+![](Confocal2.JPG)
 
 (Example confocal image - Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse<sup>6</sup>)
 
