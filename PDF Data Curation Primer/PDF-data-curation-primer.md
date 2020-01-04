@@ -11,7 +11,7 @@
 | Extension | .pdf  |
 | MIME Type | <p> application/pdf &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; application/x-bzpdf <br> application/x-pdf &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; application/x-gzpdf <br> application/acrobat &nbsp; &nbsp; &nbsp; &nbsp; text/pdf <br> application/vnd.pdf &nbsp; &nbsp; &nbsp; &nbsp; text/x-pdf</p> |
 | Structure | 7-bit ASCII file that consists of a subset of PostScript for layout and graphics along with a  font-embedding/replacement system and a structured storage system bundling embedded elements  and associated content into one file. |
-| Versions | <p> Recent versions: PDF 1.7 (ISO 32000:1:2008) does not include Adobe Extensions; however, PDF 2.0 (ISO 32000-2:2017) is fully inclusive and open technology (PDF Association, 2017). <br> <br> **Notable Past Versions** <li> ***PDF Version (Year)***: 1.0 (1993) <br> ***Significant Features Added***: Hyperlinks, bookmarks <br> ***Acrobat Reader Version (No.)***: Carousel </li> <br> <li> ***PDF Version (Year)***: 1.2 (1996) <br> ***Significant Features Added***: Interactive page elements (radio buttons, checkboxes), AcroForm and FDF <br> ***Acrobat Reader Version (No.)***: 3.0 </li> <br> <li> ***PDF Version (Year)***: 1.3 (2000) <br> ***Significant Features Added***: Digital signatures; capture, conversion, and mapping functionality <br> ***Acrobat Reader Version (No.)***: 4.0 </li> <br> <li> ***PDF Version (Year)***: 1.4 (2001) <br> ***Significant Features Added***: RC4 encryption key lengths 40-128 bits, embedded FDF files, accessibility features, XMP metadata streams, importing content from other PDF documents <br> ***Acrobat Reader Version (No.)***: 5.0 </li> <br> <li> ***PDF Version (Year)***: 1.5 <br> ***Significant Features Added***: XML FDF (XFDF) <br> ***Acrobat Reader Version (No.)***: 6.0 </li> <br> <li> ***PDF Version (Year)***: 1.6 <br> ***Significant Features Added***: OpenType font embedding, cross-document linking <br> ***Acrobat Reader Version (No.)***: 7.0 </li> <br><br> *Information adapted from​ https://en.wikipedia.org/wiki/History_of_the_Portable_Document_Format_(PDF)* </p> |
+| Versions | <p> Recent versions: PDF 1.7 (ISO 32000:1:2008) does not include Adobe Extensions; however, PDF 2.0 (ISO 32000-2:2017) is fully inclusive and open technology (PDF Association, 2017). <br> <br> **Notable Past Versions**<br> <sub>**Version(Year)**</sub> <li> __Version 1.0 (1993)__ <br> __Significant Features Added__: Hyperlinks, bookmarks <br> __Acrobat Reader Version (No.)__: Carousel </li> <br> <li> __Version 1.2 (1996)__ <br> __Significant Features Added__: Interactive page elements (radio buttons, checkboxes), AcroForm and FDF <br> __Acrobat Reader Version (No.)__: 3.0 </li> <br> <li> __Version 1.3 (2000)__ <br> __Significant Features Added__: Digital signatures; capture, conversion, and mapping functionality <br> __Acrobat Reader Version (No.)__: 4.0 </li> <br> <li> __Version 1.4 (2001)__ <br> __Significant Features Added__: RC4 encryption key lengths 40-128 bits, embedded FDF files, accessibility features, XMP metadata streams, importing content from other PDF documents <br> __Acrobat Reader Version (No.)__: 5.0 </li> <br> <li> __Version 1.5 (2003)__ <br> __Significant Features Added__: XML FDF (XFDF) <br> __Acrobat Reader Version (No.)__: 6.0 </li> <br> <li> __Version 1.6 (2004)__ <br> __Significant Features Added__: OpenType font embedding, cross-document linking <br> __Acrobat Reader Version (No.)__: 7.0 </li> <br><br> <sub>*Information adapted from​ https://en.wikipedia.org/wiki/History_of_the_Portable_Document_Format_(PDF)*</sub> </p> |
 | Primary fields or areas of use | Ubiquitous use |
 | Source and affiliation | Versions 1.0 -1.6 were proprietary - developed and managed by Adobe Systems, adding new features  from 1993-2006. Versions 1.7 and onward are open standards, managed by ISO. |
 | Metadata | |
@@ -71,7 +71,7 @@
 
 - electronic forms to gather data and integrate with business systems.
 
-*List adapted from ​ https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf, p vii.*
+<sub>*List adapted from ​ https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf, p vii.*</sub>
 
 ### Standards, Specifications, and Subsets
 
@@ -116,37 +116,29 @@ Data description documents provide additional details relating to the data to al
 **Common Types**
 
 - Codebooks and Data Dictionaries:  
- - Additional Recommendations: ​www.dataone.org/best-practices/create-data-dictionary
-  
- - Example: American Time Use Survey data dictionaries - ​www.bls.gov/tus/dictionaries.htm 
-
- - Blank Template: ​data.nal.usda.gov/data-dictionary-blank-template
+  - Additional Recommendations: ​ www.dataone.org/best-practices/create-data-dictionary
+  - Example: American Time Use Survey data dictionaries: ​ www.bls.gov/tus/dictionaries.htm 
+  - Blank Template: ​ https://data.nal.usda.gov/data-dictionary-blank-template
 
 - README Files: 
-
- - Additional Recommendations: ​data.research.cornell.edu/content/readme
-
- - Example: Implicit Association Test README - ​osf.io/s27xd 
-
- - Blank Template: ​cornell.app.box.com/v/ReadmeTemplate 
+  - Additional Recommendations: ​ https://data.research.cornell.edu/content/readme
+  - Example: Implicit Association Test README - ​ https://osf.io/s27xd/ 
+  - Blank Template: ​ https://cornell.app.box.com/v/ReadmeTemplate 
 
 - Survey Instruments - usually exported from the program
-
- - Additional Recommendations:<br> res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
-
- - Example: Child Care Market Rate Survey instrument - ​doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
+  - Additional Recommendations:<br> ​ https://res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
+  - Example: Child Care Market Rate Survey instrument - ​ https://doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
 
 ## Reporting Related Methods and Results
 
 Other related files that are often stored as PDF documents are those describing or including the research methods or  findings. These include protocols, figures, and the research manuscript or article itself. See below for examples.
 
 - Data collection methods
+  - Example 1: computational biology research steps: ​ https://conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
+  - Example 2: systematic review search strategy, quality appraisal, etc.:  ​ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008964/ (Supplementary Materials)
 
- - Example 1: computational biology research steps - ​conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
-
- - Example 2: systematic review protocol -  datadryad.org/bitstream/handle/10255/dryad.211406/Search%20protocol.pdf 
-
-- Charts, tables, and visualizations of findings - Example: figures from a geohistorical immigrant study -  doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
+- Charts, tables, and visualizations of findings
+  - Example: figures from a geohistorical immigrant study:  ​ https://doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
 
 Sharing the underlying data as only the publication or in graphs or charts is common but impractical or labor-intensive.  “‘Send me your data—pdf is fine,’ said no one ever” by Rivers (2013) details basic steps to better share these files along  with the machine-actionable data. These supplemental files reporting methods and findings, including the manuscript  itself, as PDF documents along with the data files can assist with interpretation of the data and related findings. 
 
@@ -178,9 +170,9 @@ The table below lists ​other **commonly used tools​**:  
 
 Mobile applications allowing for reading PDF documents include Amazon Kindle app, Google Drive app, iBooks, and Hancom  Office Editor. Web tools include Smallpdf (conversion); PDFVue, A.nnotate, DigiSigner (reading, annotating, filling out forms,  signing); and Docstoc, Issuu, PDF.js, and PDFTron Systems (reading).
 
-***Uses Definitions***: ​ *creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.*
+***__Uses Definitions__: ​ creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.**
 
-*Information on this page adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*
+<sub>*Information adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*</sub>
 
 ## PDF CURATED Checklist
 
@@ -207,7 +199,7 @@ The following checklist is adapted from the original Data Curation Network (2018
 
 ## Additional Resources
 
-1. The FAIR Data Principles (2016). Available at ​force11.org/group/fairgroup/fairprinciples 
+1. The FAIR Data Principles (2016). Available at ​ https://www.force11.org/group/fairgroup/fairprinciples
 
 2. PDF/A Family, PDF for Long-term Preservation (2019). Available at  www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml  
 
