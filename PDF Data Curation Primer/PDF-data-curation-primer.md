@@ -18,8 +18,15 @@
 | Key questions for curation review | |
 | Tools for curation review | |
 | Date Created | |
-| Created by | <p> Peace Ossom-Williamson (​peace@uta.edu​), Nicole Contaxis (​nicole.contaxis@nyulangone.org​),  Margaret Lam (​mlam3@gmu.edu​), Adam Kriesberg (​akriesberg@gmail.com​) <br><br> **Mentor**: ​Jake Carlson (​jakecar@umich.edu​) </p> |
+| Created by | <p> Peace Ossom-Williamson (​peace@uta.edu​) <br>Nicole Contaxis (​nicole.contaxis@nyulangone.org​) <br>Margaret Lam (​mlam3@gmu.edu​) <br>Adam Kriesberg (​akriesberg@gmail.com​) <br><br> **Mentor**: ​Jake Carlson (​jakecar@umich.edu​) </p> |
 | Date updated and summary of changes made | |
+
+---------------------------
+**Suggested Citation:** Ossom-Williamson, Peace; Contaxis, Nicole; Lam, Margaret; Kriesburg, Adam. (2019). PDF Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
+----------------------------
 
 ### Table of Contents
 
@@ -42,10 +49,6 @@
 > [Additional Resources](#additional-resources)
 
 > [References](#references)
-
-# Primer for Data Curators: PDF Documents
-
- by Peace Ossom-Williamson, Nicole Contaxis, Margaret Lam, and Adam Kriesber
 
 ## Description of Format
 
