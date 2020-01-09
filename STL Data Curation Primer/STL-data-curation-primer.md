@@ -219,6 +219,8 @@ Henri, Janine. “Describing 3D Models: Thesauri, Controlled Vocabularies, and M
 
 ## Appendix STL filetype CURATED checklist
 
+Modified from the Data Curation Network's [Checklist of CURATED Steps](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)
+
 #### CHECK Step
 
 ![](stl7.jpeg)
