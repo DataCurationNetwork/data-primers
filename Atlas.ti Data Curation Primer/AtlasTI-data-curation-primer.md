@@ -24,6 +24,12 @@ Mentor:  David Fearon, Johns Hopkins, (​dfearon@jhu.edu​)
 | Created by | Margarita Corral (mcorral@brandeis.edu) |
 | Date updated and summary of changes made | November 1st, 2019. Notes about REFI-QDA standard, converting files from different versions, added information about codebooks.  Added a section on Human Subjects concerns. December 5, 2019. Added a link to  information about QDPX files. Information about importing projects created in older versions. |
 
+--------------------------
+**Suggested Citation:** Corral, Margarita. (2019). Atlas.ti Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
+--------------------------
 # Table of Contents
 
 [Description of format](#1-description-of-format)
