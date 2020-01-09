@@ -10,15 +10,13 @@
 **Mentor:**       Wendy Kozlowski, Cornell University ([wak57@cornell.edu](mailto:wak57@cornell.edu))
 
 
-**Suggested Citation:** Greg Janée, Sandra Sawchuk, Ho Jung Yoo, (2019), Microsoft Excel Data Curation Primer, v.1.0, Data Curation Network GitHub Repository, https://github.com/DataCurationNetwork/data-primers/edit/master/Excel%20Data%20Curation%20Primer/Excel%20Data%20Curation%20Primer.md   
+**Suggested Citation:** Janée, Greg; Sawchuk, Sandra; Yoo, Ho Jung. (2019). Microsoft Excel Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 An archived version of this primer is available at:  Greg Janée, Sandra Sawchuk, Ho Jung Yoo. (2019). Microsoft Excel Data Curation Primer. Retrieved from the University of Minnesota Digital Conservancy.  http://hdl.handle.net/11299/202816.
-
 
 This work was created as part of the Data Curation Network “Specialized Data Curation” Workshop #1 co-located with the Digital Library Federation (DLF) Forum 2018 in Las Vegas, Nevada on October 17-18, 2018.  These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
 
 See also: Primers authored by the workshop attendees at DLF: http://datacurationnetwork.org.
-
 
 # Table of contents
 
