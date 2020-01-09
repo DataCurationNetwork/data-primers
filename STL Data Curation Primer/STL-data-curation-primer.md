@@ -158,11 +158,11 @@ The following outline lists recommendations for repositories accepting STL submi
 - Convert the STL file to ASCII encoding if necessary
   - To check encoding of original STL file, open it using any common text editor (Notepad, TextEdit, etc.)
 
-![](stl5.jpg)
+![](stl5.jpeg)
 
   - Binary to ASCII conversion using MeshLab
 
-![](stl6.jpg)
+![](stl6.jpeg)
 
 ## FAIR principles
 
