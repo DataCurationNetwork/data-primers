@@ -100,21 +100,21 @@ There are several websites and online exchanges where communities of people can 
 
 - [GLC Player](http://www.glc-player.net): (recommended option) A free tool for viewing, navigating, and managing 3D models. (Works on Mac, Linux, and Windows operating systems. GNU General Public License. )
 
-![](stl1.jpg)
+![](stl1.jpeg)
 
 - [Microsoft 3D Viewer](https://www.microsoft.com/en-us/p/3d-viewer/9nblggh42ths?activetab=pivot:overviewtab): (alternate option) Windows 10 app that lets you view 3D models and animations in real-time. 3D Viewer lets you view 3D models with lighting controls, inspect model data, and visualize different shading modes. (Works only on Windows operating systems. Proprietary license.)
 
-![](stl2.jpg)
+![](stl2.jpeg)
 
 #### View, Edit, and Analyze
 
 - [MeshLab](http://www.meshlab.net): (recommended option) A free, open-source tool for opening, viewing, transforming, and repairing STL files. While it lacks the functionality to create files, it is user-friendly and has a relatively simple interface. Decent documentation is also available for performing simple tasks. (Works on Mac, Linux, and Windows operating systems. GNU General Public License.)
 
-![](stl3.jpg)
+![](stl3.jpeg)
 
 - [Blender](https://www.blender.org): (alternate option) A free, open-source tool for professional-level model creation, viewing, and repairing. While very powerful, this tool has a high learning curve and requires significant processing abilities to render files and perform actions. It is probably best used for complex files. There are many online tutorials for understanding and using the software’s robust tools. ​(Works on Mac, Linux, and Windows operating systems. GNU General Public License.)
 
-![](stl4.jpg)
+![](stl4.jpeg)
 
 ## Key curatorial questions
 
@@ -214,31 +214,31 @@ Henri, Janine. “Describing 3D Models: Thesauri, Controlled Vocabularies, and M
 
 #### CHECK Step
 
-![](stl7.jpg)
+![](stl7.jpeg)
 
 #### UNDERSTAND Step
 
-![](stl8.jpg)
+![](stl8.jpeg)
 
 #### REQUEST Step
 
-![](stl9.jpg)
+![](stl9.jpeg)
 
 #### AUGMENT Step
 
-![](stl10.jpg)
+![](stl10.jpeg)
 
 #### TRANSFORM Step
 
-![](stl11.jpg)
+![](stl11.jpeg)
 
 #### EVALUATE Step
 
-![](stl12.jpg)
+![](stl12.jpeg)
 
 #### DOCUMENT Step
 
-![](stl13.jpg)
+![](stl13.jpeg)
 
 
 
