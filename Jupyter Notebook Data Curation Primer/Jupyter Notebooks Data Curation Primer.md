@@ -8,13 +8,12 @@
 - Matthew Benzing, Miami University ([matt.benzing@miamioh.edu](mailto:matt.benzing@miamioh.edu))
 - Lee Wilson, Portage Network, ([lee.wilson@ace-net.ca](mailto:lee.wilson@ace-net.ca))
 
-**Mentor:**       Susan Borda, University of Michigan ([sborda@umich.edu](mailto:sborda@umich.edu))
+**Mentor:**  Susan Borda, University of Michigan ([sborda@umich.edu](mailto:sborda@umich.edu))
 
 
-**Suggested Citation:** Bouquin, Daina; Hou, Sophie; Benzing, Matthew; Wilson, Lee. (2019). Jupyter Notebooks: A Primer for Data Curators. Data Curation Network.  
+**Suggested Citation:** Bouquin, Daina; Hou, Sophie; Benzing, Matthew; Wilson, Lee. (2019). Jupyter Notebooks: A Primer for Data Curators. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)  
 
 An archived version of this primer is available at:  Bouquin, Daina; Hou, Sophie; Benzing, Matthew; Wilson, Lee. (2019). Jupyter Notebooks: A Primer for Data Curators. Data Curation Network. Retrieved from the University of Minnesota Digital Conservancy, http://hdl.handle.net/11299/202815.
-
 
 This work was created as part of the Data Curation Network “Specialized Data Curation” Workshop #1 co-located with the Digital Library Federation (DLF) Forum 2018 in Las Vegas, Nevada on October 17-18, 2018.  These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
 
