@@ -12,7 +12,7 @@
 **Mentor:** Jennifer Moore, Washington University in St. Louis ([j.moore@wustl.edu](mailto:j.moore@wustl.edu))
 
 
-**Suggested Citation:** Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase Data Curation Primer, v. 1.0, Data Curation Network GitHub Repository.
+**Suggested Citation:** Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 An archived version of this primer is available at:  Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase (.gdb) Data Curation Primer. Data Curation Network. Retrieved from the University of Minnesota Digital Conservancy, http://hdl.handle.net/11299/202823.
 
