@@ -29,6 +29,13 @@
 
 <p id="note1"><sup>6</sup> Hull, C. W. (1984). U.S. Patent No. 4,575,330. Washington, DC: U.S. Patent and Trademark Office. Retrieved August 9, 2019, from http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.ht m&r=1&f=G&l=50&s1=4,575,330.PN.&OS=PN/4,575,330&RS=PN/4,575,330. </p>
 
+---------------------------------------
+**Suggested Citation:** Blackwood, Elizabeth; Joubert, Doug; Sobczak, James. 2019. STL Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
+-----------------------------------------
+
 ## Table of Contents
 
 [Description of format](#description-of-format)
