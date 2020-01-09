@@ -189,7 +189,7 @@ i) Currently, the global attributes provide some background information regardin
 
 Since the CFDDA dataset has a User Documentation that includes detailed information regarding authors of the dataset, the data sources and models used, as well as the post-processing method used, the User Documentation is helping in clarifying the provenance of the CFDDA dataset. However, it is important to note that even with the available User Documentation, it would be helpful to update the global attributes of the data files, so that the attribution information is more human readable and understandable. More importantly, if the User Documentation is not available, it is recommended that the repository works with the submitter to improve the global attributes as well as to create a document to supplement the global attributes.
 
-![]()
+![](ncdf14.jpeg)
 
 c) Does the descriptive metadata or documentation describe (at least in brief) how the files were produced, modified, analyzed, and used to create visualizations?
 
