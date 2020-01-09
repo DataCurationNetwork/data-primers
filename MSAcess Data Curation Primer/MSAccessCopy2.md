@@ -87,11 +87,13 @@
 Note: This primer assumes a conceptual familiarity with relational databases (and associated terminology) and a basic level of experience with Microsoft Access. For introductory material on relational database concepts and MS Access see
 <ul><li> <a href="https://open.umn.edu/opentextbooks/textbooks/relational-databases-and-microsoft-access">Relational Databases and Microsoft Access by Ron McFayden </a></li> <li> <a href="https://www.khanacademy.org/computing/computer-programming/sql">Intro to SQL: Querying and managing data from Khan Academy </a></li> <li> <a href="https://librarycarpentry.org/lc-sql/">SQL for Librarians from Library Carpentry </a></li></ul>
 </div>
-_________
-<p> Suggested Citation: Author. Date Released. Title. </br>
-This work was created as part of the Data Curation Network Training Cohort #1. </br>
 
+-------------------
+**Suggested Citation:** Rios, Fernando; Fearon, Dave. (2019). [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
+This work was created as part of the Data Curation Network “Specialized Data Curation” Workshop #1 co-located with the Digital Library Federation (DLF) Forum 2018 in Las Vegas, Nevada on October 17-18, 2018.  These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
+--------------------
 
 <h3 style="font-family:Arial; font-size:20; margin:0"> Description of Format </h3>
 
