@@ -17,7 +17,7 @@
 | Created by |Heather James, Marquette University - [heather.james@marquette.edu](heather.james@marquette.edu)
 | Date updated and summary of changes made |V1|
 
-**Suggested Citation:** James, Heather. (2019). Wordpress.com (hosted) primer. Data Curation Network.
+**Suggested Citation:** James, Heather. (2019). Wordpress.com (hosted) primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 An archived version of this primer is available at:Heather James. (2019). Wordpress.com (Hosted) Data Curation Primer. Retrieved from the University of Minnesota Digital Conservancy: [http://hdl.handle.net/11299/202810](http://hdl.handle.net/11299/202810).
 
