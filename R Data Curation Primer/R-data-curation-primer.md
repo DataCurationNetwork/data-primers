@@ -19,6 +19,12 @@ Scope: text files with a “.R” extension that contain code for executing prog
 | Created by | <p> Creators: Lynda Kellam, Cornell University <br> Katherine Koziar, University of California, Riverside <br> Stanislav Pejša, Purdue University </p> <br> Mentor: Joel Herndon, Ph.D. |
 | Date updated and summary of changes made | |
 
+------------------------
+**Suggested Citation:** Kellam, Lynda; Koziar, Katherine; Pejša, Stanislav. (2019). R Data Curatiojn Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
+-----------------------
 **Table of Contents**
 
 [Description of format](#description-of-format)  
@@ -45,7 +51,7 @@ Scope: text files with a “.R” extension that contain code for executing prog
 
 [Documentation of curation process: What do we capture from curation process](#documentation-of-curation-process-what-do-we-capture-from-curation-process)
 
-[Appendix A: filetype CURATED checklist](#appendix-a-filetype-curated-checklist)
+[Appendix A filetype CURATED checklist](#appendix-a-filetype-curated-checklist)
 
  # Description of Format
 
@@ -73,7 +79,7 @@ Seliger, C. S. (2018). Text Mining and Plotting Tools for KSA / DS / HEI Researc
 
 - Are any links to other files absolute or relative (i.e., are links to other files/directories replicated as  absolute throughout the script)? 
 
-# Key clarifications to get from researcher
+# Key clarifications to get from the researcher
 
 Are all the used packages openly available? And if so where? (It can be a researcher’s website, but ideally  other more general sharing platform, such as CRAN or GitHub.) If the files are not in CRAN, GitHub, or other  publicly available site, please include the source code for the packages. 
 
@@ -159,7 +165,7 @@ R is a plain text file that can be opened in any text editor, but in order to wo
 
 R file is a plain text file, therefore the preservation stakes are not very high. Curators should be able to open  *.R files with any text editor, including Notepad, Notepad++, gedit, etc. There are no special concerns. One  possible concern may be with character encoding. For that, UTF-8 encoding is the best option, but if no  special or foreign language characters (such as Greek letters) or mathematical formulas are present, simple  ASCII is adequate. All other character encodings should probably be converted to Unicode. 
 
-# What to look for to make sure this file meets FAIR principle
+# What to look for to make sure this file meets FAIR principles
 
 In order to evaluate an .R script file under the FAIR principles<sup>1</sup>, it must be published in a manner that meets the  following:
 
@@ -195,7 +201,7 @@ R scripts can interact with a variety of formats, such as CSV, TSV, TXT, Apache 
 
 In addition, researchers who use the RStudio IDE can submit with their data a file with extensions such as  .Rproj or .Rmd. The .Rproj data contains metadata that are project oriented, it stores environment and variable  pertinent to a given project. .Rmd file stands for R markdown  and this file contains scripts and instruction for  customized output. While the file itself can be opened in a word document, dynamically created output, such  as executing scripts, tables, and plots, works only in RStudio.
 
-# Appendix A - R filetype CURATED checklist
+# Appendix A filetype CURATED checklist
 
 **CHECK Step**
 
