@@ -20,7 +20,7 @@ The [Research Data Archive (RDA) at NCAR](https://rda.ucar.edu) contains a large
 
 - Rife, D. L., J. O. Pinto, A. J. Monaghan, C. A. Davis, and J. R. Hannan. 2014. NCAR Global Climate Four-Dimensional Data Assimilation (CFDDA) Hourly 40 km Reanalysis. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. https://doi.org/10.5065/D6M32STK. Accessed dd mmm yyyy.
 
-Suggested Citation: Sophie Hou. (2019). Tutorial for using the netCDF Data Curation Primer. Data Curation Network GitHub Repository.
+Suggested Citation: Sophie Hou. (2019). Tutorial for using the netCDF Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 An archived version of this primer is available at: University of Minnesota Digital Conservancy.http://hdl.handle.net/11299/202810.
 
@@ -32,32 +32,32 @@ Note:
 
 In order to download data files from the RDA, a free, valid user account is required. To register with the RDA, select “Register Now” at the top of the RDA’s website (https://rda.ucar.edu/), and follow the instructions to submit information via the “Data User Registration” page. Once registered, users will be able to access all the other unrestricted datasets in the RDA.
 
-![]()
+![](ncdf1.jpeg)
 
-![]()
+![](ncdf2.jpeg)
 
 1) Click on the following digital object identifier link: https://doi.org/10.5065/D6M32STK
 
 
 2) From the dataset’s landing page, select the “Data Access” tab.
 
-![]()
+![](ncdf3.jpeg)
 
 3) From the “Data Access” page, select “Web File Listing” option by clicking on the label (the first option available in the table).
 
-![]()
+![](ncdf4.jpeg)
 
 4) Select “Complete File List” option, and then select “All CFDDA”.
 
-![]()
+![](ncdf5.jpeg)
 
-![]()
+![](ncdf6.jpeg)
 
 5) From the subsequent page, choose any one of the Group IDs (from “CFDDA 1985” to “CFDDA 2005”), and then any one of the files. This should initiate the file download automatically. For this primer, the data file that is associated with selecting “CFDDA 1985” and then “CFDDA 1985.02” is used.
 
-![]()
+![](ncdf7.jpeg)
 
-![]()
+![](ncdf8.jpeg)
 
 # Sample Visualization for the Sample Dataset Used
 
@@ -71,7 +71,7 @@ The visualization is created using the following conditions:
 
 **Instructions for Obtaining and Installing Panoply:** Please follow the instructions outlined in the ”How do I use this tool?” section of the [main primer](https://deepblue.lib.umich.edu/handle/2027.42/145724).
 
-![]()
+![](ncdf10.jpeg)
 
 # Key Questions to Answer
 
@@ -85,6 +85,8 @@ a) How many total netCDF files are included in the dataset, and are there any zi
 i) For the entire CFDDA dataset, there is a total of 183,960 files. If more than one file is desired, there are several options that are available for downloading groups of files, including via Globus Transfer Service (GridFTP), the Unidata’s Thematic Real-time Environmental Distributed Data Services (THREDDS), and HyperText Transfer Protocol (HTTP). In this example, only one file is used, and when it is downloaded, it is shown as “cfdda_1985010100.v2.nc”.
 
 b) Are there any clues as to the reasons or rationale for the file or directory divisions?
+
+![](ncdf11.jpeg)
 
 i) From the title and the abstract on the dataset’s landing page, the CFDDA dataset is described as a dataset that “contains three-dimensional hourly analyses in netCDF format for the global atmospheric state from 1985 to 2005 on a 40 km horizontal grid (0.4 degree grid increment) with 28 vertical levels”. This description helps in indicating that the files should at least be available for the years indicated as well as with hourly resolution.
 
@@ -134,7 +136,7 @@ As for scale_factor, add_offset, and _ChunkSizes, these are netCDF file attribut
 
 Please note that for this question, it is assumed that it is a human who needs to understand understand long_name, standard_name, units, and other attributes clearly and unambiguously. Enabling a machine (e.g. via a script) to have the ability to decipher the values of the long_name, standard_name, units, and other attributes clearly and unambiguously is an additional topic that will need to be evaluated separately.
 
-![]()
+![](ncdf12.jpeg)
 
 b) Does there appear to be any empty fields or missing information? Are there fields in which additional detail might help users better understand the data?
 
@@ -150,7 +152,7 @@ i) For data files that are in the netCDF format, the CF Conventions can be used 
 
 By examining the global attribute, it is confirmed that the sample data file is using “CF-1.0”.
 
-![]()
+![](ncdf13.jpeg)
 
 Details of global attributes:
 
