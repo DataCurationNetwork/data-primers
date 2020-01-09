@@ -25,6 +25,12 @@
 
 <p  id="note1"><sup>4</sup> OME format page. (2019-07-09). Retrieved from  https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. </p>
 
+----------------------------
+**Suggested Citation:** Ivey, Susan; Koshoffer, Amy; Sneff, Gretchen; Wang, Huajin. (2019). Confocal Microscopy Images Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
+----------------------------
 ## Curation workflow decision tree
 
 ![](Confocal1.JPG)
