@@ -11,7 +11,7 @@
 **Mentor:**    Sophia Lafferty-Hess, Duke University ([sophia.lafferty.hess@duke.edu](mailto:sophia.lafferty.hess@duke.edu))
 
 
-**Suggested Citation:** Deng, Sai; Dull, Joshua; Finn, Jeanine; Khair, Shahira (2019). SPSS Data Curation Primer. Data Curation Network.
+**Suggested Citation:** Deng, Sai; Dull, Joshua; Finn, Jeanine; Khair, Shahira (2019). SPSS Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 An archived version of this primer is available at: Deng, Sai; Dull, Joshua; Finn, Jeanine; Khair, Shahira (2019). SPSS Data Curation Primer. Data Curation Network. Retrieved from: the University of Minnesota Digital Conservancy, http://hdl.handle.net/11299/202812
 
