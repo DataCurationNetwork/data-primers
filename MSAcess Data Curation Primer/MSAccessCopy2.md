@@ -89,7 +89,7 @@ Note: This primer assumes a conceptual familiarity with relational databases (an
 </div>
 
 -------------------
-**Suggested Citation:** Rios, Fernando; Fearon, Dave. (2019). [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+**Suggested Citation:** Rios, Fernando; Fearon, Dave. (2019). Microsoft Access Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 This work was created as part of the Data Curation Network “Specialized Data Curation” Workshop #1 co-located with the Digital Library Federation (DLF) Forum 2018 in Las Vegas, Nevada on October 17-18, 2018.  These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
 
