@@ -320,7 +320,7 @@ If exporting components of NVivo to preservation or other formats, consider the 
 ## Metadata
 
 1. QuDEx - Qualitative Data Exchange Schema
-2. DDI - Data Documentation Initiative
+2. [DDI](https://ddialliance.org/Specification/) - Data Documentation Initiative
 
 QuDex is an XML based metadata schema that can preserve annotations and relationships of data and other related objects.
 
@@ -349,9 +349,22 @@ Retrieved from:  ttps://ukdataservice.ac.uk/media/622387/ukda-datamanagement-nvi
 
 ## Reuse across QDAS software
 
-The [REFI-QDA standard](https://www.qdasoftware.org) is an open standard allowing data to be reused across Qualitative Data Analysis Software. Data is exported from one program and imported into another if both QDAS programs have implemented this standard; see tables for [project](https://www.qdasoftware.org/products-project-exchange/#project_implementation) and [codebook](https://www.qdasoftware.org/products-codebook-exchange/). Be aware that data loss may occur in this process. For more information: [Blommestein (2019)](https://www.qdasoftware.org/wp-content/uploads/2019/03/QDAS-XML-1-0.pdf)
+The [REFI-QDA standard](https://www.qdasoftware.org) is an open standard allowing data to be reused across Qualitative Data Analysis Software. Data is exported from one program (QDPX file) and imported into another if both QDAS programs have implemented this standard; see tables for [project](https://www.qdasoftware.org/products-project-exchange/#project_implementation) and [codebook](https://www.qdasoftware.org/products-codebook-exchange/). Be aware that data loss may occur in this process. 
+
+For more information: [Blommestein (2019)](https://www.qdasoftware.org/wp-content/uploads/2019/03/QDAS-XML-1-0.pdf)
 
 All three versions of NVivo 12 are compliant with the REFI-QDA standard.
+
+To export a QDPX file from NVivo
+
+1. On the Share tab, in the Project group, click Export Project.
+2. Select REFI-QDA Project.
+3. Browse to the location you want to save the QDPX file.
+4. Click OK.
+
+(QSR International, n.d.)
+
+For more information: [NVivo 12: REFI-QDA Standard for project exchange](https://help-nv.qsrinternational.com/12/win/v12.1.90-d3ea61/Content/projects-teamwork/refi-qda%20standard.htm) 
 
 # Workflow based on the Data Curation Network CURATED steps
 
@@ -384,8 +397,13 @@ Some NVivo specific workflow considerations are listed below. Other consideratio
 - Be aware that transformations using [REFI-QDA standard](https://www.qdasoftware.org), or other transformations to a preservation format may result in data loss.
 
 ## Evaluate
-- Expect the NVivo project, its exported components or NCapture files to be limited/restricted access due to containing sensitive information. FAIR principles may not necessarily be the primary concern of the format choice for restricted data. Intended users or policies within an enclave or restriction may prefer certain format choices, such as keeping a proprietary format. However, the project description and a README file can be made open (devoid of human subject identifiers) and adhere to FAIR principles.
-- See: [Checklist for DCN Curators](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit#)for information about curation considerations for [FAIR principles](https://www.go-fair.org/fair-principles/)
+- Expect the NVivo project, its exported components or NCapture files to be limited/restricted access due to containing sensitive information. Meeting each point of the FAIR principles may not necessarily be the primary concern of the format choice for restricted data. Intended users or policies within an enclave or restriction may prefer certain format choices, such as keeping a proprietary format. However, the metadata, project description and a README file can be made open (devoid of human subject identifiers) and adhere to FAIR principles. The project or its associted files should be made reusable within the limitations of its restricted condition. See notes:
+  - **Findable:** The data and metadata should adhere to this principle, but rich description ([F2](https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/)) should not include exposure of sensitive information.  
+  - **Accessible:** The metadata may be open, but the project or its associated files may be restricted. FAIR principle [A1.1](https://www.go-fair.org/fair-principles/a1-1-protocol-open-free-universally-implementable/) may not be possible in all instances: NVivo is a proprietary format, but transformation to opensourced formats may affect reusability. Decisions to transform the format would ideally be made with the consultaion of the researcher, in order to understand what parts of the project are necessary for reuse.
+  - **Interoperable:** Adherence to this principle may be affected by choices to maintain the project in its original proprietary format, or having necessary restrictions to accomodate sensitve contents. The data should be made exchangable and reusable within the limitations of its restricted condition. 
+  - **Reusable:** Metadata and data should be well described (but de-identified) to facilitate reuse. Metadata standards may include: [DDI](https://ddialliance.org/Specification/) and QuDex.
+  - See: [FAIR principles](https://www.go-fair.org/fair-principles/)
+- See: [Checklist for DCN Curators](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit#) for information about curation considerations for [FAIR principles](https://www.go-fair.org/fair-principles/)
 
 ## Document
 - Remember to record actions taken during the curation process.
