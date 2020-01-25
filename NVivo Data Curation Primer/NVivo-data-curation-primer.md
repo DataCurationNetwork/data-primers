@@ -40,7 +40,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 [Key Questions to ask of the data](#key-questions-to-ask-of-the-data)
 
-> [Which format of NVivo 12?](#which-format-of-nvivo-12?)
+> [Which format of NVivo 12](#which-format-of-nvivo-12)
 
 >> NVivo 12 for Mac (.nvpx)
 
