@@ -34,7 +34,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 > [NVivo components](#nvivo-components)
 
-> [Examples of NVivo projects](#examples-of-nvivo-projects]
+> [Examples of NVivo projects](#examples-of-nvivo-projects)
 
 > [NCapture](#ncapture)
 
@@ -76,9 +76,9 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 > [Data content necessary for reuse](#data-content-necessary-for-reuse)
 
->> Codebook or The Nodes are the Codes
+>> [Codebook or The Nodes are the Codes](#codebook-or-the-nodes-are-the-codes)
 
->> Keeping the project contextual
+>> [Keeping the project contextual](#keeping-the-project-contextual)
 
 [Description](#description)
 
@@ -102,7 +102,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 > [Export data information list](#export-data-information-list)
 
-> De-identification information source list
+> [Deidentification information source list](#deidentification-information-source-list)
 
 # ReadMe: The scope of this primer
 
