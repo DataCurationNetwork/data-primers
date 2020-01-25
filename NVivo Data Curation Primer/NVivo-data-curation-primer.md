@@ -62,7 +62,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 [Key Clarifications to ask the researcher](#key-clarifications-to-ask-the-researcher)
 
-> To enclave or not to enclave? Or where are we putting this data?
+> [To enclave or not to enclave Or where are we putting this data](#to-enclave-or-not-to-enclave-or-where-are-we-putting-this-data)
 
 > [File format preferences for reuse](#file-format-preferences-for-reuse)
 
