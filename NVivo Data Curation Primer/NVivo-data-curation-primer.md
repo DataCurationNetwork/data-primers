@@ -204,7 +204,7 @@ This format for computers using the Microsoft Windows operating system will open
 
 The plus version supports PAJEK software, which is used for analysis and visualization of large networks. This version also has the capability to support additional visualization types. Please see the QSR International comparison table of NVivo 12 formats for details.
 
-This link will take you to a list of known issues with NVivo for PC formats: https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-1 2-windows
+This link will take you to a list of known issues with NVivo for PC formats: https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-12-windows
 
 ## Problems opening the file
 
