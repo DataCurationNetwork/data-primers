@@ -37,7 +37,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 [Preservation Actions](#preservation-actions)
 > [Exporting Multiple Files](#exporting-multiple-files) <br> [Comments and Versioning](#comments-and-versioning)
 
-[Google Docs CURATED Checklist/FAIR Principles](#google-docs-curated-Checklistfair-principles)
+[Google Docs CURATED Checklist and FAIR Principles](#google-docs-curated-Checklist-and-fair-principles)
 
 # Description of format
 
@@ -86,7 +86,7 @@ Google Docs provides the ability to export files in Microsoft Word, OpenDocument
 
 As of December 2019 comments are preserved in docx, but the identities of the authors of the comments are only visible in the metadata. The OpenDocument format preserves usernames, but not the date and time of the comments.  Comments are not preserved in the PDF format. Versioning can be exported by accessing the API. https://developers.google.com/drive/api/v3/manage-revisions?hl=en
 
-## Google Docs CURATED Checklist/FAIR Princples
+## Google Docs CURATED Checklist and FAIR Princples
 
 The following checklist is adapted from the original Data Curation Network (2018) checklist to assist curators when encountering diverse formats of digital objects. The modified version below includes considerations for Google Docs in order to guide you when working with files exported from this system and provided by research stakeholders in your organization. It includes questions to ask and steps to take which will help ensure that documents meet expectations according to The FAIR Data Principles and data curation best practices before bringing them into a curatorial or preservation environment. 
 
