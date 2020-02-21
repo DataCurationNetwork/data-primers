@@ -9,7 +9,7 @@
 - Jennifer Moore, Washington University in St. Louis, ([j.moore@wustl.edu](mailto:j.moore@wustl.edu))
 - Carrie Pirmann, Bucknell University, ([carrie.pirmann@bucknell.edu](mailto:carrie.pirmann@bucknell.edu))
 
-**Mentor:** Jennifer Moore, Washington University in St. Louis ([j.moore@wustl.edu](mailto:j.moore@wustl.edu))
+**Mentor:** Mara Blake, Johns Hopkins University ([marablake@jhu.edu](mailto:marablake@jhu.edu))
 
 
 **Suggested Citation:** Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
