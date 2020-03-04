@@ -86,22 +86,90 @@ Google Docs provides the ability to export files in Microsoft Word, OpenDocument
 
 As of December 2019 comments are preserved in docx, but the identities of the authors of the comments are only visible in the metadata. The OpenDocument format preserves usernames, but not the date and time of the comments.  Comments are not preserved in the PDF format. Versioning can be exported by accessing the API. https://developers.google.com/drive/api/v3/manage-revisions?hl=en
 
-## Google Docs CURATED Checklist and FAIR Princples
+## Google Docs CURATED Checklist and FAIR Principles
 
 The following checklist is adapted from the original Data Curation Network (2018) checklist to assist curators when encountering diverse formats of digital objects. The modified version below includes considerations for Google Docs in order to guide you when working with files exported from this system and provided by research stakeholders in your organization. It includes questions to ask and steps to take which will help ensure that documents meet expectations according to The FAIR Data Principles and data curation best practices before bringing them into a curatorial or preservation environment. 
 
 **First figure out the purpose of files as Google Docs documents in the larger research workflow.** Were they used as collaboration spaces, data sharing portals, collection sites? Once this is understood and the files are deemed appropriate for your repository, refer to the steps below:
 
-#### CHECK Step
+**Check** data files and read documentation 
 
-#### UNDERSTAND Step
+- Files open as expected 
+- File does not have inappropriate protections or security features enabled preventing curation
+- Metadata quality is rich, accurate, and complete 
+- Documentation Type (circle)
+	- ReadMe / Codebook / Data Dictionary / Other:
+	- Missing / None
+	- Needs work
+- Human subjects data, if present
+	- Request consent form / participation agreement
 
-#### REQUEST Step
+**Understand** the data (or try to)
 
-#### AUGMENT Step
+- Organization of data well-structured
+- Headers clearly defined
+	- Define headers 
+	- Clarify use of "blanks" 
+	- Clarify units of measurement 
+- Quality control clearly defined 
+	- Unclear quality control 
+	- Update/add Methodology 
 
-#### TRANSFORM Step
+**Request** missing information or changes 
 
-#### EVALUATE Step
+- Describe concerns, issues, and needed improvements to the data submission.
+- If content is unfamiliar, recommend changes to the creator for reusability (Janée et al., 2019)
 
-#### DOCUMENT Step
+**Augment** the submission
+
+- Discoverability sufficient
+	- Recommend (circle one) full-text index / file rename / file reorder / file descriptions / zip files 
+	- Other:
+- Keywords sufficient
+	- Suggestions:
+- Linkages Sufficient
+	- Link to report/paper 
+	- Link to related data sets 
+	- Link to source data 
+	- Link to other:
+
+**Transform** file formats
+
+- Preferred file formats in use
+	- Convert to PDF/A-3, compliant with ISO-32000-2. 
+	- (PDF/A-3 allows for embedding files.) (Arms et al., 2019) 
+	- Retain original formats along with PDF/A or other format at appropriate
+- Visualization of data easily accessible
+	- Recommend graphical representation:
+	- Recommend web-accessible surrogate:
+
+**Evaluate** and rate the overall data record for FAIRness. 
+
+(Rubric evaluating the FAIR principles are based on the scoring matrix by Dunning et al. (2017).) 
+
+- Findable
+	- Metadata exceeds author/ title/ date, 
+	- Unique PID (DOI, Handle, PURL, etc.). 
+	- Discoverable via web search engines. 
+- Accessible 
+	- Retrievable via a standard protocol (e.g., HTTP). 
+	- Free, open (e.g., download link). 
+	- Embedded files comply with requirements of PDF/A-compliant attachments. 
+- Interoperable 
+	- Metadata formatted in a standard schema (e.g., Dublin Core). 
+	- Metadata provided in machine-readable format (OAI feed). 
+- Reusable 
+	- Data include sufficient metadata about the data characteristics to reuse. 
+	- Contact info displayed if the direct assistance of the author needed
+	- Clear indicators of who created, owns, and stewards the data.
+	- Data are released with clear data usage terms (e.g., a CC License). 
+
+**Document** throughout curation activities
+
+- Accessioning & deposit records
+	- Names, dates, contact information, submission agreements, etc 
+- Repository collection metadata
+- Provenance logs
+- Service workflow 
+- Preservation packaging
+- Any additional requirements at your institution 
