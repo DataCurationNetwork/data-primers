@@ -7,7 +7,7 @@
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | FIle Extension | .geojson |
-| MIME Type | Application, Vendor Tree - [application/vnd.geo+json](https://www.iana.org/assignments/media-types/application/vnd.geo+json) |
+| MIME Type | Application, Vendor Tree - [application/geo+json](https://www.iana.org/assignments/media-types/application/geo+json) |
 | Structure | Javascript Object Notation |
 | Standard | [RFC 7946](https://web.archive.org/web/20191024124836/https://tools.ietf.org/html/rfc7946) |
 | Primary fields or areas of use | Geographical Information Systems (GIS), web mapping applications, mobile applications, web APIs, JavaScript web-mapping libraries, JSON-based document databases |
@@ -571,7 +571,7 @@ Due to the lack of a metadata XML file, and the metadata editing limitations in 
 
 1. Draft a [README file](#what-to-include-in-a-readme-file).
 2. [Convert GeoJSON to shapefile](#shapefile).
-3. [Edit metadata in ArcCatalog](#creating-metadata-using-arccatalog): 
+3. [Edit metadata in ArcCatalog](#creating-metadata-using-arccatalog):
 <BLOCKQUOTE>a. Change the metadata style to ISO 19139<BR>b. Edit metadata sections<BR>c. Export metadata as a separate XML file.</BLOCKQUOTE>
 
 4. [Convert GeoJSON to GeoPackage](#geopackage).
@@ -612,7 +612,7 @@ Documentation should be created throughout the CURATE process. Going through eac
 
 1. Original dataset and documentation
 <BLOCKQUOTE>a. Software and tools were used to assess and validate data<BR>b. Questions/concerns that came up through validation process<BR>c. State of metadata and other documentation files</BLOCKQUOTE>
- 
+
 2. Conversions
 <BLOCKQUOTE>a. Software and tools used to transform data<BR>b. Transformations done to data (shapefile, GeoPackage)</BLOCKQUOTE>
 
@@ -635,7 +635,7 @@ This example did not include the final step of depositing a dataset into a repos
 In July 2019, the GeoJSON primer authors created and deployed a short online questionnaire, intended to gather information about researchers’ creation, use, and reuse of geospatial vector data in GeoJSON format. The survey - delivered as a Google Poll - was shared with various email lists and GIS working groups and received a total of 18 responses, as of August 8, 2019.
 
 ## Survey Questions
-  
+
 1. What discipline or field do you work in? (short answer)
 2. What is your general level of familiarity or expertise with geospatial data? (multiple choice (select one) + “other” (short answer))
 3. (Optional) What is your position or title? (short answer)
