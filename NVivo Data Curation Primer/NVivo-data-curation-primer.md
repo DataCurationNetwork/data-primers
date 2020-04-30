@@ -14,7 +14,7 @@ Affiliate Contributor: Margarita Corral (Atlas.ti primer) -  mcorral@brandeis.ed
 | Versions |  <p> NVivo 12 for Mac <br> NVivo 12 for PC (Pro, Plus) <br> See appendix for extended table of previous versions. |
 | Primary Fields or Areas of Use | <ul><li> Qualitative and mixed methods research design <li> Social Sciences, Humanities |
 | Source and Affiliation | QSR International |
-| Metadata Standards | <ul><li> QuDex <li> DDI |
+| Metadata Standards | <ul><li> QuDex (an exchange schema) <li> DDI (international standard describing social sciences information) |
 | Key Questions for Curation Review | <ul><li> Where will this data be housed? (e.g. enclave or other) <li> Does the dataset contain components that cannot be ethically shared with the public?(e.g. human subjects; copyrighted materials or similar.) <li> Is additional documentation needed to share components that are necessary for reuse? <li> What components of the project (exported from NVivo) are ideal for reuse and preservation? |
 | Created by | Hannah Hadley - hhadley@psu.edu |
 | Date Created | April 2019 |
@@ -401,7 +401,7 @@ Some NVivo specific workflow considerations are listed below. Other consideratio
   - **Findable:** The data and metadata should adhere to this principle, but rich description ([F2](https://www.go-fair.org/fair-principles/f2-data-described-rich-metadata/)) should not include exposure of sensitive information.  
   - **Accessible:** The metadata may be open, but the project or its associated files may be restricted. FAIR principle [A1.1](https://www.go-fair.org/fair-principles/a1-1-protocol-open-free-universally-implementable/) may not be possible in all instances: NVivo is a proprietary format, but transformation to opensourced formats may affect reusability. Decisions to transform the format would ideally be made with the consultaion of the researcher, in order to understand what parts of the project are necessary for reuse.
   - **Interoperable:** Adherence to this principle may be affected by choices to maintain the project in its original proprietary format, or having necessary restrictions to accomodate sensitve contents. The data should be made exchangable and reusable within the limitations of its restricted condition. 
-  - **Reusable:** Metadata and data should be well described (but de-identified) to facilitate reuse. Metadata standards may include: [DDI](https://ddialliance.org/Specification/) and QuDex.
+  - **Reusable:** Metadata and data should be well described (but de-identified) to facilitate reuse. Metadata standards may include: [DDI](https://ddialliance.org/Specification/) and QuDex (exchange schema).
   - See: [FAIR principles](https://www.go-fair.org/fair-principles/)
 - See: [Checklist for DCN Curators](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit#) for information about curation considerations for [FAIR principles](https://www.go-fair.org/fair-principles/)
 
