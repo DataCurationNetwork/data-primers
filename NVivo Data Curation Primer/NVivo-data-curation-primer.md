@@ -118,7 +118,7 @@ Additional detail QDAS primers are expected to include more depth and detail for
 - Detailed or step-by-step description of metadata for NVivo.
 - Special considerations for curating older NVivo versions, or curating these from an archival (preservation) perspective to be reusable for current research.
 
-Supplementary primers will be linked to this primer in the appendix section and linked to any appropriate subject section.
+Additional detail primers will be linked to this primer in the appendix section and linked to any appropriate subject section.
 
 # Description of the format
 
