@@ -108,9 +108,9 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 This primer is intended to provide an overview of the NVivo format to assist data curation actions. NVivo is a proprietary format of qualitative data analysis software (QDAS). **NVivo projects can be expected to contain sensitive data within their various components. While this primer does include some mention of de-identification, it is not comprehensive and does not describe all considerations of sensitive information, copyright or permissions.** Additional data curation primers are expected to be published on data sensitivity topics, and the author will link to any relevant sources once these become available.
 
-## Supplementary NVivo primers
+## Additional detail QDAS primers
 
-Supplementary NVivo primers are expected to include more depth and detail for curating this format. Example topics of what a supplementary NVivo primer may include:
+Additional detail QDAS primers are expected to include more depth and detail for curating this format. Example topics of what an additional detail QDAS primer may include about NVivo:
 
 - Considerations for curating specific qualitative or mixed-method design in an NVivo project.
 - Focus on curating specific areas or purposes of the format.
