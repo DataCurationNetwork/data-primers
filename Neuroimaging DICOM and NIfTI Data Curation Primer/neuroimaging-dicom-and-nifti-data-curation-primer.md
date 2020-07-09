@@ -126,4 +126,29 @@ The 348-bit NIfTI header covers the technical parameters of the accompanying ima
 
 **Citation:** Rohlfing, T., Kroenke, C. D., Sullivan, E. V., Dubach, M. F., Bowden, D. M., Grant, K., & Pfefferbaum, A. (2012). The INIA19 template and NeuroMaps atlas for primate brain image parcellation and spatial normalization. Frontiers in neuroinformatics, 6, 27.
 
+# Software for viewing data
+
+The software packages described in this section include some of the most frequently-used programs that may be mentioned in a curatorial interview with a researcher, as well as some relatively simple programs that a curator may use to open and examine a DICOM or NIfTI file. This list is far from exhaustive, as researchers frequently adapt and share new tools suited to their own interests. In addition, many popular tools such as Dicom Works are no longer officially supported by their developers, but continue to be used in research settings.
+
+## ImageJ
+
+ImageJ is open source software written in Java and it runs on Windows, Mac OS X, and Linux systems. Imagej includes a number of DICOM plugins including Import DICOM Sequences, DICOM Rewriter (Anonymizer), and Query DICOM Header. ImageJ can open NIfTI files using the optional [NIfTI I/O plugin](https://imagej.nih.gov/ij/plugins/nifti.html).
+
+**Link:** [https://imagej.nih.gov/ij/](https://imagej.nih.gov/ij/)
+
+## Dicom Works, OsiriX, IrfanView
+
+DICOM-viewing software can be divided into two main categories: proprietary viewers that are supplied with the medical imaging system; and third-party DICOM-viewing software for individual PCs. Dicom Works (no longer supported as of 2011), OsiriX, and IrfanView are popular all-format, non-proprietary image-viewers available for free (or low-cost) download.
+
+**Links:** 
+- [https://www.dicomworks.com](https://www.dicomworks.com)
+- [https://www.osirix-viewer.com](https://www.osirix-viewer.com)
+- [https://www.irfanview.com](https://www.irfanview.com)
+
+## Adobe Photoshop
+
+Adobe has developed a plug-in for Photoshop that makes it possible to view DICOM images and header information and export images to different file formats.
+
+**Citation:** Mustra, M., Delac, K., & Grgic, M. (2008). Overview of the DICOM Standard. 50th International Symposium ELMAR-2008. [https://www.vcl.fer.hr/papers_pdf/Overview%20of%20the%20DICOM%20Standard.pdf](https://www.vcl.fer.hr/papers_pdf/Overview%20of%20the%20DICOM%20Standard.pdf) 
+
 ## Publication in progress. Your patience is appreciated.
