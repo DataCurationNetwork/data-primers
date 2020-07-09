@@ -16,7 +16,7 @@
 | Key questions for curation review |<ul><li>Has patient data been removed from the header of a DICOM file? </li><li>For high resolution structural images, have  facial features been removed from the images?</li><li>Has “burned-in” text been removed if PHI?</li><li>Are data in raw format? If not, has the researcher provided documentation of processing procedures?|
 | Tools for curation review |<ul><li>Free software that can read DICOM header: Dicom Works, ImageJ</li><li>Free software that can open NIFTI headers and/or images: Mango, ImageJ, AFNI, MRIcron, MRIcroGL|
 | Date Created | June 2020 |
-| Created by |<ul><li>Michael Moore, University of Washington</li><li>Brandon Patterson, University of Utah</li><li>Sara Samuel, University of Michigan</li><li>Helenmary Sheridan, University of Pittsburgh</li><li>Chris Sorensen, Washington University in St. Louis <p><br> **DCN Mentor:** Joel Herndon, Duke University|
+| Created by |<p>**Authors:** <br> <ul><li>Michael Moore, University of Washington</li><li>Brandon Patterson, University of Utah</li><li>Sara Samuel, University of Michigan</li><li>Helenmary Sheridan, University of Pittsburgh</li><li>Chris Sorensen, Washington University in St. Louis <p><br> **DCN Mentor:** Joel Herndon, Duke University|
 | Date updated and summary of changes made ||
 
 
