@@ -151,4 +151,44 @@ Adobe has developed a plug-in for Photoshop that makes it possible to view DICOM
 
 **Citation:** Mustra, M., Delac, K., & Grgic, M. (2008). Overview of the DICOM Standard. 50th International Symposium ELMAR-2008. [https://www.vcl.fer.hr/papers_pdf/Overview%20of%20the%20DICOM%20Standard.pdf](https://www.vcl.fer.hr/papers_pdf/Overview%20of%20the%20DICOM%20Standard.pdf) 
 
+## AFNI
+
+AFNI (Analysis of Functional NeuroImages) is a free suite of C, Python, and R scripts developed by the National Institute of Mental Health (NIMH) to display and analyze (f)MRI data, primarily from NIfTI. AFNI can be used to read NIfTI header information, but requires using the command line. The command needed to check headers is nifti_tool -disp_hdr. Additional guidance available at [https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/programs/nifti1_tool_sphx.html#ahelp-nifti1-tool.](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/programs/nifti1_tool_sphx.html#ahelp-nifti1-tool.)
+
+**Link:** [https://afni.nimh.nih.gov/](https://afni.nimh.nih.gov/)
+
+## Mango, Papaya, iMango
+
+Mango is a set of three programs developed by the University of Texas Health Science Center’s Research Imaging Institute to view and analyze medical research images. Mango runs on Mac OS X, Linux, and Windows; Papaya is entirely browser-based; and iMango is for Apple’s iPad. All three support both DICOM and NIfTI (both versions).
+
+**Link:** [http://ric.uthscsa.edu/mango/index.html](http://ric.uthscsa.edu/mango/index.html)
+
+## MRIcron
+
+MRIcron is a NIfTI image viewer that can be used across different platforms. It includes dcm2nii software to convert DICOM images to NIfTI format. 
+
+**Link:** [https://www.nitrc.org/projects/mricron](https://www.nitrc.org/projects/mricron)
+
+## MRIcroGL
+
+MicroGL allows users to view images, convert DICOM images to NIfTI format, and draw regions of interest. It runs on Windows, Mac OS X, and Linux systems.
+
+**Link:** [https://www.nitrc.org/projects/mricrogl](https://www.nitrc.org/projects/mricrogl)
+
+# Key curatorial considerations
+
+## Protected Health Information (PHI)
+
+Curation of medical data adds an additional challenge not faced in other domains: datasets may include highly sensitive and identifying patient health information, a large portion of which is protected by strict federal laws like the Health Insurance Portability and Accountability Act (HIPAA). PHI includes a [list of 18 identifier classifications](https://privacyruleandresearch.nih.gov/pr_08.asp), such as names, geographic locations, dates, contact information, medical records and health plans, biometric identifiers, and full-face photographs. Depending on the type or purpose of a scan and how it was taken, some of these identifiers are always included in initial scans, others sometimes, and still others rarely.
+
+Datasets submitted for curation should already be anonymized by the researchers or clinicians, but the responsibility may fall on the curators to ensure that the process has been done correctly before hosting the files. PHI may be found both in the image header (such as a patient’s name) and the image itself (such as details of a patient’s face).
+
+A large amount of personal information collected by the scanning device is inherently included in DICOM header files, which are generally prepared and exported directly from a scanning instrument. Due to DICOM’s broad scope, it would be unrealistic for generalist data curators to be expected to be able to read, analyze, and manually de-identify the data themselves. In some cases, DICOM images have textual information "burned in,” such as the date of a scan-PHI embedded in the pixel data. The ability to blackout "burned in" information is critical to maintaining patient confidentiality.
+
+To the benefit of data curators, multiple tools are freely available to perform the task of anonymizing DICOM files. 
+Aryanto et al. (2015) examined free DICOM de-identification tools by testing their performance on a list of 50 header elements, with mixed and inconsistent results. The authors cautioned these toolkits "be used with extreme care" since "they have a high risk of disclosing personal health information, especially when using the default configuration." Two toolkits emerged on top in the study: 
+
+
+
+
 ## Publication in progress. Your patience is appreciated.
