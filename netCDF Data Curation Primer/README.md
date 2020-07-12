@@ -12,8 +12,6 @@ CC by 4.0
 
 Sophie Hou. (2019). Tutorial for using the netCDF Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
-Citation here
-
 
 #### Funding:
 
