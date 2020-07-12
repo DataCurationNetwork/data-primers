@@ -58,20 +58,15 @@ ________________
 
 #### Description of the Change
 
-
-
 We must be able to understand the purpose of your change from this description. If we can't get a good idea of the benefits of the change from the description here, the pull request may be closed at the maintainers' discretion.
-
-
 
 #### Release Notes
 
-
-
 Please describe the changes in a single line that explains this fixation or improvement in terms that a user can understand.
 
+#### Additional Fields
 
-
+Other fields may be added to describe events or working groups that have been approved or are organized by the Data Curation Network. These additional fields may include a place to list a description of the event or members of a working group.
 
 
 ### Readme.md template for each primer starts below line
