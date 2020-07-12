@@ -76,6 +76,9 @@ Please describe the changes in a single line that explains this fixation or impr
 
 ### Readme.md template for each primer starts below line
 ---
+
+#### Current Version:
+
 #### License:
 
 
@@ -84,7 +87,6 @@ CC by 4.0
 
 
 #### Citation:
-
 
 
 Citation here
@@ -100,21 +102,12 @@ _____________
 
 #### Please update the following fields with each contribution
 
-<!--
-
--->
 
 #### Version:
 
-<!--
-
--->
-
 
 #### Summary of changes:
-<!--
 
--->
 
 #### Date [mm/dd/yyyy]
 
