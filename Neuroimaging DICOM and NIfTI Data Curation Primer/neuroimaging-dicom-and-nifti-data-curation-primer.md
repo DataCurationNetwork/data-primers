@@ -188,7 +188,128 @@ A large amount of personal information collected by the scanning device is inher
 To the benefit of data curators, multiple tools are freely available to perform the task of anonymizing DICOM files. 
 Aryanto et al. (2015) examined free DICOM de-identification tools by testing their performance on a list of 50 header elements, with mixed and inconsistent results. The authors cautioned these toolkits "be used with extreme care" since "they have a high risk of disclosing personal health information, especially when using the default configuration." Two toolkits emerged on top in the study: 
 
+1. [Radiological Society of North America Clinical Trial Processor](http://mircwiki.rsna.org/index.php?title=CTP-The_RSNA_Clinical_Trial_Processor) (RSNA CTP): The CTP is a Java-based stand-alone program that offers a highly configurable and extensible environment for processing clinical trial and other medical imaging data. The program includes multiple modules and components, including a robust DICOM anonymizer. According to Aryanto et al., it scored a 98% de-identification success rate on its default settings, and a perfect 100% with custom settings.
 
+2. [DICOM Library](https://www.dicomlibrary.com): DICOM Library is a free web-based sharing and anonymization service for medical imagery. Users can upload DICOM files to be automatically anonymized, then viewed, shared using the Library's online viewer, and downloaded. The DICOM Library scored a perfect 100% on the 50 listed headers in Aryanto's study.
 
+Since NIfTI is a stripped-down and simplified version of DICOM, many PHI concerns are erased during the conversion process by the popular converter tools available. However, curators should know that NIfTI images may still require “defacing,” or “skull stripping” for removal or obscuration of a subject’s facial features.
+
+## Format conversion
+
+As a general rule, DICOM files can be converted to NIfTI format, but there is little benefit in going from NIfTI to DICOM. Once in NIfTI format, the file no longer has the granular and detailed information to take advantage of DICOM’s broad and complex header structures. However, the process is possible if the user wants to enter the file into a PACS (Picture Archiving and Communication System, usually used in clinical settings) that requires DICOM format.
+
+Those rare occasions aside, a data curator may be expected to convert DICOM files into NIfTI, for which they can use the popular [dcm2niix tool](https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage). The successor to dcm2nii, the newer dcm2niix, is an open source program written in C to provide easy conversion from DICOM to NIfTI.
+
+DICOM files can either be loaded into the program either through a drag-and-drop interface or by selecting an entire folder. Users can specify whether they want to anonymize the data during conversion and choose between uncompressed (.nii) and compressed (nii.gz) formats with an accompanying JSON file of header information as a sidecar.
+
+![]()
+
+Similar conversion packages are freely available online. Curators with access to MATLAB can use [dicm2nii](https://www.mathworks.com/matlabcentral/fileexchange/42997-xiangruili-dicm2nii) tools to convert, and [MRIConvert](https://lcni.uoregon.edu/downloads/mriconvert/mriconvert-and-mcverter) can be used for the same purpose.
+
+## Metadata
+
+Brain Imaging Data Structures (BIDS) is a standard for organizing neuroimaging data and specifying metadata. Using this format can help others to more quickly understand and use a shared dataset. The standard recommends sharing the neuroimaging data in the NIfTI file format (compressed preferred), with accompanying data and metadata in JSON files and tab delimited values (.tsv) files. Full specifications for the metadata file and recommended file organization can be viewed on the [Brain Imaging Data Structures documentation website](https://bids-specification.readthedocs.io/en/stable/02-common-principles.html).
+
+The community-created [BIDS Starter Kit](https://github.com/bids-standard/bids-starter-kit), hosted on GitHub, provides a comprehensive collection of tutorials, templates, wikis, and other resources to help researchers and curators create BIDS datasets. In complementing the official documentation, the Starter Kit is designed to reduce the barrier to access for newcomers to BIDS, allowing for increased format adoption and open sharing of neurological datasets. It includes a forum and chat session to support questions related to BIDS and promotes involvement by encouraging submissions and contributions from the community.
+
+The [BIDS Validator](https://bids-standard.github.io/bids-validator/) is a browser-based tool that automatically checks datasets to ensure they adhere to BIDS specifications. Node.js and Python versions are also available on the [BIDS Validator GitHub page](https://github.com/bids-standard/bids-validator). After identifying the curator identifies the directory to validate, the BIDS Validator examines the file structure, subdirectories, and image and JSON file names. The files themselves are not uploaded. The BIDS Validator returns a list of potential warnings and errors identified in the datasets that do not conform to BIDS standards.
+
+While the BIDS Validator is useful in identifying potential issues, the red flags it raises should not necessarily be taken as gospel. The tool can sometimes produce nonsensical error reports that match the content of the dataset (Patterson, 2018). Curators are encouraged to check any errors reported by the BIDS Validator against the BIDS documentation, while also feeling comfortable to ignore errors deemed to be false positives.
+
+## Key questions to ask yourself
+
+- Is the header information included in the DICOM file?
+- Has patient information been removed from the header of a DICOM file? 
+- For high resolution structural images, have facial features been removed from images? If not, ask researcher to run defacing or skull stripping software.
+- Has “burned-in” text been removed if identifiable?
+- Are data in raw format? If not, has the researcher provided documentation of processing procedures?
+- Is the dataset organized in a way to best facilitate being turned into a zip file (for downloading)?
+
+## Key clarifications to get from researcher 
+
+- Are data in raw format? If not, has the researcher provided documentation of processing procedures?
+
+# Preservation Actions
+
+DICOM and NIfTI files are formal, accessible, shared and broadly used standards. They are international standards that are well documented. 
+
+## Most Reproducible and Reusable
+
+1. Guidelines for data and documentation to be deposited during curation process (as shared with [Confocal Microscopy Image Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Confocal%20Microscopy%20Images%20Data%20Curation%20Primer/confocal-microscopy-images-data-curation-primer.md))
+ 
+ - Processed data (includes transformed [converted to TIFF files]; analyzed files; annotated files). Note: researchers should preserve raw (proprietary) and other data as resources/storage allows, consistent with best practices for back-up. If funder or publisher requires all data to be accessible, link repository submission to the location of raw data. 
+ 
+  1. Readme file that includes:
+  
+   - Detailed sample description
+   - Detailed protocol to create processed data (link to publication)*
+   
+  2. Descriptive and technical metadata
+
+## Good Enough Practice e.g. to fulfill a publisher’s mandate for a publication
+
+1. Preserve only transformed data (or what was submitted to publication)
+
+2. Readme file that includes:
+
+ - Sample description
+ - Protocol to create processed data (link to publication)*
+ - Descriptive and technical metadata
+ 
+3. *(Optional step) - Request more information, documentation, and suggest working to achieve Most Reproducible and Reusable
+
+## Minimum Practice
+
+1. Preserve what is received - raw (proprietary), transformed, processed/analyzed, annotated. Note: if receiving a compressed file type, there is no action that can recover lost bytes.
+
+2. Readme file that includes:
+
+ - Minimal sample description
+ - Minimal protocol to create received dataset (link to publication)*
+ - Descriptive and technical metadata
+ 
+3. (Optional step)** - Request more information, documentation, and suggest working to achieve most Reproducible and reusable
+
+* If the publication includes protocol that is detailed enough to completely reproduce raw data and is openly accessible. Providing the detailed process in the readme file is ideal, but including a link to a publication is good too. Best practice is to include both.
+
+** The goal is always to curate and preserve the most reproducible and reusable data, while keeping in mind that the depositor may be under time constraint.
+
+## Recommended Repositories
+
+In the event that an institutional repository is unavailable or not a desired location for the data, the following two repositories may be useful resources:
+
+## DICOM Library
+
+This is a free online DICOM repository and sharing service for educational and scientific use. The site offers sample downloadable DICOM file packages from different modalities.
+
+Link: [https://www.dicomlibrary.com](https://www.dicomlibrary.com)
+
+## NITRC-IR
+
+NITRC Image Repository is a resource for sharing neuroimaging data in DlCOM and NIFTI formats.
+
+Link: [https://www.nitrc.org/xnat/index.php](https://www.nitrc.org/xnat/index.php)
+
+# What to look for to make sure file meets Fair Principles
+
+The following questions can assist researchers in evaluating the FAIRness of their neuroimaging data. The questions are organized according to each FAIR principle with help from the [dcmqi (DICOM for Quantitative Imaging)-guide FAQ section](https://qiicr.gitbook.io/dcmqi-guide/faq), formalized by [FORCE11](https://www.force11.org/group/fairgroup/fairprinciples):
+
+## To be Findable:
+
+|   FAIR Guiding principle   |   Neuroimaging Data   |
+| :------------- | :------------- |
+|F1. (meta)data are assigned a globally unique and persistent identifier|Does each object have a unique identifier?|
+|F2. data are described with rich metadata (defined by R1 below)|Is the metadata stored in standardized attributes describing versatile aspects of the data (the subject being imaged, processing details, references to related objects, etc.)?|
+|F3. metadata clearly and explicitly include the identifier of the data it describes|Is metadata stored in the same object as the processing result?|
+|F4. (meta)data are registered or indexed in a searchable resource|Are objects and accompanying metadata file(s) stored in a repository with full index and search functionality? Is general-purpose search and indexing of DICOM data supported by every Picture Archival and Communications System (PACS) using DICOM Query and Retrieve protocol, or using REST-based [DICOMWeb](https://dicomweb.hcintegrations.ca) protocol?|
+
+## To be Accessible:
+
+|   FAIR Guiding principle   |   Neuroimaging Data   |
+| :------------- | :------------- |
+|A1. (meta)data are retrievable, by their identifier using a standardized communication protocol|Is each object and accompanying medata able to be retrieved using a unique identifier? If the data files are not public, does the repository in which the data and metadata are stored permit retrieval of the data and metadata via a secure authentication protocols such as HTTPS or FTPS?|
+|A1.1. the protocol is open, free, and universally implementable|Yes|
+|A1.2. the protocol allows for an authentication and authorization procedure, where necessary|If using DICOMWeb, can it be integrated with existing authentication protocols defined by other standards?|
+|A2. metadata is accessible, even when the data is no longer available|Does the repository where the neuroimaging data is stored permit the perpetual storage of the metadata about the file in the event that the data itself becomes unavailable? This may not be applicable, since metadata is stored alongside the data in the same object.|
 
 ## Publication in progress. Your patience is appreciated.
