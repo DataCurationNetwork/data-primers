@@ -312,4 +312,47 @@ The following questions can assist researchers in evaluating the FAIRness of the
 |A1.2. the protocol allows for an authentication and authorization procedure, where necessary|If using DICOMWeb, can it be integrated with existing authentication protocols defined by other standards?|
 |A2. metadata is accessible, even when the data is no longer available|Does the repository where the neuroimaging data is stored permit the perpetual storage of the metadata about the file in the event that the data itself becomes unavailable? This may not be applicable, since metadata is stored alongside the data in the same object.|
 
+## To be Interoperable:
+
+|   FAIR Guiding principle   |   Neuroimaging Data   |
+| :------------- | :------------- |
+|I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation|Does the DICOM or NIfTI data meet international standards?|
+|I2. (meta)data use vocabularies that follow FAIR principles|To meet file type standards, neuroimaging data can reuse vocabularies defined elsewhere, relying often on the terminology defined by [SNOMED-CT](https://searchhealthit.techtarget.com/definition/SNOMED-CT), [UCUM](http://unitsofmeasure.org/trac), [NCIt](https://ncit.nci.nih.gov/ncitbrowser/), [FMA](https://bioportal.bioontology.org/ontologies/FMA), and allows for integration with other vocabularies, including those defined by the user.|
+|I3. (meta)data includes qualified references to other (meta)data|Do the derived objects include pointers to the datasets used in the derivation, including the purpose of reference and properly cite any related publications or datasets?|
+
+## To be Reusable:
+
+|   FAIR Guiding principle   |   Neuroimaging Data   |
+| :------------- | :------------- |
+|R1. (meta)data are richly described with a plurality of accurate and relevant attributes|Are data attributes included for a specific object defined by the standard, as a result of the community discussion and consensus process? Is the process of amending the standard formalized and open?|
+|R2. (meta)data are released with a clear and accessible data usage license|This is not applicable; data usage license is selected by the data provider; the DICOM standard itself is available free of charge, and its implementation is not restricted by any licenses.|
+|R1.2. (meta)data are associated with detailed provenance|The composite context is preserved across imaging and derived datasets describing patient and acquisition details.  Provenance-related attributes are included, depending on the specific object type.|
+|R1.3. (meta)data meet domain-relevant community standards|DICOM is the main standard in the relevant medical imaging domain.|
+
+
+# Ways in which fields may use this format
+
+Researchers may aggregate datasets in order to overcome intersubject variability, or create population and subpopulation norms. Also, these files may be used to conduct reliability studies when new image processing software is developed or when training new study team members.
+
+# Documentation of Curation Process
+
+1. De-identification procedures requested from researcher
+
+2. File conversion procedures from DICOM to NIfTI if applicable
+
+3. Restructuring of file format to match BIDS organizing standard
+
+# References
+
+- Aryanto, K. Y. E., M. Oudkerk, and P. M. A. van Ooijen. "Free DICOM de-identification tools in clinical research: functioning and safety of patient privacy." European radiology 25, no. 12 (2015): 3685-3695. [https://doi.org/10.1007/s00330-015-3794-0](https://doi.org/10.1007/s00330-015-3794-0)
+- Bennett, William, Kirk Smith, Quasar Jarosz, Tracy Nolan, and Walter Bosch. "Reengineering workflow for curation of DICOM datasets." Journal of digital imaging 31, no. 6 (2018): 783-791. [https://doi.org/10.1007/s10278-018-0097-4](https://doi.org/10.1007/s10278-018-0097-4)
+- Gorgolewski, Krzysztof J., Tibor Auer, Vince D. Calhoun, R. Cameron Craddock, Samir Das, Eugene P. Duff, Guillaume Flandin et al. "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments." Scientific data 3, no. 1 (2016): 1-9. [https://doi.org/10.1038/sdata.2016.44](https://doi.org/10.1038/sdata.2016.44)
+- Li, Xiangrui, Paul S. Morgan, John Ashburner, Jolinda Smith, and Christopher Rorden. "The first step for neuroimaging data analysis: DICOM to NIfTI conversion." Journal of neuroscience methods 264 (2016): 47-56. [https://doi.org/10.1016/j.jneumeth.2016.03.001](https://doi.org/10.1016/j.jneumeth.2016.03.001)
+- Moore, Stephen M., David R. Maffitt, Kirk E. Smith, Justin S. Kirby, Kenneth W. Clark, John B. Freymann, Bruce A. Vendt, Lawrence R. Tarbox, and Fred W. Prior. "De-identification of medical images with retention of scientific research value." Radiographics 35, no. 3 (2015): 727-735. [https://doi.org/10.1148/rg.2015140244](https://doi.org/10.1148/rg.2015140244)
+- Patterson, Diane. BIDS-Validator. University of Arizona Neuroimaging Core Documentation. (2018). [https://neuroimaging-core-docs.readthedocs.io/en/latest/pages/bids-validator.html](https://neuroimaging-core-docs.readthedocs.io/en/latest/pages/bids-validator.html)
+- Poldrack, Russell A., and Krzysztof J. Gorgolewski. "Making big data open: data sharing in neuroimaging." Nature neuroscience 17, no. 11 (2014): 1510. [https://doi.org/10.1038/nn.3818](https://doi.org/10.1038/nn.3818)
+- Smith, Kenneth, Sushil Jajodia, Vipin Swarup, Jeffrey Hoyt, Gail Hamilton, Donald Faatz, and Todd Cornett. "Enabling the sharing of neuroimaging data through well-defined intermediate levels of visibility." NeuroImage 22, no. 4 (2004): 1646-1656. [https://doi.org/10.1016/j.neuroimage.2004.03.048](https://doi.org/10.1016/j.neuroimage.2004.03.048)
+
+
+
 ## Publication in progress. Your patience is appreciated.
