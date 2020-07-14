@@ -355,6 +355,3 @@ Researchers may aggregate datasets in order to overcome intersubject variability
 - Poldrack, Russell A., and Krzysztof J. Gorgolewski. "Making big data open: data sharing in neuroimaging." Nature neuroscience 17, no. 11 (2014): 1510. [https://doi.org/10.1038/nn.3818](https://doi.org/10.1038/nn.3818)
 - Smith, Kenneth, Sushil Jajodia, Vipin Swarup, Jeffrey Hoyt, Gail Hamilton, Donald Faatz, and Todd Cornett. "Enabling the sharing of neuroimaging data through well-defined intermediate levels of visibility." NeuroImage 22, no. 4 (2004): 1646-1656. [https://doi.org/10.1016/j.neuroimage.2004.03.048](https://doi.org/10.1016/j.neuroimage.2004.03.048)
 
-
-
-## Publication in progress. Your patience is appreciated.
