@@ -108,7 +108,9 @@ NIfTI is a neuroimaging-specific file format developed by the National Institute
 
 The 348-bit NIfTI header covers the technical parameters of the accompanying image, such as data scaling, slicing details, and axis information, as well as fields for brief description and naming. A detailed list of the included header elements can be found on the [Neuroimaging Informatics Technology Initiative’s Data Format Working Group page](https://nifti.nimh.nih.gov). NIfTI exists in two “flavors”: NIfTI-1 was updated in 2011 into a slightly extended version called NIfTI-2, and the two are not bitwise compatible. Both are used, but NIfTI-1 is much more common.
 
-![]()
+![](neuro3.jpg)
+
+Image and NIfTI header information of the [INIA19 Primate Brain Atlas](https://www.nitrc.org/projects/inia19/), viewed using MRIcron.
 
 # Example Datasets
 
@@ -202,7 +204,7 @@ Those rare occasions aside, a data curator may be expected to convert DICOM file
 
 DICOM files can either be loaded into the program either through a drag-and-drop interface or by selecting an entire folder. Users can specify whether they want to anonymize the data during conversion and choose between uncompressed (.nii) and compressed (nii.gz) formats with an accompanying JSON file of header information as a sidecar.
 
-![]()
+![](neuro4.jpg)
 
 Similar conversion packages are freely available online. Curators with access to MATLAB can use [dicm2nii](https://www.mathworks.com/matlabcentral/fileexchange/42997-xiangruili-dicm2nii) tools to convert, and [MRIConvert](https://lcni.uoregon.edu/downloads/mriconvert/mriconvert-and-mcverter) can be used for the same purpose.
 
