@@ -53,7 +53,7 @@ Images of brains are essential for neuroscience research, but the complexity of 
 
 # Curatorial Pipeline
 
-![]()
+![](neuro1.jpg)
 
 # Description of Format
 
@@ -86,7 +86,7 @@ The standard was envisioned in the 1980s by the American College of Radiology (A
 
 A foundational DICOM component is that the medical image should never be separated from key information about its creation. To accomplish that, DICOM data objects group image pixel data together with a header consisting of key public patient (name, age, sex, etc.), study (physician, study date, modality, etc.), and imaging (name of device, manufacturer, scanner settings, etc.) parameters into a consolidated dataset. This effectively embeds the most complete description of the procedure used into the image, similar to how a JPEG can be embedded with descriptive tags. This approach allows the image to effectively serve as its own description, and descriptive attributes can vary between imaging modalities. These public parameters are interoperable across manufacturer devices, though DICOM files may contain some proprietary private attributes as well.
 
-![]()
+![](neuro2.jpg)
 
 Image pixel data can be compressed using various standards, including JPEG, lossless JPEG, JPEG-2000 and run-length encoding. However, due to the comprehensive and complex scope inherent in the format, DICOM file and dataset sizes can be a significant burden to data curators and a challenge to store in shared repositories. Each DICOM file is encoded as a single 2D slice rather than a comprehensive 3D image, meaning a single scan can result in dozens or hundreds of separate DICOM files to manage. Therefore, many neurological researchers prefer to convert DICOM files to the unified and comparatively simple NIfTI format to better support analysis and visualization.
 
