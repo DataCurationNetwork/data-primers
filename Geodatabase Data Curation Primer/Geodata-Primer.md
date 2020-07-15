@@ -83,7 +83,7 @@ The ArcSDE, or enterprise, geodatabase (with file extension .sde) is designed fo
 
 The primary datasets within a geodatabase are called feature classes, which include vector datasets, raster datasets, and tables. Like shapefiles, the main types of feature classes have either point, polyline or polygon geometry along with an attribute table. Additionally, annotation (map text linked to a graphic feature), dimensions, multipoints and multipatches (used in 3D geometry) can also be feature classes within geodatabases, but have no equivalency with respect to shapefiles. (2, 3)
 
-Geodatabases are best explored using Esri&#39;s ArcCatalog, which lists each feature class by name and includes an icon indicating the feature class type.
+Geodatabases are best explored using Esri's ArcCatalog, which lists each feature class by name and includes an icon indicating the feature class type.
 
 # Examples of geodatabase datasets
 
@@ -119,7 +119,7 @@ _Key clarifications to get from researcher_
 
 # Instructions for resources to use in the curation review of geodatabase files
 
-Viewing files in a geodatabase requires use of specialized software, either ArcGIS or QGIS (detailed information on each follows below). Although geodatabases appear as file folders when copied to a computer, they uniquely code and store the files within them. Using File Explorer is NOT recommended as the file names and extensions are intentionally obscured. If you need to review, rearrange, or delete files in a geodatabase use one of the following options. (see Figure 1a and compare to views of the same geodatabase presented in Figures 2-7). The only exception to this is if the researcher has stored map jpegs or .mxd files within the geodatabase. Although ArcGIS allows these files to be saved within a geodatabase, they are not visible within the geodatabase via the Arc Catalog, ArcMap, or ArcPro windows. It is not recommended that researchers store these files within geodatabases, but it may be useful to scroll to the end of a geodatabase in Windows Explorer to make sure such files do not exist. (See Figure 1b)
+Viewing files in a geodatabase requires use of specialized software, either ArcGIS or QGIS (detailed information on each follows below). Although geodatabases appear as file folders when copied to a computer, they uniquely code and store the files within them. Using File Explorer is NOT recommended as the file names and extensions are intentionally obscured. If you need to review, rearrange, or delete files in a geodatabase use one of the following options. (see Figure 1a and compare to views of the same geodatabase presented in Figures 2-7). The only exception to this is if the researcher has stored map jpegs or .mxd files within the geodatabase. Although ArcGIS allows these files to be saved within a geodatabase, they are not visible within the geodatabase via the Arc Catalog, ArcMap, or ArcPro windows. It is not recommended that researchers store these files within geodatabases, but it may be useful to scroll to the end of a geodatabase in Windows Explorer to make sure such files do not exist (See Figure 1b).
 
 ![](image2-gd-dc.png)
 
@@ -291,7 +291,7 @@ In the instance of geodatabases, curators may wish to create an individual recor
 Geodatabases are a proprietary format created by ESRI. While QGIS can open them, most other GIS analysis tools cannot. It should be noted that while ESRI is the industry leader in GIS software and in heavy use, other ESRI formats have already become obsolete. It is therefore recommended, where possible, to export files within a geodatabase to formats documented as suitable for long-term preservation.  In these cases, it is recommended that both the geodatabase and the conversion files are kept and documented in an accompanying README file.  Below are transformation recommendations and guidelines for the major types of files within a geodatabase.
 
   **Shapefiles**<br/>
-  Shapefiles are the most persistent geospatial vector format thus far and so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, they are still technically proprietary. Note: shapefiles are not able to hold as many columns as a geodatabase feature layer. Another option to explore is exporting the feature layer to a CSV, which is very doable for point data, but note that for polygons and lines information could be lost. A good idea is to keep the geodatabase and do the shapefile and csv conversions.
+  Shapefiles are the most persistent geospatial vector format thus far, so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, shapefiles are still technically proprietary. Note: shapefiles are not able to hold as many columns as a geodatabase feature layer, so a single geodatabase may need to be converted into multiple shapefiles. Another option to explore is exporting the feature layer to a CSV, which is very doable for point data, but note that for polygons and lines information could be lost. A good idea is to keep the geodatabase and do the shapefile and csv conversions.
 
   **Feature classes to shapefiles** <br/>
   Please note: shapefiles are made of several files that depend on each other so must be packaged together
@@ -306,7 +306,7 @@ Geodatabases are a proprietary format created by ESRI. While QGIS can open them,
   1. Open layer in QGIS
   2. Right click on the layer
   3. Export
-  4. Save feature as ESRI Shapefile
+  4. Save feature as ESRI Shapefile. Note here and elsewhere with QGIS that you will need to click the "three dots" icon and specify a full path where the new file will be saved upon export. It's not enough just to give the export file a name
 
 ![](image18-gd-dc.png)
 
@@ -397,12 +397,13 @@ Adequate documentation of the geodatabase should be provide. This will  include:
 - Map images of each spatial layer
 
 *Unresolved Issues/Further Questions [for example: tracking provenance of data creation, level of detail in dataset]*
-Documentation of curation process: What do capture from curation process
+Documentation of curation process: What to capture from curation process:
 - Software used to evaluate
 - Questions raised in check process
 - Communications with researcher
 - Embedded metadata
 - Transformations
+- Decisions made in splitting geodatabases into multiple data objects (if applicable)
 
 # Bibliography
 Cited in Text
