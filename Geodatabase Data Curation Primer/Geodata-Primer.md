@@ -81,7 +81,7 @@ The ArcSDE, or enterprise, geodatabase (with file extension .sde) is designed fo
 
 ## Exploring geodatabases
 
-The primary datasets within a geodatabase are called feature classes, which include vector datasets, raster datasets, and tables. Like shapefiles, the main types of feature classes have either point, polyline or polygon geometry along with an attribute table. Additionally, annotation (map text linked to a graphic feature), dimensions, multipoints and multipatches (used in 3D geometry) can also be feature classes within geodatabases, but have no equivalency with respect to shapefiles. (2, 3)
+Geodatabases are containers for different types of datasets. The main dataset types stored within a geodatabase are feature classes, raster datasets, and tables. Like shapefiles, the main types of feature classes have either point, polyline or polygon geometry along with an attribute table. Additionally, annotation (map text linked to a graphic feature), dimensions, multipoints and multipatches (used in 3D geometry) can also be feature classes within geodatabases, but have no equivalency with respect to shapefiles. (2, 3)
 
 Geodatabases are best explored using Esri's ArcCatalog, which lists each feature class by name and includes an icon indicating the feature class type.
 
@@ -240,7 +240,7 @@ Many of the tools needed to understand the underlying information about a layer 
 1. ESRI FileGDB is not an option for some versions of QGIS. You can open up the geodatabase using OpenFileGDB, but you cannot edit the geodatabase.
 2. If you want full read/write access with an ESRI geodatabase, you will have to install the FileGDB driver from OSGeoFW.
 3. There have been issues in viewing the metadata in a geodatabase. QGIS does not have standalone metadata editor as ArcGIS. For example, you cannot view various metadata formats such as XML, FGDC, and ISO.
-4. There can be issues in loading geodatabases in which the shapefile exceeds the size limit for shapefiles(2GB). 
+4. There can be issues in loading geodatabases in which the shapefile exceeds the size limit for shapefiles(2GB).
 
 # Metadata
 
