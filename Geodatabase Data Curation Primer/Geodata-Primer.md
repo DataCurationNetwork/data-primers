@@ -236,6 +236,12 @@ Many of the tools needed to understand the underlying information about a layer 
 
 ![](image16-gd-dc.png)
 
+**Limitations using QGIS**
+1. ESRI FileGDB is not an option for some versions of QGIS. You can open up the geodatabase using OpenFileGDB, but you cannot edit the geodatabase.
+2. If you want full read/write access with an ESRI geodatabase, you will have to install the FileGDB driver from OSGeoFW.
+3. There have been issues in viewing the metadata in a geodatabase. QGIS does not have standalone metadata editor as ArcGIS. For example, you cannot view various metadata formats such as XML, FGDC, and ISO.
+4. There can be issues in loading geodatabases in which the shapefile exceeds the size limit for shapefiles(2GB). 
+
 # Metadata
 
 ## Geospatial Metadata Standards
