@@ -55,7 +55,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 | Versions | 27.0 Most recent version as of 07/13/2020. See release notes: [https://www.ibm.com/support/pages/node/3003615](https://www.ibm.com/support/pages/node/3003615) |
 | Primary fields or areas of use | Social sciences, psychology, education, health sciences, and survey data |
 | Source and affiliation | [SPSS Statistics](https://www.ibm.com/products/spss-statistics) is a software package initially created by SPSS Inc. It was acquired by IBM in 2009 and currently it is named IBM SPSS Statistics. |
-| Metadata | The SPSS Dictionary (also called &quot;code book&quot;) is part of the SPSS data file (.sav, .por) and it holds all metadata, specifically, .sav: Can contain names and labels for variables, an unformatted textual description, and an extension record with attributes. por: Can contain names and labels for variables and an unformatted textual description. |
+| Metadata | The SPSS Dictionary (also called &quot;codebook&quot;) is part of the SPSS data file (.sav, .por) and it holds all metadata, specifically, .sav: Can contain names and labels for variables, an unformatted textual description, and an extension record with attributes. por: Can contain names and labels for variables and an unformatted textual description. |
 | Key questions for curation review | <ul><li> What version of SPSS were these files created with? Which is the latest version at the time of curation? Which versions are currently supported by the software producers and common operating systems?</li><li> Are the variables well-described (with labels, etc.) within SPSS variables table? Is there an external codebook or data dictionary? </li><li> Is there an additional README file or other documentation containing the project context, methodology, protocols and other data documentation? </li><li> Is the data &quot;native&quot; to SPSS, or was it exported to SPSS from another statistical package? </li><li> Which files (e.g., data, syntax, output) are essential to effectively sharing this data? Which are optional? </li><li> Would a researcher in this field or others have all they need to interpret this data? </li><li> What are the file formats of the data received? Check for a data file and codebook (.sav), and syntax file (.sps). </li><li> Is use of a file-naming convention evident? Are the file names understandable? Are relationships between files explained?       
 | Tools for curation review | <ul><li> [SPSS](https://www.ibm.com/ca-en/marketplace/spss-statistics) </li><li> [Smartreader for SPSS Statistics](https://developer.ibm.com/predictiveanalytics/docs/spss-statistics/programmability/extensions-tools-and-utilities-for-spss-statistics/) </li><li> [PSPP](https://www.gnu.org/software/pspp/) </li><li> [ViewSav](http://www.asselberghs.dds.nl/stuff.htm) </li><li> [R](https://cran.r-project.org/web/packages/rio/vignettes/rio.html) (Haven and rio packages) </li><li> [SAS](https://www.sas.com/) (SAS v.9.1.3 and later) </li><li> [STATA](https://ideas.repec.org/c/boc/bocode/s456957.html) (USESPSS)|
 | Date Created | 12/21/2018 |
@@ -94,39 +94,36 @@ While this primer primarily discusses .sav and .por files, there are other possi
 
 **Examples below link to study in the ICPSR which offers SPSS as a download option.**
   
-  - United States. Bureau of Justice Statistics. Survey of Inmates in State and Federal Correctional Facilities, [United States], 2004. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-19. [https://doi.org/10.3886/ICPSR0472.v5](https://doi.org/10.3886/ICPSR0472.v5)
-
-  - Cohen, Deborah (Deborah Ann). Evaluation of the Balance Calories Initiative, 2016 Baseline, Alabama and Mississippi. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributer], 2018-12-17. [https://doi.org/10.3886/ICPSR37110.v1](https://doi.org/10.3886/ICPSR37110.v1)
+  - United States. Bureau of Justice Statistics. Survey of Inmates in State and Federal Correctional Facilities, [United States], 2004. Inter-university Consortium for Political and Social Research [distributor], 2019-12-12. [https://doi.org/10.3886/ICPSR04572.v6] (https://doi.org/10.3886/ICPSR04572.v6)
+  - Cohen, Deborah (Deborah Ann). Evaluation of the Balance Calories Initiative, 2016 Baseline, Alabama and Mississippi. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2018-12-17. [https://doi.org/10.3886/ICPSR37110.v1](https://doi.org/10.3886/ICPSR37110.v1)
 
 # Start the Conversation, Broad Questions and Clarifications on Research Data
 
-Before going into technical details specific to the SPSS data, having a short conversation with researchers about their area of research, and data practices is helpful.
+Before going into technical details specific to the SPSS data format, having a short conversation with researchers about their area of research, and data practices is helpful.
 
 The main assumptions about SPSS are that it is used by researchers for quantitative analysis and for producing graphical representations of their data. After talking to researchers, our group now has a better understanding of how some researchers analyze, save and share their data with SPSS.
 
 **Is SPSS used by many researchers doing quantitative analysis? How is SPSS compared to similar statistical programs?**
 
-Researchers interviewed indicated that SPSS is commonly used by new or early career researchers, who are often introduced to the software in their graduate programs. Many research institutions have access to the software, so it is commonly used for instruction of students. Fields of research in which SPSS is commonly used include the social sciences, psychology, and education.
+The researchers interviewed indicated that SPSS is commonly used by new or early career researchers, who are often introduced to the software in their graduate programs. Many research institutions have access to the software, so it is commonly used for instruction of students. Fields of research in which SPSS is commonly used include the social sciences, psychology, and education.
 
-The researchers interviewed primarily used more advanced software for statistical analysis, including STATA, SAS, and R. For example, one researcher interviewed used SAS to conduct research with data from a Learning Management System (LMS). For this project, they obtained raw data from their institution's LMS describing student grades and information, which was spread across many relational databases and other sources, like web sites, textual documents. SAS was used to organize this data into a single table for further analysis. Another researcher in statistics also uses SAS for research in optimal design. In comparison, SPSS provides a more user-friendly interface.
-
-Researchers noted the proprietary (and expensive) nature of SPSS software as part of their motivations for increasingly working with open source platforms like R alongside of SPSS. Many times research projects involve work with outside collaborators who may not have institutional access to SPSS, so the ability to work across software platform is key.
+The researchers interviewed primarily used more advanced software for statistical analysis, including STATA, SAS, and R, but SPSS is a good option for those who do not have programming skills. Researchers noted the proprietary (and expensive) nature of SPSS software as part of their motivations for increasingly working with open source platforms like R alongside SPSS. Many times research projects involve work with outside collaborators who may not have institutional access to SPSS, so the ability to work across software platforms is key.
 
 **What kind of data do researchers generate on import into SPSS?**
 
-Researchers interviewed used a range of structured data inputs with SPSS including tabular data and relational databases, with information from a variety of sources: web data, survey responses, model simulations, etc.
+The researchers interviewed used a range of structured data inputs with SPSS including tabular data and relational databases, with information from a variety of sources: web data, survey responses, model simulations, etc.
 
 One researcher described his research using a diary study for a project in cognitive psychology. The participant diaries were coded by hand, and the codes were input as tabular data into SPSS. The researcher then used regression analysis and structural equation modeling tools within SPSS to look for patterns across diaries.
 
 **How do researchers document their data in SPSS?**
 
-SPSS automatically generates three main outputs: the data file (*.sav), the codebook, and the syntax file. The code book describes variables and data contained in the data file, while the syntax describes the analysis process. The codebook and syntax file are important metadata to capture along with the data, but may not be sufficient to capture the context, methodology and provenance of the dataset being created.
+SPSS automatically generates three main outputs: the data file (*.sav), the codebook, and the syntax file. The codebook describes variables and values contained in the data file, while the syntax describes the analysis process. The codebook and syntax file are important metadata to capture along with the data, but may not be sufficient to capture the context, methodology and provenance of the dataset being created.
 
 Researchers generally described making use of SPSS functions to document their data, rather than creating separate README files. This includes creating thorough and descriptive variable and value labels, and saving complete syntax files (sometimes with additional comments).
 
 **What kind of data outputs are researchers able or willing to share from SPSS?**
 
-Researchers interviewed primarily export their data file created in SPSS into a non-proprietary format (e.g., csv), if they intend to share it or analyze it with another piece of software. Researchers also reported sharing the syntax file to describe table structures and methods of analysis. Codebooks were also considered essential for sharing data. Based on the interviews, while the practices of researchers vary, the curators can include essential data for the datasets. If needed, the curator can generate from the datasets the researchers provided such as variable list and data dictionary.
+The researchers interviewed primarily export their data file created in SPSS into a non-proprietary format (e.g., csv), if they intend to share it or analyze it with another piece of software. Researchers also reported sharing the syntax file to describe table structures and methods of analysis. Codebooks were also considered essential for sharing data. Based on the interviews, while the practices of researchers vary, the curators can include essential data for the datasets. If needed, the curator can generate documentation from the datasets the researchers provided such as variable lists and data dictionaries.
 
 # Key Questions
 
@@ -136,49 +133,57 @@ These are &quot;reflection&quot; questions for the curator or curation team to r
 
   2. What version of SPSS were the data files created with, compared with the current version at the time of curation?
 
-  3. Is use of a file-naming convention evident? Are the file names understandable?
+  3. Is use of a file-naming convention evident? Are the file names understandable? Are relationships between files explained?
 
-  4. Are the variables contained in the data files well-organized and sufficiently described (e.g., unique and understandable labels, etc.)? Is there an external codebook or data dictionary?
+  4. Are the variables well-described (with labels, etc.) within SPSS variables table? Is there an external codebook or data dictionary?
 
-  5. Is there an additional README file containing necessary metadata (e.g., project context, methodology, and data information)?
+  5. Is there an additional README file or other documentation containing the necessary project context, methodology, and other information?
 
   6. What does the data contained represent? Is additional documentation necessary for interpretation? (e.g., if the data represents survey results, is it a complete copy of the survey or interview instrument available as a separate file?)
 
   7. Which files (e.g., data, syntax, output) are essential to effectively sharing this data? Which are optional?
 
-  8. What is the profile of potential re-users of this data? Is there additional information they would need to know to reuse this data?
+  8. Would a researcher in this field or others have all documentation they need to interpret this data?
 
-# Key clarifications
+# Additional Considerations
 
 If answers to the following are not addressed in any associated metadata or documentation, follow up with the researcher for further clarification.
 
 Data Analysis and Curation
 
-  1. What are the dates of data collection and analysis?
+  1. What are the dates of data collection?
 
-  2. How was the missing data handled?
+  2. Is there information about the provenance of the data (e.g. when changes were made and by whom)?
+  
+  3. Are there missing or null values in the data? How is missing data handled/defined?
 
-  3. Does the dataset contain any imputed data?
+  4. Does the dataset contain any imputed data?
 
-  4. Were data &quot;cleaned&quot; using a tool such as OpenRefine or R packages?
+  5. Are the data weighted in any way?
+  
+  6. Are the data from multiple sources? Are they cited? What are the sharing permissions?
+  
+  7. Were other software tools used for data gathering/cleaning/transforming (e.g. OpenRefine, R, etc.)? Are they listed in the documentation?
 
-  5. What other tools (if any) were used to gather or analyze this data in addition to SPSS?
+  8. Were any SPSS extensions used in this analysis? Are they listed in the documentation?
 
 Sensitive Data
 
-  6. If data pertains to human subjects, have data been sufficiently anonymized?
+  9. If data pertains to human subjects, have data been sufficiently anonymized?
 
-  7. If anonymized data are being shared, what steps have been taken to prevent re-identification of participants? (e.g., are geographic aggregations used in order to help prevent re-identification of human subjects data, etc.)? Is there any data contained that could allow for re-identification?
+  10. If anonymized data are being shared, what steps have been taken to prevent re-identification of participants? (e.g., are geographic aggregations used in order to help prevent re-identification of human subjects data, etc.)? Is there any data contained that could allow for re-identification?
 
-  8. Have funder and institutional human subjects protocols been followed and is the deposit of anonymized data permitted?
-
+  11. Have funder and institutional human subjects protocols been followed and is the deposit of anonymized data permitted?
+  
+  Note: For additional information on sensitive data, please refer to the Human Subjects primer.
+   
 Other questions
 
-  9. What are the best practices (or common practices) for this type of dataset among disciplinary or institutional repositories the researcher is aware of?
+  12. What are the best practices (or common practices) for this type of dataset among disciplinary or institutional repositories the researcher is aware of?
 
 # Applicable Metadata Standards, Recommended Elements and Readme file
 
-It is recommended to document datasets created in the research lifecycle, and use software programs and tools to assist data documentation. A dataset or project created with SPSS Statistics software need to include two levels of documentations: project level (or study level) metadata, and data level metadata.
+It is recommended to document datasets throughout in the research lifecycle, and use software programs and tools to assist in data documentation. A dataset or project created with SPSS Statistics software needs to include two levels of documentation: project level (or study level) metadata, and data level metadata.
 
 **Project-Level or Study-Level Metadata**
 
@@ -186,7 +191,7 @@ It is recommended to document datasets created in the research lifecycle, and us
 
   b. The study-level metadata includes the research context and design, data collection methods, structure of data files, secondary data sources, data validation procedures and modifications made to data, and information on data confidentiality, access and use conditions (if applicable). Key documentation can serve as sources for this information, for example, project reports, lab books, questionnaires or interview guides used in surveys or interviews, as well as publications.
 
-  c. It is recommended to assign or capture descriptive, technical, administrative, structural and preservation metadata for the dataset in digital repositories. It is also important to provide a unique identifier for the dataset (e.g., DOI, purl, handle) and make sure that the data meets citation requirement (if applicable).
+  c. It is recommended to assign or capture descriptive, technical, administrative, structural and preservation metadata for the dataset in digital repositories. It is also important to provide a unique identifier for the dataset (e.g., DOI, ARK, PURL, Handle, URI) and make sure that the data meets citation requirements (if applicable).
 
   d. This metadata may be created or collected by referring to different metadata standards or schemas. Based on the examination of some datasets and a review of several metadata standards, such as Dublin Core (DC) and Data Documentation Initiative (DDI), the group would like to recommend a list of elements to be considered for documenting SPSS research data (See Appendix B).
 
@@ -226,7 +231,7 @@ A **codebook**, or a **data dictionary** can be created from an SPSS data file.
 
 a. The data dictionary contains metadata that describes various properties of the data file.
 
-b. Researchers are recommended to provide data dictionaries for their dataset. If this information is not provided, the curator can export one from the dataset project file. The data dictionary can be saved as a .pdf or a text file. The following steps can be followed to export a data dictionary.
+b. Researchers are expected to provide data dictionaries for their dataset. If this information is not provided, the curator can export one from the dataset project file. The data dictionary can be saved as a .pdf or a text file. The following steps can be followed to export a data dictionary.
 
 In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result.
 
@@ -238,9 +243,11 @@ In the data file, click File> Display Data File Information > Working File, for 
 
 **Figure 2**: Variable information is printed to the Output Viewer window.
 
-c. The variable information can be saved as Viewer Files (.spv), SPSS Web Report (.htm) or Cognos Active Report (.mht), by clicking File> Save as in the Output Viewer window. However, it is recommended to export it as a .pdf or text file for archiving purpose.
+c. The variable information can be saved as Viewer Files (.spv), SPSS Web Report (.htm) or Cognos Active Report (.mht), by clicking File> Save as in the Output Viewer window. However, it is recommended to export it as a .pdf or text file for archiving purposes.
 
 To export the variable information as a .pdf file, in the output Viewer window, click File > Export, and the "Export Output" window will open. In this opened new window, under "Objects to export," select "All visible" under the "Document" section, click the "Type" drop-down menu, and choose "Portable Document Format (.pdf)", then in the "File name" section, click "Browse" to go to the dictionary you'd like to save the file to and create a filename (such as datadictionary_projectname.pdf), click "OK" (See Figure 3).
+
+Note: Steps b. and c. can be done in PSPP software as well (export options include .pdf, .html, .odt, .txt, .ps, and .csv).
 
 ![](SPSSfig3.jpg)
 
@@ -250,7 +257,7 @@ d. Detailed customizable codebook can be generated via Analyze > Reports > Codeb
 
 e. The data dictionary can be displayed as a .pdf file, or listed under "variable" section if the digital repository provides such capability.
 
-f. the data dictionary can also be represented as XML using IBM created dictionary schema (http://xml.spss.com/spss/data/dictionary-1.0.xsd). The dictionary schema is an XML representation of the data dictionary (See Appendix D).
+f. The data dictionary can also be represented as XML using IBM created dictionary schema (http://xml.spss.com/spss/data/dictionary-1.0.xsd). The dictionary schema is an XML representation of the data dictionary (See Appendix D).
 
 # Tutorials
 
@@ -260,11 +267,11 @@ f. the data dictionary can also be represented as XML using IBM created dictiona
 
 2.  [Kent State University Libraries SPSS Tutorials](https://libguides.library.kent.edu/SPSS)
 
-  - Four online tutorials providing an introduction to the SPSS environment, guidance on data manipulation and cleaning in SPSS, and instruction on data analysis and interpretation. Offers sample data files for users to follow along their own.
+  - Four online tutorials provide an introduction to the SPSS environment, guidance on data manipulation and cleaning in SPSS, and instruction on data analysis and interpretation. Offers sample data files for users to follow along their own.
 
 3. [SPSS Beginners Tutorials](https://www.spss-tutorials.com/basics/#introduction-to-spss)
 
-  - online guide covers beginners basics, how to prepare data, and create a data dictionary. Includes guides on conducting a range of statistical tests (e.g. T-TEst, Chi-square, Correlation, ANOVA, Linear and Multiple Regression).
+  - Online guide covers beginners basics, how to prepare data, and create a data dictionary. Includes guides on conducting a range of statistical tests (e.g. T-TEst, Chi-square, Correlation, ANOVA, Linear and Multiple Regression).
 
 4. [ICPSR - A Student's Guide to Interpreting SPSS Output for Basic Analysis](https://www.icpsr.umich.edu/files/instructors/InterpretingSPSSOutput2016.pdf)
 
@@ -294,7 +301,7 @@ f. the data dictionary can also be represented as XML using IBM created dictiona
 
 6. [R](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
 
-  - A free software environment for statistical analysis, graphics, and database manipulation, based on R programming language. Can read SPSS data saved in non-proprietary text-based formats (e.g., .csv). The [Haven](https://cran.r-project.org/web/packages/haven/readme/README.html) and [rio](https://cran.r-project.org/web/packages/rio/readme/README.html) packages can be installed in R, in order to enable R to read and write .sav files.
+  - A free software environment for statistical analysis, graphics, and database manipulation, based on R programming language. Can read SPSS data saved in non-proprietary text-based formats (e.g., .csv). The [Haven](https://cran.r-project.org/web/packages/haven/readme/README.html) and [rio](https://cran.r-project.org/web/packages/rio/readme/README.html) packages can be installed in R, in order to enable R to read and write .sav files. SPSS and R can also be used together via integrations between the two package (see: (https://developer.ibm.com/predictiveanalytics/docs/white-papers/spss-statistics-and-r-together))
 
 7. [SAS](https://www.sas.com/en_us/home.html)
 
@@ -306,40 +313,10 @@ f. the data dictionary can also be represented as XML using IBM created dictiona
 
 # Preservation Actions
 
-There are advantages to keeping data files generated in SPSS in its original .sav file format; it maintains metadata, like variable labels, with the dataset and can be important for replicating analysis. However, it is also recommended that curators convert .sav files to plain-text file formats (e.g., .por, .csv) for the purpose of better long-term preservation. If possible, repositories should store the original .sav file and the plain-text copy.
-
 **1. Recommendations for preservation**
 
-  - CESSDA
-
-      - For quality assurance, CESSDA recommends curators export a plain-text version as soon as possible after receiving files so they can confer with the researchers, if necessary.
-
-      - The .por format is more suitable for preservation than the .sav format.
-
-      - "The only sure means of preservation for the long term is converting the binary files to plain text (.csv in ASCII or Unicode). Only plain text gives the digital archive full control over the data, without being dependent on external parties. We are recommending conversion to plain text to the CESSDA organizations." See full report here: https://ppp.cessda.eu/doc/D10.4_Data_Formats.PDF
-
-  - Library of Congress
-
-    - The advantage of .sav format include incorporating metadata and variable descriptions within data file.
-
-    - Disadvantages of .sav are reliance on proprietary software that might not exist in the future, the data is not transparent, and can often be compressed.
-
-  - ICPSR
-
-    - Provide data in ASCII format with appropriate setup files.
-
-    - Provide data in .sav format.
-
-    - Provide data in portable (.por) format.
-
-  - Dataverse
-
-    - On ingest, Dataverse will create plain-text versions of supported data files.
-
-    - "Dataverse stores the raw data content extracted from such files in plain text, TAB-delimited files. The metadata information that describes this content is stored separately, in a relational database, so that it can be accessed efficiently by the application." Please see: ["What happens during ingest?"](http://guides.dataverse.org/en/4.11/user/tabulardataingest/ingestprocess.html#what-happens-during-this-ingest)
-
-    - Files created by proprietary software, like SPSS, are not ideal for archival preservation and Dataverse does not guarantee the ability to process all SPSS files in the manner explained in the above section (d.i.).
-
+  - There are advantages to keeping data files generated in SPSS in its original .sav file format; it maintains metadata, like variable and value labels, within the dataset and can be important for replicating analysis. However, it is also recommended by many preservation archives and organizations (i.e. ICPSR, CESSDA and the Library of Congress) that curators convert .sav files to plain-text file formats (e.g., .por, .csv) for better long-term preservation. If possible, repositories should store the original .sav file for immediate usability as well as the plain-text copy. Ideally a syntax file to read the text data into SPSS should also be included as part of the data package. 
+  
 **2. Options for reading & converting SAV files:**
 
   - Modules exist for R to import SPSS .sav files; see: [rio Import, Export and Convert Data Files and Read SPSS (SAV & POR)files](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
