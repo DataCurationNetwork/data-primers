@@ -261,7 +261,7 @@ Most researchers are either unaware of these standards or have limited knowledge
 
 ## Viewing and Exporting Metadata
 
-The metadata section above describes how to access and edit metadata in ArcCatalog. To view metadata using the ISO 191xx style, go to Customize>ArcCatalog Options and choose the Metadata tab in the pop up window, then select ISO 19139 Metadata Implementation Specification. (The North American Profile of ISO 19115:2003 is still in development and is not widely used, nor is the ISO 19139 Metadata Implementation Specification GML3.2.)  Alternately, you can select FGDC CSDGM Metadata to view metadata in that standard.
+The metadata section above describes how to access and edit metadata in ArcCatalog. To view metadata using the ISO 191xx style, go to Customize>ArcCatalog Options and choose the Metadata tab in the pop up window, then select ISO 19139 Metadata Implementation Specification. (The North American Profile of ISO 19115:2003 is still in development and is not widely used, nor is the ISO 19139 Metadata Implementation Specification GML3.2.)  Alternatively, you can select FGDC CSDGM Metadata to view metadata in that standard.
 
 Geodatabases store metadata in the Esri format in an internal file. Adjusting the view will show the metadata according to a particular standard, but the metadata file itself is not changed to that standard’s schema. In order to create ISO 191xx or FGDC CSDGM compliant metadata files, the metadata must be exported by clicking on the Export button. This creates a separate XML file that is stored external to the geodatabase. Note that exporting metadata using Esri’s ISO 19139 translator only includes elements within the ISO 19115 content standard, omitting field (entity and attribute) information that falls under ISO 19110.  
 
@@ -320,8 +320,7 @@ Geodatabases are a proprietary format created by ESRI. While QGIS can open them,
 ![](image18-gd-dc.png)
 
   **Feature classes to tables** <br/>
-  It is possible to extract the feature information to table including lat/long, but often times the latitude and longitude are not displayed in the table and require an extra step. This is a great solution for point feature classes, but more problematic for polygons and lines, because the integrity of the geometry can’t be maintained. Often times the latitude and longitude
-  are not displayed in the table.
+  It is possible to extract the feature information to a table including latitude/longitude, but often the latitude and longitude are not displayed in the table and require an extra step. This is a great solution for point feature classes, but more problematic for polygons and lines, because the integrity of the geometry can’t be maintained.
 
   **In ArcMap** <br/>
   1. Bring feature class into project workspace
@@ -398,12 +397,18 @@ In ArcGIS Pro, the ability to export a model to python script has been removed. 
 **Preservation strategy if geodatabase archiving is not supported**<br/>
 
 *What to look for to make sure this file meets FAIR principles*
-Adequate documentation of the geodatabase should be provide. This will  include:
-- Embedded XML data
-- All feature layers provenance information (original source, derivatives, etc.)
-- Fields and variables described to the fullest extent possible
-- If there are relationships between layers, there should be a diagram of the model provided
-- Map images of each spatial layer
+
+The FAIR Guiding Principles should be used to guide the actions of data producers and curators to make sustainable research products which are valuable, reusable, and reproducible (6).
+
+**F** indability: It is vital that both humans and machines can discover, access, and interpret research products (6). Curators can adopt the following steps to improve the findability of geodatabase files: (A) confirm that the geodatabase file is assigned a unique, persistent identifier (e.g., doi), (B) check that the geodatabase file is accompanied by contextual metadata that is appropriate for the field of study, adequately describes the geodatabase file, and  includes the persistent identifier of the geodatabase file being described, and (C) confirm that the metadata are in a format that is searchable and indexable by search engines known by likely users (7). Some of the commonly used metadata schema are the
+International Standards Organization (ISO) 191xx series of standards and the Content Standard for Digital Geospatial Metadata (CSDGM).
+
+**A** ccessibility: It is important that both humans and machines can understand how to access the research product including the conditions of reuse (6,7,8). To improve accessibility of geodatabase files, curators can check that (A) the geodatabase file can be downloaded, (B) the format of the metadata is accessible and readable by both humans and machines, and (C) the access and reuse conditions are clear and transparent (8).
+
+**I** nteroperable: Interoperable research products have increased value because interoperability makes it easier to conduct analyses which combine multiple research products and allows for machine-actionability (7). Curators can adopt the following steps to improve the interoperability of geodatabase files: (A) Look for use of shared, community specific ontologies or standard, open vocabularies (e.g., Geography Markup Language Encoding Standard (GML)) and (B) check that the metadata are provided in a machine-readable format.
+
+**R** eusability: To improve reusability of geodatabase files, curators can check that (A) a data use license is applied, is machine-readable (9), and is appropriate given assigned access control conditions and (B) the record includes adequate documentation including how the geodatabase file was created (7), embedded XML data, machine-readable provenance information (original source, derivatives, etc.) (9) for all feature layers, fully described fields and variables, a diagram of the model if there are relationships between layers, and map images of each spatial layer.
+
 
 *Unresolved Issues/Further Questions [for example: tracking provenance of data creation, level of detail in dataset]*
 Documentation of curation process: What to capture from curation process:
@@ -428,6 +433,14 @@ http://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/a-quick-tour-o
 4. GeoNet. 2019.  “What happened to Export Script button in ArcGIS Pro?” Accessed February 2, 2019.  https://community.esri.com/thread/163291
 
 5. ESRI. 2009. "Geoprocessing considerations for shapefile output." Accessed July 13, 2020. http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Geoprocessing_considerations_for_shapefile_output
+
+6. Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Bouwman, J. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9.
+
+7. Collins, S., Genova, F., Harrower, N., Hodson, S., Jones, S., Laaksonen, L., ... & Wittenburg, P. (2018). Turning FAIR into reality: Final report and action plan from the European Commission expert group on FAIR data.
+
+8. Mons, B., Neylon, C., Velterop, J., Dumontier, M., da Silva Santos, L. O. B., & Wilkinson, M. D. (2017). Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud. Information Services & Use, 37(1), 49-56.
+
+9. Ivánová, I., Brown, N., Fraser, R., Tengku, N., & Rubinov, E. (2019). Fair and standard access to spatial data as the means for achieving sustainable development goals. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, 33-39.
 
 
 **Additional Useful Sources** <br/>
