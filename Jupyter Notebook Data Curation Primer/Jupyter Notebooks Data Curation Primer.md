@@ -48,7 +48,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 | File Extension | [.ipynb](https://fileinfo.com/extension/ipynb) |
 | MIME type     |  https://jupyter.readthedocs.io/en/latest/reference/mimetype.html    |
 |  Structure | Browser-rendered composite digital asset: Notebook file (.ipynb); Notebook app; kernel   |  
-| Versions | [4.0.0 - 5.7.0](https://jupyter-notebook.readthedocs.io/en/stable/changelog.html) (previously [IPython Notebook](https://ipython.org/notebook.html)) |
+| Versions | [4.0.0 - 6.0.3](https://jupyter-notebook.readthedocs.io/en/stable/changelog.html) (previously [IPython Notebook](https://ipython.org/notebook.html)) |
 | Primary fields or areas of use | Not discipline-specific; can be used by anyone who writes code in a language with a [supported kernel](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) |
 | Source and affiliation | [Project Jupyter](https://jupyter.org/about)|
 | Metadata standards | [Codemeta](https://codemeta.github.io/); [CFF](https://citation-file-format.github.io/); [Jisc/SSI Guidance](https://zenodo.org/record/1327321#.W8lNLhNKiRs); discipline-specific keywords  |
