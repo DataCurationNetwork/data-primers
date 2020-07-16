@@ -101,7 +101,7 @@ The following elements outline recommendations for repositories accepting Jupyte
   - PDF of the Jupyter Notebook (export from Jupyter web application or [nbviewer](https://nbviewer.jupyter.org/))
   - reST export of the Jupyter Notebook (export from Jupyter web application)
   - CodeMeta.json, requirements.txt, or environment.yml (dependencies)
-  - CITATION.cff, a software citation file appropriate if not depositing in a repository
+  - CITATION.cff (a software citation file appropriate if not depositing in a repository)
   - Sample datasets and documentation (see below)
   - If used, the Container metafile (e.g. docker, singularity, reprozip)
     - Can be created using [jupyter-](https://repo2docker.readthedocs.io/en/latest/)[repo2docker](https://repo2docker.readthedocs.io/en/latest/)
