@@ -37,10 +37,11 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 - [Preservation Actions](#Preservation-Actions)
 - [Documentation of Curation Process](#Documentation-of-Curation-Process)
 - [FAIR Principles & SPSS](#FAIR-Principles-&-SPSS)
-- [Appendix A Other SPSS File Formats](#Appendix-A-Other-SPSS-File-Formats)
-- [Appendix B Project Level or Study Level Metadata](#Appendix-B-Project-Level-or-Study-Level-Metadata)
-- [Appendix C DDI Metadata](#Appendix-C-DDI-Metadata)
-- [Appendix D Dictionary Schema](#Appendix-D-Dictionary-Schema)
+- [Appendix A Using CURATE with SPSS Data](#Appendix-A-Using-CURATE-with-SPSS-Data)
+- [Appendix B Other SPSS File Formats](#Appendix-B-Other-SPSS-File-Formats)
+- [Appendix C Project Level or Study Level Metadata](#Appendix-C-Project-Level-or-Study-Level-Metadata)
+- [Appendix D DDI Metadata](#Appendix-D-DDI-Metadata)
+- [Appendix E Dictionary Schema](#Appendix-E-Dictionary-Schema)
 - [Bibliography](#Bibliography)
 
 <!-- /TOC -->
@@ -64,7 +65,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 
 # Description of Format
 
-While this primer primarily discusses .sav and .por files, there are other possible file formats which are typically associated with the software SPSS. See [Appendix A Other SPSS File Formats](#Appendix-A-Other-SPSS-File-Formats)
+While this primer primarily discusses .sav and .por files, there are other possible file formats which are typically associated with the software SPSS. See [Appendix B Other SPSS File Formats](#Appendix-B-Other-SPSS-File-Formats)
 
 **SPSS Statistics** (.sav): Data files saved in IBM SPSS Statistics format
 
@@ -117,7 +118,8 @@ One researcher described his research using a diary study for a project in cogni
 
 **How do researchers document their data in SPSS?**
 
-SPSS automatically generates three main outputs: the data file (*.sav), the codebook, and the syntax file. The codebook describes variables and values contained in the data file, while the syntax describes the analysis process. The codebook and syntax file are important metadata to capture along with the data, but may not be sufficient to capture the context, methodology and provenance of the dataset being created.
+SPSS automatically generates three main outputs: the data file (*.sav), the codebook, and the syntax file. The codebook describes variables and values 
+contained in the data file, while the syntax describes the analysis process. The codebook and syntax file are important metadata to capture along with the data, but may not be sufficient to capture the context, methodology and provenance of the dataset being created.
 
 Researchers generally described making use of SPSS functions to document their data, rather than creating separate README files. This includes creating thorough and descriptive variable and value labels, and saving complete syntax files (sometimes with additional comments).
 
@@ -193,9 +195,9 @@ It is recommended to document datasets throughout in the research lifecycle, and
 
   c. It is recommended to assign or capture descriptive, technical, administrative, structural and preservation metadata for the dataset in digital repositories. It is also important to provide a unique identifier for the dataset (e.g., DOI, ARK, PURL, Handle, URI) and make sure that the data meets citation requirements (if applicable).
 
-  d. This metadata may be created or collected by referring to different metadata standards or schemas. Based on the examination of some datasets and a review of several metadata standards, such as Dublin Core (DC) and Data Documentation Initiative (DDI), the group would like to recommend a list of elements to be considered for documenting SPSS research data (See Appendix B).
+  d. This metadata may be created or collected by referring to different metadata standards or schemas. Based on the examination of some datasets and a review of several metadata standards, such as Dublin Core (DC) and Data Documentation Initiative (DDI), the group would like to recommend a list of elements to be considered for documenting SPSS research data (See Appendix C).
 
-  e. To document more detailed information on the dataset, DDI as a metadata specification for the social and behavioral sciences can be followed. It is an XML metadata standard for documenting numeric data, and has advantages such as recording variable-level information. Detailed information is available at: http://www.ddialliance.org (See Appendix C).
+  e. To document more detailed information on the dataset, DDI as a metadata specification for the social and behavioral sciences can be followed. It is an XML metadata standard for documenting numeric data, and has advantages such as recording variable-level information. Detailed information is available at: http://www.ddialliance.org (See Appendix D).
 
 **Data Level Metadata**
 
@@ -257,7 +259,7 @@ d. Detailed customizable codebook can be generated via Analyze > Reports > Codeb
 
 e. The data dictionary can be displayed as a .pdf file, or listed under "variable" section if the digital repository provides such capability.
 
-f. The data dictionary can also be represented as XML using IBM created dictionary schema (http://xml.spss.com/spss/data/dictionary-1.0.xsd). The dictionary schema is an XML representation of the data dictionary (See Appendix D).
+f. The data dictionary can also be represented as XML using IBM created dictionary schema (http://xml.spss.com/spss/data/dictionary-1.0.xsd). The dictionary schema is an XML representation of the data dictionary (See Appendix E).
 
 # Tutorials
 
@@ -356,6 +358,12 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
   - Dataverse
 
     - Supports ingest of tabular data via SPSS (.sav or .por), STATA, R, CSV, and Excel files.
+      
+
+# Documentation of Curation Process
+Details of any kind of "data cleaning" performed by curators (e.g., JSON file exported from OpenRefine).
+Notes on changes made between versions or file formats (e.g., converting .sav file to .por file), including which software was used for the conversion.
+
 
 # FAIR Principles & SPSS
 
@@ -386,15 +394,10 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
     - Protection of human subject information has been observed and adequately communicated.
 
     - Data cleaning and other processes of manipulations of data are clearly documented to support reproducibility.
+    
+# Appendix A Using CURATE with SPSS Data
 
-
-# Documentation of Curation Process
-
-  - Details of any kind of "data cleaning" performed by curators (e.g., JSON file exported from OpenRefine).
-
-  - Notes on changes made between versions or file formats (e.g., converting .sav file to .por file), including which software was used for the conversion.
-
-# Appendix A Other SPSS File Formats
+# Appendix B Other SPSS File Formats
 
 **SPSS Statistics Compressed** (.zsav): Opens data files that are saved in IBM SPSS Statistics compressed format.
 
@@ -420,7 +423,7 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
 
   - To find out where SPSS is storing this Journal File, click Edit > Options. Click File Locations and you will see the pathname for the Journal File in the Session Journal area. You can also change the location where this file is stored.
 
-# Appendix B Project Level or Study Level Metadata
+# Appendix C Project Level or Study Level Metadata
 
 A list of elements is recommended to document project level or study level metadata in the README file and/or the metadata record in the digital repository (if available and needed). This list is compiled based on research data characteristics and several metadata standards including DC and DDI.
 
@@ -470,7 +473,7 @@ A list of elements is recommended to document project level or study level metad
 
 **Data Files Description:** Other technical information such as compression or encoding algorithms, encryption and decryption keys, software, hardware on which the data were, operating systems, application software, as well as file relationships. Can also include a description field for this information.
 
-# Appendix C DDI Metadata
+# Appendix D DDI Metadata
 
 There are two DDI standards: [DDI Lifecycle](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/) & [DDI Codebook](http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation.html). Both are compatible as XML-Schema and include Dublin Core elements. Most DC elements can map directly to DDI (See DC-DDI Mapping Table at https://www.ddialliance.org/resources/ddi-profiles/dc). For information on creating DDI metadata from SPSS see http://www.eddi-conferences.eu/ocs/index.php/eddi/eddi14/paper/viewFile/144/120.
 
@@ -478,7 +481,7 @@ There are two DDI standards: [DDI Lifecycle](http://www.ddialliance.org/Specific
 
   - **DDI-Codebook** (DDI-C) is a simplified version od DDI-L which works best for simple survey data. DDI-C is also referred to as DDI 2 (current version 2.5).
 
-# Appendix D Dictionary Schema
+# Appendix E Dictionary Schema
 
 An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The dictionary schema (https://www.ibm.com/support/knowledgecenter/SSLVMB_23.0.0/spss/programmability_option/dictionary_schema_intro.html) is installed with the software (IBM Knowledge Center) and is shown in Figure 4.
 
