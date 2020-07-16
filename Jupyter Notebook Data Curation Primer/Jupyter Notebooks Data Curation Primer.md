@@ -118,25 +118,26 @@ The following elements outline recommendations for repositories accepting Jupyte
   - Jupyter implementation details
     - Jupyter version
     - Distribution (e.g. Anaconda)
-    - Kernel version
+    - Kernel version  (programming language plus version)
   - README
-    - Documents what the Jupyter Notebook is for
-    - Request that this file include citation(s) to third-party algorithms and analyses
-    - Recommend code comments within the Notebook file itself in addition to the README file
+    - Documents what the Jupyter Notebook is for (but recommendation is that the Notebook utilize code comments)
+    - Lists dependencies on external software packages and datasets
+    - Requests that this file include citation(s) to third-party algorithms and analyses
   - Alternate identifiers and supplemental links associated with the Notebook
   - License information
 
 
-- **Runnable submission:** allows another researcher to execute the Notebook locally using sample data and files provided by the depositor (12); minimal submission metadata plus:
+- **Runnable submission:** allows another researcher or curator to execute the Notebook locally using sample data and files provided by the depositor (12); minimal submission metadata plus:
 
   - User documentation
     - Instructions to support configuration needed to execute the Notebook and code cells
     - Sample input and output files
-  - CodeMeta.json
-    - Document required software dependencies
-    - Recommend additional machine actionable dependency documentation (e.g. requirements.txt)
+  - Software Dependency Documentation
+    - CodeMeta.json
+    - Recommend additional machine actionable dependency documentation (e.g. requirements.txt or environment.yml)
   - CITATION.cff for the Notebook
     - Preferred citation; should enable native software citation
+    - Relevant if the Notebook is not being submitted to a repository
 - **Comprehensive metadata:** minimal and &quot;runnable&quot; requirements plus:
   - Developer documentation
     - Include test code and description of expected results
