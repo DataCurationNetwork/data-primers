@@ -148,13 +148,16 @@ The following elements outline recommendations for repositories accepting Jupyte
 # Key Curatorial Questions
 Once a decision has been made to accept and curate Jupyter Notebook submissions in an archival repository, the following questions should be considered with each submission:
 
-1. What are the depositor&#39;s expectations for the Notebook&#39;s future functionality once the deposited files are exported from the archival repository?
+1. What are the depositor&#39;s expectations for the Notebook&#39;s future functionality once the deposited files are exported from the archival repository?  In other words, should the code in the deposited files be able to run as-is (runnable), run with external data files (minimal), or is the deposit considered to be a static document that does not execute code (minimal)? Understanding this expectation will help determine if the deposit is minimal, runnable, or comprehensive.
 2. Does the submission include minimally required files and metadata to enable the expected functionality?
 3. Is the Notebook self-contained?
 4. Is the Notebook a standalone object or one of many products resulting from a project?
 	- Examples:
 		- Notebook that is a stand alone object: [USGS Python for Data Management](https://my.usgs.gov/confluence/display/cdi/Python+for+Data+Management#PythonforDataManagement-June11,2018:Part1-WorkingwithLocalFiles)(13)
-		- Notebooks that supplement other digital objects: [Starry](https://arxiv.org/abs/1810.06559)(14)
+		- Notebooks that supplement other digital objects: 
+		  1. [Starry Archived Code](https://zenodo.org/record/3565772)(14), [Starry Article](https://arxiv.org/abs/1810.06559)(15)
+		  2. Swiger, B. M., Liemohn, M. W., & Ganushkina, N. Y. (2020). Data for Improvement of Plasma Sheet Neural Network Accuracy with Inclusion of Physical Information. Deep Blue Data: https://doi.org/10.7302/559r-t639 <br>
+(See PlottingCode.zip) (16)
 	- Were supplemental files deposited along with the Notebook?
 		- Is information about supplemental files included within the Notebook or in separate files?
 		- If separate files, can those files be opened and read?
@@ -174,7 +177,7 @@ Once a decision has been made to accept and curate Jupyter Notebook submissions 
 # Decision Trees
 ([view online](https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0))
 
-The following decision trees (15) illustrate questions and actions that should be considered when determining whether or not to accept a Jupyter Notebook submission into a particular repository, as well key questions curators should consider when evaluating Jupyter Notebook submissions.
+The following decision trees (17) illustrate questions and actions that should be considered when determining whether or not to accept a Jupyter Notebook submission into a particular repository, as well key questions curators should consider when evaluating Jupyter Notebook submissions.
 
 ## Repository Suitability
 ![](DT-Repo.png)
@@ -247,6 +250,10 @@ Jackson, M. (2018b). Software Deposit: What to deposit (Version 1.0). _Zenodo_. 
 
 13 https://bit.ly/2sBF3jH
 
-14 https://arxiv.org/abs/1810.06559
+14 https://zenodo.org/record/3565772
 
-15 https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0
+15 https://arxiv.org/abs/1810.06559
+
+16 https://doi.org/10.7302/559r-t639
+
+17 https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0
