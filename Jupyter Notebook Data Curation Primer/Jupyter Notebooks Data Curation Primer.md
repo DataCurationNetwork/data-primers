@@ -195,7 +195,7 @@ The following decision trees (17) illustrate questions and actions that should b
 - Ten Simple Rules for Reproducible Research in Jupyter Notebooks
   - [https://arxiv.org/abs/1810.08055](https://arxiv.org/abs/1810.08055)
 - How IPython and Jupyter Notebook work
-  - [https://jupyter.readthedocs.io/en/latest/architecture/how\_jupyter\_ipython\_work.html](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
+  - [https://test-jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html](https://test-jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
 - Developing maintainable software
   - [https://www.software.ac.uk/resources/guides/developing-maintainable-software](https://www.software.ac.uk/resources/guides/developing-maintainable-software)
 - Does it make sense to apply the FAIR Data Principles to Software?
