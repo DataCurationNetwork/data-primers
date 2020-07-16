@@ -294,10 +294,13 @@ In the instance of geodatabases, curators may wish to create an individual recor
 *Sources: https://www.esri.com/news/arcuser/0309/files/9reasons.pdf*
 
 **Preservation strategy for the geodatabase & recommendations for transformations**
-Geodatabases are a proprietary format created by ESRI. While QGIS can open them, most other GIS analysis tools cannot. It should be noted that while ESRI is the industry leader in GIS software and in heavy use, other ESRI formats have already become obsolete. It is therefore recommended, where possible, to export files within a geodatabase to formats documented as suitable for long-term preservation.  In these cases, it is recommended that both the geodatabase and the conversion files are kept and documented in an accompanying README file.  Below are transformation recommendations and guidelines for the major types of files within a geodatabase.
+Geodatabases are a proprietary format created by ESRI. While QGIS can open them, most other GIS analysis tools cannot. It should be noted that while ESRI is the industry leader in GIS software and in heavy use, other ESRI formats have already become obsolete. It is therefore recommended as an option to export files within a geodatabase to formats documented as suitable for long-term preservation. In these cases, it is recommended that both the geodatabase and the conversion files are kept and documented in an accompanying README file.  Below are transformation recommendations and guidelines for the major types of files within a geodatabase.
 
   **Shapefiles**<br/>
-  Shapefiles are the most persistent geospatial vector format thus far, so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, shapefiles are still technically proprietary. Note: shapefiles are not able to hold as many columns as a geodatabase feature layer, so a single geodatabase may need to be converted into multiple shapefiles. Another option to explore is exporting the feature layer to a CSV, which is very doable for point data, but note that for polygons and lines information could be lost. A good idea is to keep the geodatabase and do the shapefile and csv conversions.
+  Shapefiles are the most persistent geospatial vector format thus far, so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, shapefiles are still technically proprietary.
+
+  Note: There are a number of limitations to be aware of when converting geodatabase layers into shapefiles. Perhaps most notable is that shapefiles field name lengths are restricted to 10 characters. If you convert a feature layer that has longer field names, they will be cut off. This can be especially confusing if there are multiple field names that start with the same 10 characters. You may need to adjust the documentation to include these alternate, shortened field names. In addition, shapefiles are limited to 2GB and are not able to hold as many columns as a geodatabase feature layer, so a single geodatabase may need to be converted into multiple shapefiles. Shapefiles have little or no support for NULL values, unicode and diacritic characters, date/times, or geodatabase specific capabilities like topologies, subtypes, attribute domains, and annotation. Check for these elements before converting and make sure to keep a copy of the original geodatabase. More information about shapefile limitations: http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Geoprocessing_considerations_for_shapefile_outputFor more information.
+
 
   **Feature classes to shapefiles** <br/>
   Please note: shapefiles are made of several files that depend on each other so must be packaged together
@@ -423,6 +426,9 @@ http://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/feature-class-
 http://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/a-quick-tour-of-the-geodatabase.htm
 
 4. GeoNet. 2019.  “What happened to Export Script button in ArcGIS Pro?” Accessed February 2, 2019.  https://community.esri.com/thread/163291
+
+5. ESRI. 2009. "Geoprocessing considerations for shapefile output." Accessed July 13, 2020. http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Geoprocessing_considerations_for_shapefile_output
+
 
 **Additional Useful Sources** <br/>
 ESRI. 2018.”What is a geodatabase?” Accessed November 7, 2018.
