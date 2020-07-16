@@ -180,13 +180,13 @@ Once a decision has been made to accept and curate Jupyter Notebook submissions 
 The following decision trees (17) illustrate questions and actions that should be considered when determining whether or not to accept a Jupyter Notebook submission into a particular repository, as well key questions curators should consider when evaluating Jupyter Notebook submissions.
 
 ## Repository Suitability
-![](DT-Repo.png)
+![Decision tree figure with questions to consider when reviewing a Jupyter notebook for acceptance in a repository. Decisions include local, disciplinary or general repositories.](DT-Repo.png  "Repository Suitability Decision Tree")
 
 *https://datacurationnetwork.org/home/resources/ <br/>
 **http://hdl.handle.net/11299/202815
 
 ## Curatorial Activities
-![](DT-Curat.png)
+![Decision tree figure with questions related to curatorial activities for Jupyter notebooks. Actions are suggested depending on if the repository accepts zipped files, if minimal metadata are included with the Notebook, and at what level identifiers (DOI’s) should be created.](DT-Curat.png "Curatorial Activities Decision Tree")
 
 # Additional Recommended Reading
 
