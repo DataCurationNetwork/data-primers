@@ -81,7 +81,7 @@ The ArcSDE, or enterprise, geodatabase (with file extension .sde) is designed fo
 
 ## Exploring geodatabases
 
-The primary datasets within a geodatabase are called feature classes, which include vector datasets, raster datasets, and tables. Like shapefiles, the main types of feature classes have either point, polyline or polygon geometry along with an attribute table. Additionally, annotation (map text linked to a graphic feature), dimensions, multipoints and multipatches (used in 3D geometry) can also be feature classes within geodatabases, but have no equivalency with respect to shapefiles. (2, 3)
+Geodatabases are containers for different types of datasets. The main dataset types stored within a geodatabase are feature classes, raster datasets, and tables. Like shapefiles, the main types of feature classes have either point, polyline or polygon geometry along with an attribute table. Additionally, annotation (map text linked to a graphic feature), dimensions, multipoints and multipatches (used in 3D geometry) can also be feature classes within geodatabases, but have no equivalency with respect to shapefiles. (2, 3)
 
 Geodatabases are best explored using Esri's ArcCatalog, which lists each feature class by name and includes an icon indicating the feature class type.
 
@@ -294,10 +294,13 @@ In the instance of geodatabases, curators may wish to create an individual recor
 *Sources: https://www.esri.com/news/arcuser/0309/files/9reasons.pdf*
 
 **Preservation strategy for the geodatabase & recommendations for transformations**
-Geodatabases are a proprietary format created by ESRI. While QGIS can open them, most other GIS analysis tools cannot. It should be noted that while ESRI is the industry leader in GIS software and in heavy use, other ESRI formats have already become obsolete. It is therefore recommended, where possible, to export files within a geodatabase to formats documented as suitable for long-term preservation.  In these cases, it is recommended that both the geodatabase and the conversion files are kept and documented in an accompanying README file.  Below are transformation recommendations and guidelines for the major types of files within a geodatabase.
+Geodatabases are a proprietary format created by ESRI. While QGIS can open them, most other GIS analysis tools cannot. It should be noted that while ESRI is the industry leader in GIS software and in heavy use, other ESRI formats have already become obsolete. It is therefore recommended as an option to export files within a geodatabase to formats documented as suitable for long-term preservation. In these cases, it is recommended that both the geodatabase and the conversion files are kept and documented in an accompanying README file.  Below are transformation recommendations and guidelines for the major types of files within a geodatabase.
 
   **Shapefiles**<br/>
-  Shapefiles are the most persistent geospatial vector format thus far, so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, shapefiles are still technically proprietary. Note: shapefiles are not able to hold as many columns as a geodatabase feature layer, so a single geodatabase may need to be converted into multiple shapefiles. Another option to explore is exporting the feature layer to a CSV, which is very doable for point data, but note that for polygons and lines information could be lost. A good idea is to keep the geodatabase and do the shapefile and csv conversions.
+  Shapefiles are the most persistent geospatial vector format thus far, so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, shapefiles are still technically proprietary.
+
+  Note: There are a number of limitations to be aware of when converting geodatabase layers into shapefiles. Perhaps most notable is that shapefiles field name lengths are restricted to 10 characters. If you convert a feature layer that has longer field names, they will be cut off. This can be especially confusing if there are multiple field names that start with the same 10 characters. You may need to adjust the documentation to include these alternate, shortened field names. In addition, shapefiles are limited to 2GB and are not able to hold as many columns as a geodatabase feature layer, so a single geodatabase may need to be converted into multiple shapefiles. Shapefiles have little or no support for NULL values, unicode and diacritic characters, date/times, or geodatabase specific capabilities like topologies, subtypes, attribute domains, and annotation. Check for these elements before converting and make sure to keep a copy of the original geodatabase. More information about shapefile limitations: http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Geoprocessing_considerations_for_shapefile_outputFor more information.
+
 
   **Feature classes to shapefiles** <br/>
   Please note: shapefiles are made of several files that depend on each other so must be packaged together
@@ -395,16 +398,16 @@ In ArcGIS Pro, the ability to export a model to python script has been removed. 
 
 *What to look for to make sure this file meets FAIR principles*
 
-The FAIR Guiding Principles should be used to guide the actions of data producers and curators to make sustainable research products which are valuable, reusable, and reproducible (5).
+The FAIR Guiding Principles should be used to guide the actions of data producers and curators to make sustainable research products which are valuable, reusable, and reproducible (6).
 
-**F** indability: It is vital that both humans and machines can discover, access, and interpret research products (5). Curators can adopt the following steps to improve the findability of geodatabase files: (A) confirm that the geodatabase file is assigned a unique, persistent identifier (e.g., doi), (B) check that the geodatabase file is accompanied by contextual metadata that is appropriate for the field of study, adequately describes the geodatabase file, and  includes the persistent identifier of the geodatabase file being described, and (C) confirm that the metadata are in a format that is searchable and indexable by search engines known by likely users (6). Some of the commonly used metadata schema are the
+**F** indability: It is vital that both humans and machines can discover, access, and interpret research products (6). Curators can adopt the following steps to improve the findability of geodatabase files: (A) confirm that the geodatabase file is assigned a unique, persistent identifier (e.g., doi), (B) check that the geodatabase file is accompanied by contextual metadata that is appropriate for the field of study, adequately describes the geodatabase file, and  includes the persistent identifier of the geodatabase file being described, and (C) confirm that the metadata are in a format that is searchable and indexable by search engines known by likely users (7). Some of the commonly used metadata schema are the
 International Standards Organization (ISO) 191xx series of standards and the Content Standard for Digital Geospatial Metadata (CSDGM).
 
-**A** ccessibility: It is important that both humans and machines can understand how to access the research product including the conditions of reuse (5,6,7). To improve accessibility of geodatabase files, curators can check that (A) the geodatabase file can be downloaded, (B) the format of the metadata is accessible and readable by both humans and machines, and (C) the access and reuse conditions are clear and transparent (7).
+**A** ccessibility: It is important that both humans and machines can understand how to access the research product including the conditions of reuse (6,7,8). To improve accessibility of geodatabase files, curators can check that (A) the geodatabase file can be downloaded, (B) the format of the metadata is accessible and readable by both humans and machines, and (C) the access and reuse conditions are clear and transparent (8).
 
-**I** nteroperable: Interoperable research products have increased value because interoperability makes it easier to conduct analyses which combine multiple research products and allows for machine-actionability (6). Curators can adopt the following steps to improve the interoperability of geodatabase files: (A) Look for use of shared, community specific ontologies or standard, open vocabularies (e.g., Geography Markup Language Encoding Standard (GML)) and (B) check that the metadata are provided in a machine-readable format.
+**I** nteroperable: Interoperable research products have increased value because interoperability makes it easier to conduct analyses which combine multiple research products and allows for machine-actionability (7). Curators can adopt the following steps to improve the interoperability of geodatabase files: (A) Look for use of shared, community specific ontologies or standard, open vocabularies (e.g., Geography Markup Language Encoding Standard (GML)) and (B) check that the metadata are provided in a machine-readable format.
 
-**R** eusability: To improve reusability of geodatabase files, curators can check that (A) a data use license is applied, is machine-readable (8), and is appropriate given assigned access control conditions and (B) the record includes adequate documentation including how the geodatabase file was created (6), embedded XML data, machine-readable provenance information (original source, derivatives, etc.) for all feature layers (8), fully described fields and variables, a diagram of the model if there are relationships between layers, and map images of each spatial layer.
+**R** eusability: To improve reusability of geodatabase files, curators can check that (A) a data use license is applied, is machine-readable (9), and is appropriate given assigned access control conditions and (B) the record includes adequate documentation including how the geodatabase file was created (7), embedded XML data, machine-readable provenance information (original source, derivatives, etc.) (9) for all feature layers, fully described fields and variables, a diagram of the model if there are relationships between layers, and map images of each spatial layer.
 
 
 *Unresolved Issues/Further Questions [for example: tracking provenance of data creation, level of detail in dataset]*
@@ -429,13 +432,16 @@ http://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/a-quick-tour-o
 
 4. GeoNet. 2019.  “What happened to Export Script button in ArcGIS Pro?” Accessed February 2, 2019.  https://community.esri.com/thread/163291
 
-5. Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Bouwman, J. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9.
+5. ESRI. 2009. "Geoprocessing considerations for shapefile output." Accessed July 13, 2020. http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Geoprocessing_considerations_for_shapefile_output
 
-6. Collins, S., Genova, F., Harrower, N., Hodson, S., Jones, S., Laaksonen, L., ... & Wittenburg, P. (2018). Turning FAIR into reality: Final report and action plan from the European Commission expert group on FAIR data.
+6. Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Bouwman, J. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9.
 
-7. Mons, B., Neylon, C., Velterop, J., Dumontier, M., da Silva Santos, L. O. B., & Wilkinson, M. D. (2017). Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud. Information Services & Use, 37(1), 49-56.
+7. Collins, S., Genova, F., Harrower, N., Hodson, S., Jones, S., Laaksonen, L., ... & Wittenburg, P. (2018). Turning FAIR into reality: Final report and action plan from the European Commission expert group on FAIR data.
 
-8. Ivánová, I., Brown, N., Fraser, R., Tengku, N., & Rubinov, E. (2019). Fair and standard access to spatial data as the means for achieving sustainable development goals. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, 33-39.
+8. Mons, B., Neylon, C., Velterop, J., Dumontier, M., da Silva Santos, L. O. B., & Wilkinson, M. D. (2017). Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud. Information Services & Use, 37(1), 49-56.
+
+9. Ivánová, I., Brown, N., Fraser, R., Tengku, N., & Rubinov, E. (2019). Fair and standard access to spatial data as the means for achieving sustainable development goals. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, 33-39.
+
 
 **Additional Useful Sources** <br/>
 ESRI. 2018.”What is a geodatabase?” Accessed November 7, 2018.
