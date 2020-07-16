@@ -480,7 +480,7 @@ There are two DDI standards: [DDI Lifecycle](http://www.ddialliance.org/Specific
 
 # Appendix D Dictionary Schema
 
-An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The dictionary schema (http://xml.spss.com/spss/data/dictionary-1.0.xsd) is installed with the software (IBM Knowledge Center) and is shown in Figure 4.
+An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The dictionary schema (https://www.ibm.com/support/knowledgecenter/SSLVMB_23.0.0/spss/programmability_option/dictionary_schema_intro.html) is installed with the software (IBM Knowledge Center) and is shown in Figure 4.
 
 ![](SPSSfig4.jpg)
 
@@ -490,7 +490,7 @@ An XML representation for the data dictionary can be exported from the software 
 
 Digital Curation Centre. Because good research needs good data. (n.d.). Retrieved January 16, 2019, from http:www.dcc.ac.uk/
 
-Digital Preservation Coalition. (n.d.). Quantitative File Formats for Preservation - Digital Preservation Coalition. Retrieved January 2, 2019, from https://www.dpconline.org/blog/quantitative-file-formats-for-preservation
+Digital Preservation Coalition. (n.d.). Quantitative File Formats for Preservation - Digital Preservation Coalition. Retrieved January 2, 2019, from https://www.dpconline.org/blog/quanititative-file-formats-for-preservation
 
 Document your data. (n.d.). Retrieved January 16, 2019, from https://www.ukdataservice.ac.uk/manage-data/document
 
