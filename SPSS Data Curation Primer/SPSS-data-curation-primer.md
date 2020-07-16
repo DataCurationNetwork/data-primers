@@ -169,17 +169,17 @@ Data Analysis and Curation
 
 Sensitive Data
 
-  9. If data pertains to human subjects, have data been sufficiently anonymized?
+  1. If data pertains to human subjects, have data been sufficiently anonymized?
 
-  10. If anonymized data are being shared, what steps have been taken to prevent re-identification of participants? (e.g., are geographic aggregations used in order to help prevent re-identification of human subjects data, etc.)? Is there any data contained that could allow for re-identification?
+  2. If anonymized data are being shared, what steps have been taken to prevent re-identification of participants? (e.g., are geographic aggregations used in order to help prevent re-identification of human subjects data, etc.)? Is there any data contained that could allow for re-identification?
 
-  11. Have funder and institutional human subjects protocols been followed and is the deposit of anonymized data permitted?
+  3. Have funder and institutional human subjects protocols been followed and is the deposit of anonymized data permitted?
   
   Note: For additional information on sensitive data, please refer to the Human Subjects primer.
    
-Other questions
+Other
 
-  12. What are the best practices (or common practices) for this type of dataset among disciplinary or institutional repositories the researcher is aware of?
+  1. What are the best practices (or common practices) for this type of dataset among disciplinary or institutional repositories the researcher is aware of?
 
 # Applicable Metadata Standards, Recommended Elements and Readme file
 
@@ -235,11 +235,11 @@ b. Researchers are expected to provide data dictionaries for their dataset. If t
 
 In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result.
 
-![](SPSSfig1.jpg)
+![](SPSSfig1.png)
 
 **Figure 1**: In the data file, click File> Display Data File Information > Working file, to display and print its variable information to the Output Viewer window.
 
-![](SPSSfig2.jpg)
+![](SPSSfig2.png)
 
 **Figure 2**: Variable information is printed to the Output Viewer window.
 
@@ -249,7 +249,7 @@ To export the variable information as a .pdf file, in the output Viewer window, 
 
 Note: Steps b. and c. can be done in PSPP software as well (export options include .pdf, .html, .odt, .txt, .ps, and .csv).
 
-![](SPSSfig3.jpg)
+![](SPSSfig3.png)
 
 **Figure 3**: Variable information is saved as a data dictionary in PDF format.
 
