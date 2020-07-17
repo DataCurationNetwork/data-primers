@@ -234,9 +234,11 @@ b. Researchers are expected to provide data dictionaries for their dataset. If t
 
 In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result.
 
+
 ![](SPSSfig1.png)
 
 **Figure 1**: Displaying Data File Information for the Working File (SPSS for MAC v.26.0).
+
 
 ![](SPSSfig2.png)
 
@@ -247,6 +249,7 @@ c. The variable information can be saved as Viewer Files (.spv), SPSS Web Report
 To export the variable information as a .pdf file, in the output Viewer window, click File > Export, and the "Export Output" window will open. In this opened new window, under "Objects to export," select "All visible" under the "Document" section, click the "Type" drop-down menu, and choose "Portable Document Format (.pdf)", then in the "File name" section, click "Browse" to go to the dictionary you'd like to save the file to and create a filename (such as datadictionary_projectname.pdf), click "OK" (See Figure 3).
 
 Note: Steps b. and c. can be done in PSPP software as well (export options include .pdf, .html, .odt, .txt, .ps, and .csv).
+
 
 ![](SPSSfig3.png)
 
