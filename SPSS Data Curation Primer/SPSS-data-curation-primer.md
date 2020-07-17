@@ -234,12 +234,12 @@ b. Researchers are expected to provide data dictionaries for their dataset. If t
 In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result. 
  
  
-![](SPSSfig1.png)
+![](SPSSfig1.png). 
 
 **Figure 1**: Displaying Data File Information for the Working File (SPSS for MAC v.26.0). 
  
  
-![](SPSSfig2.png)
+![](SPSSfig2.png). 
 
 **Figure 2**: Variable information is printed to the Output Viewer window (SPSS for MAC v.26.0).
 
@@ -250,7 +250,7 @@ To export the variable information as a .pdf file, in the output Viewer window, 
 Note: Steps b. and c. can be done in PSPP software as well (export options include .pdf, .html, .odt, .txt, .ps, and .csv).
  
  
-![](SPSSfig3.png)
+![](SPSSfig3.png).
 
 **Figure 3**: Variable information is saved as a data dictionary in PDF format (SPSS for MAC v.26.0).
 
@@ -446,17 +446,12 @@ A list of elements is recommended to document project level or study level metad
 
 # Appendix D DDI Metadata
 
-There are two DDI standards: [DDI Lifecycle](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/) & [DDI Codebook](http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation.html). Both are compatible as XML-Schema and include Dublin Core elements. Most DC elements can map directly to DDI (See DC-DDI Mapping Table at https://www.ddialliance.org/resources/ddi-profiles/dc). For information on creating DDI metadata from SPSS see http://www.eddi-conferences.eu/ocs/index.php/eddi/eddi14/paper/viewFile/144/120.
+There are two DDI standards: [DDI Lifecycle](http://www.ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/) & [DDI Codebook](http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/field_level_documentation.html). Both are compatible as XML-Schema and include Dublin Core elements. Most DC elements can map directly to DDI (See [DC-DDI Mapping Table](https://www.ddialliance.org/resources/ddi-profiles/dc)). For information on creating DDI metadata from SPSS see http://www.eddi-conferences.eu/ocs/index.php/eddi/eddi14/paper/viewFile/144/120.
 
   - **DDI-Lifecycle** (DDI-L) is meant to record metadata across the entire research project including metadata on the project/study-level, publication, analysis, data files, and variables. DDI-L is also referred to as DDI 3 (current version 3.2).
 
   - **DDI-Codebook** (DDI-C) is a simplified version of DDI-L which works best for simple survey data. DDI-C is also referred to as DDI 2 (current version 2.5).
 
-# Appendix E Dictionary Schema
-
-An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The [dictionary schema](https://www.ibm.com/support/knowledgecenter/SSLVMB_23.0.0/spss/programmability_option/dictionary_schema_intro.html) is installed with the software (IBM Knowledge Center).
-
-**Figure 4**: Documentation of dictionary schema provided by IBM.
 
 # Bibliography
 
