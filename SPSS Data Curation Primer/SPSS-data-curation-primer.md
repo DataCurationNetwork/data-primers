@@ -366,11 +366,27 @@ UNDERSTAND Step
 
 REQUEST Step
 
+| CURATE Action 	| Curator Checklist 	|
+|-	|-	|
+| Request missing information or changes<br><br>● Generate a list of questions for the data author to fix any errors or issues. 	| <br><br>Narrative describing the concerns, issues, and needed improvements to the data submission. 	|
+
 AUGMENT Step
+
+| CURATE Action 	| Curator Checklist 	|
+|-	|-	|
+| Augment the submission<br>● Enhance metadata to best facilitate discoverability.<br>● Create and apply metadata for the data record, including descriptive keywords.<br>● When appropriate, structure and present metadata in domain-specific schemas to facilitate interoperability with other systems. 	| ❏ Discoverability sufficient<br>❏ Recommend (circle one) full-text index / file rename / file reorder / file descriptions / zip files into one archive<br>Other  ______________<br>❏ Keywords Sufficient<br>❏ Suggestions _______________<br>❏ Linkages Sufficient<br>❏ Link to report/paper<br>❏ Link to related data sets<br>❏ Link to source data<br>❏ Link to other __________ 	|
 
 TRANSFORM Step
 
+| CURATE Action 	| Curator Checklist 	|
+|-	|-	|
+| Transform file formats<br>● Identify specialized file formats and their restrictions (e.g., Is the software freely available? Link to it or archive it alongside the data).<br>● Transform files into open, non-proprietary file formats that broaden the potential audience for reuse and ensure that preservation actions might be taken by the repository in later steps. Retain original files if data transfer is not perfect. 	| ❏ Preferred file formats in use<br>❏ Recommend conversion from .sav to .por or other plain text format. Create .sps for input. <br>❏ Retain original formats<br>❏ Software version provided in documentation 	|
+
 EVALUATE Step
+
+| CURATE Action 	| Curator Checklist 	|
+|-	|-	|
+| Evaluate and rate the overall data record for FAIRness.*<br>         ● Score the dataset and recommend ways to increase the FAIRness of the data and become “DCN approved.” 	| Findable -<br>❏ Metadata exceeds author/ title/ date,<br>❏ Unique PID (DOI, Handle, PURL, etc.).<br>❏ Discoverable via web search engines.<br>Accessible -<br>❏ Retrievable via a standard protocol (e.g., HTTP).<br>❏ Free, open (e.g., download link).<br>Interoperable -<br>❏ Metadata formatted in a standard schema (e.g., Dublin Core).<br>❏ Metadata provided in machine-readable format (OAI feed).<br>Reusable -<br>❏ Data include sufficient metadata about the data characteristics to reuse<br>❏ Contact info displayed if the direct assistance of the author needed.<br>❏ Clear indicators of who created, owns, and stewards the data.<br>❏ Data are released with clear data usage terms (e.g., a CC License). 	|
 
 
 # Appendix B Other SPSS File Formats
