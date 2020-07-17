@@ -40,7 +40,6 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 - [Appendix B Other SPSS File Formats](#Appendix-B-Other-SPSS-File-Formats)
 - [Appendix C Project Level or Study Level Metadata](#Appendix-C-Project-Level-or-Study-Level-Metadata)
 - [Appendix D DDI Metadata](#Appendix-D-DDI-Metadata)
-- [Appendix E Dictionary Schema](#Appendix-E-Dictionary-Schema)
 - [Bibliography](#Bibliography)
 
 <!-- /TOC -->
@@ -57,7 +56,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 | Source and affiliation | [SPSS Statistics](https://www.ibm.com/products/spss-statistics) is a software package initially created by SPSS Inc. It was acquired by IBM in 2009 and currently it is named IBM SPSS Statistics. |
 | Metadata | The SPSS Dictionary (also called &quot;codebook&quot;) is part of the SPSS data file (.sav, .por) and it holds all metadata, specifically, .sav: Can contain names and labels for variables, an unformatted textual description, and an extension record with attributes. por: Can contain names and labels for variables and an unformatted textual description. |
 | Key questions for curation review | <ul><li> What version of SPSS were these files created with? Which is the latest version at the time of curation? Which versions are currently supported by the software producers and common operating systems?</li><li> Are the variables well-described (with labels, etc.) within SPSS variables table? Is there an external codebook or data dictionary? </li><li> Is there an additional README file or other documentation containing the project context, methodology, protocols and other data documentation? </li><li> Is the data &quot;native&quot; to SPSS, or was it exported to SPSS from another statistical package? </li><li> Which files (e.g., data, syntax, output) are essential to effectively sharing this data? Which are optional? </li><li> Would a researcher in this field or others have all they need to interpret this data? </li><li> What are the file formats of the data received? Check for a data file and codebook (.sav), and syntax file (.sps). </li><li> Is use of a file-naming convention evident? Are the file names understandable? Are relationships between files explained?       
-| Tools for curation review | <ul><li> [SPSS](https://www.ibm.com/ca-en/marketplace/spss-statistics) </li><li> [Smartreader for SPSS Statistics](https://developer.ibm.com/predictiveanalytics/docs/spss-statistics/programmability/extensions-tools-and-utilities-for-spss-statistics/) </li><li> [PSPP](https://www.gnu.org/software/pspp/) </li><li> [ViewSav](http://www.asselberghs.dds.nl/stuff.htm) </li><li> [R](https://cran.r-project.org/web/packages/rio/vignettes/rio.html) (Haven and rio packages) </li><li> [SAS](https://www.sas.com/) (SAS v.9.1.3 and later) </li><li> [STATA](https://ideas.repec.org/c/boc/bocode/s456957.html) (USESPSS)|
+| Tools for curation review | <ul><li> [SPSS](https://www.ibm.com/ca-en/marketplace/spss-statistics) </li><li> [Smartreader for SPSS Statistics](https://developer.ibm.com/predictiveanalytics/docs/spss-statistics/programmability/extensions-tools-and-utilities-for-spss-statistics/) </li><li> [PSPP](https://www.gnu.org/software/pspp/) </li><li> [ViewSav](http://www.asselberghs.dds.nl/stuff.htm) </li><li> [R](https://cran.r-project.org/web/packages/rio/vignettes/rio.html) ([Haven](https://cran.r-project.org/web/packages/haven/) and [rio](https://cran.r-project.org/web/packages/rio/) packages) </li><li> [SAS](https://www.sas.com/) (SAS v.9.1.3 and later) </li><li> [STATA](https://ideas.repec.org/c/boc/bocode/s456957.html) (USESPSS)|
 | Date Created | 12/21/2018 |
 | Created by | Sai Deng, University of Central Florida - [email protected] Dull, Yale University - [email protected] Finn, Claremont Colleges - [email protected] Khair, University of Victoria - [email protected] |
 | Date updated and summary of changes made | 04/08/2019 - updated to include comments from peer review process |
@@ -128,7 +127,7 @@ The researchers interviewed primarily export their data file created in SPSS int
 
 # Key Questions
 
-These are &quot;reflection&quot; questions for the curator or curation team to review while looking over the dataset. The answers (or lack of answers) will help to determine what kind of clarifications might be needed from the researchers.
+These are &quot;reflection&quot; questions for the curator or curation team to review while looking over the dataset. The answers (or lack of answers) to these, along with the CURATE Checklist for SPSS (Appendix A) will help to determine what kind of clarifications might be needed from the researchers.
 
   1. What are the file formats of the data received? Check for a data file and codebook (.sav), and syntax file (.sps).
 
@@ -164,7 +163,7 @@ Data Analysis and Curation
   
   7. Were other software tools used for data gathering/cleaning/transforming (e.g. OpenRefine, R, etc.)? Are they listed in the documentation?
 
-  8. Were any [SPSS extensions] (https://www.ibm.com/support/knowledgecenter/SSLVMB_24.0.0/spss/base/extensions_intro.html) used for data cleaning and/or transformation? Are they listed in the documentation?
+  8. Were any [SPSS extensions](https://www.ibm.com/support/knowledgecenter/SSLVMB_24.0.0/spss/base/extensions_intro.html) used for data cleaning and/or transformation? Are they listed in the documentation?
 
 Sensitive Data
 
@@ -259,7 +258,7 @@ d. Detailed customizable codebook can be generated via Analyze > Reports > Codeb
 
 e. The data dictionary can be displayed as a .pdf file, or listed under "variable" section if the digital repository provides such capability.
 
-f. The data dictionary can also be represented as XML using IBM created [dictionary schema](http://xml.spss.com/spss/data/dictionary-1.0.xsd). The dictionary schema is an XML representation of the data dictionary (See Appendix E).
+f. The data dictionary can also be represented as XML using IBM created [dictionary schema](https://www.ibm.com/support/knowledgecenter/SSLVMB_23.0.0/spss/programmability_option/dictionary_schema_intro.html). An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The dictionary schema is installed with the software (IBM Knowledge Center). 
 
 # Tutorials
 
@@ -303,7 +302,7 @@ f. The data dictionary can also be represented as XML using IBM created [diction
 
 6. [R](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
 
-  - A free software environment for statistical analysis, graphics, and database manipulation, based on R programming language. Can read SPSS data saved in non-proprietary text-based formats (e.g., .csv). The [Haven](https://cran.r-project.org/web/packages/haven/readme/README.html) and [rio](https://cran.r-project.org/web/packages/rio/readme/README.html) packages can be installed in R, in order to enable R to read and write .sav files. SPSS and R can also be used together via integrations between the two package (see: (https://developer.ibm.com/predictiveanalytics/docs/white-papers/spss-statistics-and-r-together)), and SPSS has extensions to enable data science techniques such as predictive analytics (https://ibmpredictiveanalytics.github.io/). 
+  - A free software environment for statistical analysis, graphics, and database manipulation, based on R programming language. Can read SPSS data saved in non-proprietary text-based formats (e.g., .csv). The [Haven](https://cran.r-project.org/web/packages/haven/readme/README.html) and [rio](https://cran.r-project.org/web/packages/rio/readme/README.html) packages can be installed in R, in order to enable R to read and write .sav files. SPSS and R can also be used together [via integrations between the two packages](https://developer.ibm.com/predictiveanalytics/docs/white-papers/spss-statistics-and-r-together), and SPSS has extensions to enable data science techniques such as [predictive analytics](https://ibmpredictiveanalytics.github.io/). 
 
 7. [SAS](https://www.sas.com/en_us/home.html)
 
