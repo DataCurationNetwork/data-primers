@@ -152,7 +152,7 @@ Data Analysis and Curation
 
   1. What are the dates of data collection?
 
-  2. Is there information about the provenance of the data (e.g. when changes were made and by whom)?
+  2. Is there information about data provenance and versoning (e.g. when changes were made and by whom)?
   
   3. Are there missing or null values in the data? How is missing data handled/defined?
 
@@ -164,7 +164,7 @@ Data Analysis and Curation
   
   7. Were other software tools used for data gathering/cleaning/transforming (e.g. OpenRefine, R, etc.)? Are they listed in the documentation?
 
-  8. Were any [SPSS extensions] (https://www.ibm.com/support/knowledgecenter/SSLVMB_24.0.0/spss/base/extensions_intro.html) used in this analysis? Are they listed in the documentation?
+  8. Were any [SPSS extensions] (https://www.ibm.com/support/knowledgecenter/SSLVMB_24.0.0/spss/base/extensions_intro.html) used for data cleaning and/or transformation? Are they listed in the documentation?
 
 Sensitive Data
 
