@@ -360,6 +360,10 @@ CHECK Step
 
 UNDERSTAND Step
 
+| CURATE Action 	| Curator Checklist 	|
+|-	|-	|
+| Understand the data (or try to)<br>● Check for quality assurance and usability issues such as missing data, ambiguous headings, code execution failures, and data presentation concerns.<br>● Try to detect and extract any “hidden documentation” inherent to the data files that may facilitate reuse.<br>● Determine if the documentation of the data is sufficient for a user with similar qualifications to the author’s to understand and reuse the data. If not, recommend or create additional documentation (e.g., a readme.txt template) 	| Varies based on file formats and subject domain. For example….<br>Quantitative Data Questions (SPSS)<br><br>❏ Organization of data well-structured<br>           ❏ Wide<br>           ❏ Rectangular<br>❏ Variable and value definitions in file<br>            ❏ Variable labels <br>            ❏ Value labels <br>                 ❏ Clarify use of “blanks”<br>                 ❏ Clarify codes and/or units of measurement<br>❏ Methodology provided for imputed or weighted values<br>            ❏ Update/add Methodology 	|
+
 REQUEST Step
 
 AUGMENT Step
