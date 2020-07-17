@@ -30,13 +30,12 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 - [Example Data](#Example-Data)
 - [Start the Conversation, Broad Questions and Clarifications on Research Data](#Start-the-Conversation,-Broad-Questions-and-Clarifications-on-Research-Data)
 - [Key Questions](#Key-Questions)
-- [Key Clarifications](#Key-Clarifications)
+- [Additional Clarifications](#Key-Clarifications)
 - [Applicable Metadata Standards, Recommended Elements and Readme File](#Applicable-Metadata-Standards,-Recommended-Elements-and-Readme-File)
 - [Tutorials](#Tutorials)
 - [Software](#Software)
 - [Preservation Actions](#Preservation-Actions)
 - [Documentation of Curation Process](#Documentation-of-Curation-Process)
-- [FAIR Principles & SPSS](#FAIR-Principles-&-SPSS)
 - [Appendix A Using CURATE with SPSS Data](#Appendix-A-Using-CURATE-with-SPSS-Data)
 - [Appendix B Other SPSS File Formats](#Appendix-B-Other-SPSS-File-Formats)
 - [Appendix C Project Level or Study Level Metadata](#Appendix-C-Project-Level-or-Study-Level-Metadata)
@@ -125,7 +124,7 @@ Researchers generally described making use of SPSS functions to document their d
 
 **What kind of data outputs are researchers able or willing to share from SPSS?**
 
-The researchers interviewed primarily export their data file created in SPSS into a non-proprietary format (e.g., csv), if they intend to share it or analyze it with another piece of software. Researchers also reported sharing the syntax file to describe table structures and methods of analysis. Codebooks were also considered essential for sharing data. Based on the interviews, while the practices of researchers vary, the curators can include essential data for the datasets. If needed, the curator can generate documentation from the datasets the researchers provided such as variable lists and data dictionaries.
+The researchers interviewed primarily export their data file created in SPSS into a non-proprietary format (e.g., csv), if they intend to share it or analyze it with another piece of software. Researchers also reported sharing the syntax file to describe table structures and methods of analysis. Codebooks were also considered essential for sharing data. If needed, the curator can generate documentation from the datasets the researchers provided such as variable lists and data dictionaries.
 
 # Key Questions
 
