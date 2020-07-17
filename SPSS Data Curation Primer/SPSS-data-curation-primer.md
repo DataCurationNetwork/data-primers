@@ -331,7 +331,18 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
 
 **3. Data Archives Preferred File Formats**
 
-
+| Archive         | SPSS .sav | SPSS .por | Plain text (.dat, .csv, .tsv) | .sps input |
+|-----------------|-----------|-----------|-------------------------------|------------|
+| ICSPR           |     X     |     X     |               X               |      X     |
+| UK Data Archive |    (X)    |     X     |               X               |      X     |
+| GESIS           |     X     |     X     |             ((X))             |      X     |
+| DANS            |           |           |               X               |      X     |
+| CESSDA*         |           |           |               X               |      X     |
+| Dataverse**     |     X     |     X     |               X               |      X     |
+(X) - Acceptable but not preferred for long-term preservation.
+((X)) - Will accept plain text without .sps input but not preferred.
+* Referred by DANS as an example.
+** Current software version may not yet be supported.
       
 
 # Documentation of Curation Process
