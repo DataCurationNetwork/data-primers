@@ -339,10 +339,11 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
 | DANS            |           |           |               X               |      X     |
 | CESSDA*         |           |           |               X               |      X     |
 | Dataverse**     |     X     |     X     |               X               |      X     |
+
 (X) - Acceptable but not preferred for long-term preservation.
 ((X)) - Will accept plain text without .sps input but not preferred.
-* Referred by DANS as an example.
-** Current software version may not yet be supported.
+\* Referred by DANS as an example.
+\** Current software version may not yet be supported.
       
 
 # Documentation of Curation Process
