@@ -30,7 +30,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 - [Example Data](#Example-Data)
 - [Start the Conversation, Broad Questions and Clarifications on Research Data](#Start-the-Conversation,-Broad-Questions-and-Clarifications-on-Research-Data)
 - [Key Questions](#Key-Questions)
-- [Additional Clarifications](#Key-Clarifications)
+- [Additional Clarifications](#Additional-Clarifications)
 - [Applicable Metadata Standards, Recommended Elements and Readme File](#Applicable-Metadata-Standards,-Recommended-Elements-and-Readme-File)
 - [Tutorials](#Tutorials)
 - [Software](#Software)
@@ -346,8 +346,8 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
       
 
 # Documentation of Curation Process
-Details of any kind of "data cleaning" performed by curators (e.g., JSON file exported from OpenRefine).
-Notes on changes made between versions or file formats (e.g., converting .sav file to .por file), including which software was used for the conversion.
+- Details of any kind of "data cleaning" performed by curators (e.g., JSON file exported from OpenRefine).
+- Notes on changes made between versions or file formats (e.g., converting .sav file to .por file), including which software was used for the conversion.
 
     
 # Appendix A Using CURATE with SPSS Data
