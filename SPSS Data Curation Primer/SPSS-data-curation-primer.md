@@ -167,7 +167,7 @@ Data Analysis and Curation
   
   7. Were other software tools used for data gathering/cleaning/transforming (e.g. OpenRefine, R, etc.)? Are they listed in the documentation?
 
-  8. Were any SPSS extensions used in this analysis? Are they listed in the documentation?
+  8. Were any [SPSS extensions] (https://www.ibm.com/support/knowledgecenter/SSLVMB_24.0.0/spss/base/extensions_intro.html) used in this analysis? Are they listed in the documentation?
 
 Sensitive Data
 
@@ -353,7 +353,7 @@ Notes on changes made between versions or file formats (e.g., converting .sav fi
     
 # Appendix A Using CURATE with SPSS Data
 
-## Check Step
+Check Step
 
 # Appendix B Other SPSS File Formats
 
