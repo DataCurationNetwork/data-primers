@@ -353,40 +353,20 @@ f. The data dictionary can also be represented as XML using IBM created [diction
     
 # Appendix A Using CURATE with SPSS Data
 
-CHECK Step
-| CURATE Action                                                                                                                                                                                                     | Curator Checklist                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Check data files and read documentation<br> - Review the content of the data files (e.g., open and run the files or code).<br> - Verify all metadata provided by the author and review the available documentation. | - File types encountered<br>        ❏ .sav<br>        ❏. sps<br>        ❏ .dat/.csv/.tsv<br> - .sps code runs as expected<br>        ❏ Produces minor errors<br>        ❏ Does not run and/or produces many errors<br> - Metadata quality  ❏ Metadata is rich, accurate, and complete<br>        ❏ Metadata has issues _________<br> - Documentation Type (circle)<br>  Readme / Codebook / Data Dictionary / Other: ________________________        <br>        ❏ Missing/None<br>        ❏ Needs work |
-
-UNDERSTAND Step
-
 | CURATE Action 	| Curator Checklist 	|
 |-	|-	|
-| Understand the data (or try to)<br>● Check for quality assurance and usability issues such as missing data, ambiguous headings, code execution failures, and data presentation concerns.<br>● Try to detect and extract any “hidden documentation” inherent to the data files that may facilitate reuse.<br>● Determine if the documentation of the data is sufficient for a user with similar qualifications to the author’s to understand and reuse the data. If not, recommend or create additional documentation (e.g., a readme.txt template) 	| Varies based on file formats and subject domain. For example….<br>Quantitative Data Questions (SPSS)<br><br>❏ Organization of data well-structured<br>           ❏ Wide<br>           ❏ Rectangular<br>❏ Variable and value definitions in file<br>            ❏ Variable labels <br>            ❏ Value labels <br>                 ❏ Clarify use of “blanks”<br>                 ❏ Clarify codes and/or units of measurement<br>❏ Methodology provided for imputed or weighted values<br>            ❏ Update/add Methodology 	|
-
-REQUEST Step
-
-| CURATE Action 	| Curator Checklist 	|
-|-	|-	|
-| Request missing information or changes<br><br>● Generate a list of questions for the data author to fix any errors or issues. 	| <br><br>Narrative describing the concerns, issues, and needed improvements to the data submission. 	|
-
-AUGMENT Step
-
-| CURATE Action 	| Curator Checklist 	|
-|-	|-	|
-| Augment the submission<br>● Enhance metadata to best facilitate discoverability.<br>● Create and apply metadata for the data record, including descriptive keywords.<br>● When appropriate, structure and present metadata in domain-specific schemas to facilitate interoperability with other systems. 	| ❏ Discoverability sufficient<br>❏ Recommend (circle one) full-text index / file rename / file reorder / file descriptions / zip files into one archive<br>Other  ______________<br>❏ Keywords Sufficient<br>❏ Suggestions _______________<br>❏ Linkages Sufficient<br>❏ Link to report/paper<br>❏ Link to related data sets<br>❏ Link to source data<br>❏ Link to other __________ 	|
-
-TRANSFORM Step
-
-| CURATE Action 	| Curator Checklist 	|
-|-	|-	|
-| Transform file formats<br>● Identify specialized file formats and their restrictions (e.g., Is the software freely available? Link to it or archive it alongside the data).<br>● Transform files into open, non-proprietary file formats that broaden the potential audience for reuse and ensure that preservation actions might be taken by the repository in later steps. Retain original files if data transfer is not perfect. 	| ❏ Preferred file formats in use<br>❏ Recommend conversion from .sav to .por or other plain text format. Create .sps for input. <br>❏ Retain original formats<br>❏ Software version provided in documentation 	|
-
-EVALUATE Step
-
-| CURATE Action 	| Curator Checklist 	|
-|-	|-	|
-| Evaluate and rate the overall data record for FAIRness.*<br>         ● Score the dataset and recommend ways to increase the FAIRness of the data and become “DCN approved.” 	| Findable -<br>❏ Metadata exceeds author/ title/ date,<br>❏ Unique PID (DOI, Handle, PURL, etc.).<br>❏ Discoverable via web search engines.<br>Accessible -<br>❏ Retrievable via a standard protocol (e.g., HTTP).<br>❏ Free, open (e.g., download link).<br>Interoperable -<br>❏ Metadata formatted in a standard schema (e.g., Dublin Core).<br>❏ Metadata provided in machine-readable format (OAI feed).<br>Reusable -<br>❏ Data include sufficient metadata about the data characteristics to reuse<br>❏ Contact info displayed if the direct assistance of the author needed.<br>❏ Clear indicators of who created, owns, and stewards the data.<br>❏ Data are released with clear data usage terms (e.g., a CC License). 	|
+| **CHECK Step** 	|  	|
+| Check data files and read documentation<br><br>- Review the content of the data files (e.g., open and run the files or code).<br><br>- Verify all metadata provided by the author and review the available documentation. 	| File types encountered<br><br>❏ .sav<br><br>❏. sps<br><br>❏ .dat/.csv/.tsv<br><br>.sps code runs as expected<br><br>❏ Produces minor errors<br><br>❏ Does not run and/or produces many errors<br><br>Metadata quality <br><br>❏ Metadata is rich, accurate, and complete<br><br>❏ Metadata has issues _________<br><br>Documentation Type (circle)<br><br>Readme / Codebook / Data Dictionary / Other: ________________________<br><br>❏ Missing/None<br><br>❏ Needs work 	|
+| **UNDERSTAND Step** 	|  	|
+| Understand the data (or try to)<br><br>- Check for quality assurance and usability issues such as missing data, ambiguous headings, code execution failures, and data presentation concerns.<br><br>- Try to detect and extract any “hidden documentation” inherent to the data files that may facilitate reuse.<br><br>- Determine if the documentation of the data is sufficient for a user with similar qualifications to the author’s to understand and reuse the data. If not, recommend or create additional documentation (e.g., a readme.txt template) 	| Varies based on file formats and subject domain. For example….<br><br>Quantitative Data Questions (SPSS)<br><br><br>❏ Organization of data well-structured<br><br>❏ Wide<br><br>❏ Rectangular<br><br>❏ Variable and value definitions in file<br><br>❏ Variable labels<br><br>❏ Value labels<br><br>❏ Clarify use of “blanks”<br><br>❏ Clarify codes and/or units of measurement<br><br>❏ Methodology provided for imputed or weighted values<br><br>❏ Update/add Methodology 	|
+| **REQUEST Step** 	|  	|
+| Request missing information or changes<br><br>- Generate a list of questions for the data author to fix any errors or issues. 	| Narrative describing the concerns, issues, and needed improvements to the data submission. 	|
+| **AUGMENT Step** 	|  	|
+| Augment the submission<br><br>- Enhance metadata to best facilitate discoverability.<br><br>- Create and apply metadata for the data record, including descriptive keywords.<br><br>- When appropriate, structure and present metadata in domain-specific schemas to facilitate interoperability with other systems. 	| ❏ Discoverability sufficient<br><br>❏ Recommend (circle one) full-text index / file rename / file reorder / file descriptions / zip files into one archive<br><br>Other ______________<br><br>❏ Keywords Sufficient<br><br>❏ Suggestions _______________<br><br>❏ Linkages Sufficient<br><br>❏ Link to report/paper<br><br>❏ Link to related data sets<br><br>❏ Link to source data<br><br>❏ Link to other __________ 	|
+| **TRANSFORM Step** 	|  	|
+| Transform file formats<br><br>- Identify specialized file formats and their restrictions (e.g., Is the software freely available? Link to it or archive it alongside the data).<br><br>- Transform files into open, non-proprietary file formats that broaden the potential audience for reuse and ensure that preservation actions might be taken by the repository in later steps. Retain original files if data transfer is not perfect. 	| ❏ Preferred file formats in use<br><br>❏ Recommend conversion from .sav to .por or other plain text format. Create .sps for input.<br><br>❏ Retain original formats<br><br>❏ Software version provided in documentation 	|
+| **EVALUATE Step** 	|  	|
+| Evaluate and rate the overall data record for FAIRness.*<br><br>- Score the dataset and recommend ways to increase the FAIRness of the data and become “DCN approved.” 	| Findable -<br><br>❏ Metadata exceeds author/ title/ date,<br><br>❏ Unique PID (DOI, Handle, PURL, etc.).<br><br>❏ Discoverable via web search engines.<br><br>Accessible -<br><br>❏ Retrievable via a standard protocol (e.g., HTTP).<br><br>❏ Free, open (e.g., download link).<br><br>Interoperable -<br><br>❏ Metadata formatted in a standard schema (e.g., Dublin Core).<br><br>❏ Metadata provided in machine-readable format (OAI feed).<br><br>Reusable -<br><br>❏ Data include sufficient metadata about the data characteristics to reuse<br><br>❏ Contact info displayed if the direct assistance of the author needed.<br><br>❏ Clear indicators of who created, owns, and stewards the data.<br><br>❏ Data are released with clear data usage terms (e.g., a CC License). 	|
 
 
 # Appendix B Other SPSS File Formats
