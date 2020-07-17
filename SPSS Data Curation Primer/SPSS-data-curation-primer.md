@@ -447,13 +447,11 @@ There are two DDI standards: [DDI Lifecycle](http://www.ddialliance.org/Specific
 
   - **DDI-Lifecycle** (DDI-L) is meant to record metadata across the entire research project including metadata on the project/study-level, publication, analysis, data files, and variables. DDI-L is also referred to as DDI 3 (current version 3.2).
 
-  - **DDI-Codebook** (DDI-C) is a simplified version od DDI-L which works best for simple survey data. DDI-C is also referred to as DDI 2 (current version 2.5).
+  - **DDI-Codebook** (DDI-C) is a simplified version of DDI-L which works best for simple survey data. DDI-C is also referred to as DDI 2 (current version 2.5).
 
 # Appendix E Dictionary Schema
 
-An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The dictionary schema (https://www.ibm.com/support/knowledgecenter/SSLVMB_23.0.0/spss/programmability_option/dictionary_schema_intro.html) is installed with the software (IBM Knowledge Center) and is shown in Figure 4.
-
-![](SPSSfig4.jpg)
+An XML representation for the data dictionary can be exported from the software using its programming capability (if needed). The [dictionary schema](https://www.ibm.com/support/knowledgecenter/SSLVMB_23.0.0/spss/programmability_option/dictionary_schema_intro.html) is installed with the software (IBM Knowledge Center).
 
 **Figure 4**: Documentation of dictionary schema provided by IBM.
 
