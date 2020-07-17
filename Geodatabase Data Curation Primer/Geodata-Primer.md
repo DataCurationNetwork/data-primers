@@ -250,7 +250,7 @@ The two most common standards for geospatial metadata (which encompass geodataba
 
 The second is the Content Standard for Digital Geospatial Metadata (CSDGM) developed by the United States Government’s Federal Geographic Data Committee (FGDC). United States federal government datasets typically use this standard, though the FGDC does endorse the use of ISO 191xx standards. This standard is being used less and less outside of the federal government as the ISO standards become more prevalent.
 
-While the ISO 191xx and FGDC CSDGM standards differ in organization and element requirements, the two content standards are fairly similar. In addition to core metadata elements typically required or recommended by repositories (e.g. title, creator, date, subject, description, rights, etc.), both standards require the following elements for geospatial materials:
+While the ISO 191xx and FGDC CSDGM standards differ in organization and element requirements, the two content standards are fairly similar. In addition to core metadata elements typically required or recommended by repositories (e.g. title, creator, date, subject, description, rights, etc.), both standards allow for the following geospatial elements:
 
 - bounding box
 - geographic location (place keywords)
@@ -263,7 +263,7 @@ Most researchers are either unaware of these standards or have limited knowledge
 
 The metadata section above describes how to access and edit metadata in ArcCatalog. To view metadata using the ISO 191xx style, go to Customize>ArcCatalog Options and choose the Metadata tab in the pop up window, then select ISO 19139 Metadata Implementation Specification. (The North American Profile of ISO 19115:2003 is still in development and is not widely used, nor is the ISO 19139 Metadata Implementation Specification GML3.2.)  Alternatively, you can select FGDC CSDGM Metadata to view metadata in that standard.
 
-Geodatabases store metadata in the Esri format in an internal file. Adjusting the view will show the metadata according to a particular standard, but the metadata file itself is not changed to that standard’s schema. In order to create ISO 191xx or FGDC CSDGM compliant metadata files, the metadata must be exported by clicking on the Export button. This creates a separate XML file that is stored external to the geodatabase. Note that exporting metadata using Esri’s ISO 19139 translator only includes elements within the ISO 19115 content standard, omitting field (entity and attribute) information that falls under ISO 19110.  
+Geodatabases store metadata in the ArcGIS 1.0 metadata format in an internal file. Adjusting the view will show the metadata according to a particular standard, but the metadata file itself is not changed to that standard’s schema. In order to create ISO 191xx or FGDC CSDGM compliant metadata files, the metadata must be exported by clicking on the Export button. This creates a separate XML file that is stored external to the geodatabase. Note that exporting metadata using Esri’s ISO 19139 translator only includes elements within the ISO 19115 content standard, omitting field (entity and attribute) information that falls under ISO 19110.
 
 ## Metadata Completeness
 
@@ -284,6 +284,7 @@ GeoBlacklight and OpenGeoPortal, two emerging, open-source web applications that
 The GeoBlacklight 1.0 Metadata Schema accommodates the presentation of full-scale metadata but is itself a lightweight schema that is expressed as .JSON documents. There are several strategies for transforming XML metadata into GeoBlacklight, most notably GeoCombine. GeoBlacklight does not necessarily require full standard metadata to exist so that it can be converted; rather curators are also encouraged to create GeoBlacklight metadata from scratch, when possible, to facilitate discovery with the GeoBlacklight interface.
 
 In the instance of geodatabases, curators may wish to create an individual record for a geodatabase, or they may transform each layer within a geodatabase into discrete shapefile layers. The advantage of doing this is to enable live web previews of the data via Geoserver, which is currently not possible to do with a geodatabase. See this sample record: https://github.com/geoblacklight/geoblacklight/blob/master/spec/fixtures/solr_documents/baruch_ancestor1.json.
+
 
 # Preservation actions
 | What are the issues surrounding a researcher’s choice to use a geodatabase for archival purposes?*|     |
