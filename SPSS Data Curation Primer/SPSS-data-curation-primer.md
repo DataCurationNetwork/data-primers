@@ -353,7 +353,24 @@ Notes on changes made between versions or file formats (e.g., converting .sav fi
     
 # Appendix A Using CURATE with SPSS Data
 
-Check Step
+CHECK Step
+
+| CURATE Action                                                       | Curator Checklist                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        	|
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| * Check data files and read documentation 
+| * Review the content of the data files (e.g., open and run the files or code)
+| * Verify all metadata provided by the author and review the available documentation.  	| ❏       File types encountered         ❏       .sav         ❏       .sps          ❏       .dat/.csv/.tsv ❏       .sps code runs as expected         ❏       Produces minor errors         ❏       Does not run and/or produces                 many errors ❏       Metadata quality is rich, accurate, and complete          ❏       Metadata has issues _________ ❏       Documentation Type (circle) Readme / Codebook / Data Dictionary / Other: ________________________           ❏       Missing/None           ❏       Needs work 	|
+
+UNDERSTAND Step
+
+REQUEST Step
+
+AUGMENT Step
+
+TRANSFORM Step
+
+EVALUATE Step
+
 
 # Appendix B Other SPSS File Formats
 
