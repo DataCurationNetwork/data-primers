@@ -232,16 +232,14 @@ a. The data dictionary contains metadata that describes various properties of th
 
 b. Researchers are expected to provide data dictionaries for their dataset. If this information is not provided, the curator can export one from the dataset project file. The data dictionary can be saved as a .pdf or a text file. The following steps can be followed to export a data dictionary.
 
-In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result.
-
-
-
+In the data file, click File> Display Data File Information > Working File, for metadata attributes of the variables to be displayed and printed to the Output Viewer window (See Figures 1 and 2). Using "Display Dictionary" command in the syntax window can produce the same result. 
+ 
+ 
 ![](SPSSfig1.png)
 
-**Figure 1**: Displaying Data File Information for the Working File (SPSS for MAC v.26.0).
-
-
-
+**Figure 1**: Displaying Data File Information for the Working File (SPSS for MAC v.26.0). 
+ 
+ 
 ![](SPSSfig2.png)
 
 **Figure 2**: Variable information is printed to the Output Viewer window (SPSS for MAC v.26.0).
@@ -251,9 +249,8 @@ c. The variable information can be saved as Viewer Files (.spv), SPSS Web Report
 To export the variable information as a .pdf file, in the output Viewer window, click File > Export, and the "Export Output" window will open. In this opened new window, under "Objects to export," select "All visible" under the "Document" section, click the "Type" drop-down menu, and choose "Portable Document Format (.pdf)", then in the "File name" section, click "Browse" to go to the dictionary you'd like to save the file to and create a filename (such as datadictionary_projectname.pdf), click "OK" (See Figure 3).
 
 Note: Steps b. and c. can be done in PSPP software as well (export options include .pdf, .html, .odt, .txt, .ps, and .csv).
-
-
-
+ 
+ 
 ![](SPSSfig3.png)
 
 **Figure 3**: Variable information is saved as a data dictionary in PDF format (SPSS for MAC v.26.0).
@@ -307,7 +304,6 @@ f. The data dictionary can also be represented as XML using IBM created [diction
 6. [R](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
 
   - A free software environment for statistical analysis, graphics, and database manipulation, based on R programming language. Can read SPSS data saved in non-proprietary text-based formats (e.g., .csv). The [Haven](https://cran.r-project.org/web/packages/haven/readme/README.html) and [rio](https://cran.r-project.org/web/packages/rio/readme/README.html) packages can be installed in R, in order to enable R to read and write .sav files. SPSS and R can also be used together via integrations between the two package (see: (https://developer.ibm.com/predictiveanalytics/docs/white-papers/spss-statistics-and-r-together)), and SPSS has extensions to enable data science techniques such as predictive analytics (https://ibmpredictiveanalytics.github.io/). 
-
 
 7. [SAS](https://www.sas.com/en_us/home.html)
 
