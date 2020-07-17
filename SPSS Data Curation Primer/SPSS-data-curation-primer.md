@@ -331,71 +331,17 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
 
 **3. Data Archives Preferred File Formats**
 
-  - ICPSR
 
-    - ICPSR accepts and distributes datasets in .sav and .por formats.
-
-    - ICPSR distributes data in plain text with added scripts (setup files) for creating binary files for the statistical software packages to work with.
-
-  - The UK Data Archive
-
-    - Recommends the .por format or delimited text file with a command file for tabular data with extensive metadata.
-
-    - Lists .sav format as acceptable but not recommended for long-term preservation.
-
-  - GESIS archive
-
-    - Preferred formats for a dataset include .por and .sav.
-
-  - Data Archive and Networked Services
-
-    - DANS lists the .sav and .por formats as preferred.
-
-  - CESSDA
-
-    - Prefers data is provided in plain text (.tab, .csv, ASCII) with setup files for SPSS.
-
-  - Dataverse
-
-    - Supports ingest of tabular data via SPSS (.sav or .por), STATA, R, CSV, and Excel files.
       
 
 # Documentation of Curation Process
 Details of any kind of "data cleaning" performed by curators (e.g., JSON file exported from OpenRefine).
 Notes on changes made between versions or file formats (e.g., converting .sav file to .por file), including which software was used for the conversion.
 
-
-# FAIR Principles & SPSS
-
-  - **Findable**
-
-    - Stored in appropriate disciplinary and/or institutional repositories.
-
-    - Dataset has been assigned a DOI.
-
-    - Dataset is described with appropriate metadata.
-
-  - **Accessible**
-
-    - Repository is well structured and accessible.
-
-    - SPSS datasets include human-readable data and descriptive components (that don't require SPSS to open).
-
-  - **Interoperable**
-
-    - Data is saved in widely-accessible non-proprietary (non-SPSS) format, of possible.
-
-  - **Reusable**
-
-    - Usage licenses for SPSS and other packages are clear.
-
-    - Provenance is clearly indicated.
-
-    - Protection of human subject information has been observed and adequately communicated.
-
-    - Data cleaning and other processes of manipulations of data are clearly documented to support reproducibility.
     
 # Appendix A Using CURATE with SPSS Data
+
+## Check Step
 
 # Appendix B Other SPSS File Formats
 
