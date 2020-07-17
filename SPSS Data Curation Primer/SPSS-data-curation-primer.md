@@ -333,12 +333,12 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
 
 | Archive                                                                     | SPSS .sav | SPSS .por | Plain text (.dat, .csv, .tsv) | .sps input |
 |-----------------------------------------------------------------------------|-----------|-----------|-------------------------------|------------|
-| [ICSPR] (https://www.icpsr.umich.edu/web/pages/DSDR/deposit.html)           |     X     |     X     |               X               |      X     |
-| [UK Data Archive] (https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats) |    (X)    |     X     |               X               |      X     |
-| [GESIS] (https://www.gesis.org/en/services/archiving-and-registering/data-archiving/preparing-data-for-submission/)          |     X     |     X     |             ((X))             |      X     |
-| [DANS] (https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats?set_language=en)            |           |           |               X               |      X     |
-| [CESSDA*]  (https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/3.-Process/File-formats-and-data-conversion)        |           |           |               X               |      X     |
-| [Dataverse**] (http://guides.dataverse.org/en/latest/user/tabulardataingest/supportedformats.html)    |     X     |     X     |               X               |      X     |
+| [ICSPR](https://www.icpsr.umich.edu/web/pages/DSDR/deposit.html)           |     X     |     X     |               X               |      X     |
+| [UK Data Archive](https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats) |    (X)    |     X     |               X               |      X     |
+| [GESIS](https://www.gesis.org/en/services/archiving-and-registering/data-archiving/preparing-data-for-submission/)          |     X     |     X     |             ((X))             |      X     |
+| [DANS](https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats?set_language=en)            |           |           |               X               |      X     |
+| [CESSDA*](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/3.-Process/File-formats-and-data-conversion)        |           |           |               X               |      X     |
+| [Dataverse**](http://guides.dataverse.org/en/latest/user/tabulardataingest/supportedformats.html)    |     X     |     X     |               X               |      X     |
 
 (X) - Acceptable but not preferred for long-term preservation.
 ((X)) - Will accept plain text without .sps input but not preferred.
