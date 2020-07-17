@@ -302,7 +302,8 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
 
 6. [R](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
 
-  - A free software environment for statistical analysis, graphics, and database manipulation, based on R programming language. Can read SPSS data saved in non-proprietary text-based formats (e.g., .csv). The [Haven](https://cran.r-project.org/web/packages/haven/readme/README.html) and [rio](https://cran.r-project.org/web/packages/rio/readme/README.html) packages can be installed in R, in order to enable R to read and write .sav files. SPSS and R can also be used together via integrations between the two package (see: (https://developer.ibm.com/predictiveanalytics/docs/white-papers/spss-statistics-and-r-together))
+  - A free software environment for statistical analysis, graphics, and database manipulation, based on R programming language. Can read SPSS data saved in non-proprietary text-based formats (e.g., .csv). The [Haven](https://cran.r-project.org/web/packages/haven/readme/README.html) and [rio](https://cran.r-project.org/web/packages/rio/readme/README.html) packages can be installed in R, in order to enable R to read and write .sav files. SPSS and R can also be used together via integrations between the two package (see: (https://developer.ibm.com/predictiveanalytics/docs/white-papers/spss-statistics-and-r-together)), and SPSS has extensions to enable data science techniques such as predictive analytics (https://ibmpredictiveanalytics.github.io/). 
+
 
 7. [SAS](https://www.sas.com/en_us/home.html)
 
