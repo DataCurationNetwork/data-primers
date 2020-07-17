@@ -256,7 +256,7 @@ d. Detailed customizable codebook can be generated via Analyze > Reports > Codeb
 
 e. The data dictionary can be displayed as a .pdf file, or listed under "variable" section if the digital repository provides such capability.
 
-f. The data dictionary can also be represented as XML using IBM created dictionary schema (http://xml.spss.com/spss/data/dictionary-1.0.xsd). The dictionary schema is an XML representation of the data dictionary (See Appendix E).
+f. The data dictionary can also be represented as XML using IBM created [dictionary schema](http://xml.spss.com/spss/data/dictionary-1.0.xsd). The dictionary schema is an XML representation of the data dictionary (See Appendix E).
 
 # Tutorials
 
