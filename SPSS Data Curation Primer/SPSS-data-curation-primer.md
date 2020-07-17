@@ -138,13 +138,11 @@ These are &quot;reflection&quot; questions for the curator or curation team to r
 
   4. Are the variables well-described (with labels, etc.) within SPSS variables table? Is there an external codebook or data dictionary?
 
-  5. Is there an additional README file or other documentation containing the necessary project context, methodology, and other information?
+  5. Is there an additional README file or other documentation containing the project context, methodology, and other data information (e.g. if the data represent survey results, is there a complete copy of the survey available as a separate file?)
 
-  6. What does the data contained represent? Is additional documentation necessary for interpretation? (e.g., if the data represents survey results, is it a complete copy of the survey or interview instrument available as a separate file?)
+  6. Which files (e.g., data, syntax, output) are essential to effectively sharing this data? Which are optional?
 
-  7. Which files (e.g., data, syntax, output) are essential to effectively sharing this data? Which are optional?
-
-  8. Would a researcher in this field or others have all documentation they need to interpret this data?
+  7. Would a researcher in this field or others have all documentation they need to interpret this data?
 
 # Additional Considerations
 
