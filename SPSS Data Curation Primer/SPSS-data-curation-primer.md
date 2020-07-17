@@ -236,11 +236,11 @@ In the data file, click File> Display Data File Information > Working File, for 
 
 ![](SPSSfig1.png)
 
-**Figure 1**: In the data file, click File> Display Data File Information > Working file, to display and print its variable information to the Output Viewer window.
+**Figure 1**: Displaying Data File Information for the Working File (SPSS for MAC v.26.0).
 
 ![](SPSSfig2.png)
 
-**Figure 2**: Variable information is printed to the Output Viewer window.
+**Figure 2**: Variable information is printed to the Output Viewer window (SPSS for MAC v.26.0).
 
 c. The variable information can be saved as Viewer Files (.spv), SPSS Web Report (.htm) or Cognos Active Report (.mht), by clicking File> Save as in the Output Viewer window. However, it is recommended to export it as a .pdf or text file for archiving purposes.
 
@@ -250,7 +250,7 @@ Note: Steps b. and c. can be done in PSPP software as well (export options inclu
 
 ![](SPSSfig3.png)
 
-**Figure 3**: Variable information is saved as a data dictionary in PDF format.
+**Figure 3**: Variable information is saved as a data dictionary in PDF format (SPSS for MAC v.26.0).
 
 d. Detailed customizable codebook can be generated via Analyze > Reports > Codebook.
 
