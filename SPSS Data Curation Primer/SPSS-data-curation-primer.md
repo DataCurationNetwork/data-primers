@@ -179,7 +179,7 @@ Sensitive Data
   
   Note: For additional information on sensitive data, please refer to the Human Subjects primer.
    
-Other
+Other Considerations
 
   1. What are the best practices (or common practices) for this type of dataset among disciplinary or institutional repositories the researcher is aware of?
 
@@ -331,14 +331,14 @@ f. The data dictionary can also be represented as XML using IBM created dictiona
 
 **3. Data Archives Preferred File Formats**
 
-| Archive         | SPSS .sav | SPSS .por | Plain text (.dat, .csv, .tsv) | .sps input |
-|-----------------|-----------|-----------|-------------------------------|------------|
-| ICSPR           |     X     |     X     |               X               |      X     |
-| UK Data Archive |    (X)    |     X     |               X               |      X     |
-| GESIS           |     X     |     X     |             ((X))             |      X     |
-| DANS            |           |           |               X               |      X     |
-| CESSDA*         |           |           |               X               |      X     |
-| Dataverse**     |     X     |     X     |               X               |      X     |
+| Archive                                                                     | SPSS .sav | SPSS .por | Plain text (.dat, .csv, .tsv) | .sps input |
+|-----------------------------------------------------------------------------|-----------|-----------|-------------------------------|------------|
+| [ICSPR] (https://www.icpsr.umich.edu/web/pages/DSDR/deposit.html)           |     X     |     X     |               X               |      X     |
+| [UK Data Archive] (https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats) |    (X)    |     X     |               X               |      X     |
+| [GESIS] (https://www.gesis.org/en/services/archiving-and-registering/data-archiving/preparing-data-for-submission/)          |     X     |     X     |             ((X))             |      X     |
+| [DANS] (https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats?set_language=en)            |           |           |               X               |      X     |
+| [CESSDA*]  (https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/3.-Process/File-formats-and-data-conversion)        |           |           |               X               |      X     |
+| [Dataverse**] (http://guides.dataverse.org/en/latest/user/tabulardataingest/supportedformats.html)    |     X     |     X     |               X               |      X     |
 
 (X) - Acceptable but not preferred for long-term preservation.
 ((X)) - Will accept plain text without .sps input but not preferred.
