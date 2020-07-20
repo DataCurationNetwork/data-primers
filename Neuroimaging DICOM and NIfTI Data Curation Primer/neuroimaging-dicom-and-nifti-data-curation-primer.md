@@ -25,27 +25,27 @@ This work was created as part of the “Specialized Data Curation” Workshop #3
 
 # Table of Contents
 
-[Introduction](introduction)
+[Introduction](#introduction)
 
-[Curatorial pipeline](curatorial-pipeline)
+[Curatorial pipeline](#curatorial-pipeline)
 
-[Description of format](description-of-format)
+[Description of format](#description-of-format)
 
-[Example datasets](example-datasets)
+[Example datasets](#example-datasets)
 
-[Software for viewing data](software-for-viewing-data)
+[Software for viewing data](#software-for-viewing-data)
 
-[Key curatorial considerations](key-curatorial-considerations)
+[Key curatorial considerations](#key-curatorial-considerations)
 
-[Preservation actions](preservation-actions)
+[Preservation actions](#preservation-actions)
 
-[What to look for to make sure file meets Fair Principles](what-to-look-for-to-make-sure-file-meets-fair-principles)
+[What to look for to make sure file meets Fair Principles](#what-to-look-for-to-make-sure-file-meets-fair-principles)
 
-[Ways in which fields may use this format](ways-in-which-fields-may-use-this-format)
+[Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format)
 
-[Documentation of Curation Process](documentation-of-curation-process)
+[Documentation of Curation Process](#documentation-of-curation-process)
 
-[References](references)
+[References](#references)
 
 # Introduction
 
