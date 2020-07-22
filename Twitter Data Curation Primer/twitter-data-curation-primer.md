@@ -260,6 +260,35 @@ U.S. Geological Survey (2011). Twitter Earthquake Dispatch (@USGSted). Retrieved
 
 # Appendix A file type CURATED checklist
 
+Modified from the Data Curation Network's [Checklist for DCN Curators](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit)
+
+## Check Step
+
+![](Twitter_C.jpg)
+
+## Understand Step
+
+![](Twitter_U.jpg)
+
+## Request Step
+
+![](Twitter_R.jpg)
+
+## Augment Step
+
+![](Twitter_A.jpg)
+
+## Transform Step
+
+![](Twitter_T.jpg)
+
+## Evaluate Step
+
+![](Twitter_E.jpg)
+
+# Appendix B Resources
+
+### SOFTWARE APPLICATIONS
 
 
 # In the process of being published. Your patience is appreciated
