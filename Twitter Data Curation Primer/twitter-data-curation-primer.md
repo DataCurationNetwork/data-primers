@@ -78,6 +78,79 @@ It is important for curators to remain up-to-date on Twitter’s latest develope
 
 # Examples
 
+[Documenting the Now](https://www.docnow.io), a community and tool that is focused on responsible social media data archiving has an [online catalog](https://catalog.docnow.io) of publicly available Twitter datasets.
+
+[TweetSets](https://tweetsets.library.gwu.edu/datasets) is an online archive of twitter datasets based out of the George Washington University Library. These tweets were collected with their Social Feed Manager tool.
+
+[Data.world](https://data.world/datasets/twitter) is a data-sharing platform that hosts Twitter datasets (registration required).
+
+# Sample Citations
+
+## Dataset Citations
+
+Littman, Justin, 2017, "Hurricanes Harvey and Irma Tweet ids”, [https://doi.org/10.7910/DVN/QRKIBW](https://doi.org/10.7910/DVN/QRKIBW), Harvard Dataverse, V1.
+
+Phillips, Mark Edward. Notre Dame Cathedral Fire Dataset, dataset, 2019-04-08/2019-04-29; ([https://digital.library.unt.edu/ark:/67531/metadc1477117/](https://digital.library.unt.edu/ark:/67531/metadc1477117/): accessed January 3,2020), University of North Texas Libraries, UNT DigitalLibrary,[https://digital.library.unt.edu](https://digital.library.unt.edu).
+
+Summers, E. (2019). “ACH2019 Tweets.” Internet Archive. [https://archive.org/details/ach2019-tweets](https://archive.org/details/ach2019-tweets).
+
+## Individual File Citations (for a dataset with multiple files)
+
+Littman, Justin, 2017, "harvey_filter_tweet_ids.txt", Hurricanes Harvey and Irma Tweet ids", [https://doi.org/10.7910/DVN/QRKIBW/REEPPK](https://doi.org/10.7910/DVN/QRKIBW/REEPPK), Harvard Dataverse, V1.
+
+# Key Questions to Ask Yourself as a Curator
+
+### Do you have enough contextual and technical information to reproduce the dataset?
+
+- Are the parameters of data collection (e.g., time frame of tweets, specific hashtags, users or keywords followed) clear and complete?
+- Do you have the tweet ID for each tweet, to be able to retrieve full JSON records for each tweet using a Twitter API or third-party service?
+- Do you know which API or service the depositor used to collect the data?
+
+### Is there potentially sensitive or identifiable information in the dataset?
+
+- Consider the balance between archiving tweets that were publicly available at the time of data collection with protecting Twitter users’ right to privacy.
+  - For example, you may consider stricter anonymity protections for tweets by private citizens than for tweets by public figures and business or institutional accounts.
+- Always refer to Twitter’s [Developer Terms](https://developer.twitter.com/en/developer-terms/agreement-and-policy) and [Tweet Compliance guide](https://developer.twitter.com/en/docs/tweets/compliance/guides/honoring-user-intent) for the most up-to-date information on how Twitter API users can share the data they collect.
+
+### Is there a high risk of loss for this dataset?
+
+- For large Twitter datasets (e.g., millions of tweets), there is a lower risk of loss.
+  - It is likely that, over time, a high proportion of these tweets will still be publicly available and findings from the dataset can be reproduced.
+  - It is best practice in these cases to archive only the tweet IDs and collection parameters for the dataset.
+- For small Twitter datasets, there is a higher risk of loss.
+  - Over time, a smaller proportion of these tweets may still be publicly available; it may be more difficult to reproduce the results of the original dataset.
+  - When depositing in a public archive, it is best practice to only archive tweet IDs and data collection parameters to ensure compliance with Twitter’s terms of service. However, curators and depositors may consider alternate archiving options if the risk of loss to the data and to reproducibility of findings from the data is deemed too great.
+
+### Can this dataset be publicly shared?
+
+- See Twitter’s [Developer Agreement and Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy), Twitter’s terms on the [Redistribution of Twitter Content](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases), and Twitter’s [Tweet Compliance guide](https://developer.twitter.com/en/docs/tweets/compliance/guides/compliance-best-practices) for more information on what can be publicly shared.
+- Are there any data use agreements in place?
+
+### Is data collection ongoing?
+
+- Could the researcher deposit additional tweets collected using the same collection parameters later on?
+
+# Key Clarifications to Get From Researcher
+
+Curators should ask for clarifications regarding understanding and documenting the dataset along with sharing the data and reproducing results from the researcher. It is important to get these clarifications in order to ensure compliance with the policies of the repository or publishing guidelines of academic journals, and making sure that the methods that were applied was accurately captured in the documentation. 
+
+### Key Clarifications Regarding Understanding and Documenting the Dataset
+
+- Is there a codebook with column-level descriptions of metadata? It is important to provide column-level metadata descriptions (e.g., does the “id” column refer to tweet IDs or user IDs?)
+- Is there a data dictionary or README file with a brief description of the purpose of the collection, a list of the hashtags used for the Twitter collection, date of collection, and file names?
+
+### Key Clarifications Regarding Sharing the Data and Reproducing Results
+
+- Are the method(s) used to collect the tweets included in a README file?
+  - Did you collect the tweets via a programming language such as R or Python or did you use a program such as NodeXL or the Hydrator tool?
+- Has the dataset been de-identified to remove any sensitive personal information? An example of this are phone numbers on personal accounts.
+- If tweets were collected using a programming language, can the code used to create the collection be shared?
+- Is the data collection and creation in compliance of Twitter's term of service? The curator should not feel like they need to enforce the terms of service but rather remind the researcher of the importance of complying with this policy.
+
+# Metadata Standards and README Requirements
+
+
+
 # In the process of being published. Your patience is appreciated
 
 
