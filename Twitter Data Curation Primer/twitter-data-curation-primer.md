@@ -149,6 +149,65 @@ Curators should ask for clarifications regarding understanding and documenting t
 
 # Metadata Standards and README Requirements
 
+At the time of publication of this primer, the authors were unaware of any metadata standards designed specifically for social media data.
+
+For explanations of the metadata contained within each JSON record retrieved from Twitter API services, the [Twitter Developer documentation](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object) and the [Social Feed Manager documentation](https://sfm.readthedocs.io/en/latest/data_dictionary.html) have comprehensive data dictionaries for tweet objects.
+
+A README file should be created for every archived Twitter dataset, for users to understand how the data was collected and used, and how the dataset could be reproduced. In addition to standard README elements such as dataset title, author and related publication(s), useful information  the README, specific to Twitter datasets, includes:
+
+- Number of tweets in the dataset
+- Time period covered by the archived tweets
+- Search terms (e.g., hashtags, keywords, usernames) used to collect the archived tweets
+- Tools or methods used to collect the archived tweets
+- Explanation of file structure, if there are multiple files containing Twitter data
+- Contextual information surrounding the subject matter of the dataset 
+
+# Resources and Software for Reviewing Data 
+
+Twitter datasets can be reviewed using text editors such as [Notepad++](https://notepad-plus-plus.org), [Sublime Text](https://www.sublimetext.com), [Atom](https://atom.io), and [TextEdit](https://en.wikipedia.org/wiki/TextEdit), or spreadsheet software such as Google Sheets and Microsoft Excel. In addition, there are a number of libraries and packages that can be used in Python or R to review these data. See Appendix B for a list of Python and R packages used to collect, hydrate, and analyze Twitter data.
+
+[Doc Now Twitter Hydrator tool](https://github.com/DocNow/hydrator): If you want to hydrate the tweet IDs to get the content of the tweets, you can use this tool. Hydrating tweets involve using tweet or user IDs to retrieve the content of the tweets. The results of the hydration will be exported in a .txt format. The Hydrator tool uses a graphical interface, so you do not need to use the command line or a programming language to use this tool.
+
+[Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/about/overview): This tool, created by George Washington University Libraries, allows users to build a collection of tweets based on a tailored search. The Social Feed Manager allows for building and managing various collections of Twitter data. Data can be exported to a spreadsheet or through to the command line.
+
+R and Twitter packages: See Appendix B for a list of Python and R packages used to collect, hydrate, and analyze Twitter data.
+
+# Preservation Actions
+
+- Data files should be converted to open, non-proprietary file formats (e.g., .txt, .csv, .json)
+  - Note: Microsoft Excel file formats (e.g., .xlsx, .xls) are not recommended for the preservation of Twitter data. Excel software has a tendency to convert tweet IDs, which are long strings of numeric values, into scientific notation. Converting data out of this format can result in irreversible corruption or data loss
+- Data files should be accompanied by a README file to provide context about data collection parameters and how to rehydrate the data, if necessary
+- Any code used to process the data or reproduce results should be archived along with the raw data:
+  - If the data is associated with a published work, it is best practice to archive a current version of any code, even if the code is also available on a public repository, such as GitHub
+  - Make sure there are no API keys, or other information related to the researcher’s Twitter credentials, in the archived code
+- Make sure the preserved dataset complies with Twitter’s terms of service:
+  - This may mean preserving only the tweet IDs from a dataset
+  - See Twitter’s [Developer Agreement and Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy), Twitter’s [terms on the Redistribution of Twitter Content](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases.html), and Twitter’s [Tweet Compliance guide](https://developer.twitter.com/en/docs/tweets/compliance/guides/compliance-best-practices) for more information on how Twitter data can be archived and shared
+
+# What to Look for to Make Sure Files Meet FAIR Principles
+
+### Findable
+
+- The dataset should be publicly available in a data repository
+- The dataset should have a persistent identifier (e.g., DOI)
+
+### Accessible
+
+- When possible, data should be made public through the removal of personally identifiable information (PII). In many cases, this may mean archiving files containing tweet IDs, rather than the full-text or metadata of the tweets
+
+### Interoperable
+
+- Data should be archived in non-proprietary file formats (e.g., .csv, .txt, .json rather than Excel)
+  - Many of the existing tools for hydrating and analyzing Twitter data, such as Twarc, are built for plain text, .csv or .json files. Archiving data in these open formats allows users to make use of these tools without needing additional software to read or reformat the data
+  
+### Reusable
+
+- Datasets should include complete information about how the data was collected
+- Datasets that archive tweet IDs should have guidance for rehydrating the data 
+- Datasets that archive tweet IDs should have enough tweets in the dataset to remain meaningful if some content were to be lost (e.g., made private or deleted from Twitter’s platform) over time
+
+# Ways in Which Fields May Use This Format
+  
 
 
 # In the process of being published. Your patience is appreciated
