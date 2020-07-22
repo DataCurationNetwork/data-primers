@@ -290,8 +290,29 @@ Modified from the Data Curation Network's [Checklist for DCN Curators](https://d
 
 ### SOFTWARE APPLICATIONS
 
+[Social Feed Manager](https://gwu-libraries.github.io/sfm-ui/): This tool, created by George Washington University Libraries, allows users to build a collection of tweets based on a tailored search. The Social Feed Manager allows for building and managing various collections of Twitter data. Data can be exported to a spreadsheet or through to the command line.
 
-# In the process of being published. Your patience is appreciated
+[Documenting the Now Hydrator](https://github.com/DocNow/hydrator): This tool allows users to “hydrate” tweet IDs to receive the full content and metadata of each tweet, as long as the tweets are publicly available on Twitter. The Hydrator tool uses a graphical interface, so you do not need to use the command line or a programming language to use this tool. However, users must have a registered Twitter developer account and Twitter API credentials to use this tool.
 
+### PYTHON LIBRARIES
 
+[twarc](https://github.com/DocNow/twarc): Twarc is a library that allows you to use the command line to collect Twitter data as a JSON object.
+
+[tweepy](https://www.tweepy.org): Tweepy is a library that allows you to have access to the Twitter API.
+
+[pandas](https://pandas.pydata.org): Pandas is a library that allows you to read in rectangular data such as csv, SQL tables, or Excel sheets into data frames. 
+
+[csv](https://docs.python.org/3/library/csv.html): This built-in python library allows you to read and write csv files in Python.
+
+### R PACKAGES
+
+[rtweet](https://rtweet.info/index.html): This package allows one to access the Twitter API to collect tweets. 
+
+[readr](https://readr.tidyverse.org): This package provides functions to read rectangular data such as csv, tsv, and delimited files into data frames.
+
+[readxl](https://readxl.tidyverse.org): This package allows you to read Excel files into RStudio into data frames. This package supports both the .xls and .xlsx format. This package can read individual Excel sheets as well.
+
+[streamR](https://github.com/pablobarbera/streamR): This package is used to access Twitter’s Streaming APIs, which allow you to collect tweets happening in real-time.
+
+[twitteR](https://cran.r-project.org/web/packages/twitteR/twitteR.pdf): Like rtweet, this package is used to collect tweets. Compared to rtweet, this package is older and isn’t frequently maintained.
 
