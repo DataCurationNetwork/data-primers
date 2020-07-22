@@ -174,13 +174,13 @@ R and Twitter packages: See Appendix B for a list of Python and R packages used 
 
 # Preservation Actions
 
-- Data files should be converted to open, non-proprietary file formats (e.g., .txt, .csv, .json)
+- **Data files should be converted to open, non-proprietary file formats (e.g., .txt, .csv, .json)**
   - Note: Microsoft Excel file formats (e.g., .xlsx, .xls) are not recommended for the preservation of Twitter data. Excel software has a tendency to convert tweet IDs, which are long strings of numeric values, into scientific notation. Converting data out of this format can result in irreversible corruption or data loss
-- Data files should be accompanied by a README file to provide context about data collection parameters and how to rehydrate the data, if necessary
-- Any code used to process the data or reproduce results should be archived along with the raw data:
+- **Data files should be accompanied by a README file to provide context about data collection parameters and how to rehydrate the data, if necessary**
+- **Any code used to process the data or reproduce results should be archived along with the raw data:**
   - If the data is associated with a published work, it is best practice to archive a current version of any code, even if the code is also available on a public repository, such as GitHub
   - Make sure there are no API keys, or other information related to the researcher’s Twitter credentials, in the archived code
-- Make sure the preserved dataset complies with Twitter’s terms of service:
+- **Make sure the preserved dataset complies with Twitter’s terms of service:**
   - This may mean preserving only the tweet IDs from a dataset
   - See Twitter’s [Developer Agreement and Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy), Twitter’s [terms on the Redistribution of Twitter Content](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases.html), and Twitter’s [Tweet Compliance guide](https://developer.twitter.com/en/docs/tweets/compliance/guides/compliance-best-practices) for more information on how Twitter data can be archived and shared
 
@@ -207,7 +207,59 @@ R and Twitter packages: See Appendix B for a list of Python and R packages used 
 - Datasets that archive tweet IDs should have enough tweets in the dataset to remain meaningful if some content were to be lost (e.g., made private or deleted from Twitter’s platform) over time
 
 # Ways in Which Fields May Use This Format
+
+Twitter data is of interest to a variety of research fields and academic disciplines ranging from the humanities to public health. One interesting facet of Twitter data is that it is used in both qualitative and quantitative analysis, through methods such as content analysis and machine learning.
+
+## Examples:
+
+### Digital Humanities
+
+[#silentsam Social Media Analysis Project](https://cdh.unc.edu/spotlights/digital-humanities-research/silentsam-social-media-analysis-project/): The project was conducted by the UNC Chapel Hill Digital Innovation Lab which involved collecting and analyzing tweets regarding the confederate monument Silent Sam. Another aim of this project was to establish best practices regarding the use of social media data in digital humanities.
+
+### Geography
+
+[Mapping the EU Referendum on Twitter](http://www.markgraham.space/blog/tag/brexit): Tweets related to the EU referendum were collected to better understand which parts of Great Britain supported staying or leaving the EU.
+
+### Geology
+
+[USGS Twitter Earthquake Dispatch](https://www.usgs.gov/software/usgs-twitter-earthquake-dispatch-usgsted) (USGSted): The United States Geological Survey (USGS) created a software application which collects tweets that contain the word “earthquake” and related words and stores them in a database. The National Earthquake Information Center (NEIC) uses this information to create maps of the tweet locations and to analyze the severity of the earthquake.
+
+### Public Health
+
+[HealthMap](https://www.healthmap.org/en/): Healthmap was created by a team of researchers to mine Twitter for foodborne illnesses and other kinds of health conditions. Data was collected with an R package and NodeXL. The data was stored as csv files and as Excel files respectively.
+
+# Documentation of Curation Process: What to Capture
+
+- **Steps taken to understand or view the data**
+  - Document any scripts or tools used if a dataset was hydrated during curation
+
+- **Transformations to the data**
+  - Document any actions taken to make the data both FAIR and sharable (e.g., file format migrations, limiting a dataset to adhere to Twitter’s terms of use)
   
+- **Decisions about what data to share**
+  - Document how you came to any decisions about which parts of the dataset will or will not be shared publicly
+
+# Bibliography
+
+HealthMap (n.d.) About.  Retrieved from [http://www.diseasedaily.org/about](http://www.diseasedaily.org/about).
+
+Littman, J. (2017). Where to get Twitter data for academic research. Social Fee Manager. Retrieved from:[https://gwu-libraries.github.io/sfm-ui/posts/2017-09-14-twitter-data](https://gwu-libraries.github.io/sfm-ui/posts/2017-09-14-twitter-data).
+
+Molina, B. (2017, October 26). Twitter overcounted active users since 2014, shares surge on profit hopes. USA Today. Retrieved from: [https://www.usatoday.com/story/tech/news/2017/10/26/twitter-overcounted-active- users-since-2014-shares-surge/801968001/](https://www.usatoday.com/story/tech/news/2017/10/26/twitter-overcounted-active-users-since-2014-shares-surge/801968001/).
+
+MuleSoft (2020). What is an API (Application Programming Interface). Retrieved from: [ https://www.mulesoft.com/resources/api/what-is-an-api]( https://www.mulesoft.com/resources/api/what-is-an-api)
+
+Twitter (2020a). Getting Started. Retrieved from:[https://developer.twitter.com/en/docs/basics/getting-started](https://developer.twitter.com/en/docs/basics/getting-started)
+
+Twitter (2020b). Get Batch Historical Tweets. Retrieved from:[https://developer.twitter.com/en/docs/tweets/batch-historical/overview](https://developer.twitter.com/en/docs/tweets/batch-historical/overview)
+
+Twitter Developers. (2020). Developer Agreement and Policy. Retrieved from:[https://developer.twitter.com/en/developer-terms/agreement-and-policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy)
+
+U.S. Geological Survey (2011). Twitter Earthquake Dispatch (@USGSted). Retrieved from:[https://www.usgs.gov/software/usgs-twitter-earthquake-dispatch-usgsted](https://www.usgs.gov/software/usgs-twitter-earthquake-dispatch-usgsted)
+
+
+# Appendix A file type CURATED checklist
+
 
 
 # In the process of being published. Your patience is appreciated
