@@ -37,7 +37,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #3
 
 [Key clarifications to get from researcher](#key-clarifications-to-get-from-researcher)
 
-[Applicable metadata standard core elements and README requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
+[Recommended metadata elements and standards](#recommended-metadata-elements-and-standards)
 
 [Software for opening and  viewing GeoTIFFs](#software-for-opening-and-viewing-geotiffs)
 
