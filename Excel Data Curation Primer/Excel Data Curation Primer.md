@@ -34,6 +34,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 - [Preservation actions](#preservation-actions)
 - [Excel CURATED checklist](#excel-curated-checklist)
 - [Appendix: Creating a data dictionary](#appendix-creating-a-data-dictionary)
+- [Appendix: Exporting macros](#appendix-exporting-macros)
 - [References](#references)
 
 <!-- /TOC -->
@@ -55,16 +56,16 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 
 | Additional Information     |     |
 | :------------- | :------------- |
-|  Structure | ZIP archive adhering to Open Packaging Conventions containing multiple, interrelated XML documents     |  
+|  Structure | ZIP archive adhering to Open Packaging Conventions containing multiple, interrelated XML documents.     |  
 | Versions | Many proprietary legacy versions; since 2007, an ISO standard that has undergone only minor revisions. Nevertheless, closely tied to the Microsoft Excel application, whose present version is v16.0.xx. |
 | Primary fields or areas of use | Microsoft Excel is commonly used by many research disciplines. |
 | Source and affiliation | Microsoft Corporation develops and manages all versions of Microsoft Excel. |
 | Metadata standards |   |
-| Key questions for curation review | <ul><li>What is the purpose of the file—data storage or computational model?</li> <li>Does the file have external dependencies?</li> <li>If the purpose is to store data, are the worksheets in the file convertible to CSV? - Is the data sufficiently documented?</li></ul>|
+| Key questions for curation review | <ul><li>What is the purpose of the file—data storage or computational model?</li> <li>Does the file have external dependencies, formulas or images?</li> <li>If the purpose is to store data, can the worksheets be converted to CSV or another non-proprietary format?</li> <li>Is the data sufficiently documented?</li></ul>|
 | Tools for curation review | Microsoft Excel |
 | Date created |  February 7, 2019 |
 | Created by | Greg Janée ([gjanee@ucsb.edu](mailto:gjanee@ucsb.edu)), Sandra Sawchuk ([sandra.sawchuk@msvu.ca](mailto:sandra.sawchuk@msvu.ca)), Ho Jung Yoo ([hjsyoo@ucsd.edu](mailto:hjsyoo@ucsd.edu)) |
-| Date updated and summary of changes made | April 26, 2019 <ul><li>Added data dictionary resources for different disciplines.</li> <li>Added links to support &#39;Legacy File Format&#39; section </li> <li>Added information to support &#39;Document&#39; step in the CURATE(D) checklist </li></ul>
+| Date updated and summary of changes made | April 26, 2019 <ul><li>Added data dictionary resources for different disciplines.</li> <li>Added links to support &#39;Legacy File Format&#39; section. </li> <li>Added information to support &#39;Document&#39; step in the CURATE(D) checklist. </li></ul> August 3, 2020 <ul><li>Reformatted &#39;Content problems&#39; section to highlight Remedies and made minor additions to the &#39;Visual effects&#39; and &#39;Missing column headers&#39; items.</li><li>Added OpenRefine to &#39;Software for viewing or analyzing data&#39; section and expanded Excel Archival Tool description.</li><li>Added appendix with instructions for exporting macros.</li></ul>|
 
 
 # Description of format
@@ -73,7 +74,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 
 Microsoft Excel&#39;s widespread adoption in the corporate sector is well known, but the application has also found use in many areas of scholarship. Despite the ubiquity of tabular data in CSV (comma-separated values) format, and the availability of many tools and analysis platforms that operate on CSV files, Microsoft Excel continues to be used widely in the natural sciences and social sciences. As a consequence, Excel files are routinely deposited in data repositories and curators are likely to encounter them.
 
-Since 2007 the Excel file format has been open and defined by ISO and ECMA standards (LoC 2017, OOXML 2019). Further, the format is supported by tools other than Microsoft Excel, notably Google Sheets, LibreOffice, and scientific programming languages such as R and Python. Nevertheless, the format continues to be closely identified with the (proprietary) Microsoft Excel application. Many features commonly used with Excel are not supported by those other tools.
+Since 2007 the Excel file format has been open and defined by ISO and ECMA standards ([LoC 2017](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml), [OOXML 2019](https://en.wikipedia.org/wiki/Office_Open_XML)). Further, the format is supported by tools other than Microsoft Excel, notably Google Sheets, LibreOffice, and scientific programming languages such as R and Python. Nevertheless, the format continues to be closely identified with the (proprietary) Microsoft Excel application. Many features commonly used with Excel are not supported by those other tools.
 
 The Excel file format is technically a ZIP archive, organized according to Open Packaging Conventions, that contains a number of interrelated XML files adhering to the Spreadsheet ML language. But because the individual files have no independently reusable value, from a curation and reuse perspective, in practice, an Excel file is always treated as an indivisible unit.
 
@@ -89,6 +90,7 @@ At its core, an Excel spreadsheet stores tabular data arranged in a two-dimensio
 - **Filters:** transformed views that non-destructively reorder and/or hide the underlying data.
 - **Charts:** visualizations (graphs, plots, etc.) that are computed from the underlying data.
 - **Pivot tables**: dynamically generated tables that, like filters, display transformed views of the underlying data.
+- **External dependencies**: links to external objects, which may exist in many places in a workbook - within a worksheet, cell, formula, pivot tables, data validation rules, etc.
 - **References to data values**. A worksheet may reference cell values in another worksheet in the same Excel file, as well as values in separate files referenced by filename. The latter practice creates external dependencies.
 - **Macros and scripts**. These are written in the Visual Basic for Applications (VBA) programming language and may perform computation as well as mimic keystrokes and mouse clicks. Due to security considerations, Microsoft Excel is typically configured to disable macros by default. Macros are usually stored in the Excel file, but can also be referenced in a separate, or even a hidden background workbook stored in a system startup folder, usually with the filename `Personal.xlsb`, thus creating another external dependency.
 
@@ -110,39 +112,53 @@ Researchers use Excel for various purposes spanning a large range of the researc
 
 - **External references, missing or not.** An external reference (also called a link) is a reference to a cell or range of cells in another Excel file. A missing reference will result in an unusable Excel file, but even if all referenced files are present, external references cause significant usability problems. Due to the way external references are recorded, every new user of the Excel file will need to re-establish the connections between the primary file and any referenced files. Remedy: consider reorganizing multiple Excel files into multiple worksheets within a single file. Unfortunately, there is no automated means of finding all external references. An external reference in a formula will include the external file&#39;s path and filename in square brackets ([]), followed by the worksheet name, an exclamation point (!), and the cells in that sheet that the formula depends on, e.g., `=SUM(&#39;C:\Data\[Compiled.xlsx]Surveys&#39;!C10:C25)`. For more information, see [Find links (external references) in a workbook](https://support.office.com/en-us/article/find-links-external-references-in-a-workbook-fcbf4576-3aab-4029-ba25-54313a532ff1).
 
-- **Macros, missing or not.** Macros hinder usability (due to significant security considerations, macros in Microsoft Excel are typically disabled by default) and portability (macros are supported only by Microsoft Excel). And as with external references to cell values, external macros may be referenced, and the same considerations apply. Note that macros may be stored in a user&#39;s `Personal.xlsb` macro file. Remedy: consider removing macros if they are not necessary. If macros are necessary, consider consolidating them in the Excel file.
+- **Macros, missing or not.** Macros hinder usability (due to significant security considerations, macros in Microsoft Excel are typically disabled by default) and portability (macros are supported only by Microsoft Excel). And as with external references to cell values, external macros may be referenced, and the same considerations apply. Note that macros may be stored on the data creator&#39;s local machine in a `Personal.xlsb` macro file. Remedy: consider removing macros if they are not necessary. If macros are necessary, consider exporting them and archiving them alongside the Excel file.
 - **Password protection.** Microsoft Excel&#39;s password protection feature is incompatible with preservation and reuse. If the data is sensitive, access should be restricted through repository access and authentication mechanisms instead. Remedy: remove any passwords.
 
 ## Content problems
 
 For an Excel file whose purpose is data storage, there are many characteristics that can compromise the preservation and reuse of that data. The most preservation-friendly and reusable format for tabular data is comma-separated values (CSV), and recommended practice is to export data as CSV and to archive the CSV file(s) alongside the Excel original. Therefore, any characteristics that preclude conversion to CSV should be considered problematic. The specific problems to look for listed below are derived primarily from Strasser et al. (2014) and (Carpentry 2019):
 
-- **Multiple tables in a worksheet.** Multiple tables in a single worksheet, particularly if the tables have different dimensions or are side-by-side, will greatly confuse any CSV reader and any conversion to CSV because the structure, which is only visually apparent, will be lost. Remedy: move multiple tables to separate worksheets.
-- **Ragged tables.** Tools that read and write CSV files generally assume a rectangular structure, that is, that each row has the same number of column values. There may be cases when different row or column lengths in a table is intentional, however, in exporting such a table to CSV, Microsoft Excel will rectangularize the data by adding blank cells, and this in turn may cause the meaning behind the different row or column lengths to be lost. Remedy: reorganize tables or designate a coding scheme for blank cells so that tables are rectangular.
-- **Merged cells.** The structure of merged cells will not be maintained when data are exported to CSV. Remedy: unmerge cells and annotate appropriately so that information is not lost.
-- **Blank cells.** Blank cells within a contiguous data table are potentially problematic when the table is read by other programs. Remedy: confirm that blank cells are intentional and that the semantics of a blank cell (no data? not applicable? to be determined?) are documented. Preferably, designate a coding scheme for missing data or other explanations for blank cells.
-- **Embedded charts.** Embedded content will not be visible when data are exported to CSV. Also, these elements are visible only if the file is opened with Microsoft Excel. Remedy: move embedded content to their own worksheets or save as image files.
-- **Embedded comments.** Comments will not be visible when data are exported to CSV. Also, these elements are visible only if the file is opened with Microsoft Excel. Remedy: create a new column titled &quot;Comments&quot; and place comments there.
-- **Columns that have mixed data types.** Mixed data types (e.g., numbers and text) in the same column may reflect underlying errors, and even if not, many programs cannot handle mixed data types. Remedy: ensure that columns are uniform with respect to data type. Split data into multiple columns if necessary.
-- **Multiple values in one column.** Data is most reusable when it is stored in discrete, independently processable units. For example, location data compacted into a single column &quot;city, state&quot; will be more reusable if city and state are stored as separate columns; similarly, dates are most reusable if stored as separate year, month, and day columns. Remedy: add additional columns as needed.
-- **Special characters.** Characters outside the basic alphanumeric character set (mathematical symbols, characters with diacritics, etc.) may cause problems for other programs or may be modified upon export. At minimum, use of the broader Unicode character set will necessitate careful understanding and documentation of the Unicode encoding in use. Remedy: use alphanumeric characters only.
-- **Dates.** Microsoft Excel can display dates in many different syntaxes, some of which can be ambiguous or difficult to parse by other programs. Additionally, dates are stored internally by Microsoft Excel in an Excel-specific, numeric format, and this internal representation can occasionally be exposed. A related problem is that Excel, in its legacy versions (but not in recent versions), supported two, incompatible date systems. See [Date systems in Excel](https://support.office.com/en-us/article/date-systems-in-excel-e7fe7167-48a9-4b96-bb53-5612a800b487) for information on differences and conversion between the systems. Remedy: consider storing dates as explicit and separate year, month, and day columns.
-- **Visual effects.** Color, borders, conditional formatting, and other visual effects can greatly enhance the readability of a spreadsheet, but if such effects convey semantics that are not otherwise present in the spreadsheet, those semantics will be lost in the conversion to CSV. Remedy: consider adding additional columns to the table to convey any unapparent information.
-- **Missing column headers.** Every table should have at least one header row (and preferably exactly one header row) to name and describe the columns. Note that column headers are not a substitute for more complete documentation; see the Appendix for guidelines on creating a data dictionary. Remedy: assess the completeness of column documentation and augment as necessary.
-- **No primary key.** Generally speaking, every table should have a column or combination of columns that constitute a &quot;primary key&quot;— a quantity that is unique to each row, and that can thus serve to identify and distinguish the row from every other row. For example, measurements taken over time should be identified by date; measurements of samples should identify the sample. Remedy: if no primary key can be identified, consider adding a &quot;row ID&quot; column.
+- **Multiple tables in a worksheet.** Multiple tables in a single worksheet, particularly if the tables have different dimensions or are side-by-side, will greatly confuse any CSV reader and any conversion to CSV because the structure, which is only visually apparent, will be lost. 
+  - Remedy: move multiple tables to separate worksheets.
+- **Ragged tables.** Tools that read and write CSV files generally assume a rectangular structure, that is, that each row has the same number of column values. There may be cases when different row or column lengths in a table is intentional, however, in exporting such a table to CSV, Microsoft Excel will rectangularize the data by adding blank cells, and this in turn may cause the meaning behind the different row or column lengths to be lost. 
+  - Remedy: reorganize tables or designate a coding scheme for blank cells so that tables are rectangular.
+- **Merged cells.** The structure of merged cells will not be maintained when data are exported to CSV. 
+  - Remedy: unmerge cells and annotate appropriately so that information is not lost.
+- **Blank cells.** Blank cells within a contiguous data table are potentially problematic when the table is read by other programs. 
+  - Remedy: confirm that blank cells are intentional and that the semantics of a blank cell (no data? not applicable? to be determined?) are documented. Preferably, designate a coding scheme for missing data or other explanations for blank cells.
+- **Embedded charts.** Embedded content will not be visible when data are exported to CSV. Also, these elements are visible only if the file is opened with Microsoft Excel. 
+  - Remedy: move embedded content to their own worksheets or save as image files.
+- **Embedded comments.** Comments will not be visible when data are exported to CSV. Also, these elements are visible only if the file is opened with Microsoft Excel. 
+  - Remedy: create a new column titled &quot;Comments&quot; and place comments there.
+- **Columns that have mixed data types.** Mixed data types (e.g., numbers and text) in the same column may reflect underlying errors, and even if not, many programs cannot handle mixed data types. 
+  - Remedy: ensure that columns are uniform with respect to data type. Split data into multiple columns if necessary.
+- **Multiple values in one column.** Data is most reusable when it is stored in discrete, independently processable units. For example, location data compacted into a single column &quot;city, state&quot; will be more reusable if city and state are stored as separate columns; similarly, dates are most reusable if stored as separate year, month, and day columns. 
+  - Remedy: add additional columns as needed.
+- **Special characters.** Characters outside the basic alphanumeric character set (mathematical symbols, characters with diacritics, etc.) may cause problems for other programs or may be modified upon export. At minimum, use of the broader Unicode character set will necessitate careful understanding and documentation of the Unicode encoding in use. 
+  - Remedy: use alphanumeric characters only.
+- **Dates.** Microsoft Excel can display dates in many different syntaxes, some of which can be ambiguous or difficult to parse by other programs. Additionally, dates are stored internally by Microsoft Excel in an Excel-specific, numeric format, and this internal representation can occasionally be exposed. A related problem is that Excel, in its legacy versions (but not in recent versions), supported two, incompatible date systems. See [Date systems in Excel](https://support.office.com/en-us/article/date-systems-in-excel-e7fe7167-48a9-4b96-bb53-5612a800b487) for information on differences and conversion between the systems. 
+  - Remedy: consider storing dates as explicit and separate year, month, and day columns.
+- **Visual effects.** Color, borders, conditional formatting, and other visual effects can greatly enhance the readability of a spreadsheet, but if such effects convey semantics that are not otherwise present in the spreadsheet, those semantics will be lost in the conversion to CSV. 
+  - Remedy: consider adding additional columns to the table to convey any unapparent information, and explain the semantic meaning of any remaining visual effects in the related documentation.
+- **Missing column headers.** Every table should have at least one header row (and preferably exactly one header row) to name and describe the columns. Similar to filenames, column headers should ideally be short, descriptive, composed of alphanumeric characters, and should not include spaces. Note that column headers are not a substitute for more complete documentation; see the Appendix for guidelines on creating a data dictionary. 
+  - Remedy: assess the completeness of column documentation and augment as necessary.
+- **No primary key.** Generally speaking, every table should have a column or combination of columns that constitute a &quot;primary key&quot;— a quantity that is unique to each row, and that can thus serve to identify and distinguish the row from every other row. For example, measurements taken over time should be identified by date; measurements of samples should identify the sample. 
+  - Remedy: if no primary key can be identified, consider adding a &quot;row ID&quot; column.
 
 # Software for viewing or analyzing data
 
 - Microsoft Excel is the _de facto_ tool.
 - The [Spreadsheet Inquire add-in for Excel](https://support.office.com/en-us/article/what-you-can-do-with-spreadsheet-inquire-ebaf3d62-2af5-4cb1-af7d-e958cc5fad42) can be used to analyze Excel files for problems and inconsistencies, and to make hidden content (e.g., cell comments) visible. It is available only with certain versions of Microsoft Excel for Windows, however.
-- The [Excel Archival Tool](https://github.com/mcgrory/ExcelArchivalTool) programmatically converts Excel files to open source formats (specifically, CSV and PNG).
+- The [Excel Archival Tool](https://github.com/mcgrory/ExcelArchivalTool) programmatically converts Excel files to open source formats. The tool will convert individual worksheets into .csv files, save any images as .png files, save formulas in a .txt file, and preserve the overall format and style as HTML snapshots. The Excel Archival Tool can be used with or without a graphical user interface (GUI). It is only available for Windows operating systems.
+- [OpenRefine](https://openrefine.org/) is an open source tool for viewing, cleaning and manipulating tabular datasets. Curation use cases might include: splitting or combining columns, re-coding blank cells, and standardizing value codes and cells. OpenRefine is especially helpful for large spreadsheets.
 
 # Preservation actions
 
 - Convert legacy .xls files to .xlsx. In contrast to .xls, .xlsx is an open format, and it is the currently supported format. Microsoft Excel will still open .xls files, but in a reduced-functionality &quot;compatibility mode.&quot;
 - Convert .xlsb files to .xlsx. The file formats are functionally equivalent (.xlsb is simply a more compact form), but .xlsb is non-standard and supported only by Microsoft Excel.
 - If an Excel file contains macros or VBA scripts, determine if they are integral to the purpose of the spreadsheet. If they&#39;re not integral, create a version of the file without them to enhance reusability and portability. If they are integral, contact the depositor to understand their purpose, and then, to the extent possible, test the macros to ensure that they achieve that purpose.
-- When data storage is the primary purpose, save worksheets as separate CSV files and save charts as image files. To do the latter, right-click on a chart and select &quot;Save as picture.&quot; Consider using the [Excel Archive Tool](https://github.com/mcgrory/ExcelArchivalTool) to automate this process.
+- When data storage is the primary purpose, save worksheets as separate CSV files and save charts as image files. To do the latter, right-click on a chart and select &quot;Save as picture.&quot; Consider using the [Excel Archival Tool](https://github.com/mcgrory/ExcelArchivalTool) (Windows OS only) to automate this process.
 - When data entry or computation is the primary purpose, conversion to CSV may cause significant loss of key formulas and formats, and is therefore not recommended.
 
 # Excel CURATED checklist
@@ -153,7 +169,7 @@ For an Excel file whose purpose is data storage, there are many characteristics 
 - **Augment.** Evaluate the data from the perspective of a non-specialist. Add supporting and contextual metadata as necessary to enhance discovery.
 - **Transform.** For an Excel file whose purpose is data storage, convert the data to CSV and archive along with the Excel original.
 - **Evaluate.** After converting a data Excel file to CSV file(s), confirm that the conversion process was successful and that the data is faithful to the original Excel file.
-- **Document.** Describe any revisions made to the original Excel file, for each new version. Record names responsible for and dates of versioning activities.
+- **Document.** Describe any revisions made to the original Excel file, for each new version. Record names responsible for revisions and dates of versioning activities.
 
 # Appendix: Creating a data dictionary
 
@@ -170,10 +186,35 @@ A data dictionary describes the meaning or purpose of the data; its relationship
   - Description​: Write a brief definition that describes the column both independently and in the context of the other columns and the table. Consider consulting a metadata librarian about using standardized metadata for these descriptions.
   - Data type​: text, integer, date, etc.
   - Unit of measure, if applicable.
-  - Acceptable or allowed values​: If the column is numeric, list the range of acceptable values. If textual column values are restricted to a vocabulary, list all acceptable values and indicate their meanings.
+  - Acceptable or allowed values​: If the column is numeric, list the range of acceptable values. If textual column values are restricted to a vocabulary, list all acceptable values and indicate their meanings. If codes or abbreviations are used, these should be defined.
   - If blank cells occur in the table, explain their meaning (No data? Not applicable? etc.).
 
-**Additional resources:** Data dictionaries can be made for data in any discipline. For examples and guides to creating data dictionaries, see the [Canadian Heritage Information Network (2013)](https://app.pch.gc.ca/application/ddrcip-chindd/description-about.app?lang=en) for the Humanities; the [USGS](https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries)for the geological sciences; [DataONE](https://www.dataone.org/best-practices/create-data-dictionary) for environmental sciences; and [National Network of Libraries of Medicine](https://nnlm.gov/data/thesaurus/data-dictionary) for medical sciences.
+**Additional resources:** Data dictionaries can be made for data in any discipline. For examples and guides to creating data dictionaries, see the [Canadian Heritage Information Network (2013)](https://app.pch.gc.ca/application/ddrcip-chindd/description-about.app?lang=en) for the Humanities; the [USGS](https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries) for the geological sciences; [DataONE](https://www.dataone.org/best-practices/create-data-dictionary) for environmental sciences; and [National Network of Libraries of Medicine](https://nnlm.gov/data/thesaurus/data-dictionary) for medical sciences.
+
+# Appendix: Exporting macros
+
+A macroinstruction (macro) is a piece of code written in Visual Basic for Applications (VBA) programming language that can be used to automate tasks in Excel. Macros can be used for simple tasks, such as highlighting all negative numbers, and for more complex tasks, such as performing calculations, or generating graphs, reports, and pivot tables. 
+
+If it is important to preserve macros, for example to demonstrate the steps used to process the data, they should be exported as text files with a .bas extension, and archived alongside the Excel workbook. To do so, you need to use the &#39;Developer&#39; ribbon in Excel: 
+
+- Select &#39;Developer&#39; in the toolbar to access the Developer ribbon.
+- Select Visual Basic from the ribbon.
+- If it is not already open, double-click &#39;Module 1&#39; in the Project Explorer (upper left window) to access the code. 
+- In the File menu, select &#39;Export file&#39; and export to a text file (.bas). 
+- Consider naming the .bas file to match the name of the corresponding worksheet.
+
+Note: The &#39;Developer&#39; ribbon does not display by default. If you have not previously done so, you will need to add it to your toolbar before you can use it to view and export macros. To do so: 
+
+**In Excel for Windows**
+- In the File menu, select Option.
+- Choose Customize Ribbon in the dialog box.
+- Click the checkbox next to Developer, then click OK.
+
+**In Excel for Mac**
+- In the Excel menu, select Preferences.
+- Choose the Ribbon & Toolbar icon in the dialog box.
+- Under &#39;Main Tabs&#39; in the Ribbon dialog box, click the checkbox next to Developer, then click Save.
+
 
 # References
 
