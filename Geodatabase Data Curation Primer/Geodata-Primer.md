@@ -81,9 +81,9 @@ The ArcSDE, or enterprise, geodatabase (with file extension .sde) is designed fo
 
 ## Exploring geodatabases
 
-The primary datasets within a geodatabase are called feature classes, which include vector datasets, raster datasets, and tables. Like shapefiles, the main types of feature classes have either point, polyline or polygon geometry along with an attribute table. Additionally, annotation (map text linked to a graphic feature), dimensions, multipoints and multipatches (used in 3D geometry) can also be feature classes within geodatabases, but have no equivalency with respect to shapefiles. (2, 3)
+Geodatabases are containers for different types of datasets. The main dataset types stored within a geodatabase are feature classes, raster datasets, and tables. Like shapefiles, the main types of feature classes have either point, polyline or polygon geometry along with an attribute table. Additionally, annotation (map text linked to a graphic feature), dimensions, multipoints and multipatches (used in 3D geometry) can also be feature classes within geodatabases, but have no equivalency with respect to shapefiles. (2, 3)
 
-Geodatabases are best explored using Esri&#39;s ArcCatalog, which lists each feature class by name and includes an icon indicating the feature class type.
+Geodatabases are best explored using Esri's ArcCatalog, which lists each feature class by name and includes an icon indicating the feature class type.
 
 # Examples of geodatabase datasets
 
@@ -119,7 +119,7 @@ _Key clarifications to get from researcher_
 
 # Instructions for resources to use in the curation review of geodatabase files
 
-Viewing files in a geodatabase requires use of specialized software, either ArcGIS or QGIS (detailed information on each follows below). Although geodatabases appear as file folders when copied to a computer, they uniquely code and store the files within them. Using File Explorer is NOT recommended as the file names and extensions are intentionally obscured. If you need to review, rearrange, or delete files in a geodatabase use one of the following options. (see Figure 1a and compare to views of the same geodatabase presented in Figures 2-7). The only exception to this is if the researcher has stored map jpegs or .mxd files within the geodatabase. Although ArcGIS allows these files to be saved within a geodatabase, they are not visible within the geodatabase via the Arc Catalog, ArcMap, or ArcPro windows. It is not recommended that researchers store these files within geodatabases, but it may be useful to scroll to the end of a geodatabase in Windows Explorer to make sure such files do not exist. (See Figure 1b)
+Viewing files in a geodatabase requires use of specialized software, either ArcGIS or QGIS (detailed information on each follows below). Although geodatabases appear as file folders when copied to a computer, they uniquely code and store the files within them. Using File Explorer is NOT recommended as the file names and extensions are intentionally obscured. If you need to review, rearrange, or delete files in a geodatabase use one of the following options. (see Figure 1a and compare to views of the same geodatabase presented in Figures 2-7). The only exception to this is if the researcher has stored map jpegs or .mxd files within the geodatabase. Although ArcGIS allows these files to be saved within a geodatabase, they are not visible within the geodatabase via the Arc Catalog, ArcMap, or ArcPro windows. It is not recommended that researchers store these files within geodatabases, but it may be useful to scroll to the end of a geodatabase in Windows Explorer to make sure such files do not exist (See Figure 1b).
 
 ![](image2-gd-dc.png)
 
@@ -236,6 +236,12 @@ Many of the tools needed to understand the underlying information about a layer 
 
 ![](image16-gd-dc.png)
 
+**Limitations using QGIS**
+1. ESRI FileGDB is not an option for some versions of QGIS. You can open up the geodatabase using OpenFileGDB, but you cannot edit the geodatabase.
+2. If you want full read/write access with an ESRI geodatabase, you will have to install the FileGDB driver from OSGeoFW.
+3. There have been issues in viewing the metadata in a geodatabase. QGIS does not have standalone metadata editor as ArcGIS. For example, you cannot view various metadata formats such as XML, FGDC, and ISO.
+4. There can be issues in loading geodatabases in which the shapefile exceeds the size limit for shapefiles(2GB).
+
 # Metadata
 
 ## Geospatial Metadata Standards
@@ -244,7 +250,7 @@ The two most common standards for geospatial metadata (which encompass geodataba
 
 The second is the Content Standard for Digital Geospatial Metadata (CSDGM) developed by the United States Government’s Federal Geographic Data Committee (FGDC). United States federal government datasets typically use this standard, though the FGDC does endorse the use of ISO 191xx standards. This standard is being used less and less outside of the federal government as the ISO standards become more prevalent.
 
-While the ISO 191xx and FGDC CSDGM standards differ in organization and element requirements, the two content standards are fairly similar. In addition to core metadata elements typically required or recommended by repositories (e.g. title, creator, date, subject, description, rights, etc.), both standards require the following elements for geospatial materials:
+While the ISO 191xx and FGDC CSDGM standards differ in organization and element requirements, the two content standards are fairly similar. In addition to core metadata elements typically required or recommended by repositories (e.g. title, creator, date, subject, description, rights, etc.), both standards allow for the following geospatial elements:
 
 - bounding box
 - geographic location (place keywords)
@@ -255,9 +261,9 @@ Most researchers are either unaware of these standards or have limited knowledge
 
 ## Viewing and Exporting Metadata
 
-The metadata section above describes how to access and edit metadata in ArcCatalog. To view metadata using the ISO 191xx style, go to Customize>ArcCatalog Options and choose the Metadata tab in the pop up window, then select ISO 19139 Metadata Implementation Specification. (The North American Profile of ISO 19115:2003 is still in development and is not widely used, nor is the ISO 19139 Metadata Implementation Specification GML3.2.)  Alternately, you can select FGDC CSDGM Metadata to view metadata in that standard.
+The metadata section above describes how to access and edit metadata in ArcCatalog. To view metadata using the ISO 191xx style, go to Customize>ArcCatalog Options and choose the Metadata tab in the pop up window, then select ISO 19139 Metadata Implementation Specification. (The North American Profile of ISO 19115:2003 is still in development and is not widely used, nor is the ISO 19139 Metadata Implementation Specification GML3.2.)  Alternatively, you can select FGDC CSDGM Metadata to view metadata in that standard.
 
-Geodatabases store metadata in the Esri format in an internal file. Adjusting the view will show the metadata according to a particular standard, but the metadata file itself is not changed to that standard’s schema. In order to create ISO 191xx or FGDC CSDGM compliant metadata files, the metadata must be exported by clicking on the Export button. This creates a separate XML file that is stored external to the geodatabase. Note that exporting metadata using Esri’s ISO 19139 translator only includes elements within the ISO 19115 content standard, omitting field (entity and attribute) information that falls under ISO 19110.  
+Geodatabases store metadata in the ArcGIS 1.0 metadata format in an internal file. Adjusting the view will show the metadata according to a particular standard, but the metadata file itself is not changed to that standard’s schema. In order to create ISO 191xx or FGDC CSDGM compliant metadata files, the metadata must be exported by clicking on the Export button. This creates a separate XML file that is stored external to the geodatabase. Note that exporting metadata using Esri’s ISO 19139 translator only includes elements within the ISO 19115 content standard, omitting field (entity and attribute) information that falls under ISO 19110.
 
 ## Metadata Completeness
 
@@ -279,6 +285,7 @@ The GeoBlacklight 1.0 Metadata Schema accommodates the presentation of full-scal
 
 In the instance of geodatabases, curators may wish to create an individual record for a geodatabase, or they may transform each layer within a geodatabase into discrete shapefile layers. The advantage of doing this is to enable live web previews of the data via Geoserver, which is currently not possible to do with a geodatabase. See this sample record: https://github.com/geoblacklight/geoblacklight/blob/master/spec/fixtures/solr_documents/baruch_ancestor1.json.
 
+
 # Preservation actions
 | What are the issues surrounding a researcher’s choice to use a geodatabase for archival purposes?*|     |
 | :------------- | :------------- |
@@ -288,10 +295,13 @@ In the instance of geodatabases, curators may wish to create an individual recor
 *Sources: https://www.esri.com/news/arcuser/0309/files/9reasons.pdf*
 
 **Preservation strategy for the geodatabase & recommendations for transformations**
-Geodatabases are a proprietary format created by ESRI. While QGIS can open them, most other GIS analysis tools cannot. It should be noted that while ESRI is the industry leader in GIS software and in heavy use, other ESRI formats have already become obsolete. It is therefore recommended, where possible, to export files within a geodatabase to formats documented as suitable for long-term preservation.  In these cases, it is recommended that both the geodatabase and the conversion files are kept and documented in an accompanying README file.  Below are transformation recommendations and guidelines for the major types of files within a geodatabase.
+Geodatabases are a proprietary format created by ESRI. While QGIS can open them, most other GIS analysis tools cannot. It should be noted that while ESRI is the industry leader in GIS software and in heavy use, other ESRI formats have already become obsolete. It is therefore recommended as an option to export files within a geodatabase to formats documented as suitable for long-term preservation. In these cases, it is recommended that both the geodatabase and the conversion files are kept and documented in an accompanying README file.  Below are transformation recommendations and guidelines for the major types of files within a geodatabase.
 
   **Shapefiles**<br/>
-  Shapefiles are the most persistent geospatial vector format thus far and so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, they are still technically proprietary. Note: shapefiles are not able to hold as many columns as a geodatabase feature layer. Another option to explore is exporting the feature layer to a CSV, which is very doable for point data, but note that for polygons and lines information could be lost. A good idea is to keep the geodatabase and do the shapefile and csv conversions.
+  Shapefiles are the most persistent geospatial vector format thus far, so transforming a feature layer from a geodatabase to a shapefile may be a good idea. However, though they are ubiquitous and many softwares can open them, shapefiles are still technically proprietary.
+
+  Note: There are a number of limitations to be aware of when converting geodatabase layers into shapefiles. Perhaps most notable is that shapefiles field name lengths are restricted to 10 characters. If you convert a feature layer that has longer field names, they will be cut off. This can be especially confusing if there are multiple field names that start with the same 10 characters. You may need to adjust the documentation to include these alternate, shortened field names. In addition, shapefiles are limited to 2GB and are not able to hold as many columns as a geodatabase feature layer, so a single geodatabase may need to be converted into multiple shapefiles. Shapefiles have little or no support for NULL values, unicode and diacritic characters, date/times, or geodatabase specific capabilities like topologies, subtypes, attribute domains, and annotation. Check for these elements before converting and make sure to keep a copy of the original geodatabase. More information about shapefile limitations: http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Geoprocessing_considerations_for_shapefile_outputFor more information.
+
 
   **Feature classes to shapefiles** <br/>
   Please note: shapefiles are made of several files that depend on each other so must be packaged together
@@ -306,13 +316,12 @@ Geodatabases are a proprietary format created by ESRI. While QGIS can open them,
   1. Open layer in QGIS
   2. Right click on the layer
   3. Export
-  4. Save feature as ESRI Shapefile
+  4. Save feature as ESRI Shapefile. Note here and elsewhere with QGIS that you will need to click the "three dots" icon and specify a full path where the new file will be saved upon export. It's not enough just to give the export file a name
 
 ![](image18-gd-dc.png)
 
   **Feature classes to tables** <br/>
-  It is possible to extract the feature information to table including lat/long, but often times the latitude and longitude are not displayed in the table and require an extra step. This is a great solution for point feature classes, but more problematic for polygons and lines, because the integrity of the geometry can’t be maintained. Often times the latitude and longitude
-  are not displayed in the table.
+  It is possible to extract the feature information to a table including latitude/longitude, but often the latitude and longitude are not displayed in the table and require an extra step. This is a great solution for point feature classes, but more problematic for polygons and lines, because the integrity of the geometry can’t be maintained.
 
   **In ArcMap** <br/>
   1. Bring feature class into project workspace
@@ -389,20 +398,27 @@ In ArcGIS Pro, the ability to export a model to python script has been removed. 
 **Preservation strategy if geodatabase archiving is not supported**<br/>
 
 *What to look for to make sure this file meets FAIR principles*
-Adequate documentation of the geodatabase should be provide. This will  include:
-- Embedded XML data
-- All feature layers provenance information (original source, derivatives, etc.)
-- Fields and variables described to the fullest extent possible
-- If there are relationships between layers, there should be a diagram of the model provided
-- Map images of each spatial layer
+
+The FAIR Guiding Principles should be used to guide the actions of data producers and curators to make sustainable research products which are valuable, reusable, and reproducible (6).
+
+**F** indability: It is vital that both humans and machines can discover, access, and interpret research products (6). Curators can adopt the following steps to improve the findability of geodatabase files: (A) confirm that the geodatabase file is assigned a unique, persistent identifier (e.g., doi), (B) check that the geodatabase file is accompanied by contextual metadata that is appropriate for the field of study, adequately describes the geodatabase file, and  includes the persistent identifier of the geodatabase file being described, and (C) confirm that the metadata are in a format that is searchable and indexable by search engines known by likely users (7). Some of the commonly used metadata schema are the
+International Standards Organization (ISO) 191xx series of standards and the Content Standard for Digital Geospatial Metadata (CSDGM).
+
+**A** ccessibility: It is important that both humans and machines can understand how to access the research product including the conditions of reuse (6,7,8). To improve accessibility of geodatabase files, curators can check that (A) the geodatabase file can be downloaded, (B) the format of the metadata is accessible and readable by both humans and machines, and (C) the access and reuse conditions are clear and transparent (8).
+
+**I** nteroperable: Interoperable research products have increased value because interoperability makes it easier to conduct analyses which combine multiple research products and allows for machine-actionability (7). Curators can adopt the following steps to improve the interoperability of geodatabase files: (A) Look for use of shared, community specific ontologies or standard, open vocabularies (e.g., Geography Markup Language Encoding Standard (GML)) and (B) check that the metadata are provided in a machine-readable format.
+
+**R** eusability: To improve reusability of geodatabase files, curators can check that (A) a data use license is applied, is machine-readable (9), and is appropriate given assigned access control conditions and (B) the record includes adequate documentation including how the geodatabase file was created (7), embedded XML data, machine-readable provenance information (original source, derivatives, etc.) (9) for all feature layers, fully described fields and variables, a diagram of the model if there are relationships between layers, and map images of each spatial layer.
+
 
 *Unresolved Issues/Further Questions [for example: tracking provenance of data creation, level of detail in dataset]*
-Documentation of curation process: What do capture from curation process
+Documentation of curation process: What to capture from curation process:
 - Software used to evaluate
 - Questions raised in check process
 - Communications with researcher
 - Embedded metadata
 - Transformations
+- Decisions made in splitting geodatabases into multiple data objects (if applicable)
 
 # Bibliography
 Cited in Text
@@ -416,6 +432,17 @@ http://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/feature-class-
 http://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/a-quick-tour-of-the-geodatabase.htm
 
 4. GeoNet. 2019.  “What happened to Export Script button in ArcGIS Pro?” Accessed February 2, 2019.  https://community.esri.com/thread/163291
+
+5. ESRI. 2009. "Geoprocessing considerations for shapefile output." Accessed July 13, 2020. http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Geoprocessing_considerations_for_shapefile_output
+
+6. Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., ... & Bouwman, J. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific data, 3(1), 1-9.
+
+7. Collins, S., Genova, F., Harrower, N., Hodson, S., Jones, S., Laaksonen, L., ... & Wittenburg, P. (2018). Turning FAIR into reality: Final report and action plan from the European Commission expert group on FAIR data.
+
+8. Mons, B., Neylon, C., Velterop, J., Dumontier, M., da Silva Santos, L. O. B., & Wilkinson, M. D. (2017). Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud. Information Services & Use, 37(1), 49-56.
+
+9. Ivánová, I., Brown, N., Fraser, R., Tengku, N., & Rubinov, E. (2019). Fair and standard access to spatial data as the means for achieving sustainable development goals. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 42, 33-39.
+
 
 **Additional Useful Sources** <br/>
 ESRI. 2018.”What is a geodatabase?” Accessed November 7, 2018.
