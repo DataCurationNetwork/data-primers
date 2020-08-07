@@ -52,14 +52,14 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 | File Extension | .gdb  |
 | MIME type     |    |
 |  Structure |    |  
-| Versions |  |
+| Version | 2.0 |
 | Primary fields or areas of use | Any field that makes use of geographic information systems (GIS) in which the primary GIS program used is ESRI&#39;s ArcGIS. Example fields include archaeology, ecology, geology, urban planning, etc. |
 | Source and affiliation | Geodatabases are a proprietary file format developed and managed by ESRI.|
 | Metadata standards | ISO19115, ISO19110, FGDC CSDGM content standards; .xml format (ISO19139, FGDC, Geoblacklight schema) |
 | Tools for curation review | ArcGIS Desktop (ArcMap, ArcCatalog), ArcGIS Pro, QGIS |
 | Date created |  February 4, 2019 |
 | Created by | Andrew Battista, Tom Brittnacher, Zenobie Garrett, Jennifer Moore, Carrie Pirmann|
-| Date updated and summary of changes made | February 4, 2019 |
+| Date updated and summary of changes made | Please see [README](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/README.md) |
 
 # Description of format
 
