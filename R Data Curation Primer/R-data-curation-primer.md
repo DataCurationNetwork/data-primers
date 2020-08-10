@@ -16,15 +16,13 @@ Scope: text files with a “.R” or ".Rnd" extension that contain code for exec
 | Key questions for curation review | What is the purpose of the file? Are any data associated with the file? Are the referenced data present at the indicated location? |
 | Tools for curation review | Any text editor, RStudio |
 | Date Created | 2019-11-21 |
-| Created by | **Contributors:** <p> Creators: Lynda Kellam, Cornell University <br> Katherine Koziar, University of California, Riverside <br> Stanislav Pejša, Purdue University </p> <br> Mentor: Joel Herndon, Ph.D. |
-| <a id = "version-2.0-updates"> Date updated and summary of changes made </a> | Version 1.0: initial publication (2019-11-21)<br>Version 2.0: Accessibility section and primer reorganization/remediation by Emily Oxford (Creator) and Rachel Woodbrook (Mentor) (2020-08-07)<ul><li>"Accessibility Considerations" section added</li> <li> Added accessibility steps to existing primer content</li> <li>Added guidance on .Rmd files</li> <li>Reorganized primer content and edited primer formatting to support accessible [info/relationships](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131%2C132#info-and-relationships), [headings and labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels), [link purpose](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context), and [non-text content](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)</li><li>Updated citation and metadata</li>|
+| Created by | <p> Creators: Lynda Kellam, Cornell University <br> Katherine Koziar, University of California, Riverside <br> Stanislav Pejša, Purdue University </p> <br> Mentor: Joel Herndon, Ph.D. |
+| <a id = "version-2.0-updates"> Date updated and summary of changes made </a> | <br>Version 2.0: Accessibility section and primer reorganization/remediation by Emily Oxford (Creator) and Rachel Woodbrook (Mentor) (2020-08-10)<ul><li>"Accessibility Considerations" section added</li> <li> Added accessibility steps to existing primer content</li> <li>Added guidance on .Rmd files</li> <li>Reorganized primer content and edited primer formatting to support accessible [info/relationships](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131%2C132#info-and-relationships), [headings and labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels), [link purpose](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context), and [non-text content](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)</li><li>Updated citation and metadata</li>|
 
 ------------------------
-**Suggested Citation:** Kellam, Lynda; Koziar, Katherine; Oxford, Emily; Pejša, Stanislav. 2020. R Data Curation Primer (Version 2.0). [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+**Suggested Citation:** Kellam, Lynda; Koziar, Katherine; Pejša, Stanislav. 2019. R Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
-Version 1.0 of this work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
-
-Version 2.0 of this work contains all information from Version 1.0, along with additions and changes as described in <a href = "#version-2.0-updates">Date updated and summary of changes made</a> in table above.
+This work was created as part of the “Specialized Data Curation” Workshop #2 held at Johns Hopkins University in Baltimore, MD on April 17-18, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
 
 -----------------------
 ## Table of Contents
