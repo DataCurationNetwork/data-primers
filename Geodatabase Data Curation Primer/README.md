@@ -38,7 +38,7 @@ Note: please add change date in descending order
 - Added more information about aligning with FAIR principles
 - Added references and more advice for splitting parts of a geodatabase into individual layers for preservation
 
-#### Date [08/06/2020]
+#### Date: 08/06/2020
 
 #### Contributors:
 
