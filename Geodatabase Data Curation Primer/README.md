@@ -1,16 +1,16 @@
-#### Current Version:
+### Current Version:
 
 V2.0
 
-#### License:
+### License:
 
 CC by 4.0
 
-#### Citation:
+### Citation:
 
 Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
-#### Funding:
+### Funding:
 
 This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building the Data Curation Community: Advancing Specialized Data Curation".
 
@@ -18,7 +18,7 @@ _____________
 
 #### Please update the following fields with each contribution
 
-#### Version:
+### Version:
 
 #### Summary of changes:
 
@@ -26,7 +26,7 @@ _____________
 
 Note: please add change date in descending order
 -----------
-#### Version: 2.0
+### Version: 2.0
 
 #### Summary of changes: 
 
