@@ -10,11 +10,10 @@
 | MIME Type | CD-ROM: application/x-iso9660-image <br> CD-ROM or CD-R: application/x-iso <br> 13490-image <br> DVD/Blu-Ray: application/x-iso13346-image |
 | Structure | Binary file |
 | Versions | n/a |
-| Primary fields or areas of use | .iso can exist in every field of research where data and associated executable programs have been historically distributed on optical discs (CD, DVD,
-etc.) |
+| Primary fields or areas of use | .iso can exist in every field of research where data and associated executable programs have been historically distributed on optical discs (CD, DVD, etc.) |
 | Source and affiliation | Name derived from ISO 9660 file system used with CD-ROM media |
 | Metadata | n/a |
-| Key questions for curation review | |
+| Key questions for curation review | What software is required to access the data? <br><p><ul><li> Is required (proprietary) software contained in the disk image? </li><li>Must any required software/hardware be emulated? </li></p><br> Are data files linked in other ways? <br> Is there documentation about each file and their relationships? |
 | Tools for curation review | Bitcurator<sup>1</sup>, Tree<sup>2</sup>, FRED machine |
 | Date Created | 2020 |
 | Created by | Kate Barron (Stanford University) <br> Jonathan Bohan (Cornell Institute for Social and Economic Research) <br> **Mentor**:Cynthia Hudson-Vitale (Pennsylvania State University) |
@@ -27,7 +26,7 @@ etc.) |
 
 **Suggested Citation:** Barron, Kate and Jonathan Bohan. (2020). ISO Disk Image Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
-This work was created as part of the “Specialized Data Curation” Workshop #3 held at Washington University in St. Louis in St. Louis, MO on November 5-6, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+_This work was created as part of the “Specialized Data Curation” Workshop #3 held at Washington University in St. Louis in St. Louis, MO on November 5-6, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18._
 
 **Table of Contents**
 
@@ -108,13 +107,13 @@ of the final CD-ROM. PANGAEA, https://doi.org/10.1594/PANGAEA.441533
 
 # Applicable metadata standard, core elements and readme requirements
 
-The README ideally should include the file structure of the disk (see *TREE command* below); a
+The README ideally should include the file structure of the disk (see <ins>_TREE command_</ins> below); a
 listing of software necessary to use the disk; and any known necessary workarounds to access
 the materials (use of emulators, etc.).
 
 # Resources for reviewing data
 
-Bitcurator<sup>6</sup> is a project designed for data librarians and other “collecting professionals” to incorporate the functionality of many data forensics tools.
+<ins>_Bitcurator_</ins><sup>6</sup> is a project designed for data librarians and other “collecting professionals” to incorporate the functionality of many data forensics tools.
 
 Features of BitCurator include:
 
@@ -133,11 +132,11 @@ Accessing mounted images can “impose a number of technical limitations,” suc
 
 Please note that BitCurator requires Ubuntu and is ideally set up on a dedicated machine. For organizations with a small number of disk images to archive, this may not be feasible, but for those with large collections, a dedicated Ubuntu machine may save quite a bit of time in navigating through the disks.
 
-For those organizations with very large collections of physical disks, a *FRED Digital Forensics*
+For those organizations with very large collections of physical disks, a <ins>_FRED Digital Forensics_</ins>
 
-*Workstation* may be helpful. These are very powerful workstations designed specifically for digital forensics and may do more than is necessary for many archives but can speed up the process of reviewing the discs manually.<sup>10</sup>
+<ins>_Workstation_</ins> may be helpful. These are very powerful workstations designed specifically for digital forensics and may do more than is necessary for many archives but can speed up the process of reviewing the discs manually.<sup>10</sup>
 
-The *TREE command* can be used to display a graphical directory tree structure which can be incorporated into your README file.<sup>11</sup><sup>12</sup><sup>13</sup> The *TREE command* can be used in a command-line interface (CLI).<sup>14</sup>
+The <ins>_TREE command_</ins> can be used to display a graphical directory tree structure which can be incorporated into your README file.<sup>11</sup><sup>12</sup><sup>13</sup> The <ins>_TREE command_</ins> can be used in a command-line interface (CLI).<sup>14</sup>
 
 Jennifer Thoegersen<sup>15</sup> provides concise *TREE command* instructions for Windows and Mac users:
 
