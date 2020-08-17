@@ -2,7 +2,7 @@
 
 # R Primer
 
-Scope: text files with a “.R” or ".Rnd" extension that contain code for executing programs in the R language 
+Scope: text files with a “.R” or ".Rmd" extension that contain code for executing programs in the R language 
 
 |   Topic   |   Description   |
 | :------------- | :------------- |
