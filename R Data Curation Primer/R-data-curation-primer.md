@@ -15,7 +15,7 @@ Scope: text files with a “.R” or ".Rmd" extension that contain code for exec
 | Metadata | Not Applicable |
 | Key questions for curation review | What is the purpose of the file? Are any data associated with the file? Are the referenced data present at the indicated location? |
 | Tools for curation review | Any text editor, RStudio |
-| Date Created | 2019-11-21 |
+| Date Created | 201-11-21 |
 | Created by | <p> Creators: Lynda Kellam, Cornell University <br> Katherine Koziar, University of California, Riverside <br> Stanislav Pejša, Purdue University </p> <br> Mentor: Joel Herndon, Ph.D. |
 | <a id = "version-2.0-updates"> Date updated and summary of changes made </a> | <br>Version 2.0: Accessibility section and primer reorganization/remediation by Emily Oxford (Creator) and Rachel Woodbrook (Mentor) (2020-08-10)<ul><li>"Accessibility Considerations" section added</li> <li> Added accessibility steps to existing primer content</li> <li>Added guidance on .Rmd files</li> <li>Reorganized primer content and edited primer formatting to support accessible [info/relationships](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131%2C132#info-and-relationships), [headings and labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels), [link purpose](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context), and [non-text content](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)</li>|
 
@@ -219,7 +219,7 @@ Does the file generate any visualizations? If so, make sure there are multiple w
 - **Ask the dataset’s creator(s) to write a detailed description of the visualization.**
     - If the visualization is generated in an .R file, include the description in an in-line comment, making sure to briefly state the comment’s purpose in the comment itself. In an .Rmd file, the description can be included in an in-line comment or markdown block.
     - As the expert on their own work, the creator will have the understanding and expertise to write a sufficiently detailed description of a visualization more so than any curator.<sup><a href = "#accessibility-footnote-8">8</a></sup> The [Diagram Center’s Image Description Guidelines](http://diagramcenter.org/table-of-contents-2.html) are a useful starting point for anyone unsure of how to best describe a graph or diagram in writing.
-    - Describe, but do not interpret the visualization for users. They should be able to draw their own conclusions about any patterns the visualization does or does not show.<sup><a href = "#accesibility-footnote-9">9</a></sup>
+    - Describe, but do not interpret the visualization for users. They should be able to draw their own conclusions about any patterns the visualization does or does not show.<sup><a href = "#accessibility-footnote-9">9</a></sup>
 
 - **Ensure that any data visualizations follow accessible color contrast guidelines.** There are a variety of [automated contrast checkers](https://www.webaxe.org/color-contrast-tools/) you can use to see if the colors need to be altered.
 
