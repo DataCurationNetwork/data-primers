@@ -43,7 +43,7 @@ warehouses or Web services with many concurrent users.
 
 ## Table: general information for common databases 
 
- ![](Gprimer1.JPG)
+ ![](GPrimer1.JPG)
  
  ## Comparison of MS Access to other databases 
  
@@ -51,7 +51,7 @@ warehouses or Web services with many concurrent users.
  
  ### Table for System Properties Comparison: MS Access vs. MS SQL Server
  
-  ![](Gprimer2.JPG)
+  ![](GPrimer2.JPG)
   
  **A similar table can be used in future primers to compare databases system properties:**
   
