@@ -164,7 +164,162 @@ Natural Resources Canada. Orthoimages of Canada 2005-2010. 2010. GeoTIFF files. 
 
 # Recommended metadata elements and standards
 
+### Minimal recommended elements:
 
+At minimum, the following elements are recommended for GeoTIFFs:
+
+- File format
+- Subject (e.g., land cover, elevation, vegetation, etc)
+- Coordinate system + units
+- Spatial coverage (e.g. Fort Collins, Colorado, United States) - consider referencing standards in [GeoNames](https://www.geonames.org)
+- Bounding box/extent of the layer
+- Acquisition date
+- Provenance (creator, publisher)
+- Spatial resolution + units
+- Copyright/reuse license
+
+### Recommended Standards:
+
+The most widely used metadata standards for GeoTIFFs are ISO 191** and FGDC CSDGM. 
+
+**ISO 191**** is a series of standards from the International Organization for Standardization (ISO) that are widely accepted as robust geospatial metadata standards. This series includes ISO 19115, the content standard for geographic information metadata; ISO 19110, the content standard for describing the features (entities and attributes); and ISO 19139, the XML schema implementation of geographic information metadata.
+
+**FGDC CSDGM** is the United States Government’s Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata (CSDGM). Developed by the US government, this standard is typically used for federal data sets, although ISO 19100 standards are also accepted for these data sets.
+
+While these two standards vary in their source organization, their content is fairly similar. They both require typical core metadata elements including title, creator, date, subject, description, rights, as well as bounding box, geographic location (place keywords), spatial representation type (vector, raster, etc.), projection/coordinate system.
+
+Typically used in the earth sciences, the Open Geospatial Consortium GeoTIFF Standard v1.1 defines a GeoTIFF as a TIFF that includes basic geospatial fields and uses specific encoding practices. These fields are based on ISO 19115-1 and include file size, projections, bounding boxes, band wavelengths, spatial extent and resolution.
+
+https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff 
+
+### Emerging Presentation and Discovery Standards:
+
+#### Geoblacklight
+
+https://geoblacklight.org/projects/geoblacklight-schema/ 
+
+https://github.com/geoblacklight/geoblacklight/wiki/GeoBlacklight-Metadata
+
+The GeoBlacklight Schema is a user-friendly metadata schema for GIS resource discovery, and focuses solely on discovery use cases. Text search, faceted search and refinement, and spatial search and relevancy are among the primary features that the schema enables.
+
+Developed by Stanford University Librarians [https://journal.code4lib.org/articles/9710](https://journal.code4lib.org/articles/9710),  and based on Dublin Core, this schema includes custom spatial elements that help users easily find geospatial data. Since this schema is meant for discovery, it is not appropriate for complete technical documentation, such as the processing history of a GIS dataset. This schema supports a variety of GIS data types, including GeoTIFF. Unlike ISO 19115/19139 and FGDC, Geoblacklight is concise, discovery focused, and designed with inter-institutional sharing in mind. 
+
+The layered nature of geospatial data is often not captured in metadata. Geoblacklight distinguishes between layers and datasets such that “a layer is a specific unit of data that contains a set of geospatial features, a metadata description, and a feature catalog” and a dataset is a collection of layers. Although the inclusion of metadata for each layer is optimal in the discovery and reuse of the data, it does increase the curation work load for either the data creator or librarian.
+
+Further information about Geoblacklight metadata, including required and recommended fields, is available via the [Geoblacklight Wiki](https://github.com/geoblacklight/geoblacklight/wiki/GeoBlacklight-Metadata).
+
+#### Cloud Optimized GeoTIFF 
+
+https://github.com/cogeotiff/cog-spec/blob/master/spec.md
+
+Cloud Optimized GeoTIFFs (COGs) are GeoTIFFs that are formatted such that only needed sections of an image can be extracted for analysis. This allows a user to download smaller files prior and effectively stream raster data on the fly. It also allows geospatial data to live on the cloud, reducing storage needs for individual research groups. The main difference between a GeoTIFF and COG is the order of the TIFF components.
+
+### Metadata completeness:
+
+For information regarding metadata completeness and suggested tools and strategies for authoring metadata when none exists, see the [Geodatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md#metadata-completeness).
+
+# Software for opening and viewing GeoTIFFs
+
+There are a number of software packages to support the creation and analysis of GeoTIFFs. The following table provides a selection of software, their common use with GeoTIFF, and notes or considerations for the curator. 
+
+|   Software Package   |   Common Use   | Notes |
+| :------------- | :------------- | :------------- |
+|Adobe Illustrator - Map Publisher|Analysis, Transformation, Viewing|Proprietary plugin for Adobe Illustrator for reading, writing raster files|
+|Envi Geospatial|Analysis, Transformation, Viewing|Proprietary software for reading and writing raster files|
+|Esri ArcGIS|Analysis, Transformation, Viewing|Proprietary software; common packages for reading and writing raster files are ArcMap, ArcGIS Pro, and ArcGIS Online, and ArcPy (plugin); Client-based licenses such as ArcMap and some add-on licenses run on Windows operating system only|
+|Geospatial Data Abstraction Library (GDAL)|Analysis, Transformation|Open source library of tools used for manipulating raster and vector geospatial images; usually combined with other analysis software such as Python|
+|geotiff.js|Analysis, Viewing|Open source and browser enabled with a simple interface and best for smaller files|
+|Python - Numpy|Analysis, Transformation|Open source scripting package that works with geospatial libraries to read and write raster files|
+|Python - Rasterio|Analysis, Transformation|Open source scripting package that reads and writes raster files and extracts data to other formats such as GeoJSON|
+|Quantum GIS (QGIS)|Analysis, Transformation, Viewing|Open source software that supports numerous vector, raster, and database formats and functionalities. Runs on Linux, Unix, Mac OSX, Windows and Android|
+|RSpatial|Analysis, Transformation|Open source R package has functions for creating, reading, manipulating, and writing raster data|
+
+### Viewing GeoTIFF in Quantum GIS (QGIS)
+
+QGIS is an open platform that runs on MacOS, Windows, and Linux operating systems. It is optimized for raster formats such as GeoTIFF and can be used to view files and perform basic transformation of files. There are other software solutions  for viewing these files, but this package is a no-cost and simple solution for non-experts who wish to complete the Checking and Understanding CURATE steps.  Below is a guide for loading and viewing GeoTIFFs and raster data in QGIS 3.10.1. Additional information for opening data in QGIS is available on the [QGIS Training Manual for rasters](https://docs.qgis.org/3.4/en/docs/training_manual/rasters/index.html). This guide uses a GeoTIFF from [Snow persistence grids and snow zone shape files for the western United States](https://mountainscholar.org/handle/10217/171907) dataset.
+
+ Software packages are available for different operating systems (Windows, MacOS, Linux, and BSD).
+
+### Key Questions to Ask When Viewing GeoTIFFs in QGIS: 
+
+- Am I able to determine the extent of the map and the projection system?
+- What aspects of the file are important? (geometry, color scale, distribution of data, etc.)
+- Are there text or vector files that accompany the data embedded in the GeoTIFF in order to provide context and enable interpretation of the image? It is typical to find text files that describe 
+- Is the file rendering properly as an individual layer? 
+- When the layer is combined with a basemap, does the layer correspond to the correct location?
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+# Preservation actions
+
+GeoTIFFs are not recommended for sharing research data as the sole output because they 
+impede use by encapsulating data as tags or headers in the format. When preserving GeoTIFF files, the curator can request that data or analysis embedded in the image be provided by the researchers as separate files.. These accompanying file types may vary based on the data embedded within the GeoTIFF. A README file describing the associated files, their relation to the GeoTIFF, interdependency on other associated files, and their primary use should be included as a documentation measure. These files ensure that the data processing history and chain of custody for the data embedded in the GeoTIFF are transparent and reproducible.
+
+In some contexts, the GeoTIFF and related files can be combined in a .zip or a .tar archive format to improve data transfer. The curator will, however, need to consider the curation platform when packaging of GeoTiFFs with ancillary documents. For example, platforms such as Geoblacklight will require layer-level description for discoverability. Therefore, large packaged files may not be appropriate for curation on this platform. Additionally, GeoTIFFs can be large files, so curators may need to consider limiting the size of combined files in order to optimize retrieval. 
+
+The table below lists common file types included in GeoTIFF preservation, their general use, and software options for viewing the files.  
+
+|  File Type  |  Use  | Software |
+| :------------- | :------------- | :------------- |
+|.tif .tiff (tagged image file format)|GeoTIFF export with the embedded georeferenced data.|Any image viewer, ArcGIS ArcReader, ArcGIS for Desktop, ArcGIS Pro, Quantum GIS (QGIS)|
+|.xml (extensible markup language)|Stores data in the GeoTIFF that is machine readable and human readable.|Any text editor, Adobe Dreamweaver, R|
+|.txt (plain text file)|Standard text document that contains unformatted text and used to provide additional context for GeoTIFF (data processing history, chain of custody, legend, color codes, etc.)|Any text editor|
+|.tfw (world file)|Used by multiple GIS applications to articulate the location, scale, and rotation of a map stored as a TIFF image.|Any text editor, Geospatial Data Abstraction Library, ArcGIS ArcReader, ArcGIS for Desktop, ArcGIS Pro, Quantum GIS (QGIS)|
+|.gif|Commonly used for small images that contain text and may provide additional context for legends, color codes, or software interfaces.|Any image viewer|
+|.geojson (goe-JavaScript Object Notation File)|Created for geospatial data interchanges; supports primitives for defining objects in georeferenced images.|Any text editor, ArcGIS ArcReader, ArcGIS for Desktop, ArcGIS Pro, Geospatial Data Abstraction Library, Quantum GIS (QGIS)|
+|.sld (AutoCAD Slide File)|Holds exported metadata embedded in GeoTIFF exported from GIS software.|Any text editor|
+|.shp (Shape Format)|Vector storage format storing geometric location Proprietary and multi-file format.|ArcGIS ArcReader, ArcGIS for Desktop, ArcGIS Pro, Geospatial Data Abstraction Library, Quantum GIS (QGIS)|
+|.gdb (GeoDatabase)|Proprietary container for geospatial datasets that can also provide relational functionality between the files|ArcGIS Desktop, ArcGIS Pro, Quantum GIS (QGIS)|
+|SQLite Database (multiple file extensions)|An open-source relational database management system that can store geographic features along with non-geographic attribute data|[SQLite Database Browser](https://sqlitebrowser.org), [PostGIS](https://postgis.net), [SpatiaLite extension of SQLite](https://docs.qgis.org/2.14/en/docs/training_manual/databases/spatialite.html)|
+|.gpkg (GeoPackage)|Open, non-proprietary, platform-independent and standards-based data format for geographic information system implemented as a SQLite database container|DB Browser for SQLite, [NGA web application](https://ngageoint.github.io/geopackage-js/)|
+
+# Transforming GeoTIFF data to other formats
+
+QGIS can be used to transform data from a GeoTIFF to several formats listed above. GeoJSON is a widely-used, machine and human readable data output associated with geospatial data that best accompanies the GeoTIFF file. Learn more about this file type in the [GeoJSON Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoJSON%20Data%20Curation%20Primer/GeoJSON-data-curation-primer.md). A walkthrough for converting GeoTIFF to GeoJSON file format is below:
+
+![]()
+
+![]()
+
+![]()
+
+# What to look for to make sure this file meets FAIR principles
+
+FAIR principles were established to provide additional context for data to promote findability, accessibility, and reuse of data and accompanying research products. FAIR principles and standards are used to augment the metadata and documentation for GeoTIFF and promote data reuse through computational systems with minimal human intervention. The following aspects should be evaluated in order to meet standards for each FAIR principle. (Source: [Go-fair.org](https://www.go-fair.org))
+
+#### Findable
+
+F1. Will the GeoTIFF and accompanying metadata have a globally unique and persistent identifier once it is submitted to a repository? 
+
+F2. Does the GeoTIFF have accompanying metadata files and do these files reference the globally unique, persistent identifier of the GeoTIFF? 
+
+F3. Does each metadata file include a field referencing the globally unique, persistent identifier? 
+
+F4. Does the metadata describe accurately and fully the key elements of the file and associated documentation including the names of the files, geographic coverage, name of the creator or custodian of the content,and temporal coverage of the image file? Does the metadata provide citations of related publications that share additional context for the GeoTIFF in the research findings? 
+
+#### Accessible 
+
+A1. Is each GeoTIFF and accompanying documentation or metadata retrievable through a globally unique, persistent identifier? Or, if data are not publicly available, does the repository provide access to the files through low-level protocols and without specialized tools or communication methods? 
+
+#### Interoperable
+
+I1. Does the GeoTIFF meet file standards including relevant, embedded data? Does embedded data and metadata meet standards defined by the International Organization for Standardization (ISO 19111:2007). 
+
+I2. Is standard metadata used to describe the GeoTIFF documented?
+
+I3. Are files available in open formats as much as possible?
+
+#### Reusable
+
+R1. Does the metadata for GeoTIFF include information about ownership, chain of custody, or licensing in order for the data to be reused? 
 
 # Publication in progress. Thanks for your patience.
 
