@@ -54,7 +54,7 @@ _This work was created as part of the “Specialized Data Curation” Workshop #
 
  # Description of Format
 
-.iso is the most common optical disk imaging format of about 250 known to exist.<sup>3</sup> The most 3 common type of iso is based on the ISO-9660 standard (see above for variants).<sup>4</sup> Because 4 optical compact disks are susceptible to physical degradation, .iso disk images help ensure continued access to their data and applications.
+.iso is the most common optical disk imaging format of about 250 known to exist.<sup>3</sup> The most common type of iso is based on the ISO-9660 standard (see above for variants).<sup>4</sup> Because optical compact disks are susceptible to physical degradation, .iso disk images help ensure continued access to their data and applications.
 
 ISO images are exact duplicates of data from the original optical disc. The Library of Congress states, “ISO image files, unlike normal files, are not opened but rather are mounted. ISO image files contain the data contents of every written sector of an optical disc, including the optical disc file system if one is present. Thus it is a media-independent version of a media-dependent format. However, for playback or exploitation of the content, the dependencies on players (including CD and DVD players), operating systems, rights-related technical protection systems, and other software remain, just as they do for the original (or to-be-produced) physical disk."<sup>5</sup>
 
