@@ -321,6 +321,28 @@ I3. Are files available in open formats as much as possible?
 
 R1. Does the metadata for GeoTIFF include information about ownership, chain of custody, or licensing in order for the data to be reused? 
 
+# Unresolved Issues Further Questions
+
+- You can opt to [Build pyramids](https://docs.qgis.org/3.10/en/docs/user_manual/working_with_raster/raster_properties.html#pyramids-properties) - resamples the resolution for display purposes; builds zoom levels and compression types
+  - add information about using image pyramids? Large resolution raster layers can slow navigation in QGIS. By creating lower resolution copies of the data pyramids, performance can be improved. In order to perform this task, you must have write access in the directory where the original data is stored. 
+- Some images can be clipped in an image editing software to enable navigation in analysis tools.
+- Calculating statistics on raster file - allows the software to render/apply stretch and display the data correctly
+  - You can [generate statistics](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/rasteranalysis.html#raster-layer-statistics) on your image data to make sure that nothing was changed in the transformations?
+- The [International Image Interoperability Framework](https://iiif.io/api/metadata/1.0/) (IIIF) metadata schema aims to improve the online viewing experience of digitized physical objects (e.g. maps). The current schema does not address georeferenced objects such as maps; however, this may be addressed in future iterations.
+
+# Citations
+
+- Parsons, G., Rafferty, J. and S. Zilles, "Tag Image File Format (TIFF) -image/tiff MIME Subtype Registration", RFC 2302, March 1998
+- Ritter, N. and M. Ruth GeoTIFF Format Specification GeoTIFF Revision 1.0 [http://geotiff.maptools.org/spec/geotiffhome.html](http://geotiff.maptools.org/spec/geotiffhome.html)
+- Recknagel, F., W. Michener. 2006. Ecological Informatics. Springer, Cham. [https://doi.org/10.1007/978-3-319-59928-1](https://doi.org/10.1007/978-3-319-59928-1)
+
+# Additional Resources
+
+- [GeoTIFF GitHub](https://github.com/OSGeo/libgeotiff/)
+- [EPSG Codes](http://www.epsg-registry.org)
+- [Library of Congress Format Description](https://www.loc.gov/preservation/digital/formats/fdd/fdd000279.shtml)
+- [ORNL DAAC Data Management Resources](https://daac.ornl.gov/datamanagement/)
+
 # Publication in progress. Thanks for your patience.
 
 
