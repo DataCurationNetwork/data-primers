@@ -7,7 +7,7 @@
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | File Extensions | .iso |
-| MIME Type | CD-ROM: application/x-iso9660-image <br> CD-ROM or CD-R: application/x-iso <br> 13490-image <br> DVD/Blu-Ray: application/x-iso13346-image |
+| MIME Type | CD-ROM: application/x-iso9660-image <br> CD-ROM or CD-R: application/x-iso13490-image <br> DVD/Blu-Ray: application/x-iso13346-image |
 | Structure | Binary file |
 | Versions | n/a |
 | Primary fields or areas of use | .iso can exist in every field of research where data and associated executable programs have been historically distributed on optical discs (CD, DVD, etc.) |
