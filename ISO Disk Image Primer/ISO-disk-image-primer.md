@@ -50,7 +50,7 @@ _This work was created as part of the “Specialized Data Curation” Workshop #
 
 [What to look for to make sure this file meets FAIR principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles) 
 
-[Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format) 
+[When to preserve this file format](#when-to-preserve-this-file-format) 
 
  # Description of Format
 
@@ -192,14 +192,15 @@ Windows 8 and later has the built-in ability to mount ISO disk images. They will
 # Preservation actions
 
 In “You’ve Got to Walk Before You Can Run,”<sup>17</sup> Ricky Erway of OCLC lays out eleven technical steps for readable media. Because this primer focuses on preserving/curating the ISO itself (as opposed to preserving optical media using .iso), we only include the steps that apply to preserving disk images:
+<blockquote>
 
 6. Generate a copy of the disk directory information (file names, sizes, extensions, and dates).
 7. Generate and record a checksum (a unique value based on the contents of a file) on the disk image.
 8. Create a readme file containing pertinent information from the above steps, indicating the related analog materials<sup>18</sup> and documenting each step taken.
 9. Copy the project directory to trustworthy archival storage where it will receive regular backup, with a copy stored in another location.
-...
+10. &#8230;
 11. Create or update an associated finding aid, collection level record, or accession record with information about the steps that were taken and the location of the files.
-
+</blockquote>
 <p  id="note1"><sup>17</sup> Erway, Ricky. “You’ve Got to Walk Before You Can Run: First Steps for Managing Born-Digital Content Received on Physical Media.” OCLC Research, 2012, p.5. Accessed at https://web.archive.org/web/20200221155310/https://www.oclc.org/content/dam/research/publications/library/2012/2012-06.pdf 21 Feb 2020. </p>
 
 <p  id="note1"><sup>18</sup> Note that if you retain a copy of the original physical media, you should store a printout of this readme file with the physical copy (along with a printout of the disk directory information). </p>
@@ -209,7 +210,7 @@ In “You’ve Got to Walk Before You Can Run,”<sup>17</sup> Ricky Erway of OC
 A significant challenge to reuse may be one’s access (or lack thereof) to a physical or virtual machine that is compatible with the disk image. Can an average user be expected to have all the software needed to access the files on the disk? Should the archive be expected to maintain emulators to access older executable files? Are there licensing issues in providing older software for ease of access?
 
 
-# Ways in which fields may use this format
+# When to preserve this file format
 
 When the file structure of data originally distributed on optical disks needs to be maintained due to the presence of executable files or for other contextual reasons. These reasons should be spelled out in the documentation or readme file presented along with the disk image.
 
