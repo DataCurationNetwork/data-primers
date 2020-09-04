@@ -28,7 +28,7 @@
 
 _This work was created as part of the “Specialized Data Curation” Workshop #3 held at Washington University in St. Louis in St. Louis, MO on November 5-6, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18._
 
-**Table of Contents**
+# Table of Contents
 
 [Description of format](#description-of-format)  
 
@@ -73,8 +73,7 @@ interchange,” accessed at https://www.iso.org/obp/ui/#iso:std:iso:9660:ed-1:v1
 “ISO Disk Image File Format,” in Sustainability of Digital Formats: Planning for Library of Congress
 Collections. Accessed 6 DEC 2019 at
 https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml and saved to
-https://web.archive.org/web/20191206181751/https://www.loc.gov/preservation/digital/formats/fdd/fdd000
-348.shtml. </p>
+https://web.archive.org/web/20191206181751/https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml. </p>
 
 # Examples
 
@@ -132,11 +131,9 @@ Accessing mounted images can “impose a number of technical limitations,” suc
 
 Please note that BitCurator requires Ubuntu and is ideally set up on a dedicated machine. For organizations with a small number of disk images to archive, this may not be feasible, but for those with large collections, a dedicated Ubuntu machine may save quite a bit of time in navigating through the disks.
 
-For those organizations with very large collections of physical disks, a <ins>_FRED Digital Forensics_</ins>
+For those organizations with very large collections of physical disks, a <ins>_FRED Digital Forensics_Workstation_</ins> may be helpful. These are very powerful workstations designed specifically for digital forensics and may do more than is necessary for many archives but can speed up the process of reviewing the discs manually.<sup>10</sup>
 
-<ins>_Workstation_</ins> may be helpful. These are very powerful workstations designed specifically for digital forensics and may do more than is necessary for many archives but can speed up the process of reviewing the discs manually.<sup>10</sup>
-
-The <ins>_TREE command_</ins> can be used to display a graphical directory tree structure which can be incorporated into your README file.<sup>11</sup><sup>12</sup><sup>13</sup> The <ins>_TREE command_</ins> can be used in a command-line interface (CLI).<sup>14</sup>
+The <ins>_TREE command_</ins> can be used to display a graphical directory tree structure which can be incorporated into your README file.<sup>11,</sup><sup>12,</sup><sup>13</sup> The <ins>_TREE command_</ins> can be used in a command-line interface (CLI).<sup>14</sup>
 
 Jennifer Thoegersen<sup>15</sup> provides concise *TREE command* instructions for Windows and Mac users:
 
@@ -169,6 +166,7 @@ INSTRUCTIONS FOR MAC
 <p  id="note1"><sup>7</sup> Ibid. </p>
 
 <p  id="note1"><sup>8</sup>  Woods, Kam, Christopher A, Lee, and Simpson Garfinkel. “Extending Digital Repository Architectures to Support Disk Image Preservation and Access.” In JCDL '11: Proceedings of the 11th Annual International ACM/IEEE Joint Conference on Digital Libraries. June 2011, p. 58. Accessed at https://doi.org/10.1145/1998076.1998088, reviewed 25 JUNE 2020. </p>
+<p id="note1"><sup>9</sup>Ibid., p. 58. </p>
 
 <p  id="note1"><sup>10</sup> See https://digitalintelligence.com/products/fred/ for more information. </p>
 
