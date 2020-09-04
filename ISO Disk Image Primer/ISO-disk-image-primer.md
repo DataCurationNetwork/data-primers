@@ -137,6 +137,7 @@ The <ins>_TREE command_</ins> can be used to display a graphical directory tree 
 
 Jennifer Thoegersen<sup>15</sup> provides concise *TREE command* instructions for Windows and Mac users:
 
+<blockquote>
 FOLDER STRUCTURE PRINTOUT
 
 Here is how we create a text file printout containing the folder structure (and all the files
@@ -160,6 +161,7 @@ INSTRUCTIONS FOR MAC
 7. Press Enter.
 8. Type find . -print | sed -e ‘s;[^/]*/;|--;g;s;--|; |;g’ > tree.txt and press Enter.
 9. A text file called tree.txt will be created in the current folder, which you can then open and print.
+</blockquote>
 
 <p  id="note1"><sup>6</sup> BitCurator, accessible at http://bitcurator.net/bitcurator/, reviewed 7 FEB 2020 </p>
 
@@ -171,8 +173,7 @@ INSTRUCTIONS FOR MAC
 <p  id="note1"><sup>10</sup> See https://digitalintelligence.com/products/fred/ for more information. </p>
 
 <p  id="note1"><sup>11</sup> See https://web.archive.org/web/20200207134128/https://jpsoft.com/help/tree.htm and
-https://web.archive.org/web/20190413191824/https://www.digitalcitizen.life/how-export-directory-tree-fold
-er-windows for further instructions on using the TREE command on Windows. </p>
+https://web.archive.org/web/20190413191824/https://www.digitalcitizen.life/how-export-directory-tree-folder-windows for further instructions on using the TREE command on Windows. </p>
 
 <p  id="note1"><sup>12</sup> See https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x-3b2d4c4a4827 for further instructions on using the TREE command on Mac OS. </p>
 
