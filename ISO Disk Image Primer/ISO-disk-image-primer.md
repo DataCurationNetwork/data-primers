@@ -13,7 +13,7 @@
 | Primary fields or areas of use | .iso can exist in every field of research where data and associated executable programs have been historically distributed on optical discs (CD, DVD, etc.) |
 | Source and affiliation | Name derived from ISO 9660 file system used with CD-ROM media |
 | Metadata | n/a |
-| Key questions for curation review | What software is required to access the data? <br><p><ul><li> Is required (proprietary) software contained in the disk image? </li><li>Must any required software/hardware be emulated? </li></p><br> Are data files linked in other ways? <br> Is there documentation about each file and their relationships? |
+| Key questions for curation review | <ul><li>What software is required to access the data?</li> <ul><li> Is required (proprietary) software contained in the disk image? </li><li>Must any required software/hardware be emulated? </li></ul><li>Are data files linked in other ways? </li><li> Is there documentation about each file and their relationships?</li></ul> |
 | Tools for curation review | Bitcurator<sup>1</sup>, Tree<sup>2</sup>, FRED machine |
 | Date Created | 2020 |
 | Created by | Kate Barron (Stanford University) <br> Jonathan Bohan (Cornell Institute for Social and Economic Research) <br> **Mentor**:Cynthia Hudson-Vitale (Pennsylvania State University) |
