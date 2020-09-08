@@ -331,25 +331,25 @@ In addition, it is a good practice to document a file of notices to users that p
 # Appendix B SAS Data File CURATED Checklist
 
 CHECK Step
-![](sascheck.jpg)
+![](sascheck.JPG)
 
 UNDERSTAND Step
-![](sascheck1.jpg)
+![](sascheck1.JPG)
 
 REQUEST Step 
-![](sascheck2.jpg)
+![](sascheck2.JPG)
 
 AUGMENT Step
-![](sascheck3.jpg)
+![](sascheck3.JPG)
 
 TRANSFORM Step
-![](sascheck4.jpg)
+![](sascheck4.JPG)
 
 EVALUATE Step<sup>6</sup>
-![](sascheck5.jpg)
+![](sascheck5.JPG)
 
 DOCUMENT Step
-![](sascheck.jpg)
+![](sascheck.JPG)
 
 <p  id="note1"><sup>6</sup> Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18 </p>
 
