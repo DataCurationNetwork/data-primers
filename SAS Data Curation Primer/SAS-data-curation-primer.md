@@ -290,26 +290,48 @@ For SAS data curation, such files need to be captured as (1) a data set in SAS f
 In addition, it is a good practice to document a file of notices to users that provides more information relevant to the data set. For example, where to find more information or data sets relevant to the current data set, etc.
 
 # Appendix A Additional Information on Tools
-<sup>5</sup>
+
+|   Application/Package   |   SAS Filetypes works with   |  SAS Version  |  Notes  |
+| :------------- | :------------- | :------------- | :------------- |
+|   [SAS Universal Viewer](https://support.sas.com/downloads/package.htm?pid=2173)   |   Data sets & libraries .xpt	 | Versions 7+ <br> Version 5 |  Free <br> Windows   application <br> Allows viewing, sorting, and filtering, and saving as .csv<sup>5</sup>  |
+|   [SAS Universal Edition](https://www.sas.com/en_us/software/university-edition.html)  |     |  |  Free for student/academic use Virtual application, any OS  |
+|   [SAS OnDemand for Academics](https://www.sas.com/en_us/software/on-demand-for-academics.html)   |     |  |  Free access to SAS Studio for non-commercial use Browser based |
+|   R, [rio](https://www.rdocumentation.org/packages/rio/versions/0.5.16), [sas7bdat](https://www.rdocumentation.org/packages/sas7bdat/versions/0.5), [haven](https://www.rdocumentation.org/packages/haven/versions/2.3.1)   |   .sas7bdat & .sas7bcat <br> .xpt  |  Versions 7+ <br> Versions 5 & 8  |  See especially convert() function in [rio](https://www.rdocumentation.org/packages/rio/versions/0.5.16), read.sas7bdat () function in [sas7bdat](https://www.rdocumentation.org/packages/sas7bdat/versions/0.5), and read_sas () function in [haven](https://www.rdocumentation.org/packages/haven/versions/2.3.1)
+ |
+|   Python, [pandas.read_sas](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#sas-formats)   |  .sas7bdat <br> .xpt  |  Versions 7+ <br> Version ?  |  Notes  |
+|   Python, [sas7bdat](https://pypi.org/project/sas7bdat/)   |  .sas7bdat    |  Versions 7+  |  Notes  |
+|   Stat/Transfer <br> Data, transport, cport (read only)   |      |  Versions 6.08+  |  Not free  |
+|   [Stat/Transfer](https://stattransfer.com/)   |  Data, transport, cport (read only)    |  Versions 6.08+	  |  Not free |
+
+### Other resources
+| :------------- | :------------- | :------------- | :------------- |
+|   SPSS (GET SAS DATA)   |   Data, transport   |  Versions 6+  |  Not free |
+|   [Stata](https://www.stata.com/) (import sasxport5/8)   |    .xpt  |  Versions 5 & 8  |  Not free  |
 
 <p  id="note1"><sup>5</sup> Highlight entire table contents by clicking in upper left cell, right-click, and select “Save As…” </p>
 
 # Appendix B SAS Data File CURATED Checklist
 
 CHECK Step
+![](sascheck.jpg)
 
 UNDERSTAND Step
+![](sascheck1.jpg)
 
 REQUEST Step 
+![](sascheck2.jpg)
 
 AUGMENT Step
+![](sascheck3.jpg)
 
 TRANSFORM Step
+![](sascheck4.jpg)
 
-EVALUATE Step
+EVALUATE Step<sup>6</sup>
+![](sascheck5.jpg)
 
 DOCUMENT Step
-<sup>6</sup>
+![](sascheck.jpg)
 
 <p  id="note1"><sup>6</sup> Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18 </p>
 
