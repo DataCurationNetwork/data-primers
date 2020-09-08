@@ -8,7 +8,7 @@
 | :------------- | :------------- |
 | File Extensions<sup>1</sup> | .sas7bdat <br> .sas7bcat <br> .sas <br> .xpt |
 | MIME Type | application/x-sas |
-| Structure | [The structure of the SAS data set](https://documentation.sas.com/?docsetId=basess&docsetTarget=p1f5xhmkdfhyjcn1n6k9wdcacba0.htm&docsetVersion=9.4&locale=en#:~:text=)(.sas7bdat) <br><p><ul><li> Data values in a SAS data set are arranged in a matrix/frame structure </li><li> Each data set contains a descriptor portion that includes details about a data set </li></p><br> The structure of SAS programs <sup>2</sup> (.sas) <br><p><ul><li> A SAS statement ends with a semicolon </li><li>	A program starts with a keyword such as proc, and end with another keyword such as run/quit </li></p> |
+| Structure | [The structure of the SAS data set](https://documentation.sas.com/?docsetId=basess&docsetTarget=p1f5xhmkdfhyjcn1n6k9wdcacba0.htm&docsetVersion=9.4&locale=en#:~:text=)(.sas7bdat) <br><p><ul><li> Data values in a SAS data set are arranged in a matrix/frame structure </li><li> Each data set contains a descriptor portion that includes details about a data set </li></ul></p> <br> <p> The structure of SAS programs <sup>2</sup> (.sas) <br><ul><li> A SAS statement ends with a semicolon </li><li>	A program starts with a keyword such as proc, and end with another keyword such as run/quit </li></ul></p> |
 | Versions | 9.4 ([current](https://www.sas.com/en_us/software/sas9.html)) |
 | Primary fields or areas of use | Healthcare, biology, agriculture, business intelligence, finance |
 | Source and affiliation | [SAS](https://www.sas.com/en_us/home.html) is developed by SAS Institute  |
