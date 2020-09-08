@@ -343,7 +343,7 @@ R1. Does the metadata for GeoTIFF include information about ownership, chain of 
 - [Library of Congress Format Description](https://www.loc.gov/preservation/digital/formats/fdd/fdd000279.shtml)
 - [ORNL DAAC Data Management Resources](https://daac.ornl.gov/datamanagement/)
 
-# Publication in progress. Thanks for your patience.
+
 
 
 
