@@ -248,15 +248,15 @@ QGIS is an open platform that runs on MacOS, Windows, and Linux operating system
 - Is the file rendering properly as an individual layer? 
 - When the layer is combined with a basemap, does the layer correspond to the correct location?
 
-![]()
+![](GT1.jpg)
 
-![]()
+![](GT2.jpg)
 
-![]()
+![](GT3.jpg)
 
-![]()
+![](GT4.jpg)
 
-![]()
+![](GT5.jpg)
 
 # Preservation actions
 
@@ -285,11 +285,11 @@ The table below lists common file types included in GeoTIFF preservation, their 
 
 QGIS can be used to transform data from a GeoTIFF to several formats listed above. GeoJSON is a widely-used, machine and human readable data output associated with geospatial data that best accompanies the GeoTIFF file. Learn more about this file type in the [GeoJSON Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoJSON%20Data%20Curation%20Primer/GeoJSON-data-curation-primer.md). A walkthrough for converting GeoTIFF to GeoJSON file format is below:
 
-![]()
+![](GT6.jpg)
 
-![]()
+![](GT7.jpg)
 
-![]()
+![](GT8.jpg)
 
 # What to look for to make sure this file meets FAIR principles
 
