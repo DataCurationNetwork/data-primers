@@ -8,7 +8,7 @@
 | :------------- | :------------- |
 | File Extensions<sup>1</sup> | .sas7bdat <br> .sas7bcat <br> .sas <br> .xpt |
 | MIME Type | application/x-sas |
-| Structure | [The structure of the SAS data set](https://documentation.sas.com/?docsetId=basess&docsetTarget=p1f5xhmkdfhyjcn1n6k9wdcacba0.htm&docsetVersion=9.4&locale=en#:~:text=)(.sas7bdat) <br><p><ul><li> •	Data values in a SAS data set are arranged in a matrix/frame structure </li><li> Each data set contains a descriptor portion that includes details about a data set </li></p><br> The structure of SAS programs <sup>2</sup> (.sas) <br><p><ul><li> A SAS statement ends with a semicolon </li><li>	A program starts with a keyword such as proc, and end with another keyword such as run/quit </li></p> |
+| Structure | [The structure of the SAS data set](https://documentation.sas.com/?docsetId=basess&docsetTarget=p1f5xhmkdfhyjcn1n6k9wdcacba0.htm&docsetVersion=9.4&locale=en#:~:text=)(.sas7bdat) <br><p><ul><li> Data values in a SAS data set are arranged in a matrix/frame structure </li><li> Each data set contains a descriptor portion that includes details about a data set </li></p><br> The structure of SAS programs <sup>2</sup> (.sas) <br><p><ul><li> A SAS statement ends with a semicolon </li><li>	A program starts with a keyword such as proc, and end with another keyword such as run/quit </li></p> |
 | Versions | 9.4 ([current](https://www.sas.com/en_us/software/sas9.html)) |
 | Primary fields or areas of use | Healthcare, biology, agriculture, business intelligence, finance |
 | Source and affiliation | [SAS](https://www.sas.com/en_us/home.html) is developed by SAS Institute  |
@@ -122,4 +122,192 @@ After researchers collect the data, they are required to remove personally ident
 
 
 # SAS File Examples
+SAS data is comprehensively used in health science, biology, agriculture, business and social sciences. 
+
+In addition to research fields, SAS programmers also work at many companies, for example insurance companies for processing claims, data entry centers, finance industry, etc. 
+
+Examples below link to OSF, DataLumos and CDC which offer SAS data files for data curation (see Figures 1, 2 and 3).
+
+There might be no a perfect example for SAS data curation due to various limitations, but the Biological Psychology Data, the State Library Administrative Agencies survey (SLAA) and the National Health Interview Survey (NHIS) created good sample SAS data files for data sharing and reusing. 
+
+There are a variety of files can be documented for data sharing. In general, the essential documentation should include three types of documents: (1) a data set in more than one format; (2) a SAS code/program file for data importing, preparation or analysis; and (3) an instructional file, data documentation file or linkable publication that provides information about variables, data analysis, and/or how to use the data set (see Figures 1, 2 and 3). 
+
+In addition to a SAS data file (.sas7bdat), the data set should be provided with at least one of the following formats to make the data set reusable in other software environments. 
+
+- CVS
+- TXT
+- ASCII
+- MDB/DBF
+
+The SAS code/program file (.sas) is a syntax file which can be used to import data, prepare data (i.e., rename variable names, recode variables, compute variables, etc.), and repeat and validate data analysis. 
+
+A file providing information about how to use the data set can be one of the following documents.
+
+- Readme file (.pdf) directs users how to use the data file. It may contain such contents as data use restriction, data collection instrument (i.e., questionnaire) structure, description of data files and their formats, and how to use the data set in different formats.
+- Data documentation file (.pdf) provides such information as research background and purpose, research methodology, data collection and processing, variable description, how to use the data file, etc.
+-	A linkable publication (.pdf) is the original publication using the data set, which provides detailed information about the data.
+
+In addition to the above three essential data documents, the National Health Interview Survey (NHIS) provides more documents which may be very useful for depositing a large data set. For example,
+
+-	Variable summary (.pdf) is a metadata or variable dictionary file, providing more details about to the variables.
+- Variable Layout (.pdf) is a codebook file, providing labels of each numerically categorized variable
+- Variable frequencies file (.pdf) provides descriptive statistics of the variables, such as frequency, percent, missing values, etc.
+
+
+![](sas1.jpg)
+Figure 1: SAS data documentation provided by Open Science Framework.
+
+![](sas2.jpg)
+Figure 2: SAS data files provided by DataLumos.
+
+![](sas3.jpg)
+Figure 3: SAS data documentation provided by National Center for Health Statistics and Centers for Disease Control and Prevention.
+
+# Key Questions to Ask Yourself
+
+-	Where is the data located? What file format/formats was the data set saved?
+-	What is the data about? 
+-	Where did the data come from or who collected the data? 
+-	When was the data collected? How was the data collected?
+- Is there a readme file, data documentation file or other file which describes how to use the data set?
+- Is there a SAS code or program file for data importing, preparation and/or analysis?
+- Are there any comments included in the SAS code explaining how to process the code?
+
+# Key Clarifications to Get from Researcher
+
+It is noticed that SAS data can be documented in different formats to facilitate data sharing and reusing.  In addition to SAS data format (.sas7bdat), a SAS data set can be saved as plain text file (i.e., .csv, .txt, .dat, etc.) or database file (.mdb or .dbf).
+
+-	A SAS data file (.sas7bdat) can be opened and viewed directly with SAS installed (see Figure 4 ).
+- A text data file (.csv or .txt) and a database file (.mdb or .dbf) can be directly imported into SAS software using SAS import Wizard (see Figure 5). 
+- A column-delimited ASCII data file (.dat) can be imported into SAS software running SAS statements (.sas) (see Figure 6).
+
+
+Figure 4: Directly open a SAS data set (.sas7bdat) and view the data with SAS.
+
+Figure 5: Use SAS Import Wizard to import a data set in CSV format into SAS.
+
+Figure 6: Run SAS statements to extract a data set in an ASCII file (.dat) into SAS. 
+
+Based on the interview results and the above examples, we suggest that at least three data documents should be prepared for SAS data curation - (1) a Readme file or a data documentation, (2) a data set in SAS format (.sas7bdat) and in CSV format (.csv), and (3) a SAS code/program file (.sas) to import, prepare or validate the data set. 
+
+
+# Applicable Core Elements of Metadata and Readme Requirements
+
+Core elements of Metadata
+
+The fundamental questions about SAS data indicated that the core elements of SAS metadata include data location, content and purpose of the data, data ownership and collection procedure, etc.
+
+Readme requirements
+
+A “Readme” or a data documentation file includes important metadata information, such as what the data is about, how the data is used, the meaning and context to the piece of data, etc. Rich and accurate metadata information can facilitate the usage of SAS data sets. As a result, a Readme file or a data documentation file can include the following elements.
+
+Title: The title of a readme file should match the name of the data set 
+
+Author(s):
+-	Name(s) of researcher(s) (e.g., PI and all co-PIs) or organization(s)
+-	Contact information (mailing address, telephone/facsimile numbers, and E-mail address of PIs)
+
+Data file overview and data format:
+- Brief introduction about Readme or data documentation file
+- Brief description about the format(s) of data set 
+- Brief introduction about SAS code/program file
+- Variable definition/description
+
+Instrument description:
+- Brief description about the research instrument
+
+Data collection and processing:
+- Description of data collection procedure
+- Description of data processing techniques 
+- Assessment of the data (e.g., instrument problems, quality issues, etc.)
+- Software to view/process the data
+
+References:
+- List of documents cited in the Readme or the data documentation file. 
+
+Notes for Data Users
+
+Since users may need more information about the data set or need to look at other relevant data sets, it is a good practice to provide such information and links to relevant data sets. 
+
+# Resources for Reviewing Data
+
+There are rich instructional and tutorial resources guiding users to review data. The procedure to review a SAS data set may include such steps as (1) creating/processing a SAS data set; (2) checking the structure of the data set; (3) exploring descriptive statistics of the variables, outliers and missing values, etc.
+
+- Step-by-step instructions for reviewing a SAS data set using downloaded SAS files (i.e., SAS codes, data files, etc.)
+- Tips and techniques for looking at SAS data files
+- Step-by-step instructions for exploring a SAS data set 
+  - Summarizing Data with PROC CONTENTS:
+  - Viewing a data set using the Viewtable Window or Printing a data set to the Output Window with PROC PRINT
+  - Check frequencies and missing values using PROC FREQ
+- Reading data into SAS tutorial (video)
+ 
+# Software for Viewing or Analyzing Data
+
+In addition to SAS package (see the “Key clarifications to get from researcher” and “Preservation actions” sections in this primer), a SAS data set (.sas7bdat file) can be imported into the following software with coding or special tools. 
+
+R:  
+- Read SAS data set (.sas7bdat) into RStudio using sas7bdat, rio, or haven package 
+- Import SAS Transport files into R using the function read.xport (). 
+
+Python:
+- Read a SAS XPORT or SAS7BDAT file into Python using the method pandas.read_sas.
+
+See Appendix A “Additional Information on Tools” for more information. 
+
+# Preservation Actions
+
+A SAS data set can be preserved in a data repository with different formats (.sas7bdat, csv, ascii, etc.). Before loading the data set to the repository, it’s recommended to check for correct variables and value labels, and to verify them with Readme through reading/browsing the data set. There are two ways to do so.
+
+- With a SAS software (i.e., SAS 9.4) installed (i.e., in Windows), a SAS data file (.sas7dbat) can be read directly by double clicking the data file, or right clicking the file and selecting “browse with SAS 9.4.”
+- Run the code (see Figures 7 and 8) to load data files in different formats into a SAS Work library for checking.
+
+Figure 7: Load a SAS dataset (.sas7bdat) into SAS.
+Data source: http://doi.org/10.3886/E101764V1.
+
+
+Figure 8: Import a CSV dataset into SAS.
+Data source: https://osf.io/zma9h.
+
+Running the IMPORT procedure listed in the first part of the SAS code file (see Figure 8), a curator can check if the code executes. When running the code, be sure to replace the original data directory with the correct directory on the curator’s machine or environment where the data set is saved. 
+
+If other SAS procedures, such as renaming variable names, dropping certain columns, step-by-step data analysis, etc., are included, it’s recommended for the curator to check if the code for each procedure works. But the curator can decide on if this action is necessary depending on patrons’ request. 
+
+For the purposes of facilitating data reuse and data preservation with more longevity, it is recommended that in addition to a SAS7BDAT file, a SAS data set should be saved as plain text formats (i.e., .csv, .dat or .txt) in a data repository. We can save a data set into a text format using the SAS “Export Data” Wizard or running a SAS program (see Figures 9 and 10). 
+
+
+Figure 9: Save a SAS data file (.sas7bdat) as a CSV file.
+Data source: https://osf.io/zma9h.
+
+Figure 9: Save a SAS data file (.sas7bdat) as a CSV file.
+Data source: https://osf.io/zma9h.
+
+# Documentation of Curation Process
+
+SAS data sets can be saved in the directories of a local computer or a permanent SAS library. Researchers can save their SAS data sets in different formats. In addition to SAS7BDAT file, researchers can export and save their data in CSV (.csv), ASC II (.dat ), etc.
+For SAS data curation, such files need to be captured as (1) a data set in SAS format (.sas7bdat), ASCII text format (.dat ), and/or CSV format (.csv); (2) metadata documentation that includes such information as title, author, variable description, how to use the data set, etc.; (3) a SAS code/program file (.sas) for data importing, preparation or analysis.  
+In addition, it is a good practice to document a file of notices to users that provides more information relevant to the data set. For example, where to find more information or data sets relevant to the current data set, etc.
+
+# Appendix A Additional Information on Tools
+
+# Appendix B SAS Data File CURATED Checklist
+
+CHECK Step
+
+UNDERSTAND Step
+
+REQUEST Step 
+
+AUGMENT Step
+
+TRANSFORM Step
+
+EVALUATE Step
+
+DOCUMENT Step
+
+
+
+
+
+
 
