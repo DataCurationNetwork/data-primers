@@ -66,11 +66,12 @@ This work was created as part of the “Specialized Data Curation” Workshop #3
 .sas7bdat is a file extension for SAS data sets. SAS data sets (.sas7bdat) store data values and descriptor information. 
 
 - Data values are arranged in a matrix/frame structure 
-  -The rows are called observations/objects and the columns are called variables/ characteristics
-  -Variables contain the data values for each observation.
+ 
+  - The rows are called observations/objects and the columns are called variables/ characteristics
+  - Variables contain the data values for each observation.
 
+- Descriptor information includes details about a data set
 
--Descriptor information includes details about a data set
   - Data set name, data set type, and data set label
   - The names and attributes of all the variables 
   - The number of observations in the data set
@@ -80,7 +81,7 @@ Note: Extended attributes, which contain metadata for the SAS files, can be defi
 
 “.sas7bcat” is a file extension for SAS catalogs. SAS catalogs contain multiple entries such as function key definitions, fonts for graphic applications, some of your selections from the Preferences dialog box, and other information from interactive windowing procedures. 
 
-.xpt is a file extension for transport file. See Library of Congress information.
+.xpt is a file extension for transport file. See Library of Congress [information](https://www.loc.gov/preservation/digital/formats/fdd/fdd000464.shtml).
 
 # SAS Application and Research Data Documentation
 
@@ -126,42 +127,42 @@ SAS data is comprehensively used in health science, biology, agriculture, busine
 
 In addition to research fields, SAS programmers also work at many companies, for example insurance companies for processing claims, data entry centers, finance industry, etc. 
 
-Examples below link to OSF, DataLumos and CDC which offer SAS data files for data curation (see Figures 1, 2 and 3).
+Examples below link to [OSF](https://osf.io/zma9h/files/), [DataLumos](https://www.datalumos.org/datalumos/project/101764/version/V1/view?path=/datalumos/101764/fcr:versions/V1/Documentation&type=folder) and [CDC](https://www.cdc.gov/nchs/nhis/nhis_2017_data_release.htm) which offer SAS data files for data curation (see Figures 1, 2 and 3).
 
-There might be no a perfect example for SAS data curation due to various limitations, but the Biological Psychology Data, the State Library Administrative Agencies survey (SLAA) and the National Health Interview Survey (NHIS) created good sample SAS data files for data sharing and reusing. 
+There might be no a perfect example for SAS data curation due to various limitations, but [the Biological Psychology Data](https://osf.io/zma9h/files/), [the State Library Administrative Agencies survey (SLAA)](https://www.datalumos.org/datalumos/project/101764/version/V1/view?path=/datalumos/101764/fcr:versions/V1/Documentation&type=folder) and [the National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/nhis_2017_data_release.htm) created good sample SAS data files for data sharing and reusing. 
 
 There are a variety of files can be documented for data sharing. In general, the essential documentation should include three types of documents: (1) a data set in more than one format; (2) a SAS code/program file for data importing, preparation or analysis; and (3) an instructional file, data documentation file or linkable publication that provides information about variables, data analysis, and/or how to use the data set (see Figures 1, 2 and 3). 
 
 In addition to a SAS data file (.sas7bdat), the data set should be provided with at least one of the following formats to make the data set reusable in other software environments. 
 
-- CVS
-- TXT
-- ASCII
-- MDB/DBF
+- <em>CVS</em>
+- <em>TXT</em>
+- <em>ASCII</em>
+- <em>MDB/DBF</em>
 
 The SAS code/program file (.sas) is a syntax file which can be used to import data, prepare data (i.e., rename variable names, recode variables, compute variables, etc.), and repeat and validate data analysis. 
 
 A file providing information about how to use the data set can be one of the following documents.
 
-- Readme file (.pdf) directs users how to use the data file. It may contain such contents as data use restriction, data collection instrument (i.e., questionnaire) structure, description of data files and their formats, and how to use the data set in different formats.
-- Data documentation file (.pdf) provides such information as research background and purpose, research methodology, data collection and processing, variable description, how to use the data file, etc.
--	A linkable publication (.pdf) is the original publication using the data set, which provides detailed information about the data.
+- <em>Readme file (.pdf)</em> directs users how to use the data file. It may contain such contents as data use restriction, data collection instrument (i.e., questionnaire) structure, description of data files and their formats, and how to use the data set in different formats.
+- <em>Data documentation file (.pdf)</em> provides such information as research background and purpose, research methodology, data collection and processing, variable description, how to use the data file, etc.
+-	<em>A linkable publication (.pdf)</em> is the original publication using the data set, which provides detailed information about the data.
 
-In addition to the above three essential data documents, the National Health Interview Survey (NHIS) provides more documents which may be very useful for depositing a large data set. For example,
+In addition to the above three essential data documents, [the National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/nhis_2017_data_release.htm) provides more documents which may be very useful for depositing a large data set. For example,
 
--	Variable summary (.pdf) is a metadata or variable dictionary file, providing more details about to the variables.
-- Variable Layout (.pdf) is a codebook file, providing labels of each numerically categorized variable
-- Variable frequencies file (.pdf) provides descriptive statistics of the variables, such as frequency, percent, missing values, etc.
+-	<em>Variable summary (.pdf)</em> is a metadata or variable dictionary file, providing more details about to the variables.
+- <em>Variable Layout (.pdf)</em> is a codebook file, providing labels of each numerically categorized variable
+- <em>Variable frequencies file (.pdf)</em> provides descriptive statistics of the variables, such as frequency, percent, missing values, etc.
 
 
 ![](sas1.jpg)
-Figure 1: SAS data documentation provided by Open Science Framework.
+Figure 1: SAS data documentation provided by [Open Science Framework](https://osf.io/zma9h/files/).
 
 ![](sas2.jpg)
-Figure 2: SAS data files provided by DataLumos.
+Figure 2: SAS data files provided by [DataLumos](https://www.datalumos.org/datalumos/project/101764/version/V1/view?path=/datalumos/101764/fcr:versions/V1/Documentation&type=folder).
 
 ![](sas3.jpg)
-Figure 3: SAS data documentation provided by National Center for Health Statistics and Centers for Disease Control and Prevention.
+Figure 3: SAS data documentation provided by [National Center for Health Statistics and Centers for Disease Control and Prevention](https://www.cdc.gov/nchs/nhis/nhis_2017_data_release.htm).
 
 # Key Questions to Ask Yourself
 
@@ -193,39 +194,39 @@ Based on the interview results and the above examples, we suggest that at least 
 
 # Applicable Core Elements of Metadata and Readme Requirements
 
-Core elements of Metadata
+**Core elements of Metadata**
 
-The fundamental questions about SAS data indicated that the core elements of SAS metadata include data location, content and purpose of the data, data ownership and collection procedure, etc.
+[The fundamental questions about SAS data](https://support.sas.com/resources/papers/proceedings/proceedings/sugi25/25/ad/25p036.pdf) indicated that the core elements of SAS metadata include data location, content and purpose of the data, data ownership and collection procedure, etc.
 
-Readme requirements
+**Readme requirements**
 
-A “Readme” or a data documentation file includes important metadata information, such as what the data is about, how the data is used, the meaning and context to the piece of data, etc. Rich and accurate metadata information can facilitate the usage of SAS data sets. As a result, a Readme file or a data documentation file can include the following elements.
+A “Readme” or a data documentation file includes important [metadata](http://support.sas.com/publishing/pubcat/chaps/59889.pdf) information, such as what the data is about, how the data is used, the meaning and context to the piece of data, etc. Rich and accurate metadata information can facilitate the usage of SAS data sets. As a result, a Readme file or a data documentation file can include the following [elements](https://www.eol.ucar.edu/content/sas-data-set-documentation-readme-guidelines).
 
-Title: The title of a readme file should match the name of the data set 
+**Title:** The title of a readme file should match the name of the data set 
 
-Author(s):
+**Author(s):**
 -	Name(s) of researcher(s) (e.g., PI and all co-PIs) or organization(s)
 -	Contact information (mailing address, telephone/facsimile numbers, and E-mail address of PIs)
 
-Data file overview and data format:
+**Data file overview and data format:**
 - Brief introduction about Readme or data documentation file
 - Brief description about the format(s) of data set 
 - Brief introduction about SAS code/program file
 - Variable definition/description
 
-Instrument description:
+**Instrument description:**
 - Brief description about the research instrument
 
-Data collection and processing:
+**Data collection and processing:**
 - Description of data collection procedure
 - Description of data processing techniques 
 - Assessment of the data (e.g., instrument problems, quality issues, etc.)
 - Software to view/process the data
 
-References:
+**References:**
 - List of documents cited in the Readme or the data documentation file. 
 
-Notes for Data Users
+**Notes for Data Users**
 
 Since users may need more information about the data set or need to look at other relevant data sets, it is a good practice to provide such information and links to relevant data sets. 
 
@@ -233,13 +234,13 @@ Since users may need more information about the data set or need to look at othe
 
 There are rich instructional and tutorial resources guiding users to review data. The procedure to review a SAS data set may include such steps as (1) creating/processing a SAS data set; (2) checking the structure of the data set; (3) exploring descriptive statistics of the variables, outliers and missing values, etc.
 
-- Step-by-step instructions for reviewing a SAS data set using downloaded SAS files (i.e., SAS codes, data files, etc.)
-- Tips and techniques for looking at SAS data files
+- Step-by-step [instructions](https://www.cdc.gov/nchs/tutorials/NHANES/preparing/download/intro_iii.htm) for reviewing a SAS data set using downloaded SAS files (i.e., SAS codes, data files, etc.)
+- [Tips and techniques](https://support.sas.com/resources/papers/proceedings/proceedings/sugi22/BEGTUTOR/PAPER58.PDF) for looking at SAS data files
 - Step-by-step instructions for exploring a SAS data set<sup>4</sup> 
-  - Summarizing Data with PROC CONTENTS:
-  - Viewing a data set using the Viewtable Window or Printing a data set to the Output Window with PROC PRINT
-  - Check frequencies and missing values using PROC FREQ
-- Reading data into SAS tutorial (video)
+  - [Summarizing Data](https://libguides.library.kent.edu/SAS/ViewContents) with PROC CONTENTS:
+  - [Viewing a data set](https://libguides.library.kent.edu/SAS/ViewData) using the Viewtable Window or Printing a data set to the Output Window with PROC PRINT
+  - Check [frequencies and missing values](https://libguides.library.kent.edu/SAS/Frequencies) using PROC FREQ
+- Reading data into SAS [tutorial](https://www.icpsr.umich.edu/web/pages/ICPSR/help/datausers/) (video)
 
 <p  id="note1"><sup>4</sup> Kent State University Libraries. (2017, May 22). SAS tutorials: Subsetting and splitting data sets. Retrieved from http://libguides.library.kent.edu/SAS/SubsetData. </p>
 
@@ -248,11 +249,11 @@ There are rich instructional and tutorial resources guiding users to review data
 
 In addition to SAS package (see the “Key clarifications to get from researcher” and “Preservation actions” sections in this primer), a SAS data set (.sas7bdat file) can be imported into the following software with coding or special tools. 
 
-R:  
-- Read SAS data set (.sas7bdat) into RStudio using sas7bdat, rio, or haven package 
+**R:**
+- Read SAS data set (.sas7bdat) into RStudio using [sas7bdat](https://www.rdocumentation.org/packages/sas7bdat/versions/0.5), [rio](https://www.rdocumentation.org/packages/rio/versions/0.5.16), or [haven](https://www.rdocumentation.org/packages/haven/versions/2.3.1) package 
 - Import SAS Transport files into R using the function read.xport (). 
 
-Python:
+**Python:**
 - Read a SAS XPORT or SAS7BDAT file into Python using the method pandas.read_sas.
 
 See Appendix A “Additional Information on Tools” for more information. 
@@ -264,12 +265,10 @@ A SAS data set can be preserved in a data repository with different formats (.sa
 - With a SAS software (i.e., SAS 9.4) installed (i.e., in Windows), a SAS data file (.sas7dbat) can be read directly by double clicking the data file, or right clicking the file and selecting “browse with SAS 9.4.”
 - Run the code (see Figures 7 and 8) to load data files in different formats into a SAS Work library for checking.
 
-Figure 7: Load a SAS dataset (.sas7bdat) into SAS.
-Data source: http://doi.org/10.3886/E101764V1.
+<p> Figure 7: Load a SAS dataset (.sas7bdat) into SAS. <br> Data source: http://doi.org/10.3886/E101764V1.</p>
 
 
-Figure 8: Import a CSV dataset into SAS.
-Data source: https://osf.io/zma9h.
+<p>Figure 8: Import a CSV dataset into SAS. <br> Data source: https://osf.io/zma9h.</p>
 
 Running the IMPORT procedure listed in the first part of the SAS code file (see Figure 8), a curator can check if the code executes. When running the code, be sure to replace the original data directory with the correct directory on the curator’s machine or environment where the data set is saved. 
 
@@ -278,16 +277,16 @@ If other SAS procedures, such as renaming variable names, dropping certain colum
 For the purposes of facilitating data reuse and data preservation with more longevity, it is recommended that in addition to a SAS7BDAT file, a SAS data set should be saved as plain text formats (i.e., .csv, .dat or .txt) in a data repository. We can save a data set into a text format using the SAS “Export Data” Wizard or running a SAS program (see Figures 9 and 10). 
 
 
-Figure 9: Save a SAS data file (.sas7bdat) as a CSV file.
-Data source: https://osf.io/zma9h.
+<p>Figure 9: Save a SAS data file (.sas7bdat) as a CSV file. <br> Data source: https://osf.io/zma9h. </p>
 
-Figure 9: Save a SAS data file (.sas7bdat) as a CSV file.
-Data source: https://osf.io/zma9h.
+<p> Figure 9: Save a SAS data file (.sas7bdat) as a CSV file. <br> Data source: https://osf.io/zma9h. </p>
 
 # Documentation of Curation Process
 
 SAS data sets can be saved in the directories of a local computer or a permanent SAS library. Researchers can save their SAS data sets in different formats. In addition to SAS7BDAT file, researchers can export and save their data in CSV (.csv), ASC II (.dat ), etc.
+
 For SAS data curation, such files need to be captured as (1) a data set in SAS format (.sas7bdat), ASCII text format (.dat ), and/or CSV format (.csv); (2) metadata documentation that includes such information as title, author, variable description, how to use the data set, etc.; (3) a SAS code/program file (.sas) for data importing, preparation or analysis.  
+
 In addition, it is a good practice to document a file of notices to users that provides more information relevant to the data set. For example, where to find more information or data sets relevant to the current data set, etc.
 
 # Appendix A Additional Information on Tools
