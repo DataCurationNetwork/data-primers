@@ -235,11 +235,14 @@ There are rich instructional and tutorial resources guiding users to review data
 
 - Step-by-step instructions for reviewing a SAS data set using downloaded SAS files (i.e., SAS codes, data files, etc.)
 - Tips and techniques for looking at SAS data files
-- Step-by-step instructions for exploring a SAS data set 
+- Step-by-step instructions for exploring a SAS data set<sup>4</sup> 
   - Summarizing Data with PROC CONTENTS:
   - Viewing a data set using the Viewtable Window or Printing a data set to the Output Window with PROC PRINT
   - Check frequencies and missing values using PROC FREQ
 - Reading data into SAS tutorial (video)
+
+<p  id="note1"><sup>4</sup> Kent State University Libraries. (2017, May 22). SAS tutorials: Subsetting and splitting data sets. Retrieved from http://libguides.library.kent.edu/SAS/SubsetData. </p>
+
  
 # Software for Viewing or Analyzing Data
 
@@ -288,6 +291,9 @@ For SAS data curation, such files need to be captured as (1) a data set in SAS f
 In addition, it is a good practice to document a file of notices to users that provides more information relevant to the data set. For example, where to find more information or data sets relevant to the current data set, etc.
 
 # Appendix A Additional Information on Tools
+<sup>5</sup>
+
+<p  id="note1"><sup>5</sup> Highlight entire table contents by clicking in upper left cell, right-click, and select “Save As…” </p>
 
 # Appendix B SAS Data File CURATED Checklist
 
@@ -304,7 +310,9 @@ TRANSFORM Step
 EVALUATE Step
 
 DOCUMENT Step
+<sup>6</sup>
 
+<p  id="note1"><sup>6</sup> Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18 </p>
 
 
 
