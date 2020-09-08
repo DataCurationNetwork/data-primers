@@ -2,7 +2,7 @@
 
 # SAS Data Curation Primer
 
-## Overview
+## Format Overview
 
 |   Topic   |   Description   |
 | :------------- | :------------- |
@@ -31,7 +31,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #3
 **Contributors:** Gin Corden and Susan Borda.
 
 
-**Table of Contents**
+### Table of Contents
 
 [Format Overview](#format-overview)
 
@@ -59,7 +59,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #3
 
 [Appendix B SAS Data File CURATED Checklist](#appendix-b-sas-data-file-curated-checklist)
 
- # Description of Format
+# Description of Format
 
 .sas is a file extension for SAS programs.
 
