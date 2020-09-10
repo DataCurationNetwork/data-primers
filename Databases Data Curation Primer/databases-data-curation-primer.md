@@ -43,7 +43,15 @@ warehouses or Web services with many concurrent users.
 
 ## Table: general information for common databases 
 
- ![](GPrimer1.JPG)
+|   Database Names   |   Download Links and Sample Datasets   | Operating Systems | Cost | Typical Applications | File Extension |
+| :------------- | :------------- |:------------- |:------------- |:------------- |:------------- |
+| Claris FileMaker | [https://www.filemaker.com/trial/https:/figshare.com/articles/Importing_FishNET_to_FMPA_/8301113](https://www.filemaker.com/trial/https:/figshare.com/articles/Importing_FishNET_to_FMPA_/8301113) | Linux, Windows, Mac OS, Cloud/CentOS | Yes | Creating custom apps for Business and home, such as CRM, Project Management, Invoicing system, HR | .fmp12, .fmp7 |
+| IBM Db2 | [https://www.ibm.com/products/db2-database](https://www.ibm.com/products/db2-database) Most of the sample application programs under DB2PATH/sqllib/samples use sample database for demonstrating various features of Db2 databases that makes it easy to understand the technology. | Linux, Cloud, Windows| Yes | Business | .db2, .c, .sqc, .vbp, .java, .cdisk, .ctape, .cpp|
+| MS Access | [https://products.office.com/en-us/access?legRedir=true&CorrelationId=94b20744-7db7-466c-b468-01a3612953db&rtc=1](https://products.office.com/en-us/access?legRedir=true&CorrelationId=94b20744-7db7-466c-b468-01a3612953db&rtc=1) [https://figshare.com/articles/Matura_NP_ESA_vegetation_survey/5630335](https://figshare.com/articles/Matura_NP_ESA_vegetation_survey/5630335) | Windows 10 for PC | Yes | Home, small business | .mdb, .accdb |
+| MS SQL Server | [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) [SQL Dump of the database](https://figshare.com/articles/SQL_Dump_of_the_database/5946472) | Windows, Cloud/Azure | Yes | Business, education, government, healthcare, technology | .mdf, .ndf, .sql |
+| MySQL | [https://dev.mysql.com/downloads/installer/](https://dev.mysql.com/downloads/installer/) [https://figshare.com/articles/_Sources_of_data_in_the_HIVToolbox_MySQL_database_/443257](https://figshare.com/articles/_Sources_of_data_in_the_HIVToolbox_MySQL_database_/443257) | Windows, Linux, Unix, macOS, Oracle Cloud | No | Business, education, government, healthcare, technology | .frm, .myd, .sql |
+| PostgreSQL | [https://www.postgresql.org/download/](https://www.postgresql.org/download/) [https://figshare.com/articles/DrugCentral_Full_PostgreSQL_Database_/3811608](https://figshare.com/articles/DrugCentral_Full_PostgreSQL_Database_/3811608) | Windows, Linux, Unix, macOS, Azure Cloud | No | Business, education, government, healthcare, technology | .dbu, .sql |
+| Oracle Database | [https://www.oracle.com/index.html](https://www.oracle.com/index.html)  [https://github.com/oracle/oracle-db-examples/tree/master/sql/analytical-sql-examples](https://github.com/oracle/oracle-db-examples/tree/master/sql/analytical-sql-examples) | Windows, Linux, Unix, macOS, Oracle Cloud | No | Large scale business, education, government, healthcare, technology  | .sql, .dbf, .log, .rdo, .arc |
  
  ## Comparison of MS Access to other databases 
  
