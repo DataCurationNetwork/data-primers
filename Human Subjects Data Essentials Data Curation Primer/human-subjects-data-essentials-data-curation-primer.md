@@ -21,7 +21,7 @@ _This work was created by the Data Curation Network’s curator subgroup (Human 
 
 # Table of Contents
 
-[Summary](summary)
+[Summary](#summary)
 
 [Introduction to Human Subjects](#introduction-to-human-subjects)
 
