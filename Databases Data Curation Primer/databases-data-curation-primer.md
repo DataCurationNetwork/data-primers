@@ -59,7 +59,39 @@ warehouses or Web services with many concurrent users.
  
  ### Table for System Properties Comparison: MS Access vs. MS SQL Server
  
-  ![](GPrimer2.JPG)
+ **Information extracted from DB-Engines website
+ 
+ |   **Database Names**   |   **Microsoft Access**   | **Microsoft SQL Server** |
+ | :------------- | :------------- |:------------- |
+ |Description|Microsoft Access combines a backend RDBMS (JET / ACE Engine) with a GUI frontend for data manipulation and queries. |Microsoft relational DBMS|
+ |Primary database model|[Relational DBMS](https://db-engines.com/en/article/Relational+DBMS?ref=RDBMS)|[Relational DBMS](https://db-engines.com/en/article/Relational+DBMS?ref=RDBMS)|
+ |**Website**|[products.office.com/en-us/access](products.office.com/en-us/access)|[www.microsoft.com/en-us/sql-server](www.microsoft.com/en-us/sql-server)|
+ |**Technical documentation**|[msdn.microsoft.com/en-us/library/office/ff604965.aspx](msdn.microsoft.com/en-us/library/office/ff604965.aspx)|[docs.microsoft.com/en-ie/sql/sql-server/sql-server-technical-documentation](docs.microsoft.com/en-ie/sql/sql-server/sql-server-technical-documentation)|
+ |**Developer**|Microsoft|Microsoft|
+ |**Initial release**|1992|1989|
+ |**License** |commercial|commercial|
+ |**Cloud-based only** |no|no|
+ |**Implementation language**|C++|C++|
+ |**Server operating systems**|Windows|Linux, Windows|
+ |**Data scheme**|yes|yes|
+ |**Typing**|yes|yes|
+ |**XML support** |TBD|yes|
+ |**Secondary indexes**|yes|yes|
+ |**SQL**|yes|yes|
+ |**APIs and other access methods**|ADO.NET<br>DAO<br>ODBC<br>OLE DB|ADO.NET<br>JDBC<br>ODBC<br>OLE DB<br>Tabular Data Stream (TDS)|
+ |**Supported programming languages**|C<br>C#<br>C++<br>Delphi<br>Java (JDBC-ODBC)<br>VBA<br>Visual Basic.NET|C#<br>C++<br>Delphi<br>Go<br>Java<br>JavaScript (Node.js)<br>PHP<br>Python<br>R<br>Ruby<br>Visual Basic|
+ |**Server-side scripts** |yes |Transact SQL, .NET languages, R, Python and (with SQL Server 2019) Java|
+ |**Triggers**|yes|yes|
+ |**Partitioning methods** |none|tables can be distributed across several files (horizontal partitioning); sharding through federation|
+ |**Replication methods** |none|yes, but depending on the SQL-Server Edition|
+ |**MapReduce**|no |no |
+ |**Consistency concepts** |TBD|Immediate Consistency|
+ |**Foreign keys** |yes|yes|
+ |**Transaction concepts**|ACID|ACID|
+ |**Concurrency** |yes|yes|
+ |**Durability**|yes |yes |
+ |**In-memory capabilities**|TBD|yes|
+ |**User concepts**|no |fine grained access rights|
   
  **A similar table can be used in future primers to compare databases system properties:**
   
