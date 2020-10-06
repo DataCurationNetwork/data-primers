@@ -7,13 +7,13 @@
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | File Extensions | .iso |
-| MIME Type | CD-ROM: application/x-iso9660-image <br> CD-ROM or CD-R: application/x-iso <br> 13490-image <br> DVD/Blu-Ray: application/x-iso13346-image |
+| MIME Type | CD-ROM: application/x-iso9660-image <br> CD-ROM or CD-R: application/x-iso13490-image <br> DVD/Blu-Ray: application/x-iso13346-image |
 | Structure | Binary file |
 | Versions | n/a |
 | Primary fields or areas of use | .iso can exist in every field of research where data and associated executable programs have been historically distributed on optical discs (CD, DVD, etc.) |
 | Source and affiliation | Name derived from ISO 9660 file system used with CD-ROM media |
 | Metadata | n/a |
-| Key questions for curation review | What software is required to access the data? <br><p><ul><li> Is required (proprietary) software contained in the disk image? </li><li>Must any required software/hardware be emulated? </li></p><br> Are data files linked in other ways? <br> Is there documentation about each file and their relationships? |
+| Key questions for curation review | <ul><li>What software is required to access the data?</li> <ul><li> Is required (proprietary) software contained in the disk image? </li><li>Must any required software/hardware be emulated? </li></ul><li>Are data files linked in other ways? </li><li> Is there documentation about each file and their relationships?</li></ul> |
 | Tools for curation review | Bitcurator<sup>1</sup>, Tree<sup>2</sup>, FRED machine |
 | Date Created | 2020 |
 | Created by | Kate Barron (Stanford University) <br> Jonathan Bohan (Cornell Institute for Social and Economic Research) <br> **Mentor**:Cynthia Hudson-Vitale (Pennsylvania State University) |
@@ -28,7 +28,7 @@
 
 _This work was created as part of the “Specialized Data Curation” Workshop #3 held at Washington University in St. Louis in St. Louis, MO on November 5-6, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18._
 
-**Table of Contents**
+# Table of Contents
 
 [Description of format](#description-of-format)  
 
@@ -50,7 +50,7 @@ _This work was created as part of the “Specialized Data Curation” Workshop #
 
 [What to look for to make sure this file meets FAIR principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles) 
 
-[Ways in which fields may use this format](#ways-in-which-fields-may-use-this-format) 
+[When to preserve this file format](#when-to-preserve-this-file-format) 
 
  # Description of Format
 
@@ -73,8 +73,7 @@ interchange,” accessed at https://www.iso.org/obp/ui/#iso:std:iso:9660:ed-1:v1
 “ISO Disk Image File Format,” in Sustainability of Digital Formats: Planning for Library of Congress
 Collections. Accessed 6 DEC 2019 at
 https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml and saved to
-https://web.archive.org/web/20191206181751/https://www.loc.gov/preservation/digital/formats/fdd/fdd000
-348.shtml. </p>
+https://web.archive.org/web/20191206181751/https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml. </p>
 
 # Examples
 
@@ -132,14 +131,13 @@ Accessing mounted images can “impose a number of technical limitations,” suc
 
 Please note that BitCurator requires Ubuntu and is ideally set up on a dedicated machine. For organizations with a small number of disk images to archive, this may not be feasible, but for those with large collections, a dedicated Ubuntu machine may save quite a bit of time in navigating through the disks.
 
-For those organizations with very large collections of physical disks, a <ins>_FRED Digital Forensics_</ins>
+For those organizations with very large collections of physical disks, a <ins>_FRED Digital Forensics_Workstation_</ins> may be helpful. These are very powerful workstations designed specifically for digital forensics and may do more than is necessary for many archives but can speed up the process of reviewing the discs manually.<sup>10</sup>
 
-<ins>_Workstation_</ins> may be helpful. These are very powerful workstations designed specifically for digital forensics and may do more than is necessary for many archives but can speed up the process of reviewing the discs manually.<sup>10</sup>
-
-The <ins>_TREE command_</ins> can be used to display a graphical directory tree structure which can be incorporated into your README file.<sup>11</sup><sup>12</sup><sup>13</sup> The <ins>_TREE command_</ins> can be used in a command-line interface (CLI).<sup>14</sup>
+The <ins>_TREE command_</ins> can be used to display a graphical directory tree structure which can be incorporated into your README file.<sup>11,</sup><sup>12,</sup><sup>13</sup> The <ins>_TREE command_</ins> can be used in a command-line interface (CLI).<sup>14</sup>
 
 Jennifer Thoegersen<sup>15</sup> provides concise *TREE command* instructions for Windows and Mac users:
 
+<blockquote>
 FOLDER STRUCTURE PRINTOUT
 
 Here is how we create a text file printout containing the folder structure (and all the files
@@ -163,18 +161,19 @@ INSTRUCTIONS FOR MAC
 7. Press Enter.
 8. Type find . -print | sed -e ‘s;[^/]*/;|--;g;s;--|; |;g’ > tree.txt and press Enter.
 9. A text file called tree.txt will be created in the current folder, which you can then open and print.
+</blockquote>
 
 <p  id="note1"><sup>6</sup> BitCurator, accessible at http://bitcurator.net/bitcurator/, reviewed 7 FEB 2020 </p>
 
 <p  id="note1"><sup>7</sup> Ibid. </p>
 
 <p  id="note1"><sup>8</sup>  Woods, Kam, Christopher A, Lee, and Simpson Garfinkel. “Extending Digital Repository Architectures to Support Disk Image Preservation and Access.” In JCDL '11: Proceedings of the 11th Annual International ACM/IEEE Joint Conference on Digital Libraries. June 2011, p. 58. Accessed at https://doi.org/10.1145/1998076.1998088, reviewed 25 JUNE 2020. </p>
+<p id="note1"><sup>9</sup>Ibid., p. 58. </p>
 
 <p  id="note1"><sup>10</sup> See https://digitalintelligence.com/products/fred/ for more information. </p>
 
 <p  id="note1"><sup>11</sup> See https://web.archive.org/web/20200207134128/https://jpsoft.com/help/tree.htm and
-https://web.archive.org/web/20190413191824/https://www.digitalcitizen.life/how-export-directory-tree-fold
-er-windows for further instructions on using the TREE command on Windows. </p>
+https://web.archive.org/web/20190413191824/https://www.digitalcitizen.life/how-export-directory-tree-folder-windows for further instructions on using the TREE command on Windows. </p>
 
 <p  id="note1"><sup>12</sup> See https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x-3b2d4c4a4827 for further instructions on using the TREE command on Mac OS. </p>
 
@@ -193,14 +192,15 @@ Windows 8 and later has the built-in ability to mount ISO disk images. They will
 # Preservation actions
 
 In “You’ve Got to Walk Before You Can Run,”<sup>17</sup> Ricky Erway of OCLC lays out eleven technical steps for readable media. Because this primer focuses on preserving/curating the ISO itself (as opposed to preserving optical media using .iso), we only include the steps that apply to preserving disk images:
+<blockquote>
 
 6. Generate a copy of the disk directory information (file names, sizes, extensions, and dates).
 7. Generate and record a checksum (a unique value based on the contents of a file) on the disk image.
 8. Create a readme file containing pertinent information from the above steps, indicating the related analog materials<sup>18</sup> and documenting each step taken.
 9. Copy the project directory to trustworthy archival storage where it will receive regular backup, with a copy stored in another location.
-...
+10. &#8230;
 11. Create or update an associated finding aid, collection level record, or accession record with information about the steps that were taken and the location of the files.
-
+</blockquote>
 <p  id="note1"><sup>17</sup> Erway, Ricky. “You’ve Got to Walk Before You Can Run: First Steps for Managing Born-Digital Content Received on Physical Media.” OCLC Research, 2012, p.5. Accessed at https://web.archive.org/web/20200221155310/https://www.oclc.org/content/dam/research/publications/library/2012/2012-06.pdf 21 Feb 2020. </p>
 
 <p  id="note1"><sup>18</sup> Note that if you retain a copy of the original physical media, you should store a printout of this readme file with the physical copy (along with a printout of the disk directory information). </p>
@@ -210,7 +210,7 @@ In “You’ve Got to Walk Before You Can Run,”<sup>17</sup> Ricky Erway of OC
 A significant challenge to reuse may be one’s access (or lack thereof) to a physical or virtual machine that is compatible with the disk image. Can an average user be expected to have all the software needed to access the files on the disk? Should the archive be expected to maintain emulators to access older executable files? Are there licensing issues in providing older software for ease of access?
 
 
-# Ways in which fields may use this format
+# When to preserve this file format
 
 When the file structure of data originally distributed on optical disks needs to be maintained due to the presence of executable files or for other contextual reasons. These reasons should be spelled out in the documentation or readme file presented along with the disk image.
 
