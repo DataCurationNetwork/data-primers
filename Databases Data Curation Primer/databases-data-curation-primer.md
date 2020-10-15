@@ -4,6 +4,16 @@
 
 This primer is intended as a general introduction to curation of databases commonly used for research. It can also serve as a template for primers about a specific database platform. It largely follows the structure of the existing primer on <ins>Microsoft Access</ins>.
 
+### Attributions and Citation Information
+
+**Primer Author:** Xuying Xin, Pennsylvania State University
+
+**Primer Mentor:** Dave Fearon, Johns Hopkins University
+
+**Suggested Citation:** Xin, Xuying. (2020). Databases Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+This work was created as part of the “Specialized Data Curation” Workshop #3 held at Washington University in St.Louis, MO on November 5-6, 2019. These workshops have been generously funded by the Institute of Museum and Library Services # RE-85-18-0040-18.
+
 ## Introduction to Database 
 
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Most databases contain multiple tables, which may each include several different fields or columns. For example, a company database may include tables for products, employees, and financial records. Each of these tables would have different fields that are relevant to the information stored in the table.
