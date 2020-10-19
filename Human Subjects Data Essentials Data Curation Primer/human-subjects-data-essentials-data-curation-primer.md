@@ -104,5 +104,79 @@ At each step in the curation process, it is important to be cognizant of ethical
 - Is there any potential embedded metadata that could create additional disclosure risk for participants? (For example, geolocation information for images, tracked changes, hidden columns in Excel spreadsheets, or externally or internally linked files. See primers such as those on [NVivo](https://github.com/DataCurationNetwork/data-primers/blob/master/NVivo%20Data%20Curation%20Primer/NVivo-data-curation-primer.md) and [Atlas.ti](https://github.com/DataCurationNetwork/data-primers/blob/master/Atlas.ti%20Data%20Curation%20Primer/AtlasTI-data-curation-primer.md) for some software-specific suggestions).
 - Are any limitations on appropriate uses of the data specified?
 
+# Brief Introduction to Consent Review and Communicating about Informed Consent with a Depositor
+
+In order to determine whether participants consented to data sharing, it is important to look at the informed consent, consent information sheet (for exempt studies), or participant agreement (for non-IRB reviewed studies) where one exists. Several repositories require these documents to be submitted along with the data at deposit. 
+
+Example of required consent for deposit to repository: The National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) Central Repository states that “All requests for samples and data are carefully reviewed against the consent forms by the Repository and NIDDK staff members to ensure adherence.” (NIDDK, n.d.)
+
+Other repositories ask for these documents upon submission of data that appear to be collected from humans. There are repositories that do not review or collect the consent form, but we do not recommend this practice.
+
+### Reviewing the consent form - there are three common scenarios regarding the mention of data in consent forms:
+
+#### Consent form does not mention data at all.
+
+- Example language: “Records of the study will be kept private. In any sort of report we might publish, we will not include any information that will make it possible to identify you. Research records will be stored securely and only researchers will have access to the records.”
+
+#### Data is mentioned, but language is potentially problematic. 
+
+- Example language: "Data will only be shared in aggregate," "Data will be shared with other researchers," "Only anonymized data will be shared," “Data will be destroyed.”
+
+#### Consent language explicitly states that the data will be shared. This is the ideal, and the most uncommon scenario.
+
+- Example language: “A de-identified dataset will be prepared for public sharing in a data repository. The de-identified data can be discovered and used by other researchers and any member of the public for any reason. The purpose of sharing the data publicly is to promote the transparency of research and reduce the costs associated with future research. For more information, please see the [Data Sharing Information Sheet](https://docs.google.com/document/d/19GuL5TJCDx3DiU59kWmiTh_E64O1pSZ40uCQvyBW0Ns/edit).”
+
+### Potential solutions to issues in the consent form:
+
+- Bring your concerns back to the researcher who submitted the data.
+- Repositories may consider a formal policy regarding the review of the consent form.
+- Data deposit agreements may include a statement that appropriate consent for data sharing has been obtained from all participants.
+- Depositors may be required to upload the consent form template as part of the data submission process, either for public dissemination or internal curation reference.
+- Repositories may offer consent consulting services to ensure depositors use appropriate language in consent forms.
+- IRBs are the authority on consent forms and should be consulted whenever in doubt about permissions to share data.
+
+For greater detail and more resources on reviewing the consent form as part of the curation process, please see the primer on Curation of Data Collected via Informed Consent (Please check back, this primer is coming soon!).
+
+# Brief Introduction to Identifiers and Communicating about De-identification with a Depositor
+
+De-identification is performed by the depositor or their proxy, but the data curator should be aware of considerations for this process that may need to be discussed with depositors. Human subjects data that has not been de-identified may not be shared openly or even under restricted access conditions in many cases. This section will therefore introduce a high-level description of content that can be shown to the depositor as evidence of the need for de-identifying actions. This is an introduction to a complex subject, and de-identification methods depend entirely on the data content and context.
+
+### Types of identifiers 
+
+#### Direct
+
+Direct identifiers include names, addresses (digital and physical), and ID numbers that link directly to identifying information (medical record numbers, drivers license numbers, etc.) Direct identifiers are never needed for analysis, and should be removed or substituted with codes.
+
+#### Indirect or Quasi-identifiers
+
+These tend to be more nuanced and may be difficult for you, as a curator, to recognize easily without expert knowledge of the data. They may be details such as dates or demographics the depositors consider necessary for data reuse, but still requiring sufficient anonymization for public release. Some things to look out for include very detailed or granular demographic details (exact age, specific geography such as zip code, detailed race and ethnicity) or other unique details. Full text responses included verbatim can also be problematic. When these types of information are present, knowing what the participants consented to sharing is important.
+
+### Examples of potential identifiers
+
+- One study found that 87% of the U.S. population were identifiable based only on their 5-digit ZIP code, gender, and date of birth as reported in the 1990 Census (Sweeney, 2000).
+- A dataset that contains age, marital status, and level of education might identify a person living in a close-knit immigrant population.
+- A dataset that contains job title, city of employment, and birthplace could potentially identify a person who was not born in the United States who now works in a rural area in Minnesota. 
+
+### Removing or recoding identifiers
+
+- If there is a particular variable in the dataset that could lead to re-identification of participants and is not essential information, the entire variable could be removed.
+- The dataset might contain individual answers to open-ended questions. Some of these answers might identify a participant based on the other information they provided in the dataset. Researchers might “code” these answers into generic categories so that the data is less personalized, or for qualitative data, redact and replace specific facts with more general descriptors (e.g., “[job title]” instead of “nurse”).
+- Some indirect (quasi) identifiers can be coded, re-coded, aggregated, or dropped. You will likely need clarification from the depositor on what level of detail is necessary for analysis.
+- More details on screening for identifiers below.
+
+### Metadata considerations
+
+- There are occasions when information will be retracted out of the dataset, but information is left in the codebook or data dictionary that gives away certain details - such as low frequency of occurrence (aka unique).
+- Some types of data may contain hidden metadata--that is, metadata not easily discernible to a human viewer--that could create potential disclosure risk, e.g. dates in radiography image files.
+
+### Example Communications with Depositors
+
+- Data contains direct identifiers: “I wanted to alert you to the fact that your data currently contains directly identifiable information about your participants - I noted exact dates for birth, treatment date, hospitalization date, and discharge date. This information needs to be de-identified if it is important for analysis or should be dropped if it is not needed. If you need assistance with de-identification you may want to consult with a statistician or honest broker.”* 
+- Data contains indirect identifiers: “I wanted to alert you to the fact that your data currently contains text responses in several ‘Other’ optional response fields. Typically this information is recorded verbatim, and is therefore unique to each participant. I would suggest either dropping this information if not needed for analysis, or coding it in a standardized fashion to mask the more unique nature of a verbatim response.”*
+
+*These are sample issues and responses. As a curator you know your own comfort level with the materials and what you decide to suggest. If you aren’t sure about the level of disclosure risk, it is OK to say so, and refer to other resources, both internal and external for assistance. Follow your repository policies and only offer what you are permitted and are able to offer.
+
+
+
 # Publication in progress. Your patience is appreciated.
 
