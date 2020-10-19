@@ -176,7 +176,159 @@ These tend to be more nuanced and may be difficult for you, as a curator, to rec
 
 *These are sample issues and responses. As a curator you know your own comfort level with the materials and what you decide to suggest. If you aren’t sure about the level of disclosure risk, it is OK to say so, and refer to other resources, both internal and external for assistance. Follow your repository policies and only offer what you are permitted and are able to offer.
 
+# Steps for Screening De-identified Data for Remaining Risk
 
+The following is an initial set of procedures for reviewing data deposits for remaining direct and indirect (quasi) identifiers that could be considered Personally Identifiable Information (PII) or Personal Health Information (PHI)  that might remain in the dataset and pose a risk level that is beyond the threshold for public access. We welcome our data curation community to build these initial steps into guidelines that can be thoroughly and efficiently applied. A particular need is an efficient and accurate method to calculate risk thresholds of indirect (quasi) identifiers that meet privacy industry standards of professional data repositories for public access data. The steps discussed here are currently “manual” visual screening. The software listed in this primer is not currently sophisticated to a point where such screening can be automated to any degree, nor used without sufficient knowledge and experience of privacy risk assessment and anonymization techniques.
+
+### Privacy risk screening steps:
+
+#### 1. Ask for the human subject consent form.
+
+As addressed in the prior section.
+
+#### 2. Ask for the codebook, data dictionary, or other documentation of variables and data elements.
+
+The codebook, especially one with sufficient description and parameters of variables and collected data elements, is particularly useful for an initial review of potential identifiers. The codebook should show which are direct identifiers that should have been removed or masked with pseudonyms or codes. The codebook should also indicate which variables are indirect (quasi) identifiers. Note which elements could be linked to external information that could be publicly known. Also consider how combinations of indirect (quasi) identifiers could make one or more records more uniquely identifiable than others. These indirect (quasi) identifiers, individually or in combination, will have lower counts of records under some parameters, such as extreme age, specific locations, demographic or other features that are unusual for some subjects for that sampled population. Such subjects are at more risk for reidentification from publicly knowable information, be it from hackers or inadvertently from family members or Facebook posts.
+
+Consider creating a version of the codebook for reviewing the data and potentially sending back to the depositor with comments (see Step 5). Mark which variables to check in the dataset that are potential direct or indirect identifiers and include a brief description of the risk to potentially report back to the depositor. Ideally, the depositor can also provide documentation on which variables were transformed or de-identified.
+
+#### 3. Review data for remaining direct identifiers. 
+
+All depositors should have removed direct identifiers or masked them with codes or pseudonyms. If any apparent direct identifiers remain in the data, send the files back to the depositor for remediation. (Direct identifiers should also be removed for any restricted access repository.)
+
+It is essential to securely delete (i.e. remove all backups) the deposited data that contains direct identifiers because these may well contain privacy violations. Two areas to check specifically as potential quasi-direct identifiers with re-identification risk are dates and geography more specific than US States, including datasets “skewed” toward populations from a particular area, such as students of a particular faculty member’s department.
+
+#### 4. Locate all indirect (quasi) identifiers that could possibly link to external datasets.
+
+This step is often the most challenging. It may be difficult to determine the degree of risk a given indirect (quasi) identifier may have of being linked to knowable external information. Also, calculating risk of combined indirect (quasi) identifiers is time consuming, often not easily accomplished with software, and requires some expertise in privacy risk assessment to properly evaluate.
+
+Ideally, indirect (quasi) identifier risk should be measured against a risk threshold. The K-Anonymity level, developed by Latanya Sweeney, is an example of a more basic risk threshold measure. A K-Anonymity level of 3, for example, means that there should be no fewer than 3 records (i.e., subjects in the dataset) that match either a single indirect (quasi) identifier, or set of matching indirect (quasi) identifiers that have potential risk. The privacy industry and professional data repositories, however, typically set risk thresholds at levels of K=11 to 20.  It may be challenging for researchers to meet these levels, especially for smaller datasets. It is equally challenging for data curators to calculate risk thresholds in datasets.
+
+Often the most practical and responsible approach is to point out which indirect (quasi) identifiers or combinations of such seem potentially risky and ask the researcher to review that risk. The depositor, with your help when possible, should be willing to apply remediation steps, and/or explain any transformation steps already applied to those indirect (quasi) identifiers or sets of records with potential risk. When remediation is not feasible, such as when requiring advanced statistical anonymization techniques, suggest that the researcher consider restricted access repositories.
+
+#### 5. Report back to the depositor any variables or data elements that appear to pose a risk.
+
+Ideally the report should specify briefly which variables appear to have potential risk. If you have knowledge and experience of common de-identification techniques, consider offering suggestions for depositors to transform their data to below the risk threshold. Simpler techniques include changing specific values to ranges or more broad categories, truncating extreme values of certain records, or applying date shifting. Again, datasets requiring more advanced anonymization may require restricted access, unless the depositor expresses sufficient expertise and willingness to apply the techniques on a new version.
+
+Consider formatting the report as a simple table based on the codebook or data dictionary that lists the variables, describes the risk and suggests a remedy when appropriate. A simple risk scale might be added to illustrate the degree of risk, as in the following example:
+
+![]()
+
+Depositors will then need to decide about what remediation they can make, and then resubmit a new version of the data, ideally with documentation of the changes they applied. Curators should then give the new version another round of screening.
+
+In responding to depositors, make clear that, as librarians and data curators, we can only give opinions about remaining risks, and we have not been authorized by IRB or other compliance offices to officially declare a dataset free of privacy risk. Often, however, IRB and compliance officers have no training in privacy risk screening or anonymization techniques. In such cases, consider reminding the depositor that researchers, and ultimately the project PI, take final responsibility for violations of privacy from remaining risk in data released publically. This should ideally be stated in a deposit agreement signed by the depositor and/or project PI.
+
+# Next steps
+
+Recommendations/further conversation: Depending on what is discovered during the curation process, subsequent conversation with the researcher(s) could go a number of directions:
+
+**1. Request for further information or documentation:** The researcher may need to clarify how important particular variables are for analysis or what their own capabilities are (in terms of time and skill) for removing or changing identifiers. Additional documentation around the meaning of specific variables or consent information may also be required.
+
+**2. Alternative repositories:** In some cases it may be clear that potentially identifying variables are essential for analysis, and/or would be difficult or time-consuming to remove or revise. In these cases data will not be appropriate for deposit in a public repository but depending on the subject area and format, there may be domain or format-specific repositories that provide appropriate levels of restriction and/or approval to distribute the data in its current state.
+
+*Example:* [ICPSR](https://www.icpsr.umich.edu/web/pages/) for social science data, [QDR](https://qdr.syr.edu) for qualitative data, or [Databrary](https://databrary.org/about.html) for video data.
+
+**3. De-identification or variable removal:**  If identifying variables can be isolated and it is clear how to edit or remove them (manually or programmatically), this may be sufficient to prepare the dataset for distribution.
+
+*Example:* A dataset contains exact birth and death dates, but no other direct or indirect identifiers are detected. Before publication in a publicly accessible repository, values are converted to year-only, in accordance with HIPAA guidelines.
+
+**4. Refer back to IRB or other approving body:** If research was approved by an institutional IRB or other organization and there are questions about whether the proposed data sharing could violate this approval (especially if legal or other regulatory considerations seem likely to apply), you may want to refer the depositor back to this organization for a determination. Keep in mind that IRBs and other offices or departments may have different approaches to determining risk and enforcement, and differing levels of expertise around making determinations on data sharing (Mozersky, 2020). If at a college or university, you may wish to contact your General Counsel to better understand the institution’s view of where ultimate responsibility lies for this decision.
+
+*Example:* The consent form of an IRB-submitted study specifies that data will only be shared with the research team, but the researcher would like to distribute de-identified data publicly. You refer the depositor back to the IRB. The IRB instructs the depositor...
+
+- to re-consent participants if they wish to share data more widely. The researcher determines that the effort required would be prohibitive, and decides not to distribute their data.
+- that they may share their data. The depositor would like you to publish their data based on this approval.
+- that the study was exempted, so the IRB declines to provide guidance. The depositor returns to you for advice.
+
+**5. Deposit rejection:** You should know and be able to articulate under what conditions your repository will not accept a deposit due to human subjects considerations. This information should also be clearly available to potential depositors before they submit data for curation.
+
+# Other Considerations
+
+Educational opportunities and repository messaging: Even in situations where a deposit has to be turned away or accepted in less-than-ideal condition, conversations started as part of the curation process can lead to improvements in future practices. Consider what information you are providing about policies or guidelines for datasets accepted, and in what venues.
+
+Some general guidelines for depositor to consider in planning for future data collection (see Meyer, 2018) include refraining from explicit statements about destroying or not sharing data, or promising that analysis of collected data will be limited to certain topics (unless there are strong reasons for this, and they have a concrete plan for how to enact it). On the other hand, requesting consent to retain and share data, incorporating data retention and sharing clauses into IRB templates or applications, and working with a data repository before data collection can all help ensure that data are able to be appropriately shared at the close of research.
+
+*Example:* A deposit includes hospital admission and discharge dates. Although these could be used to generate a less specific length-of-stay variable, time restrictions on the depositor’s end lead to complete removal of the variables to enable deposit. However, based on curation conversations the depositor’s next submission is pre-processed to allow appropriate inclusion of this information.
+
+# Glossary of terms 
+
+**Data anonymization:** The process of encrypting or removing personally identifiable information within a data source. Personally identifiable information may include direct or indirect (quasi) identifiers. Pseudonymization is a similar process to make data less identifiable, but this data may still be tracked back to an individual. In contrast, anonymized data is not personally identifiable.
+
+**Data disclosure risk:** An assessment to evaluate the amount of potential for a participant’s identity to be discovered and shared without his/her explicit permission. A curator may be able to assess risk simply by checking for direct and indirect (quasi) identifiers, but a deeper assessment of disclosure risk may require more advanced methods that need to be performed by a statistician, honest broker, or other expert (see Statistical Disclosure Control).
+
+**De-identification:** A standard by which potentially sensitive information is evaluated and personally identifying content is removed before data may be shared. Personally identifying content may include direct or indirect (quasi) identifiers. Example methods include expert determination and safe harbor. This process is not performed by the data curator, but exposed identifiers may be brought up to the data depositor in communications about publishing and reuse. The data depositor or their proxy would need to perform de-identification of the data.
+
+**Direct identifiers:** Information that when used alone may identify specific individuals, such as a name, telephone number or address. 
+
+**Expert determination:** A HIPAA de-identification standard that relies on statistical and scientific methodologies. This method may be more suitable than Safe Harbor to address indirect (quasi) identifiers.
+
+**HIPAA:** (Health Insurance Portability and Accountability Act of 1996) United States law that provides privacy standards to protect identifying health information. HIPAA establishes conditions for sharing and reuse of health information by researchers. See: [Research/HHS.gov](Research/HHS.gov).
+
+**Indirect identifiers:** Information that can be combined with other information to identify specific individuals. For example, a birth date combined with a geographic location may reduce possibilities significantly to allow identification of a study participant. Identification of study participants must be avoided through de-identification of data. See also: Quasi-identifiers.
+
+**Quasi-identifiers:** An alternate term for indirect identifiers that has the same meaning. Usage of this term includes professionals engaged in curation for human subjects data. However, many help sources use the common term indirect identifiers.
+
+**Statistical Disclosure Control (aka SDC):** Advanced statistical techniques used in quantitative research to ensure that no person or organization is identifiable from the results of an analysis of survey or administrative data, or in the release of microdata (individual or household level data rather than aggregate statistics).
+
+**PHI (Personal Health Information; also Protected Health Information):** Information about an individual’s health and the provision or payment of their healthcare. The HIPAA privacy rule provides United States federal protections for PHI.
+
+**Safe Harbor:** A HIPAA de-identification standard consisting of a list of 18 criteria that may increase the risk of identification of individuals. This method is popular and simplistic, but minimally addresses indirect (quasi) identifiers.
+
+# Bibliography and Further Reading
+
+Ball, C. (2011). Beyond Data about Data: The Litigator’s Guide to Metadata. Retrieved from [http://www.craigball.com/metadataguide2011.pdf](http://www.craigball.com/metadataguide2011.pdf)
+
+The First Nations Information Governance Centre (FNIGC). (May 2014). Ownership, Control, Access and Possession (OCAP™): The Path to First Nations Information Governance. Ottawa: The First Nations Information Governance Centre.
+
+Meyer, M. N. (2018). Practical Tips for Ethical Data Sharing. Advances in Methods and Practices in Psychological Science, 1(1), 131–144. [https://doi.org/10.1177/2515245917747656](https://doi.org/10.1177/2515245917747656)
+
+Mozersky, J., Walsh, H., Parsons, M., McIntosh, T., Baldwin, K., & DuBois, J. M. (2020). Are we ready to share qualitative research data? Knowledge and preparedness among qualitative researchers, IRB Members, and data repository curators. IASSIST quarterly, 43(4), 952. [https://doi.org/10.29173/iq952](https://doi.org/10.29173/iq952)
+
+National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research, Department of Health, Education and Welfare. (1978). The Belmont Report: Ethical principles and guidelines for the protection of human subjects of research. Washington, DC: U. S. Government Printing Office.
+
+NIDDK Central Repository. (n.d.). Frequently Asked Questions. Sub-section Applying for Access. Retrieved from [https://repository.niddk.nih.gov/faq/#applying-access](https://repository.niddk.nih.gov/faq/#applying-access).
+
+Osberg, M. & Mehrotra, D. (2020). The Spooky, Loosely Regulated World of Online Therapy. Jezebel. [https://jezebel.com/the-spooky-loosely-regulated-world-of-online-therapy-1841791137](https://jezebel.com/the-spooky-loosely-regulated-world-of-online-therapy-1841791137)
+
+Research Data Alliance International Indigenous Data Sovereignty Interest Group. (September 2019). “CARE Principles for Indigenous Data Governance.” The Global Indigenous Data Alliance. Retrieved from [https://www.gida-global.org/care](https://www.gida-global.org/care).
+
+Ross, M. W., Iguchi, M. Y., & Panicker, S. (2018). Ethical aspects of data sharing and research participant protections. American Psychologist, 73(2), 138–145. [https://doi.org/10.1037/amp0000240](https://doi.org/10.1037/amp0000240)
+
+Sweeney, L. (2000). Simple Demographics Often Identify People Uniquely. Carnegie Mellon University, Data Privacy Working Paper 3. Pittsburgh. [https://dataprivacylab.org/projects/identifiability/](https://dataprivacylab.org/projects/identifiability/)
+
+Yoo, J. S., Thaler, A., Sweeney, L., & and Zang, J. (2018). Risks to Patient Privacy: A Re-identification of Patients in Maine and Vermont Statewide Hospital Data. Technology Science. [https://techscience.org/a/2018100901](https://techscience.org/a/2018100901)
+
+# Appendix A Links to sources on de-identification
+
+El Emam, Khaled; Arbuckle, Luk. (2013). Anonymizing health data case studies and methods to get you started. Sebastopol, California : O’Reilly Media.
+
+El Emam, Khaled. (2013). Guide to the de-identification of personal health information. Boca Raton, Fla. : CRC Press.
+
+HITRUST De-identification Methodology Training [https://hitrustalliance.net/hitrust-academy/](https://hitrustalliance.net/hitrust-academy/)
+
+Rights (OCR), O. for C. (2012, September 7). Methods for De-identification of PHI. Retrieved September 11, 2019, from HHS.gov website: [https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html)
+
+Fearon, Dave. (2019). “Guides: Protecting Identifiers in Human Subjects Data.” Accessed February 7, 2020. []().
+
+# Appendix B Links to sources on consent documentation
+
+#### ICPSR 
+
+- [Recommended Informed Consent](https://www.icpsr.umich.edu/web/pages/datamanagement/confidentiality/conf-language.html)
+- [https://www.icpsr.umich.edu/web/pages/datamanagement/confidentiality/conf-language.html](https://www.icpsr.umich.edu/web/pages/datamanagement/confidentiality/conf-language.html)
+
+#### Qualitative Data Repository (QDR)
+
+- [Sample Informed Consent Language](https://qdr.syr.edu/guidance/templates)
+
+#### University of Michigan
+
+- [IRB-HSBS Biospecimen Consent Template](https://research-compliance.umich.edu/new-irb-hsbs-biospecimen-consent-template) with data sharing language
+- [IRB-HSBS General Informed Consent Template](https://research-compliance.umich.edu/new-irb-hsbs-general-informed-consent-template) with data sharing language
+
+# Appendix C Human Subjects CURATED checklist
+
+Adapted from the [CURATED steps and checklists](https://datacurationnetwork.org/outputs/workflows/) by Data Curation Network.
 
 # Publication in progress. Your patience is appreciated.
 
