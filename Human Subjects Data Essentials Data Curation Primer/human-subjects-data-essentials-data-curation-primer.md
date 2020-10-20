@@ -362,5 +362,4 @@ Adapted from the [CURATED steps and checklists](https://datacurationnetwork.org/
 
 - Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of human subjects data, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file, the data is properly de-identified and still usable, and the file formats support long-term preservation.
 
-# Publication in progress. Your patience is appreciated.
 
