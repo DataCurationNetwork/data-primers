@@ -212,7 +212,7 @@ Ideally the report should specify briefly which variables appear to have potenti
 
 Consider formatting the report as a simple table based on the codebook or data dictionary that lists the variables, describes the risk and suggests a remedy when appropriate. A simple risk scale might be added to illustrate the degree of risk, as in the following example:
 
-![]()
+![](hse1.jpg)
 
 Depositors will then need to decide about what remediation they can make, and then resubmit a new version of the data, ideally with documentation of the changes they applied. Curators should then give the new version another round of screening.
 
