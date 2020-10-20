@@ -330,5 +330,37 @@ Fearon, Dave. (2019). “Guides: Protecting Identifiers in Human Subjects Data.�
 
 Adapted from the [CURATED steps and checklists](https://datacurationnetwork.org/outputs/workflows/) by Data Curation Network.
 
+## Check files and read documentation
+
+- Check all files submitted and assess the type of data presented.
+- Assess whether the combination of files submitted have enough information to be useful to others.
+- Assess whether the combination of files submitted reveal participant identities.
+
+## Understand the data
+
+- Understand the type of data submitted and the likelihood of whether it was obtained using informed consent, a consent information sheet, participant agreement, or nothing.
+- Understand the variables reported in the data and whether they are risks for identity disclosure.
+
+## Request missing information or changes 
+
+- Request the consent form or other agreement if it was not submitted with the data, but you believe the data may have been obtained with one.
+- Request any information needed for the data to be reproducible, usually a data dictionary and/or a readme file.
+- If necessary, request that the research team further de-identify the data set.
+- If necessary, request that the research team consult with an ethics board or their institutional review board.
+
+## Augment metadata for findability 
+
+- Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data.
+- Include in the metadata a log of conversations with the researcher on consent and de-identification.
+
+## Transform file formats for reuse
+
+- Transform the consent form or agreement to a text or pdf file for preservation.
+- Ensure the data set is in a non-proprietary format (i.e., transform from Excel to csv).
+
+## Evaluate for FAIRness
+
+- Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of human subjects data, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file, the data is properly de-identified and still usable, and the file formats support long-term preservation.
+
 # Publication in progress. Your patience is appreciated.
 
