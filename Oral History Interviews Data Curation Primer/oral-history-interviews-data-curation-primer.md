@@ -71,18 +71,18 @@ Historically, the importance of transcription stemmed from the practice of destr
 
 A model for better data analysis and curation with respect to oral histories involves a number of structured detailed fields that facilitate reliable research retrievability. The following fields are structured to address current data as well as format migration data to aid in discoverability. 
 
-![](OralHistory_1.jpg)
+![](OralHistory_1.jpeg)
 
-![](OralHistory_2.jpg)
+![](OralHistory_2.jpeg)
 
-![](OralHistory_3.jpg)
+![](OralHistory_3.jpeg)
 
-![](OralHistory_4.jpg)
+![](OralHistory_4.jpeg)
 
-![](OralHistory_5.jpg)
+![](OralHistory_5.jpeg)
 
 # Workflow
 
-![](OralHistory_6.jpg)
+![](OralHistory_6.jpeg)
 
 # Publication in progress. Thanks for your patience!
