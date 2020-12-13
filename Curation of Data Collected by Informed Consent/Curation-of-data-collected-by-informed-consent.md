@@ -34,7 +34,8 @@
 
 # Summary
 
-This primer will address the specific considerations for assessing informed consent of a dataset. Informed consent is the process by which researchers gain permission to conduct research with human participants, and that process includes how the data collected will be used, and possibly shared, by the research team. This document may be useful for data curators at the point of assessing data for acceptance into a repository; for repositories considering setting policy around data obtained using the subject consent process; or for data professionals working with researchers on education around consent form language prior to data collection For more information on the curation of human subjects data, please see the [Human Subjects Data Essentials Primer](https://docs.google.com/document/d/1DVm2SYZO5NK1ydk8H_eF89-XxQsLk0sqs3hi6gD3RoI/edit?usp=sharing).
+This primer will address the specific considerations for assessing informed consent of a dataset. Informed consent is the process by which researchers gain permission to conduct research with human participants, and that process includes how the data collected will be used, and possibly shared, by the research team. This document may be useful for data curators at the point of assessing data for acceptance into a repository; for repositories considering setting policy around data obtained using the subject consent process; or for data professionals working with researchers on education around consent form language prior to data collection For more information on the curation of human subjects data, please see the [Human Subjects Data Essentials Primer (https://docs.google.com/document/d/1DVm2SYZO5NK1ydk8H_eF89-XxQsLk0sqs3hi6gD3RoI/edit?usp=sharing).
+
 
 # Introduction to Informed Consent
 
@@ -58,6 +59,7 @@ In some circumstances, when consent is not legally required, there might instead
 # Introduction to Assessing Consent Forms for Data Curation
 
 In order to determine whether participants consented to data sharing, it is important to look at the informed consent, consent information sheet (for exempt studies), or participant agreement (for non-IRB reviewed studies). Several repositories, such as [ICPSR](https://www.icpsr.umich.edu/web/pages/) and [TalkBank](https://talkbank.org/), require these documents to be submitted along with the data at deposit. Other repositories ask for these documents upon submission of data that appear to be collected from humans.
+
 
 # Steps for Reviewing Consent Forms
 
@@ -94,34 +96,33 @@ In order to determine whether participants consented to data sharing, it is impo
 
      2. Repositories may consider a formal policy regarding the review of the consent form.
          a. Data deposit agreements may include a statement that appropriate consent has been obtained from all participants in the data.
-    <br>
+  
      **Example**: Open ICPSR uses the following language in their deposit agreement form: "I assert that all research subjects (living persons or active organizations) whose information is represented in this Data Collection have consented to sharing these data in an appropriate manner and/or I have institutional approval to share these data (e.g., waiver of consent from your IRB)."
-    <br>
+  
      **Example**: The National Database for Autism Research (NDAR) includes in the submitter agreement: "Submitter further acknowledges that the data were collected pursuant to an informed consent that is consistent with the data submission."
-    <br>     
+       
          b. Depositors may be required to upload the consent form template as part of the data submission process.
      **Example**: BioLINCC and other repositories require informed consent templates. Specifically, [BioLINCC requires](https://biolincc.nhlbi.nih.gov/media/guidelines/handbook.pdf?link_time=2019-12-11_13:15:00.238612)  “approval from the institutional IRB for sharing of the study data or language within the informed consent permitting sharing study data with investigators not originally affiliated with the study.”
-    <br>
+   
      3. Repositories may offer consent consulting services to ensure depositors use appropriate language in consent forms.
-    <br>
+   
      **Example**: The National Addiction & HIV Data Archive Program (NAHDAP) offers review of and feedback on informed consent forms for data sharing and provides assistance for researchers trying to share data from studies that consent forms with less open language.
-    <br>
+  
      4. Repositories may consider including the consent form as internal metadata/record.
-    <br>
+    
      **Example**: The University of Minnesota includes the informed consent or participant agreement with the record as internal metadata in case we need to reference it later. We also track decisions made and specific consent issues to aid future decision making.
 
 
 # Gray Areas
 
      1. There will be many scenarios not addressed explicitly by this guide. When responding to cases that are less than clear-cut, establish priorities and considerations on which you will make your determination. For example, the following list (Meyer, 2018) provides a set of conditions that may provide a helpful framework when considering data sharing incases where consent for such was not explicitly collected:
-a. “[...] in general, the argument for sharing will be stronger the more of the following
-conditions are met:
-         i. The original consent form was merely silent about data sharing, and did not include a promise not to share data
-         ii. The data are not especially sensitive (i.e., re-identification would be unlikely to cause significant harm to participants)
-         iii. The data are not individually identified and are not especially likely to be re-identified (i.e., there are low incentives for anyone to re-identify the data or the data are unlikely to be re-identifiable alone or in combination with other available datasets)
-         iv. The shared data will be accessible only under restricted conditions, protected by agreements prohibiting re-identification
-         v. Sharing will be limited to secondary research purposes that fall within the scope of the research described in the original consent form
-         vi. Sharing will be limited to secondary research purposes participants are not known to object to.”
+          a. “[...] in general, the argument for sharing will be stronger the more of the following conditions are met:
+                i. The original consent form was merely silent about data sharing, and did not include a promise not to share data
+                ii. The data are not especially sensitive (i.e., re-identification would be unlikely to cause significant harm to participants)
+                iii. The data are not individually identified and are not especially likely to be re-identified (i.e., there are low incentives for anyone to re-identify the data or the data are unlikely to be re-identifiable alone or in combination with other available datasets)
+                iv. The shared data will be accessible only under restricted conditions, protected by agreements prohibiting re-identification
+                v. Sharing will be limited to secondary research purposes that fall within the scope of the research described in the original consent form
+                vi. Sharing will be limited to secondary research purposes participants are not known to object to.”
 
 
 # Completion of Consent Form Assessment
@@ -129,22 +130,22 @@ conditions are met:
 There are many potential outcomes after assessing consent forms that were used to collect data being ingested into a public repository. Use this guide, with the [ Human Subjects Data Essentials Primer](https://docs.google.com/document/d/1DVm2SYZO5NK1ydk8H_eF89-XxQsLk0sqs3hi6gD3RoI/edit),  to determine the best next steps for your repository and institution. You can ensure you have completed a job-well-done with the Data Curation Network’s CURATE checklist:
 
 ❏ Check files and read documentation
-        ❏ Check all files submitted and assess the type of data presented.
-        <br>    
+            ❏ Check all files submitted and assess the type of data presented.
+           
 ❏ Understand the data
-        ❏ Understand the type of data submitted and the likelihood of whether it was obtained using informed consent, a consent information sheet, participant agreement, or nothing.
-<br>
+            ❏ Understand the type of data submitted and the likelihood of whether it was obtained using informed consent, a consent information sheet, participant agreement, or nothing.
+
 ❏ Request missing information or changes
-        ❏ Request the consent form or other agreement if it was not submitted with the data, but you believe the data may have been obtained with one.
-<br>
+            ❏ Request the consent form or other agreement if it was not submitted with the data, but you believe the data may have been obtained with one.
+
 ❏ Augment metadata for findability
-        ❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data.
-<br>
+            ❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data.
+
 ❏ Transform file formats for reuse
-        ❏ Transform the consent form or agreement to a text or pdf file for preservation.
-<br>
+            ❏ Transform the consent form or agreement to a text or pdf file for preservation.
+
 ❏ Evaluate for FAIRness
-        ❏ Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of the consent form, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file. This ensures that, if needed, future researchers can be sure of the data’s ethical reuse.
+            ❏ Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of the consent form, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file. This ensures that, if needed, future researchers can be sure of the data’s ethical reuse.
 
 
 # Glossary of Terms
