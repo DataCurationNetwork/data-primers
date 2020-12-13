@@ -8,7 +8,7 @@
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | Primary fields or areas of use | Any research that was collected with the use of consent forms, participant agreements, or consent information sheets. All of these items refer to “informed consent,” and they notify study participants how their information is being used by the research team and beyond. <br> Example fields: <br> Clinical, Public Health, Neuroscience, Biomedical Engineering, Psychology, Sociology, Demography, Economics, Anthropology, Education, Social Work, etc.|
-| Key questions for curation review | <ul><li>Is the consent form included with the data?</li> <ul><li>Does the consent form mention data at all?</li> <ul><li>If so, what does the consent form say about how data will be stored and/or shared?</li> |
+| Key questions for curation review | <ul><li>Is the consent form included with the data?</li> <li>Does the consent form mention data at all?</li> <li>If so, what does the consent form say about how data will be stored and/or shared?</li></ul> |
 | Metadata-specific considerations | Collecting the consent form as internal metadata |
 | Context-specific considerations | Consider institutional regulations, norms, and expectations. |
 | Tools for curation review | Human eye and intellect; example language |
@@ -97,20 +97,20 @@ In order to determine whether participants consented to data sharing, it is impo
      2. Repositories may consider a formal policy regarding the review of the consent form.
          a. Data deposit agreements may include a statement that appropriate consent has been obtained from all participants in the data.
   
-     **Example**: Open ICPSR uses the following language in their deposit agreement form: "I assert that all research subjects (living persons or active organizations) whose information is represented in this Data Collection have consented to sharing these data in an appropriate manner and/or I have institutional approval to share these data (e.g., waiver of consent from your IRB)."
+     Example: Open ICPSR uses the following language in their deposit agreement form: "I assert that all research subjects (living persons or active organizations) whose information is represented in this Data Collection have consented to sharing these data in an appropriate manner and/or I have institutional approval to share these data (e.g., waiver of consent from your IRB)."
   
-     **Example**: The National Database for Autism Research (NDAR) includes in the submitter agreement: "Submitter further acknowledges that the data were collected pursuant to an informed consent that is consistent with the data submission."
+     Example: The National Database for Autism Research (NDAR) includes in the submitter agreement: "Submitter further acknowledges that the data were collected pursuant to an informed consent that is consistent with the data submission."
        
          b. Depositors may be required to upload the consent form template as part of the data submission process.
-     **Example**: BioLINCC and other repositories require informed consent templates. Specifically, [BioLINCC requires](https://biolincc.nhlbi.nih.gov/media/guidelines/handbook.pdf?link_time=2019-12-11_13:15:00.238612)  “approval from the institutional IRB for sharing of the study data or language within the informed consent permitting sharing study data with investigators not originally affiliated with the study.”
+     Example: BioLINCC and other repositories require informed consent templates. Specifically, [BioLINCC requires](https://biolincc.nhlbi.nih.gov/media/guidelines/handbook.pdf?link_time=2019-12-11_13:15:00.238612)  “approval from the institutional IRB for sharing of the study data or language within the informed consent permitting sharing study data with investigators not originally affiliated with the study.”
    
      3. Repositories may offer consent consulting services to ensure depositors use appropriate language in consent forms.
    
-     **Example**: The National Addiction & HIV Data Archive Program (NAHDAP) offers review of and feedback on informed consent forms for data sharing and provides assistance for researchers trying to share data from studies that consent forms with less open language.
+     Example: The National Addiction & HIV Data Archive Program (NAHDAP) offers review of and feedback on informed consent forms for data sharing and provides assistance for researchers trying to share data from studies that consent forms with less open language.
   
      4. Repositories may consider including the consent form as internal metadata/record.
     
-     **Example**: The University of Minnesota includes the informed consent or participant agreement with the record as internal metadata in case we need to reference it later. We also track decisions made and specific consent issues to aid future decision making.
+     Example: The University of Minnesota includes the informed consent or participant agreement with the record as internal metadata in case we need to reference it later. We also track decisions made and specific consent issues to aid future decision making.
 
 
 # Gray Areas
@@ -130,22 +130,22 @@ In order to determine whether participants consented to data sharing, it is impo
 There are many potential outcomes after assessing consent forms that were used to collect data being ingested into a public repository. Use this guide, with the [ Human Subjects Data Essentials Primer](https://docs.google.com/document/d/1DVm2SYZO5NK1ydk8H_eF89-XxQsLk0sqs3hi6gD3RoI/edit),  to determine the best next steps for your repository and institution. You can ensure you have completed a job-well-done with the Data Curation Network’s CURATE checklist:
 
 ❏ Check files and read documentation
-            ❏ Check all files submitted and assess the type of data presented.
+- ❏ Check all files submitted and assess the type of data presented.
            
 ❏ Understand the data
-            ❏ Understand the type of data submitted and the likelihood of whether it was obtained using informed consent, a consent information sheet, participant agreement, or nothing.
+- ❏ Understand the type of data submitted and the likelihood of whether it was obtained using informed consent, a consent information sheet, participant agreement, or nothing.
 
 ❏ Request missing information or changes
-            ❏ Request the consent form or other agreement if it was not submitted with the data, but you believe the data may have been obtained with one.
+- ❏ Request the consent form or other agreement if it was not submitted with the data, but you believe the data may have been obtained with one.
 
 ❏ Augment metadata for findability
-            ❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data.
+- ❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data.
 
 ❏ Transform file formats for reuse
-            ❏ Transform the consent form or agreement to a text or pdf file for preservation.
+- ❏ Transform the consent form or agreement to a text or pdf file for preservation.
 
 ❏ Evaluate for FAIRness
-            ❏ Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of the consent form, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file. This ensures that, if needed, future researchers can be sure of the data’s ethical reuse.
+- ❏ Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of the consent form, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file. This ensures that, if needed, future researchers can be sure of the data’s ethical reuse.
 
 
 # Glossary of Terms
