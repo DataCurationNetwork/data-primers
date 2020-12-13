@@ -7,9 +7,7 @@
 
 |   Topic   |   Description   |
 | :------------- | :------------- |
-| Primary fields or areas of use | Any research that was collected with the use of consent forms, participant agreements, or consent information sheets. All of these items refer to “informed consent,” and they notify study participants how their information is being used by the research team and beyond. 
-<br>
-Example fields: <br> Clinical, Public Health, Neuroscience, Biomedical Engineering, Psychology, Sociology, Demography, Economics, Anthropology, Education, Social Work, etc.|
+| Primary fields or areas of use | Any research that was collected with the use of consent forms, participant agreements, or consent information sheets. All of these items refer to “informed consent,” and they notify study participants how their information is being used by the research team and beyond. <br> Example fields: <br> Clinical, Public Health, Neuroscience, Biomedical Engineering, Psychology, Sociology, Demography, Economics, Anthropology, Education, Social Work, etc.|
 | Key questions for curation review | <ul><li>Is the consent form included with the data?</li> <ul><li>Does the consent form mention data at all?</li> <ul><li>If so, what does the consent form say about how data will be stored and/or shared?</li> |
 | Metadata-specific considerations | Collecting the consent form as internal metadata |
 | Context-specific considerations | Consider institutional regulations, norms, and expectations. |
@@ -131,17 +129,22 @@ conditions are met:
 There are many potential outcomes after assessing consent forms that were used to collect data being ingested into a public repository. Use this guide, with the [ Human Subjects Data Essentials Primer](https://docs.google.com/document/d/1DVm2SYZO5NK1ydk8H_eF89-XxQsLk0sqs3hi6gD3RoI/edit),  to determine the best next steps for your repository and institution. You can ensure you have completed a job-well-done with the Data Curation Network’s CURATE checklist:
 
 ❏ Check files and read documentation
-❏ Check all files submitted and assess the type of data presented.
+        ❏ Check all files submitted and assess the type of data presented.
+        <br>    
 ❏ Understand the data
-❏ Understand the type of data submitted and the likelihood of whether it was obtained using informed consent, a consent information sheet, participant agreement, or nothing.
+        ❏ Understand the type of data submitted and the likelihood of whether it was obtained using informed consent, a consent information sheet, participant agreement, or nothing.
+<br>
 ❏ Request missing information or changes
-❏ Request the consent form or other agreement if it was not submitted with the data, but you believe the data may have been obtained with one.
+        ❏ Request the consent form or other agreement if it was not submitted with the data, but you believe the data may have been obtained with one.
+<br>
 ❏ Augment metadata for findability
-❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data.
+        ❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data.
+<br>
 ❏ Transform file formats for reuse
-❏ Transform the consent form or agreement to a text or pdf file for preservation.
+        ❏ Transform the consent form or agreement to a text or pdf file for preservation.
+<br>
 ❏ Evaluate for FAIRness
-❏ Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of the consent form, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file. This ensures that, if needed, future researchers can be sure of the data’s ethical reuse.
+        ❏ Evaluate the record to ensure the data is findable, accessible, interoperable, and reusable - in terms of the consent form, this means that the consent process is documented either internally as part of the repository’s metadata record or publicly as part of the readme file. This ensures that, if needed, future researchers can be sure of the data’s ethical reuse.
 
 
 # Glossary of Terms
