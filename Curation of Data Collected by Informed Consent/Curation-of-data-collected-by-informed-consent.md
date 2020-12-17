@@ -32,6 +32,7 @@
 <!-- /TOC -->
 
 
+
 # Summary
 
 This primer will address the specific considerations for assessing informed consent of a dataset. Informed consent is the process by which researchers gain permission to conduct research with human participants, and that process includes how the data collected will be used, and possibly shared, by the research team. This document may be useful for data curators at the point of assessing data for acceptance into a repository; for repositories considering setting policy around data obtained using the subject consent process; or for data professionals working with researchers on education around consent form language prior to data collection For more information on the curation of human subjects data, please see the [Human Subjects Data Essentials Primer (https://docs.google.com/document/d/1DVm2SYZO5NK1ydk8H_eF89-XxQsLk0sqs3hi6gD3RoI/edit?usp=sharing).
