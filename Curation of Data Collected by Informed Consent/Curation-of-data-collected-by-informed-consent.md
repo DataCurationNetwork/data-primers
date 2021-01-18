@@ -179,4 +179,3 @@ University of Michigan [IRB-HSBS Biospecimen Consent Template](https://research-
 
 University of Michigan [IRB-HSBS General Informed Consent Template](https://research-compliance.umich.edu/new-irb-hsbs-general-informed-consent-template) with data sharing language
 
-
