@@ -1,4 +1,4 @@
-![Data Curation Network (DCN) logo](DCNlogo.png)
+![](DCNlogo.png)
 
 # R Primer
 
@@ -9,7 +9,7 @@ Scope: text files with a “.R” or ".Rmd" extension that contain code for exec
 | File Extensions | .R (R script) |
 | MIME Type | text/plain |
 | Structure | unstructured |
-| Versions | |
+| Version | 2.0 |
 | Primary fields or areas of use | Data analytics, statistics, bioinformatics, text mining, data science, digital humanities |
 | Source and affiliation | [The R Foundation](https://www.r-project.org/foundation/) |
 | Metadata | Not Applicable |
@@ -17,7 +17,7 @@ Scope: text files with a “.R” or ".Rmd" extension that contain code for exec
 | Tools for curation review | Any text editor, RStudio |
 | Date Created | 201-11-21 |
 | Created by | <p> Creators: Lynda Kellam, Cornell University <br> Katherine Koziar, University of California, Riverside <br> Stanislav Pejša, Purdue University </p> <br> Mentor: Joel Herndon, Ph.D. |
-| <a id = "version-2.0-updates"> Date updated and summary of changes made </a> | <br>Version 2.0: Accessibility section and primer reorganization/remediation by Emily Oxford (Creator) and Rachel Woodbrook (Mentor) (2020-08-10)<ul><li>"Accessibility Considerations" section added</li> <li> Added accessibility steps to existing primer content</li> <li>Reorganized primer content and edited primer formatting to support accessible [info/relationships](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=131%2C132#info-and-relationships), [headings and labels](https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels), [link purpose](https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context), and [non-text content](https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)</li>|
+| <a id = "version-2.0-updates"> Date updated and summary of changes made </a> | Please see [README](https://github.com/DataCurationNetwork/data-primers/blob/master/R%20Data%20Curation%20Primer/README.md) for complete listing of changes made <br> Notable changes: <ul><li> Accessibilty content added by Emily Oxford |
 
 ------------------------
 **Suggested Citation:** Kellam, Lynda; Koziar, Katherine; Pejša, Stanislav. 2019. R Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
