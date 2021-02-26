@@ -17,7 +17,7 @@ Scope: text files with a “.R” or ".Rmd" extension that contain code for exec
 | Tools for curation review | Any text editor, RStudio |
 | Date Created | 201-11-21 |
 | Created by | <p> Creators: Lynda Kellam, Cornell University <br> Katherine Koziar, University of California, Riverside <br> Stanislav Pejša, Purdue University </p> <br> Mentor: Joel Herndon, Ph.D. |
-| <a id = "version-2.0-updates"> Date updated and summary of changes made </a> | Please see [README](https://github.com/DataCurationNetwork/data-primers/blob/master/R%20Data%20Curation%20Primer/README.md) for complete listing of changes made <br> Notable changes: <ul><li> Accessibilty content added by Emily Oxford |
+| <a id = "version-2.0-updates"> Date updated and summary of changes made </a> | Please see [README](https://github.com/DataCurationNetwork/data-primers/blob/master/R%20Data%20Curation%20Primer/README.md) for complete listing of changes made <p> <br> Notable changes: <ul><li> Accessibilty content added by Emily Oxford, University of Michigan |
 
 ------------------------
 **Suggested Citation:** Kellam, Lynda; Koziar, Katherine; Pejša, Stanislav. 2019. R Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
