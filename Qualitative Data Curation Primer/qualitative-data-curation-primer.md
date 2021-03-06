@@ -111,22 +111,41 @@ Enabling reuse involves both technical actions (i.e., converting proprietary or 
 
 # Benefits and challenges of sharing qualitative data
 
-While qualitative data can help explain phenomena and describe the world, it doesn’t have the same history of
-preservation and sharing that quantitative data does (Qualitative Data Repository [QDR], n.d.). Because of this,
-researchers may not consider depositing their data once their research projects are completed, and if they do,
-researchers and curators may have difficulties preparing the data for deposit.
+While qualitative data can help explain phenomena and describe the world, it doesn’t have the same history of preservation and sharing that quantitative data does (Qualitative Data Repository [QDR], n.d.). Because of this, researchers may not consider depositing their data once their research projects are completed, and if they do, researchers and curators may have difficulties preparing the data for deposit.
 
-Similar to the sharing of quantitative data, sharing qualitative data provides numerous benefits for researchers.
-As will be discussed later on in this primer, the increased trust and transparency and ability to reuse the data
-are among the key benefits to sharing qualitative data. Encouraging researchers to deposit their files could aid
-in the preservation of the data, rather than having them be disposed of once the particular research project has
-been completed (QDR, n.d.). Preserving the qualitative data could allow for easier access to data for
-longitudinal studies by multiple research teams that currently may be difficult to complete. In addition, sharing
-qualitative data can allow for a deeper analysis with the ability to have more individuals study the data and
-provide additional insights (Elman and Kapiszewski, 2017). Finally, as long as deposited data is publically aailable, it could provide students and researchers learning how to analyze qualitative data a useful dataset to practice on and examine (Elman and Kapiszewski, 2017).
+Similar to the sharing of quantitative data, sharing qualitative data provides numerous benefits for researchers. As will be discussed later on in this primer, the increased trust and transparency and ability to reuse the data are among the key benefits to sharing qualitative data. Encouraging researchers to deposit their files could aid in the preservation of the data, rather than having them be disposed of once the particular research project has been completed (QDR, n.d.). Preserving the qualitative data could allow for easier access to data for longitudinal studies by multiple research teams that currently may be difficult to complete. In addition, sharing qualitative data can allow for a deeper analysis with the ability to have more individuals study the data and provide additional insights (Elman and Kapiszewski, 2017). Finally, as long as deposited data is publically available, it could provide students and researchers learning how to analyze qualitative data a useful dataset to practice on and examine (Elman and Kapiszewski, 2017).
 
 Although there are benefits to sharing qualitative data through depositing it, there are also challenges. The primary one is that in the United States, data generated in the course of qualitative research is not broadly shared or deposited in repositories and researchers may not think about that possibility (QDR, n.d.). Numerous rounds of outreach to researchers conducting qualitative research may be necessary. This could range from letting them know that your repository accepts qualitative data to working with them to prepare their IRB submissions. If researchers express interest in depositing their data without planning for it when going through the ethics review process, they may run into difficulties.
 
+# Reproducibility, transparency, and maximizing reuse
+
+Criticisms of qualitative research have generally misunderstood the fundamental differences in philosophy, paradigm, and methods between quantitative and qualitative research. Creswell (2007) proposes that the ultimate goal of qualitative research is understanding (rather than producing generalizable knowledge). The ways in which the validity of qualitative research is evaluated depends on the role and perspective of the reader, participant, researcher, and other stakeholders. Rather than being judged by generalizable criteria, qualitative research is conducted with the assumption that the findings will be valid in some cases and less so in others. According to Lincoln & Guba (1985), the terminology used to describe validity for quantitative research should not be applied to the naturalistic approach taken in qualitative studies. Instead, they propose the use of terms such as credibility, authenticity, transferability, dependability, and confirmability. A more recent list comes from a synthesis of validation approaches by Whittemore, Chase, and Mandle (2001), who found four primary criteria: credibility, criticality, authenticity, and integrity. Creswell (2007) describes eight strategies for supporting validation as a process: prolonged engagement and persistent observation in the field; triangulation (of data sources, methods, investigators, and theories); peer review or debriefing for an external check; negative case analysis; clarifying researcher bias from project inception; member checking; rich, thick description to allow readers to make decisions about transferability; and external audits. He recommends that qualitative researchers use at least two of these strategies in any given study.
+
+The concept of reproducibility is based on a positivistic approach to research. It is defined as the ability to produce the same results when given the same data and methods. Replicability is a related concept which focuses on obtaining the same results when applying the same methods to a different sample or dataset. In contrast to quantitative research, rigor in qualitative research is based on transparency, credibility, reliability, comparability, and reflexivity (Saumure & Given, 2008). The validity, or credibility, of a qualitative study depends upon the selection of methods suitable for the research question, rigorous methods for gathering and analyzing multiple sources of high-quality data, and the researchers self-awareness of their assumptions, biases, and influence upon the study (Patton, 1999). Reliability in a study suggests that similar results would be obtained using similar participants and research methods. For a study to be comparable, researchers need to ensure that all voices in that study are represented. Reflexivity describes the work of the researcher to identify and report how they may have influenced the results. Transparency is an overarching issue in qualitative research. Saumure & Given (2008) describe it as “clarity in describing the research process”, while Hiles (2008) takes a more expansive view. However, both emphasize the importance of transparency with respect to the process, rather than the findings. Transparency requires researchers to provide a comprehensive description of their process, or an audit trail, that allows for evaluation of the suitability of the method for the research question and replication by others.
+
+Characteristics of qualitative research include a natural setting, the researcher as a key instrument, multiple sources of data, inductive data analysis, consideration of participant meaning, emergent design, a theoretical lens, use of interpretive inquiry, and a holistic account. In particular, curators should keep in mind that the design of qualitative research is emergent, rather than strictly defined to test a priori hypotheses. As such, documentation of the design is crucial for those who want to evaluate or extend the research, or reuse the data.
+
+# Why readme files are important for qualitative data
+
+A well-documented project is crucial for ensuring transparency and reproducibility in qualitative research. Replication data, which includes the raw data, codebooks, and other components required for the original analysis, allow other researchers to replicate and confirm the results of the study.
+
+Research transparency has three dimensions: data, analytic, and production transparency (Moravcsik 2014). In short:
+- Data transparency ensures the access of data to other researchers as appropriate.
+- Analytic transparency requires providing clear guidelines on how the data were analyzed.
+- Production transparency necessitates access to the methods by which particular bodies of cited evidence, arguments, and methods were selected.
+
+When describing the data, analysis, and project, it is important to have robust description that covers the following:
+
+
+
+# Example qualitative datasets and sample citations
+
+
+
+
+# Workflow based on the Data Curation Network CURATED steps
+
+Use this guide along with other primers, such as the Human Subjects Data Essentials Primer and Curation of Data Collected via Informed Consent, to determine the best next steps for your repository and institution. You can ensure you have completed a job-well-done with the Data Curation Network’s CURATE checklist:
 
 
 
@@ -144,6 +163,7 @@ Although there are benefits to sharing qualitative data through depositing it, t
 
 
 
+# Bibliography
 
 
 
