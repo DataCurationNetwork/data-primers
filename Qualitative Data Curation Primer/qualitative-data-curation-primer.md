@@ -95,7 +95,54 @@ This is not an exhaustive list of considerations, but every potential repository
 - Persistence -- Will the repository be able to provide a persistent and unique identifier for your data?
 - Preservation -- Some repositories are preservation focused and may require strict compliance with their regulations. Are there any format restrictions on what the repository will accept? Are there strict metadata standards you must comply with? If preservation is crucial, do they have a contingency plan in the event they must suspend service? Have they received certification from any national or international agencies?
 - Costs -- Many repositories have a cost-recovery model in place for deposits, particularly for largedatasets. Does the repository charge for upload or maintenance of the data? If so, is there funding vailable to cover these expenses?
-- Access -- Can your data be made openly accessible? Do you need to restrict access to part or all of the ata? Do you need to add collaborators as “Editors” to the data? Do you need to have usage statistics racked? If so, can the repository provide that information?
+- Access -- Can your data be made openly accessible? Do you need to restrict access to part or all of the Data? Do you need to add collaborators as “Editors” to the data? Do you need to have usage statistics tracked? If so, can the repository provide that information?
+
+In addition to the above requirements, consider how the data and any publication records, such as presentations and articles, will be linked together regardless of where the content is stored. If the publisher will store both the data and the publication, consider storing a backup copy of the data in another repository that is publicly available, such as an institutional repository.
+
+# Steps & Tools for Reuse of Qualitative Data
+
+Moravcsik (2014), a political scientist, describes three dimensions of research transparency:
+- Production transparency, which grants readers access to information about the methods by which particular bodies of cited evidence, arguments, and methods were selected from among the full body of possible choices.
+-     Strategies include a Data Management Plan, documentation throughout the study, and organizing with the goal of sharing and reuse (even if by you alone).
+- Analytic transparency, which assures readers access to information about data analysis. This entails the precise interpretive process by which an author infers that evidence supports a specific descriptive, interpretive, or causal claim.
+- Data access, which affords readers access to the evidence or data used to support empirical research claims.
+
+Enabling reuse involves both technical actions (i.e., converting proprietary or rare file formats to common, open standard file formats) as well as judgment calls that are specific to the context of the project. For example, selecting file formats recommended by the Library of Congress (https://www.loc.gov/preservation/resources/rfs/) can enable both access in the future and access by those using different software and hardware.
+
+# Benefits and challenges of sharing qualitative data
+
+While qualitative data can help explain phenomena and describe the world, it doesn’t have the same history of
+preservation and sharing that quantitative data does (Qualitative Data Repository [QDR], n.d.). Because of this,
+researchers may not consider depositing their data once their research projects are completed, and if they do,
+researchers and curators may have difficulties preparing the data for deposit.
+
+Similar to the sharing of quantitative data, sharing qualitative data provides numerous benefits for researchers.
+As will be discussed later on in this primer, the increased trust and transparency and ability to reuse the data
+are among the key benefits to sharing qualitative data. Encouraging researchers to deposit their files could aid
+in the preservation of the data, rather than having them be disposed of once the particular research project has
+been completed (QDR, n.d.). Preserving the qualitative data could allow for easier access to data for
+longitudinal studies by multiple research teams that currently may be difficult to complete. In addition, sharing
+qualitative data can allow for a deeper analysis with the ability to have more individuals study the data and
+provide additional insights (Elman and Kapiszewski, 2017). Finally, as long as deposited data is publically aailable, it could provide students and researchers learning how to analyze qualitative data a useful dataset to practice on and examine (Elman and Kapiszewski, 2017).
+
+Although there are benefits to sharing qualitative data through depositing it, there are also challenges. The primary one is that in the United States, data generated in the course of qualitative research is not broadly shared or deposited in repositories and researchers may not think about that possibility (QDR, n.d.). Numerous rounds of outreach to researchers conducting qualitative research may be necessary. This could range from letting them know that your repository accepts qualitative data to working with them to prepare their IRB submissions. If researchers express interest in depositing their data without planning for it when going through the ethics review process, they may run into difficulties.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
