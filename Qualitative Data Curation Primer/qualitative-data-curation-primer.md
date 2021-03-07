@@ -24,36 +24,37 @@ Related DCN Primers:
 | Structure | Projects are often exported as packages of files to be loaded into other qualitative data software. |
 | Primary fields or areas of use | Qualitative data is used by many different disciplines for a wide-variety of reasons, ranging from literature review to analyzing themes in interviews, datasets, images, and audiovisual materials. Common disciplines tend to be the social sciences, but many different fields could use these tools for qualitative or mixed methods research. <br>  <ul><li> Humanities </li> <li> Social Sciences: Political Science, Sociology </li> <li> Health Sciences: Public Health, Nursing, Health Services </li> <li> Qualitative or mixed-method researchers </li></ul> |
 | Source and affiliation  | There are open-source and proprietary software options. <br> Proprietary: Nvivo (software) <br> ATLAS.ti (software) <br> Dedoose (browser based) <br> Open Source: <br> [qcoder](https://github.com/ropenscilabs/qcoder) (an R library for qualitative analysis of text) <br> [RQDA](http://rqda.r-forge.r-project.org/) (an R package for qualitative analysis of plain text) <br> [Taguette](https://www.taguette.org/) (open source qualitative analysis program that works on Windows, Mac, and Linux computers, as well as in-browser) |
-| Software exchange standards  | The REFI-QDA Standard : <https://www.qdasoftware.org/> QuDEX - The Qualitative Data Exchange Schema (QuDEx). [Used by UK Data Archive](https://www.data-archive.ac.uk/sharing-best-practice/metadata-and-data-discovery/metadata-standards/) DDI Standard: [pdf](https://ddialliance.org/sites/default/files/AQualitativeDataModelForDDI.pdf) |
+| Software exchange standards  | The REFI-QDA Standard : <https://www.qdasoftware.org/> QuDEX - The Qualitative Data Exchange Schema (QuDEx). [Used by UK Data Archive](https://www.data-archive.ac.uk/sharing-best-practice/metadata-and-data-discovery/metadata-standards/) DDI Standard: [pdf](https://ddialliance.org/sites/default/files/AQualitativeDataModelForDDI.pdf)<sup>1</sup> |
 | Key questions for curation review | <ul><li> What is the minimal level of documentation (e.g., codebook, node structure, etc.) required to accept this deposit in your repository? </li> <li> Which software was used? Which version of the software? Has this been recorded in the readme? </li> <li> Has the file been exported in a proprietary format or open source (e.g., in ATLAS.ti, one can export as an atlproj or an open source qualitative data format)? </li> <li> Which types of source formats were used for analysis (e.g., text, image, A/V, etc.)? </li> <li> Are there any potentially sensitive or protected data, including personally identifiable information? </li> <li> If the data have been anonymized, is there a record of what has been redacted or changed? </li> <li> Does the project include associated information, including codebook(s)? </li> <li> What contextual information about the coding and analytical process is crucial for the evaluation and interpretation of the published findings? </li></ul> |
 | Tools for curation review  | Original software used to create the project, spreadsheet or text editor. |
 | Date Created  | October 2020 |
 | Created by  | Diana Castillo, Heather Coates, Mikala Narlock |
 | Date updated and summary of changes made  |  |
 
+<p  id="note1"><sup>1</sup> ATLAS.ti primer </p>
 
 # Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:undetermined orderedList:0 -->
 
 - [Scope](#Scope)
-- [What is Qualitative Data?](#What-is-Qualitative-Data?)
-- [Files needed for curation of a qualitative dataset](#Files-needed-for-curation-of-a-qualitative-dataset)
-- [Selecting an appropriate data repository](#Selecting-an-appropriate-data-repository)
-- [Steps & Tools for Reuse of Qualitative Data](#Steps-Tools-for-Reuse-of-Qualitative-Data)
-- [Benefits and challenges of sharing qualitative data](#Benefits-and-challenges-of-sharing-qualitative-data)
-- [Reproducibility, transparency, and maximizing reuse](#Reproducibility-transparency-and-maximizing reuse)
-- [Why readme files are important for qualitative data](#Why-readme-files-are-important-for-qualitative-data)
-- [Example qualitative datasets and sample citations](#Example-qualitative-datasets-and-sample-citations)
-- [Workflow based on the Data Curation Network CURATED steps](#Workflow-based-on-the-Data-Curation-Network-CURATED-steps)
--   [C-Check](#CCheck)
--   [U-Understand](#UUnderstand)
--   [R-Request](#RRequest)
--   [A-Augment](#AAugment)
--   [T-Transform](#TTransform)
--   [E-Evaluate](#EEvaluate)
--   [D-Document](#DDocument)
-- [Bibliography](#Bibliography)
+- [What is Qualitative Data?](#what-is-Qualitative-Data?)
+- [Files needed for curation of a qualitative dataset](#files-needed-for-curation-of-a-qualitative-dataset)
+- [Selecting an appropriate data repository](#selecting-an-appropriate-data-repository)
+- [Steps & Tools for Reuse of Qualitative Data](#steps-tools-for-reuse-of-qualitative-data)
+- [Benefits and challenges of sharing qualitative data](#benefits-and-challenges-of-sharing-qualitative-data)
+- [Reproducibility, transparency, and maximizing reuse](#reproducibility-transparency-and-maximizing reuse)
+- [Why readme files are important for qualitative data](#why-readme-files-are-important-for-qualitative-data)
+- [Example qualitative datasets and sample citations](#example-qualitative-datasets-and-sample-citations)
+- [Workflow based on the Data Curation Network CURATED steps](#workflow-based-on-the-data-curation-network-curated-steps)
+-   [C-Check](#ccheck)
+-   [U-Understand](#uunderstand)
+-   [R-Request](#rrequest)
+-   [A-Augment](#aaugment)
+-   [T-Transform](#ttransform)
+-   [E-Evaluate](#eevaluate)
+-   [D-Document](#ddocument)
+- [Bibliography](#bibliography)
 
 <!-- /TOC -->
 
@@ -101,7 +102,7 @@ In addition to the above requirements, consider how the data and any publication
 
 Moravcsik (2014), a political scientist, describes three dimensions of research transparency:
 - Production transparency, which grants readers access to information about the methods by which particular bodies of cited evidence, arguments, and methods were selected from among the full body of possible choices.
--     Strategies include a Data Management Plan, documentation throughout the study, and organizing with the goal of sharing and reuse (even if by you alone).
+    -	 Strategies include a Data Management Plan, documentation throughout the study, and organizing with the goal of sharing and reuse (even if by you alone).
 - Analytic transparency, which assures readers access to information about data analysis. This entails the precise interpretive process by which an author infers that evidence supports a specific descriptive, interpretive, or causal claim.
 - Data access, which affords readers access to the evidence or data used to support empirical research claims.
 
@@ -132,7 +133,7 @@ Research transparency has three dimensions: data, analytic, and production trans
 - Analytic transparency requires providing clear guidelines on how the data were analyzed.
 - Production transparency necessitates access to the methods by which particular bodies of cited evidence, arguments, and methods were selected.
 
-When describing the data, analysis, and project, it is important to have robust description that covers the following:
+When describing the data, analysis, and project, it is important to have robust description that covers the following<sup>2</sup>:
 
 - Data level transparency descriptive information should include:
     -	 Metadata schema applicable/used in this dataset
@@ -169,6 +170,8 @@ When describing the data, analysis, and project, it is important to have robust 
 - Sample template readme files
     -	 https://data.research.cornell.edu/content/readme
     -	 https://dataworks.iupui.edu/themes/DataWorks/txt/IUPUI-DataWorks_ReadmeTemplate.txt
+
+<p  id="note1"><sup>2</sup> This information can be stored in a readme or a related publication; however, ensure there are sufficient connections between the two. </p>
 
 # Example qualitative datasets and sample citations
 
@@ -210,7 +213,9 @@ Use this guide along with other primers, such as the Human Subjects Data Essenti
 
 ❏ Understand the type(s) of data submitted and whether they were analyzed using qualitative methods or tools (QDAS).
 - ❏  Try opening the QDAS files if possible
+
 ❏ Refer to the documentation (i.e., codebook, hierarchy of nodes) for the coding or tagging schema
+
 ❏ Consult the methods as described in the funding proposal, manuscript, or other documentation to understand how the data were generated, coded, and analysed.
 
 ## R-Request
@@ -222,7 +227,9 @@ Use this guide along with other primers, such as the Human Subjects Data Essenti
 
 ❏ Augment metadata for findability
 - ❏ Work with the depositor to create a readme file that contains project information, a file directory, information about data sources
+
 ❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data. (See (Human Subjects Data Essentials Primer)[https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Subjects%20Data%20Essentials%20Data%20Curation%20Primer/human-subjects-data-essentials-data-curation-primer.md])
+
 ❏ If the readme was created by the depositor, check for the elements listed above (See “Why readme files are important for qualitative data”)
 
 ## T-Transform
@@ -256,30 +263,27 @@ Use this guide along with other primers, such as the Human Subjects Data Essenti
 
 # Bibliography
 
-About the Qualitative Data Repository | Qualitative Data Repository. (n.d.). Retrieved March 24, 2020, from
-https://qdr.syr.edu/about
-Corti, L. (2018, July 5). Show me the data: Research reproducibility for qualitative methods. NCRM Research
-Methods Festival, University of Bath.
-Creswell, J. W. (2007). Qualitative inquiry & research design: Choosing among five approaches (2nd Edition).
-Sage Publications.
-Elman, C., & Kapiszewski, D. (2017, August 9). Benefits and Challenges of Making Qualitative Research More
-Transparent. Inside Higher Ed.
+About the Qualitative Data Repository | Qualitative Data Repository. (n.d.). Retrieved March 24, 2020, from https://qdr.syr.edu/about
+
+Corti, L. (2018, July 5). Show me the data: Research reproducibility for qualitative methods. NCRM Research Methods Festival, University of Bath.
+
+Creswell, J. W. (2007). Qualitative inquiry & research design: Choosing among five approaches (2nd Edition). Sage Publications.
+
+Elman, C., & Kapiszewski, D. (2017, August 9). Benefits and Challenges of Making Qualitative Research More Transparent. Inside Higher Ed.
 https://www.insidehighered.com/blogs/rethinking-research/benefits-and-challenges-making-qualitative-r
 esearch-more-transparent
-Flick, U. (2014). Mapping the field. In Flick, U. The SAGE handbook of qualitative data analysis (pp. 3-18).
-London: SAGE Publications Ltd doi: 10.4135/9781446282243
-Flick, U. (2018). Doing qualitative data collection – charting the routes. In Flick, U. The sage handbook of
-qualitative data collection (pp. 3-16). London: SAGE Publications Ltd doi: 10.4135/9781526416070
-Hiles, D. R. (2008). Transparency. In The Sage encyclopedia of qualitative research methods. Sage.
-https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n467
-Lincoln, Y. S. & Guba, E. G. (1985). Naturalistic inquiry. Beverly Hills, CA: Sage.
-Moravcsik, A. (2014). Transparency: The Revolution in Qualitative Research. PS: Political Science & Politics,
-47(1), 48–53. https://doi.org/10.1017/S1049096513001789
-OpenAIRE: How to select a data repository? https://www.openaire.eu/opendatapilot-repository-guide
-Patton, M. Q. (1999). Enhancing the quality and credibility of qualitative analysis. Health Services Research,
-34(5 Pt 2), 1189–1208.
-Saumure, K. & Given. L. M. (2008). Rigor in Qualitative Research. In The Sage encyclopedia of qualitative
-research methods. Sage. https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n409
+
+Flick, U. (2014). Mapping the field. In Flick, U. The SAGE handbook of qualitative data analysis (pp. 3-18). London: SAGE Publications Ltd doi: 10.4135/9781446282243
+
+Flick, U. (2018). Doing qualitative data collection – charting the routes. In Flick, U. The sage handbook of qualitative data collection (pp. 3-16). London: SAGE Publications Ltd doi: 10.4135/9781526416070
+
+Hiles, D. R. (2008). Transparency. In The Sage encyclopedia of qualitative research methods. Sage. https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n467
+
+Lincoln, Y. S. & Guba, E. G. (1985). Naturalistic inquiry. Beverly Hills, CA: Sage. Moravcsik, A. (2014). Transparency: The Revolution in Qualitative Research. PS: Political Science & Politics, 47(1), 48–53. https://doi.org/10.1017/S1049096513001789
+
+OpenAIRE: How to select a data repository? https://www.openaire.eu/opendatapilot-repository-guide Patton, M. Q. (1999). Enhancing the quality and credibility of qualitative analysis. Health Services Research, 34(5 Pt 2), 1189–1208.
+
+Saumure, K. & Given. L. M. (2008). Rigor in Qualitative Research. In The Sage encyclopedia of qualitative research methods. Sage. https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n409
 
 
 
