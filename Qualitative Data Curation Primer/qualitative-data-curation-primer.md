@@ -134,10 +134,61 @@ Research transparency has three dimensions: data, analytic, and production trans
 
 When describing the data, analysis, and project, it is important to have robust description that covers the following:
 
+- Data level transparency descriptive information should include:
+    -	 Metadata schema applicable/used in this dataset
+    -	 Parameters and/or variables used
+    -	 Column headings for tabular data
+    -	 Codes or symbols used to record missing data
+    -	 Other specialized formats, abbreviations, or symbols used.
+    -	 Retention information: How long should the data be preserved? Is there a funder requirement?
+    -	 Instruments used in collecting or analyzing data. Include software version information when applicable.
+
+- Analytic level transparency descriptive information should include:
+    -	 Research design and methodology
+    -	 Codebook and other analytic tools
+    -	 Particular information about software utilized, including which version(s).
+    -	 Theoretical framework
+    -	 Levels of coding for analysis
+
+- Production level transparency descriptive information should include:
+    -	 Project history, aims, objective, and hypotheses
+    -	 Structure of data files and relationships between
+    -	 Data confidentiality, access, and licenses
+    -	 Related publications, presentations, or other research outputs
+    -	 Any modifications made over time
+
+- Other study level descriptive information might include:
+    -	 Project name, funding agency, grant award number(s).
+    -	 Every investigator’s name, institutional affiliation, role, and ID (e.g., ORCID)
+    -	  Be clear on how the study operated: what were the distinct roles and responsibilities? Is there a distinction between research and authorship in the citation or acknowledgements?
+    -	 Right information (i.e., appropriate license information)
+
+- Potential Metadata standards to consider:
+    -	 DDI -- The Data Documentation Initiative
+
+- Sample template readme files
+    -	 https://data.research.cornell.edu/content/readme
+    -	 https://dataworks.iupui.edu/themes/DataWorks/txt/IUPUI-DataWorks_ReadmeTemplate.txt
+
 # Example qualitative datasets and sample citations
 
+- Data for: Exploring sources of insecurity for Ethiopian Oromo and Somali women who have given birth in Kakuma Refugee Camp: A qualitative study (https://data.qdr.syr.edu/dataset.xhtml?persistentId=doi:10.5064/F62T7NYQ)
+    -	 Sample citation: Lalla, Amber. 2020. "Data for: Exploring sources of insecurity for Ethiopian Oromo and Somali women who have given birth in Kakuma Refugee Camp: A qualitative study". Qualitative Data Repository. https://doi.org/10.5064/F62T7NYQ. QDR Main Collection. V1. UNF:6:DkftR3RiyRnPMueLJQX1jg== [fileUNF]
 
+- Magdalene Oral History Project (https://repository.dri.ie/catalog/dn39x152w)
+    -	 Sample citation: O'Donnell, Katherine, Pembroke, Sinead, & McGettrick, Claire. (2015) Magdalene Oral History collection, Digital Repository of Ireland [Distributor], Irish Qualitative Data Archive [Depositing Institution], https://doi.org/10.7486/DRI.dn39x152w
 
+- World Within Walls collection (https://repository.dri.ie/catalog/5999vb192)
+    -	 Sample citation: Health Service Executive. (2015) World Within Walls collection, Digital Repository of Ireland [Distributor], Irish Qualitative Data Archive [Depositing Institution], https://doi.org/10.7486/DRI.5999vb192
+
+- Data for: When do the dispossessed protest? Informal leadership and mobilization in Syrian refugee camps (https://doi.org/10.5064/F6CN723S)
+    -	 Sample citation: Clarke, Killian B. 2018. "Data for: When do the dispossessed protest? Informal leadership and mobilization in Syrian refugee camps". Qualitative Data Repository. https://doi.org/10.5064/F6CN723S. QDR Main Collection.
+
+- Data for: Authoritarian apprehensions: Ideology, judgment, and mourning in Syria (https://doi.org/10.5064/F63776W4)
+    -	 Sample citation: Wedeen, Lisa. 2019. "Data for: Authoritarian apprehensions: Ideology, judgment, and mourning in Syria". Qualitative Data Repository. https://doi.org/10.5064/F63776W4. QDR Main Collection. V1. UNF:6:xRWn9II/O2ynGGA55KH+OQ== [fileUNF]
+
+- Fifty Victorian Era Novelists Authorship Attribution Data (http://dx.doi.org/10.7912/D2N65J)
+    -	 Sample citation: Gungor, A. (2018). Fifty Victorian Era Novelists Authorship Attribution Data. IUPUI University Library. http://dx.doi.org/10.7912/D2N65J
 
 # Workflow based on the Data Curation Network CURATED steps
 
@@ -185,10 +236,10 @@ Use this guide along with other primers, such as the Human Subjects Data Essenti
 
 ❏ Evaluate for FAIRness (See evaluation tools at https://fairshake.cloud/rubric/8/assessments/ or https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/)
 - ❏ Evaluate the record to ensure the data is Findable, Accessible, Interoperable, and Reusable. For qualitative data, the focus should be on exporting as much contextual information about how the inquiry process was conducted and using accessible file formats.
--   ❏ Findable - Ensure the dataset is described with relevant metadata, including an abstract; assign a DOI; choose an appropriate repository to make the data available.
--   ❏ Accessible - This varies depending on the file formats; refer back to transform point about using common, openly defined file formats
--   ❏ Interoperable - Source files should be in common, openly defined file formats, but project files will likely be proprietary; link to related publication(s) when possible; use a formal, accessible, and applicable vocabulary to describe the dataset.
--   -   ❏ Reusable - Highly dependent on the documentation; source data may be reusable even if the process cannot entirely be replicated; a clear and accessible data usage license is specified in the metadata and readme; documentation should include provenance of original source data.
+    -	 ❏ Findable - Ensure the dataset is described with relevant metadata, including an abstract; assign a DOI; choose an appropriate repository to make the data available.
+    -	 ❏ Accessible - This varies depending on the file formats; refer back to transform point about using common, openly defined file formats
+    -	 ❏ Interoperable - Source files should be in common, openly defined file formats, but project files will likely be proprietary; link to related publication(s) when possible; use a formal, accessible, and applicable vocabulary to describe the dataset.
+    -	 ❏ Reusable - Highly dependent on the documentation; source data may be reusable even if the process cannot entirely be replicated; a clear and accessible data usage license is specified in the metadata and readme; documentation should include provenance of original source data.
 
 ## D-Document
 
@@ -205,7 +256,30 @@ Use this guide along with other primers, such as the Human Subjects Data Essenti
 
 # Bibliography
 
-
+About the Qualitative Data Repository | Qualitative Data Repository. (n.d.). Retrieved March 24, 2020, from
+https://qdr.syr.edu/about
+Corti, L. (2018, July 5). Show me the data: Research reproducibility for qualitative methods. NCRM Research
+Methods Festival, University of Bath.
+Creswell, J. W. (2007). Qualitative inquiry & research design: Choosing among five approaches (2nd Edition).
+Sage Publications.
+Elman, C., & Kapiszewski, D. (2017, August 9). Benefits and Challenges of Making Qualitative Research More
+Transparent. Inside Higher Ed.
+https://www.insidehighered.com/blogs/rethinking-research/benefits-and-challenges-making-qualitative-r
+esearch-more-transparent
+Flick, U. (2014). Mapping the field. In Flick, U. The SAGE handbook of qualitative data analysis (pp. 3-18).
+London: SAGE Publications Ltd doi: 10.4135/9781446282243
+Flick, U. (2018). Doing qualitative data collection – charting the routes. In Flick, U. The sage handbook of
+qualitative data collection (pp. 3-16). London: SAGE Publications Ltd doi: 10.4135/9781526416070
+Hiles, D. R. (2008). Transparency. In The Sage encyclopedia of qualitative research methods. Sage.
+https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n467
+Lincoln, Y. S. & Guba, E. G. (1985). Naturalistic inquiry. Beverly Hills, CA: Sage.
+Moravcsik, A. (2014). Transparency: The Revolution in Qualitative Research. PS: Political Science & Politics,
+47(1), 48–53. https://doi.org/10.1017/S1049096513001789
+OpenAIRE: How to select a data repository? https://www.openaire.eu/opendatapilot-repository-guide
+Patton, M. Q. (1999). Enhancing the quality and credibility of qualitative analysis. Health Services Research,
+34(5 Pt 2), 1189–1208.
+Saumure, K. & Given. L. M. (2008). Rigor in Qualitative Research. In The Sage encyclopedia of qualitative
+research methods. Sage. https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n409
 
 
 
