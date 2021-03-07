@@ -134,8 +134,6 @@ Research transparency has three dimensions: data, analytic, and production trans
 
 When describing the data, analysis, and project, it is important to have robust description that covers the following:
 
-
-
 # Example qualitative datasets and sample citations
 
 
@@ -145,21 +143,65 @@ When describing the data, analysis, and project, it is important to have robust 
 
 Use this guide along with other primers, such as the Human Subjects Data Essentials Primer and Curation of Data Collected via Informed Consent, to determine the best next steps for your repository and institution. You can ensure you have completed a job-well-done with the Data Curation Network’s CURATE checklist:
 
+## C- Check
 
+❏ Completion of Consent Form Assessment
+❏ Screen files to ensure that no sensitive data is included (See (Human Subjects Data Essentials Primer)[https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Subjects%20Data%20Essentials%20Data%20Curation%20Primer/human-subjects-data-essentials-data-curation-primer.md])
+❏ Check for the following necessary files (and link to above list of recommended files)
+- ❏ Original source data, when possible, and as long as it is de-identified
+- ❏ Processed data (e.g., transcripts), if applicable
+- ❏ Codebook
+- ❏ Readme
+- ❏ Instrument for data collection (e.g., survey, interview, etc), if applicable
+- ❏ Documentation generated in the Qualitative Data Analysis Software (QDAS) application (e.g., Nvivo, atlas.TI, etc.): memos, notes, networks, classifications
 
+## U- Understand
 
+❏ Understand the type(s) of data submitted and whether they were analyzed using qualitative methods or tools (QDAS).
+- ❏  Try opening the QDAS files if possible
+❏ Refer to the documentation (i.e., codebook, hierarchy of nodes) for the coding or tagging schema
+❏ Consult the methods as described in the funding proposal, manuscript, or other documentation to understand how the data were generated, coded, and analysed.
 
+## R-Request
 
+❏ Request missing information or changes
+- ❏  Consult with the depositor to discuss what minimal documentation is necessary for others to evaluate and reuse the dataset (see the Curation Checklist section above)
 
+## A-Augment
 
+❏ Augment metadata for findability
+- ❏ Work with the depositor to create a readme file that contains project information, a file directory, information about data sources
+❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data. (See (Human Subjects Data Essentials Primer)[https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Subjects%20Data%20Essentials%20Data%20Curation%20Primer/human-subjects-data-essentials-data-curation-primer.md])
+❏ If the readme was created by the depositor, check for the elements listed above (See “Why readme files are important for qualitative data”)
 
+## T-Transform
 
+❏ Transform file formats for reuse
+- ❏ Many QDAS are proprietary, so interoperability between them is not expected. See the software-specific primers (i.e., (Atlas.ti)[https://github.com/DataCurationNetwork/data-primers/blob/master/Atlas.ti%20Data%20Curation%20Primer/AtlasTI-data-curation-primer.md], (NVivo)[https://github.com/DataCurationNetwork/data-primers/blob/master/NVivo%20Data%20Curation%20Primer/NVivo-data-curation-primer.md]) for guidance in extracting key information from QDAS.
+- ❏ When the original source files are not available or are in proprietary formats, consider exporting them to common, openly defined file formats.
+- ❏ When possible, convert files into open-definition, common file formats based on the recommendations from the Library of Congress: https://www.loc.gov/preservation/resources/rfs/RFS%202019-2020.pdf.
 
+## E-Evaluate
 
+❏ Evaluate for FAIRness (See evaluation tools at https://fairshake.cloud/rubric/8/assessments/ or https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/)
+- ❏ Evaluate the record to ensure the data is Findable, Accessible, Interoperable, and Reusable. For qualitative data, the focus should be on exporting as much contextual information about how the inquiry process was conducted and using accessible file formats.
+-   ❏ Findable - Ensure the dataset is described with relevant metadata, including an abstract; assign a DOI; choose an appropriate repository to make the data available.
+-   ❏ Accessible - This varies depending on the file formats; refer back to transform point about using common, openly defined file formats
+-   ❏ Interoperable - Source files should be in common, openly defined file formats, but project files will likely be proprietary; link to related publication(s) when possible; use a formal, accessible, and applicable vocabulary to describe the dataset.
+-   -   ❏ Reusable - Highly dependent on the documentation; source data may be reusable even if the process cannot entirely be replicated; a clear and accessible data usage license is specified in the metadata and readme; documentation should include provenance of original source data.
 
+## D-Document
 
-
-
+❏ Document (the curation process)
+- ❏  The files received - the original data and any documentation provided
+- ❏  Transformations - what files were transformed
+- ❏  Provenance of original source data
+- ❏  Embargo protocols, if applicable
+- ❏  Controlled sharing protocols, if applicable
+- ❏  Correspondence with depositor (may need to define the scope; limit to those contained within specific systems?)
+- ❏  Evaluation of FAIRness (find link to the rubric, if it exists)
+- ❏  Repository record information (i.e., handle/PURL, metadata, etc.)
+- ❏  Any additional requirements at repository in question
 
 # Bibliography
 
