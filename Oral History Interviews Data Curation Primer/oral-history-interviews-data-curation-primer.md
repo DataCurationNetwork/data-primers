@@ -27,15 +27,15 @@ _This work was created as part of the “Specialized Data Curation” Workshop #
 
 [Workflow](#workflow)
 
->> Ethical issues
+>> [Ethical issues](##ethical-issues)
 
->> Documentation
+>> [Documentation](##documentation)
 
->> Applicable metadata standards, core elements, and readme requirements
+>> [Applicable metadata standards core elements and readme requirements](##applicable-metadata-standards-core-elements-and-readme-requirements)
 
->> Technical issues
+>> [Technical issues](##technical-issues)
 
->> Check Files
+>> [Check Files](##check-files)
 
 [What to look for to make sure this file meets FAIR principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)
 
@@ -97,7 +97,7 @@ A model for better data analysis and curation with respect to oral histories inv
 
 See also: Appendix 2 - filetype CURATED checklist
 
-# Ethical issues
+## Ethical issues
 
 Oral histories are not defined as human subjects research by the [Federal Common Rule](https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html), but some institutions do require Institutional Review Board (IRB) review and approval. Beyond regulatory concerns, there are also a number of ethical issues to be considered given the potential for personal and personally-identifying information to be made publicly available as part of the data in an oral history project. The key questions to ask as you look at the documentation and files are:
 
@@ -115,7 +115,7 @@ Oral histories are not defined as human subjects research by the [Federal Common
 
 7. Have the participants given approval for the release of the archival version of their interview? (post-review consent) 
 
-# Documentation
+## Documentation
 
 If there is insufficient documentation included to answer these questions, you should check with the researcher to confirm the answers and work to include this documentation. Consent may be given verbal (oral consent); Oral consents should include (at minimum): (Source: Cornell IRB template)
 
@@ -130,7 +130,7 @@ If there is insufficient documentation included to answer these questions, you s
   - Participant allowed to ask questions
   - Statement of interviewer asking participant that they agree to be recorded
   
-# Applicable metadata standards, core elements, and readme requirements:
+## Applicable metadata standards core elements and readme requirements
 
 See also: Appendix 1 - Best Practices: Pre-production, Production, Post-production
 Oral history data are broader than a specific file type or set of technical standards, and the types of metadata that you will want to be checking for are somewhat broad and related in several cases to ethical and technical considerations given above:
@@ -166,7 +166,7 @@ Oral history data are broader than a specific file type or set of technical stan
 
 - Information about ownership and copyright, especially the nature of the consent given by the interviewee.
 
-# Technical issues
+## Technical issues
 
 While oral histories typically include the audio or audio-visual recordings, transcripts are often the data that are the most useful for the purposes of reuse, such as text mining, and can be encoded most easily in open file types that are robust over time. Some projects will choose to only archive the transcripts and have agreements with their interviewees to delete any audio/video artifacts (see Ethical issues above). Some key questions to ask as you look over the files and documentation are:
 
@@ -191,7 +191,7 @@ While oral histories typically include the audio or audio-visual recordings, tra
 
 - In particular, it is important to know if this dataset is part of an existing collection if there are further interviews planned, and in either of these cases, who the current dataset is expected to fit into a larger collection.
 
-# Check Files
+## Check Files
 
 Once you have confirmed the above it is now time to inventory the files and make sure you have original, unaltered versions of your oral history collection.
 
