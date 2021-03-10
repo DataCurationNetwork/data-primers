@@ -471,7 +471,7 @@ For researchers interested in the acoustic linguistic properties of the data, Pr
 
 These platforms provide an enhanced and structured environment that organizes information longitudinally through time both in their relationships with each other and through the ability to navigate within the files or content themselves beyond static web pages and standalone repositories that essentially provide basic viewers or file downloads. Well structured metadata, including transcriptions, support the discovery, access, and preservation of oral histories.
 
-### Unresolved issues/further questions beyond the scope of primer
+### Unresolved issues further questions beyond the scope of primer
 
 - The granularity of metadata at collection, item and file levels
 - Data Storage: Data protection, Confidential or restricted data, Collaboration (mutually accessible location), Volume of data
