@@ -27,15 +27,15 @@ _This work was created as part of the “Specialized Data Curation” Workshop #
 
 [Workflow](#workflow)
 
->> [Ethical issues](##ethical-issues)
+>> [Ethical issues](#ethical-issues)
 
->> [Documentation](##documentation)
+>> [Documentation](#documentation)
 
->> [Applicable metadata standards core elements and readme requirements](##applicable-metadata-standards-core-elements-and-readme-requirements)
+>> [Applicable metadata standards core elements and readme requirements](#applicable-metadata-standards-core-elements-and-readme-requirements)
 
->> [Technical issues](##technical-issues)
+>> [Technical issues](#technical-issues)
 
->> [Check Files](##check-files)
+>> [Check Files](#check-files)
 
 [What to look for to make sure this file meets FAIR principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)
 
