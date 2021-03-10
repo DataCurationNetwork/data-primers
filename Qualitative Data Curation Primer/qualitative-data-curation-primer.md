@@ -43,7 +43,7 @@ Related DCN Primers:
 - [Selecting an appropriate data repository](#selecting-an-appropriate-data-repository)
 - [Steps & Tools for Reuse of Qualitative Data](#steps-tools-for-reuse-of-qualitative-data)
 - [Benefits and challenges of sharing qualitative data](#benefits-and-challenges-of-sharing-qualitative-data)
-- [Reproducibility, transparency, and maximizing reuse](#reproducibility-transparency-and-maximizing reuse)
+- [Reproducibility, transparency, and maximizing reuse](#reproducibility-transparency-and-maximizing-reuse)
 - [Why readme files are important for qualitative data](#why-readme-files-are-important-for-qualitative-data)
 - [Example qualitative datasets and sample citations](#example-qualitative-datasets-and-sample-citations)
 - [Workflow based on the Data Curation Network CURATED steps](#workflow-based-on-the-data-curation-network-curated-steps)
