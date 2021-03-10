@@ -370,6 +370,119 @@ Captioning oral histories has become standard in order to reach the public who a
 
 # Resources and References
 
+Blood, G. (2018). Refining Conversion Contract Specifications: Determining Suitable Digital Video Formats for Medium-term Storage. Fort Washington, PA: George Blood LP. Retrieved from https://www.georgeblood.com/
+
+Boyd, D. (2012). Informed Accessioning: Questions to Ask After the Interview. Retrieved from Oral History in the Digital: http://ohda.matrix.msu.edu/2015/03/informed-accessioning-questions-to-ask-after-the-interview/
+
+Carton, B., & Vis, L. (2008). Doing Oral History. (P. Denis, & R. Ntsimane, Eds.) Oral History in a Wounded Country: Interactive Interviewing in South Africa.
+
+Dunaway, D. K., & Baum, W. K. (1996). Oral History: An Interdisciplinary Anthology (Vol. 2). AltaMira Press.
+
+Frisch, M., & Lambert, D. (2012). Mapping Approaches To Oral History Content Management in The Digital Age. Retrieved from Oral History in the Digital Age: http://ohda.matrix.msu.edu/2012/07/mapping/
+
+Froh, G. (2007). Making Sense of Metadata: A Practical Overview for Oral Historians. Retrieved from https://www.slideshare.net/GeoffFroh/oha-2008-making-sense-of-metadata-a-practical-overview-for-oral-historians-presentation
+
+High, S., & Sworn, D. (2009). After the Interview: The Interpretive Challenges of Oral History Video Indexing. Digital Studies/le Champ Numérique, 1(2). doi:http://doi.org/10.16995/dscn.110
+
+International Association of Sound and Audiovisual Archives. (n.d.). Guidelines on the Production and Preservation of Digital Audio Objects (web edition). Retrieved from 3.8 Structural Metadata – METS: https://www.iasa-web.org/tc04/structural-metadata-mets
+
+Jones, S. (2018). A brief guide to using the software ELAN. LEARN Nagoya.
+
+Library of Congress AV Prototype Coordinator. (2003). AV Prototype Project. Retrieved from Explanation: DigiProv (Digital Provenance) Extension Schema: http://www.loc.gov/rr/mopic/avprot/DD_PMD.html
+
+Library of Congress. (n.d.). METS Example Documents. Retrieved from Standards: http://www.loc.gov/standards/mets/mets-examples.html
+
+Maze, E. A. (2012). Metadata: Best Practices for oral History Access and Preservation - Oral History in the Digital Age. Retrieved from http://ohda.matrix.msu.edu/2012/06/metadata/
+
+Oral History Association and the Minnesota Historical Society. (n.d.). Best Practices. Retrieved from Oral History Assciation: https://www.oralhistory.org/best-practices/#_edn1
+
+Shah, I. (2019). Oral History and Heritage Conservation. Bengaluru, India: INTACH Bengaluru.
+
+Tandon, A., Slomska, A., Opoku-Boateng, J., & Abbazia, D. (Eds.). (n.d.). Unlocking the Sound and Image Heritage - Selected readings from the International 2015 SOIMA Conference. doi:10.18146/soima2015
+
+Technical Committee - International Association of Sound and AudioVisual Archives. (2018, March). Guidelines for the Preservation of Video Recordings. IASA-TC 06(1).
+
+The National Recording Preservation Board. (2010). The State of Recorded Sound Preservation in the United States: A National Legacy at Risk in the Digital Age. Washington, D.C.: Council on Library and Information Resources and The Library of Congress.
+
+Uchefuna, C., & Carline, K. (2019). Data Curation · Oral History Methods. Michigan State University, Lab for the Education and Advancement in Digital Research (LEADR). Retrieved December 20, 2019, from http://projects.leadr.msu.edu/oralhistorymethods/curation
+
+Vos, J. (2012). New Roots: An Oral History Metadata Case Study at the University of North Carolina at Chapel Hill. Retrieved from Oral History in the Digital Age: http://ohda.matrix.msu.edu/2015/10/new-roots-an-oral-history-metadata-case-study-at-the-university-of-north-carolina-at-chapel-hill/
+
+# Appendix 2 - filetype CURATED checklist
+
+The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps https://datacurationnetwork.org/resources/resources-2/.
+
+**Check files and read documentation**
+
+- Files open as expected
+- Review metadata and available documentation
+
+**Understand the data**
+
+**Request missing information or changes**
+
+**Augment metadata for findability**
+
+- Enhance metadata for findability.
+  - metadata standards will vary depending on whether the oral history is in the form of an audio file, a video file, or just a text transcript. for video and audio pbcore is ideal. for text only, dublincore. other metadata standards to layer on top might include premis (for preservation metadata), and DACS.
+  - Link to related collection information, finding aid, context of data
+
+**Transform file formats for reuse**
+
+- Preferred file formats (non-proprietary)
+- Retain original formats
+- If special/proprietary software is needed, list name and version
+- ADA compliance considerations
+
+**Evaluate for FAIRness** 
+
+- taking into account FAIR principles as described in section “What to look for to make sure this file meets FAIR principles”.
+
+**Document**
+
+- Remember to record actions taken during the curation process.
+- Curator’s log
+- Communications with data submitter
+- Changes made to files and or metadata
+
+# Appendix 3- Additional Resources
+
+### General References
+
+[Oral History processing Manuel](https://drive.google.com/file/d/0Bzm6OcJO9sNxUngtcXBxYWp0bFlpTFR3ck5wdEJTV0VKdlg4/view)
+
+[Archiving Oral History: Manuel for best practices](https://www.oralhistory.org/archives-principles-and-best-practices-complete-manual/)
+
+[Oral History in the digital age - best practices](http://wiki.ohda.matrix.msu.edu/index.php/Best_Practices)
+
+[Oral History methods - data curation](http://projects.leadr.msu.edu/oralhistorymethods/curation)
+
+[Oral History Association](https://www.oralhistory.org)
+
+### Interacting and Using Oral Histories
+
+If the researcher is looking for something other than a data repository deposit, there are some options:
+
+[Oral History Metadata Synchronizer](http://nunncenter.org/ohms-info/) - Kentucky is an example of a platform that is both a “back-end, **web-based application** where interviews are imported, and metadata is created” as well as a viewer or **user interface** to experience and interact with the data. The system requests content from a digital repository and loads the content into the viewer and aligns the transcription based on time-stamped metadata. The metadata serves multiple purposes including discovery, identification, and time alignment. 
+
+Another platform that is both a traditional digital repository and an exhibit viewer for oral histories is [Omeka](https://omeka.org). For example [Curatescape](https://curatescape.org) a web and mobile app framework built on top of Omeka, presents oral histories in context with community stories. Curatescape/Omeka is designed for “small to mid-sized cultural organizations, preservation groups, or educational institutions an opportunity to reclaim their interpretive voice and reconnect to their communities and audiences.” ([source](https://curatescape.org/about/))
+
+For researchers interested in the acoustic linguistic properties of the data, Praat is a commonly used application for acoustic visualization and analysis. ([http://www.fon.hum.uva.nl/praat/](http://www.fon.hum.uva.nl/praat/))
+
+These platforms provide an enhanced and structured environment that organizes information longitudinally through time both in their relationships with each other and through the ability to navigate within the files or content themselves beyond static web pages and standalone repositories that essentially provide basic viewers or file downloads. Well structured metadata, including transcriptions, support the discovery, access, and preservation of oral histories.
+
+### Unresolved issues/further questions beyond the scope of primer
+
+- The granularity of metadata at collection, item and file levels
+- Data Storage: Data protection, Confidential or restricted data, Collaboration (mutually accessible location), Volume of data
+- Origin stories
+- Ephemeral nature of oral histories: Paradigms shifts and institutional missions may necessitate re-evaluations of ownership. If and when this happens, documentation about decisions must be cumulative and transparent.
+- Transfer of collections: transitions are vulnerable moments, and steps should be taken so that all accompanying documentation and information “travels” with oral histories in order to preserve provenance and context.
+- Processing handwritten notes
+- Detailed information on intellectual property
+- Metadata aggregation: organizing metadata into a form that allows cross-searching and interoperability
+
+
 
 
 # Publication in progress. Thanks for your patience!
