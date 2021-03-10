@@ -228,7 +228,7 @@ Frisch, M. (2016). Oral History in the Digital Age: Beyond the Raw and the Cooke
 
 Oliver, K., & Oliver, K. (n.d.). Michael Frisch: “Oral History in the Digital Age.” Humanities Truck. Retrieved February 21, 2020, from [http://humanitiestruck.com/michael-frisch/](http://humanitiestruck.com/michael-frisch/)
 
-# Appendix 1 - Best Practices: Pre-production, Production, Post-production
+# Appendix 1 Best Practices: Pre-production, Production, Post-production
 
 ### Suggested Best Practices
 
@@ -408,7 +408,7 @@ Uchefuna, C., & Carline, K. (2019). Data Curation · Oral History Methods. Michi
 
 Vos, J. (2012). New Roots: An Oral History Metadata Case Study at the University of North Carolina at Chapel Hill. Retrieved from Oral History in the Digital Age: http://ohda.matrix.msu.edu/2015/10/new-roots-an-oral-history-metadata-case-study-at-the-university-of-north-carolina-at-chapel-hill/
 
-# Appendix 2 - filetype CURATED checklist
+# Appendix 2 filetype CURATED checklist
 
 The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps https://datacurationnetwork.org/resources/resources-2/.
 
@@ -445,7 +445,7 @@ The following CURATED checklist model is based on the Digital Curation Network�
 - Communications with data submitter
 - Changes made to files and or metadata
 
-# Appendix 3- Additional Resources
+# Appendix 3 Additional Resources
 
 ### General References
 
