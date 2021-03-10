@@ -152,5 +152,224 @@ Oral history data are broader than a specific file type or set of technical stan
   - Time Code (legacy, digitization) identification and [Sidecar](https://en.wikipedia.org/wiki/Sidecar_file) file merge. (Also useful for descriptive metadata purposes)
 - Include migration dates of files and corresponding software/hardware.
 
+### Descriptive metadata
+
+- These metadata cover the information describing the interview itself, the persons present, as well as keywords and other content information
+- Annotations may be included as a separate but integral element of descriptive metadata. Annotations provide context and aid discovery of conceptual elements that may be represented in a transcript but not directly stated. For example, a subject may refer to difficulties faced during a specific experience or throughout their lifetime that include topics such as “civil rights'' or “gentrification” without actually using those specific terms. Time-stamped annotations hold significant value particularly for long-form recordings or histories as they aid discovery.
+
+### Preservation metadata
+
+- Information about the physical condition of the recording, and any copies that have been made of it. You may need to record this metadata when you make multiple backup copies.
+- Record file migrations and reformatting, such as transformation from obsolete formats. Note the use of obsolete hardware and software, to determine accessibility issues. 
+
+### Rights and access metadata
+
+- Information about ownership and copyright, especially the nature of the consent given by the interviewee.
+
+# Technical issues
+
+While oral histories typically include the audio or audio-visual recordings, transcripts are often the data that are the most useful for the purposes of reuse, such as text mining, and can be encoded most easily in open file types that are robust over time. Some projects will choose to only archive the transcripts and have agreements with their interviewees to delete any audio/video artifacts (see Ethical issues above). Some key questions to ask as you look over the files and documentation are:
+
+#### Is there a transcript included in an open file type?
+
+- TEI is an open standard for human/machine-readable transcriptions of speech [https://tei-c.org/](https://tei-c.org/) and is an ideal format for these data, but plain text or PDF/A may be used instead. 
+
+#### If audio or video data are included:
+
+- To view files: The [VLC media player](https://www.videolan.org/vlc/index.html) by the VideoLan project and non-profit organization can be downloaded and installed on Windows, Linux, Mac OS, iOS, and other platforms. VLC is a free and open-source cross-platform multimedia player and framework that plays most multimedia files and can also play DVDs, Audio CDs, VCDs, and various streaming protocols. 
+
+- **What sizes and formats are used?**
+  - Ideally, this data should be in an open format (e.g. WAV, FLAC, AIFF, MP3, MOV, MPEG, AVI, MP4). However, due to the diverse nature of recording devices, storage practices, and local infrastructure, they may be in a compressed format (e.g. TAR, GZIP, ZIP), in which case there is important technical information that should be included in the documentation (see below). 
+
+- **Has there been a transfer from one medium to another?**
+  - If so, ideally there should be a transfer notes document that details the procedures taken.
+
+- **Is the quality of audio and/or video acceptable?**
+  - (See Appendix 1 for oral history production best practices.)
+
+#### What is the context of this specific oral history dataset?
+
+- In particular, it is important to know if this dataset is part of an existing collection if there are further interviews planned, and in either of these cases, who the current dataset is expected to fit into a larger collection.
+
+# Check Files
+
+Once you have confirmed the above it is now time to inventory the files and make sure you have original, unaltered versions of your oral history collection.
+
+- Inventory and assess files by reviewing documentation and looking at file folders from original storage. Can you open and access the files? Do they match inventory lists and other documentation? Ask yourself if the file names match, do you have any conflicts such as similar file names or are they using special characters or non-descriptive file names which could inhibit retrieval or software interaction.
+- Perform preservation actions such as fixity checks. You may have specific workflows and archival processes to follow based on institutional policy or guidance. However, at a minimum you can run a basic checksum request and log the resulting hashes for files you are managing against their original sources. The checksum log can be kept as a form of metadata and used for periodic checks to ensure durability and long term fixity. 
+- Prepare for long term storage and access as appropriately determined by steps 3.1 to 3.4. Audio/video files, transcriptions, supplementary materials, and metadata should be backed up onto a sustainably managed, trusted storage option, such as institution-supported storage or a cloud-based service. If managing your own back-up solution, you would ideally create two back-up copies stored in separate physical locations.
+
+To learn more about software for interacting with Oral Histories and considerations for preparing them for future re-use and aggregation/discovery see: Appendix 3 - Additional Resources Interacting and Using Oral Histories 
+
+# What to look for to make sure this file meets FAIR principles
+
+Producing consistent findable, accessible, interactive, and reusable oral histories is largely reliant on robust metadata and transcriptions. Users rely on oral history transcription to analyze, organize, and mine information. Machine learning becomes difficult without a transcription produced either mechanically (via algorithm) or by a human. Therefore a curator should request access to both the audio/visual files with the textual representation of the recordings, along with any supporting materials such as evidence of permissions, rights, and reuse statements (See Appendix 2).
+
+# Documentation of curation process: What do you capture from curation process
+
+#### “Curator’s log”
+
+- Original data/files
+- Changes made to data/files
+- Original metadata
+- Changes/additions to metadata
+- Accompanying finding aids links
+- Correspondence with researcher/submitter
+
+#### Rights statement/ licensing
+
+# Bibliography
+
+Data Curation · Oral History Methods. (n.d.). Retrieved March 2, 2020, from [http://projects.leadr.msu.edu/oralhistorymethods/curation](http://projects.leadr.msu.edu/oralhistorymethods/curation)
+
+Oral History: Defined. (n.d.). Oral History Association. Retrieved March 2, 2020, from [https://www.oralhistory.org/about/do-oral-history/ ](https://www.oralhistory.org/about/do-oral-history/)
+
+Frisch, M. (2016). Oral History in the Digital Age: Beyond the Raw and the Cooked. Australian Historical Studies, 47(1), 92–107. [https://doi.org/10.1080/1031461X.2015.1122073](https://doi.org/10.1080/1031461X.2015.1122073)
+
+Oliver, K., & Oliver, K. (n.d.). Michael Frisch: “Oral History in the Digital Age.” Humanities Truck. Retrieved February 21, 2020, from [http://humanitiestruck.com/michael-frisch/](http://humanitiestruck.com/michael-frisch/)
+
+# Appendix 1 - Best Practices: Pre-production, Production, Post-production
+
+### Suggested Best Practices
+
+When preparing an oral history for future research and curation it is important to follow the suggested guidelines which will assist data curators, researchers, and patrons, access the information in an efficient, thorough manner. The three components of oral history packaging are preproduction, production, and post production. Oral historians should give extensive attention to each component at the start of any oral history project. Appendix 1 presents guidelines for how to conduct and package an oral history regardless of analog or digital format for future curation projects as well as long-term preservation management. 
+
+### Preproduction
+
+In the early stages of creating an oral history it is important to plan the project to properly sustain the materials for long-term accessibility and retrievability. The steps listed will help guide the preproduction elements. 
+
+**Intention of interview** 
+
+What is the purpose of the oral history? Who is your audience? What research has been conducted to prepare for oral history? Are there additional skills or individuals that might assist with preparing for the oral history?
+
+**Design** 
+
+What are the time limits (extent) of the oral history? What is the location of the oral history recording? Are proper labels developed for storage devices? How many copies of the recording are needed at the time of creation (will a storage device leave with the interviewee?) How is the noise level at the location? Has there been a test recording at the time of day the interview will be created?
+
+**Repository** 
+Does the repository hold enough space for the entirety of the oral history project including: preservation master, access master, access copy? Does the repository along with project goals and standards?
+
+- Data storage and backup storage consideration
+- Data protection internal repository external storage (encryption, permissions, embargo acknowledgement applies)
+
+**Survey** 
+
+Are there existing materials on the subject in the collection and have they been linked to the new recording? Is there more or less information that needs to be gathered?
+
+**Rights** 
+
+Has a rights statement been read to the interviewee? What are the limits of the rights (literary, royalties, embargo limit)? The rights statement and permission form will include:
+
+- Check in at interview and again when making publically available
+- Rights Declaration
+- Rights Holder Name
+- Rights Holder Contact Designation
+- Rights Holder Contact (address, phone, email)
+
+**Script**
+
+Coded/transcribed – Preproduction requires a prepared script which will allow for a concise framework for continuity, effect, and subject matter relativity. The script also allows for a robust transcription reference guide. 
+
+**Metadata basics**
+
+What metadata should be collected? What standards will be applied? What are the most immediate fields for your project and for long-term accessibility? Are future formats considered?
+
+**Suggested metadata schemas:**
+
+[TEI (Text Encoding Initiative)]() 
+
+Guideline for encoding machine-readable (in the fields of humanities and social sciences). Used to describe the structural hierarchies, divisions, and characteristics of a given file (audio/video). 
+
+[PBCore](http://pbcore.org/elements)
+
+Public Broadcasting Metadata Dictionary (PBCore) is made up of elements, which can be organized into three main groups: Root Elements, Asset Elements, Instantiation Elements. Elements are a way to structure information based on what type of information it is. PBCore is designed for born digital formats, particularly for technical metadata.
+
+[METS](https://www.iasa-web.org/tc04/structural-metadata-mets)
+
+Metadata Encoding and Transmission Standard identified the structural metadata found in audio/video file formats. METS is a “wrapper” with a number of elements which provide a hierarchical structure for oral history files.
+
+**Notes**
+
+Notes taken preproduction, during production, and postproduction, need a formal structure with proper metadata applied, headers considered, and possible tags which will assist future curation and research retrievability. Transcription notes need to be assigned proper structure. 
+
+### Production
+
+When Preproduction components have been formally structured the next phase, Production, will include components to ensure the files and formats, edits, and file types/size/extent, are interoperable and packaged effectively for future accessibility. These components include:
+
+**Recording methods/equipment/transition**
+
+Video or audio or both (permission for use of all). Assemblage of devices, methods, and software, are essential to the oral history file accessibility. Referring to the Design step in Preproduction, the setting of the recording has been tested for quality and production. Assembling the proper equipment will entail: lighting, recording devices, notes (electronic or analog), formal sequencing, and editing software usability. 
+
+Does the recording need to be broadcast quality?
+
+- It is best practice to record at the highest available quality that is standard, unedited, and uncompressed.
+
+**Suggested hardware:**
+
+- **Marantz PMD-661** – Digital recorder with high capacity and sensitive built in microphone. Studio grade with security methods included (password and encryption). External microphones and external storage can be attached. 
+- **Zoom H4N PRO Digital Multitrack Recorder** - Professional grade preamps installed. Sensitive microphone and availability to attached external hardware.
+- **Tascam DR-100 Interview Kit** – Includes high quality recording device with ultra-sensitive microphones built in. Also includes, external microphone, headphones, AC adapter, and microphone stands. 
+- **SanDisk Memory Cards** (Preservation card and access card for backup or for ease of transfer to personal devices)
+- **Panasonic 4K Ultra HD Video Camera Camcorder HC-VX981K** – Ultra HD capability. High quality microphone included. Digital stabilization included. Zoom lens and lighting filters included. 
+- **Canon Vixia HF R300 and HF R700** – High quality video with built in microphones. Long recording times. Zoom lens and external lenses that can be attached.
+
+**Metadata/physical/structural**
+
+Defining metadata schemas and markup language decided in the Preproduction phase serves as a guideline for formal application in the Production phase. Specific metadata schemas (at minimum) will include:
+
+- **Descriptive:** the information describing the interview itself, the persons present, as well as keywords and other content information
+- **Administrative:** any information about an institution that holds the interviews. This is significant if you are collecting oral history in partnership with a university or other institution. 
+- **Preservation:** information about the physical condition of the recording, and any copies that have been made of it. You may need to record this metadata when you make multiple backup copies. This also includes Provenance Metadata (original file format specifications). Signal Metadata- Raw VBI Interface – This includes noting the gaps or error gaps in the sequence of lines of an analog video signal.
+- **Technical:** information about the “physical and technical properties of the digital object.” This means the file type and size of your recording, or information about which devices you used to record it.
+- **Rights and access:** information about ownership and copyright, especially the nature of the consent given by the interviewee.
+
+### Examples of Metadata Use
+
+Milne, A. (1992, February 2). Interview by J.A. Pryse and Rachel Jinks [Tape recording]. Oklahoma History Publication Society Oral History Program, Oklahoma History Publication Society. Special Collections, Mulhall, OK.
+
+![](OralHistory_7.jpeg)
+
+![](OralHistory_8.jpeg)
+
+![](OralHistory_9.jpeg)
+
+![](OralHistory_10.jpeg)
+
+![](OralHistory_11.jpeg)
+
+### Postproduction  
+
+After the Production phase has been completed and preservation file formats have been properly stored, Postproduction tasks create the opportunity to create accessible data for public or private use. The Postproduction phase includes transcription processes and data collection for discoverability within the repository catalog and online digital database.
+
+**Transcription Metadata**
+
+This means data about the transcription. This includes the service, hardware and software applied, but also, detailed information within the transcription that should be noted for discoverability. 
+
+**Closed Captions**
+
+Captioning oral histories has become standard in order to reach the public who are deaf, hard of hearing, or speak English as a second language.
+
+![](OralHistory_12.jpeg)
+
+![](OralHistory_13.jpeg)
+
+### Notable Oral History Programs
+
+**University of North Texas Oral History Program**
+
+- Sara Wilson and Todd Moye, OH Curators and Archivists
+- The UNT OHP office handles the interviewing/transcribing/hard copy publishing stage of our oral history collection. [https://oralhistory.unt.edu](https://oralhistory.unt.edu)
+- The UNT OHP collaborate with Special Collections and largely with Digital Library Services for their archives, digitization, preservation and metadata services of the collection. [https://digital.library.unt.edu/about/digital-library/policies/](https://digital.library.unt.edu/about/digital-library/policies/)
+- [UNT ORAL HISTORY PROGRAM GUIDELINES](https://www.dropbox.com/sh/m1j4tryhipvhpqd/AACw4n4w5_twi2n-G6tHAtsea?dl=0)
+
+**Oklahoma State University Oral History Program**
+
+- Patrick Daglaris and Sarah Milligan, OH Archivists
+- [OSU OH Program follows the Best Practices Guide](https://www.oralhistory.org/archives-principles-and-best-practices-complete-manual/). The OHA also has an active Metadata Task Force that has been working on analyzing current practices in the field and developing a metadata rubric for oral history, among other things.
+- [O-STATE Stories](https://dc.library.okstate.edu/digital/collection/ostate/search/cosuppress/), a project of the Oklahoma Oral History Research Program, chronicles the rich history, heritage and traditions of Oklahoma State University.  People, places and events unfold through personal and compelling narratives of alumni, students, faculty and friends.  Memories captured forever on audio and video recordings powerfully portray the significant contributions of OSU and its alumni to society and speak of the individual and shared experiences of current and former students.
+
+# Resources and References
+
+
 
 # Publication in progress. Thanks for your patience!
