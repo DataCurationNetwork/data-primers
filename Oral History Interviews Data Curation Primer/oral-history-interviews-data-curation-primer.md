@@ -482,7 +482,3 @@ These platforms provide an enhanced and structured environment that organizes in
 - Detailed information on intellectual property
 - Metadata aggregation: organizing metadata into a form that allows cross-searching and interoperability
 
-
-
-
-# Publication in progress. Thanks for your patience!
