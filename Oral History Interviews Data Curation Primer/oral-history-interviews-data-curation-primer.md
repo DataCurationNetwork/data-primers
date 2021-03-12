@@ -83,7 +83,7 @@ A model for better data analysis and curation with respect to oral histories inv
 
 # Workflow
 
-![](OralHistory_6.jpeg)
+![](OralHistory_Revised6.jpeg)
 
 1. Consider Ethical obligations. Verify if these files can be shared. Are there ethical or legal restrictions limiting curation, sharing, and preservation? Do we have all the appropriate documentation? 
 
