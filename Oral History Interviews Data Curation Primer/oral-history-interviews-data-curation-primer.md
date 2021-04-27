@@ -133,7 +133,8 @@ If there is insufficient documentation included to answer these questions, you s
 ## Applicable metadata standards core elements and readme requirements
 
 See also: Appendix 1 - Best Practices: Pre-production, Production, Post-production
-Oral history data are broader than a specific file type or set of technical standards, and the types of metadata that you will want to be checking for are somewhat broad and related in several cases to ethical and technical considerations given above:
+
+Oral history data are broader than a specific file type or set of technical standards, and the types of metadata that you will want to be checking for are somewhat broad and related in several cases to ethical and technical considerations given above. The Oral History Association provides [a set of metadata tools] (https:/oha.archipelago.nyc) and resources, including a full list of metadata elements and an online tool to create a customized element set. Key metadata elements for curation are included here below:
 
 ### Administrative metadata:
 
@@ -456,6 +457,8 @@ The following CURATED checklist model is based on the Digital Curation Networkâ€
 [Oral History in the digital age - best practices](http://wiki.ohda.matrix.msu.edu/index.php/Best_Practices)
 
 [Oral History methods - data curation](http://projects.leadr.msu.edu/oralhistorymethods/curation)
+
+[Oral History metadata toolkit] (https://oha.archipelago.nyc)
 
 [Oral History Association](https://www.oralhistory.org)
 
