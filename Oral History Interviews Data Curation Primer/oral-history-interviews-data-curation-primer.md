@@ -134,7 +134,7 @@ If there is insufficient documentation included to answer these questions, you s
 
 See also: Appendix 1 - Best Practices: Pre-production, Production, Post-production
 
-Oral history data are broader than a specific file type or set of technical standards, and the types of metadata that you will want to be checking for are somewhat broad and related in several cases to ethical and technical considerations given above. The Oral History Association provides [a set of metadata tools] (https:/oha.archipelago.nyc) and resources, including a full list of metadata elements and an online tool to create a customized element set. Key metadata elements for curation are included here below:
+Oral history data are broader than a specific file type or set of technical standards, and the types of metadata that you will want to be checking for are somewhat broad and related in several cases to ethical and technical considerations given above. The Oral History Association provides [a set of metadata tools](https:/oha.archipelago.nyc) and resources, including a full list of metadata elements and an online tool to create a customized element set. Key metadata elements for curation are included here below:
 
 ### Administrative metadata:
 
@@ -288,6 +288,8 @@ Public Broadcasting Metadata Dictionary (PBCore) is made up of elements, which c
 [METS](https://www.iasa-web.org/tc04/structural-metadata-mets)
 
 Metadata Encoding and Transmission Standard identified the structural metadata found in audio/video file formats. METS is a “wrapper” with a number of elements which provide a hierarchical structure for oral history files.
+
+[OHA Metadata for Oral History: An Interactive Toolkit](https://oha.archipelago.nyc)
 
 **Notes**
 
@@ -457,8 +459,6 @@ The following CURATED checklist model is based on the Digital Curation Network�
 [Oral History in the digital age - best practices](http://wiki.ohda.matrix.msu.edu/index.php/Best_Practices)
 
 [Oral History methods - data curation](http://projects.leadr.msu.edu/oralhistorymethods/curation)
-
-[Oral History metadata toolkit] (https://oha.archipelago.nyc)
 
 [Oral History Association](https://www.oralhistory.org)
 
