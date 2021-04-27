@@ -291,6 +291,8 @@ Metadata Encoding and Transmission Standard identified the structural metadata f
 
 [OHA Metadata for Oral History: An Interactive Toolkit](https://oha.archipelago.nyc)
 
+The Oral History Association (OHA) Metadata Task Force provides metadata tools and resources, including a metadata elements list, an interactive element-set building tool, and practitioner profiles in which oral historians describe the factors that guide their metadata decisions. 
+
 **Notes**
 
 Notes taken preproduction, during production, and postproduction, need a formal structure with proper metadata applied, headers considered, and possible tags which will assist future curation and research retrievability. Transcription notes need to be assigned proper structure. 
