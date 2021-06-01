@@ -44,7 +44,7 @@ Almost all the databases come with a Database Engine with a graphical user inter
 
 - MS SQL Server: https://www.microsoft.com/en-us/sql-server/default.aspx <br> Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.
 
--MySQL: https://www.mysql.com/ <br> MySQL is free and open-source software under the terms of the GNU General Public License and is also available under a variety of proprietary licenses. MySQL was owned and sponsored by the Swedish company MySQL AB, which was bought by Sun Microsystems (now Oracle Corporation). In 2010, when Oracle acquired Sun, the owner forked the open-source MySQL project to create MariaDB.
+- MySQL: https://www.mysql.com/ <br> MySQL is free and open-source software under the terms of the GNU General Public License and is also available under a variety of proprietary licenses. MySQL was owned and sponsored by the Swedish company MySQL AB, which was bought by Sun Microsystems (now Oracle Corporation). In 2010, when Oracle acquired Sun, the owner forked the open-source MySQL project to create MariaDB.
 
 - Oracle Database: https://www.oracle.com/database/ <br> Oracle Database is a proprietary multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online transaction processing, data warehousing and mixed database workloads.
 
