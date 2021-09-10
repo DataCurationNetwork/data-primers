@@ -1,6 +1,6 @@
 ![](DCNlogo.png)
 
-# Human Subjects Data Essentials
+# Human Participants Data Essentials
 
 ## Overview
 
