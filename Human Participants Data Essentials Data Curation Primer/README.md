@@ -23,8 +23,10 @@ _____________
 
 #### Summary of changes:
 
+- Includes a section on opportunities for curators to help spread awareness about consent issues to researchers
 - Update to language used in the document and the folder/file titles
-  - An explanation of why "human subjects" changed to "human participants" is provided in the summary section
-  - Previously gendered language is made more inclusive
+  - Change "subject" to "participant"
+  - An explanation of this change is provided in the summary section
+
 
 #### Date: 09/10/2021
