@@ -1,6 +1,6 @@
 #### Current Version:
 
-V1.0
+V2.0
 
 #### License:
 
@@ -18,10 +18,29 @@ _____________
 
 #### Please update the following fields with each contribution
 
-#### Version:
+#### Version: 
 
 #### Summary of changes:
 
-#### Date [mm/dd/yyyy]
+#### Date: [mm/dd/yyyy]
 
 Note: please add change date in descending order
+
+#### Version: 2.0
+
+#### Summary of changes:
+
+- updated for version 27.0 of SPSS
+- additional considerations for the format were added
+
+#### Date: 08/06/2020
+
+#### Contributors:
+
+- Renata Curty
+- Mara Sedlins
+- Jen Darragh
+
+#### Event information:
+
+These contributions were made as part of the Primer Hackathon at Data Curation Network's 2020 Virtual All Hands Meeting.
