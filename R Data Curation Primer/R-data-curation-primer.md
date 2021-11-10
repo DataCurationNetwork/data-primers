@@ -173,6 +173,14 @@ library(urltools)
 library(rgeolocate)
 ```
 
+##### Dependency management systems for R
+
+It is possible to encapsulate all dependencies in an environment using dependency management tools. These greatly simplify management of installed packages and their versions while keeping dependency list in plain text file in project directory.
+
+  - [renv](https://rstudio.github.io/renv/articles/renv.html)
+  - [packrat](https://rstudio.github.io/packrat/) - already integrated in RStudio IDE
+  - [checkpoint](https://rstudio.github.io/packrat/)
+
 ### Metadata Standards
 
 Metadata standards are not usual for most script submissions. Most programming languages do not have metadata standards in the way traditionally understood by librarians and data curators; however, the closest equivalents are coding conventions and standards within the language, and metadata standards for libraries or packages used to extend the language. The former are covered in the Styles for R section below. The latter may be found in any R package hosted on the official [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/) page​. These standards are not expected in a Good Enough Practices script submission, but if one were looking for R metadata standards, packages are a good place to start. 
