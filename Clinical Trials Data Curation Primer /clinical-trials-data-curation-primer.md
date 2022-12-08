@@ -364,5 +364,58 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 
 ## Bibliography
 
+Committee on Strategies for Responsible Sharing of Clinical Trial Data; Board on Health Sciences Policy; Institute of Medicine. (2015, April 20). Sharing Clinical Trial Data: Maximizing Benefits, Minimizing Risk.Washington (DC): National Academies Press (US); https://www.ncbi.nlm.nih.gov/books/NBK285993/
+
+Comprehensive Center for the Advancement of Scientific Strategies (COMPASS). (n.d.). Importance of Common Data Elements (CDEs). https://www.compass.fhcrc.org/compass/bin/tech/cdes.aspx
+
+
+
+Institute of Medicine of the National Academies. 2015. Sharing Clinical Trial Data: Maximizing benefits, minimizing risk. Washington, DC: The National Academies Press. https://doi.org/10.17226/18998
+
+International Committee of Medical Journal Editors. (n.d.). Clinical Trials. https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html
+
+International Committee of Medical Journal Editors. (n.d.). ICMJE Recommendations ("The Uniform Requirements").
+https://www.icmje.org/about-icmje/faqs/icmje-recommendations/
+
+International Committee of Medical Journal Editors. (2022, May). Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals. https://www.icmje.org/icmje-recommendations.pdf
+
+Miron, L., Gonçalves, R. S., & Musen, M. A. (2020). Obstacles to the reuse of study metadata in ClinicalTrials.gov. Scientific Data (Vol. 7, Issue 1). Springer Science and Business Media LLC. https://doi.org/10.1038/s41597-020-00780-z
+
+National Institutes of Health. (n.d.). Repositories for Sharing Scientific Data. 
+https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data 
+
+Raftery J, Young A, Stanton L, Milne, R, Cook A, Turner D, & Davidson, P. (2015, February). Chapter 2, Data quality and reporting in existing clinical trial registries: a review of existing databases. Clinical trial metadata: defining and extracting metadata on the design, conduct, results and costs of 125 randomised clinical trials funded by the National Institute for Health Research Health Technology Assessment programme. Southampton (UK): NIHR Journals Library; (Health Technology Assessment, No. 19.11.). https://www.ncbi.nlm.nih.gov/books/NBK274341/
+
+Scientific European Federation of Osteopaths. (2014, September 10). Different Types of Clinical Trials. https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/ 
+
+Taichman, D. B., Sahni, P., Pinborg, A., Peiperl, L., Laine, C., James, A., Hong, S.-T., Haileamlak, A., Gollogly, L., Godlee, F., Frizelle, F. A., Florenzano, F., Drazen, J. M., Bauchner, H., Baethge, C., & Backus, J. (2017). Data Sharing Statements for Clinical Trials: A Requirement of the International Committee of Medical Journal Editors. Annals of Internal Medicine (67)1, 63–65. American College of Physicians. https://doi.org/10.7326/m17-1028
+
+U.S. National Library of Medicine. (2022, June). How to Register Your Study. ClinicalTrials.gov. https://clinicaltrials.gov/ct2/manage-recs/how-register 
+
+U.S. National Library of Medicine. (2022, January). FDAAA 801 and the Final Rule - Other FDAAA 801 Requirements: NIH and FDA. ClinicalTrials.gov. https://clinicaltrials.gov/ct2/manage-recs/fdaaa#OtherFDAAA801Requirements
+
+U.S. National Library of Medicine. (2021, May). Why Should I Register and Submit Results? - Trial Registry Purposes and Benefits for Various Groups. ClinicalTrials.gov. https://clinicaltrials.gov/ct2/manage-recs/background 
+
+U.S. National Library of Medicine. (2019, March). Learn About Clinical Studies - Reasons for Conducting Clinical Studies. ClinicalTrials.gov. https://clinicaltrials.gov/ct2/about-studies/learn#ReasonsForConducting 
+
+U.S. National Library of Medicine. (2019, March). Learn About Clinical Studies - What is a Clinical Study? ClinicalTrials.gov. https://clinicaltrials.gov/ct2/about-studies/learn#WhatIs
+
+U.S. National Library of Medicine. (2018, March). About the Results Database. ClinicalTrials.gov. https://clinicaltrials.gov/ct2/about-site/results
+
+Vazquez, E., Gouraud, H., Naudet, F., Gross, C. P., Krumholz, H. M., Ross, J. S., & Wallach, J. D. (2021). Characteristics of available studies and dissemination of research using major clinical data sharing platforms. Clinical trials (London, England), 18(6), 657–666. https://doi.org/10.1177/17407745211038524
+
+Vivli. (n.d.). How Vivli meets the NIH ‘Desirable Characteristics for Data Repositories.’ https://vivli.org/about/nih-grei-project/nih-grei-project-desireable-characteristics/
+
+Wilkinson, M.D., Dumontier, M., Aalbersberg, I.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.W., Bonino da Silva Santos, L., Bourne, P.E., Bouwman, J., Brookes, A.J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds S., Evelo, C.T., Finkers, R., … Mons, B. “The FAIR Guiding Principles for scientific data management and stewardship." Scientific data 3.1 (2016): 1-9. https://doi.org/10.1038/sdata.2016.18
+
+World Health Organization. (n.d.). ICTRP Registry Network. https://www.who.int/clinical-trials-registry-platform/network
+
+World Health Organization. (n.d.). ICRTP Registry Network - Trial registration.
+https://www.who.int/clinical-trials-registry-platform/network/trial-registration
+
+World Health Organization (n.d.) International Clinical Trials Registry Platform (ICTRP). [](https://www.who.int/clinical-trials-registry-platform)
+
+World Health Organization (n.d.). WHO Trial Registration Data Set (Version 1.3.1). 
+[https://www.who.int/clinical-trials-registry-platform/network/who-data-set](https://www.who.int/clinical-trials-registry-platform/network/who-data-set)
 
 
