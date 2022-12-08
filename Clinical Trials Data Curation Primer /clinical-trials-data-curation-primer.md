@@ -31,29 +31,29 @@ Affiliate Contributors (external peer reviewers): Lisa Federer, Genevieve Millik
 
 # Table of Contents
 
-[Summary](#summary)<br>
- 
-[Introduction to Clinical Trials Data](#introduction-to-clinical-trials-data ) <br>
+[Summary](#summary)
 
-[Benefits of Sharing Clinical Trial Data](#benefits-of-sharing-clinical-trial-data) <br>
+[Introduction to Clinical Trials Data](#introduction-to-clinical-trials-data )
 
-[Potential Data Sharing Challenges](#potential-data-sharing-challenges)<br>
- 
-[Selecting a Repository](#selecting-a-repository) <br>
+[Benefits of Sharing Clinical Trial Data](#benefits-of-sharing-clinical-trial-data)
 
-[Clinical Trial Registration](#clinical-trial-registration) <br>
+[Potential Data Sharing Challenges](#potential-data-sharing-challenges)
 
-> [Why Is Trial Registration Important?](#why-is-trial-registration-important?) <br> [U.S. National Institutes of Health](#us-national-institutes-of-health) <br> [The World Health Organization ](#the-world-health-organization) <br> [International Committee of Medical Journal Editors](#international-committee-of-medical-journal-editors) <br> [Trial Registration Data Elements](#trial-registration-data-elements) <br> 
-[Core Metadata Elements and Documentation Requirements](#core-metadata-elements-and-documentation-requirements) <br>
+[Selecting a Repository](#selecting-a-repository)
 
-[Key Curation Considerations](#key-curation-considerations)<br>
-> [DCN CURATE(D) Steps](#dcn-curated-steps)<br> 
+[Clinical Trial Registration](#clinical-trial-registration)
 
-[Related Primers](#related-primers) <br>
+> [Why Is Trial Registration Important?](#why-is-trial-registration-important?) <br> [U.S. National Institutes of Health](#us-national-institutes-of-health) <br> [The World Health Organization ](#the-world-health-organization) <br> [International Committee of Medical Journal Editors](#international-committee-of-medical-journal-editors) <br> [Trial Registration Data Elements](#trial-registration-data-elements) <br> 
+[Core Metadata Elements and Documentation Requirements](#core-metadata-elements-and-documentation-requirements) <br> 
 
-[Helpful Resources](#helpful-resources)<br>
- 
-[Bibliography](#bibliography) <br>
+[Key Curation Considerations](#key-curation-considerations)
+>[DCN CURATE(D) Steps](#dcn-curated-steps)
+
+[Related Primers](#related-primers)
+
+[Helpful Resources](#helpful-resources)
+
+[Bibliography](#bibliography)
 
 
 # Summary
