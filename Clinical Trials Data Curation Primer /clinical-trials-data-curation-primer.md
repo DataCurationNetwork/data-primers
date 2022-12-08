@@ -32,7 +32,7 @@ Affiliate Contributors (external peer reviewers): Lisa Federer, Genevieve Millik
 # Table of Contents
 
 [Summary](#summary)<br>
-  
+ 
 [Introduction to Clinical Trials Data](#introduction-to-clinical-trials-data ) <br>
 
 [Benefits of Sharing Clinical Trial Data](#benefits-of-sharing-clinical-trial-data) <br>
@@ -43,12 +43,11 @@ Affiliate Contributors (external peer reviewers): Lisa Federer, Genevieve Millik
 
 [Clinical Trial Registration](#clinical-trial-registration) <br>
 
-> [Why Is Trial Registration Important?](#why-is-trial-registration-important?) <br> [U.S. National Institutes of Health](#us-national-institutes-of-health) <br> [The World Health Organization ](#the-world-health-organization) <br> [International Committee of Medical Journal Editors](#international-committee-of-medical-journal-editors) <br> [Trial Registration Data Elements](#trial-registration-data-elements) <br>
- 
+> [Why Is Trial Registration Important?](#why-is-trial-registration-important?) <br> [U.S. National Institutes of Health](#us-national-institutes-of-health) <br> [The World Health Organization ](#the-world-health-organization) <br> [International Committee of Medical Journal Editors](#international-committee-of-medical-journal-editors) <br> [Trial Registration Data Elements](#trial-registration-data-elements) <br> 
 [Core Metadata Elements and Documentation Requirements](#core-metadata-elements-and-documentation-requirements) <br>
 
 [Key Curation Considerations](#key-curation-considerations)<br>
-> [DCN CURATE(D) Steps](#dcn-curated-steps) <br> 
+> [DCN CURATE(D) Steps](#dcn-curated-steps)<br> 
 
 [Related Primers](#related-primers) <br>
 
@@ -347,21 +346,21 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 
 ## Related Primers
 
-<li> [Informed Consent Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) </li>
-<li> [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-identifiers-and-communicating-about-de-identification-with-a-depositor) </li>
-<li> [Qualitative Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Qualitative%20Data%20Curation%20Primer/qualitative-data-curation-primer.md#workflow-based-on-the-data-curation-network-curated-steps) </li>
-<li> [SPSS Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-A-Using-CURATE-with-SPSS-Data) </li> 
+- [Informed Consent Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) 
+- [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-identifiers-and-communicating-about-de-identification-with-a-depositor) 
+- [Qualitative Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Qualitative%20Data%20Curation%20Primer/qualitative-data-curation-primer.md#workflow-based-on-the-data-curation-network-curated-steps) 
+- [SPSS Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-A-Using-CURATE-with-SPSS-Data) 
 
 
 ## Helpful Resources
 
-<li> [ARX - Data Anonymization Tool](https://arx.deidentifier.org/): Full-featured freeware for statistical risk assessment and anonymization. Requires knowledge of techniques. </li>
-<li> [Selecting a Data Repository-NIH](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) </li>
-<li> [REDCap](https://www.project-redcap.org/) </li>
-<li> [TrialMaster](https://www.anjusoftware.com/trialmaster-edc) </li>
-<li> [Vivli](https://vivli.org/) </li>
-<li> [WHO Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries) </li>
-<li> [Data Management and Sharing Plan Guidance](https://osf.io/uadxr/), created by the U.S.-based librarian NIH DMSP Guidance Working Group </li>
+- [ARX - Data Anonymization Tool](https://arx.deidentifier.org/): Full-featured freeware for statistical risk assessment and anonymization. Requires knowledge of techniques. 
+- [Selecting a Data Repository-NIH](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) 
+- [REDCap](https://www.project-redcap.org/) 
+- [TrialMaster](https://www.anjusoftware.com/trialmaster-edc) 
+- [Vivli](https://vivli.org/) 
+- [WHO Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries) 
+- [Data Management and Sharing Plan Guidance](https://osf.io/uadxr/), created by the U.S.-based librarian NIH DMSP Guidance Working Group 
 
 
 ## Bibliography
