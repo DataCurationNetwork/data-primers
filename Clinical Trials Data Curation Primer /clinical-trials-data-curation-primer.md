@@ -63,9 +63,9 @@ This primer provides a basic foundation for what goes into evaluating data from 
 
 # Introduction to Clinical Trials Data
 
-Clinical trials data are a specific type of [human participant data](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md). This data is generated through a clinical study in which a new drug or medical approach is studied for therapeutic, preventative, or diagnostic uses on individuals; clinical studies and their data determine if these new drugs or medical approaches are deemed both safe and effective for people. [These studies] (https://clinicaltrials.gov/ct2/about-studies/learn#WhatIs) can also show researchers whether existing research is confirmed, if there are better approaches, or if there are potential harms to participants (U.S. National Library of Medicine, 2019, March).
+Clinical trials data are a specific type of [human participant data](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md). This data is generated through a clinical study in which a new drug or medical approach is studied for therapeutic, preventative, or diagnostic uses on individuals; clinical studies and their data determine if these new drugs or medical approaches are deemed both safe and effective for people. [These studies](https://clinicaltrials.gov/ct2/about-studies/learn#WhatIs) can also show researchers whether existing research is confirmed, if there are better approaches, or if there are potential harms to participants (U.S. National Library of Medicine, 2019, March).
 
-Clinical trials are a type of clinical study that takes a controlled approach to studying the effects of new medical devices and drugs, or new methods and behaviors for participants. Since these trials are introducing something new into the lives of participants, they are also called interventional studies. These are different from observational studies, which are a different type of clinical study that will not be covered in this primer. There are many different types of clinical trials such as open, single-blind, crossover, etc., and documentation and data will differ depending on the [type of clinical trial] (https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/).
+Clinical trials are a type of clinical study that takes a controlled approach to studying the effects of new medical devices and drugs, or new methods and behaviors for participants. Since these trials are introducing something new into the lives of participants, they are also called interventional studies. These are different from observational studies, which are a different type of clinical study that will not be covered in this primer. There are many different types of clinical trials such as open, single-blind, crossover, etc., and documentation and data will differ depending on the [type of clinical trial](https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/).
 
 ![](Clincal1.JPG)
 
@@ -73,13 +73,13 @@ Clinical trials are a type of clinical study that takes a controlled approach to
 
 Clinical trials data can include many different components of a research project. Over the course of the trial, an enormous amount of data and different types of data may be collected, “including individual participant data (i.e., raw data and the analyzable data set); metadata, or “data about the data” (e.g., protocol, statistical analysis plan, and analytic code); and summary-level data (e.g., summary-level results posted on registries, lay summaries, publications, and Clinical Study Reports)” (Institute of Medicine of the National Academies (IOM), 2015). With the exception of the raw data, most data outputs of the trial can be de-identified and shared. While each component is represented as a distinct item below, some data elements may overlap or be part of another.
 
-[**Individual Participant Data**]
+**Individual Participant Data**
 
-- Raw data: This is the source data for the project. It can be collected from instruments, images, narrative text, and other data collection processes. This data is typically not shared, as it often is protected, human participants data in a raw format. However, there are exceptions where raw data are shared via controlled access platforms such as [Vivli] (https://vivli.org/). In addition to requiring additional work to make the data computational, raw data can also be significantly larger and more difficult to store, process, and analyze. Raw data has the greatest potential for risk of participant identification.
+- Raw data: This is the source data for the project. It can be collected from instruments, images, narrative text, and other data collection processes. This data is typically not shared, as it often is protected, human participants data in a raw format. However, there are exceptions where raw data are shared via controlled access platforms such as [Vivli](https://vivli.org/). In addition to requiring additional work to make the data computational, raw data can also be significantly larger and more difficult to store, process, and analyze. Raw data has the greatest potential for risk of participant identification.
 
 - Analyzable dataset: After the trial is complete, the raw data will be processed, edited, and converted into an analyzable dataset. The analyzable dataset may include de-identified (anonymized) participant-level data. Typically the analyzable dataset has the most utility, as it has been cleaned for analysis, it is the most computational and usable. Additionally, many studies will only use a portion of the analyzable dataset in the analysis; sharing this data will allow unused data to be leveraged by other researchers. Careful documentation should be kept on how the raw data is converted into an analyzable form.
 
-[**Metadata and Trial Documentation**]
+**Metadata and Trial Documentation**
 
 - Trial protocol: When a trial is registered in an appropriate registry, investigators submit a trial protocol, which outlines how the data will be collected, processed, and analyzed, how participants will be recruited, and how consent will be collected. Informed consent language is also included in the trial protocol. As trials progress, the trial protocol may be adjusted. The first trial protocol, the final protocol, and a summary of changes all need to be submitted as part of the final data package.
 
@@ -87,11 +87,11 @@ Clinical trials data can include many different components of a research project
 
 - Analytic code: This is programming and statistical code(s) used to analyze the data. 
 
-- Codebook: A detailed document that describes how data has been entered and coded to ensure future reusability. For an advanced use case of codebook reuse see de Ridder and Beliën’s 2022 article, [The iCRF Generator: Generating interoperable electronic case report forms using online codebooks.] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7291075/) 
+- Codebook: A detailed document that describes how data has been entered and coded to ensure future reusability. For an advanced use case of codebook reuse see de Ridder and Beliën’s 2022 article, [The iCRF Generator: Generating interoperable electronic case report forms using online codebooks.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7291075/) 
 
-[**Summary-level data included in**]
+**Summary-level data included in**
 
-- Scholarly Outputs: These can be peer-reviewed articles published in academic journals that report on the study and key findings, [preprints] (https://www.ncbi.nlm.nih.gov/pmc/about/nihpreprints/), the study’s analyzable dataset (described above), software, devices or products, or other artifacts. Summaries of parts of the analyzable clinical trial data may be included in publications and other outputs.
+- Scholarly Outputs: These can be peer-reviewed articles published in academic journals that report on the study and key findings, [preprints](https://www.ncbi.nlm.nih.gov/pmc/about/nihpreprints/), the study’s analyzable dataset (described above), software, devices or products, or other artifacts. Summaries of parts of the analyzable clinical trial data may be included in publications and other outputs.
 
 - Summaries on trial registry site(s), such as clinicaltrials.gov: Summaries are typically submitted within twelve months of project completion and should use easily understandable language to a lay person (e.g., the general public and research participants).
 
@@ -108,7 +108,7 @@ For patients, information found on the registries can be empowering and educatio
 
 For researchers, sharing clinical trial data is a contribution to the collective knowledge of the medical community, adheres to the medical industry’s ethical standards, and reduces repeated trial research done by other researchers. Furthermore, funding agencies can make decisions on future clinical trials based on results and impacts that are found in shared clinical trial data. This furthers the possibility of appropriate investments in clinical study research. In addition, allowing individuals access to clinical trials data or results may be empowering for the general population, as individuals can decide which risks they are willing to take. When data are available on a topic, other researchers can reuse the data and patients will not be exposed to the same risks on an intervention that has already been tested.
 
-Shared data can also be leveraged by secondary users (typically researchers), who may use the data when “carrying out additional analyses, analyzing unpublished data, reproducing published findings, and conducting exploratory analyses to generate new research hypotheses” (Committee on Strategies for Responsible Sharing of Clinical Trial Data Sharing, 2015). Data must be managed in a “responsible manner that mitigates the risks involved,” benefits all stakeholders, and advances patient care (Committee on Strategies for Responsible Sharing of Clinical Trial Data Sharing, 2015). However, this is not to say that there are no risks associated with data sharing. Not all data and trial documentation generated in the course of a clinical trial will be shared, such as the raw data that contains Personal Identifiable Information (PII). The Committee on Strategies for Responsible Sharing of Clinical Trial Data’s [Guiding Principles for Sharing Clinical Trial Data] (https://www.ncbi.nlm.nih.gov/books/NBK285999/) offers guidance on sharing data responsibility and ethically, while promoting public and scientific trust.
+Shared data can also be leveraged by secondary users (typically researchers), who may use the data when “carrying out additional analyses, analyzing unpublished data, reproducing published findings, and conducting exploratory analyses to generate new research hypotheses” (Committee on Strategies for Responsible Sharing of Clinical Trial Data Sharing, 2015). Data must be managed in a “responsible manner that mitigates the risks involved,” benefits all stakeholders, and advances patient care (Committee on Strategies for Responsible Sharing of Clinical Trial Data Sharing, 2015). However, this is not to say that there are no risks associated with data sharing. Not all data and trial documentation generated in the course of a clinical trial will be shared, such as the raw data that contains Personal Identifiable Information (PII). The Committee on Strategies for Responsible Sharing of Clinical Trial Data’s [Guiding Principles for Sharing Clinical Trial Data](https://www.ncbi.nlm.nih.gov/books/NBK285999/) offers guidance on sharing data responsibility and ethically, while promoting public and scientific trust.
 
 # Potential Data Sharing Challenges
 
@@ -147,9 +147,9 @@ When sharing clinical trial data, it is important to select a data repository th
 - Does the repository provide curation support to ensure data submission packages include sufficient documentation?  
     -	 If not, are data curators and specialists available within the institution?
 
-If the repository will hold a large amount of clinical trial data, it is recommended to consider selecting a specialized clinical data sharing repository or platform over generalist or institutional repositories. [Vivli] (https://vivli.org/) is currently the most popular specialized repository for clinical trial data and has many features required for ethical data sharing and storing and data reuse. Features include: a requirement for data to be de-identified prior to submission, access to de-identified individual patient-level data (IPD), a secure research platform in which researchers can work with the requested data, established partnerships with anonymization experts that researchers can access, supporting data documentation for secondary use, and implementation of data use agreements (DUAs), which requires users to agree to terms of use before they can access the data for reuse. Due to these features, Vivli has become the de facto repository for sharing clinical trials data; submitting data to Vivli means a study will be discoverable in many other locations (Vasquez et al, 2021). However, designated downloadable datasets require, per the terms of use agreement, that downloaded data be destroyed. Furthermore, every “action taken on the Vivli platform is recorded in an audit trail on the platform. Every time data is accessed either via the secure research environment or downloaded the action is recorded in the platform” (How Vivli meets the NIH ‘Desirable Characteristics for Data Repositories’). Dataset metadata are assigned PIDs and made discoverable via Google Scholar and Google Dataset searches.  
+If the repository will hold a large amount of clinical trial data, it is recommended to consider selecting a specialized clinical data sharing repository or platform over generalist or institutional repositories. [Vivli](https://vivli.org/) is currently the most popular specialized repository for clinical trial data and has many features required for ethical data sharing and storing and data reuse. Features include: a requirement for data to be de-identified prior to submission, access to de-identified individual patient-level data (IPD), a secure research platform in which researchers can work with the requested data, established partnerships with anonymization experts that researchers can access, supporting data documentation for secondary use, and implementation of data use agreements (DUAs), which requires users to agree to terms of use before they can access the data for reuse. Due to these features, Vivli has become the de facto repository for sharing clinical trials data; submitting data to Vivli means a study will be discoverable in many other locations (Vasquez et al, 2021). However, designated downloadable datasets require, per the terms of use agreement, that downloaded data be destroyed. Furthermore, every “action taken on the Vivli platform is recorded in an audit trail on the platform. Every time data is accessed either via the secure research environment or downloaded the action is recorded in the platform” (How Vivli meets the NIH ‘Desirable Characteristics for Data Repositories’). Dataset metadata are assigned PIDs and made discoverable via Google Scholar and Google Dataset searches.  
 
-Another excellent resource for reputable scientific data repositories is the [NIH-supported Scientific Data Repositories list] (https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data), which includes discipline specific repositories that support the domain specific needs of researchers. 
+Another excellent resource for reputable scientific data repositories is the [NIH-supported Scientific Data Repositories list](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data), which includes discipline specific repositories that support the domain specific needs of researchers. 
 
 # Clinical Trial Registration 
 
@@ -180,7 +180,7 @@ The tables below, modified from the ‘Why Should I Register and Submit Results?
 | Promote more efficient allocation of research funds  | Granting agencies, the research community, the general public |
 | Help institutional review boards (IRBs) determine the appropriateness of a research study  | IRBs, the research community, participants |
 
-Modified from: Zarin DA, Keselman A. [Registering a clinical trial in ClinicalTrials.gov.] (https://pubmed.ncbi.nlm.nih.gov/17303677/) Chest. 2007;131(3):909-12. [https://pubmed.ncbi.nlm.nih.gov/17303677/] (https://pubmed.ncbi.nlm.nih.gov/17303677/)
+Modified from: Zarin DA, Keselman A. [Registering a clinical trial in ClinicalTrials.gov.](https://pubmed.ncbi.nlm.nih.gov/17303677/) Chest. 2007;131(3):909-12. [https://pubmed.ncbi.nlm.nih.gov/17303677/](https://pubmed.ncbi.nlm.nih.gov/17303677/)
 
 |   Results Database Purpose   |   Groups that Benefit   |
 | :------------- | :------------- |
@@ -190,28 +190,28 @@ Modified from: Zarin DA, Keselman A. [Registering a clinical trial in ClinicalTr
 | Facilitate systematic reviews and other analyses of the research literature  | Researchers, policymakers |
 
 
-Modified from: Tse T, Williams RJ, Zarin DA. [Reporting "basic results" in ClinicalTrials.gov.] (https://pubmed.ncbi.nlm.nih.gov/19584212/) Chest. 2009;136(1):295-303. [https://pubmed.ncbi.nlm.nih.gov/19584212/] (https://pubmed.ncbi.nlm.nih.gov/19584212/)
+Modified from: Tse T, Williams RJ, Zarin DA. [Reporting "basic results" in ClinicalTrials.gov.](https://pubmed.ncbi.nlm.nih.gov/19584212/) Chest. 2009;136(1):295-303. [https://pubmed.ncbi.nlm.nih.gov/19584212/](https://pubmed.ncbi.nlm.nih.gov/19584212/)
 
 ## U.S. National Institutes of Health
 
-The U.S. National Library of Medicine (NLM) at the National Institutes of Health (NIH) maintains a database of privately and publicly funded clinical studies conducted around the world. [Clinicaltrials.gov] (http://clinicaltrials.gov) is a website that provides a robust and user-friendly way for clinicians, patients, researchers, and the general public to find clinical studies information on an extensive array of subjects. Studies are registered by the clinical trial investigator(s) and are regularly updated throughout the duration of the study. Study information may also be updated at the end of the study and include final results. 
+The U.S. National Library of Medicine (NLM) at the National Institutes of Health (NIH) maintains a database of privately and publicly funded clinical studies conducted around the world. [Clinicaltrials.gov](http://clinicaltrials.gov) is a website that provides a robust and user-friendly way for clinicians, patients, researchers, and the general public to find clinical studies information on an extensive array of subjects. Studies are registered by the clinical trial investigator(s) and are regularly updated throughout the duration of the study. Study information may also be updated at the end of the study and include final results. 
 
-In the United States, Section 801 of the Food and Drug Administration Amendments Act of 2007, known as FDAAA 801, as well as the Final Rule for Clinical Trials Registration and Results Information Submission, known as 42 CFR Part 11, detail clinical trial [registration requirements.] (https://clinicaltrials.gov/ct2/manage-recs/fdaaa#OtherFDAAA801Requirements)
+In the United States, Section 801 of the Food and Drug Administration Amendments Act of 2007, known as FDAAA 801, as well as the Final Rule for Clinical Trials Registration and Results Information Submission, known as 42 CFR Part 11, detail clinical trial [registration requirements.](https://clinicaltrials.gov/ct2/manage-recs/fdaaa#OtherFDAAA801Requirements)
 
 ## The World Health Organization
 
 The World Health Organization (WHO) regards trial registration as “the publication of an  internationally-agreed set of information about the design, conduct and administration of clinical trials” (WHO, ICTRP Registry Network). Trial details are made publicly available in the International Clinical Trials Registry Platform (ICTRP), however, the WHO ICTRP is not itself a clinical trials registry. Rather, the ICTRP aggregates clinical trial registrations from registries which meet WHO criteria. These criteria are grouped into six content areas: Content, Quality and Validity, Accessibility, Unambiguous, Identification, Technical Capacity, and Administration and Governance (WHO, ICTRP Registry Network). This collection of registries, known as the WHO Registry Network, is composed of:
 
-- [Primary Registries] (https://www.who.int/clinical-trials-registry-platform/network/primary-registries) meet WHO criteria listed above as well as the requirements of the International Committee of Medical Journal Editors (ICMJE) (described below). 
-- [Partner Registries] (https://www.who.int/clinical-trials-registry-platform/network/partner-registries) are affiliated with either a Primary Registry in the WHO Registry Network or an ICMJE approved registry. 
-- [Data Providers] (https://www.who.int/clinical-trials-registry-platform/network)
-- [Registries working with the ICTRP towards becoming Primary Registries] (https://www.who.int/clinical-trials-registry-platform/network)
+- [Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries) meet WHO criteria listed above as well as the requirements of the International Committee of Medical Journal Editors (ICMJE) (described below). 
+- [Partner Registries](https://www.who.int/clinical-trials-registry-platform/network/partner-registries) are affiliated with either a Primary Registry in the WHO Registry Network or an ICMJE approved registry. 
+- [Data Providers](https://www.who.int/clinical-trials-registry-platform/network)
+- [Registries working with the ICTRP towards becoming Primary Registries](https://www.who.int/clinical-trials-registry-platform/network)
 
-[The ICTRP Search Portal] (https://trialsearch.who.int/Default.aspx) is the public-facing point of access for information about ongoing and completed clinical trials and includes information from all WHO Registry Network registries. 
+[The ICTRP Search Portal](https://trialsearch.who.int/Default.aspx) is the public-facing point of access for information about ongoing and completed clinical trials and includes information from all WHO Registry Network registries. 
 
 ## International Committee of Medical Journal Editors
 
-The International Committee of Medical Journal Editors (ICMJE) is a group of general medical journal editors who meet annually to update the [Recommendations for the Conduct, Reporting, Editing and Publication of Scholarly Work in Medical Journals] (https://www.icmje.org/icmje-recommendations.pdf). These recommendations are the “best practice[s] and ethical standards in the conduct and reporting of research and other material published in medical journals,” and are considered the industry standard for medical research publication (International Committee of Medical Journal Editors, 2022). There are currently over 5,000 journals that report to follow the ICMJE recommendations, however, there is no compliance protocol to ensure recommendations are followed. Clinical trial registration is included in these recommendations and ICMJE requires “all medical journal editors require registration of clinical trials in a public trials registry” prospectively (before the first participant enrollment)” (International Committee of Medical Journal Editors, Recommendations ("The Uniform Requirements")). 
+The International Committee of Medical Journal Editors (ICMJE) is a group of general medical journal editors who meet annually to update the [Recommendations for the Conduct, Reporting, Editing and Publication of Scholarly Work in Medical Journals](https://www.icmje.org/icmje-recommendations.pdf). These recommendations are the “best practice[s] and ethical standards in the conduct and reporting of research and other material published in medical journals,” and are considered the industry standard for medical research publication (International Committee of Medical Journal Editors, 2022). There are currently over 5,000 journals that report to follow the ICMJE recommendations, however, there is no compliance protocol to ensure recommendations are followed. Clinical trial registration is included in these recommendations and ICMJE requires “all medical journal editors require registration of clinical trials in a public trials registry” prospectively (before the first participant enrollment)” (International Committee of Medical Journal Editors, Recommendations ("The Uniform Requirements")). 
 
 In 2018, the ICMJE implemented a required data sharing statement policy for manuscripts publishing results of clinical trials, submitted to ICMJE journals. Data sharing statements must include: 
 Whether individual de-identified participant data (including data dictionaries) will be shared (“undecided” is not an acceptable answer).
@@ -224,7 +224,7 @@ Furthermore, as of 2019, the ICMJE added an additional requirement to the data s
 
 ## Trial Registration Data Elements
 
-Each trial registry requires specific information about the registering clinical trial. This collection of descriptive data elements, often known as the trial registration data set, is required for a trial to be considered fully registered. Although these requirements vary, the WHO’s primary and partner registries must require a minimum amount of trial data elements to comply with WHO requirements. These required data elements, known as the WHO Trial Registration Dataset (TRDS), is currently composed of 24 descriptive elements and are listed below (WHO Trial Registration Data Set). Additional fields are required for clinicaltrials.gov [protocol registrations] (https://prsinfo.clinicaltrials.gov/definitions.html) and [results data] (https://prsinfo.clinicaltrials.gov/results_definitions.html).
+Each trial registry requires specific information about the registering clinical trial. This collection of descriptive data elements, often known as the trial registration data set, is required for a trial to be considered fully registered. Although these requirements vary, the WHO’s primary and partner registries must require a minimum amount of trial data elements to comply with WHO requirements. These required data elements, known as the WHO Trial Registration Dataset (TRDS), is currently composed of 24 descriptive elements and are listed below (WHO Trial Registration Data Set). Additional fields are required for clinicaltrials.gov [protocol registrations](https://prsinfo.clinicaltrials.gov/definitions.html) and [results data](https://prsinfo.clinicaltrials.gov/results_definitions.html).
 
 
 |       |   WHO Trial Registration Data Set (TRDS) (Version 1.3.1)   |       |
@@ -239,7 +239,7 @@ Each trial registry requires specific information about the registering clinical
 |   De-identified individual clinical trial participant-level data (IPD) sharing statement    |   Completion date   |    Summary Results   |
 
 
-Source: [WHO Trial Registration Data Set (Version 1.3.1).] (https://www.who.int/clinical-trials-registry-platform/network/who-data-set)
+Source: [WHO Trial Registration Data Set (Version 1.3.1).](https://www.who.int/clinical-trials-registry-platform/network/who-data-set)
 
 # Core Metadata Elements and Documentation Requirements
 
@@ -249,7 +249,7 @@ The 24 WHO data elements listed above can be considered the core data elements n
 
 Common Data Elements, or CDE, are “a standardized, precisely defined question, paired with a set of allowable responses, used systematically across different sites, studies, or clinical trials to ensure consistent data collection” (NIH CDE Repository). Using CDE provides consistency within discipline areas by standardizing how data is collected, described, and formatted (COMPASS, Importance of Common Data Elements (CDEs)). By using CDE, researchers can not only save time when creating and launching their research project, but can also increase the FAIRness of their research outputs, ensure consistency of data collection, and meet funder requirements. Leveraging the CDE also facilitates data integration, and therefore meta-analyses, and replicability of research across disciplines and studies. 
 
-[The CDISC Foundational Standards] (https://www.cdisc.org/standards) may be helpful at every stage of the research project to collect, analyze, and exchange data in a standardized manner. CDISC creates and manages different standards for clinical trial researchers to facilitate data reusability, interoperability, and accessibility. The standards [span the clinical trial lifecycle] (https://www.cdisc.org/standards) and are divided into different categories: [data exchange] (https://www.cdisc.org/standards/data-exchange), [foundational standards] (https://www.cdisc.org/standards/foundational), [controlled terminology] (https://www.cdisc.org/standards/terminology/controlled-terminology), and others. 
+[The CDISC Foundational Standards](https://www.cdisc.org/standards) may be helpful at every stage of the research project to collect, analyze, and exchange data in a standardized manner. CDISC creates and manages different standards for clinical trial researchers to facilitate data reusability, interoperability, and accessibility. The standards [span the clinical trial lifecycle](https://www.cdisc.org/standards) and are divided into different categories: [data exchange](https://www.cdisc.org/standards/data-exchange), [foundational standards](https://www.cdisc.org/standards/foundational), [controlled terminology](https://www.cdisc.org/standards/terminology/controlled-terminology), and others. 
 
 Similarly, requirements from the publication industry and funders around data sharing policies and data sharing statements can be reappropriated for clinical study data management and sharing plans (DMSP), also referred to as data management plans (DMPs). For instance, data sharing statements required by the ICMJE can be modified to be included in the study’s DMSP, README files, and other study documentation. Likewise, beginning 2023 the NIH issued a DMSP requirement, which encourages researchers to include information about data type, anticipated tools for collection and analysis, and which standards will be used; this new policy also permits allowable costs data sharing requirements and services above and beyond the routine costs of doing research. The ICMJE  and NIH have slightly different requirements, however, when developing a data sharing statement, broadly consider the following questions: 
 - What data in particular will be collected? Which data will be shared?
@@ -272,7 +272,7 @@ When preparing data from a clinical trial for sharing, there are numerous consid
 
 (Source: [Institute of Medicine of the National Academies (IOM)](https://nap.nationalacademies.org/read/18998/chapter/2#10), 2015 )
 
-Regardless of which portion(s) are being shared, it is essential that all data sharing and storage considerations prioritize the protection and privacy of participant data, including  communities as well as individuals. The [CARE Principles for Indigenous Data Governance] (https://www.gida-global.org/care#:~:text=The%20CARE%20Principles%20for%20Indigenous%20Data%20Governance%20are%20people%20and,Indigenous%20innovation%20and%20self%2Ddetermination) provide guidelines for protecting and collaborating with communities participating in clinical trial studies. See more about how to review [consent forms] (https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) or [check for informed consent] (https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-consent-review-and-communicating-about-informed-consent-with-a-depositor) in other DCN primers.
+Regardless of which portion(s) are being shared, it is essential that all data sharing and storage considerations prioritize the protection and privacy of participant data, including  communities as well as individuals. The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care#:~:text=The%20CARE%20Principles%20for%20Indigenous%20Data%20Governance%20are%20people%20and,Indigenous%20innovation%20and%20self%2Ddetermination) provide guidelines for protecting and collaborating with communities participating in clinical trial studies. See more about how to review [consent forms](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) or [check for informed consent](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-consent-review-and-communicating-about-informed-consent-with-a-depositor) in other DCN primers.
 
 A comprehensive data package, typically shared within 18 months of clinical trial completion or regulatory approval should contain the following:
 
@@ -289,14 +289,14 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 ## DCN CURATE(D) Steps
 
 **Check** files and read documentation (review for appropriate levels of sharing, ensuring privacy and ethical standards are upheld, review file inventory and file appraisal/selection)
-- Review the [consent form] (https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) template, if available, to confirm data are being shared as described to the participants before agreeing to participate in the study
+- Review the [consent form](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) template, if available, to confirm data are being shared as described to the participants before agreeing to participate in the study
 - Review analyzable code and check for methodology description for converting data from raw to analyzable formats
     -	 If needed, connect researcher(s) to de-identification specialists. 
 - Check for trial registration on clinicaltrials.gov or other appropriate registry  
 - If necessary, ensure participants provided their consent to participate autonomously and without coercion 
 - If necessary, assess whether a representative for the participant group needs to review the data (further description in the Request step below)
 - If a group of participants are being referred to with a demographic label, ensure this label is one that best represents them; consultation with the group may be required
-    -	 For a case study on community-based participatory research, [review Understanding community-based participatory research through a social movement framework: a case study of the Kahnawake Schools Diabetes Prevention Project] (https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-018-5412-y) (Tremblay et al, 2018). 
+    -	 For a case study on community-based participatory research, [review Understanding community-based participatory research through a social movement framework: a case study of the Kahnawake Schools Diabetes Prevention Project](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-018-5412-y) (Tremblay et al, 2018). 
 - If this data has been used for regulatory approval (e.g., FDA approval for devices, etc.) ensure licenses are appropriate
 
 
@@ -332,7 +332,7 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 
 **Evaluate** for FAIRness (licenses, responsibility standards, metrics for tracking use)
 - Review the FAIRness of the data (findable, accessible, interoperable, reusable)
-- Follow [CARE] (https://www.gida-global.org/care) and [FATE] (https://www.microsoft.com/en-us/research/theme/fate/) principles by centering community input and community-driven participation
+- Follow [CARE](https://www.gida-global.org/care) and [FATE](https://www.microsoft.com/en-us/research/theme/fate/) principles by centering community input and community-driven participation
 - Perform a final check for potential ethical concerns such as de-identification and harmful language
 - Verify files are working and have transformed correctly, when applicable 
 
@@ -344,21 +344,21 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 
 ## Related Primers
 
-[Informed Consent Curation Primer] (https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) 
-[Human Participants Data Essentials Primer] (https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-identifiers-and-communicating-about-de-identification-with-a-depositor) 
-[Qualitative Data Primer] (https://github.com/DataCurationNetwork/data-primers/blob/master/Qualitative%20Data%20Curation%20Primer/qualitative-data-curation-primer.md#workflow-based-on-the-data-curation-network-curated-steps) 
-[SPSS Data Curation Primer] (https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-A-Using-CURATE-with-SPSS-Data) 
+[Informed Consent Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) 
+[Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-identifiers-and-communicating-about-de-identification-with-a-depositor) 
+[Qualitative Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Qualitative%20Data%20Curation%20Primer/qualitative-data-curation-primer.md#workflow-based-on-the-data-curation-network-curated-steps) 
+[SPSS Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-A-Using-CURATE-with-SPSS-Data) 
 
 
 ## Helpful Resources
 
-[ARX - Data Anonymization Tool] (https://arx.deidentifier.org/): Full-featured freeware for statistical risk assessment and anonymization. Requires knowledge of techniques.
-[Selecting a Data Repository-NIH] (https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository)
-[REDCap] (https://www.project-redcap.org/)
-[TrialMaster] (https://www.anjusoftware.com/trialmaster-edc)
-[Vivli] (https://vivli.org/)
-[WHO Primary Registries] (https://www.who.int/clinical-trials-registry-platform/network/primary-registries)
-[Data Management and Sharing Plan guidance] (https://osf.io/uadxr/), created by the U.S.-based librarian NIH DMSP Guidance Working Group
+[ARX - Data Anonymization Tool](https://arx.deidentifier.org/): Full-featured freeware for statistical risk assessment and anonymization. Requires knowledge of techniques.
+[Selecting a Data Repository-NIH](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository)
+[REDCap](https://www.project-redcap.org/)
+[TrialMaster](https://www.anjusoftware.com/trialmaster-edc)
+[Vivli](https://vivli.org/)
+[WHO Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries)
+[Data Management and Sharing Plan guidance](https://osf.io/uadxr/), created by the U.S.-based librarian NIH DMSP Guidance Working Group
 
 
 ## Bibliography
