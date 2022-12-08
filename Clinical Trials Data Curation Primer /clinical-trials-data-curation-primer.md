@@ -289,7 +289,9 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 
 ## DCN CURATE(D) Steps
 
-### **_Check_** files and read documentation (review for appropriate levels of sharing, ensuring privacy and ethical standards are upheld, review file inventory and file appraisal/selection)
+(Context sentence)
+
+### **Check** files and read documentation (review for appropriate levels of sharing, ensuring privacy and ethical standards are upheld, review file inventory and file appraisal/selection)
 - Review the [consent form](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) template, if available, to confirm data are being shared as described to the participants before agreeing to participate in the study
 - Review analyzable code and check for methodology description for converting data from raw to analyzable formats
     -	 If needed, connect researcher(s) to de-identification specialists. 
@@ -301,7 +303,7 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 - If this data has been used for regulatory approval (e.g., FDA approval for devices, etc.) ensure licenses are appropriate
 
 
-### **_Understand_** the data (or try to), if not… (run files/environment, QA/QC issues, readme)
+### **Understand** the data (or try to), if not… (run files/environment, QA/QC issues, readme)
 - Ensure that someone with similar qualifications could look at this data and both understand it and be able to reuse it
     -	 Are all headings clear? 
     -	 Is there missing participant data that needs to be accounted for?
@@ -309,7 +311,7 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 - If possible, try running the analytic code
 
 
-### **_Request_** missing information or changes (tracking provenance of any changes and why)
+### **Request** missing information or changes (tracking provenance of any changes and why)
 - Review questions/concerns from the previous step - how can these be addressed? 
 - Have participants been notified that their data will be shared in addition to being published?
     -	 Is further communication needed to ensure they know how their data are being used/will potentially be used in future work
@@ -348,18 +350,18 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 <li> [Informed Consent Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) </li>
 <li> [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-identifiers-and-communicating-about-de-identification-with-a-depositor) </li>
 <li> [Qualitative Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Qualitative%20Data%20Curation%20Primer/qualitative-data-curation-primer.md#workflow-based-on-the-data-curation-network-curated-steps) </li>
-<li> [SPSS Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-A-Using-CURATE-with-SPSS-Data)</li> 
+<li> [SPSS Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-A-Using-CURATE-with-SPSS-Data) </li> 
 
 
 ## Helpful Resources
 
-<li> [ARX - Data Anonymization Tool](https://arx.deidentifier.org/): Full-featured freeware for statistical risk assessment and anonymization. Requires knowledge of techniques.</li>
-<li> [Selecting a Data Repository-NIH](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository)</li>
-<li> [REDCap](https://www.project-redcap.org/)</li>
-<li> [TrialMaster](https://www.anjusoftware.com/trialmaster-edc)</li>
-<li> [Vivli](https://vivli.org/)</li>
-<li> [WHO Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries)</li>
-<li> [Data Management and Sharing Plan Guidance](https://osf.io/uadxr/), created by the U.S.-based librarian NIH DMSP Guidance Working Group</li>
+<li> [ARX - Data Anonymization Tool](https://arx.deidentifier.org/): Full-featured freeware for statistical risk assessment and anonymization. Requires knowledge of techniques. </li>
+<li> [Selecting a Data Repository-NIH](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) </li>
+<li> [REDCap](https://www.project-redcap.org/) </li>
+<li> [TrialMaster](https://www.anjusoftware.com/trialmaster-edc) </li>
+<li> [Vivli](https://vivli.org/) </li>
+<li> [WHO Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries) </li>
+<li> [Data Management and Sharing Plan Guidance](https://osf.io/uadxr/), created by the U.S.-based librarian NIH DMSP Guidance Working Group </li>
 
 
 ## Bibliography
