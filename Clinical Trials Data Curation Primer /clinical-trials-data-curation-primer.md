@@ -287,7 +287,7 @@ A comprehensive data package, typically shared within 18 months of clinical tria
 
 ## DCN CURATE(D) Steps
 
-(Context sentence)
+Use the [Data Curation Network’s CURATE(D)](z.umn.edu/curate) checklist to finalize your data for submission:
 
 ### **Check** files and read documentation (review for appropriate levels of sharing, ensuring privacy and ethical standards are upheld, review file inventory and file appraisal/selection)
 - Review the [consent form](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) template, if available, to confirm data are being shared as described to the participants before agreeing to participate in the study
