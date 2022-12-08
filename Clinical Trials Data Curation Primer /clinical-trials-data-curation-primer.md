@@ -66,7 +66,7 @@ Clinical trials data are a specific type of [human participant data](https://git
 
 Clinical trials are a type of clinical study that takes a controlled approach to studying the effects of new medical devices and drugs, or new methods and behaviors for participants. Since these trials are introducing something new into the lives of participants, they are also called interventional studies. These are different from observational studies, which are a different type of clinical study that will not be covered in this primer. There are many different types of clinical trials such as open, single-blind, crossover, etc., and documentation and data will differ depending on the [type of clinical trial](https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/).
 
-![](Clincal1.jpg)
+![](clinical-1.JPG)
 
 (Source: [Institute of Medicine of the National Academies (IOM)](https://nap.nationalacademies.org/read/18998/chapter/2#10), 2015 )
 
@@ -268,7 +268,7 @@ Study documentation can note compliance with, for example, ICMJE recommendations
 When preparing data from a clinical trial for sharing, there are numerous considerations researchers and curators need to consider. For the purposes of this primer, this focus is on how to curate different components of a complete data package; however, different data will need to be shared at different stages of the research process. The image below, published in the 2015 Sharing Clinical Trial Data: Maximizing Benefits, Minimizing Risk by the National Academies of Sciences, Engineering, and Medicine (NASEM) provides guidance on when to share specific types of data.
 
 
-![](Clincal2.jpeg)
+![](clinical-2.JPG)
 
 (Source: [Institute of Medicine of the National Academies (IOM)](https://nap.nationalacademies.org/read/18998/chapter/2#10), 2015 )
 
