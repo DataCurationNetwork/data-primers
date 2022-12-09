@@ -9,7 +9,7 @@ DCN Mentors: Jen Darragh - Duke University (jennifer.darragh@duke.edu); Sophia L
 Affiliate Contributors (external peer reviewers): Lisa Federer, Genevieve Milliken 
 
 
-## Executive Dummary
+## Executive Summary
 
 |   Topic   |   Description   |
 | :------------- | :------------- |
