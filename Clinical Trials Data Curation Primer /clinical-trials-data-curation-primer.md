@@ -227,17 +227,7 @@ Furthermore, as of 2019, the ICMJE added an additional requirement to the data s
 
 Each trial registry requires specific information about the registering clinical trial. This collection of descriptive data elements, often known as the trial registration data set, is required for a trial to be considered fully registered. Although these requirements vary, the WHO’s primary and partner registries must require a minimum amount of trial data elements to comply with WHO requirements. These required data elements, known as the WHO Trial Registration Dataset (TRDS), is currently composed of 24 descriptive elements and are listed below (WHO Trial Registration Data Set). Additional fields are required for clinicaltrials.gov [protocol registrations](https://prsinfo.clinicaltrials.gov/definitions.html) and [results data](https://prsinfo.clinicaltrials.gov/results_definitions.html).
 
-
-|       |   WHO Trial Registration Data Set (TRDS) (Version 1.3.1)   |       |
-|   -------------    |   -------------   |     -------------  |
-|   Primary Registry and Trial Identifying Number    |   Date of Registration in Primary Registry   |   Secondary Identifying Numbers    |
-|   Source(s) of Monetary or Material Support    |   Primary Sponsor   |   Secondary Sponsor(s)    |
-|   Contact for Public Queries   |   Contact for Scientific Queries   |    Public Title   |
-|   Scientific Title    |  Countries of Recruitment   |   Health Condition(s) or Problem(s) Studied    |
-|   Intervention(s)   |   Key Inclusion and Exclusion Criteria   |    Study Type   |
-|   Date of First Enrollment   |   Sample Size   |   Recruitment Status    |
-|   Primary Outcome(s)    |   Key Secondary Outcomes   |    Ethics Review   |
-|   De-identified individual clinical trial participant-level data (IPD) sharing statement    |   Completion date   |    Summary Results   |
+<figure> <img src="clinical-3.JPG" alt="WHO Trial Registration Data Set." style=""> <figcaption></figcaption> </figure>
 
 
 Source: [WHO Trial Registration Data Set (Version 1.3.1).](https://www.who.int/clinical-trials-registry-platform/network/who-data-set)
