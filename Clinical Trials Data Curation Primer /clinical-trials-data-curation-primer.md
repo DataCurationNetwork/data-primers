@@ -199,7 +199,7 @@ The U.S. National Library of Medicine (NLM) at the National Institutes of Health
 
 In the United States, Section 801 of the Food and Drug Administration Amendments Act of 2007, known as FDAAA 801, as well as the Final Rule for Clinical Trials Registration and Results Information Submission, known as 42 CFR Part 11, detail clinical trial [registration requirements.](https://clinicaltrials.gov/ct2/manage-recs/fdaaa#OtherFDAAA801Requirements)
 
-As of January 25, 2023, the NIH has implemented a Data Management and Sharing Policy (DMS), which applies to scientific data generated as part of NIH-sponsored research. For more information of this policy, visit the [NIH DMS website.](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/data-management-and-sharing-policy-overview)
+As of January 25, 2023, the NIH has implemented a Data Management and Sharing Policy (DMS), which applies to scientific data, including clinical trials data, generated as part of NIH-sponsored research. For more information of this policy, visit the [NIH DMS website.](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/data-management-and-sharing-policy-overview)
 
 ## The World Health Organization
 
@@ -261,7 +261,7 @@ When preparing data from a clinical trial for sharing, there are numerous consid
 
 Regardless of which portion(s) are being shared, it is essential that all data sharing and storage considerations prioritize the protection and privacy of participant data, including  communities as well as individuals. The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care#:~:text=The%20CARE%20Principles%20for%20Indigenous%20Data%20Governance%20are%20people%20and,Indigenous%20innovation%20and%20self%2Ddetermination) provide guidelines for protecting and collaborating with communities participating in clinical trial studies. See more about how to review [consent forms](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) or [check for informed consent](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-consent-review-and-communicating-about-informed-consent-with-a-depositor) in other DCN primers.
 
-A comprehensive data package, typically shared by publication or the end of the performance period (whichever comes first), should contain the following:
+A comprehensive data package, typically shared by publication or the end of the performance period of the supporting funding (whichever comes first), should contain the following:
 
 - **Analyzable dataset:** This is the processed, edited, and computational version of the data. This dataset needs to be deidentified in collaboration with an expert. 
     -	 This must include documentation of how the raw data was processed to create the analyzable data. This will be important for future re-users of the data to understand the decisions the research team made.
