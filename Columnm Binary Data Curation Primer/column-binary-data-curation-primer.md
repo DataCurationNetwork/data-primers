@@ -331,8 +331,8 @@ You can use the x-ray to visually help you understand the structure of the data,
     -	 Do all values correspond to the codebook?
 	- Y: Great!
 	- N: How many multi-punches are in non-corresponding value?
-		- Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
-		- Few: Maybe it’s a mistake/bad punch.
+			- Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
+			- Few: Maybe it’s a mistake/bad punch.
  
 
 
