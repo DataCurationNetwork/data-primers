@@ -4,7 +4,7 @@
 
 Authors: Jessica Ko, Cornell University; Kelsie Norek, Cornell University
 
-Affiliate Contributors (external peer reviewers): Marley Kalt, Jane Fry
+Affiliate Contributors (peer reviewers): Marley Kalt, Jane Fry
 
 
 ## Executive Summary
@@ -34,33 +34,33 @@ Affiliate Contributors (external peer reviewers): Marley Kalt, Jane Fry
 
 [Description of Format](#description-of-format)
 
-[Software for Viewing or Analyzing Data](#software-for-viewing-data )
+[Software for Viewing or Analyzing Data](#software-for-viewing-or-analyzing-data )
 
 [Examples](#examples)
 
-[Resources for Reviewing Data After a Conversion](#resources-for-reviewing-data)
+[Resources for Reviewing Data After a Conversion](#resources-for-reviewing-data-after-a-conversion)
 
 [Key Considerations](#key-considerations)
-> [Interpreting the Codebook](#interpreting-the-codebook) <br> [Multiple Cards](#multiple-cards) <br> [X-ray Files](#x-ray-files) <br> [Multi-punched columns](#multi-punched-columns) <br> [Columns v. Variables](#columns-vs-variables) <br> 
-[Logic Flows](#logic-flows) <br> [Merge v. Append](#merge-vs-append) <br> [Checking Converted Frequencies](#checking-converted-frequencies) <br>
+> [Interpreting the Codebook](#interpreting-the-codebook) <br> [Multiple Cards](#multiple-cards) <br> [X-ray Files](#x-ray-files) <br> [Multi-punched columns](#multi-punched-columns) <br> [Columns v. Variables](#columns-v-variables) <br> 
+[Logic Flows](#logic-flows) <br> [Merge v. Append](#merge-v-append) <br> [Checking Converted Frequencies](#checking-converted-frequencies) <br>
 
 [Column Binary Conversion Process](#column-binary-conversion-process)
-> [Import Data into SPSS](#import-data-spss) <br> [Recode Variables](#recode-variables) <br> [Clean Data](#clean-data) <br> [Rename Variables and Assign Variable Labels](#rename-labels) <br> [Check Conversions](#check-conversions) <br> 
+> [Import Data into SPSS](#import-data-into-spss) <br> [Recode Variables](#recode-variables) <br> [Clean Data](#clean-data) <br> [Rename Variables and Assign Variable Labels](#rename-variables-and-assign-variable-labels) <br> [Check Conversions](#check-conversions) <br> 
 
-[Applicable Metadata Standard, Core Elements, and README Requirements](#applicable-metadata)
+[Applicable Metadata Standard, Core Elements, and README Requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
 
 [Preservation Actions](#preservation-actions)
 
 [Documentation of Curation Process: What to Capture](#documentation-of-curation)
 
-[Ways in Which Fields May Use this Format](#ways-in-which-this-format)
+[Ways in Which Fields May Use this Format](#ways-in-which-fields-may-use-this-format)
 
 [Bibliography](#bibliography)
 > [Cited in Text](#cited-in-text) <br> [Additional Useful Resources](#additional-useful-resources) <br> 
 
-[Appendix A: Column Binary CURATE(D) Checkist](#appendix-a)
+[Appendix A: Column Binary CURATE(D) Checklist](#appendix-a)
 
-[Appendix B: Recommended Metadata Elements for Survey Research](#recommended-metadata)
+[Appendix B: Recommended Metadata Elements for Survey Research](#appendix-b)
 
 
 # Description of Format
@@ -328,11 +328,11 @@ You can use the x-ray to visually help you understand the structure of the data,
 1. Do the number of records/respondents/observations match the codebook/file? 
     -	 Yes: Great!
     -	 No: Is it possible they don’t match because there is more than one card? (Usually double or triple the expected number of records and/or an easily identifiable column with equal numbers of 1 and 2 punches)
-    -	 Do all values correspond to the codebook? 
-     	     -	Y: Great!
-     	     -	N: How many multi-punches are in non-corresponding value?
-     	      	    -	 Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
-     	      	    -	 Few: Maybe it’s a mistake/bad punch.
+    -	 Do all values correspond to the codebook?
+	- Y: Great!
+	- N: How many multi-punches are in non-corresponding value?
+		- Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
+		- Few: Maybe it’s a mistake/bad punch.
  
 
 
