@@ -1,0 +1,34 @@
+ITDOXA54-0333
+8/29/2018
+--------------------------------
+
+
+*	Variables deleted for confidentiality purposes: none.
+
+
+*	181 variables and 5171 cases written.
+
+
+*	Open-ended response variables deleted to avoid truncating responses: none.
+
+
+*	SPSS Portable abbreviated variable names, below: none.
+
+
+*	The first case in the dataset appears to represent survey/other identification numbers rather than an actual respondent.
+
+
+*	Additional punches (don’t correspond to codebook):
+	C79 (1 punch in X/11, but no value in codebook; punched for case 1)
+	C80 (1 punch in X/11, but no value in codebook; punched for case 1) 
+
+
+*	“Check all that apply” multi-punches (each punch becomes separate variable):
+	C13
+	C14
+	C24-C31
+	C37-C38
+	C55-C62
+	C67-C70
+	
+	
