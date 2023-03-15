@@ -69,11 +69,11 @@ Column binary (or colbin) is a file format that is most frequently used to store
 
 <figure> <img src="1blank_card.JPG" alt="Blank card, unpunched." style=""> <figcaption></figcaption> </figure>
 
-Figure 1. Blank card. Source: [IBM100—The IBM Punched Card](https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/). (2012, March 7). [CTB14]. IBM; IBM Corporation.
+**Figure 1. Blank card.** Source: [IBM100—The IBM Punched Card](https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/). (2012, March 7). [CTB14]. IBM; IBM Corporation.
 
 <figure> <img src="2punched_card.jpg" alt="Punched survey card." style=""> <figcaption></figcaption> </figure>
 
-Figure 2. Punched Card. Source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.
+**Figure 2. Punched Card.** Source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.
 
 
 The small numbers are column identifier numbers. These are never punched because they don’t represent question responses.The numbers that represent possible question responses are arranged vertically, from 0-9. The “digit” section of the card includes digits 1-9. The section above, starting with 0, is called the “zone” section. The two additional spots above the 0 represent extra values, which allow more data to be stored on a single card. The zone values are coded in several different ways, depending on the company or organization that processed them (see Table 1).
@@ -91,7 +91,7 @@ Column 10 (see Figure 3) is an example of a single-punched column, where only th
 
 <figure> <img src="3annotated_card.JPG" alt="Annotated and punched survey card." style=""> <figcaption></figcaption> </figure>
 
-Figure 3. Annotated Punched Card. Edited by authors. Original image source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.
+**Figure 3. Annotated Punched Card.** Edited by authors. Original image source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.
 
 
 The data on completed punched cards were converted into digital data points using card readers. These files may have .colbin or .bin extensions, but they can also have extensions that reflect the content of the file. In these cases, the extension name will begin with “c”, followed by a series of numbers that identify the dataset. For example, “PURDUE.c0038” is the name of the column binary file for Purdue Opinion Panel # 38.5 (This dataset is currently unconverted in the Roper Center archive. See link for snapshot information about the survey; see example files for codebook and column binary file.)
@@ -100,7 +100,7 @@ In Windows File Explorer, the file type typically reflects the extension name, e
 
 <figure> <img src="4file_extensions.JPG" alt="Column Binary files in a computer window." style=""> <figcaption></figcaption> </figure>
 
-Figure 4. Examples of Column Binary File Extensions. Created by authors.
+**Figure 4. Examples of Column Binary File Extensions.** Created by authors.
 
 In column binary files, each bit represents a single data point, unlike today’s data formats, which use 64 bits to represent a single data point. Consequently, the colbin format is unreadable to today’s machines and software because they try to read 64 bits, rather than 1, for each data point.
 
@@ -125,41 +125,41 @@ Opening the file in a text editor is a good first step in verifying that it is, 
 
 <figure> <img src="5colbin_file_explorer.JPG" alt="Column Binary File in Windows File Explorer." style=""> <figcaption></figcaption> </figure>
 
-Figure 5. Column Binary File in Windows File Explorer. Created by authors.
+**Figure 5. Column Binary File in Windows File Explorer.** Created by authors.
 
 <figure> <img src="6colbin_notepad.JPG" alt="Column Binary Data Opened in Notepad." style=""> <figcaption></figcaption> </figure>
 
-Figure 6. Column Binary Data Opened in Notepad. Created by authors.
+**Figure 6. Column Binary Data Opened in Notepad.** Created by authors.
 
 Column binary files can be opened in TextEdit on Mac (see Figures 7 and 8). As with Notepad, TextEdit will be unable to read the file and will instead display random characters that do not reflect the actual contents of the file (see Figure 9).
 
 
 <figure> <img src="7colbin_mac_finder.jpeg" alt="Column Binary File in Mac Finder." style=""> <figcaption></figcaption> </figure>
 
-Figure 7. Column Binary File in Mac Finder. Created by authors.
+**Figure 7. Column Binary File in Mac Finder.** Created by authors.
 
 <figure> <img src="8mac_choose_application.jpeg" alt="Choosing TextEdit to Open Column Binary File." style=""> <figcaption></figcaption> </figure>
 
-Figure 8. Choosing TextEdit to Open Column Binary File. Created by authors.
+**Figure 8. Choosing TextEdit to Open Column Binary File.** Created by authors.
 
 <figure> <img src="9mac_colbin_text_edit.jpeg" alt="Column Binary Data Opened in TextEdit." style=""> <figcaption></figcaption> </figure>
 
-Figure 9. Column Binary Data Opened in TextEdit. Created by authors.
+**Figure 9. Column Binary Data Opened in TextEdit.** Created by authors.
 
 
 After checking the file in a text editor, try importing the raw data into SPSS (see [Import data into SPSS](#import-data-spss)). A column binary file that has been correctly imported into SPSS will look similar to Figures 10 and 11. The rows represent cases/respondents, and the variables represent punched card columns for single-punched columns (like those in Figure 10) and individual punches for multi-punched columns (like Column 1 in Figure 11). For more information, see [Multi-punched columns](#multi-punched-columns) and [Columns vs. variables](#columns-vs-variables).
 
 <figure> <img src="10colbin_raw_data.JPG" alt="Raw Data in SPSS - Singled-punched." style=""> <figcaption></figcaption> </figure>
 
-Figure 10. Raw Data in SPSS - Singled-punched. Created by authors.
+**Figure 10. Raw Data in SPSS - Singled-punched.** Created by authors.
 
 <figure> <img src="11colbin_raw_data2.JPG" alt="Raw Data in SPSS - Multi-punched." style=""> <figcaption></figcaption> </figure>
 
-Figure 11. Raw Data in SPSS - Multi-punched. Created by authors.
+**Figure 11. Raw Data in SPSS - Multi-punched.** Created by authors.
 
 <figure> <img src="12completed_conversion.JPG" alt="Completed Conversion in SPSS." style=""> <figcaption></figcaption> </figure>
 
-Figure 12. Completed Conversion in SPSS. Created by authors.
+**Figure 12. Completed Conversion in SPSS.** Created by authors.
 
 
 # Resources for reviewing data after a conversion
@@ -193,41 +193,43 @@ For example, the documentation in Figure 13 indicates that the column binary dat
 
 <figure> <img src="13n1078.png" alt="Documentation for British Gallup Poll CQ 44A." style=""> <figcaption></figcaption> </figure>
 
-Figure 13. Documentation for British Gallup Poll CQ 44A. Created by authors.
+**Figure 13. Documentation for British Gallup Poll CQ 44A.** Created by authors.
 
 <figure> <img src="14n2156.png" alt="British Gallup Poll CQ 44A Imported as One-card Survey." style=""> <figcaption></figcaption> </figure>
 
-Figure 14. British Gallup Poll CQ 44A Imported as One-card Survey. Created by authors.
+**Figure 14. British Gallup Poll CQ 44A Imported as One-card Survey.** Created by authors.
 
 <figure> <img src="15xray2156.png" alt="British Gallup Poll CQ 44A One-card X-ray." style=""> <figcaption></figcaption> </figure>
 
-Figure 15. British Gallup Poll CQ 44A One-card X-ray. Created by authors.
+**Figure 15. British Gallup Poll CQ 44A One-card X-ray.** Created by authors.
 
 <figure> <img src="16multbin2156.png" alt="British Gallup Poll CQ 44A Imported as Multi-card Survey." style=""> <figcaption></figcaption> </figure>
 
-Figure 16. British Gallup Poll CQ 44A Imported as Multi-card Survey. Created by authors.
+**Figure 16. British Gallup Poll CQ 44A Imported as Multi-card Survey.** Created by authors.
 
 <figure> <img src="17freqproc.JPG" alt="British Gallup Poll CQ 44A Multi-card Frequencies." style=""> <figcaption></figcaption> </figure>
 
-Figure 17. British Gallup Poll CQ 44A Multi-card Frequencies. Created by authors.
+**Figure 17. British Gallup Poll CQ 44A Multi-card Frequencies.** Created by authors.
 
 <figure> <img src="18cardone1078.png" alt="British Gallup Poll CQ 44A X-ray - Card 1." style=""> <figcaption></figcaption> </figure>
 
-Figure 18. British Gallup Poll CQ 44A X-ray - Card 1. Created by authors.
+**Figure 18. British Gallup Poll CQ 44A X-ray - Card 1.** Created by authors.
 
 <figure> <img src="19cardtwo1078.png" alt="British Gallup Poll CQ 44A X-ray - Card 2." style=""> <figcaption></figcaption> </figure>
 
-Figure 19. British Gallup Poll CQ 44A X-ray - Card 2. Created by authors.
+**Figure 19. British Gallup Poll CQ 44A X-ray - Card 2.** Created by authors.
 
 <figure> <img src="20modemultipunch.png" alt="British Gallup Poll CQ 44A SPSS Import Syntax." style=""> <figcaption></figcaption> </figure>
 
-Figure 20. British Gallup Poll CQ 44A SPSS Import Syntax. Created by authors.
+**Figure 20. British Gallup Poll CQ 44A SPSS Import Syntax.** Created by authors.
 
 ## X-ray files
 
 X-ray files are files generated using SAS that are unique to each dataset, as they record the frequencies for each value in each column of the data. 
 
 <figure> <img src="21x-ray.PNG" alt="X-ray Example." style=""> <figcaption></figcaption> </figure>
+
+**Figure 21. X-ray Example.** Created by authors.
 
 To create an x-ray file:
 1. Copy the SAS example files into a folder of your choosing. 
@@ -239,7 +241,7 @@ To create an x-ray file:
 7. Set the number of cards in the “%LET CARD=” statement to the number of cards associated with your colbin dataset.
 8. Click submit (the running man icon on the toolbar at the top) to run your code. Once run, you should have an .rtf file generated in your designated folder. This will be your x-ray file. If you selected “fullspss” in step 6, you should also have a .sps file (setup file) appear in your designated folder. (See Import data into SPSS for information on how and when to use your .sps file.)
 
-Figure 21. X-ray Example. Created by authors.
+
 
 ## Multi-punched columns
 
@@ -269,7 +271,7 @@ In Figure 22, the codes for Q16H depend on whether respondents answered “Satis
 
 <figure> <img src="22logicflows.png" alt="Questions 16G and 16H from General Electric Quarterly Survey 68-02." style=""> <figcaption></figcaption> </figure>
 
-Figure 22. Questions 16G and 16H from General Electric Quarterly Survey 68-02. Created by authors.
+**Figure 22. Questions 16G and 16H from General Electric Quarterly Survey 68-02.** Created by authors.
 
 
 ## Merge vs. append
@@ -304,7 +306,7 @@ Note: This section focuses on using SPSS for column binary conversion, but the s
 
 <figure> <img src="23sasdir1257.png" alt="Example of SAS Syntax." style=""> <figcaption></figcaption> </figure>
 
-Figure 23. Example of SAS Syntax. Created by authors.
+**Figure 23. Example of SAS Syntax.** Created by authors.
 
 
 2. Open the generated syntax file and run the FILE HANDLE, DATA LIST, and ALTER TYPE commands. The syntax file will be titled FULLSPSS.sps. This will import the data from the colbin file into SPSS.
@@ -326,13 +328,13 @@ The first step is to identify multi-punches. There are multiple ways you can do 
 You can use the x-ray to visually help you understand the structure of the data, and it can serve as a reference point for making coding decisions in the SPSS syntax. 
 
 1. Do the number of records/respondents/observations match the codebook/file? 
-    -	 Yes: Great!
-    -	 No: Is it possible they don’t match because there is more than one card? (Usually double or triple the expected number of records and/or an easily identifiable column with equal numbers of 1 and 2 punches)
-    -	 Do all values correspond to the codebook?
-	- Y: Great!
-	- N: How many multi-punches are in non-corresponding value?
-			- Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
-			- Few: Maybe it’s a mistake/bad punch.
+ - Yes: Great!
+ - No: Is it possible they don’t match because there is more than one card? (Usually double or triple the expected number of records and/or an easily identifiable column with equal numbers of 1 and 2 punches)
+  - Do all values correspond to the codebook?
+    - Y: Great!
+    - N: How many multi-punches are in non-corresponding value?
+      - Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
+      - Few: Maybe it’s a mistake/bad punch.
  
 
 
