@@ -11,7 +11,7 @@ Affiliate Contributors (peer reviewers): Marley Kalt, Jane Fry
 
 |   Topic   |   Description   |
 | :------------- | :------------- |
-| File Extensions | <li>.bin</li> <li>.colbin</li> <br><br> The file extension may vary and is sometimes based on the content of the file|
+| File Extensions | <li>.bin</li> <li>.colbin</li> <br> The file extension may vary and is sometimes based on the content of the file|
 | MIME Type<sup>1</sup>|application/octet-stream|
 | Structure|Binary format|
 | Primary fields or areas of use | Survey research|
@@ -489,6 +489,154 @@ Punched card—Wikipedia. (n.d.). Wikipedia. Retrieved October 24, 2022, from [h
 Douglas W. Jones’s punched card index. (n.d.). Retrieved October 24, 2022, from [https://homepage.divms.uiowa.edu/~jones/cards/](https://homepage.divms.uiowa.edu/~jones/cards/)
 
 # Appendix A: Column Binary CURATE(D) Checklist
+
+The following is an adaption of the DCN's [CURATE(D) Checklist](z.umn.edu/curate):
+
+## C - CHECK
+
+ - Verify that the data file is, in fact, a column binary file
+ - Review the contents of the codebook and other supporting documentation
+
+**Curator checklist:**
+
+Data:
+- [ ] Data file is in column binary format
+
+Available Documentation:
+
+- [ ] Codebook
+- [ ] Frequencies
+- [ ] Methodology report
+- [ ] Other: _____________
+
+## U - UNDERSTAND
+
+ - Use SAS to create x-ray and bring raw data into SPSS (or other statistical program)
+ - Save syntax file
+ - Review raw data
+ - Check x-ray against information in the codebook
+ - Check for missing coding information
+
+**Curator checklist:**
+
+Data file and x-ray
+
+- [ ] Raw data file can be opened
+- [ ] X-ray can be opened
+- [ ] Data structure in x-ray matches what is expected based on the column locations in the codebook
+- [ ] Contents of raw data file match what is expected based on x-ray
+
+Available coding information:
+
+Column locations
+- [ ] Complete
+- [ ] Incomplete: _____________
+- [ ] Missing
+
+Question wording:
+- [ ] Complete
+- [ ] Incomplete: _____________
+- [ ] Missing
+
+Column locations:
+- [ ] Complete
+- [ ] Incomplete: _____________
+- [ ] Missing
+
+## R - REQUEST
+
+ - Identify and investigate potential sources of missing documentation information
+
+**Curator checklist:**
+
+Due to the historical nature of column binary data, it is usually not possible to contact those who were involved in designing and conducting the survey for information missing from the documentation. Books, articles, or other sources referencing the survey may be helpful in filling in the gaps, however.
+
+## A - AUGMENT
+
+ - Recode variables as needed
+ - Apply variable and value labels
+ - Remove variables that create privacy concerns as needed (e.g., zip code, phone number)
+ - Update metadata for data record
+
+**Curator checklist:**
+
+- [ ] Variables recoded according to codebook
+- [ ] Variable and value labels match questions and responses in the codebook
+- [ ] Dataset frequencies match frequencies in documentation (if available) and x-ray frequencies
+- [ ] Dataset does not contain personally identifying information
+- [ ] Study metadata updated to reflect converted dataset and any previously unavailable documentation
+
+## T - TRANSFORM
+
+ - After reviewing the converted data file, save in multiple data formats to provide greater accessibility
+ - Create data locations and x-ray files for ASCII file
+ - Scanned paper documentation as needed
+ - Save documentation
+
+**Curator checklist:**
+Data file saved in the following formats:
+- [ ] SPSS
+- [ ] Stata
+- [ ] ASCII
+- [ ] CSV
+- [ ] Other
+
+Documentation
+
+- [ ] Additional materials (e.g., ASCII data locations and x-ray, study note) added to documentation file
+- [ ] Main documentation file and any other supporting documentation files (e.g., reports) saved in PDF/A format
+
+
+## E - EVALUATE
+
+Evaluate data for [FAIR](https://www.go-fair.org/fair-principles/)ness 
+
+**Curator checklist:**
+
+Findability
+- [ ] Study assigned unique Persistent ID (archive number, DOI)
+- [ ] Files archived
+- [ ] Metadata accurate and as complete as possible
+- [ ] Study entry available in archive/database search results
+
+Accessibility
+- [ ] Metadata accessible in study entry
+- [ ] Files made available for download with authentication and authorization
+- [ ] Data cleaned to ensure clarity/easier use
+
+Interoperability
+- [ ] Standardized metadata
+- [ ] Data available in multiple formats
+
+Reusability
+- [ ] Study documentation (including study note) is as complete as possible
+- [ ] Data usage Terms & Conditions are clear
+
+## D - DOCUMENT
+
+ - Document conversion process using syntax and readme files
+ - Document helpful information (e.g., special coding decisions) and address any issues (e.g., incomplete codelists) in a study note for users
+
+**Curator checklist:**
+
+Internal elements
+- [ ] Syntax file (e.g., .sps file) documenting code for:
+  - Bringing data into SPSS (or other statistical program)
+  - Coding and labeling variables
+  - Saving converted data file in other formats
+- [ ] Internal readme file documenting:
+  - Study identifier
+  - Date processed
+  - Variables removed due to privacy issues
+  - Number of variables and cases in converted data file
+  - Other information as needed
+
+External elements (available as part of main documentation file)
+- [ ] Cover sheet with core metadata
+- [ ] Study note
+- [ ] ASCII data locations
+- [ ] X-ray for ASCII file
+
 
 # Appendix B: Recommended metadata elements for survey research
 
