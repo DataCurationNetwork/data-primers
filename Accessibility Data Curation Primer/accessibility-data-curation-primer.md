@@ -28,51 +28,87 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 
 # Table of Contents
 
-[Overview](#overview)
-
 [Summary](#summary)
 
 [A very brief introductions to digital accessibility](#introduction)
 
 [Accessibility by data type](#accessibility-by-data-type)
 > [Text](#text) <br> 
->> [Plain text](#plain-text) <br> [Formatted text](#formatted-text) <br> 
+>> [Plain text](#plain-text) <br> [Formatted text](#formatted-text)
 >>> [Microsoft Word](#microsoft-word) <br> [PDF](#pdf) <br> 
+>> [Images of text](#images-of-text)
+> [Tabular](#tabular)
+>> [Plain tabular data](#plain-tabular-data) <br> [Formatted tabular data](#formatted-tabular-data) 
+> [Code](#code)
+>> [Scripts](#scripts) <br> [Markdown](#markdown)
+> [Images](#images)
+>> [General guidance](#general-guidance) <br> [Maps](#maps) <br> [3D Images](#3d-images) <br> [Data visualizations](#data-visualizations)
+> [Time-based data](#time-based-data)
+>> [Audio](#audio) <br> [Moving image/video](#moving-image-video)
 
-[Potential Data Sharing Challenges](#potential-data-sharing-challenges)
+[Accessible datasets](#accessible-datasets)
+> [Accessibility metadata](#accessibility-metadata)
 
-[Selecting a Repository](#selecting-a-repository)
+[Appendix A: Areas for further study](#appendix-a)
+> [Data type-specific considerations](#data-type-specific-considerations) <br> [File formats](#file-formats) <br> [Datasets](#datasets) <br> [Software and platforms](#software-and-platforms) <br> [Repositories](#repositories)
 
-[Clinical Trial Registration](#clinical-trial-registration)
+[Appendix B: Glossary](#appendix-b)
+> [Primer definitions](#primer-definitions) <br> [WCAG definitions](#wcag-definitions)
 
-> [Why Is Trial Registration Important?](#why-is-trial-registration-important?) <br> [U.S. National Institutes of Health](#us-national-institutes-of-health) <br> [The World Health Organization ](#the-world-health-organization) <br> [International Committee of Medical Journal Editors](#international-committee-of-medical-journal-editors) <br> [Trial Registration Data Elements](#trial-registration-data-elements) <br> 
-[Core Metadata Elements and Documentation Requirements](#core-metadata-elements-and-documentation-requirements) <br> 
-
-[Key Curation Considerations](#key-curation-considerations)
->[DCN CURATE(D) Steps](#dcn-curated-steps)
-
-[Related Primers](#related-primers)
-
-[Helpful Resources](#helpful-resources)
+[Appendix C: Freely available tools](#appendix-c)
+> [Specific tools](#specific-tools) <br> [Collections of tools or general guidance](#collections-of-tools-or-general-guidance)
 
 [Bibliography](#bibliography)
 
 
 # Summary
 
-This primer provides a basic foundation for what goes into evaluating data from clinical trials for curation, sharing, and preservation purposes, specifically from the perspective of a data curator. It broadly covers: the benefits of sharing clinical trial data, potential data sharing challenges, selecting a repository, clinical trial registration requirements, including those of U.S.-based clinicaltrials.gov and the World Health Organization’s International Clinical Trials Registry Platform, the International Committee of Medical Journal Editors data sharing requirements, core metadata elements, including trial registration data elements, and key data curation steps. This primer is not a complete guide to clinical trials research or managing data of scholarly outputs, and is not intended to provide guidance on how to manage identifying sensitive information that may be present in human participant data. Instead, this primer is intended to provide an overview of the curation challenges and opportunities specific to clinical trial data. The laws and regulations mentioned in this primer are primarily situated within the U.S. context; when possible, international resources and recommendations have been identified. The ethical considerations discussed may be broader and apply across jurisdictions, although some will be context or culture-specific. This primer is not meant to provide comprehensive guidance or legal advice.
+> “...**everyone** must be able to use, re-use and redistribute–there should be **no discrimination** against fields of endeavour or against persons or groups.” - [The Open Data Handbook](https://opendatahandbook.org/guide/en/what-is-open-data/)<sup>6</sup>     
 
-# Introduction to Clinical Trials Data
+Although accessibility is a commonly-used word in the context of data curation, it’s important to clarify that it has most often been used in the more general sense of data that is findable and widely available.<sup>7</sup>  This includes considerations around indexing, clear context (and language), well-defined and standardized access paths, using open file formats, and paywalls/affordability. However, accessibility that explicitly takes into account the needs of a range of potential users including those with disabilities or neurodivergence is most often not included in this approach, and this shortfall needs to be addressed. 
 
-Clinical trials data are a specific type of [human participant data](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md). This data is generated through a clinical study in which a new drug or medical approach is studied for therapeutic, preventative, or diagnostic uses on individuals; clinical studies and their data determine if these new drugs or medical approaches are deemed both safe and effective for people. [These studies](https://clinicaltrials.gov/ct2/about-studies/learn#WhatIs) can also show researchers whether existing research is confirmed, if there are better approaches, or if there are potential harms to participants (U.S. National Library of Medicine, 2019, March).
+Providing truly accessible data requires resources that many repositories (and researchers) have in short supply. But **availability is not accessibility, and accessibility is not optional.** (In some cases, accessibility may also be legally mandated, such as by requirements for federally funded research data and publications under [Section 508](https://www.section508.gov/create/)<sup>8</sup>  in the U.S.) For the purposes of this document, “Accessible” data means data compatible with assistive technologies, as well as featuring the considered use of design features such as color contrast, font size and legibility, and alternatives to visual presentations of information such that users with physical/sensory disabilities or who are neurodivergent have equivalent access to the information represented by the data. 
 
-Clinical trials are a type of clinical study that takes a controlled approach to studying the effects of new medical devices and drugs, or new methods and behaviors for participants. Since these trials are introducing something new into the lives of participants, they are also called interventional studies. These are different from observational studies, which are a different type of clinical study that will not be covered in this primer. There are many different types of clinical trials such as open, single-blind, crossover, etc., and documentation and data will differ depending on the [type of clinical trial](https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/).
+Ideally, data (as with other artifacts such as software, websites etc.) would be “born accessible,” that is, created taking into account all possible user needs for access (see also “Universal Design” in [Appendix B: Glossary]( #appendix-b)). In practice, curators are likely to encounter datasets that require remediation–that is, adjustments after the fact to address barriers to accessibility for a user or group of users (see also [Appendix B: Glossary]( #appendix-b)). Remediation is often performed for a specific user upon request and can be an important path to access for historical materials; however, request-based remediation services for physical content are frequently labor-intensive, sometimes impractical, and often insufficient. Digital resources should be accessible by design. While accessibility requires work up front, **the benefits and longevity of accessible data are worth the time and resources needed to create and maintain them.**
 
-<figure> <img src="clinical-1.JPG" alt="Clinical trial process overview." style=""> <figcaption></figcaption> </figure>
+Accessibility benefits everyone who encounters the data regardless of their abilities– **accessible data is more navigable and understandable for everyone.** Accessible data attracts more users, including:
+- People with visible and invisible disabilities
+- People learning the data’s “native” language (English, Python, etc.)
+- Scholars from other fields with potentially valuable contributions
+- Anyone who needs the data to be machine-readable and/or optimized for reuse (almost everyone!)
 
-(Source: [Institute of Medicine of the National Academies (IOM)](https://nap.nationalacademies.org/read/18998/chapter/2#10), 2015 )
+Fortunately, accessibility is also not all-or-nothing, and any change for the better helps build toward new default practices for considering and addressing data accessibility long before a reuser encounters the data and has to discover how accessible it is (or isn’t). Data curators see many different data and are familiar with assessing data and documentation against best practices, advocating for change, and providing researcher education. As with many other curation challenges, many of the solutions actually lie upstream, during data creation and processing. **Data curators are thus uniquely positioned to help improve access not just to individual datasets, but to the world of research data at large.** As guides to and stewards of data, curators can counsel researchers on how to build accessibility into data planning, collection, analysis, and archiving. 
 
-Clinical trials data can include many different components of a research project. Over the course of the trial, an enormous amount of data and different types of data may be collected, “including individual participant data (i.e., raw data and the analyzable data set); metadata, or “data about the data” (e.g., protocol, statistical analysis plan, and analytic code); and summary-level data (e.g., summary-level results posted on registries, lay summaries, publications, and Clinical Study Reports)” (Institute of Medicine of the National Academies (IOM), 2015). With the exception of the raw data, most data outputs of the trial can be de-identified and shared. While each component is represented as a distinct item below, some data elements may overlap or be part of another.
+**This primer is intended as a starting point for data curators who are invested in improving the accessibility of individual files or datasets, rather than as definitive guide.** There is far more work to be done than can be addressed in the scope of this primer. Disability is also a complex concept with a diversity of possible presentations, which will present varying (sometimes even conflicting) accessibility needs. Similarly, there may be points at which recommended best practices for other aspects of data curation seem to come into conflict with accessibility. (For example, open source file formats are generally preferable from a preservation perspective, but open source software projects may not have the same resources to devote to accessibility features and standards as licensed or proprietary softwares do.) There is no “quick fix” for all users. As curators become more familiar with improving accessibility at the file and dataset level, they will be better equipped to help develop accessible repositories, write policies that foreground accessibility, conduct accessibility research, responsibly engage with disabled users as appropriate throughout the curation process, and improve existing curation workflows. 
+
+# A very brief introductions to digital accessibility
+
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)<sup>9</sup> are the foundation of digital accessibility. These guidelines were developed for and are most applicable to website design and maintenance (though see also the Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT), below). However, many of the guidelines and principles are also applicable to datasets. While most research data is not a single web page, accessibility guidelines for non-web content tend to be based on web guidelines.<sup>10</sup>  [This abbreviated guide](https://theappbusiness.github.io/accessibility-guidelines/) <sup>11</sup>  is a good starting point for understanding WCAG.
+
+WCAG centers on four broad objectives:
+- **Perceivable:** “Information and user interface components must be presentable to users in ways they can perceive.”
+- **Operable:** “User interface components and navigation must be operable.”
+- **Understandable:** “Information and the operation of user interface must be understandable.”
+- **Robust:** “Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.”
+
+**Some data curation work already facilitates access.** Ensuring that information is intuitively organized (“understandable”), clearly describing files and the relationships between them (“understandable”), and promoting open-source, platform-agnostic formats (“robust”) are all key components of digital accessibility. However, **curators also need to concern themselves with whether that content is perceivable, operable, and compatible with assistive technologies.**
+
+A single document can be any file format, and many files and formats contain multiple types of content, each with its own accessibility considerations. Additionally, accessibility does not happen only at the document level. The [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)<sup>12</sup> describes accessibility as a product of several interwoven layers. **In a truly accessible dataset, each layer must be accessible, both individually and in combination with all other layers.**
+
+Regardless of a dataset’s complexity, as they curate for accessibility, **curators should document their work.** Standards like WCAG are the result of years or decades of research. Documenting best practices and the reasons particular choices are made can inform future standards and make it easier to reproduce effective solutions. When in doubt, It is generally advisable to follow proven best practices for a particular type of content, file format, etc., as these are most likely to be familiar to users, and there are more likely to be resources to reference. If no consensus on solutions exists, or if the existing solutions are not sufficient, curators can create workflows that can be reproduced and make these workflows publicly available. 
+
+
+# Accessibility by data type
+
+When curating for accessible files, it is important not only to look at the file’s format, but also at all of the types of information or data within or generated by the file. For example, a simple code file may be accessible as a plain text document, but any visualizations it generates may not be. The following guidelines for assessing both data and accompanying documentation files are based on the many data types one may find within various file formats, in the hopes that curators may transfer best practices to whatever data types they find within files. Curators may need to be creative in deciding how best to apply these guidelines when working with formats that might not accommodate necessary accessibility features like alt-text, changing color contrast, or screen reading. See also [Appendix B: Glossary]( #appendix-b)) below for a primer-specific definition of the use of “data type” within this document. 
+
+## Text
+
+### Plain text
+
+# Appendix B: Glossary
+
+
 
 **Individual Participant Data**
 
