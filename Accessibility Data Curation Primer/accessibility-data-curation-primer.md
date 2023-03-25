@@ -12,9 +12,9 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | Key questions for curation review| <li>What types of files and data are included in the dataset? What types of accessibility considerations apply or are most relevant to ensure for the dataset? </li><li>What are the applicable accessibility best practices for the dataset or file format(s)? If none exist, what alternative practices can be used to make the data set or file formats more accessible?</li><li>Are appropriate metadata present in the right format and location (including metadata on accessibility, where needed)?</li><li>Has the dataset been tested for accessibility using an assistive technology, built-in accessibility checker, or web-based or other accessibility checker?</li> |
-| Tools for curation review | <li>[Assistive technologies](https://www.atia.org/home/at-resources/what-is-at/) (e.g., screen readers, text to voice, zoom capability)<sup>1</sup> that may be available for individual machines.</li><li>Accessibility checkers built into specific software (e.g., Word products, Adobe Acrobat)</li><li>Published standards (such as [WCAG](https://www.w3.org/TR/WCAG21/),<sup>2</sup> those endorsed by [DAISY](https://daisy.org/activities/standards/),<sup>3</sup> [Crossref](https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/),<sup>4</sup> etc.)</li><li>Online tools (for examples see [Appendix C](# appendix-c))</li><li>Accessibility experts (e.g., campus accessibility offices or centers) and users with disabilities.<sup>5</sup></li> |
+| Tools for curation review | <li>[Assistive technologies](https://www.atia.org/home/at-resources/what-is-at/) (e.g., screen readers, text to voice, zoom capability)<sup>1</sup> that may be available for individual machines.</li><li>Accessibility checkers built into specific software (e.g., Word products, Adobe Acrobat)</li><li>Published standards (such as [WCAG](https://www.w3.org/TR/WCAG21/),<sup>2</sup> those endorsed by [DAISY](https://daisy.org/activities/standards/),<sup>3</sup> [Crossref](https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/),<sup>4</sup> etc.)</li><li>Online tools (for examples see [Appendix C](#appendix-c-freely-available-tools))</li><li>Accessibility experts (e.g., campus accessibility offices or centers) and users with disabilities.<sup>5</sup></li> |
 | Date Created | 2023-03-01 |
-| Created by | Emily Oxford<br> Rachel Woodbrook - University of Michigan <br> DCN Mentor - Wendy Kozwloski – Cornell University  |
+| Created by | Emily Oxford<br> Rachel Woodbrook - University of Michigan <br><br> DCN Mentor - Wendy Kozwloski – Cornell University  |
 | Date updated and summary of changes made | Please see README  |
 
 
@@ -49,13 +49,13 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 [Accessible datasets](#accessible-datasets)
 > [Accessibility metadata](#accessibility-metadata)
 
-[Appendix A: Areas for further study](#appendix-a)
+[Appendix A: Areas for further study](#appendix-a-areas-for-further-study)
 > [Data type-specific considerations](#data-type-specific-considerations) <br> [File formats](#file-formats) <br> [Datasets](#datasets) <br> [Software and platforms](#software-and-platforms) <br> [Repositories](#repositories)
 
-[Appendix B: Glossary](#appendix-b)
+[Appendix B: Glossary](#appendix-b-glossary)
 > [Primer definitions](#primer-definitions) <br> [WCAG definitions](#wcag-definitions)
 
-[Appendix C: Freely available tools](#appendix-c)
+[Appendix C: Freely available tools](#appendix-c-freely-available-tools)
 > [Specific tools](#specific-tools) <br> [Collections of tools or general guidance](#collections-of-tools-or-general-guidance)
 
 [Bibliography](#bibliography)
@@ -69,7 +69,7 @@ Although accessibility is a commonly-used word in the context of data curation, 
 
 Providing truly accessible data requires resources that many repositories (and researchers) have in short supply. But **availability is not accessibility, and accessibility is not optional.** (In some cases, accessibility may also be legally mandated, such as by requirements for federally funded research data and publications under [Section 508](https://www.section508.gov/create/)<sup>8</sup>  in the U.S.) For the purposes of this document, “Accessible” data means data compatible with assistive technologies, as well as featuring the considered use of design features such as color contrast, font size and legibility, and alternatives to visual presentations of information such that users with physical/sensory disabilities or who are neurodivergent have equivalent access to the information represented by the data. 
 
-Ideally, data (as with other artifacts such as software, websites etc.) would be “born accessible,” that is, created taking into account all possible user needs for access (see also “Universal Design” in [Appendix B: Glossary]( #appendix-b)). In practice, curators are likely to encounter datasets that require remediation–that is, adjustments after the fact to address barriers to accessibility for a user or group of users (see also [Appendix B: Glossary]( #appendix-b)). Remediation is often performed for a specific user upon request and can be an important path to access for historical materials; however, request-based remediation services for physical content are frequently labor-intensive, sometimes impractical, and often insufficient. Digital resources should be accessible by design. While accessibility requires work up front, **the benefits and longevity of accessible data are worth the time and resources needed to create and maintain them.**
+Ideally, data (as with other artifacts such as software, websites etc.) would be “born accessible,” that is, created taking into account all possible user needs for access (see also “Universal Design” in [Appendix B: Glossary](#appendix-b-glossary)). In practice, curators are likely to encounter datasets that require remediation–that is, adjustments after the fact to address barriers to accessibility for a user or group of users (see also [Appendix B: Glossary](#appendix-b-glossary)). Remediation is often performed for a specific user upon request and can be an important path to access for historical materials; however, request-based remediation services for physical content are frequently labor-intensive, sometimes impractical, and often insufficient. Digital resources should be accessible by design. While accessibility requires work up front, **the benefits and longevity of accessible data are worth the time and resources needed to create and maintain them.**
 
 Accessibility benefits everyone who encounters the data regardless of their abilities– **accessible data is more navigable and understandable for everyone.** Accessible data attracts more users, including:
 - People with visible and invisible disabilities
@@ -100,13 +100,78 @@ Regardless of a dataset’s complexity, as they curate for accessibility, **cura
 
 # Accessibility by data type
 
-When curating for accessible files, it is important not only to look at the file’s format, but also at all of the types of information or data within or generated by the file. For example, a simple code file may be accessible as a plain text document, but any visualizations it generates may not be. The following guidelines for assessing both data and accompanying documentation files are based on the many data types one may find within various file formats, in the hopes that curators may transfer best practices to whatever data types they find within files. Curators may need to be creative in deciding how best to apply these guidelines when working with formats that might not accommodate necessary accessibility features like alt-text, changing color contrast, or screen reading. See also [Appendix B: Glossary]( #appendix-b)) below for a primer-specific definition of the use of “data type” within this document. 
+When curating for accessible files, it is important not only to look at the file’s format, but also at all of the types of information or data within or generated by the file. For example, a simple code file may be accessible as a plain text document, but any visualizations it generates may not be. The following guidelines for assessing both data and accompanying documentation files are based on the many data types one may find within various file formats, in the hopes that curators may transfer best practices to whatever data types they find within files. Curators may need to be creative in deciding how best to apply these guidelines when working with formats that might not accommodate necessary accessibility features like alt-text, changing color contrast, or screen reading. See also [Appendix B: Glossary](#appendix-b-glossary)) below for a primer-specific definition of the use of “data type” within this document. 
 
 ## Text
 
 ### Plain text
 
+### Formatted text
+
+#### Microsoft Word
+
+#### PDF
+
+### Images of text
+
+## Tabular
+
+### Plain tabular data
+
+### Formatted tabular data
+
+## Code
+
+### Scripts
+
+### Markdown
+
+## Images
+
+### General guidance
+
+### Maps
+
+### 3D Images
+
+### Data visualizations
+
+## Time-based data
+
+### Audio
+
+### Moving image/video
+
+# Accessible datasets
+
+## Accessibility metadata
+
+# Appendix A: Areas for further study
+
+## Data type-specific considerations
+
+## File formats
+
+## Datasets
+
+## Software and platforms
+
+## Repositories
+
+
 # Appendix B: Glossary
+
+## Primer definitions
+
+## WCAG definitions
+
+# Appendix C: Freely available tools
+
+## Specific tools
+
+## Collections of tools or general guidance
+
+# Bibliography
 
 
 
