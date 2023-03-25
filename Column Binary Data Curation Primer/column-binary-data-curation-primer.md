@@ -464,13 +464,13 @@ Converted datasets can be used for quantitative analysis of survey data. Convert
 
 ## Cited in Text
 
-<p  id="note1"><sup>1</sup> Common MIME types—HTTP | MDN. (n.d.). MDN Web Docs. Retrieved October 24, 2022, from [https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)</p>
+<p  id="note1"><sup>1</sup> Common MIME types—HTTP | MDN. (n.d.). MDN Web Docs. Retrieved October 24, 2022, from [https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types]</p>
 
-<p  id="note2"><sup>2</sup> IBM Archives: 1928. (2003, January 23). [TS200]. IBM. [https://www.ibm.com/ibm/history/history/year_1928.html](https://www.ibm.com/ibm/history/history/year_1928.html)</p>
+<p  id="note2"><sup>2</sup> IBM Archives: 1928. (2003, January 23). [TS200]. IBM. [https://www.ibm.com/ibm/history/history/year_1928.html]</p>
 
-<p  id="note3"><sup>3</sup> IBM100—The IBM Punched Card. (2012, March 7). [CTB14]. IBM; IBM Corporation. [https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/](https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/)</p>
+<p  id="note3"><sup>3</sup> IBM100—The IBM Punched Card. (2012, March 7). [CTB14]. IBM; IBM Corporation. [https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/]</p>
 
-<p  id="note4"><sup>4</sup> Reinhold, A. (2006). Binary punched card. [Online image]. Wikimedia Commons.  [https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) </p>
+<p  id="note4"><sup>4</sup> Reinhold, A. (2006). Binary punched card. [Online image]. Wikimedia Commons. [https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg]</p>
 
 <p  id="note5"><sup>5</sup> The Purdue Opinion Panel. (1954). Purdue Opinion Panel # 38: Some Ethical Values of Youth, Compared over the years (Version 1) [Dataset]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research. doi:10.25940/ROPER-31096337</p>
 
@@ -478,9 +478,9 @@ Converted datasets can be used for quantitative analysis of survey data. Convert
 
 <p  id="note7"><sup>7</sup> General Electric. General Electric Quarterly Survey 68-02, 1968 [Dataset]. Roper #31092117, Version 4. Trendex, Inc. [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31092117</p>
 
-<p  id="note8"><sup>8</sup> DDI Alliance. (2023, February 24). DDI. [https://ddialliance.org/](https://ddialliance.org/)</p>
+<p  id="note8"><sup>8</sup> DDI Alliance. (2023, February 24). DDI. [https://ddialliance.org/](https://ddialliance.org/]</p>
 
-<p  id="note9"><sup>9</sup> Deng, Sai; Dull, Joshua; Finn, Jeanine; Khair, Shahira (2019). SPSS Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers) Retrieved March 8, 2023 from [https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md)</p>
+<p  id="note9"><sup>9</sup> Deng, Sai; Dull, Joshua; Finn, Jeanine; Khair, Shahira (2019). SPSS Data Curation Primer. [Data Curation Network GitHub Repository.] Retrieved March 8, 2023 from [https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md]</p>
 
 ## Additional Useful Resources
 
