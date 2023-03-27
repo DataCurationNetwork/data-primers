@@ -38,24 +38,35 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 >> [Formatted text](#formatted-text)
 >>> [Microsoft Word](#microsoft-word) 
 >>> [PDF](#pdf) 
+
 >> [Images of text](#images-of-text)
 
 > [Tabular](#tabular)
+
 >> [Plain tabular data](#plain-tabular-data)
+
 >> [Formatted tabular data](#formatted-tabular-data) 
 
 > [Code](#code)
+
 >> [Scripts](#scripts) 
+
 >> [Markdown](#markdown)
 
 > [Images](#images)
+
 >> [General guidance](#general-guidance) 
+
 >> [Maps](#maps) 
+
 >> [3D Images](#3d-images) 
+
 >> [Data visualizations](#data-visualizations)
 
 > [Time-based data](#time-based-data)
+
 >> [Audio](#audio) 
+
 >> [Moving image/video](#moving-image-video)
 
 [Accessible datasets](#accessible-datasets)
