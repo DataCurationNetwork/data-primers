@@ -300,8 +300,7 @@ An example of schema.org accessibility fields implemented by Cornell University 
 | ------------- | ------------- | ------------- | ------------- |
 | Schema.accessibilityFeature | Accessibility feature | Select the Accessibility feature(s) for the content of the item. | alternative text <br> bookmarks <br> captions <br> ChemML <br> described math <br> display transformability <br> high contrast audio <br> high contrast display <br> large print <br> long description <br> MathML <br> reading order <br> structural navigation <br> tagged PDF <br> transcript |
 | Schema.accessibilityHazard | Accessibility hazard | Select the possible Accessibility hazard(s) for the content of the item. | none <br> flashing <br> no flashing <br> motion simulation <br> no motion hazard <br> sound <br> no sound hazard <br> unknown |
-| Schema.accessibilitySummary | Accessibility summary | Enter a human-readable summary of specific
-accessibility feature and deficiencies.| free text |
+| Schema.accessibilitySummary | Accessibility summary | Enter a human-readable summary of specific accessibility feature and deficiencies.| free text |
 
 # Appendix A: Areas for further study
 
