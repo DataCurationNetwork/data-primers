@@ -627,98 +627,98 @@ Word, PDF, or Web Page? | Web Accessibility | Michigan State University. (n.d.).
 [^19]: Font Face (Accessibility and Usability at Penn State) 
 [^20]: Contrast & Color: Web Accessibility Guidelines v.1.0 (Carnegie Museums of Pittsburgh) 
 [^21]: WebAIM: Screen Reader User Survey #9 Results. (n.d.) Retrieved March 24, 2023, from https://webaim.org/projects/screenreadersurvey9/#heading 
-[^22] Adding Metadata to Documents (The Open University) 
-[^23] Alternative Text (WebAIM); see also Appendix B: Glossary 
-[^24] The LaTeX Project (LaTeX Project); see also Appendix B: Glossary 
-[^25] What is MathML? (W3C); see also Appendix B: Glossary 
-[^26] Mathematical markup language (Wikipedia) 
-[^27] Specific Guidelines – Mathematics: Equations and Expressions (DIAGRAM Center) 
-[^28] Equations: MathML, Images and LaTeX (Accessibility and Usability at Penn State) 
-[^29] PDF/UA (Wikipedia) 
-[^30] Anderson, T., Colón, R. D., Goben, A., & Karcher, S. (2022). Curating for Accessibility. International Journal of Digital Curation, 17(1), Article 1. https://doi.org/10.2218/ijdc.v17i1.837 
-[^31] HTML vs. Word vs. PDF: Accessibility Strengths and Weaknesses (CommonLook) 
-[^32] Web Accessibility: Word, PDF, or Web Page? (Michigan State University) 
-[^33] Microsoft Word Tips (Accessibility and Usability at Penn State) 
-[^34] Make your content accessible to everyone with the Accessibility Checker (Microsoft Office) 
-[^35] Create Accessible [Word] Documents(Section 508, U.S. General Services Administration) 
-[^36] The Case Against PDFs, in Understanding Document Accessibility (The Chang School, Toronto Metropolitan University) 
-[^37] PDF Issues & Recommendations (Accessibility and Usability at Penn State) 
-[^38] Create Accessible PDFs (Section 508, U.S. General Services Administration) 
-[^39] Tab and Read Order (University of Washington Accessible Technology) 
-[^40] PDF Accessibility Checker (PAC) 2021 (PDF/UA Foundation) 
-[^41] Optical Character Recognition (Wikipedia) 
-[^42] Tesseract Documentation (Tesseract OCR) 
-[^43] Tips and Tricks, in Tables Tutorial (WC3) 
-[^44] Spreadsheets (Accessibility and Usability at Penn State) 
-[^45] Guidance: Tabular Data Standard (Central Digital and Data Office, UK Government) 
-[^46] Accessibility Statement for MATLAB - Q1 2023 (MATLAB). Retrieved March 24, 2023, from https://www.mathworks.com/support/accessibility.html  
-[^47] Make your Excel documents accessible to people with disabilities (Microsoft Office) 
-[^48] Excel Tips (Accessibility and Usability at Penn State) 
-[^59] Create Accessible Spreadsheets (Section 508, U.S. General Services Administration) 
-[^50] Tips and Tricks, in Tables Tutorial (WC3) 
-[^51] Image ALT Text in Microsoft Office (Accessibility and Usability at Penn State) 
-[^52] Excel Tips (Accessibility and Usability at Penn State) 
-[^53] Tables (Accessibility and Usability at Penn State) 
-[^54] See Appendix B: Glossary for definitions of markdown and markup 
-[^55] Godfrey, A.J.R. Accessible R Markdown Documents. (n.d.). Retrieved March 23, 2023, from https://r-resources.massey.ac.nz/rmarkdown/  
-[^56] Link text needs to be uniquely identifiable within the page (NC State University IT Accessibility) 
-[^57] Accessible R Markdown Documents (A.J.R. Godfrey) 
-[^58] Image Description Guidelines (The Diagram Center) 
-[^59] Godfrey, A.J.R., Loots, M.T., 2015. Advice From Blind Teachers on How to Teach Statistics to Blind Students. Journal of Statistics Education 23, 4, pp. 10. https://doi.org/10.1080/10691898.2015.11889746 
-[^60] Advice From Blind Teachers on How to Teach Statistics to Blind Students (A.J.R. Godfrey and M.T. Loots) 
-[^61] Color Brewer 2.0: Color Advice for Cartography (Cynthia Brewer, Mark Harrower and The Pennsylvania State University) 
-[^62] Conversation with Jon McGlone. 
-[^63] W3C Research and Development Working Group. (n.d.). Accessible Maps. In Research and Development Working Group Wiki. Retrieved March 24, 2023 from https://www.w3.org/WAI/RD/wiki/Accessible_Maps
-[^64] Accessible Maps (W3C Wiki) 
-[^65] Accessible Maps (W3C Wiki) 
-[^66] Specific Guidelines—Maps. (n.d.). DIAGRAM Center. Retrieved March 23, 2023, from http://diagramcenter.org/specific-guidelines-e-2.html/ 
-[^67] Specific Guidelines—Maps (DIAGRAM Center) 
-[^68] Specific Guidelines—Maps (DIAGRAM Center) 
-[^69] Contrast or Luminosity/Brightness (Accessibility and Usability at Penn State) 
-[^70] Color Deficient Vision (Color Blindness) (Accessibility and Usability at Penn State) 
-[^71] Maps (Accessibility and Usability at Penn State) 
-[^72] Conversation with Jon McGlone. 
-[^73] SAS. Data Visualization: What it is and why it matters. (n.d.). Retrieved January 5, 2023, from https://www.sas.com/en_us/insights/big-data/data-visualization.html  
-[^74] Data Visualization: What it is and why it matters (SAS) 
-[^75] Godfrey, A.J.R., & Loots, M.T. (2014). Statistical Software (R, SAS, SPSS, and Minitab) for Blind Students and Practitioners. Journal of Statistical Software, 58(1), 1–25. https://doi.org/10.18637/jss.v058.s01 
-[^76] Statistical Software (R, SAS, SPSS, and Minitab) for Blind Students and Practitioners (A.J.R. Godfrey and M.T. Loots) 
-[^77] Godfrey, A. J. R., & Loots, M. T. (2015). Advice From Blind Teachers on How to Teach Statistics to Blind Students. Journal of Statistics Education, 23(3), 4. https://doi.org/10.1080/10691898.2015.11889746 
-[^78] Walker, W., Keenan, T., 2015. Going Beyond Availability: Truly Accessible Research Data. Journal of Librarianship and Scholarly Communication 3, pp. 5. https://doi.org/10.7710/2162-3309.1223  
-[^79] Godfrey, A.J.R., Murrell, P., Sorge, V., 2018. An Accessible Interaction Model for Data Visualisation in Statistics, in: Miesenberger, K., Kouroupetroglou, G. (Eds.), Computers Helping People with Special Needs, Lecture Notes in Computer Science. Springer International Publishing, Cham, pp. 593, https://doi.org/10.1007/978-3-319-94277-3_92 
-[^80] Conversation with U-M Accessibility Team (Darrell Williams) 
-[^81] Specific Guidelines - Graphs (DIAGRAM Center) 
-[^82] Making Graphical Data More Accessible (University of Nevada, Reno) 
-[^83] Charts & Accessibility (Accessibility and Usability at Penn State) 
-[^84] Description of Visual Information, in Making Audio and Video Media Accessible (W3C) 
-[^85] Tools & Guidelines (NCAM) 
-[^86] Photosensitive Epilepsy Analysis Tool (PEAT) (Trace Research & Development Center)  
-[^87] Photosensitive Epilepsy Analysis Tool (PEAT) (Trace Research & Development Center)  
-[^88] Videos (University of Washington) 
-<p  id="note89">[^89] See for example Crosref’s recent announcement about recommended changes to DOI displays: https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/ 
-[^90] Kozlowski, Wendy. “Don't Just Provide ACCESS, Make Data ACCESSIBLE!” [Poster] (2020). Retrieved March 24, 2023, from https://osf.io/8v9bp 
-[^91] Conversation with U-M Accessibility Team (Gonzalo Silvero) 
-[^92] Scalable Vector Graphics (SVG) 2 (W3C) 
-[^93] Data Model (Wikipedia) 
-[^94] Conversation with Stephanie Rosen 
-[^95] Albrezzi, F., Bonnett, J., Gniady, T., Richards-Rissetto, H., & Snyder, L. (2022). Accessing 3D Data. Anthropology Faculty Publications. https://digitalcommons.unl.edu/anthropologyfacpub/196 
-[^96] Building a Fluent Assistive Technology Testing Pool to Improve Campus Digital Accessibility (Practice Brief) (K. Shachmut and A. Deschenes) 
-[^97] R Data Curation Primer (DCN) 
-[^98] Building a Fluent Assistive Technology Testing Pool to Improve Campus Digital Accessibility (Practice Brief) (K. Shachmut and A. Deschenes) 
-[^99] IT Accessibility Checklist (University of Washington) 
-[^100] The DCN CURATE(D) Steps (DCN) 
-[^101] Curation Lifecycle Model (DCC) 
-[^102] Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, and GitHub Desktop. (GitHub) 
-[^103] WebAIM: Alternative Text. (n.d.). Retrieved March 24, 2023, from https://webaim.org/techniques/alttext/ 
-[^104] What is assistive technology? | DO-IT. (n.d.). Retrieved March 19, 2023, from https://www.washington.edu/doit/what-assistive-technology 
-[^105] For more information on open vs closed captions, see https://www.washington.edu/doit/what-difference-between-open-and-closed-captioning 
-[^106] WebAIM: Alternative Text. (n.d.). Retrieved March 24, 2023, from https://webaim.org/techniques/alttext/ 
-[^107] Equations: MathML, Images and LaTeX. (2014, October 27). Accessibility at Penn State. Retrieved March 24, 2023, from https://accessibility.psu.edu/math/equations/ 
-[^108] Getting Started | Markdown Guide. (n.d.). Retrieved March 19, 2023, from https://www.markdownguide.org/getting-started/ 
-[^109] Markup language. (2023). In Wikipedia. Retrieved March 24, 2023, from  https://en.wikipedia.org/w/index.php?title=Markup_language&oldid=1140707117 
-[^110] Equations: MathML, Images and LaTeX. (Accessibility and Usability at Penn State) 
-[^111] What is Universal Design | Centre for Excellence in Universal Design. (n.d.). Retrieved March 24, 2023, from https://universaldesign.ie/what-is-universal-design/  
-[^112] Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT) 
-[^113] See more examples and counterexamples at the linked WCAG2ICT guidance. 
-[^114] “This definition of ‘set of software programs’ is derived from the characteristics of a ‘set’ of web pages, and is used for mapping WCAG success criteria to software. Although such sets occur frequently for web pages, such sets appear to be extremely rare for software.” (WCAG2ICT guidance). 
-[^115] https://in.nau.edu/virtual-accessibility-expedition/screen-reader-activity-hint-page/ 
-[^116] Also available at https://www.zotero.org/groups/4920812/data_accessibility_primer/library 
+[^22]: Adding Metadata to Documents (The Open University) 
+[^23]: Alternative Text (WebAIM); see also Appendix B: Glossary 
+[^24]: The LaTeX Project (LaTeX Project); see also Appendix B: Glossary 
+[^25]: What is MathML? (W3C); see also Appendix B: Glossary 
+[^26]: Mathematical markup language (Wikipedia) 
+[^27]: Specific Guidelines – Mathematics: Equations and Expressions (DIAGRAM Center) 
+[^28]: Equations: MathML, Images and LaTeX (Accessibility and Usability at Penn State) 
+[^29]: PDF/UA (Wikipedia) 
+[^30]: Anderson, T., Colón, R. D., Goben, A., & Karcher, S. (2022). Curating for Accessibility. International Journal of Digital Curation, 17(1), Article 1. https://doi.org/10.2218/ijdc.v17i1.837 
+[^31]: HTML vs. Word vs. PDF: Accessibility Strengths and Weaknesses (CommonLook) 
+[^32]: Web Accessibility: Word, PDF, or Web Page? (Michigan State University) 
+[^33]: Microsoft Word Tips (Accessibility and Usability at Penn State) 
+[^34]: Make your content accessible to everyone with the Accessibility Checker (Microsoft Office) 
+[^35]: Create Accessible [Word] Documents(Section 508, U.S. General Services Administration) 
+[^36]: The Case Against PDFs, in Understanding Document Accessibility (The Chang School, Toronto Metropolitan University) 
+[^37]: PDF Issues & Recommendations (Accessibility and Usability at Penn State) 
+[^38]: Create Accessible PDFs (Section 508, U.S. General Services Administration) 
+[^39]: Tab and Read Order (University of Washington Accessible Technology) 
+[^40]: PDF Accessibility Checker (PAC) 2021 (PDF/UA Foundation) 
+[^41]: Optical Character Recognition (Wikipedia) 
+[^42]: Tesseract Documentation (Tesseract OCR) 
+[^43]: Tips and Tricks, in Tables Tutorial (WC3) 
+[^44]: Spreadsheets (Accessibility and Usability at Penn State) 
+[^45]: Guidance: Tabular Data Standard (Central Digital and Data Office, UK Government) 
+[^46]: Accessibility Statement for MATLAB - Q1 2023 (MATLAB). Retrieved March 24, 2023, from https://www.mathworks.com/support/accessibility.html  
+[^47]: Make your Excel documents accessible to people with disabilities (Microsoft Office) 
+[^48]: Excel Tips (Accessibility and Usability at Penn State) 
+[^59]: Create Accessible Spreadsheets (Section 508, U.S. General Services Administration) 
+[^50]: Tips and Tricks, in Tables Tutorial (WC3) 
+[^51]: Image ALT Text in Microsoft Office (Accessibility and Usability at Penn State) 
+[^52]: Excel Tips (Accessibility and Usability at Penn State) 
+[^53]: Tables (Accessibility and Usability at Penn State) 
+[^54]: See Appendix B: Glossary for definitions of markdown and markup 
+[^55]: Godfrey, A.J.R. Accessible R Markdown Documents. (n.d.). Retrieved March 23, 2023, from https://r-resources.massey.ac.nz/rmarkdown/  
+[^56]: Link text needs to be uniquely identifiable within the page (NC State University IT Accessibility) 
+[^57]: Accessible R Markdown Documents (A.J.R. Godfrey) 
+[^58]: Image Description Guidelines (The Diagram Center) 
+[^59]: Godfrey, A.J.R., Loots, M.T., 2015. Advice From Blind Teachers on How to Teach Statistics to Blind Students. Journal of Statistics Education 23, 4, pp. 10. https://doi.org/10.1080/10691898.2015.11889746 
+[^60]: Advice From Blind Teachers on How to Teach Statistics to Blind Students (A.J.R. Godfrey and M.T. Loots) 
+[^61]: Color Brewer 2.0: Color Advice for Cartography (Cynthia Brewer, Mark Harrower and The Pennsylvania State University) 
+[^62]: Conversation with Jon McGlone. 
+[^63]: W3C Research and Development Working Group. (n.d.). Accessible Maps. In Research and Development Working Group Wiki. Retrieved March 24, 2023 from https://www.w3.org/WAI/RD/wiki/Accessible_Maps
+[^64]: Accessible Maps (W3C Wiki) 
+[^65]: Accessible Maps (W3C Wiki) 
+[^66]: Specific Guidelines—Maps. (n.d.). DIAGRAM Center. Retrieved March 23, 2023, from http://diagramcenter.org/specific-guidelines-e-2.html/ 
+[^67]: Specific Guidelines—Maps (DIAGRAM Center) 
+[^68]: Specific Guidelines—Maps (DIAGRAM Center) 
+[^69]: Contrast or Luminosity/Brightness (Accessibility and Usability at Penn State) 
+[^70]: Color Deficient Vision (Color Blindness) (Accessibility and Usability at Penn State) 
+[^71]: Maps (Accessibility and Usability at Penn State) 
+[^72]: Conversation with Jon McGlone. 
+[^73]: SAS. Data Visualization: What it is and why it matters. (n.d.). Retrieved January 5, 2023, from https://www.sas.com/en_us/insights/big-data/data-visualization.html  
+[^74]: Data Visualization: What it is and why it matters (SAS) 
+[^75]: Godfrey, A.J.R., & Loots, M.T. (2014). Statistical Software (R, SAS, SPSS, and Minitab) for Blind Students and Practitioners. Journal of Statistical Software, 58(1), 1–25. https://doi.org/10.18637/jss.v058.s01 
+[^76]: Statistical Software (R, SAS, SPSS, and Minitab) for Blind Students and Practitioners (A.J.R. Godfrey and M.T. Loots) 
+[^77]: Godfrey, A. J. R., & Loots, M. T. (2015). Advice From Blind Teachers on How to Teach Statistics to Blind Students. Journal of Statistics Education, 23(3), 4. https://doi.org/10.1080/10691898.2015.11889746 
+[^78]: Walker, W., Keenan, T., 2015. Going Beyond Availability: Truly Accessible Research Data. Journal of Librarianship and Scholarly Communication 3, pp. 5. https://doi.org/10.7710/2162-3309.1223  
+[^79]: Godfrey, A.J.R., Murrell, P., Sorge, V., 2018. An Accessible Interaction Model for Data Visualisation in Statistics, in: Miesenberger, K., Kouroupetroglou, G. (Eds.), Computers Helping People with Special Needs, Lecture Notes in Computer Science. Springer International Publishing, Cham, pp. 593, https://doi.org/10.1007/978-3-319-94277-3_92 
+[^80]: Conversation with U-M Accessibility Team (Darrell Williams) 
+[^81]: Specific Guidelines - Graphs (DIAGRAM Center) 
+[^82]: Making Graphical Data More Accessible (University of Nevada, Reno) 
+[^83]: Charts & Accessibility (Accessibility and Usability at Penn State) 
+[^84]: Description of Visual Information, in Making Audio and Video Media Accessible (W3C) 
+[^85]: Tools & Guidelines (NCAM) 
+[^86]: Photosensitive Epilepsy Analysis Tool (PEAT) (Trace Research & Development Center)  
+[^87]: Photosensitive Epilepsy Analysis Tool (PEAT) (Trace Research & Development Center)  
+[^88]: Videos (University of Washington) 
+[^89]: See for example Crosref’s recent announcement about recommended changes to DOI displays: https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/ 
+[^90]: Kozlowski, Wendy. “Don't Just Provide ACCESS, Make Data ACCESSIBLE!” [Poster] (2020). Retrieved March 24, 2023, from https://osf.io/8v9bp 
+[^91]: Conversation with U-M Accessibility Team (Gonzalo Silvero) 
+[^92]: Scalable Vector Graphics (SVG) 2 (W3C) 
+[^93]: Data Model (Wikipedia) 
+[^94]: Conversation with Stephanie Rosen 
+[^95]: Albrezzi, F., Bonnett, J., Gniady, T., Richards-Rissetto, H., & Snyder, L. (2022). Accessing 3D Data. Anthropology Faculty Publications. https://digitalcommons.unl.edu/anthropologyfacpub/196 
+[^96]: Building a Fluent Assistive Technology Testing Pool to Improve Campus Digital Accessibility (Practice Brief) (K. Shachmut and A. Deschenes) 
+[^97]: R Data Curation Primer (DCN) 
+[^98]: Building a Fluent Assistive Technology Testing Pool to Improve Campus Digital Accessibility (Practice Brief) (K. Shachmut and A. Deschenes) 
+[^99]: IT Accessibility Checklist (University of Washington) 
+[^100]: The DCN CURATE(D) Steps (DCN) 
+[^101]: Curation Lifecycle Model (DCC) 
+[^102]: Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, and GitHub Desktop. (GitHub) 
+[^103]: WebAIM: Alternative Text. (n.d.). Retrieved March 24, 2023, from https://webaim.org/techniques/alttext/ 
+[^104]: What is assistive technology? | DO-IT. (n.d.). Retrieved March 19, 2023, from https://www.washington.edu/doit/what-assistive-technology 
+[^105]: For more information on open vs closed captions, see https://www.washington.edu/doit/what-difference-between-open-and-closed-captioning 
+[^106]: WebAIM: Alternative Text. (n.d.). Retrieved March 24, 2023, from https://webaim.org/techniques/alttext/ 
+[^107]: Equations: MathML, Images and LaTeX. (2014, October 27). Accessibility at Penn State. Retrieved March 24, 2023, from https://accessibility.psu.edu/math/equations/ 
+[^108]: Getting Started | Markdown Guide. (n.d.). Retrieved March 19, 2023, from https://www.markdownguide.org/getting-started/ 
+[^109]: Markup language. (2023). In Wikipedia. Retrieved March 24, 2023, from  https://en.wikipedia.org/w/index.php?title=Markup_language&oldid=1140707117 
+[^110]: Equations: MathML, Images and LaTeX. (Accessibility and Usability at Penn State) 
+[^111]: What is Universal Design | Centre for Excellence in Universal Design. (n.d.). Retrieved March 24, 2023, from https://universaldesign.ie/what-is-universal-design/  
+[^112]: Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT) 
+[^113]: See more examples and counterexamples at the linked WCAG2ICT guidance. 
+[^114]: “This definition of ‘set of software programs’ is derived from the characteristics of a ‘set’ of web pages, and is used for mapping WCAG success criteria to software. Although such sets occur frequently for web pages, such sets appear to be extremely rare for software.” (WCAG2ICT guidance). 
+[^115]: https://in.nau.edu/virtual-accessibility-expedition/screen-reader-activity-hint-page/ 
+[^116]: Also available at https://www.zotero.org/groups/4920812/data_accessibility_primer/library 
