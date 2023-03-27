@@ -12,7 +12,7 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | Key questions for curation review| <li>What types of files and data are included in the dataset? What types of accessibility considerations apply or are most relevant to ensure for the dataset? </li><li>What are the applicable accessibility best practices for the dataset or file format(s)? If none exist, what alternative practices can be used to make the data set or file formats more accessible?</li><li>Are appropriate metadata present in the right format and location (including metadata on accessibility, where needed)?</li><li>Has the dataset been tested for accessibility using an assistive technology, built-in accessibility checker, or web-based or other accessibility checker?</li> |
-| Tools for curation review | <li>[Assistive technologies](https://www.atia.org/home/at-resources/what-is-at/) (e.g., screen readers, text to voice, zoom capability)<sup>1</sup> that may be available for individual machines.</li><li>Accessibility checkers built into specific software (e.g., Word products, Adobe Acrobat)</li><li>Published standards (such as [WCAG](https://www.w3.org/TR/WCAG21/),<sup>2</sup> those endorsed by [DAISY](https://daisy.org/activities/standards/),<sup>3</sup> [Crossref](https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/),<sup>4</sup> etc.)</li><li>Online tools (for examples see [Appendix C](#appendix-c-freely-available-tools))</li><li>Accessibility experts (e.g., campus accessibility offices or centers) and users with disabilities.<sup>5</sup></li> |
+| Tools for curation review | <li>[Assistive technologies](https://www.atia.org/home/at-resources/what-is-at/) (e.g., screen readers, text to voice, zoom capability)[^1] that may be available for individual machines.</li><li>Accessibility checkers built into specific software (e.g., Word products, Adobe Acrobat)</li><li>Published standards (such as [WCAG](https://www.w3.org/TR/WCAG21/),[^2] those endorsed by [DAISY](https://daisy.org/activities/standards/),[^3] [Crossref](https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/),[^4] etc.)</li><li>Online tools (for examples see [Appendix C](#appendix-c-freely-available-tools))</li><li>Accessibility experts (e.g., campus accessibility offices or centers) and users with disabilities.[^5]</li> |
 | Date Created | 2023-03-01 |
 | Created by | Emily Oxford<br> Rachel Woodbrook - University of Michigan <br><br> DCN Mentor - Wendy Kozwloski – Cornell University  |
 | Date updated and summary of changes made | Please see README  |
@@ -34,11 +34,11 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 
 [Accessibility by data type](#accessibility-by-data-type)
 > [Text](#text) <br> 
->> [Plain text](#plain-text) 
->> [Formatted text](#formatted-text)
->>> [Microsoft Word](#microsoft-word) 
->>> [PDF](#pdf) 
->> [Images of text](#images-of-text)
+>> [Plain text](#plain-text) <br>
+>> [Formatted text](#formatted-text) <br>
+>>> [Microsoft Word](#microsoft-word) <br> 
+>>> [PDF](#pdf)  <br>
+>> [Images of text](#images-of-text) <br>
 
 > [Tabular](#tabular)
 >> [Plain tabular data](#plain-tabular-data)
