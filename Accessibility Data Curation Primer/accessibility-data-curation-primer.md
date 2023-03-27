@@ -41,22 +41,22 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 >> [Images of text](#images-of-text) <br>
 
 > [Tabular](#tabular)
->> [Plain tabular data](#plain-tabular-data)
->> [Formatted tabular data](#formatted-tabular-data) 
+>> [Plain tabular data](#plain-tabular-data) <br>
+>> [Formatted tabular data](#formatted-tabular-data)  <br>
 
 > [Code](#code)
->> [Scripts](#scripts) 
->> [Markdown](#markdown)
+>> [Scripts](#scripts)  <br>
+>> [Markdown](#markdown) <br>
 
 > [Images](#images)
->> [General guidance](#general-guidance) 
->> [Maps](#maps) 
->> [3D Images](#3d-images) 
->> [Data visualizations](#data-visualizations)
+>> [General guidance](#general-guidance)  <br>
+>> [Maps](#maps)  <br>
+>> [3D Images](#3d-images)  <br>
+>> [Data visualizations](#data-visualizations) <br>
 
 > [Time-based data](#time-based-data)
->> [Audio](#audio) 
->> [Moving image/video](#moving-image-video)
+>> [Audio](#audio)  <br>
+>> [Moving image/video](#moving-image-video) <br>
 
 [Accessible datasets](#accessible-datasets)
 > [Accessibility metadata](#accessibility-metadata)
