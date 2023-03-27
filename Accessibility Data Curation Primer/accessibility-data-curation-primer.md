@@ -22,6 +22,8 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 ----------------------------
 **Suggested Citation:** Oxford, Emily and Woodbrook, Rachel. (2023). Accessibility Data Curation Primer.[Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
+**Acknowledgements:** The authors would like to thank the University of Michigan’s IT Accessibility Team and U-M Library Accessibility, who assisted in providing expertise by participating in interviews as background for the primer: Jane Berliss-Vincent, Phil Deaton, Gonzalo Silvero, Darrell Williams, Stephanie Rosen and Jon McGlone. Thank you also to Hannah Hadley, who coordinated the drafting and first review process; and to Mikala Narlock, who facilitated the second review. Finally, thank you to the peer reviewers who participated in helping prepare this document for public release, including Stephanie Rosen, Jane Berliss-Vincent, Sebastien Karcher, Abigail Goben, and Randy Colón.
+
 
 ----------------------------
 
