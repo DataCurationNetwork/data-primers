@@ -34,17 +34,29 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 
 [Accessibility by data type](#accessibility-by-data-type)
 > [Text](#text) <br> 
->> [Plain text](#plain-text) <br> [Formatted text](#formatted-text)
->>> [Microsoft Word](#microsoft-word) <br> [PDF](#pdf) <br> 
+>> [Plain text](#plain-text) 
+>> [Formatted text](#formatted-text)
+>>> [Microsoft Word](#microsoft-word) 
+>>> [PDF](#pdf) 
 >> [Images of text](#images-of-text)
+
 > [Tabular](#tabular)
->> [Plain tabular data](#plain-tabular-data) <br> [Formatted tabular data](#formatted-tabular-data) 
+>> [Plain tabular data](#plain-tabular-data)
+>> [Formatted tabular data](#formatted-tabular-data) 
+
 > [Code](#code)
->> [Scripts](#scripts) <br> [Markdown](#markdown)
+>> [Scripts](#scripts) 
+>> [Markdown](#markdown)
+
 > [Images](#images)
->> [General guidance](#general-guidance) <br> [Maps](#maps) <br> [3D Images](#3d-images) <br> [Data visualizations](#data-visualizations)
+>> [General guidance](#general-guidance) 
+>> [Maps](#maps) 
+>> [3D Images](#3d-images) 
+>> [Data visualizations](#data-visualizations)
+
 > [Time-based data](#time-based-data)
->> [Audio](#audio) <br> [Moving image/video](#moving-image-video)
+>> [Audio](#audio) 
+>> [Moving image/video](#moving-image-video)
 
 [Accessible datasets](#accessible-datasets)
 > [Accessibility metadata](#accessibility-metadata)
