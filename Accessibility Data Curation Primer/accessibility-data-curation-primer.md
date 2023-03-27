@@ -606,27 +606,27 @@ Word, PDF, or Web Page? | Web Accessibility | Michigan State University. (n.d.).
 
 
 # Footnotes
-[^1] What is AT? (Assistive Technology Industry Association); see also Appendix B: Glossary
-[^2] Web Content Accessibility Guidelines (WCAG) 2.1 (W3C) 
-[^3] Standards (The DAISY Consortium) 
-[^4] Accessibility for Crossref DOI Links: Call for comments on proposed new guidelines (Crossref blog) 
-[^5] While it is important to include feedback from users with disabilities or assistive technology users in design and evaluation processes, also be mindful of not placing additional burdens on individuals to represent specific groups, especially if they have not already volunteered or would not be compensated for their time and expertise. 
-[^6] What is Open Data? In The Open Data Handbook 
-[^7] Walker, Wendy, and Teressa Keenan. “Going Beyond Availability: Truly Accessible Research Data.” Journal of Librarianship and Scholarly Communication 3, no. 2 (September 22, 2015): 1223. https://doi.org/10.7710/2162-3309.1223. 
-[^8] “​Federal agencies are responsible for ensuring their information and services are accessible to persons with disabilities. The Revised 508 Standards include not just IT tools and systems, but electronic content such as documents, web pages, presentations, social media content, blogs, and certain emails.” From “Create Accessible Digital Products”, Section 508 (U.S. General Services Administration) 
-[^9]  Web Content Accessibility Guidelines (WCAG) 2.1 (W3C)  
-[^10] Conversation with Stephanie Rosen. 
-[^11]  Accessibility Guidelines Summary [for Github] (Kin + Carta Create) 
-[^12]  Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT) (W3C) 
-[^13] Conversation with Stephanie Rosen. 
-[^14] Plain Text Techniques for WCAG 2.0 (W3C)  
-[^15] Kozlowski, Wendy. “Don't Just Provide ACCESS, Make Data ACCESSIBLE!” [Poster] (2020). Retrieved March 24, 2023, from https://osf.io/8v9bp  
-[^16] Difference between CR LF, LF and CR line break types (Stackoverflow) 
-[^17] Understanding Document Accessibility (The Chang School, Toronto Metropolitan University) 
-[^18] Headings (Accessible U, University of Minnesota) 
-[^19] Font Face (Accessibility and Usability at Penn State) 
-[^20] Contrast & Color: Web Accessibility Guidelines v.1.0 (Carnegie Museums of Pittsburgh) 
-[^21] WebAIM: Screen Reader User Survey #9 Results. (n.d.) Retrieved March 24, 2023, from https://webaim.org/projects/screenreadersurvey9/#heading 
+[^1]: What is AT? (Assistive Technology Industry Association); see also Appendix B: Glossary
+[^2]: Web Content Accessibility Guidelines (WCAG) 2.1 (W3C) 
+[^3]: Standards (The DAISY Consortium) 
+[^4]: Accessibility for Crossref DOI Links: Call for comments on proposed new guidelines (Crossref blog) 
+[^5]: While it is important to include feedback from users with disabilities or assistive technology users in design and evaluation processes, also be mindful of not placing additional burdens on individuals to represent specific groups, especially if they have not already volunteered or would not be compensated for their time and expertise. 
+[^6]: What is Open Data? In The Open Data Handbook 
+[^7]: Walker, Wendy, and Teressa Keenan. “Going Beyond Availability: Truly Accessible Research Data.” Journal of Librarianship and Scholarly Communication 3, no. 2 (September 22, 2015): 1223. https://doi.org/10.7710/2162-3309.1223. 
+[^8]: “​Federal agencies are responsible for ensuring their information and services are accessible to persons with disabilities. The Revised 508 Standards include not just IT tools and systems, but electronic content such as documents, web pages, presentations, social media content, blogs, and certain emails.” From “Create Accessible Digital Products”, Section 508 (U.S. General Services Administration) 
+[^9]:  Web Content Accessibility Guidelines (WCAG) 2.1 (W3C)  
+[^10]: Conversation with Stephanie Rosen. 
+[^11]:  Accessibility Guidelines Summary [for Github] (Kin + Carta Create) 
+[^12]:  Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT) (W3C) 
+[^13]: Conversation with Stephanie Rosen. 
+[^14]: Plain Text Techniques for WCAG 2.0 (W3C)  
+[^15]: Kozlowski, Wendy. “Don't Just Provide ACCESS, Make Data ACCESSIBLE!” [Poster] (2020). Retrieved March 24, 2023, from https://osf.io/8v9bp  
+[^16]: Difference between CR LF, LF and CR line break types (Stackoverflow) 
+[^17]: Understanding Document Accessibility (The Chang School, Toronto Metropolitan University) 
+[^18]: Headings (Accessible U, University of Minnesota) 
+[^19]: Font Face (Accessibility and Usability at Penn State) 
+[^20]: Contrast & Color: Web Accessibility Guidelines v.1.0 (Carnegie Museums of Pittsburgh) 
+[^21]: WebAIM: Screen Reader User Survey #9 Results. (n.d.) Retrieved March 24, 2023, from https://webaim.org/projects/screenreadersurvey9/#heading 
 [^22] Adding Metadata to Documents (The Open University) 
 [^23] Alternative Text (WebAIM); see also Appendix B: Glossary 
 [^24] The LaTeX Project (LaTeX Project); see also Appendix B: Glossary 
