@@ -20,7 +20,7 @@ Affiliate Contributors (peer reviewers): Marley Kalt, Jane Fry
 | Key questions for curation review| Pre-Conversion <li>Is the documentation associated with the data file sufficient for conversion? Are column locations and response codes included?</li><br><br> Post-Conversion<li>Do frequencies match what is expected based on documentation (e.g., toplines, reports) or common sense checks?</li><li>Are the variables and values clearly and accurately labeled?</li>|
 | Tools for curation review | <li>SAS</li><li>SPSS</li><li>.xls/.xlsx editor</li><li>Document viewer software</li> |
 | Date Created | 2023-03-15 |
-| Created by | Jessica Ko - Cornell University <br> Leslie Norek - Cornell University <br> <br> DCN Mentors - Wendy Kozlowski – Cornell University <br> Noggin Keshavarzian – Princeton University  |
+| Created by | Jessica Ko - Cornell University <br> Kelsie Norek - Cornell University <br> <br> DCN Mentors - Wendy Kozlowski – Cornell University <br> Neggin Keshavarzian – Princeton University  |
 
 
 ----------------------------
@@ -76,7 +76,7 @@ Column binary (or colbin) is a file format that is most frequently used to store
 **Figure 2. Punched Card.** Source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.<sup>4</sup>
 
 
-The small numbers are column identifier numbers. These are never punched because they don’t represent question responses.The numbers that represent possible question responses are arranged vertically, from 0-9. The “digit” section of the card includes digits 1-9. The section above, starting with 0, is called the “zone” section. The two additional spots above the 0 represent extra values, which allow more data to be stored on a single card. The zone values are coded in several different ways, depending on the company or organization that processed them (see Table 1).
+The small numbers are column identifier numbers. These are never punched because they don’t represent question responses. The numbers that represent possible question responses are arranged vertically, from 0-9. The “digit” section of the card includes digits 1-9. The section above, starting with 0, is called the “zone” section. The two additional spots above the 0 represent extra values, which allow more data to be stored on a single card. The zone values are coded in several different ways, depending on the company or organization that processed them (see Table 1).
 
 |   Punched Card Value   |   Codebook Value   |   Data File Value   |
 | :------------- | :------------- | :------------- |
@@ -164,7 +164,7 @@ After checking the file in a text editor, try importing the raw data into SPSS (
 
 # Resources for reviewing data after a conversion
 
-After a curator completes a column binary conversion, it is recommended that a second curator reviews the conversion.The following resources are useful for column binary conversion review.
+After a curator completes a column binary conversion, it is recommended that a second curator reviews the conversion. The following resources are useful for column binary conversion review.
 
 
 - SAS-generated x-ray: The frequencies in the converted dataset can be checked against the x-ray frequencies to ensure that errors were not made in the coding process (see [X-ray files](#x-ray-files)).
@@ -258,7 +258,7 @@ Computing power and materials were expensive, so the punched cards were used as 
 
 ## Columns v. Variables
 
-Often, the column and question/variable correspond directly to one another, so that Col. 2 = Question 2. When a column corresponds to a single question with only one answer, Col. 2 is imported as a single variable when the colbin file is imported. When columns contain a multi-punch for any reason (see [Multi-punched columns](# multi-punched-columns)), the column can no longer be imported as a single variable. 
+Often, the column and question/variable correspond directly to one another, so that Col. 2 = Question 2. When a column corresponds to a single question with only one answer, Col. 2 is imported as a single variable when the colbin file is imported. When columns contain a multi-punch for any reason (see [Multi-punched columns](#multi-punched-columns)), the column can no longer be imported as a single variable. 
 
 This makes sense if you think about it. For each variable, a respondent can only have one value (e.g., can’t be equal to both 4 and 7). If a single column has two questions or the question is “select all that apply”, then there is no way for one variable to represent both values that a respondent reports, so the column cannot be imported as a single variable. The only way to faithfully import data in which respondents have more than one answer/value/punch in a column is to create a binary variable for every single punch—functionally turning every value in the column into a “Did the respondent pick this answer? Y/N” question. Thus, one multi-punched column will be imported as 12 different variables. These are sometimes referred to as "sprayed" values or variables. Because the program cannot determine why there is a multi-punch in a column, the curator will have to identify which answers can be recoded into a single variable and which must remain separate variables.
 
@@ -343,14 +343,14 @@ You can use the x-ray to visually help you understand the structure of the data,
 3. Which columns have multi-punch issues? Is the multi-column greater than 0? 
 4. If multi>0:
  - Is the question “select all”?
-  - Y: Keep as separate variables
-  - N: Next question
+    - Y: Keep as separate variables
+    - N: Next question
  - Are there multiple questions recorded in the column?
-  - Y: Recode into separate variables and recheck for multi-punches
-  - N: Maybe can’t fix unless easy to ID bad punch that doesn’t correspond to codebook; otherwise keep as separate variables
+    - Y: Recode into separate variables and recheck for multi-punches
+    - N: Maybe can’t fix unless easy to ID bad punch that doesn’t correspond to codebook; otherwise keep as separate variables
  - Is it only 1 or 2?
-  - Y: Go to 4bii. (N: Maybe can't...)
-  - N: Read through the codebook carefully and double-check your answers above—is there any additional information in the codebook?
+    - Y: Go to 4bii. (N: Maybe can't...)
+    - N: Read through the codebook carefully and double-check your answers above—is there any additional information in the codebook?
 5. Are there any conditional questions that will need to be separated out into multiple variables? (See [Logic flows](#logic-flows).)
 
 
@@ -538,10 +538,6 @@ Question wording:
 - [ ] Incomplete: _____________
 - [ ] Missing
 
-Column locations:
-- [ ] Complete
-- [ ] Incomplete: _____________
-- [ ] Missing
 
 ## R - REQUEST
 
@@ -579,7 +575,7 @@ Data file saved in the following formats:
 - [ ] Stata
 - [ ] ASCII
 - [ ] CSV
-- [ ] Other
+- [ ] Other: _____________
 
 Documentation
 
