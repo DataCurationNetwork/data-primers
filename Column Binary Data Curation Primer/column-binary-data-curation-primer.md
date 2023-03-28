@@ -12,15 +12,15 @@ Affiliate Contributors (peer reviewers): Marley Kalt, Jane Fry
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | File Extensions | <li>.bin</li> <li>.colbin</li> <br> The file extension may vary and is sometimes based on the content of the file|
-| MIME Type<sup>1</sup>|application/octet-stream|
+| MIME Type [^1]|application/octet-stream|
 | Structure|Binary format|
 | Primary fields or areas of use | Survey research|
-| Source and affiliation<sup>2</sup>| IBM (80-column IBM Card patented in 1928)|
+| Source and affiliation [^2]| IBM (80-column IBM Card patented in 1928)|
 | Metadata standards | Data Documentation Initiative (DDI)|
 | Key questions for curation review| Pre-Conversion <li>Is the documentation associated with the data file sufficient for conversion? Are column locations and response codes included?</li><br><br> Post-Conversion<li>Do frequencies match what is expected based on documentation (e.g., toplines, reports) or common sense checks?</li><li>Are the variables and values clearly and accurately labeled?</li>|
 | Tools for curation review | <li>SAS</li><li>SPSS</li><li>.xls/.xlsx editor</li><li>Document viewer software</li> |
 | Date Created | 2023-03-15 |
-| Created by | Jessica Ko - Cornell University <br> Leslie Norek - Cornell University <br> <br> DCN Mentors - Wendy Kozlowski – Cornell University <br> Noggin Keshavarzian – Princeton University  |
+| Created by | Jessica Ko - Cornell University <br> Kelsie Norek - Cornell University <br> <br> DCN Mentors - Wendy Kozlowski – Cornell University <br> Neggin Keshavarzian – Princeton University  |
 
 
 ----------------------------
@@ -69,14 +69,14 @@ Column binary (or colbin) is a file format that is most frequently used to store
 
 <figure> <img src="1blank_card.JPG" alt="Blank card, unpunched." style=""> <figcaption></figcaption> </figure>
 
-**Figure 1. Blank card.** Source: [IBM100—The IBM Punched Card](https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/). (2012, March 7). [CTB14]. IBM; IBM Corporation.<sup>3</sup>
+**Figure 1. Blank card.** Source: [IBM100—The IBM Punched Card](https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/). (2012, March 7). [CTB14]. IBM; IBM Corporation.[^3]:
 
 <figure> <img src="2punched_card.jpg" alt="Punched survey card." style=""> <figcaption></figcaption> </figure>
 
-**Figure 2. Punched Card.** Source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.<sup>4</sup>
+**Figure 2. Punched Card.** Source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.[^4]
 
 
-The small numbers are column identifier numbers. These are never punched because they don’t represent question responses.The numbers that represent possible question responses are arranged vertically, from 0-9. The “digit” section of the card includes digits 1-9. The section above, starting with 0, is called the “zone” section. The two additional spots above the 0 represent extra values, which allow more data to be stored on a single card. The zone values are coded in several different ways, depending on the company or organization that processed them (see Table 1).
+The small numbers are column identifier numbers. These are never punched because they don’t represent question responses. The numbers that represent possible question responses are arranged vertically, from 0-9. The “digit” section of the card includes digits 1-9. The section above, starting with 0, is called the “zone” section. The two additional spots above the 0 represent extra values, which allow more data to be stored on a single card. The zone values are coded in several different ways, depending on the company or organization that processed them (see Table 1).
 
 |   Punched Card Value   |   Codebook Value   |   Data File Value   |
 | :------------- | :------------- | :------------- |
@@ -94,7 +94,7 @@ Column 10 (see Figure 3) is an example of a single-punched column, where only th
 **Figure 3. Annotated Punched Card.** Edited by authors. Original image source: Reinhold, A. (2006). [Binary punched card.](https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg) [Online image]. Wikimedia Commons.
 
 
-The data on completed punched cards were converted into digital data points using card readers. These files may have .colbin or .bin extensions, but they can also have extensions that reflect the content of the file. In these cases, the extension name will begin with “c”, followed by a series of numbers that identify the dataset. For example, “PURDUE.c0038” is the name of the column binary file for Purdue Opinion Panel # 38.5.<sup>5</sup> *(This dataset is currently unconverted in the Roper Center archive. See link for snapshot information about the survey; see example files for codebook and column binary file.)*
+The data on completed punched cards were converted into digital data points using card readers. These files may have .colbin or .bin extensions, but they can also have extensions that reflect the content of the file. In these cases, the extension name will begin with “c”, followed by a series of numbers that identify the dataset. For example, “PURDUE.c0038” is the name of the column binary file for Purdue Opinion Panel # 38.5.[^5] *(This dataset is currently unconverted in the Roper Center archive. See link for snapshot information about the survey; see example files for codebook and column binary file.)*
 
 In Windows File Explorer, the file type typically reflects the extension name, except in the case of .bin files, which are misidentified as video files (see Figure 4).
 
@@ -164,7 +164,7 @@ After checking the file in a text editor, try importing the raw data into SPSS (
 
 # Resources for reviewing data after a conversion
 
-After a curator completes a column binary conversion, it is recommended that a second curator reviews the conversion.The following resources are useful for column binary conversion review.
+After a curator completes a column binary conversion, it is recommended that a second curator reviews the conversion. The following resources are useful for column binary conversion review.
 
 
 - SAS-generated x-ray: The frequencies in the converted dataset can be checked against the x-ray frequencies to ensure that errors were not made in the coding process (see [X-ray files](#x-ray-files)).
@@ -189,7 +189,7 @@ In many cases, surveys were fairly long, so more than one card was needed to rec
 
 ^ An x-ray file will automatically generate using the RUNXRAY.SAS syntax file (see [X-ray files](#x-ray-files)). It is best practice to always review the x-ray file and use it to decipher unconverted data and to check against converted data. 
 
-For example, the documentation in Figure 13 indicates that the column binary dataset for [British Gallup Poll CQ 44A6](https://doi.org/10.25940/ROPER-31074052)<sup>6</sup> has 2 cards and a sample size of 1078. If the dataset is imported as if it only has one card, it will have 2156 records (see Figure 14). The x-ray in Figure 15 shows that Column 2 has 1078 punches for response 1 and 1078 for response 2, which is an indicator that the card number is stored in that column. You can also see that the sum column indicates that there are 2156 responses through Column 16. When the dataset is imported as a multi-card dataset with the card number recorded as Column 2, the total number of records is still 2156 (see Figure 16), but the number of records per card is 1078 (see Figure 17). Figures 18 and 19 reflect punches for each card individually (check Col. 2 to see which card is being shown). Figure 19 helps us understand why the first x-ray had 2156 punches only through Col. 15—card 2 only has data through Col. 15!
+For example, the documentation in Figure 13 indicates that the column binary dataset for [British Gallup Poll CQ 44A6](https://doi.org/10.25940/ROPER-31074052)[^6] has 2 cards and a sample size of 1078. If the dataset is imported as if it only has one card, it will have 2156 records (see Figure 14). The x-ray in Figure 15 shows that Column 2 has 1078 punches for response 1 and 1078 for response 2, which is an indicator that the card number is stored in that column. You can also see that the sum column indicates that there are 2156 responses through Column 16. When the dataset is imported as a multi-card dataset with the card number recorded as Column 2, the total number of records is still 2156 (see Figure 16), but the number of records per card is 1078 (see Figure 17). Figures 18 and 19 reflect punches for each card individually (check Col. 2 to see which card is being shown). Figure 19 helps us understand why the first x-ray had 2156 punches only through Col. 15—card 2 only has data through Col. 15!
 
 <figure> <img src="13n1078.png" alt="Documentation for British Gallup Poll CQ 44A." style=""> <figcaption></figcaption> </figure>
 
@@ -258,7 +258,7 @@ Computing power and materials were expensive, so the punched cards were used as 
 
 ## Columns v. Variables
 
-Often, the column and question/variable correspond directly to one another, so that Col. 2 = Question 2. When a column corresponds to a single question with only one answer, Col. 2 is imported as a single variable when the colbin file is imported. When columns contain a multi-punch for any reason (see [Multi-punched columns](# multi-punched-columns)), the column can no longer be imported as a single variable. 
+Often, the column and question/variable correspond directly to one another, so that Col. 2 = Question 2. When a column corresponds to a single question with only one answer, Col. 2 is imported as a single variable when the colbin file is imported. When columns contain a multi-punch for any reason (see [Multi-punched columns](#multi-punched-columns)), the column can no longer be imported as a single variable. 
 
 This makes sense if you think about it. For each variable, a respondent can only have one value (e.g., can’t be equal to both 4 and 7). If a single column has two questions or the question is “select all that apply”, then there is no way for one variable to represent both values that a respondent reports, so the column cannot be imported as a single variable. The only way to faithfully import data in which respondents have more than one answer/value/punch in a column is to create a binary variable for every single punch—functionally turning every value in the column into a “Did the respondent pick this answer? Y/N” question. Thus, one multi-punched column will be imported as 12 different variables. These are sometimes referred to as "sprayed" values or variables. Because the program cannot determine why there is a multi-punch in a column, the curator will have to identify which answers can be recoded into a single variable and which must remain separate variables.
 
@@ -271,7 +271,7 @@ In Figure 22, the codes for Q16H depend on whether respondents answered “Satis
 
 <figure> <img src="22logicflows.png" alt="Questions 16G and 16H from General Electric Quarterly Survey 68-02." style=""> <figcaption></figcaption> </figure>
 
-**Figure 22. Questions 16G and 16H from General Electric Quarterly Survey 68-02.<sup>7</sup>** 
+**Figure 22. Questions 16G and 16H from General Electric Quarterly Survey 68-02.[^7]** 
 
 
 ## Merge vs. append
@@ -328,29 +328,29 @@ The first step is to identify multi-punches. There are multiple ways you can do 
 You can use the x-ray to visually help you understand the structure of the data, and it can serve as a reference point for making coding decisions in the SPSS syntax. 
 
 1. Do the number of records/respondents/observations match the codebook/file? 
- - Yes: Great!
- - No: Is it possible they don’t match because there is more than one card? (Usually double or triple the expected number of records and/or an easily identifiable column with equal numbers of 1 and 2 punches)
-  - Do all values correspond to the codebook?
-    - Y: Great!
-    - N: How many multi-punches are in non-corresponding value?
-      - Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
-      - Few: Maybe it’s a mistake/bad punch.
+    - Yes: Great!
+    - No: Is it possible they don’t match because there is more than one card? (Usually double or triple the expected number of records and/or an easily identifiable column with equal numbers of 1 and 2 punches)
+        - Do all values correspond to the codebook?
+            - Y: Great!
+            - N: How many multi-punches are in non-corresponding value?
+                - Lots: Check the back of the codebook—is it possible there are answers that amend the original codebook?
+                - Few: Maybe it’s a mistake/bad punch.
 2. Do non-corresponding values cause multi-punch issues? 
- - No: Recode as part of the column-variable and attach the value label “Not in codebook”
- - Yes: If you remove that punch from the crosstab, does it fix the multi-punch issue?
-      - Yes: Delete those values (this should only ever be done if there are only 1 or 2 multi-punched cases) OR recode the values as their own binary variable named “Potential mistake”
-      - No: The multi-punch issues are in the variable itself, and you do not need to recode the values 
+    - No: Recode as part of the column-variable and attach the value label “Not in codebook”
+    - Yes: If you remove that punch from the crosstab, does it fix the multi-punch issue?
+        - Yes: Delete those values (this should only ever be done if there are only 1 or 2 multi-punched cases) OR recode the values as their own binary variable named “Potential mistake”
+        - No: The multi-punch issues are in the variable itself, and you do not need to recode the values 
 3. Which columns have multi-punch issues? Is the multi-column greater than 0? 
 4. If multi>0:
- - Is the question “select all”?
-  - Y: Keep as separate variables
-  - N: Next question
- - Are there multiple questions recorded in the column?
-  - Y: Recode into separate variables and recheck for multi-punches
-  - N: Maybe can’t fix unless easy to ID bad punch that doesn’t correspond to codebook; otherwise keep as separate variables
- - Is it only 1 or 2?
-  - Y: Go to 4bii. (N: Maybe can't...)
-  - N: Read through the codebook carefully and double-check your answers above—is there any additional information in the codebook?
+    - Is the question “select all”?
+        - Y: Keep as separate variables
+        - N: Next question
+    - Are there multiple questions recorded in the column?
+        - Y: Recode into separate variables and recheck for multi-punches
+        - N: Maybe can’t fix unless easy to ID bad punch that doesn’t correspond to codebook; otherwise keep as separate variables
+    - Is it only 1 or 2?
+        - Y: Go to 4bii. (N: Maybe can't...)
+        - N: Read through the codebook carefully and double-check your answers above—is there any additional information in the codebook?
 5. Are there any conditional questions that will need to be separated out into multiple variables? (See [Logic flows](#logic-flows).)
 
 
@@ -435,7 +435,7 @@ When checking conversions, you will first want to look in the codebook for handw
 
 # Applicable Metadata Standard, Core Elements, and README Requirements
 
-While there are no standards specific to column binary files, the [Data Documentation Initiative](https://ddialliance.org) (DDI)<sup>8</sup> metadata standards are applicable to survey data more generally. More information on DDI standards can be found in the [SPSS Data Curation](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-D-DDI-Metadata) primer.<sup>9</sup>
+While there are no standards specific to column binary files, the [Data Documentation Initiative](https://ddialliance.org) (DDI)[^8] metadata standards are applicable to survey data more generally. More information on DDI standards can be found in the [SPSS Data Curation](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-D-DDI-Metadata) primer.[^9]
 
 Study metadata includes survey organization, field dates, sample size, and sample population description. File level metadata includes the original codebook sent by the survey organization and information on the structure and content of the converted dataset. For details on recommended metadata elements, see [Appendix B](#appendix-b). 
 
@@ -464,23 +464,23 @@ Converted datasets can be used for quantitative analysis of survey data. Convert
 
 ## Cited in Text
 
-<p  id="note1"><sup>1</sup> Common MIME types—HTTP | MDN. (n.d.). MDN Web Docs. Retrieved October 24, 2022, from https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types</p>
+[^1]: Common MIME types—HTTP | MDN. (n.d.). MDN Web Docs. Retrieved October 24, 2022, from https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
 
-<p  id="note2"><sup>2</sup> IBM Archives: 1928. (2003, January 23). [TS200]. IBM. https://www.ibm.com/ibm/history/history/year_1928.html</p>
+[^2]: IBM Archives: 1928. (2003, January 23). [TS200]. IBM. https://www.ibm.com/ibm/history/history/year_1928.html
 
-<p  id="note3"><sup>3</sup> IBM100—The IBM Punched Card. (2012, March 7). [CTB14]. IBM; IBM Corporation. https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/</p>
+[^3]: IBM100—The IBM Punched Card. (2012, March 7). [CTB14]. IBM; IBM Corporation. https://www.ibm.com/ibm/history/ibm100/us/en/icons/punchcard/breakthroughs/
 
-<p  id="note4"><sup>4</sup> Reinhold, A. (2006). Binary punched card. [Online image]. Wikimedia Commons. https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg</p>
+[^4]: Reinhold, A. (2006). Binary punched card. [Online image]. Wikimedia Commons. https://commons.wikimedia.org/wiki/File:IBM1130CopyCard.agr.jpg
 
-<p  id="note5"><sup>5</sup> The Purdue Opinion Panel. (1954). Purdue Opinion Panel # 38: Some Ethical Values of Youth, Compared over the years (Version 1) [Dataset]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research. doi:10.25940/ROPER-31096337</p>
+[^5]: The Purdue Opinion Panel. (1954). Purdue Opinion Panel # 38: Some Ethical Values of Youth, Compared over the years (Version 1) [Dataset]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research. doi:10.25940/ROPER-31096337
 
-<p  id="note6"><sup>6</sup> Social Surveys (Gallup Poll) Limited. British Gallup Poll CQ 44A, 1986 [Dataset]. Roper #31074052, Version 2. Social Surveys (Gallup Poll) Limited [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31074052</p>
+[^6]: Social Surveys (Gallup Poll) Limited. British Gallup Poll CQ 44A, 1986 [Dataset]. Roper #31074052, Version 2. Social Surveys (Gallup Poll) Limited [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31074052
 
-<p  id="note7"><sup>7</sup> General Electric. General Electric Quarterly Survey 68-02, 1968 [Dataset]. Roper #31092117, Version 4. Trendex, Inc. [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31092117</p>
+[^7]: General Electric. General Electric Quarterly Survey 68-02, 1968 [Dataset]. Roper #31092117, Version 4. Trendex, Inc. [producer]. Cornell University, Ithaca, NY: Roper Center for Public Opinion Research [distributor]. doi:10.25940/ROPER-31092117
 
-<p  id="note8"><sup>8</sup> DDI Alliance. (2023, February 24). DDI. https://ddialliance.org/</p>
+[^8]: DDI Alliance. (2023, February 24). DDI. https://ddialliance.org/
 
-<p  id="note9"><sup>9</sup> Deng, Sai; Dull, Joshua; Finn, Jeanine; Khair, Shahira (2019). SPSS Data Curation Primer. Data Curation Network GitHub Repository. Retrieved March 8, 2023 from https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md</p>
+[^9]: Deng, Sai; Dull, Joshua; Finn, Jeanine; Khair, Shahira (2019). SPSS Data Curation Primer. Data Curation Network GitHub Repository. Retrieved March 8, 2023 from https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md
 
 ## Additional Useful Resources
 
@@ -538,10 +538,6 @@ Question wording:
 - [ ] Incomplete: _____________
 - [ ] Missing
 
-Column locations:
-- [ ] Complete
-- [ ] Incomplete: _____________
-- [ ] Missing
 
 ## R - REQUEST
 
@@ -579,7 +575,7 @@ Data file saved in the following formats:
 - [ ] Stata
 - [ ] ASCII
 - [ ] CSV
-- [ ] Other
+- [ ] Other: _____________
 
 Documentation
 
