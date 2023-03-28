@@ -12,10 +12,10 @@ Affiliate Contributors (peer reviewers): Marley Kalt, Jane Fry
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | File Extensions | <li>.bin</li> <li>.colbin</li> <br> The file extension may vary and is sometimes based on the content of the file|
-| MIME Type[^1]|application/octet-stream|
+| MIME Type [^1]|application/octet-stream|
 | Structure|Binary format|
 | Primary fields or areas of use | Survey research|
-| Source and affiliation[^2]| IBM (80-column IBM Card patented in 1928)|
+| Source and affiliation [^2]| IBM (80-column IBM Card patented in 1928)|
 | Metadata standards | Data Documentation Initiative (DDI)|
 | Key questions for curation review| Pre-Conversion <li>Is the documentation associated with the data file sufficient for conversion? Are column locations and response codes included?</li><br><br> Post-Conversion<li>Do frequencies match what is expected based on documentation (e.g., toplines, reports) or common sense checks?</li><li>Are the variables and values clearly and accurately labeled?</li>|
 | Tools for curation review | <li>SAS</li><li>SPSS</li><li>.xls/.xlsx editor</li><li>Document viewer software</li> |
