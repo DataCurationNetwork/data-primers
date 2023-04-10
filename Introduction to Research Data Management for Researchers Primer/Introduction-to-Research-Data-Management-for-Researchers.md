@@ -16,10 +16,23 @@ Introduction to Research Data Management for Researchers. Data Curation Network 
 
 
 # Table of Contents
-Scope<p>Overview<p>Project Planning / Before Research Project Initiation
-<ol><p>Data Management and Curation Principles<ol><p>Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles<p>CARE Principles for Indigenous Data Governance<p>Data Curation <p>
-</ol>Data Management and Sharing Plans<p><p>Elements of Data Management and SharingPlans<p>Other Planning Considerations</ol>During the Research Project (Project Execution or Implementation)<ol><p><p>Data Management<p><p>Documentation<p><p>Data Sharing<p><p></ol>
-Research Project End / Project Closeout<p><p>Data Management, Sharing, and Curation Resources<p><p>Bibliography
+[Scope](#scope)
+[Overview](#overview)
+[Project Planning / Before Research Project Initiation](#project-planning--before-research-project-initiation)
+[Data Management and Curation Principles](#data-management-and-curation-principles)
+[Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles](#findable-accessible-interoperable-and-reusable-fair-guiding-principles)
+[CARE Principles for Indigenous Data Governance](#care-principles-for-indigenous-data-governance)
+[Data Curation](#data-curation)
+[Data Management and Sharing Plans](#Data-Management-and-sharing-plans)
+[Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans)
+[Other Planning Considerations](#other-planning-considerations)
+[During the Research Project (Project Execution or Implementation)](#during-the-research-project-project-execution-or-implementation)
+[Data Management](#data-management)
+[Documentation](#documentation)
+[Data Sharing](#data-sharing)
+[Research Project End / Project Closeout](#research-project-end--project-closeout)
+[Data Management, Sharing, and Curation Resources](#data-management-sharing-and-curation-resources)
+[Bibliography](#bibliography)
 
 ----------------------------
 ## Scope
@@ -37,17 +50,17 @@ Additional, customized support for specific data types can be addressed by data 
 ## Project Planning / Before Research Project Initiation
 Robust data management starts early in the project lifecycle during the planning phase. During this stage, it is essential to review general data considerations and guiding principles, including the [FAIR](https://www.go-fair.org/fair-principles/) and [CARE](https://www.gida-global.org/care) principles (described below), and best practices. Prior to launching a research project, make a plan for managing and sharing data to help guide project work.
 
-#### Data Management and Curation Principles
+### Data Management and Curation Principles
 Below are some foundational data management considerations and guiding principles. While these are applicable and useful throughout the research lifecycle, we have placed them here as foundational for any research project.
-##### *Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles*
+#### Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles
 Data, its metadata, and the infrastructure supporting the data should follow the FAIR guiding principles for scientific data management and stewardship. These principles ensure data are Findable, Accessible, Interoperable, and Reusable (FAIR). Briefly, these principles are:
 * Findability - data are discoverable in an established repository, have a persistent identifier(PID), and are well documented;
 * Accessibility - data are able to be accessed by a persistent identifiers (PIDs), with appropriate access restrictions when required
 * Interoperability - data are able to be integrated with other data, applications or workflows for analysis, storage, and processing;
-* Reusability - data are well documented, include descriptions of the project, researchers, etc., and make data use agreements (DUAs) and licenses clear to the next user; data reusers must be able to open, operate, and understand the contents of the original dataset (GO FAIR, 2016)
+* Reusability - data are well documented, include descriptions of the project, researchers, etc., and make data use agreements (DUAs) and licenses clear to the next user; data reusers must be able to open, operate, and understand the contents of the original dataset (GO FAIR, 2016).
 
 These principles are increasingly being used by funders, journals, and others as a benchmark for data sharing. Moreover, alignment with these principles helps to build towards a vision of reproducible and open science. Although activities to ensure the FAIR principles are often implemented at the end of the study when data are shared, steps done throughout the study can increase the FAIRness of the data. For example, aligning participant consent or data agreements with accessibility plans for data release, choosing open or easily exportable software and file formats for collection, and capturing documentation as data are collected and analyzed can help make data more FAIR.
-##### *CARE Principles for Indigenous Data Governance*
+#### CARE Principles for Indigenous Data Governance
 The CARE Principles for Indigenous Data Governance ensure datasets and publications, as well as data collection processes, respect the autonomy and sovereignty of Indigenous communities. The CARE principles focus on the people and purpose behind data, especially human subjects data. While these principles are written specifically with Indigenous data and sovereignty in mind, they are a useful framework to evaluate how to share and manage all data, as these principles require researchers to consider the impacts and unintended effects of their data collection and management practices on society at large. These principles are:
 * Collective Benefit - Data collected about communities should be shared to benefit those communities’ promotion of local self-determined development processes.
 * Authority to Control - Indigenous communities should control data in ways that they choose and have the right to data which empower their self-determination and self-governance; the authority to control principle can be extended to peoples of all marginalized communities.
@@ -57,12 +70,21 @@ The CARE Principles for Indigenous Data Governance ensure datasets and publicati
 As stated by Carroll et al:
 <ol>The CARE Principles speak to how scientific data are used in ways that are purposeful and oriented towards enhancing the wellbeing of people. The CARE Principles are likely to find expression across the data lifecycle from collection to curation, from access to application, with implications and responsibilities for a broad range of entities from funders to data users…It is important to note that in many cases scientific datasets also contain Indigenous Knowledge. Users and producers of such data, both in the past and currently, often do not realize the need to acknowledge Indigenous provenance or make space for cultural metadata when creating this data (2021).</ol>
 
-##### *Data Curation*
+The FAIR and CARE principles should be considered complementary, as FAIR focuses on the
+characteristics of data, metadata, and infrastructure that will facilitate “increased data sharing”,
+whereas CARE focuses on “both” people and the purpose(s) behind data (GIDA, 2019).
+* Early in the research design process, consider the full impacts of the data. If the data
+focuses on a specific community, determine if the community members are a full partner
+in the data collection or sharing process
+* If data are not about human participants, determine if there are other potential concerns
+with collecting or sharing this data ([e.g., University of Sydney](https://www.sciencedaily.com/releases/2018/07/180723142834.htm))
+
+#### Data Curation
 Data curation “enables data discovery and retrieval, maintains data quality, adds value, and provides for data re-use over time through activities including authentication, archiving, metadata creation, digital preservation, and transformation” (Data Curation Network, “[Mission and Vision](https://datacurationnetwork.org/about/our-mission/)”). This work includes activities such as reviewing files and their organization for clarity and completeness, improving project documentation to facilitate reuse, converting files for long-term access, and providing a robust description to improve the findability of the dataset. Data curation is a process of reviewing, and possibly transforming or augmenting a dataset to help ensure the data and affiliated publications are Findable, Accessible, Interoperable, and Reusable (FAIR).
 
 While curation frequently happens at the end of a project, typically when data are uploaded to a preservation or sharing repository, researchers can leverage curation principles and practices to assist in managing data throughout the entire project lifecycle. Consideration of how to curate research data early on in a project can improve metadata completeness, descriptive documentation, and optimize how and where data are shared. Good data management and curation practices should be leveraged even if the data has restrictions and cannot be made openly available.
 
-#### Data Management and Sharing Plans
+### Data Management and Sharing Plans
 Federal regulations and policies, as well as institutional policies, are increasingly asking researchers to prepare Data Management Plans (DMPs) or Data Management and Sharing Plans (DMS Plans), collectively hereafter referred to as DMPs. These plans outline the data that will be generated over the course of a project, how the data will be managed during the project, and how data will be preserved and shared after the project is complete. When creating a DMP, it is important to refer back to, and be guided by, the FAIR and CARE principles to understand ‘the why’ of many data management and sharing practices. For example, transforming research data from a proprietary common file format into a common open standard format will increase the likelihood of data accessibility and reuse; this data transformation is guided by FAIR principles. On the other hand, the CARE principles require thoughtful assessment of data collection processes, analysis and data provenance to determine if there are any negative impacts on specific communities or society as a whole.
 
 Although there is no checklist to follow for FAIR or CARE compliance, each of the data management activities reflected in the DMP should be in alignment with each set of principles. DMPs should also be considered living documents that will facilitate the archiving and sharing of research data at project conclusion. Even if a DMP is not required by a funder, federal agency, or other external party, it is a useful exercise to prepare for data management across the research lifecycle. While DMPs can and should be updated throughout the research project, planning early in the research lifecycle will streamline collection, analysis, and management of all digital assets.
@@ -70,11 +92,11 @@ Although there is no checklist to follow for FAIR or CARE compliance, each of th
 Early in the project planning phase, create a DMP that covers data management throughout the entire [research project lifecycle](https://researchdata.princeton.edu/research-lifecycle-guide/research-lifecycle-guide). Any shared data should be done in a manner that aligns with the FAIR and CARE Principles. The following bullet points are considerations and general guidelines for creating, managing, and updating DMPs.
 
 * **Consider using a template or tool to help structure the DMP.** For example:
-  * The DMPTool is an online resource for creating DMPs with institution and public (free) versions available
+  * The [DMPTool](https://dmptool.org/) is an online resource for creating DMPs with institution and public (free) versions available
   * Funders, such as National Science Foundation (NSF) or the National Institutes of Health (NIH), often have DMPs templates specific to their grant types
   * Many research data centers or libraries at local institutions can offer guidance on how to get started on developing a DMP
 * **Determine where, how, and what data will be shared. Document these decisions in the DMP.**
-  * There are many repositories that could be leveraged to store and share data, depending on data management needs or requirements. Domain-specific repositories, institutional repositories, generalist repositories, or even code repositories, like GitHub, may all be appropriate. There are other options, such as self-hosting data or establishing stand-alone infrastructure, but these options can be expensive to launch and maintain, and can jeopardize project data in the long-term. Contributing to an established repository is preferred. Suggested considerations when selecting a repository, as well as potential tools to facilitate this, are provided below in the [Data Management, Sharing, and Curation Resources]() section.
+  * There are many repositories that could be leveraged to store and share data, depending on data management needs or requirements. Domain-specific repositories, institutional repositories, generalist repositories, or even code repositories, like GitHub, may all be appropriate. There are other options, such as self-hosting data or establishing stand-alone infrastructure, but these options can be expensive to launch and maintain, and can jeopardize project data in the long-term. Contributing to an established repository is preferred. Suggested considerations when selecting a repository, as well as potential tools to facilitate this, are provided below in the [Data Management, Sharing, and Curation Resources](#data-management-sharing-and-curation-resources) section.
 
 
 
@@ -85,7 +107,7 @@ Early in the project planning phase, create a DMP that covers data management th
 * **Plan to review the DMP at regular intervals throughout the project and update the DMP as needed throughout the project.** Research projects and affiliated data will likely evolve as the project develops. Make changes to reflect the actual practice of the project’s data management during the project, as this will prevent loss of the context and processes pertinent to the data.
   * Ensure all project PIs and personnel have access to the DMP and understand the review schedule. Depending on federal or institutional requirements, plans can be living documents or updated in versions; if using versions, ensure versioning processes are documented.
 
-#### Elements of Data Management and Sharing Plans
+### Elements of Data Management and Sharing Plans
 Required elements or components of DMPs will differ depending on funder or institutional requirements. However, regardless of requirements, there are recommended minimum elements to include in plans. Documenting and describing these research data management activities ensures consistency in data collection, can streamline analysis, sharing, and preservation of research data at project end, and can promote transparency in the overall research process. DMPs can and should be living documents to help guide data collection; as plans change, DMPs should be updated periodically to ensure project personnel are all on the same page. The following table lists the recommended minimum elements to include in a data management plan.
 * **Describe the data** and include relevant context, how it will be collected, project personnel leads, and the role of the data in the research project
   * Include **confidentiality or privacy** restrictions and considerations
@@ -110,7 +132,7 @@ Required elements or components of DMPs will differ depending on funder or insti
 * Consider if there are specific **metadata standards and/or documentation** best suited for the research project or data (often disciplinary based)
 * Document how **version control** of the data files will be managed
 
-#### Other Planning Considerations
+### Other Planning Considerations
 Many aspects of the research project will impact and influence how data are managed, curated, stored, and shared. Below are additional aspects to consider during the project planning phase.
 * Determine if institutional policies or review boards (e.g., Institutional Review Boards [IRBs], Institutional Animal Care and Use Committee [IACUC], Institutional Biosafety Committee [IBC]) require specific management of consent forms, data de-identification, restricted platforms, etc. IRB requirements may impact how the project’s research data will be managed and/or curated
 * If reusing an existing dataset, determine if the data are subject to Data Use Agreements (DUAs) and, if applicable, include DUA restrictions in the DMP
@@ -126,15 +148,15 @@ sharing repository, supporting the data align with FAIR and CARE principles
   * In consultation with repository personnel, determine if the data will be shared in one record or several, and determine how multiple outputs will be linked if needed
 * Plan to broadly develop three types of data documentation: documentation about the data itself (e.g., variables, data dictionary, codebook), the dataset or study as a whole (e.g., the README file), and how the data may be reused (e.g., file manifest, license)
 
-### During the Research Project (Project Execution or Implementation)
+## During the Research Project (Project Execution or Implementation)
 This period of the research project is likely the bulk of the work, from data collection, cleaning, and analysis, through sharing and publication. This phase builds on the previous planning phase, and relies heavily on the DMP created previously. Whether the data generated are newly collected or reused from a previous study, the following sections will help to ensure that data are in robust shape when the project ends.
 
-#### Data Management
+### Data Management
 Data management includes considering how data will be shared, stored, and reused, and using data sharing goals to guide decisions when developing a research project, collecting data, and managing data. It also involves evaluating, developing, and adopting tools and workflows that will streamline the capture of appropriate metadata and ease the burden of publication or required sharing. This approach is especially beneficial for large-scale projects and highly-collaborative research that crosses disciplines or institutions (e.g., Kouper et al 2021; Akmon et al 2018; Soska et al 2021).
 
-Data curation, described [above](), is a critical part of research data management and “cannot happen without implementing good data management practice early on and throughout the research lifecycle” (Johnston, 2017, xii). Curation is integral to ensuring data can be accessed and reused in the future; data management would be a somewhat fruitless endeavor without curation, and without the end goal of data reuse.
+Data curation, described [above](#data-curation), is a critical part of research data management and “cannot happen without implementing good data management practice early on and throughout the research lifecycle” (Johnston, 2017, xii). Curation is integral to ensuring data can be accessed and reused in the future; data management would be a somewhat fruitless endeavor without curation, and without the end goal of data reuse.
 
-![](Figure1.png)
+![](Figure1.png)<p>
 *Figure 1: A conceptual model of the research data lifecycle with intersections between data management (researcher actions), data curation (repository, curator, or researcher actions), and data reuse (Johnston, 2017, xii).*
 
 The considerations below are pertinent to data management during the research process, and specifically highlights curation activities.
@@ -165,12 +187,12 @@ The considerations below are pertinent to data management during the research pr
       * Consider how the assigned dataset DOI or other PID can connect to the an affiliated publication
 * Connect with repository personnel to better ensure that data to be shared is prepared for data submission into a repository or other platforms
 * Ensure data-related documentation, including README files and codebooks, are descriptive enough to reproduce or reuse the data
-  * The DMP may or may not be helpful for data reuse; ideally, the DMP would include context and information helpful for data reuse; see the ‘[Elements of Data Management and Sharing Plans]()’ section above
+  * The DMP may or may not be helpful for data reuse; ideally, the DMP would include context and information helpful for data reuse; see the ‘[Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans)’ section above
 
 
 
 
-#### Documentation
+### Documentation
 Documentation is essential for understanding and reusing a dataset. Capturing documentation while the research project is ongoing is beneficial, as important details may be forgotten or lost by the time the project ends. When original authors of data, and subsequent data reusers, provide context around the data in the form of documentation, the longevity of the data are increased and its provenance can be more easily understood (the latter is important for CARE considerations). There are three types of documentation that should be created during a research project: documentation about the data (e.g., variables, data dictionary, codebook), the dataset or study as a whole (e.g., a README file), and how the data may be reused (e.g., file manifest, license).
 
 * Create data level documentation, including metadata, when data collection begins
@@ -188,19 +210,19 @@ Documentation is essential for understanding and reusing a dataset. Capturing do
 * Ensure data-related documentation, such as README files and codebooks, are descriptive enough to reproduce and/or reuse the data. Consider including the DMP, as it should provide context around the data, which may be helpful for future reusers.
 * Have the README file refer to all other documentation created for the project.
 
-#### Data Sharing
+### Data Sharing
 Sharing research data is important for researchers for a myriad of reasons: it increases data management and thereby increases data quality, it promotes transparency, it encourages collaboration by allowing for increased data reuse, and it can increase sample sizes in scientific studies. For funders, shared data can stimulate interest and mobilize topics of research within specific disciplines (Popkin, 2019; USGS, n.d.). Data sharing may happen at different points in the project lifecycle, but sharing typically occurs at milestone points during the project (such as with publication), or at project end. The following considerations may be beneficial to highlight why some data should be shared while the project is in process, versus at project end.
 * Publication:
   * Publication may occur before a project ends, especially for larger projects with multiple phases. Data will often need to be shared to comply with publisher mandates.
 * Collaboration:
   *Ensure everyone who is handling the data has reviewed and understands the DMP.
   *Share data, code, or other project outputs earlier in the project to promote collaboration and to advance project work more efficiently; these ‘born open’ project components (e.g., [GitHub](https://github.com/) or [OSF](https://osf.io/)) can be efficient tools to gain traction during a project.
-  * For projects with large datasets or for projects that last several years, data might be shared with researchers at other institutions; consider if the data need extensive curation before sharing outside the home institution.
+  * For projects with large datasets or for projects that last several years, data might be shared with researchers at other institutions; consider if the data need extensive [curation](#data-curation) before sharing outside the home institution.
 * Budgetary considerations:
   * Data sharing is not necessarily free. Evaluate the repository options early to budget appropriately for sharing and curation costs.
   * Determine what activities need to happen for data sharing, especially curation activities; if these tasks are extensive, consider folding these activities into the Implementation phase of the project (for a comprehensive list of activities, see ARL’s 2022 [Public Access Data Management and Sharing Activities](https://doi.org/10.29242/report.rads2022) report). Funds, personnel, and staff time may be covered during the project, but these resources may not be available at or after project end.
 * Documentation:
-  * Update the DMP developed in the Planning phase in accordance with project changes (see ‘Data Management and Sharing Plans’ above), especially if data have been transformed or augmented.
+  * Update the DMP developed in the Planning phase in accordance with project changes (see ‘[Data Management and Sharing Plans](#data-management-and-sharing-plans)’ above), especially if data have been transformed or augmented.
   * Build documentation review into the project workflow; setting a standard time for the research team to review and update documentation can help promote good documentation.
 * Review and update all project documentation, including README files, discipline specific documentation such as data dictionaries and codebooks, and any other documentation describing how the research data was processed, cleaned, standardized, etc.
   * Execute the appropriate methods and approaches for managing and sharing data, which were likely identified in the DMP during the Planning phase. These implementation activities could include selecting an appropriate repository, as it is considered the best approach for data sharing
@@ -218,13 +240,13 @@ Sharing research data is important for researchers for a myriad of reasons: it i
   Good data management includes a closeout phase following project end. Many of these activities build on previous work during the project. The activities listed below are considered a quick checklist of what is typically required to ensure the data, and their documentation, are in an optimal state for future reuse.
 * **Data Integrity**
   * If not already completed during the project Execution/Implementation phase,
-  complete actions outlined early in the research project to ensure data integrity for future reuse (see ‘Data Sharing’ above)
+  complete actions outlined early in the research project to ensure data integrity for future reuse (see ‘[Data Sharing](#data-sharing)’ above)
 *  **Documentation**
   * When concluding the project, review the DMP developed during the planning
   phase and updated throughout the project and make any final, necessary changes to document what actually occurred during the project; the DMP may be a helpful tool to provide context for data reuse
   * If there is no DMP for the project, ensure all data documentation are robust and descriptive
-    * Refer to the ‘Elements of a Data Management and Sharing Plans’ above to determine if there are pertinent missing elements that should be included in the documentation
-  * Review the ‘Documentation’ section above and ensure all documentation is robust and can be understood by researchers outside of the project team
+    * Refer to the ‘[Elements of Data Management and Sharing Plans](#Elements-of-Data-Management-and-Sharing-Plans)’ above to determine if there are pertinent missing elements that should be included in the documentation
+  * Review the ‘[Documentation](#documentation)’ section above and ensure all documentation is robust and can be understood by researchers outside of the project team
   * Specifically, README files should include:
     * Details about systems and tools used to perform data analysis (methodology)
     * A description of all software and software versions used in collection, cleaning, and analysis
@@ -241,14 +263,14 @@ Sharing research data is important for researchers for a myriad of reasons: it i
 
 DMP Resources  | Second Header
 ------------- | -------------
-DMP Resources  | ● ICPSR - [Framework for Creating a Data Management Plan](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/framework.html)<p>● NSF - [Data Management Plan Requirements](https://www.nsf.gov/bfa/dias/policy/dmp.jsp)<p>● MANTRA - [Data Management Planning](https://mantra.ed.ac.uk/datamanagementplanning/) (training module)<p>● [DMPTool](https://dmptool.org/)
-Data Curation Network - <p>[Standard file formats](https://datacurationnetwork.github.io/CURATED/modules/module-t/)| ● For specific data types see:<p><p>- [Table 1 Common Transformations](https://datacurationnetwork.github.io/CURATED/modules/module-t/)<p>- [Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/)<p>● Common formats:<p>- JPG, PDF, TXT, HTML<p>- CSV, TSV<p>- Date format ISO 8601: YYYY-MM-DD
-Documentation Tools | ● [Colectica](https://colectica.com/software/colecticaforexcel/)<p>● [Cornell README template](https://cornell.app.box.com/v/ReadmeTemplate)<p>- README files should be written in plain-text (.txt) or markdown (.md) for accessibility; [Markdown Guide](https://www.markdownguide.org/basic-syntax/)<p>● [Jupyter](https://jupyter.org/)
-Data Tips for Tidy Data | ● [Best Practices for Data Documentation](https://guides.library.duke.edu/c.php?g=633433&p=4429297)<p>Library Carpentry - [Data Tips](https://librarycarpentry.org/lc-spreadsheets/02-common-mistakes/index.html)<p>● Guidance - [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2017.1375989)<p> Article Highlights:<p>-Be careful with putting multiple data tables in one spreadsheet<p>-Do not leave data points blank if they are zeros<p>-Do not include multiple data points in one cell<p>-Use “_” instead of spaces when naming
-Data Cleaning Tools  | ● [OpenRefine](https://openrefine.org/)<p>● [Tabula](https://tabula.technology/)
-Licensing  | ● [About Creative Commons](https://creativecommons.org/about/cclicenses/)<p>- [License Chooser](https://chooser-beta.creativecommons.org/) (beta)<p>● Chose an [Open Source License](https://choosealicense.com/)<p> ● [Open Data Commons](https://opendatacommons.org/licenses/by/1-0/)
-Where to Share Data Considerations  |● Institutional Repositories (IRs) or data repositories<p>● Domain specific repositories<p>● Generalist repositories (listed below)<p>● When selecting a repository, consider:<p>-Can the repository provide appropriate access?<p>-Does the repository provide curation support?<p>-Does the repository charge for services?<p>-Will the repository preserve the data?<p>● Tools to find a repository:<p> https://www.re3data.org/<p>https://repositoryfinder.datacite.org/
-Common Generalist Repositories | ● [Dryad](https://datadryad.org/)<p><p>● [Figshare](https://figshare.com/)<p>● [Harvard Dataverse](https://dataverse.harvard.edu/)<p>● [Open Science Framework](https://osf.io/)<p>● [Zenodo](https://zenodo.org/)
+DMP Resources  |<li>ICPSR - [Framework for Creating a Data Management Plan](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/framework.html)<p><li>NSF - [Data Management Plan Requirements](https://www.nsf.gov/bfa/dias/policy/dmp.jsp)<p><li>MANTRA - [Data Management Planning](https://mantra.ed.ac.uk/datamanagementplanning/) (training module)<p><li>[DMPTool](https://dmptool.org/)
+Data Curation Network - <p>[Standard file formats](https://datacurationnetwork.github.io/CURATED/modules/module-t/)|<li>For specific data types see:<p><p><ul><li> [Table 1 Common Transformations](https://datacurationnetwork.github.io/CURATED/modules/module-t/)<p><li>[Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/)</ul><p><li>Common formats:<p><ul><li>JPG, PDF, TXT, HTML<p><li> CSV, TSV<p><li>Date format ISO 8601: YYYY-MM-DD</ul>
+Documentation Tools |<li>[Colectica](https://colectica.com/software/colecticaforexcel/)<p><li>[Cornell README template](https://cornell.app.box.com/v/ReadmeTemplate)<p><ul><li>README files should be written in plain-text (.txt) or markdown (.md) for accessibility; [Markdown Guide](https://www.markdownguide.org/basic-syntax/)</ul><p><li>[Jupyter](https://jupyter.org/)
+Data Tips for Tidy Data |<li>[Best Practices for Data Documentation](https://guides.library.duke.edu/c.php?g=633433&p=4429297)<p>Library Carpentry - [Data Tips](https://librarycarpentry.org/lc-spreadsheets/02-common-mistakes/index.html)<p><li>Guidance - [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2017.1375989)<p><li>Article Highlights:<p><ul><li>Be careful with putting multiple data tables in one spreadsheet<p><li>Do not leave data points blank if they are zeros<p><li>Do not include multiple data points in one cell<p><li>Use “_” instead of spaces when naming</ul>
+Data Cleaning Tools  |<li>[OpenRefine](https://openrefine.org/)<p><li>[Tabula](https://tabula.technology/)
+Licensing  |<li>[About Creative Commons](https://creativecommons.org/about/cclicenses/)<p><ul><li>[License Chooser](https://chooser-beta.creativecommons.org/) (beta)</ul><p><li>Chose an [Open Source License](https://choosealicense.com/)<p><li>[Open Data Commons](https://opendatacommons.org/licenses/by/1-0/)
+Where to Share Data Considerations  |<li>Institutional Repositories (IRs) or data repositories<p><li>Domain specific repositories<p><li>Generalist repositories (listed below)<p><li>When selecting a repository, consider:<p><ul><li>Can the repository provide appropriate access?<p><li>Does the repository provide curation support?<p><li>Does the repository charge for services?<p><li>Will the repository preserve the data?<p></ul><li>Tools to find a repository:<p><ul><li> https://www.re3data.org/<p><li>https://repositoryfinder.datacite.org/
+Common Generalist Repositories | <li>[Dryad](https://datadryad.org/)<p><p><li>[Figshare](https://figshare.com/)<p><li>[Harvard Dataverse](https://dataverse.harvard.edu/)<p><li>[Open Science Framework](https://osf.io/)<p><li>[Zenodo](https://zenodo.org/)
 
 ## Bibliography
 Akmon, D., Hedstrom, M., Myers, J. D., Ovchinnikova, A., & Kouper, I. (2017). Building tools to support active curation: Lessons learned from SEAD. *International Journal of Digital Curation*, 12(2). https://doi.org/10.2218/ijdc.v12i2.552
