@@ -16,23 +16,7 @@ Introduction to Research Data Management for Researchers. Data Curation Network 
 
 
 # Table of Contents
-[Scope](#scope)
-[Overview](#overview)
-[Project Planning / Before Research Project Initiation](#project-planning--before-research-project-initiation)
-[Data Management and Curation Principles](#data-management-and-curation-principles)
-[Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles](#findable-accessible-interoperable-and-reusable-fair-guiding-principles)
-[CARE Principles for Indigenous Data Governance](#care-principles-for-indigenous-data-governance)
-[Data Curation](#data-curation)
-[Data Management and Sharing Plans](#Data-Management-and-sharing-plans)
-[Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans)
-[Other Planning Considerations](#other-planning-considerations)
-[During the Research Project (Project Execution or Implementation)](#during-the-research-project-project-execution-or-implementation)
-[Data Management](#data-management)
-[Documentation](#documentation)
-[Data Sharing](#data-sharing)
-[Research Project End / Project Closeout](#research-project-end--project-closeout)
-[Data Management, Sharing, and Curation Resources](#data-management-sharing-and-curation-resources)
-[Bibliography](#bibliography)
+[Scope](#scope)<br>[Overview](#overview)<br>[Project Planning / Before Research Project Initiation](#project-planning--before-research-project-initiation)<br>[Data Management and Curation Principles](#data-management-and-curation-principles)<br>[Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles](#findable-accessible-interoperable-and-reusable-fair-guiding-principles) <br>[CARE Principles for Indigenous Data Governance](#care-principles-for-indigenous-data-governance)<br>[Data Curation](#data-curation)<br>[Data Management and Sharing Plans](#Data-Management-and-sharing-plans)<br>[Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans)<br>[Other Planning Considerations](#other-planning-considerations)<br>[During the Research Project (Project Execution or Implementation)](#during-the-research-project-project-execution-or-implementation)<br>[Data Management](#data-management)<br>[Documentation](#documentation)<br>[Data Sharing](#data-sharing)<br>[Research Project End / Project Closeout](#research-project-end--project-closeout)<br>[Bibliography](#bibliography)
 
 ----------------------------
 ## Scope
@@ -261,7 +245,7 @@ Sharing research data is important for researchers for a myriad of reasons: it i
 ## Data Management, Sharing, and Curation Resources
   Below is a non-exhaustive list of tools and resources considered helpful for data curation. This list includes data management planning resources that, when utilized early in the research lifecycle, contribute to FAIR research data and metadata.
 
-DMP Resources  | Second Header
+Topic  | Resource
 ------------- | -------------
 DMP Resources  |<li>ICPSR - [Framework for Creating a Data Management Plan](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/framework.html)<p><li>NSF - [Data Management Plan Requirements](https://www.nsf.gov/bfa/dias/policy/dmp.jsp)<p><li>MANTRA - [Data Management Planning](https://mantra.ed.ac.uk/datamanagementplanning/) (training module)<p><li>[DMPTool](https://dmptool.org/)
 Data Curation Network - <p>[Standard file formats](https://datacurationnetwork.github.io/CURATED/modules/module-t/)|<li>For specific data types see:<p><p><ul><li> [Table 1 Common Transformations](https://datacurationnetwork.github.io/CURATED/modules/module-t/)<p><li>[Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/)</ul><p><li>Common formats:<p><ul><li>JPG, PDF, TXT, HTML<p><li> CSV, TSV<p><li>Date format ISO 8601: YYYY-MM-DD</ul>
