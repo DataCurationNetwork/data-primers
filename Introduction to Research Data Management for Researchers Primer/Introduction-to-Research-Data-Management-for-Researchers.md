@@ -1,22 +1,46 @@
 ![](DCNlogo.png)
 # Introduction to Research Data Management for Researchers
 
-Authors: Maria Arteaga Cuevas<sup>1</sup>, Shawna Taylor, Mikala Narlock
+Authors: Maria Arteaga Cuevas[^1], Shawna Taylor, Mikala Narlock
+
 
 DCN Mentors: Scout Calvert, University of Nebraska-Lincoln; Wind Cowles, Princeton University;Jen Darragh, Duke University
 
+
 Affiliate Contributors (external peer reviewers): Alicia Hofelich Mohr, University of Minnesota; Jonathan Petters, Virginia Tech
+
 
 Suggested Citation: Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala. (2023).
 Introduction to Research Data Management for Researchers. Data Curation Network [GitHub Repository](https://github.com/DataCurationNetwork/data-primers).
 
-<p  id="note1"><sup>1</sup> *This project was partially funded by Federal funds from the National Library of Medicine (NLM), National Institutes of Health (NIH), under cooperative agreement number UG4LM01234 with the University of Massachusetts Chan Medical School, Lamar Soutter Library. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. </p>
+
+[^1]: This project was partially funded by Federal funds from the National Library of Medicine (NLM), National Institutes of Health (NIH), under cooperative agreement number UG4LM01234 with the University of Massachusetts Chan Medical School, Lamar Soutter Library. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. 
 
 ----------------------------
 
 
 # Table of Contents
-[Scope](#scope)<br>[Overview](#overview)<br>[Project Planning / Before Research Project Initiation](#project-planning--before-research-project-initiation)<br>[Data Management and Curation Principles](#data-management-and-curation-principles)<br>[Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles](#findable-accessible-interoperable-and-reusable-fair-guiding-principles) <br>[CARE Principles for Indigenous Data Governance](#care-principles-for-indigenous-data-governance)<br>[Data Curation](#data-curation)<br>[Data Management and Sharing Plans](#Data-Management-and-sharing-plans)<br>[Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans)<br>[Other Planning Considerations](#other-planning-considerations)<br>[During the Research Project (Project Execution or Implementation)](#during-the-research-project-project-execution-or-implementation)<br>[Data Management](#data-management)<br>[Documentation](#documentation)<br>[Data Sharing](#data-sharing)<br>[Research Project End / Project Closeout](#research-project-end--project-closeout)<br>[Bibliography](#bibliography)
+[Scope](#scope)
+
+[Overview](#overview)
+
+[Project Planning / Before Research Project Initiation](#project-planning--before-research-project-initiation)
+> [Data Management and Curation Principles](#data-management-and-curation-principles)
+>> [Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles](#findable-accessible-interoperable-and-reusable-fair-guiding-principles) 
+>> [CARE Principles for Indigenous Data Governance](#care-principles-for-indigenous-data-governance)
+>> [Data Curation](#data-curation)
+> [Data Management and Sharing Plans](#Data-Management-and-sharing-plans)
+> [Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans)
+> [Other Planning Considerations](#other-planning-considerations)
+
+[During the Research Project (Project Execution or Implementation)](#during-the-research-project-project-execution-or-implementation)
+> [Data Management](#data-management)
+> [Documentation](#documentation)
+> [Data Sharing](#data-sharing)
+
+[Research Project End / Project Closeout](#research-project-end--project-closeout)
+
+[Bibliography](#bibliography)
 
 ----------------------------
 ## Scope
@@ -199,8 +223,8 @@ Sharing research data is important for researchers for a myriad of reasons: it i
 * Publication:
   * Publication may occur before a project ends, especially for larger projects with multiple phases. Data will often need to be shared to comply with publisher mandates.
 * Collaboration:
-  *Ensure everyone who is handling the data has reviewed and understands the DMP.
-  *Share data, code, or other project outputs earlier in the project to promote collaboration and to advance project work more efficiently; these ‘born open’ project components (e.g., [GitHub](https://github.com/) or [OSF](https://osf.io/)) can be efficient tools to gain traction during a project.
+  * Ensure everyone who is handling the data has reviewed and understands the DMP.
+  * Share data, code, or other project outputs earlier in the project to promote collaboration and to advance project work more efficiently; these ‘born open’ project components (e.g., [GitHub](https://github.com/) or [OSF](https://osf.io/)) can be efficient tools to gain traction during a project.
   * For projects with large datasets or for projects that last several years, data might be shared with researchers at other institutions; consider if the data need extensive [curation](#data-curation) before sharing outside the home institution.
 * Budgetary considerations:
   * Data sharing is not necessarily free. Evaluate the repository options early to budget appropriately for sharing and curation costs.
@@ -226,21 +250,21 @@ Sharing research data is important for researchers for a myriad of reasons: it i
   * If not already completed during the project Execution/Implementation phase,
   complete actions outlined early in the research project to ensure data integrity for future reuse (see ‘[Data Sharing](#data-sharing)’ above)
 *  **Documentation**
-  * When concluding the project, review the DMP developed during the planning
+    * When concluding the project, review the DMP developed during the planning
   phase and updated throughout the project and make any final, necessary changes to document what actually occurred during the project; the DMP may be a helpful tool to provide context for data reuse
-  * If there is no DMP for the project, ensure all data documentation are robust and descriptive
-    * Refer to the ‘[Elements of Data Management and Sharing Plans](#Elements-of-Data-Management-and-Sharing-Plans)’ above to determine if there are pertinent missing elements that should be included in the documentation
-  * Review the ‘[Documentation](#documentation)’ section above and ensure all documentation is robust and can be understood by researchers outside of the project team
-  * Specifically, README files should include:
-    * Details about systems and tools used to perform data analysis (methodology)
-    * A description of all software and software versions used in collection, cleaning, and analysis
+    * If there is no DMP for the project, ensure all data documentation are robust and descriptive
+      * Refer to the ‘[Elements of Data Management and Sharing Plans](#Elements-of-Data-Management-and-Sharing-Plans)’ above to determine if there are pertinent missing elements that should be included in the documentation
+    * Review the ‘[Documentation](#documentation)’ section above and ensure all documentation is robust and can be understood by researchers outside of the project team
+    * Specifically, README files should include:
+      * Details about systems and tools used to perform data analysis (methodology)
+      * A description of all software and software versions used in collection, cleaning, and analysis
 * **Quality Control**
     * Ensure, and document, that quality control procedures (data validation checks, version control, etc.) were performed
-* Data Deletion - If there are any data can be deleted, ensure that deletion takes place:
-  * When reviewing and deleting files, identify files that should not be shared but cannot yet be deleted. Consider if some of those files could be shared now or in the future
-  * For data or files that cannot be shared but cannot be deleted until a certain time to comply with legal or funder requirements, ensure this is clearly documented
-  * Consider a temporary folder, such as a “To Delete” folder for things that could be deleted at a later time; if the folder is not accessed after a year or more, it may be safe to delete
-  * Reviewing and deleting files, including datasets, regularly, or indicating when they can be deleted, can help not only the researcher or project team, but also the institution; with no direction as to when research files can be deleted, there is a risk that files will be kept permanently, contributing to long-term storage costs to the institution and risk to the researcher and institution.
+  * Data Deletion - If there are any data can be deleted, ensure that deletion takes place:
+    * When reviewing and deleting files, identify files that should not be shared but cannot yet be deleted. Consider if some of those files could be shared now or in the future
+    * For data or files that cannot be shared but cannot be deleted until a certain time to comply with legal or funder requirements, ensure this is clearly documented
+    * Consider a temporary folder, such as a “To Delete” folder for things that could be deleted at a later time; if the folder is not accessed after a year or more, it may be safe to delete
+    * Reviewing and deleting files, including datasets, regularly, or indicating when they can be deleted, can help not only the researcher or project team, but also the institution; with no direction as to when research files can be deleted, there is a risk that files will be kept permanently, contributing to long-term storage costs to the institution and risk to the researcher and institution.
 
 ## Data Management, Sharing, and Curation Resources
   Below is a non-exhaustive list of tools and resources considered helpful for data curation. This list includes data management planning resources that, when utilized early in the research lifecycle, contribute to FAIR research data and metadata.
