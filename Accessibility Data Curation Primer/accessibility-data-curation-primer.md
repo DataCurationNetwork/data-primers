@@ -40,6 +40,7 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 >> [Formatted text](#formatted-text) <br>
 >>> [Microsoft Word](#microsoft-word) <br> 
 >>> [PDF](#pdf)  <br>
+
 >> [Images of text](#images-of-text) <br>
 
 > [Tabular](#tabular)
