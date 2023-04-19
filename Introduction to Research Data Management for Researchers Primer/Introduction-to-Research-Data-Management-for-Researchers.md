@@ -4,7 +4,7 @@
 Authors: Maria Arteaga Cuevas[^1], Shawna Taylor, Mikala Narlock
 
 
-DCN Mentors: Scout Calvert, University of Nebraska-Lincoln; Wind Cowles, Princeton University;Jen Darragh, Duke University
+DCN Mentors: Scout Calvert, University of Nebraska-Lincoln; Wind Cowles, Princeton University; Jen Darragh, Duke University
 
 
 Affiliate Contributors (external peer reviewers): Alicia Hofelich Mohr, University of Minnesota; Jonathan Petters, Virginia Tech
@@ -272,8 +272,8 @@ Sharing research data is important for researchers for a myriad of reasons: it i
 
 Topic  | Resource
 ------------- | -------------
-DMP Resources  |<li>ICPSR - [Framework for Creating a Data Management Plan](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/framework.html)<p><li>NSF - [Data Management Plan Requirements](https://www.nsf.gov/bfa/dias/policy/dmp.jsp)<p><li>MANTRA - [Data Management Planning](https://mantra.ed.ac.uk/datamanagementplanning/) (training module)<p><li>[DMPTool](https://dmptool.org/)
-Data Curation Network - <p>[Standard file formats](https://datacurationnetwork.github.io/CURATED/modules/module-t/)|<li>For specific data types see:<p><p><ul><li> [Table 1 Common Transformations](https://datacurationnetwork.github.io/CURATED/modules/module-t/)<p><li>[Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/)</ul><p><li>Common formats:<p><ul><li>JPG, PDF, TXT, HTML<p><li> CSV, TSV<p><li>Date format ISO 8601: YYYY-MM-DD</ul>
+DMP Resources  |<li>ICPSR - [Framework for Creating a Data Management Plan](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/framework.html)</li><li>NSF - [Data Management Plan Requirements](https://www.nsf.gov/bfa/dias/policy/dmp.jsp)</li><li>MANTRA - [Data Management Planning](https://mantra.ed.ac.uk/datamanagementplanning/) (training module)</li><li>[DMPTool](https://dmptool.org/)</li>
+Data Curation Network [Standard file formats](https://datacurationnetwork.github.io/CURATED/modules/module-t/)|For specific data types see:<p><p><ul><li> [Table 1 Common Transformations](https://datacurationnetwork.github.io/CURATED/modules/module-t/)</li><li>[Data Curation Primers](https://datacurationnetwork.org/outputs/data-curation-primers/)</li></ul><br>Common formats:<ul><li>JPG, PDF, TXT, HTML</li><li> CSV, TSV</li><li>Date format ISO 8601: YYYY-MM-DD</ul>
 Documentation Tools |<li>[Colectica](https://colectica.com/software/colecticaforexcel/)<p><li>[Cornell README template](https://cornell.app.box.com/v/ReadmeTemplate)<p><ul><li>README files should be written in plain-text (.txt) or markdown (.md) for accessibility; [Markdown Guide](https://www.markdownguide.org/basic-syntax/)</ul><p><li>[Jupyter](https://jupyter.org/)
 Data Tips for Tidy Data |<li>[Best Practices for Data Documentation](https://guides.library.duke.edu/c.php?g=633433&p=4429297)<p>Library Carpentry - [Data Tips](https://librarycarpentry.org/lc-spreadsheets/02-common-mistakes/index.html)<p><li>Guidance - [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/pdf/10.1080/00031305.2017.1375989)<p><li>Article Highlights:<p><ul><li>Be careful with putting multiple data tables in one spreadsheet<p><li>Do not leave data points blank if they are zeros<p><li>Do not include multiple data points in one cell<p><li>Use “_” instead of spaces when naming</ul>
 Data Cleaning Tools  |<li>[OpenRefine](https://openrefine.org/)<p><li>[Tabula](https://tabula.technology/)
