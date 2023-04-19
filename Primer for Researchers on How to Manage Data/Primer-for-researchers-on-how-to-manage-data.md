@@ -1,5 +1,5 @@
 ![](DCNlogo.png)
-# Introduction to Research Data Management for Researchers
+# Primer for Researchers on How to Manage Data
 
 Authors: Maria Arteaga Cuevas[^1], Shawna Taylor, Mikala Narlock
 
