@@ -27,11 +27,11 @@ Introduction to Research Data Management for Researchers. Data Curation Network 
 [Project Planning / Before Research Project Initiation](#project-planning--before-research-project-initiation)
 > [Data Management and Curation Principles](#data-management-and-curation-principles)
 >> [Findable, Accessible, Interoperable, and Reusable (FAIR) Guiding Principles](#findable-accessible-interoperable-and-reusable-fair-guiding-principles) <br>
->> [CARE Principles for Indigenous Data Governance](#care-principles-for-indigenous-data-governance)<br>
->> [Data Curation](#data-curation)<br>
-> [Data Management and Sharing Plans](#Data-Management-and-sharing-plans)<br>
-> [Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans)<br>
-> [Other Planning Considerations](#other-planning-considerations)<br>
+>> [CARE Principles for Indigenous Data Governance](#care-principles-for-indigenous-data-governance) <br>
+>> [Data Curation](#data-curation) <br>
+> [Data Management and Sharing Plans](#Data-Management-and-sharing-plans) <br>
+> [Elements of Data Management and Sharing Plans](#elements-of-data-management-and-sharing-plans) <br>
+> [Other Planning Considerations](#other-planning-considerations) <br>
 
 [During the Research Project (Project Execution or Implementation)](#during-the-research-project-project-execution-or-implementation)
 > [Data Management](#data-management)<br>
