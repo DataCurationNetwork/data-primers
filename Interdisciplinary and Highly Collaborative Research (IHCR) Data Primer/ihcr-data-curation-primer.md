@@ -40,20 +40,20 @@ Affiliate Contributors (peer reviewers): Greg Janée, Heather Coates, Robert R. 
 > [Scenario 1: Same data, many software tools](#scenario-1-same-data-many-software-tools) <br> [Many producers, multiple datasets](#many-producers-multiple-datasets) <br> [Variety of expertise, ethical negotiations](#variety-of-expertise-ethical-negotiations)
 
 [CURATED Actions to Consider](#curated-actions-to-consider)
-> [Check](#check)
-> [Understand](#understand)
-> [Request](#request)
-> [Augment](#augment)
-> [Transform](#transform)
-> [Evaluate](#evaluate)
+> [Check](#check)<br>
+> [Understand](#understand)<br>
+> [Request](#request)<br>
+> [Augment](#augment)<br>
+> [Transform](#transform)<br>
+> [Evaluate](#evaluate)<br>
 
 [ACTIVE Actions to Consider](#active-actions-to-consider)
-> [Advocate](#advocate)
-> [Collaborate](#collaborate)
-> [Test](#test)
-> [Implement](#implement)
-> [Verify](#verify)
-> [Engage](#engage)
+> [Advocate](#advocate) <br>
+> [Collaborate](#collaborate)<br>
+> [Test](#test)<br>
+> [Implement](#implement)<br>
+> [Verify](#verify)<br>
+> [Engage](#engage)<br>
 
 [Acknowledgements](#acknowledgements)
 
@@ -64,356 +64,258 @@ Affiliate Contributors (peer reviewers): Greg Janée, Heather Coates, Robert R. 
 
 Definitions of interdisciplinarity range from selective borrowings across disciplines to knowledge fusion and synthesis (see, for example, (Klein, 1990)). Individual disciplines within interdisciplinarity may interact through integration, hierarchical relationships, or even antagonism (Barry et al., 2008). For the purposes of this primer, interdisciplinary and highly collaborative research (IHCR) is defined broadly as **research that combines resources and expertise across domains, communities, and institutions.** Two examples below illustrate complexities of IHCR projects and the varying scales of collaboration that may be involved.
 
-The [International Polar Years (IPY)](#https://www.pmel.noaa.gov/arctic-zone/ipy.html) were international collaborative efforts that focused on studying the polar regions. The first IPY was organized in 1882 - 1883 with researchers and observers collecting data from 12 stations in the Arctic and two in the sub-Antarctic (with more stations added later). Most recently, the fourth IPY took place in 2007 - 2008 with an estimated 50,000 participants from 60 nations. The data included physical, biological, and human observations of the land, ocean, and atmosphere “in every possible form and format” (Parsons et al., 2011). One of the major goals of this project was creating a robust data ecosystem and this proved to be extremely challenging, although some important lessons have been learned, * *including the need to build collections and systems that are linked yet separate rather than integrated into one platform (Mokrane and Parsons, 2014).* *
+The [International Polar Years (IPY)](https://www.pmel.noaa.gov/arctic-zone/ipy.html) were international collaborative efforts that focused on studying the polar regions. The first IPY was organized in 1882 - 1883 with researchers and observers collecting data from 12 stations in the Arctic and two in the sub-Antarctic (with more stations added later). Most recently, the fourth IPY took place in 2007 - 2008 with an estimated 50,000 participants from 60 nations. The data included physical, biological, and human observations of the land, ocean, and atmosphere “in every possible form and format” (Parsons et al., 2011). One of the major goals of this project was creating a robust data ecosystem and this proved to be extremely challenging, although some important lessons have been learned, *including the need to build collections and systems that are linked yet separate rather than integrated into one platform (Mokrane and Parsons, 2014).* 
 
-The Socio-Environmental Synthesis Center ([SESYNC](#https://www.sesync.org/)) in the US, funded by the National Science Foundation to the University of Maryland, focuses on interdisciplinary collaborations that help to understand how humans affect and respond to the environment. The Center supports multiple teams, each of which focuses on a specific aspect of socio-environmental research. Some teams integrate data and knowledge across biology and economics, while others combine behavioral and climate modeling. Datasets include biophysical measures and measures of human behavior or modeling processes and results (e.g., results from simulation software and processing scripts). It is common for such projects to undergo rapid changes in teams’ research methods, products, and even the nature of the questions addressed. The need to accommodate continuous changes in data and methodologies throughout the research lifecycle and the need for dedicated data and computational support across teams were among important lessons learned by the Center (Palmer, Kramer, Boyd & Hawthorne, 2016).
-This primer encourages and provides guidance for active curation of data that comes from IHCR. Active curation refers to the expanded range of activities that include supporting project development, data collection, data management, and delivery and analytics in addition to documenting and enhancing data for preservation and sharing (Kouper et al., 2021). To accommodate an advocate for this expanded range of activities, the primer describes activities organized into two larger categories: the CURATED steps that focus on actions a curator takes at the end of the project and the ACTIVE steps, with the focus on curatorial or pre-curatorial actions during earlier stages of the project that enable data reuse.
+The Socio-Environmental Synthesis Center ([SESYNC](https://www.sesync.org/)) in the US, funded by the National Science Foundation to the University of Maryland, focuses on interdisciplinary collaborations that help to understand how humans affect and respond to the environment. The Center supports multiple teams, each of which focuses on a specific aspect of socio-environmental research. Some teams integrate data and knowledge across biology and economics, while others combine behavioral and climate modeling. Datasets include biophysical measures and measures of human behavior or modeling processes and results (e.g., results from simulation software and processing scripts). It is common for such projects to undergo rapid changes in teams’ research methods, products, and even the nature of the questions addressed. The need to accommodate continuous changes in data and methodologies throughout the research lifecycle and the need for dedicated data and computational support across teams were among important lessons learned by the Center (Palmer, Kramer, Boyd & Hawthorne, 2016).
+
+This primer encourages and provides guidance for **active curation** of data that comes from IHCR. Active curation refers to the expanded range of activities that include supporting project development, data collection, data management, and delivery and analytics in addition to documenting and enhancing data for preservation and sharing (Kouper et al., 2021). To accommodate an advocate for this expanded range of activities, the primer describes activities organized into two larger categories: the [CURATED steps](#curated-actions-to-consider) that focus on actions a curator takes at the end of the project and the [ACTIVE steps](#active-actions-to-consider), with the focus on curatorial or pre-curatorial actions during earlier stages of the project that enable data reuse.
 Active curation and ACTIVE steps are particularly important for IHCR because it often involves higher complexity, disciplinary diversity, and idiosyncratic or project-specific combinations of tools, sources, and approaches. That is why decisions and context must be documented continually throughout the project to enable understanding and reuse. While some actions described below will help IHCR projects of the global and national nature, this primer will be most useful for “team-oriented” IHCR, which combines work of several communities or organizations on a smaller scale and can benefit from support of a smaller data management team. The primer is designed for both researchers and data practitioners, and will help these groups to understand how to prepare interdisciplinary data for long-term preservation and reuse. 
 
 
-# Introduction to Clinical Trials Data
+# Scenarios to Illustrate Curatorial Challenges
 
-Clinical trials data are a specific type of [human participant data](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md). This data is generated through a clinical study in which a new drug or medical approach is studied for therapeutic, preventative, or diagnostic uses on individuals; clinical studies and their data determine if these new drugs or medical approaches are deemed both safe and effective for people. [These studies](https://clinicaltrials.gov/ct2/about-studies/learn#WhatIs) can also show researchers whether existing research is confirmed, if there are better approaches, or if there are potential harms to participants (U.S. National Library of Medicine, 2019, March).
+The three scenarios below come from the empirical research on IHCR data funded by the Institute of Museum and Library Services ([LG-246400-OLS-20](https://www.imls.gov/grants/awarded/lg-246400-ols-20)). The challenges identified in those scenarios along with a systematic literature review study (Kouper, 2023) became the foundation for the activities and recommendations that follow.
 
-Clinical trials are a type of clinical study that takes a controlled approach to studying the effects of new medical devices and drugs, or new methods and behaviors for participants. Since these trials are introducing something new into the lives of participants, they are also called interventional studies. These are different from observational studies, which are a different type of clinical study that will not be covered in this primer. There are many different types of clinical trials such as open, single-blind, crossover, etc., and documentation and data will differ depending on the [type of clinical trial](https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/).
 
-<figure> <img src="clinical-1.JPG" alt="Clinical trial process overview." style=""> <figcaption></figcaption> </figure>
+## Scenario 1: Same data, many software tools
 
-(Source: [Institute of Medicine of the National Academies (IOM)](https://nap.nationalacademies.org/read/18998/chapter/2#10), 2015 )
+A small team uses mixed methods to examine the food choices of older adults, combining expertise in anthropology, economics, and sociology. The data collection instruments include a survey questionnaire, interviews, photo documents and stories around them, and focus groups. During COVID19 the team also had to modify their data collection approach and shift from an online survey to paper mailing. This has changed some of the original data from born-digital to analog and in need of digitization. The group makes collaborative decisions about how to analyze data, but individuals lead specific efforts, depending on their preference and methodological expertise. The team uses several software, including Stata, R and Excel for quantitative processing and NVivo and R for qualitative processing. Several people are involved in cleaning, which generates several versions of “cleaned” datasets. Several people are also involved in transformations (e.g., adding variables for analysis), so more versions of datasets for analysis are being generated. The team has ways to number files (with version number and initials), but with multiple local downloads they have to discuss where the files are and which ones to use at every meeting and via email.
 
-Clinical trials data can include many different components of a research project. Over the course of the trial, an enormous amount of data and different types of data may be collected, “including individual participant data (i.e., raw data and the analyzable data set); metadata, or “data about the data” (e.g., protocol, statistical analysis plan, and analytic code); and summary-level data (e.g., summary-level results posted on registries, lay summaries, publications, and Clinical Study Reports)” (Institute of Medicine of the National Academies (IOM), 2015). With the exception of the raw data, most data outputs of the trial can be de-identified and shared. While each component is represented as a distinct item below, some data elements may overlap or be part of another.
+**Challenges**
 
-**Individual Participant Data**
+- Multiple tools used at the same time
+- Lack of consistent organization
+- Incomplete planning
+- Gaps in reproducibility
+- Loss of context and metadata in transitioning between software
+- Burden of manually documenting context and metadata across the entire workflow
 
-- Raw data: This is the source data for the project. It can be collected from instruments, images, narrative text, and other data collection processes. This data is typically not shared, as it often is protected, human participants data in a raw format. However, there are exceptions where raw data are shared via controlled access platforms such as [Vivli](https://vivli.org/). In addition to requiring additional work to make the data computational, raw data can also be significantly larger and more difficult to store, process, and analyze. Raw data has the greatest potential for risk of participant identification.
+## Scenario 2: Many producers, multiple datasets
 
-- Analyzable dataset: After the trial is complete, the raw data will be processed, edited, and converted into an analyzable dataset. The analyzable dataset may include de-identified (anonymized) participant-level data. Typically the analyzable dataset has the most utility, as it has been cleaned for analysis, it is the most computational and usable. Additionally, many studies will only use a portion of the analyzable dataset in the analysis; sharing this data will allow unused data to be leveraged by other researchers. Careful documentation should be kept on how the raw data is converted into an analyzable form.
+A team works with spatial and survey data to create visual maps about green spaces and climate change in cities. The effort uses existing data, so focuses a lot on acquiring existing data, establishing use agreements, and then cleaning, aligning, and coordinating datasets to create derived datasets that become spatial online visualizations. Data sources have various temporal and spatial scales, all of which need to be aligned. Also, as frequency of updates is different, this information needs to be communicated in metadata. The team developed their own techniques of aligning the data, a lot is being done manually via Google spreadsheets and then uploaded to the platform (as layered shapefiles and data points that are visualized on the website). Various datasets are processed by individuals who are most familiar with that type of data (e.g., bike trails or green roofs). Data is then uploaded into ArcGIS for processing, with another expert doing the integration work. The work is not documented well and is probably not reproducible and not consistent across various datasets. Some datasets cannot be downloaded (only opened online), others have no documentation and proper guidelines.
 
-**Metadata and Trial Documentation**
 
-- Trial protocol: When a trial is registered in an appropriate registry, investigators submit a trial protocol, which outlines how the data will be collected, processed, and analyzed, how participants will be recruited, and how consent will be collected. Informed consent language is also included in the trial protocol. As trials progress, the trial protocol may be adjusted. The first trial protocol, the final protocol, and a summary of changes all need to be submitted as part of the final data package.
+**Challenges**
 
-- Statistical analysis plan (SAP): This plan, which is submitted with the trial protocol, articulates exactly which statistical methods will be used to analyze the data, as well as the different software and programs that will be utilized.
+- Multiple formats (spreadsheets, geospatial)
+- Inconsistent or lacking metadata
+- Lack of consistent organization
+- Proprietary formats
+- Platform lock-in
+- Absence of provenance and documentation
+- Gaps in reproducibility
 
-- Analytic code: This is programming and statistical code(s) used to analyze the data. 
+## Scenario 3: Variety of expertise, ethical negotiations
 
-- Codebook: A detailed document that describes how data has been entered and coded to ensure future reusability. For an advanced use case of codebook reuse see de Ridder and Beliën’s 2022 article, [The iCRF Generator: Generating interoperable electronic case report forms using online codebooks.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7291075/) 
+Team members work together to create historical maps of slavery-related events using digitized primary archival sources and statistical modeling. Work takes place in docs and spreadsheets, but then needs to be converted into ArcGIS and processed in R and Python. Work takes many iterations as terminology and interpretations need to be negotiated among historians, but then made suitable for statistical purposes. There is no metadata standard for this work, although the team incorporates Dublin Core. There is an effort to develop a controlled vocabulary to be consistent across various branches (subprojects). As the project focuses on historical persons and how to represent them in both research data and publications, team members engage in discussions about how to represent people from the past. Discussions can be informal and guided by mores and expectations in each field, or they can be expressed as requirements by a data provider or funder. Other considerations that are discussed include protecting privacy and confidentiality of individuals and their data and the need to avoid quantifying people and inadvertently reinforcing stereotypes or erasing nuances of their identities.
 
-**Summary-level data**
 
-- Scholarly Outputs: These can be peer-reviewed articles published in academic journals that report on the study and key findings, [preprints](https://www.ncbi.nlm.nih.gov/pmc/about/nihpreprints/), the study’s analyzable dataset (described above), software, devices or products, or other artifacts. Summaries of parts of the analyzable clinical trial data may be included in publications and other outputs.
+**Challenges**
 
-- Summaries on trial registry site(s), such as clinicaltrials.gov: Summaries are typically submitted within twelve months of project completion and should use easily understandable language to a lay person (e.g., the general public and research participants).
+- Multiple stages of data and its transformations (text, categories, statistical variables)
+- Ethical dimensions and the need to balance qualitative and quantitative perspectives
+- Creation of complex outputs that existing repository infrastructures may not handle well
+- Lack of heuristics for decision-making
+- No process for capturing the discussions that inform decision-making
 
-- Clinical Study Report: These are created when submitting to a regulatory agency for marketing and approval. These are extensive reports that include all of the trial documentation, metadata and analyzable data (e.g., not the raw data) associated with a project, including publications. Clinical Study Reports are shared  following regulatory approval.
 
+# CURATED Actions to Consider
 
-Different clinical trial data should be shared at different phases of the research project. More information provided below.
+Interdisciplinarity and collaboration are intertwined, and may require more team effort, skills, and trust with implications for how data is collected, managed, and preserved. Data curation in IHCR involves dealing with higher complexity and diversity, while negotiating multiple tools, sources, and approaches. With such challenges, it becomes even more important for researchers and curators to collaborate early and practice active curation, i.e., work with data objects that are “live” and still being collected and analyzed.
 
-# Benefits of Sharing Clinical Trial Data
+IHCR data has no fixed forms or structures; it is complex and heterogeneous (as are the research processes that generate it), therefore the approaches to its curation need to account for fluidity, complexity, and heterogeneity. Curation actions may take place at various stages in the research process, and these actions could be undertaken by various research team members across institutions and/or by individuals external to the project (e.g., curators at a data repository). Below the [DCN CURATED workflow](z.umn.edu/curate) is described in the context of IHCR and additional actions that such curation may require.
 
-In addition to compliance with funder and journal mandates, which increasingly require data be accessible in an online repository, appropriate sharing of clinical trial data has far-reaching impacts, beyond the Principal Investigators and research study team. Due to the fact that “[c]linical studies are designed to add to medical knowledge related to the treatment, diagnosis, and prevention of diseases or conditions,” providing access to research outputs empowers clinicians, patients, and the general population (U.S. National Library of Medicine, 2019, March). The most direct and immediate beneficiaries of shared clinical trial data are clinicians and their patients. This data will help inform the clinician of what is likely, or unlikely, to have a positive impact on their patients, whether it be a new treatment or prevention method. Accessing as much of the trial data as possible provides clinicians a better understanding of the benefits and potential risks of an intervention. 
 
-For patients, information found on the registries can be empowering and educational as they, for instance, navigate a medical diagnosis, explore treatment options, and assess potential risks. This applies to the general public as well, as they are able to access this information even if they simply want to learn about research pertaining to medical diagnoses or potential treatments. Of note, for trials that are funded in part or whole by a public funder, e.g., NIH, the information learned in a trial and the data behind that knowledge could be understood as a public good, and should be made available to anyone interested in learning more. 
+## Check
 
-For researchers, sharing clinical trial data is a contribution to the collective knowledge of the medical community, adheres to the medical industry’s ethical standards, and reduces repeated trial research done by other researchers. Furthermore, funding agencies can make decisions on future clinical trials based on results and impacts that are found in shared clinical trial data. This furthers the possibility of appropriate investments in clinical study research. In addition, allowing individuals access to clinical trials data or results may be empowering for the general population, as individuals can decide which risks they are willing to take. When data are available on a topic, other researchers can reuse the data and patients will not be exposed to the same risks on an intervention that has already been tested.
+*Contributors:* In addition to inventorying and reviewing the contents (files and code) and applying appraisal and selection criteria to the dataset, identify and review all data contributors and establish who is responsible for which parts of the data to be curated.
 
-Shared data can also be leveraged by secondary users (typically researchers), who may use the data when “carrying out additional analyses, analyzing unpublished data, reproducing published findings, and conducting exploratory analyses to generate new research hypotheses” (Committee on Strategies for Responsible Sharing of Clinical Trial Data Sharing, 2015). Data must be managed in a “responsible manner that mitigates the risks involved,” benefits all stakeholders, and advances patient care (Committee on Strategies for Responsible Sharing of Clinical Trial Data Sharing, 2015). However, this is not to say that there are no risks associated with data sharing. Not all data and trial documentation generated in the course of a clinical trial will be shared, such as the raw data that contains Personal Identifiable Information (PII). The Committee on Strategies for Responsible Sharing of Clinical Trial Data’s [Guiding Principles for Sharing Clinical Trial Data](https://www.ncbi.nlm.nih.gov/books/NBK285999/) offers guidance on sharing data responsibility and ethically, while promoting public and scientific trust.
+*Needed expertise:* Identify what domains are contributing to the dataset (collection) and ensure that the curation team has sufficient expertise. It is beneficial to have someone who knows how to work with two or more types of data (e.g., qualitative and quantitative, observational and simulations) and with two or more types of software. This sharing of expertise in data and software provides for more capacity to evaluate the objects to be curated.
 
-# Potential Data Sharing Challenges
+*Repository options:* While the CURATED steps assume the data to be curated will reside in one repository, this assumption may not be appropriate for IHCR data. If there are multiple distinct data types produced by an IHCR project, one option is to utilize a repository that supports the represented data types or multiple disciplinary repositories if there is an expected or designated repository for each data type. References/links among related datasets are recommended if the repositories allow such a practice, and each dataset should have a persistent identifier associated with it. It is also preferable to deposit project-level data and documentation in a single repository, which provides potential users with a starting point for all of the contextual information (including locations of data sets housed in other repositories). A multidisciplinary data repository (e.g., [National Addiction & HIV Data Archive Program](https://www.icpsr.umich.edu/web/pages/NAHDAP/index.html), [DesignSafe Data Depot Repository](https://www.designsafe-ci.org/)), generalist repository (e.g., [OSF](https://osf.io/), [Zenodo](https://zenodo.org/)) or institutional repository (e.g., at the lead institution) may be well-suited for this purpose.
 
-One of the biggest data sharing challenges and risks is the potential for participant harm. Clinical trial data, including the raw and analyzable datasets, contains sensitive Personal Identifiable Information (PII) or Protected Health Information (PHI). When preparing to share data, researchers will need to collaborate with statisticians and others with advanced de-identification expertise. De-identified (anonymized) data must protect participant privacy, adhere to the methodology and processes previously described in clinical study documentation, including the trial protocol and trial registration (described below). Ensure language used in the informed consent forms matches how data are curated and stored during active research or preservation phases in the research lifecycle. Shared data must be described with enough detail that it can be utilized for reproducibility and secondary analyses. This must be done in conjunction with experts, such as a statistician, the project PI, or project team member, and should not fall solely to the data curator. 
+*Licensing, ownership models, and data use agreements:* Evaluate forms of collaboration and sharing, especially when data comes from collaborations with industry, government or community stakeholders and consider the following:
 
-Additional data sharing challenges stem from researchers, who might worry about competition and others building on their work, especially in the case of secondary or ancillary findings. Arguably, this demonstrates another reason that sharing is important - researchers should be credited for their work if it has been formally deposited with a reputable repository and registered on clinicaltrials.gov or another trial registry. Datasets are often assigned a persistent identifier after deposit in a repository and this may deter competitors from taking other researchers' work without giving sufficient credit. This benefit, then, is that sharing data will likely lead to increased data citations.
+- Develop or review ownership guidelines and agreements among data creators and users early in the project. IHCR data is often a collection of data, so ownership may be distributed across team members and data may be acquired from multiple existing sources for secondary use. It is also important to review how existing data use agreements may or may not align with one another early in the project.
+- Decide how data and software can or need to be licensed (see, for example, [https://guides.library.oregonstate.edu/research-data-services/data-licensing-ip](https://guides.library.oregonstate.edu/research-data-services/data-licensing-ip))
+- Ensure that multiple formats are being preserved (see, for example, U.S. National Archives and Records Administration Digital Preservation Framework [https://github.com/usnationalarchives/digital-preservation](https://github.com/usnationalarchives/digital-preservation))
 
-Another issue, which has been mostly mitigated through registration requirements, is switching the hypothesis or end goals (also known as "HARKing" or "hypothesizing after the results are known") in the middle of a trial. There have been cases where a study started in one direction and then went down an entirely new path to chase a more desirable outcome. For instance, researchers or investigators may simply be reporting on favorable outcomes while ignoring other results to make it look as though the study only saw success; this is an unethical practice that can lead to clinicians, patients, and researchers attempting to recreate something that was not presented transparently. Clinical studies should be meticulously described with pre-registration and reported on throughout the process.
+## Understand
 
-# Selecting a Repository
+In examining the dataset (collection) closely to understand what it is, IHCR data also requires determining where it sits in disciplinary contexts. Common questions (steps) include:
 
-When sharing clinical trial data, it is important to select a data repository that will best suit PII and PHI data, both of which are sensitive types of information. Researchers typically need to review their Institutional Review Board (IRB) policies to ensure data management and sharing practices comply with IRB guidance; this is in addition to any campus-wide data management and sharing policies, or retention policies, required at the institution-level. While every repository will have different features, the main considerations to take into account when selecting a repository for clinical trial data include: protections for participant privacy, minimization of risk of participant reidentification, and evaluating for alignment with the FAIR principles (Wilkinson et al, 2016). Each project will have its own requirements, which should be considered at the start of the project, and will need to be shared in a manner that complies with previous documentation. Consulting with repository managers at the start of a project, ideally in the proposal stage, will make the transition from data collection, through analysis, and to publishing data, less burdensome. The following questions are presented in a non-prioritized order, and serve as foundation for the types of questions a researcher might consider when selecting a repository:
+- Identify domains and disciplines that contributed to the data and create a list to help determine curation expertise (e.g., disciplinary, computational, or data science expertise). Avoid generating hierarchies of disciplines or members contributing to the research.
+- Determine whether one or more collaborating organizations contributed to the data and how that affects curation. For example, this could affect decisions about which organization’s repository will be used for the project.
+- Determine the potential users of this data, including disciplines and expected levels of expertise and software and tools that are needed to open and interpret the various data formats.
+- Use automation tools such as DROID File Identification Tool to correctly identify all file formats and create a dataset profile (Kaltman et al., 2021).
 
-- Can the data be shared openly, or does it require additional restrictions or protections, such as embargoes (delaying access to data for a period of time) or requiring user authorization or the completion of Data Use Agreements? 
-    -	 If applicable, how does the repository review access requests? Is there a data access committee that reviews usage requests to ensure usage is consistent with participant privacy requirements and in alignment with the study’s informed consent?
 
-- Can the repository provide the appropriate level of protection to meet relevant legal or regulatory requirements?
+## Request
 
-- Does the repository have a plan or protections in place for unintended data breaches?
-    -	 Does the repository have a plan in place to deal with data reuse violations?
+The quality of IHCR data curation depends on communication. When embarking on the active curation of IHCR data project, consider the following questions:
 
-- Is there a cost associated with uploading to the repository?
+- Ask the researchers about their goals for sharing the dataset. Do they prioritize use for certain domains / stakeholders?
+- Have all terminologies and practices been discussed and included in the description?
+- In the case of large collaborative datasets, ask whether parts of the data is being published elsewhere and whether it needs to be linked.
+- Offer to create a collaborative document that would serve as a READme file or high level documentation.
+  - Within this document, consider including a high-level description of the data workflows from collection/generation through to curation.
 
-- Will the repository be able to provide the datasets with a unique and persistent identifier? 
 
-- Does this repository use broadly applicable vocabularies? 
-    -	 Does the repository have adequate metadata fields to enable findability?
+## Augment
 
-- Does the repository support the data format? 
+Capturing context through documentation is particularly challenging for IHCR. In contrast to disciplinary data and research involving smaller teams, it is often challenging to create documentation for IHCR data at the end of a project due to the number of people involved in creating it, the multiple data types and analysis tools used, and the various vocabularies and contextual metadata used by each discipline involved. In curating IHCR data consider providing more detailed documentation for IHCR data while recognizing that there is likely not a single standard or best practice to use. Data curators or other data specialists can provide valuable insight, e.g., create a data dictionary for structured elements) to enable reuse across disciplines or by a more general audience.
 
-- Does the data need to be accessed for a period of time (e.g., 5-7 years)?  
-    -	 Does the repository provide support for the data after the requisite timeframe? 
+- Capture necessary context by using multiple metadata standards or documentation best practices for each of the disciplines/data types involved in the project.
+- Capture project-level documentation describing how the various data types relate to one another. For this project-specific documentation, README files offer a flexible way to capture context (see, for example, [https://data.research.cornell.edu/content/readme](https://data.research.cornell.edu/content/readme)).
+- Consider adding authorship and acknowledgement statements to recognize all contributors.
+- Make sure keywords that describe the project and data are broad enough to be inclusive of the interdisciplinary and collaborative context.
+- Suggest adding an explicit statement about underlying principles of interdisciplinarity and collaboration to project-level description. Such a statement is most valuable when it is developed earlier in the project as part of consensus- and team-building efforts and data managers or curators can assist the team in developing such a statement. It includes a description of how the team approaches interdisciplinarity and collaboration (e.g., as borrowing, integration, synthesis, or dialog, (Klein, 2008; Miller, 2010)).
+- Develop common high-level vocabulary (tags) to identify and track papers and data shared and published in multiple venues as belonging to the larger project. 
 
-- If the repository were to suspend service, is there a backup plan for preservation of the data? 
 
-- Does the repository provide curation support to ensure data submission packages include sufficient documentation?  
-    -	 If not, are data curators and specialists available within the institution?
+## Transform
 
-If the repository will hold a large amount of clinical trial data, it is recommended to consider selecting a specialized clinical data sharing repository or platform over generalist or institutional repositories. [Vivli](https://vivli.org/) is currently the most popular specialized repository for clinical trial data and has many features required for ethical data sharing and storing and data reuse. Features include: a requirement for data to be de-identified prior to submission, access to de-identified individual patient-level data (IPD), a secure research platform in which researchers can work with the requested data, established partnerships with anonymization experts that researchers can access, supporting data documentation for secondary use, and implementation of data use agreements (DUAs), which requires users to agree to terms of use before they can access the data for reuse. Due to these features, Vivli has become the de facto repository for sharing clinical trials data; submitting data to Vivli means a study will be discoverable in many other locations (Vasquez et al, 2021). However, designated downloadable datasets require, per the terms of use agreement, that downloaded data be destroyed. Furthermore, every “action taken on the Vivli platform is recorded in an audit trail on the platform. Every time data is accessed either via the secure research environment or downloaded the action is recorded in the platform” (Vivli, "How Vivli meets the NIH ‘Desirable Characteristics for Data Repositories’"). Dataset metadata are assigned PIDs and made discoverable via Google Scholar and Google Dataset searches.  
+IHCR data may have a higher rate of transformations as data moves from one part of a team to another and from one disciplinary group to another. These transformations may not be documented throughout the project, so in addition to suggesting reusable and open formats, consider the following:
 
-Another excellent resource for reputable scientific data repositories is the [NIH-supported Scientific Data Repositories list](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data), which includes discipline specific repositories that support the domain specific needs of researchers. 
+- Determine whether sufficient documentation exists to trace transformed data back to its original sources to understand what, when, why, and by whom changes were made.
+- Consider how transformations in one part (domain orientation) of the data affect other parts of the data and ensure understanding and reusability of data throughout the project.
+- Make sure that file format conversions are implemented through scripts/code, when possible,  rather than point/click operations to preserve reproducibility and roll-back if needed.
+- Suggest a project-wide document for capturing data transformations that can be included in the final curated dataset (collection).
 
-# Clinical Trial Registration 
 
-## Why Is Trial Registration Important?
+## Evaluate
 
-Trial registration is often a prerequisite in many countries to proceed with clinical studies involving human participants. Funders, either private or public, may also require trial registration to comply with grant conditions. Aside from federal government and funder requirements, registering and sharing clinical trial data and clinical study results, as well as study methodologies, promotes scientific best practice, strengthens the transparency, validity, and value of the scientific evidence. The World Health Organization (WHO) identifies several key areas as to why trial registration promotes good scientific practice:
-- It is difficult to make informed decisions if publication bias and selective reporting are present.
-- Improving awareness of similar or identical trials will make it possible for researchers and funding agencies to avoid unnecessary duplication.
-- Describing clinical trials in progress can make it easier to identify gaps in clinical trials research.
-- Making researchers and potential participants aware of recruiting trials may facilitate recruitment.
-- Enabling researchers and health care practitioners to identify trials in which they may have an interest could result in more effective collaboration among researchers. The type of collaboration may include prospective meta-analysis.
-- Registries checking data as part of the registration process may lead to improvements in the quality of clinical trials by making it possible to identify potential problems (such as problematic randomization methods) early in the research process (WHO Trial Registration).
+In addition to assessing the data for adherence to FAIR, CARE, and other standards, evaluate the data and metadata for general readability and user-friendliness. Considering that IHCR data can be used by multiple audiences, such data needs to provide both jargon-free and specialized descriptions of data access, use, and ethical considerations. 
 
-On clinicaltrials.gov, the results of registered trials (in clinicaltrials.gov) database is incorporated into the public facing trial registry and the principal investigator or sponsor updates the registry with summary level information on the study’s results as the study proceeds. Descriptive results or “facets” may be legally required information in the U.S. (depending on the type of study and granting agency), and includes summaries of:
-- Participant Flow: The progress of participants through each stage of a study, and includes the numbers of participants who started, completed, and dropped out of each period of the study based on the sequence in which interventions were assigned.
-- Baseline Characteristics: Data collected at the beginning of a study for all participants. Demographics, such as age and gender, and study-specific measures are included.
-- Outcome Measures and Statistical Analyses: Outcome measure values and any appropriate statistical analyses.
-- Adverse Events: Anticipated and unanticipated serious adverse events, and other adverse events exceeding a specific frequency threshold (U.S. National Library of Medicine, 2018, March). 
+- Perform a final evaluation of how well data has been transformed to enable future preservation and use (e.g., levels of openness, reproducibility, and interoperability).
+- Evaluate how curation can accommodate future changes in the deposited data (e.g., by ensuring that repository options support versioning or by creating a collection that accommodates additions).
+- Verify that collections contain sufficient linkages between components even if FAIRness and other criteria cannot be fully met.
+- If the data comes from an international collaboration, ensure that appropriate international frameworks for privacy, data ownership, etc., are included into consideration.
 
-The tables below, modified from the ‘Why Should I Register and Submit Results?’ page on clinicaltrials.gov, indicate the purpose of the trial registry and results database, and note the particular groups that benefit from shared trial data (U.S. National Library of Medicine, 2021, May).
 
-|   Registry Purpose   |   Groups that Benefit   |
-| :------------- | :------------- |
-| Fulfill ethical obligations to participants and the research community  | Participants, patients, the general public, the research community, granting agencies |
-| Provide information to potential participants and referring clinicians  | Participants, patients, clinicians |
-| Reduce publication bias  | Users of the medical literature, the general public |
-| Help editors and others understand the context of study results  | Journal editors, users of the medical literature, secondary users of the research data |
-| Promote more efficient allocation of research funds  | Granting agencies, the research community, the general public |
-| Help institutional review boards (IRBs) determine the appropriateness of a research study  | IRBs, the research community, participants |
+# ACTIVE Actions to Consider
 
-Modified from: Zarin DA, Keselman A. [Registering a clinical trial in ClinicalTrials.gov.](https://pubmed.ncbi.nlm.nih.gov/17303677/) Chest. 2007;131(3):909-12. [https://pubmed.ncbi.nlm.nih.gov/17303677/](https://pubmed.ncbi.nlm.nih.gov/17303677/)
+> **A** - Advocate (advocate for curators or other data specialists to be included in IHCR teams, emphasize best practices and the importance of curation within IHCR teams, increase awareness of curation practices among the team members, establish communication practices around curation).
+> **C** - Collaborate (engage all project members in curation, collaborate on documentation, be open to contributions from all project members).
+> **T** - Test (test out curation actions that the rest of the group can adopt, including some software development or workflow modification, acknowledge and address admin and communication overhead).
+> **I** - Implement (implement best practices, recommendations, workflows, any systematic approach that improves practices).
+> **V** - Verify (check for accuracy and quality early on, coordinate among team members on applicable approaches and procedures, as curator takes lead on certain actions, verify fit with the team)
+> **E** - Engage (engage with broader community, promote IHCR practices, check-in regularly within the team to evaluate how well practices are working, etc.)
 
-<br>
 
-|   Results Database Purpose   |   Groups that Benefit   |
-| :------------- | :------------- |
-| Provide a public record of basic study results in a standardized format  | Researchers, journal editors, IRBs, patients, the general public |
-| Promote the fulfillment of ethical obligations to participants and the overall contribution of research results to medical knowledge  | Participants, patients, the general public, the research community, granting agencies |
-| Reduce publication and outcome reporting biases  | Users of the medical literature, the general public |
-| Facilitate systematic reviews and other analyses of the research literature  | Researchers, policymakers |
+## Advocate
 
+It is critical for curators and other data specialists already embedded or working with an IHCR team to advocate for curation throughout the
+project; however, there is also an important role for advocacy in encouraging IHCR teams to include curators or other data specialists in
+their projects. In addition, curators working at academic institutions, for example, may not be aware of the full range of interdisciplinary activities on their campuses. To convince IHCR projects to build data curation into their workflows and to develop a model of support, data curators can develop a better understanding of relevant interdisciplinary activities on campus through formal mechanisms, such as surveys or through informal means, such as identifying projects within campus centers, institutes, or labs with an interdisciplinary orientation, or engaging in informal discussions with various campus stakeholders. Steps to include:
 
-Modified from: Tse T, Williams RJ, Zarin DA. [Reporting "basic results" in ClinicalTrials.gov.](https://pubmed.ncbi.nlm.nih.gov/19584212/) Chest. 2009;136(1):295-303. [https://pubmed.ncbi.nlm.nih.gov/19584212/](https://pubmed.ncbi.nlm.nih.gov/19584212/)
+- Conduct an informal assessment (environmental scan) of IHCR initiatives on campus.
 
-## U.S. National Institutes of Health
+- Create a value statement that is tailored to IHCR.
 
-The U.S. National Library of Medicine (NLM) at the National Institutes of Health (NIH) maintains a database of privately and publicly funded clinical studies conducted around the world. [Clinicaltrials.gov](http://clinicaltrials.gov) is a website that provides a robust and user-friendly way for clinicians, patients, researchers, and the general public to find clinical studies information on an extensive array of subjects. Studies are registered by the clinical trial investigator(s) and are regularly updated throughout the duration of the study. Study information may also be updated at the end of the study and include final results. 
+- Build relationships with data curators on other campuses to share ideas and amplify outreach.
 
-In the United States, Section 801 of the Food and Drug Administration Amendments Act of 2007, known as FDAAA 801, as well as the Final Rule for Clinical Trials Registration and Results Information Submission, known as 42 CFR Part 11, detail clinical trial [registration requirements.](https://clinicaltrials.gov/ct2/manage-recs/fdaaa#OtherFDAAA801Requirements)
+- Promote research data management consultations to IHCR and offer suggestions of best practices as a way to engage with teams during the planning and data collection and creation stages.
 
-As of January 25, 2023, the NIH has implemented a Data Management and Sharing Policy (DMS), which applies to scientific data, including clinical trials data, generated as part of NIH-sponsored research. For more information of this policy, visit the [NIH DMS website.](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/data-management-and-sharing-policy-overview)
+- Once a curator is working with an IHCR team, communicate the value of curation practices within the team early and often.
 
-## The World Health Organization
+## Collaborate
 
-The World Health Organization (WHO) regards trial registration as “the publication of an  internationally-agreed set of information about the design, conduct and administration of clinical trials” (WHO, ICTRP Registry Network). Trial details are made publicly available in the International Clinical Trials Registry Platform (ICTRP), however, the WHO ICTRP is not itself a clinical trials registry. Rather, the ICTRP aggregates clinical trial registrations from registries which meet WHO criteria. These criteria are grouped into six content areas: Content, Quality and Validity, Accessibility, Unambiguous, Identification, Technical Capacity, and Administration and Governance (WHO, ICTRP Registry Network). This collection of registries, known as the WHO Registry Network, is composed of:
+IHCR projects benefit from active curation and lifecycle management.
+While many data and research lifecycle models exist (see, for example, [https://www.usgs.gov/data-management/data-lifecycle](https://www.usgs.gov/data-management/data-lifecycle)), in simple terms research and data go through the stages of planning, data gathering, analysis, dissemination, archiving, and disposition. IHCR projects are often iterative, with each stage being done multiple times or spinning off into a separate project with its own lifecycle. Steps to collaborate on IHCR data curation throughout the lifecycle:
 
-- [Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries) meet WHO criteria listed above as well as the requirements of the International Committee of Medical Journal Editors (ICMJE) (described below). 
-- [Partner Registries](https://www.who.int/clinical-trials-registry-platform/network/partner-registries) are affiliated with either a Primary Registry in the WHO Registry Network or an ICMJE approved registry. 
-- [Data Providers](https://www.who.int/clinical-trials-registry-platform/network)
-- [Registries working with the ICTRP towards becoming Primary Registries](https://www.who.int/clinical-trials-registry-platform/network)
+- Develop collaboration and communication expertise as part of curation support (e.g., help teams develop a project charter, see, for example, “[Implementing a Charter for IHCR Projects](https://github.com/inkouper/IHCR-data-recommendations/blob/main/Project%20Charter/ProjectCharter.md)”).
 
-[The ICTRP Search Portal](https://trialsearch.who.int/Default.aspx) is the public-facing point of access for information about ongoing and completed clinical trials and includes information from all WHO Registry Network registries. 
+- Discuss with project leaders the phases and iterations of their research and how data fits into each.
 
-## International Committee of Medical Journal Editors
+- Discuss methods for developing and maintaining common understanding and consistent terminology across research outputs.
 
-The International Committee of Medical Journal Editors (ICMJE) is a group of general medical journal editors who meet annually to update the [Recommendations for the Conduct, Reporting, Editing and Publication of Scholarly Work in Medical Journals](https://www.icmje.org/icmje-recommendations.pdf). These recommendations are the “best practice[s] and ethical standards in the conduct and reporting of research and other material published in medical journals,” and are considered the industry standard for medical research publication (International Committee of Medical Journal Editors, 2022). There are currently over 5,000 journals that report to follow the ICMJE recommendations, however, there is no compliance protocol to ensure recommendations are followed. Clinical trial registration is included in these recommendations and ICMJE requires “all medical journal editors require registration of clinical trials in a public trials registry” prospectively (before the first participant enrollment)” (International Committee of Medical Journal Editors, Recommendations ("The Uniform Requirements")). 
+- Consider alternatives to lifecycle (sequential) that accommodate IHCR better (e.g., [ecocycle planning](https://www.liberatingstructures.com/31-ecocycle-planning/)).
 
-In 2018, the ICMJE implemented a required data sharing statement policy for manuscripts publishing results of clinical trials, submitted to ICMJE journals. Data sharing statements must include: 
-Whether individual de-identified participant data (including data dictionaries) will be shared (“undecided” is not an acceptable answer).
-- What data in particular will be shared.
-- Whether additional, related documents will be available (e.g., study protocol, statistical analysis plan, etc.).
-- When the data will become available and for how long.
-- By what access criteria data will be shared (including with whom, for what types of analyses, and by what mechanism) (ICMJE Clinical Trials). 
+- Identify what key pieces of information (metadata) get communicated and what may be lost in transition between phases and collaborators.
 
-Furthermore, as of 2019, the ICMJE added an additional requirement to the data sharing statement, and now requires a data sharing plan in all clinical trials registrations (ICMJE Data Sharing Statements).
+- Identify units on campus, i.e., research computing, grant support, etc. that can offer relevant assistance at different stages of the lifecycle. and promote collaborative relationships with these campus units.
 
-## Trial Registration Data Elements
+- Develop curation strategies for IHCR data that go beyond disciplinary or institutional repositories. For example, IHCR projects often develop custom interfaces for publishing data, which can create challenges for long-term preservation.
 
-Each trial registry requires specific information about the registering clinical trial. This collection of descriptive data elements, often known as the trial registration data set, is required for a trial to be considered fully registered. Although these requirements vary, the WHO’s primary and partner registries must require a minimum amount of trial data elements to comply with WHO requirements. These required data elements, known as the WHO Trial Registration Dataset (TRDS), is currently composed of 24 descriptive elements and are listed below (WHO Trial Registration Data Set). Additional fields are required for clinicaltrials.gov [protocol registrations](https://prsinfo.clinicaltrials.gov/definitions.html) and [results data](https://prsinfo.clinicaltrials.gov/results_definitions.html).
+## Test
 
-<figure> <img src="clinical-3.JPG" alt="WHO Trial Registration Data Set." style=""> <figcaption></figcaption> </figure>
+IHCR projects vary significantly in scope (level of interdisciplinarity) and size (number of individuals/institutions involved) and resources available for curation. One-size-fits-all approaches to active curation are unlikely to work for all projects, so it is important to test curation actions, either from the CURATED steps or the ones that were developed specifically for the project, before implementing fully across the team. While piloting certain approaches is the best way to test them, it may not be feasible. In such cases, discussing alternatives and
+brainstorming options is another way to approach testing.
 
+- Discuss roles and responsibilities with regard to data.
 
-Source: [WHO Trial Registration Data Set (Version 1.3.1).](https://www.who.int/clinical-trials-registry-platform/network/who-data-set)
+- Develop information storage and organization plan and solicit feedback from the team (see “[Organizing Information and Data for Interdisciplinary Projects](https://github.com/inkouper/IHCR-data-recommendations/blob/main/Information%20Organization/Information%20Organization%20Workflow.md)”).
 
-# Core Metadata Elements and Documentation Requirements
+- Review a version control system of the project and the processes for integrating changes into “master” datasets.
 
-Trial registration data elements, while not necessarily adhering to a particular metadata schema, do provide structured metadata for trial datasets. Metadata standards are always evolving and, as such, structured metadata elements in the form of trial registrations “represent a class of descriptive metadata about the high-level characteristics of a clinical trial” (Miron et al, 2020). Persistent identifiers (PIDs) should be added to trial registration data, where appropriate, as these identifiers augment data FAIRness. Furthermore, including “registry metadata in systematic reviews can help to identify selective reporting bias by comparing published outcomes to prespecified outcomes, and adverse events are more likely to be reported in clinical trial registries than in published literature” (Miron et al, 2020). 
+## Implement
 
-The 24 WHO data elements listed above can be considered the core data elements needed for clinical trial metadata; however, additional elements may be required, depending on which registry is used.
+Once the need for active curation has been established and curation best practices, workflows, and processes have been tested successfully, curation activities can be implemented across the team. Steps to consider:
 
-Common Data Elements, or CDE, are “a standardized, precisely defined question, paired with a set of allowable responses, used systematically across different sites, studies, or clinical trials to ensure consistent data collection” (NIH CDE Repository). Using CDE provides consistency within discipline areas by standardizing how data is collected, described, and formatted (COMPASS, Importance of Common Data Elements (CDEs)). By using CDE, researchers can not only save time when creating and launching their research project, but can also increase the FAIRness of their research outputs, ensure consistency of data collection, and meet funder requirements. Leveraging the CDE also facilitates data integration, and therefore meta-analyses, and replicability of research across disciplines and studies. 
+- Provide templates (e.g., for metadata/readmes) and other documentation (e.g., who to contact for help with curation actions, workflow descriptions) at the beginning of implementation.
 
-[The CDISC Foundational Standards](https://www.cdisc.org/standards) may be helpful at every stage of the research project to collect, analyze, and exchange data in a standardized manner. CDISC creates and manages different standards for clinical trial researchers to facilitate data reusability, interoperability, and accessibility. The standards [span the clinical trial lifecycle](https://www.cdisc.org/standards) and are divided into different categories: [data exchange](https://www.cdisc.org/standards/data-exchange), [foundational standards](https://www.cdisc.org/standards/foundational), [controlled terminology](https://www.cdisc.org/standards/terminology/controlled-terminology), and others. 
+- Use literate programming, i.e., explain data processing logic in both code and natural language to make it easily understandable for people outside the immediate group of experts (Kery et al., 2018).
 
-Similarly, requirements from the publication industry and funders around data sharing policies and data sharing statements can be reappropriated for clinical study data management and sharing plans (DMSP), also referred to as data management plans (DMPs). For instance, data sharing statements required by the ICMJE can be modified to be included in the study’s DMSP, README files, and other study documentation. Likewise, beginning 2023 the NIH issued a DMSP requirement, which encourages researchers to include information about data type, anticipated tools for collection and analysis, and which standards will be used; this new policy also permits allowable costs data sharing requirements and services above and beyond the routine costs of doing research. The ICMJE  and NIH have slightly different requirements, however, when developing a data sharing statement, broadly consider the following questions: 
-- What data in particular will be collected? Which data will be shared?
-- What other documents will be available?
-- When will data be available (start and end dates)? Are there any access restrictions necessary for the data?
-- With whom will the data be shared?
-- For what types of analyses?
-- By what mechanism will data be made available? (International Committee of Medical Journal Editors, Clinical Trials)
+  - Tools to consider for documentation and recordkeeping: Jupyter notebooks, R Markdown, Google Colab, [electronic lab notebooks](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks).
 
-Study documentation can note compliance with, for example, ICMJE recommendations and considerations, and this record helps potential data reusers understand and trust industry-standard primary data. 
+- Identify opportunities to streamline software that is used in the group. The proliferation of different software that implements similar tasks can lead to confusion; where possible, it is preferable to identify opportunities to eliminate redundant software (for example, if R, SPSS, and Stata are all being used by different group members for similar tasks, it may be preferable to converge on one software choice, so as to eliminate confusion and facilitate future reproducibility).
 
+- Explore the possibility of containerization tools (i.e., Docker) to facilitate reproducibility across different computing environments
 
-# Key Curation Considerations
+- Ensure canonical data files (i.e., data that will eventually be published and preserved) use open and documented formats when moving from one part of the team to another
 
-When preparing data from a clinical trial for sharing, there are numerous considerations researchers and curators need to consider. For the purposes of this primer, this focus is on how to curate different components of a complete data package; however, different data will need to be shared at different stages of the research process. 
+- Write an “internal” data management plan that is more detailed than those submitted to funding agencies that lays out expectations, procedures, best practices, and strategies to ensure interoperability as they relate to data use and management (this could be embedded within the project charter). Use this document as part of the onboarding process for new group members.
 
-Regardless of which portion(s) are being shared, it is essential that all data sharing and storage considerations prioritize the protection and privacy of participant data, including  communities as well as individuals. The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care#:~:text=The%20CARE%20Principles%20for%20Indigenous%20Data%20Governance%20are%20people%20and,Indigenous%20innovation%20and%20self%2Ddetermination) provide guidelines for protecting and collaborating with communities participating in clinical trial studies. See more about how to review [consent forms](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) or [check for informed consent](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-consent-review-and-communicating-about-informed-consent-with-a-depositor) in other DCN primers.
+- Ensure equity in how project members access and use the resources they need (for example, computing environments with sufficient memory and processing power).
 
-A comprehensive data package, typically shared by publication or the end of the performance period of the supporting funding (whichever comes first), should contain the following:
+## Verify
 
-- **Analyzable dataset:** This is the processed, edited, and computational version of the data. This dataset needs to be deidentified in collaboration with an expert. 
-    -	 This must include documentation of how the raw data was processed to create the analyzable data. This will be important for future re-users of the data to understand the decisions the research team made.
+Given how IHCR data is often transformed and combined with other data as it moves across different individuals and groups with the team, it is important to verify early and regularly that active curation processes are working as intended and that changes to data are documented appropriately and do not undermine data quality. Steps to consider:
 
-- **Trial protocol:** The first trial protocol, the final protocol, and a summary of changes all need to be submitted as part of the final data package. This needs to include consent forms and recruitment mechanisms. 
-    -	 **Statistical analysis plan (SAP):** Include specific information about which programs were used in analyzing the data, which versions, and any necessary packages or dependencies. 
+- Implement a data quality framework to use at various stages of the project. This could address such dimensions as accessibility, completeness, consistency, relevancy, timeliness, and value. For more quality dimensions, see, for example, (Pipino, Lee, & Wang, 2002). Simple checklists, such as the [Data Quality Review Checklist](https://daac.ornl.gov/submit/qachecklist/), can be used for a simple implementation. A more elaborate approach would include automated checks and validation. The CURATED steps could also be used as a way to verify data quality at important points in the research process.
 
-- **Analytic Code:** The code(s) that were used in analyzing the dataset and producing the results. These need to be sufficient for a fellow member of the field to be able to reproduce the results.
+- Regularly check with the team that data management and curation meets their expectations.
 
+- Document time spent on data curation and evaluate its impact on research outcomes.
 
+## Engage
 
-## DCN CURATE(D) Steps
+As IHCR curation practices are varied and still emerging, successful implementations are important to share with the broader community. Continued engagement within IHCR teams is also an important aspect of active curation to ensure adherence to best practices, procedures, and workflows throughout the project. Steps to consider:
 
-Use the [Data Curation Network’s CURATE(D)](z.umn.edu/curate) checklist to finalize your data for submission:
+- Document how active curation processes benefit the project to reinforce the work done in the [Advocate](#advocate) stage.
 
-### **Check** files and read documentation (review for appropriate levels of sharing, ensuring privacy and ethical standards are upheld, review file inventory and file appraisal/selection)
-- Review the [consent form](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) template, if available, to confirm data are being shared as described to the participants before agreeing to participate in the study
-- Review analyzable code and check for methodology description for converting data from raw to analyzable formats
-    -	 If needed, connect researcher(s) to de-identification specialists. 
-- Check for trial registration on clinicaltrials.gov or other appropriate registry  
-- If necessary, ensure participants provided their consent to participate autonomously and without coercion 
-- If necessary, assess whether a representative for the participant group needs to review the data (further description in the Request step below)
-- If a group of participants are being referred to with a demographic label, ensure this label is one that best represents them; consultation with the group may be required
-    -	 For a case study on community-based participatory research, [review Understanding community-based participatory research through a social movement framework: a case study of the Kahnawake Schools Diabetes Prevention Project](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-018-5412-y) (Tremblay et al, 2018). 
-- If this data has been used for regulatory approval (e.g., FDA approval for devices, etc.) ensure licenses are appropriate
+- Monitor changes in tools, storage options, environments, formats, costs, and other essential aspects of IHCR data curation and share results with IHCR teams.
 
+- Promote hiring or training data management specialists within IHCR teams.
 
-### **Understand** the data (or try to), if not… (run files/environment, QA/QC issues, readme)
-- Ensure that someone with similar qualifications could look at this data and both understand it and be able to reuse it
-    -	 Are all headings clear? 
-    -	 Is there missing participant data that needs to be accounted for?
-    -	 Is the methodology of intervention clear and sufficient?
-- If possible, try running the analytic code
+# Acknowledgements
 
+This primer has been developed with support from the grant from Institute of Museum and Library services (#LG-246400-PLS-20). The authors are grateful to suggestions from their research team and from the anonymous reviewers.
 
-### **Request** missing information or changes (tracking provenance of any changes and why)
-- Review questions/concerns from the previous step - how can these be addressed? 
-- Have participants been notified that their data will be shared in addition to being published?
-    -	 Is further communication needed to ensure they know how their data are being used/will potentially be used in future work
+# Bibliography
 
-### **Augment** metadata for findability (DOIs, metadata standards, discoverability)
-- Does the dataset have an appropriate identifier that will allow others to discover this work?
-    -	 Has sufficient descriptive metadata been created? 
-    -	 When relevant and appropriate, have the Common Data Elements (CDE) been utilized?
-- Ensure appropriate links between trial registry and published datasets are included
+Barry, A., Born, G., & Weszkalnys, G. (2008). Logics of interdisciplinarity. *Economy and Society, 37*(1), 20–49.
 
-### **Transform** file formats for reuse (data preservation, conversion tools, data visualization)
-- Do file formats need specialized software to open? If so, is this software free or widely available? 
-    -	 Change file formats into open source formats if appropriate
-    -	 Will any information potentially be lost with file transformation? Make note of this decision
-- Ensure the data can be exported to a non-proprietary format (e.g. csv, txt)
-- Keep copies of original file formats
-- Standardize file names 
-- Ensure accessibility if any data visualizations are included
-- Organize files as needed
+Kaltman, E., Lorelli, R., Larson, A., & Wolfe, E. (2021). Organizing a content profile for a large, heterogeneous collection of interactive projects. *2021 IEEE International Conference on Big Data (Big Data)*, 2231–2239.[https://doi.org/10.1109/BigData52589.2021.9671904](https://doi.org/10.1109/BigData52589.2021.9671904)
 
+Klein, J. T. (1990). Interdisciplinarity: History, Theory, and Practice. Wayne State University Press.
 
-### **Evaluate** for FAIRness (licenses, responsibility standards, metrics for tracking use)
-- Review the FAIRness of the data (findable, accessible, interoperable, reusable)
-- Follow [CARE](https://www.gida-global.org/care) and [FATE](https://www.microsoft.com/en-us/research/theme/fate/) principles by centering community input and community-driven participation
-- Perform a final check for potential ethical concerns such as de-identification and harmful language
-- Verify files are working and have transformed correctly, when applicable 
+Kery, M. B., Radensky, M., Arya, M., John, B. E., & Myers, B. A. (2018). The story in the notebook: Exploratory data science using a literate programming tool. *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*, 1–11. [https://doi.org/10.1145/3173574.3173748](https://doi.org/10.1145/3173574.3173748)
 
-### **Document** curation activities (Curator Log, correspondence)
-- Include documentation, such as consent forms and IRB approval, in final data submission or deposit
-- Log ongoing changes and updates to data in the documentation
-    -	 This can include correspondence about the dataset, metadata, and changes from the Transform step
-- Include any other relevant documentation for the dataset
+Kouper, I. (in press). Data curation in interdisciplinary and highly collaborative research. *International Journal of Digital Curation.*
 
-## Related Primers
+Kouper, I., Tucker, K., Tharp, K., Booven, M. E. van, & Clark, A. (2021). Active Curation of Large Longitudinal Surveys: A Case Study. *Journal of EScience Librarianship, 10*(3). [https://doi.org/10.7191/jeslib.2021.1210](https://doi.org/10.7191/jeslib.2021.1210)
 
-- [Informed Consent Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) 
-- [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#brief-introduction-to-identifiers-and-communicating-about-de-identification-with-a-depositor) 
-- [Qualitative Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Qualitative%20Data%20Curation%20Primer/qualitative-data-curation-primer.md#workflow-based-on-the-data-curation-network-curated-steps) 
-- [SPSS Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/SPSS%20Data%20Curation%20Primer/SPSS-data-curation-primer.md#Appendix-A-Using-CURATE-with-SPSS-Data) 
+> Miller, R. C. (2010). Interdisciplinarity: Its meaning and consequences. In *Oxford Research Encyclopedia of International Studies*.[https://doi.org/10.1093/acrefore/9780190846626.013.92](https://doi.org/10.1093/acrefore/9780190846626.013.92)
 
+Mokrane, M., & Parsons, M. A. (2014). Learning from the International Polar Year to Build the Future of Polar Data Management. *Data Science Journal*, *13*. [https://doi.org/10.2481/dsj.IFPDA-15](https://doi.org/10.2481/dsj.IFPDA-15)
 
-## Helpful Resources
+Palmer, M. A., Kramer, J. G., Boyd, J., Hawthorne, D. (2016). Practices for facilitating interdisciplinary synthetic research: the National Socio-Environmental Synthesis Center (SESYNC). Current Opinion in Environmental Sustainability, 19. [https://doi.org/10.1016/j.cosust.2016.01.002](https://doi-org.proxyiub.uits.iu.edu/10.1016/j.cosust.2016.01.002)
 
-- [ARX - Data Anonymization Tool](https://arx.deidentifier.org/): Full-featured freeware for statistical risk assessment and anonymization. Requires knowledge of techniques. 
-- [Selecting a Data Repository-NIH](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository) 
-- [REDCap](https://www.project-redcap.org/) 
-- [TrialMaster](https://www.anjusoftware.com/trialmaster-edc) 
-- [Vivli](https://vivli.org/) 
-- [WHO Primary Registries](https://www.who.int/clinical-trials-registry-platform/network/primary-registries) 
-- [Data Management and Sharing Plan Guidance](https://osf.io/uadxr/), created by the U.S.-based librarian NIH DMSP Guidance Working Group 
+Parsons, M. A., Godøy, Ø., LeDrew, E., de Bruin, T. F., Danis, B., Tomlinson, S., & Carlson, D. (2011). A conceptual framework for managing very diverse data for complex, interdisciplinary science. Journal of Information Science, 37(6), 555–569. [https://doi.org/10.1177/0165551511412705](https://doi.org/10.1177/0165551511412705)
 
-
-## Bibliography
-
-Committee on Strategies for Responsible Sharing of Clinical Trial Data; Board on Health Sciences Policy; Institute of Medicine. (2015, April 20). _Sharing Clinical Trial Data: Maximizing Benefits, Minimizing Risk._ Washington (DC): National Academies Press (US); [https://www.ncbi.nlm.nih.gov/books/NBK285993/](https://www.ncbi.nlm.nih.gov/books/NBK285993/)
-
-Comprehensive Center for the Advancement of Scientific Strategies (COMPASS). (n.d.). _Importance of Common Data Elements (CDEs)._ [https://www.compass.fhcrc.org/compass/bin/tech/cdes.aspx](https://www.compass.fhcrc.org/compass/bin/tech/cdes.aspx)
-
-Institute of Medicine of the National Academies. 2015. _Sharing Clinical Trial Data: Maximizing benefits, minimizing risk._ Washington, DC: The National Academies Press. [https://doi.org/10.17226/18998](https://doi.org/10.17226/18998)
-
-International Committee of Medical Journal Editors. (n.d.). _Clinical Trials._ [https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html](https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html)
-
-International Committee of Medical Journal Editors. (n.d.). _ICMJE Recommendations ("The Uniform Requirements")._
-[https://www.icmje.org/about-icmje/faqs/icmje-recommendations/](https://www.icmje.org/about-icmje/faqs/icmje-recommendations/)
-
-International Committee of Medical Journal Editors. (2022, May). _Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals._ [https://www.icmje.org/icmje-recommendations.pdf](https://www.icmje.org/icmje-recommendations.pdf)
-
-Miron, L., Gonçalves, R. S., & Musen, M. A. (2020). Obstacles to the reuse of study metadata in ClinicalTrials.gov. Scientific Data (Vol. 7, Issue 1). Springer Science and Business Media LLC. [https://doi.org/10.1038/s41597-020-00780-z](https://doi.org/10.1038/s41597-020-00780-z)
-
-National Institutes of Health. (n.d.). _Repositories for Sharing Scientific Data._ 
-[https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data) 
-
-Raftery J, Young A, Stanton L, Milne, R, Cook A, Turner D, & Davidson, P. (2015, February). Chapter 2, Data quality and reporting in existing clinical trial registries: a review of existing databases. _Clinical trial metadata: defining and extracting metadata on the design, conduct, results and costs of 125 randomised clinical trials funded by the National Institute for Health Research Health Technology Assessment programme._ Southampton (UK): NIHR Journals Library; (Health Technology Assessment, No. 19.11.). [https://www.ncbi.nlm.nih.gov/books/NBK274341/](https://www.ncbi.nlm.nih.gov/books/NBK274341/)
-
-Scientific European Federation of Osteopaths. (2014, September 10). _Different Types of Clinical Trials._ [https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/](https://www.scientific-european-federation-osteopaths.org/different-types-of-clinical-trials/) 
-
-Taichman, D. B., Sahni, P., Pinborg, A., Peiperl, L., Laine, C., James, A., Hong, S.-T., Haileamlak, A., Gollogly, L., Godlee, F., Frizelle, F. A., Florenzano, F., Drazen, J. M., Bauchner, H., Baethge, C., & Backus, J. (2017). Data Sharing Statements for Clinical Trials: A Requirement of the International Committee of Medical Journal Editors. Annals of Internal Medicine (67)1, 63–65. American College of Physicians. [https://doi.org/10.7326/m17-1028](https://doi.org/10.7326/m17-1028)
-
-U.S. National Library of Medicine. (2022, June). _How to Register Your Study._ ClinicalTrials.gov. [https://clinicaltrials.gov/ct2/manage-recs/how-register](https://clinicaltrials.gov/ct2/manage-recs/how-register) 
-
-U.S. National Library of Medicine. (2022, January). _FDAAA 801 and the Final Rule - Other FDAAA 801 Requirements: NIH and FDA._ ClinicalTrials.gov. https://clinicaltrials.gov/ct2/manage-recs/fdaaa#OtherFDAAA801Requirements
-
-U.S. National Library of Medicine. (2021, May). _Why Should I Register and Submit Results? - Trial Registry Purposes and Benefits for Various Groups._ ClinicalTrials.gov. [https://clinicaltrials.gov/ct2/manage-recs/background](https://clinicaltrials.gov/ct2/manage-recs/background) 
-
-U.S. National Library of Medicine. (2019, March). _Learn About Clinical Studies - Reasons for Conducting Clinical Studies._ ClinicalTrials.gov. [https://clinicaltrials.gov/ct2/about-studies/learn#ReasonsForConducting](https://clinicaltrials.gov/ct2/about-studies/learn#ReasonsForConducting) 
-
-U.S. National Library of Medicine. (2019, March). _Learn About Clinical Studies - What is a Clinical Study?_ ClinicalTrials.gov. [https://clinicaltrials.gov/ct2/about-studies/learn#WhatIs](https://clinicaltrials.gov/ct2/about-studies/learn#WhatIs)
-
-U.S. National Library of Medicine. (2018, March). _About the Results Database._ ClinicalTrials.gov. [https://clinicaltrials.gov/ct2/about-site/results](https://clinicaltrials.gov/ct2/about-site/results)
-
-Vazquez, E., Gouraud, H., Naudet, F., Gross, C. P., Krumholz, H. M., Ross, J. S., & Wallach, J. D. (2021). Characteristics of available studies and dissemination of research using major clinical data sharing platforms. _Clinical trials_ (London, England), 18(6), 657–666. [https://doi.org/10.1177/17407745211038524](https://doi.org/10.1177/17407745211038524)
-
-Vivli. (n.d.). _How Vivli meets the NIH ‘Desirable Characteristics for Data Repositories.’_ [https://vivli.org/about/nih-grei-project/nih-grei-project-desireable-characteristics/](https://vivli.org/about/nih-grei-project/nih-grei-project-desireable-characteristics/)
-
-Wilkinson, M.D., Dumontier, M., Aalbersberg, I.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.W., Bonino da Silva Santos, L., Bourne, P.E., Bouwman, J., Brookes, A.J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds S., Evelo, C.T., Finkers, R., … Mons, B. “The FAIR Guiding Principles for scientific data management and stewardship." Scientific data 3.1 (2016): 1-9. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
-
-World Health Organization. (n.d.). _ICTRP Registry Network._ [https://www.who.int/clinical-trials-registry-platform/network](https://www.who.int/clinical-trials-registry-platform/network)
-
-World Health Organization. (n.d.). _ICRTP Registry Network - Trial registration._
-[https://www.who.int/clinical-trials-registry-platform/network/trial-registration](https://www.who.int/clinical-trials-registry-platform/network/trial-registration)
-
-World Health Organization (n.d.) _International Clinical Trials Registry Platform (ICTRP)._ [https://www.who.int/clinical-trials-registry-platform](https://www.who.int/clinical-trials-registry-platform)
-
-World Health Organization (n.d.). _WHO Trial Registration Data Set (Version 1.3.1)._ 
-[https://www.who.int/clinical-trials-registry-platform/network/who-data-set](https://www.who.int/clinical-trials-registry-platform/network/who-data-set)
+Pipino, L. L., Lee, Y. W., & Wang, R. Y. (2002). Data quality assessment. *Communications of the ACM*, *45*(4), 211.[https://doi.org/10.1145/505248.506010](https://doi.org/10.1145/505248.506010)
 
 Footnotes:
 [^1]: Senior Digital Archivist and Senior Staff Associate Officer of Research, Center for International Earth Science Information Network (CIESIN), Columbia University
