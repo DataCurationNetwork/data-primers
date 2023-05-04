@@ -195,12 +195,14 @@ In addition to assessing the data for adherence to FAIR, CARE, and other standar
 
 # ACTIVE Actions to Consider
 
-> **A** - Advocate (advocate for curators or other data specialists to be included in IHCR teams, emphasize best practices and the importance of curation within IHCR teams, increase awareness of curation practices among the team members, establish communication practices around curation).
-> **C** - Collaborate (engage all project members in curation, collaborate on documentation, be open to contributions from all project members).
-> **T** - Test (test out curation actions that the rest of the group can adopt, including some software development or workflow modification, acknowledge and address admin and communication overhead).
-> **I** - Implement (implement best practices, recommendations, workflows, any systematic approach that improves practices).
-> **V** - Verify (check for accuracy and quality early on, coordinate among team members on applicable approaches and procedures, as curator takes lead on certain actions, verify fit with the team)
-> **E** - Engage (engage with broader community, promote IHCR practices, check-in regularly within the team to evaluate how well practices are working, etc.)
+The high-level suggestions described below aim to enable curators to promote active curation with an IHCR project and support IHCR teams in producing quality data and metadata from the beginning of the project. These ACTIVE actions are not meant to replace or stand apart from the CURATED steps, rather they provide a “‘wrapper” or a scaffolding structure that may help to identify where and how curators and researchers can work together and apply some or all of the CURATED steps. For example, the CURATED steps may be useful for verifying data (“V” in the ACTIVE model) as it moves from one part of the IHCR team to another. While these steps typically might only happen at the end of a non-IHCR project (e.g., by data curators at a repository), applying them iteratively throughout the ACTIVE model can benefit IHCR data curation.
+
+> **A** - Advocate (advocate for curators or other data specialists to be included in IHCR teams, emphasize best practices and the importance of curation within IHCR teams, increase awareness of curation practices among the team members, establish communication practices around curation).<br>
+> **C** - Collaborate (engage all project members in curation, collaborate on documentation, be open to contributions from all project members).<br>
+> **T** - Test (test out curation actions that the rest of the group can adopt, including some software development or workflow modification, acknowledge and address admin and communication overhead).<br>
+> **I** - Implement (implement best practices, recommendations, workflows, any systematic approach that improves practices).<br>
+> **V** - Verify (check for accuracy and quality early on, coordinate among team members on applicable approaches and procedures, as curator takes lead on certain actions, verify fit with the team)<br>
+> **E** - Engage (engage with broader community, promote IHCR practices, check-in regularly within the team to evaluate how well practices are working, etc.)<br>
 
 
 ## Advocate
