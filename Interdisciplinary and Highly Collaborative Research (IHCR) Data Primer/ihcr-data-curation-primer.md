@@ -37,7 +37,7 @@ Affiliate Contributors (peer reviewers): Greg Janée, Heather Coates, Robert R. 
 
 [Scenarios to Illustrate Curatorial Challenges](#scenarios-to-illustrate-curatorial-challenges)
 
-> [Scenario 1: Same data, many software tools](#scenario-1-same-data-many-software-tools) <br> [Many producers, multiple datasets](#many-producers-multiple-datasets) <br> [Variety of expertise, ethical negotiations](#variety-of-expertise-ethical-negotiations)
+> [Scenario 1: Same data, many software tools](#scenario-1-same-data-many-software-tools) <br> [Scenario 2: Many producers, multiple datasets](#scenario-2-many-producers-multiple-datasets) <br> [Scenario 3: Variety of expertise, ethical negotiations](#scenario-3-variety-of-expertise-ethical-negotiations)
 
 [CURATED Actions to Consider](#curated-actions-to-consider)
 > [Check](#check)<br>
