@@ -1,6 +1,6 @@
 ![](DCNlogo.png)
 
-# 
+# Simple Darwin Core for Non-Biologists Primer
 
 Authors: Megan N. O'Donnell and Leslie M. Delserone
 
@@ -25,68 +25,37 @@ DCN Mentor: Jake Carlson
 Suggested Citation: O’Donell, Megan N. and Delserone, Leslie M. (2023). Simple Darwin Core for Non-Biologists Primer. Data Curation Network[GitHub Repository](https://github.com/DataCurationNetwork/data-primers).
 
 [Introduction](#introduction)
-
 > [DwC Communities](#dwc-communities)
-
 [Description of Simple DwC](#description-of-simple-dwc)
-
 > [Example use cases highlighting the differences among selected Simple DwC fields](#example-use-cases-highlighting-the-differences-among-selected-simple-dwc-fields)
-
 > [Examples of Simple DwC records](#examples-of-simple-dwc-records)
-
 > [Notes on DwC usage](#notes-on-dwc-usage)
-
 [Key Questions to Ask Yourself](#key-questions-to-ask-yourself)
-
 [Key Clarifications to Get from the Researcher](#key-clarifications-to-get-from-the-researcher)
-
 [Metadata Standard and Core Elements](#metadata-standard-and-core-elements)
-
 > [Simple DwC cheat sheet](#simple-dwc-cheat-sheet)
-
 > [2023-24 cheat sheet release notes](#cheat-sheet-release-notes)
-
 > [Using the cheat sheet](#using-the-cheat-sheet)
-
 [Tips and Tricks for Simple DwC](#tips-and-tricks-for-simple-dwc)
-
 > [Identifiers](#identifiers)
-
 > [Multiple values (lists)](#multiple-values-lists)
-
 > [Relationships](#relationships)
-
 [Resources for Reviewing Data](#resources-for-reviewing-data)
-
 [Software for Viewing or Analyzing Data](#software-for-viewing-or-analyzing-data)
-
 [Preservation Actions](#preservation-actions)
-
 > [Key questions and actions](#key-questions-and-actions)
-
 [Ways in Which Research Fields May Use This Format](#ways-in-which-research-fields-may-use-this-format)
-
 > [Sharing records](#sharing-records)
-
 > [Natural history collections](#natural-history-collections)
-
 > [Archival records](#archival-records)
-
 [Unresolved Issues](#unresolved-issues)
-
 [Notes for Curation Process](#notes-for-curation-process)
-
 > [Appendix A - filetype CURATE(D) checklist](#appendix-a---filetype-curated-checklist)
-
 [References](#references)
-
 [Additional Resources](#additional-resources)
-
 > [Acknowledgements](#acknowledgements)
-
 [Example 1 - Application of Simple DwC to a Photomicrograph of a Nematode (Single Occurrence, Single
 Record)](#example-1---application-of-simple-dwc-to-a-photomicrograph-of-a-nematode-single-occurrence-single-record)
-
 [Example 2 - Iowa Lakeside Laboratory Avian Collection - Simple DwC Records](#example-2---iowa-lakeside-laboratory-avian-collection---simple-dwc-records)
 
 # Introduction
@@ -203,16 +172,13 @@ versions.
 **Single records**: metadata describing a *single occurrence*.
 
 - [Museum specimen of a *Procyon lotor* (Northern raccoon) skull](https://www.gbif.org/occurrence/2432514018)
-
 - [Herbarium specimen of an orchid](https://www.gbif.org/occurrence/1258994455)
-
 - [iNaturalist digital photo of Dog Vomit Slime Mold](https://www.gbif.org/occurrence/2013690510)
 
 **Many records** (i.e., data set): a set of metadata describing
 *multiple occurrences*.
 
 - [iNaturalist Research-grade Observations](https://www.gbif.org/occurrence/search?dataset_key=50c9509d-22c7-4a22-a47d-8c48425ef4a7)
-
 - [*Procyon lotor* (Northern Raccoon)](https://www.gbif.org/occurrence/search?taxon_key=5218786)
 
 ## Notes on DwC usage
@@ -233,18 +199,15 @@ Simple DwC is not yet known but it may result in some standardization of
 
 - Will Darwin Core add value to the data?
 
-  - Will application of the metadata make the data easier to use and
-    > integrate with other data?
+  - Will application of the metadata make the data easier to use and integrate with other data?
 
 - Are these data that can be described by Darwin Core?
 
-  - Do the data describe biological occurrences of wildlife or describe
-    > natural history specimens?
+  - Do the data describe biological occurrences of wildlife or describe natural history specimens?
 
 - What fields need to be included to make the data:
 
-  - Understandable and complete enough to be of use to other
-    > researchers?
+  - Understandable and complete enough to be of use to other researchers?
 
   - Compatible with other data or databases (see Appendix B)?
 
@@ -252,8 +215,7 @@ Simple DwC is not yet known but it may result in some standardization of
 
 - Is there additional digital or physical evidence (e.g., lab notebooks, labels, photographs, specimens, etc.) that validates the occurrence data?
 
-  - Can this evidence be linked to the Darwin Core occurrences with
-    > identifiers?
+  - Can this evidence be linked to the Darwin Core occurrences with identifiers?
 
 # Key Clarifications to Get from the Researcher
 
@@ -261,12 +223,9 @@ Simple DwC is not yet known but it may result in some standardization of
 
 2.  How might the data be used by others and for what purpose?
 
-3.  Do the data contain any sensitive information that needs to be
-    > withheld or obscured (e.g., location information of protected
-    > habitat or species)?
+3.  Do the data contain any sensitive information that needs to be withheld or obscured (e.g., location information of protected habitat or species)?
 
-4.  Where/how will the records be shared? Is there a larger database to
-    > which these data should be uploaded?
+4.  Where/how will the records be shared? Is there a larger database to which these data should be uploaded?
 
 # Metadata Standard and Core Elements
 
@@ -330,29 +289,19 @@ authoritative information.
 
 - Disclaimers:
 
-  - The cheat sheet has not been fully vetted by the DwC community and
-    > should be considered a work in progress. Comments to help with its
-    > development are welcome and can be submitted to the [DCN
-    > Contact Form](https://datacurationnetwork.org/contact/).
+  - The cheat sheet has not been fully vetted by the DwC community and should be considered a work in progress. Comments to help with its development are welcome and can be submitted to the [DCN Contact Form](https://datacurationnetwork.org/contact/).
 
-  - There are many fields in DwC and we do not cover them all. For
-    > example, the Geological Context class has been omitted because the
-    > official documentation does not include recommendations for
-    > controlled vocabularies and neither author has the geological
-    > background to provide recommendations.
+  - There are many fields in DwC and we do not cover them all. For example, the Geological Context class has been omitted because the official documentation does not include recommendations for controlled vocabularies and neither author has the geological background to provide recommendations.
 
 ### Using the cheat sheet
 
 The cheat sheet is a spreadsheet file consisting of three tabs:
 
-1.  **DwC_Fields:** The cheatsheet. Contains DwC field definitions,
-    > details, recommendations, formatting requirements, etc.
+1.  **DwC_Fields:** The cheatsheet. Contains DwC field definitions, details, recommendations, formatting requirements, etc.
 
-2.  **Values:** The data dictionary for DwC_Fields. Contains information
-    > that explains each column and the controlled vocabularies used.
+2.  **Values:** The data dictionary for DwC_Fields. Contains information that explains each column and the controlled vocabularies used.
 
-3.  **DwC_Classes:** A quick reference guide with a definition of each
-    > of DwC’s eight classes and one category (also see Table 1).
+3.  **DwC_Classes:** A quick reference guide with a definition of each of DwC’s eight classes and one category (also see Table 1).
 
 # Tips and Tricks for Simple DwC
 
@@ -429,21 +378,13 @@ activities may need to include cross-references to these associated data
 
 ## Key questions and actions
 
-1.  Since DwC does not contain information on the provenance of the data
-    > set, make sure to get all of the required information (such as who
-    > made it, when, and for what reason) from the researcher.
+1.  Since DwC does not contain information on the provenance of the data set, make sure to get all of the required information (such as who made it, when, and for what reason) from the researcher.
 
-2.  If not already saved as a UTF-8 encoded plain-text file, can the
-    > data be safely exported and stored in this format?
+2.  If not already saved as a UTF-8 encoded plain-text file, can the data be safely exported and stored in this format?
 
-3.  Verify if any associated or supplemental digital data associated
-    > with these records also will need to be preserved. If so, this may
-    > significantly increase the complexity and storage space needed to
-    > preserve it.
+3.  Verify if any associated or supplemental digital data associated with these records also will need to be preserved. If so, this may significantly increase the complexity and storage space needed to preserve it.
 
-4.  Are the DwC records already publicly available? If not, can they be
-    > made publicly available through a data repository and/or through a
-    > biodiversity database (see Appendix B)?
+4.  Are the DwC records already publicly available? If not, can they be made publicly available through a data repository and/or through a biodiversity database (see Appendix B)?
 
 # Ways in Which Research Fields May Use This Format
 
