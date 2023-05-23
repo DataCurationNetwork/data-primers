@@ -558,7 +558,7 @@ the cheat sheet.
 
 # Example 1 - Application of Simple DwC to a Photomicrograph of a Nematode (Single Occurrence, Single Record)
 
-<img src="media/image2.png" style="width:4.60935in;height:7.6in" />
+![](darwin-1.png)
 
 *Used by permission, courtesy of T.O. Powers, P.G. Mullin, and R.
 Higgins*
