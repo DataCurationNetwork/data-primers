@@ -104,19 +104,13 @@ Group (TDWG), the standard was approved in 2009 (Wieczorek et al.,
 2012). Darwin Core has continued to mature and develop, and continues to
 add resources and new parts to the standard including:
 
-- a core list of terms
-  > ([http://rs.tdwg.org/dwc/doc/list/](http://rs.tdwg.org/dwc/doc/list/)),
-  > and
+- a core list of terms([http://rs.tdwg.org/dwc/doc/list/](http://rs.tdwg.org/dwc/doc/list/)), and
 
-- an XML implementation
-  > ([http://rs.tdwg.org/dwc/terms/guides/xml/](https://dwc.tdwg.org/xml/)),
+- an XML implementation([http://rs.tdwg.org/dwc/terms/guides/xml/](https://dwc.tdwg.org/xml/)),
 
-- incorporation into the Resource Description Format (RDF;
-  > [http://rs.tdwg.org/dwc/terms/guides/rdf/](http://rs.tdwg.org/dwc/terms/guides/rdf/)),
-  > and
+- incorporation into the Resource Description Format (RDF;[http://rs.tdwg.org/dwc/terms/guides/rdf/](http://rs.tdwg.org/dwc/terms/guides/rdf/)), and
 
-- several controlled vocabularies (see
-  > [https://www.tdwg.org/standards/dwc/](https://www.tdwg.org/standards/dwc/)).
+- several controlled vocabularies (see [https://www.tdwg.org/standards/dwc/](https://www.tdwg.org/standards/dwc/)).
 
 This primer focuses on Simple DwC
 ([http://rs.tdwg.org/dwc/terms/simple/](http://rs.tdwg.org/dwc/terms/simple/)),
@@ -189,24 +183,11 @@ with the data creator/collector may be desirable.
 
 ## Example use cases highlighting the differences among selected Simple DwC fields
 
-- An herbarium is inventorying their flowering plant specimens.
-  > Important information for this use case includes when and where the
-  > organism was found, its taxonomy, who collected it, who identified
-  > it, and the specimen’s inventory number.
+- An herbarium is inventorying their flowering plant specimens. Important information for this use case includes when and where the organism was found, its taxonomy, who collected it, who identified it, and the specimen’s inventory number.
 
-- A research group is tracking the spread of a destructive introduced
-  > species (ex: [spotted
-  > lanternfly](https://www.invasivespeciesinfo.gov/terrestrial/invertebrates/spotted-lanternfly)).
-  > Important information for this use case includes detailed
-  > information on when and where the organism was found, including GPS
-  > coordinates, how it was collected, who identified it, its life
-  > stage, sex, reproductive potential, and links to associated image
-  > and DNA evidence.
+- A research group is tracking the spread of a destructive introduced species (ex: [spotted lanternfly](https://www.invasivespeciesinfo.gov/terrestrial/invertebrates/spotted-lanternfly)). Important information for this use case includes detailed information on when and where the organism was found, including GPS coordinates, how it was collected, who identified it, its life stage, sex, reproductive potential, and links to associated image and DNA evidence.
 
-- A library has historic records of local bird sightings it would like
-  > to share more widely. Important information for this use case
-  > includes when and where the organism was found, its taxonomy, who
-  > found it, and information on where to locate the source documents.
+- A library has historic records of local bird sightings it would like to share more widely. Important information for this use case includes when and where the organism was found, its taxonomy, who found it, and information on where to locate the source documents.
 
 ## Examples of Simple DwC records
 
@@ -221,23 +202,18 @@ versions.
 
 **Single records**: metadata describing a *single occurrence*.
 
-- [Museum specimen of a *Procyon lotor* (Northern
-  > raccoon) skull](https://www.gbif.org/occurrence/2432514018)
+- [Museum specimen of a *Procyon lotor* (Northern raccoon) skull](https://www.gbif.org/occurrence/2432514018)
 
-- [Herbarium specimen of an
-  > orchid](https://www.gbif.org/occurrence/1258994455)
+- [Herbarium specimen of an orchid](https://www.gbif.org/occurrence/1258994455)
 
-- [iNaturalist digital photo of Dog Vomit Slime
-  > Mold](https://www.gbif.org/occurrence/2013690510)
+- [iNaturalist digital photo of Dog Vomit Slime Mold](https://www.gbif.org/occurrence/2013690510)
 
 **Many records** (i.e., data set): a set of metadata describing
 *multiple occurrences*.
 
-- [iNaturalist Research-grade
-  > Observations](https://www.gbif.org/occurrence/search?dataset_key=50c9509d-22c7-4a22-a47d-8c48425ef4a7)
+- [iNaturalist Research-grade Observations](https://www.gbif.org/occurrence/search?dataset_key=50c9509d-22c7-4a22-a47d-8c48425ef4a7)
 
-- [*Procyon lotor* (Northern
-  > Raccoon)](https://www.gbif.org/occurrence/search?taxon_key=5218786)
+- [*Procyon lotor* (Northern Raccoon)](https://www.gbif.org/occurrence/search?taxon_key=5218786)
 
 ## Notes on DwC usage
 
@@ -272,13 +248,9 @@ Simple DwC is not yet known but it may result in some standardization of
 
   - Compatible with other data or databases (see Appendix B)?
 
-- If needed, is there a readme file, DublinCore record, or other form of
-  > documentation providing the provenance (i.e., history and context)
-  > of the data?
+- If needed, is there a readme file, DublinCore record, or other form of documentation providing the provenance (i.e., history and context) of the data?
 
-- Is there additional digital or physical evidence (e.g., lab notebooks,
-  > labels, photographs, specimens, etc.) that validates the occurrence
-  > data?
+- Is there additional digital or physical evidence (e.g., lab notebooks, labels, photographs, specimens, etc.) that validates the occurrence data?
 
   - Can this evidence be linked to the Darwin Core occurrences with
     > identifiers?
@@ -415,31 +387,17 @@ cm”:“25” \| “weightInGrams”:“0.5”}*
 
 # Resources for Reviewing Data
 
-- Because Simple DwC has no required fields, and most fields lack
-  > established vocabularies, validation is best performed against a
-  > target dataset or database.[^4]
+- Because Simple DwC has no required fields, and most fields lack established vocabularies, validation is best performed against a target dataset or database.[^4]
 
-- [OpenRefine](https://openrefine.org/) is an open source tool
-  > that curators possibly can use to quality check and explore a Simple
-  > DwC dataset.
+- [OpenRefine](https://openrefine.org/) is an open source tool that curators possibly can use to quality check and explore a Simple DwC dataset.
 
 <!-- -->
 
-- <span class="mark">[Darwin Core Archive Assistant
-  > Add-on](https://workspace.google.com/marketplace/app/darwin_core_archive_assistant/567341081140):
-  > An add-on for Google Sheets that guides researchers through the
-  > process of creating and publishing data in the Darwin Core Standard
-  > and through the Darwin Core Archive
-  > format</span>[^5]<span class="mark">.  
-  > Note: untested by primer authors.</span>
+- <span class="mark">[Darwin Core Archive Assistant Add-on](https://workspace.google.com/marketplace/app/darwin_core_archive_assistant/567341081140): An add-on for Google Sheets that guides researchers through the process of creating and publishing data in the Darwin Core Standard and through the Darwin Core Archive format</span>[^5]<span class="mark">.   Note: untested by primer authors.</span>
 
 <!-- -->
 
-- [GBIF Data Validation
-  > Tool](https://www.gbif.org/tools/data-validator/about): This
-  > tool validates against GBIF’s standards for DwC (see
-  > [https://www.gbif.org/standards](https://www.gbif.org/standards)).  
-  > <span class="mark">Note: untested by primer authors.</span>
+- [GBIF Data Validation Tool](https://www.gbif.org/tools/data-validator/about): This tool validates against GBIF’s standards for DwC (see [https://www.gbif.org/standards](https://www.gbif.org/standards)).   <span class="mark">Note: untested by primer authors.</span>
 
 # Software for Viewing or Analyzing Data
 
@@ -502,12 +460,7 @@ as those listed in appendix B.
 One of the most common use cases for DwC is to catalog and document
 natural history collections of animal, plant and fossil specimens.
 
-- [Consortium of Midwest
-  > Herbaria](https://midwestherbaria.org/portal/index.php): The
-  > Consortium’s catalog uses DwC to provide robust search options and
-  > includes specimens from a large number of herbaria and science
-  > museums. Note: The user interface does not display records using DwC
-  > but rather runs on it.
+- [Consortium of Midwest Herbaria](https://midwestherbaria.org/portal/index.php): The Consortium’s catalog uses DwC to provide robust search options and includes specimens from a large number of herbaria and science museums. Note: The user interface does not display records using DwC but rather runs on it.
 
 ## Archival records
 
@@ -530,34 +483,23 @@ Union.</span>
 
 # Unresolved Issues
 
-- Simple DwC files do not contain metadata explaining the provenance of
-  > the data they contain. For this reason a readme file, DublinCore
-  > record, or other form of documentation may be helpful for providing
-  > the history and context of the data.
+- Simple DwC files do not contain metadata explaining the provenance of the data they contain. For this reason a readme file, DublinCore record, or other form of documentation may be helpful for providing the history and context of the data.
 
-- Simple DwC is far from “simple” which has restricted who uses it and
-  > in what settings it is applied. For those who are new to the schema,
-  > we recommend spending time exploring similar data sets and records
-  > to see what fields were included and how they were used (see
-  > Examples 1 and 2).
+- Simple DwC is far from “simple” which has restricted who uses it and in what settings it is applied. For those who are new to the schema, we recommend spending time exploring similar data sets and records to see what fields were included and how they were used (see Examples 1 and 2).
 
 # Notes for Curation Process:
 
 **Transformations to the data**
 
-- Document any actions taken to make the data both FAIR and sharable
-  > (e.g., field crosswalking, file format changes, adding new data,
-  > etc.).
+- Document any actions taken to make the data both FAIR and sharable (e.g., field crosswalking, file format changes, adding new data, etc.).
 
 **Decisions about what data to share**
 
-- Document how you came to any decisions about which parts of the
-  > dataset will or will not be shared publicly.
+- Document how you came to any decisions about which parts of the dataset will or will not be shared publicly.
 
 **Provenance**
 
-- If archiving a copy of the dataset additional information about where
-  > the data came from, who created it, etc. may need to be created.
+- If archiving a copy of the dataset additional information about where the data came from, who created it, etc. may need to be created.
 
 ## Appendix A - filetype CURATE(D) checklist
 
@@ -773,14 +715,11 @@ Powers
 A Simple DwC CSV file containing 362 occurrences associated with
 specimens held by Iowa Lakeside Laboratory.
 
-- Images of the specimens associated with the records can be found at:
-  > [https://doi.org/10.25380/iastate.c.5981629](https://doi.org/10.25380/iastate.c.5981629).
+- Images of the specimens associated with the records can be found at: [https://doi.org/10.25380/iastate.c.5981629](https://doi.org/10.25380/iastate.c.5981629).
 
-- The collection can be explored on GBIF at:
-  > [https://www.gbif.org/dataset/738de9a9-1871-4fc9-a755-8ca3724bec46](https://www.gbif.org/dataset/738de9a9-1871-4fc9-a755-8ca3724bec46)
+- The collection can be explored on GBIF at: [https://www.gbif.org/dataset/738de9a9-1871-4fc9-a755-8ca3724bec46](https://www.gbif.org/dataset/738de9a9-1871-4fc9-a755-8ca3724bec46)
 
-- The GRSCICOLL Record for the collection is
-  > [https://www.gbif.org/grscicoll/collection/0e9a25a7-4075-4749-94a0-6ead07a1c4d8](https://www.gbif.org/grscicoll/collection/0e9a25a7-4075-4749-94a0-6ead07a1c4d8)
+- The GRSCICOLL Record for the collection is [https://www.gbif.org/grscicoll/collection/0e9a25a7-4075-4749-94a0-6ead07a1c4d8](https://www.gbif.org/grscicoll/collection/0e9a25a7-4075-4749-94a0-6ead07a1c4d8)
 
 Note: Many of the original identifications are wrong or incomplete.
 Updated identifications have been obtained but need to be processed and
