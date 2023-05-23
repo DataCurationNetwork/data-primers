@@ -68,7 +68,7 @@ Suggested Citation: O’Donell, Megan N. and Delserone, Leslie M. (2023). Simple
 
 [Notes for Curation Process](#notes-for-curation-process)
 
-> [Appendix A - filetype CURATE(D) checklist](#appendix-a---filetype-curated-checklist)
+> [Appendix A - filetype CURATE(D) checklist](#appendix-a---filetype-curated-checklist) <br>
 > [Appendix B - Examples of common biodiversity repositories](#appendix-b---examples-of-common-biodiversity-repositories)
 
 [References](#references)
