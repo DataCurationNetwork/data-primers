@@ -69,6 +69,7 @@ Suggested Citation: O’Donell, Megan N. and Delserone, Leslie M. (2023). Simple
 [Notes for Curation Process](#notes-for-curation-process)
 
 > [Appendix A - filetype CURATE(D) checklist](#appendix-a---filetype-curated-checklist)
+> [Appendix B - Examples of common biodiversity repositories](#appendix-b---examples-of-common-biodiversity-repositories)
 
 [References](#references)
 
@@ -469,7 +470,7 @@ Union.</span>
 Refer to the Data Curation Network’s CURATE(D) steps, available at
 [https://datacurationnetwork.org/outputs/workflows/](https://datacurationnetwork.org/outputs/workflows/).
 
-Appendix B - Examples of common biodiversity repositories
+## Appendix B - Examples of common biodiversity repositories
 
 **eBird** ([https://ebird.org](https://ebird.org)) - Managed by
 the Cornell University Lab of Ornithology, its “data document bird
