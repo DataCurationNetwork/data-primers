@@ -25,37 +25,59 @@ DCN Mentor: Jake Carlson
 Suggested Citation: O’Donell, Megan N. and Delserone, Leslie M. (2023). Simple Darwin Core for Non-Biologists Primer. Data Curation Network[GitHub Repository](https://github.com/DataCurationNetwork/data-primers).
 
 [Introduction](#introduction)
+
 > [DwC Communities](#dwc-communities)
+
 [Description of Simple DwC](#description-of-simple-dwc)
-> [Example use cases highlighting the differences among selected Simple DwC fields](#example-use-cases-highlighting-the-differences-among-selected-simple-dwc-fields)
-> [Examples of Simple DwC records](#examples-of-simple-dwc-records)
+
+> [Example use cases highlighting the differences among selected Simple DwC fields](#example-use-cases-highlighting-the-differences-among-selected-simple-dwc-fields) <br>
+> [Examples of Simple DwC records](#examples-of-simple-dwc-records) <br>
 > [Notes on DwC usage](#notes-on-dwc-usage)
+
 [Key Questions to Ask Yourself](#key-questions-to-ask-yourself)
+
 [Key Clarifications to Get from the Researcher](#key-clarifications-to-get-from-the-researcher)
+
 [Metadata Standard and Core Elements](#metadata-standard-and-core-elements)
-> [Simple DwC cheat sheet](#simple-dwc-cheat-sheet)
-> [2023-24 cheat sheet release notes](#cheat-sheet-release-notes)
-> [Using the cheat sheet](#using-the-cheat-sheet)
+
+> [Simple DwC cheat sheet](#simple-dwc-cheat-sheet) <br>
+> [2023-24 cheat sheet release notes](#cheat-sheet-release-notes) <br>
+> [Using the cheat sheet](#using-the-cheat-sheet) 
+
 [Tips and Tricks for Simple DwC](#tips-and-tricks-for-simple-dwc)
-> [Identifiers](#identifiers)
-> [Multiple values (lists)](#multiple-values-lists)
+
+> [Identifiers](#identifiers) <br>
+> [Multiple values (lists)](#multiple-values-lists) <br>
 > [Relationships](#relationships)
+
 [Resources for Reviewing Data](#resources-for-reviewing-data)
+
 [Software for Viewing or Analyzing Data](#software-for-viewing-or-analyzing-data)
+
 [Preservation Actions](#preservation-actions)
+
 > [Key questions and actions](#key-questions-and-actions)
+
 [Ways in Which Research Fields May Use This Format](#ways-in-which-research-fields-may-use-this-format)
-> [Sharing records](#sharing-records)
-> [Natural history collections](#natural-history-collections)
+
+> [Sharing records](#sharing-records) <br>
+> [Natural history collections](#natural-history-collections) <br>
 > [Archival records](#archival-records)
+
 [Unresolved Issues](#unresolved-issues)
+
 [Notes for Curation Process](#notes-for-curation-process)
+
 > [Appendix A - filetype CURATE(D) checklist](#appendix-a---filetype-curated-checklist)
+
 [References](#references)
+
 [Additional Resources](#additional-resources)
+
 > [Acknowledgements](#acknowledgements)
-[Example 1 - Application of Simple DwC to a Photomicrograph of a Nematode (Single Occurrence, Single
-Record)](#example-1---application-of-simple-dwc-to-a-photomicrograph-of-a-nematode-single-occurrence-single-record)
+
+[Example 1 - Application of Simple DwC to a Photomicrograph of a Nematode (Single Occurrence, Single Record)](#example-1---application-of-simple-dwc-to-a-photomicrograph-of-a-nematode-single-occurrence-single-record)
+
 [Example 2 - Iowa Lakeside Laboratory Avian Collection - Simple DwC Records](#example-2---iowa-lakeside-laboratory-avian-collection---simple-dwc-records)
 
 # Introduction
