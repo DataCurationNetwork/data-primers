@@ -21,7 +21,7 @@ Affiliate Contributors (peer reviewers): Greg Janée, Heather Coates, Robert R. 
 | Key questions for curation review| <li>How and when is the data created?</li> <li>At which points of the data lifecycle are curation and documentation steps needed?</li><li>What are the key terminologies that may be lost in translation between disciplines?</li><li>What tools and software are involved? What is the software interoperability level?</li><li>At which points during the project is data manipulated and analyzed?</li><li>How will data and files be organized and structured to facilitate human readability?</li><li>How will data and other resources connect or link?</li>|
 | Tools for curation review | Text editor, spreadsheet software, original software used to generate and use data|
 | Date Created | 2023-05-01 |
-| Created by | Inna Kouper, Andrew M. Johnson, Jordan Wrigley, Aditya Ranganath  |
+| Created by | Inna Kouper, Andrew M. Johnson, Jordan Wrigley, Aditya Ranganath <br> Comments and questions on this primer can be directed to Inna Kouper [inkouper@indiana.edu](inkouper@indiana.edu).  |
 
 
 ----------------------------
@@ -66,9 +66,10 @@ Definitions of interdisciplinarity range from selective borrowings across discip
 
 The [International Polar Years (IPY)](https://www.pmel.noaa.gov/arctic-zone/ipy.html) were international collaborative efforts that focused on studying the polar regions. The first IPY was organized in 1882 - 1883 with researchers and observers collecting data from 12 stations in the Arctic and two in the sub-Antarctic (with more stations added later). Most recently, the fourth IPY took place in 2007 - 2008 with an estimated 50,000 participants from 60 nations. The data included physical, biological, and human observations of the land, ocean, and atmosphere “in every possible form and format” (Parsons et al., 2011). One of the major goals of this project was creating a robust data ecosystem and this proved to be extremely challenging, although some important lessons have been learned, *including the need to build collections and systems that are linked yet separate rather than integrated into one platform (Mokrane and Parsons, 2014).* 
 
-The Socio-Environmental Synthesis Center ([SESYNC](https://www.sesync.org/)) in the US, funded by the National Science Foundation to the University of Maryland, focuses on interdisciplinary collaborations that help to understand how humans affect and respond to the environment. The Center supports multiple teams, each of which focuses on a specific aspect of socio-environmental research. Some teams integrate data and knowledge across biology and economics, while others combine behavioral and climate modeling. Datasets include biophysical measures and measures of human behavior or modeling processes and results (e.g., results from simulation software and processing scripts). It is common for such projects to undergo rapid changes in teams’ research methods, products, and even the nature of the questions addressed. The need to accommodate continuous changes in data and methodologies throughout the research lifecycle and the need for dedicated data and computational support across teams were among important lessons learned by the Center (Palmer, Kramer, Boyd & Hawthorne, 2016).
+The [Socio-Environmental Synthesis Center (SESYNC](https://www.sesync.org/)) in the US, funded by the National Science Foundation to the University of Maryland, focuses on interdisciplinary collaborations that help to understand how humans affect and respond to the environment. The Center supports multiple teams, each of which focuses on a specific aspect of socio-environmental research. Some teams integrate data and knowledge across biology and economics, while others combine behavioral and climate modeling. Datasets include biophysical measures and measures of human behavior or modeling processes and results (e.g., results from simulation software and processing scripts). It is common for such projects to undergo rapid changes in teams’ research methods, products, and even the nature of the questions addressed. The need to accommodate continuous changes in data and methodologies throughout the research lifecycle and the need for dedicated data and computational support across teams were among important lessons learned by the Center (Palmer, Kramer, Boyd & Hawthorne, 2016).
 
 This primer encourages and provides guidance for **active curation** of data that comes from IHCR. Active curation refers to the expanded range of activities that include supporting project development, data collection, data management, and delivery and analytics in addition to documenting and enhancing data for preservation and sharing (Kouper et al., 2021). To accommodate an advocate for this expanded range of activities, the primer describes activities organized into two larger categories: the [CURATED steps](#curated-actions-to-consider) that focus on actions a curator takes at the end of the project and the [ACTIVE steps](#active-actions-to-consider), with the focus on curatorial or pre-curatorial actions during earlier stages of the project that enable data reuse.
+
 Active curation and ACTIVE steps are particularly important for IHCR because it often involves higher complexity, disciplinary diversity, and idiosyncratic or project-specific combinations of tools, sources, and approaches. That is why decisions and context must be documented continually throughout the project to enable understanding and reuse. While some actions described below will help IHCR projects of the global and national nature, this primer will be most useful for “team-oriented” IHCR, which combines work of several communities or organizations on a smaller scale and can benefit from support of a smaller data management team. The primer is designed for both researchers and data practitioners, and will help these groups to understand how to prepare interdisciplinary data for long-term preservation and reuse. 
 
 
@@ -138,7 +139,7 @@ IHCR data has no fixed forms or structures; it is complex and heterogeneous (as 
 
 - Develop or review ownership guidelines and agreements among data creators and users early in the project. IHCR data is often a collection of data, so ownership may be distributed across team members and data may be acquired from multiple existing sources for secondary use. It is also important to review how existing data use agreements may or may not align with one another early in the project.
 - Decide how data and software can or need to be licensed (see, for example, [https://guides.library.oregonstate.edu/research-data-services/data-licensing-ip](https://guides.library.oregonstate.edu/research-data-services/data-licensing-ip))
-- Ensure that multiple formats are being preserved (see, for example, U.S. National Archives and Records Administration Digital Preservation Framework [https://github.com/usnationalarchives/digital-preservation](https://github.com/usnationalarchives/digital-preservation))
+- Ensure that multiple formats are being preserved (see, for example, [U.S. National Archives and Records Administration Digital Preservation Framework (https://github.com/usnationalarchives/digital-preservation](https://github.com/usnationalarchives/digital-preservation))
 
 ## Understand
 
@@ -169,7 +170,7 @@ Capturing context through documentation is particularly challenging for IHCR. In
 - Capture project-level documentation describing how the various data types relate to one another. For this project-specific documentation, README files offer a flexible way to capture context (see, for example, [https://data.research.cornell.edu/content/readme](https://data.research.cornell.edu/content/readme)).
 - Consider adding authorship and acknowledgement statements to recognize all contributors.
 - Make sure keywords that describe the project and data are broad enough to be inclusive of the interdisciplinary and collaborative context.
-- Suggest adding an explicit statement about underlying principles of interdisciplinarity and collaboration to project-level description. Such a statement is most valuable when it is developed earlier in the project as part of consensus- and team-building efforts and data managers or curators can assist the team in developing such a statement. It includes a description of how the team approaches interdisciplinarity and collaboration (e.g., as borrowing, integration, synthesis, or dialog, (Klein, 2008; Miller, 2010)).
+- Suggest adding an explicit statement about underlying principles of interdisciplinarity and collaboration to project-level description. Such a statement is most valuable when it is developed earlier in the project as part of consensus- and team-building efforts and data managers or curators can assist the team in developing such a statement. It includes a description of how the team approaches interdisciplinarity and collaboration (e.g., as borrowing, integration, synthesis, or dialog, (Klein, 2008; Miller, 2010).
 - Develop common high-level vocabulary (tags) to identify and track papers and data shared and published in multiple venues as belonging to the larger project. 
 
 
@@ -226,7 +227,7 @@ their projects. In addition, curators working at academic institutions, for exam
 IHCR projects benefit from active curation and lifecycle management.
 While many data and research lifecycle models exist (see, for example, [https://www.usgs.gov/data-management/data-lifecycle](https://www.usgs.gov/data-management/data-lifecycle)), in simple terms research and data go through the stages of planning, data gathering, analysis, dissemination, archiving, and disposition. IHCR projects are often iterative, with each stage being done multiple times or spinning off into a separate project with its own lifecycle. Steps to collaborate on IHCR data curation throughout the lifecycle:
 
-- Develop collaboration and communication expertise as part of curation support (e.g., help teams develop a project charter, see, for example, “[Implementing a Charter for IHCR Projects](https://github.com/inkouper/IHCR-data-recommendations/blob/main/Project%20Charter/ProjectCharter.md)”).
+- Develop collaboration and communication expertise as part of curation support (e.g., help teams develop a project charter, see, for example, “[Implementing a Charter for IHCR Projects](https://inkouper.github.io/ihcr-data-curation/Project-charter.html)”).
 
 - Discuss with project leaders the phases and iterations of their research and how data fits into each.
 
@@ -247,7 +248,7 @@ brainstorming options is another way to approach testing.
 
 - Discuss roles and responsibilities with regard to data.
 
-- Develop information storage and organization plan and solicit feedback from the team (see “[Organizing Information and Data for Interdisciplinary Projects](https://github.com/inkouper/IHCR-data-recommendations/blob/main/Information%20Organization/Information%20Organization%20Workflow.md)”).
+- Develop information storage and organization plan and solicit feedback from the team (see “[Organizing Information and Data for Interdisciplinary Projects](https://github.com/inkouper/IHCR-data-recommendations/blob/main/Information%20Organization/Information%20Organization%2https://inkouper.github.io/ihcr-data-curation/Info-org.html)”).
 
 - Review a version control system of the project and the processes for integrating changes into “master” datasets.
 
@@ -293,7 +294,7 @@ As IHCR curation practices are varied and still emerging, successful implementat
 
 # Acknowledgements
 
-This primer has been developed with support from the grant from Institute of Museum and Library services (#LG-246400-PLS-20). The authors are grateful to suggestions from their research team and from the anonymous reviewers.
+This primer has been developed with support from the grant from the Institute of Museum and Library services (#LG-246400-PLS-20, [see also the project's website](https://inkouper.github.io/ihcr-data-curation/)). The authors are grateful to suggestions from their research team and from the anonymous reviewers.
 
 # Bibliography
 
@@ -309,7 +310,7 @@ Kouper, I. (in press). Data curation in interdisciplinary and highly collaborati
 
 Kouper, I., Tucker, K., Tharp, K., Booven, M. E. van, & Clark, A. (2021). Active Curation of Large Longitudinal Surveys: A Case Study. *Journal of EScience Librarianship, 10*(3). [https://doi.org/10.7191/jeslib.2021.1210](https://doi.org/10.7191/jeslib.2021.1210)
 
-> Miller, R. C. (2010). Interdisciplinarity: Its meaning and consequences. In *Oxford Research Encyclopedia of International Studies*.[https://doi.org/10.1093/acrefore/9780190846626.013.92](https://doi.org/10.1093/acrefore/9780190846626.013.92)
+Miller, R. C. (2010). Interdisciplinarity: Its meaning and consequences. In *Oxford Research Encyclopedia of International Studies*.[https://doi.org/10.1093/acrefore/9780190846626.013.92](https://doi.org/10.1093/acrefore/9780190846626.013.92)
 
 Mokrane, M., & Parsons, M. A. (2014). Learning from the International Polar Year to Build the Future of Polar Data Management. *Data Science Journal*, *13*. [https://doi.org/10.2481/dsj.IFPDA-15](https://doi.org/10.2481/dsj.IFPDA-15)
 
