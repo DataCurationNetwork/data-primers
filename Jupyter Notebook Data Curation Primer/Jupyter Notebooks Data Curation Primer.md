@@ -48,7 +48,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 | File Extension | [.ipynb](https://fileinfo.com/extension/ipynb) |
 | MIME type     |  https://jupyter.readthedocs.io/en/latest/reference/mimetype.html    |
 |  Structure | Browser-rendered composite digital asset: Notebook file (.ipynb); Notebook app; kernel   |  
-| Versions | [4.0.0 - 5.7.0](https://jupyter-notebook.readthedocs.io/en/stable/changelog.html) (previously [IPython Notebook](https://ipython.org/notebook.html)) |
+| Versions | [4.0.0 - 6.0.3](https://jupyter-notebook.readthedocs.io/en/stable/changelog.html) (previously [IPython Notebook](https://ipython.org/notebook.html)) |
 | Primary fields or areas of use | Not discipline-specific; can be used by anyone who writes code in a language with a [supported kernel](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) |
 | Source and affiliation | [Project Jupyter](https://jupyter.org/about)|
 | Metadata standards | [Codemeta](https://codemeta.github.io/); [CFF](https://citation-file-format.github.io/); [Jisc/SSI Guidance](https://zenodo.org/record/1327321#.W8lNLhNKiRs); discipline-specific keywords  |
@@ -62,13 +62,13 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 
 ## Background
 
-Jupyter Notebooks are composite digital objects used to develop, share, view, and execute interspersed, interlinked, and interactive documentation, equations, visualizations, and code. Researchers seeking to deposit software, in this case Jupyter Notebooks, in repositories do so with the expectation that repositories will provide documentation explaining &quot;what you can deposit, the supported file formats for deposits, what metadata you may need to provide, how to provide this metadata and what happens after you make your deposit&quot; (Jackson, 2018a). This expectation is not necessarily met by repositories that currently accept software deposits and complex objects like Jupyter Notebooks. This guide is meant to both inform curatorial practices around Jupyter Notebooks, and support the development of resources that meet researchers&#39; expectations to ensure long-term availability of software in curated archival repositories. Guidance provided by Jisc (1) and the Software Sustainability Institute (2) outlines three different kinds of software deposits: a minimal deposit, a runnable deposit, and a comprehensive deposit (Jackson, 2018b). This primer follows this same conceptual framework in dealing with Jupyter Notebooks, which even in their static, non-executable form, can be used to document how scientific research was carried out or be used as teaching models among many other use cases.
+Jupyter Notebooks are composite digital objects used to develop, share, view, and execute interspersed, interlinked, and interactive documentation, equations, visualizations, and code. Researchers seeking to deposit software, in this case Jupyter Notebooks, in repositories do so with the expectation that repositories will provide documentation explaining &quot;what you can deposit, the supported file formats for deposits, what metadata you may need to provide, how to provide this metadata and what happens after you make your deposit&quot; (Jackson, 2018a). This expectation is not necessarily met by repositories that currently accept software deposits and complex objects like Jupyter Notebooks. This guide is meant to both inform curatorial practices around Jupyter Notebooks, and support the development of resources that meet researchers&#39; expectations to ensure long-term availability of software in curated archival repositories. Guidance provided by the Software Sustainability Institute (1), funded by Jisc (2), outlines three different kinds of software deposits: a minimal deposit, a runnable deposit, and a comprehensive deposit (Jackson, 2018b). This primer follows this same conceptual framework in dealing with Jupyter Notebooks, which even in their static, non-executable form, can be used to document how scientific research was carried out or be used as teaching models among many other use cases.
 
 ## Jupyter Notebook Format Description
 
 A Jupyter Notebook is a file used in conjunction with a suite of tools that allow users to create and share documents that contain runnable code, equations, data visualizations, and other interactive material. While Python is the most common language associated with Jupyter Notebooks, they can be used with code written in over 40 different programming languages. Jupyter Notebooks&#39; versatility enables them to be used in any number of disciplines and for various purposes, and while they are very popular in the sciences, they are also used in the social sciences and the humanities. Because Jupyter Notebooks are meant to be interactive and constructed using a multitude of programming and spoken languages, they are especially challenging for curators to work with. Any curation and archiving activity needs to be done in such a way as to not inhibit a future user&#39;s need to adapt the code contained within the Notebook file. Similarly, when a future user extracts deposited Notebook files, metadata, and supplemental material from the archive, curation and archiving activities should have had no degrading influence on the level of functionality that a depositor enabled with their initial deposit. For example, rather than zipping files on the depositor&#39;s behalf, it is preferable for curators to request that depositors pack and unpack their content prior to making their deposit to allow the them to check that files function as intended when unpacked.
 
-To open a Jupyter Notebook file, a curator would need to have installed Python and Jupyter (using either pip or Anaconda(3)) and be familiar with using the Terminal (Mac/Linux), Command Prompt, or Bash (Windows).(4) Once opened, Jupyter Notebooks have a browser-rendered user interface composed of &quot;cells&quot; and clickable buttons to execute tasks. A cell is a multiline text input field where a user can enter and execute code or a markup language called Markdown. Markdown handles text formatting, linking, and the display of images. Behind the Notebook cells is a kernel that runs the processes needed for each cell to function. Code cells often require dependencies and specific input parameters, and may be run in any order, which is both a strength and a weakness.(5)
+To open a Jupyter Notebook file, a curator would need to have installed Python and Jupyter (using either pip or Anaconda(3)) and be familiar with using the Terminal (Mac/Linux), Command Prompt, or Bash (Windows).(4) Once opened, Jupyter Notebooks have a browser-rendered user interface composed of &quot;cells&quot; and clickable buttons to execute tasks. A cell is a multiline text input field where a user can enter and execute code or a markup language called Markdown. Markdown handles text formatting, linking, and the display of images. Behind the Notebook cells is a kernel, which provides programming language support that runs the processes needed for each cell to function. Notebooks often require dependencies and specific input parameters. While code cells may be run in any order, running the code from top to bottom is invariably the intention, and would certainly be the expectation by any future users of the notebook.(5)
 
 Once rendered in the user&#39;s browser, a Notebook can be exported in the following formats:
 
@@ -100,10 +100,10 @@ The following elements outline recommendations for repositories accepting Jupyte
 - Additional files to request:
   - PDF of the Jupyter Notebook (export from Jupyter web application or [nbviewer](https://nbviewer.jupyter.org/))
   - reST export of the Jupyter Notebook (export from Jupyter web application)
-  - CodeMeta.json
-  - CITATION.cff
+  - CodeMeta.json, requirements.txt, or environment.yml (dependencies)
+  - CITATION.cff (a software citation file appropriate if not depositing in a repository)
   - Sample datasets and documentation (see below)
-  - Container metafile (e.g. docker, singularity, reprozip)
+  - If used, the Container metafile (e.g. docker, singularity, reprozip)
     - Can be created using [jupyter-](https://repo2docker.readthedocs.io/en/latest/)[repo2docker](https://repo2docker.readthedocs.io/en/latest/)
     - Can be published separately with execution instructions; link this to the Jupyter Notebook record
   - Release of the full repository of files associated with .ipynb when applicable
@@ -118,25 +118,26 @@ The following elements outline recommendations for repositories accepting Jupyte
   - Jupyter implementation details
     - Jupyter version
     - Distribution (e.g. Anaconda)
-    - Kernel version
+    - Kernel version  (programming language plus version)
   - README
-    - Documents what the Jupyter Notebook is for
-    - Request that this file include citation(s) to third-party algorithms and analyses
-    - Recommend code comments within the Notebook file itself in addition to the README file
+    - Documents what the Jupyter Notebook is for (but recommendation is that the Notebook utilize code comments)
+    - Lists dependencies on external software packages and datasets
+    - Requests that this file include citation(s) to third-party algorithms and analyses
   - Alternate identifiers and supplemental links associated with the Notebook
   - License information
 
 
-- **Runnable submission:** allows another researcher to execute the Notebook locally using sample data and files provided by the depositor (12); minimal submission metadata plus:
+- **Runnable submission:** allows another researcher or curator to execute the Notebook locally using sample data and files provided by the depositor (12); minimal submission metadata plus:
 
   - User documentation
     - Instructions to support configuration needed to execute the Notebook and code cells
     - Sample input and output files
-  - CodeMeta.json
-    - Document required software dependencies
-    - Recommend additional machine actionable dependency documentation (e.g. requirements.txt)
+  - Software Dependency Documentation
+    - CodeMeta.json
+    - Recommend additional machine actionable dependency documentation (e.g. requirements.txt or environment.yml)
   - CITATION.cff for the Notebook
     - Preferred citation; should enable native software citation
+    - Relevant if the Notebook is not being submitted to a repository
 - **Comprehensive metadata:** minimal and &quot;runnable&quot; requirements plus:
   - Developer documentation
     - Include test code and description of expected results
@@ -147,13 +148,16 @@ The following elements outline recommendations for repositories accepting Jupyte
 # Key Curatorial Questions
 Once a decision has been made to accept and curate Jupyter Notebook submissions in an archival repository, the following questions should be considered with each submission:
 
-1. What are the depositor&#39;s expectations for the Notebook&#39;s future functionality once the deposited files are exported from the archival repository?
+1. What are the depositor&#39;s expectations for the Notebook&#39;s future functionality once the deposited files are exported from the archival repository?  In other words, should the code in the deposited files be able to run as-is (runnable), run with external data files (minimal), or is the deposit considered to be a static document that does not execute code (minimal)? Understanding this expectation will help determine if the deposit is minimal, runnable, or comprehensive.
 2. Does the submission include minimally required files and metadata to enable the expected functionality?
 3. Is the Notebook self-contained?
 4. Is the Notebook a standalone object or one of many products resulting from a project?
 	- Examples:
 		- Notebook that is a stand alone object: [USGS Python for Data Management](https://my.usgs.gov/confluence/display/cdi/Python+for+Data+Management#PythonforDataManagement-June11,2018:Part1-WorkingwithLocalFiles)(13)
-		- Notebooks that supplement other digital objects: [Starry](https://arxiv.org/abs/1810.06559)(14)
+		- Notebooks that supplement other digital objects: 
+		  1. [Starry Archived Code](https://zenodo.org/record/3565772)(14), [Starry Article](https://arxiv.org/abs/1810.06559)(15)
+		  2. Swiger, B. M., Liemohn, M. W., & Ganushkina, N. Y. (2020). Data for Improvement of Plasma Sheet Neural Network Accuracy with Inclusion of Physical Information. Deep Blue Data: https://doi.org/10.7302/559r-t639 <br>
+(See PlottingCode.zip) (16)
 	- Were supplemental files deposited along with the Notebook?
 		- Is information about supplemental files included within the Notebook or in separate files?
 		- If separate files, can those files be opened and read?
@@ -173,16 +177,16 @@ Once a decision has been made to accept and curate Jupyter Notebook submissions 
 # Decision Trees
 ([view online](https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0))
 
-The following decision trees (15) illustrate questions and actions that should be considered when determining whether or not to accept a Jupyter Notebook submission into a particular repository, as well key questions curators should consider when evaluating Jupyter Notebook submissions.
+The following decision trees (17) illustrate questions and actions that should be considered when determining whether or not to accept a Jupyter Notebook submission into a particular repository, as well key questions curators should consider when evaluating Jupyter Notebook submissions.
 
 ## Repository Suitability
-![](DT-Repo.png)
+![Decision tree figure with questions to consider when reviewing a Jupyter notebook for acceptance in a repository. Decisions include local, disciplinary or general repositories.](DT-Repo.png  "Repository Suitability Decision Tree")
 
 *https://datacurationnetwork.org/home/resources/ <br/>
 **http://hdl.handle.net/11299/202815
 
 ## Curatorial Activities
-![](DT-Curat.png)
+![Decision tree figure with questions related to curatorial activities for Jupyter notebooks. Actions are suggested depending on if the repository accepts zipped files, if minimal metadata are included with the Notebook, and at what level identifiers (DOI’s) should be created.](DT-Curat.png "Curatorial Activities Decision Tree")
 
 # Additional Recommended Reading
 
@@ -191,7 +195,7 @@ The following decision trees (15) illustrate questions and actions that should b
 - Ten Simple Rules for Reproducible Research in Jupyter Notebooks
   - [https://arxiv.org/abs/1810.08055](https://arxiv.org/abs/1810.08055)
 - How IPython and Jupyter Notebook work
-  - [https://jupyter.readthedocs.io/en/latest/architecture/how\_jupyter\_ipython\_work.html](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
+  - [https://test-jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html](https://test-jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
 - Developing maintainable software
   - [https://www.software.ac.uk/resources/guides/developing-maintainable-software](https://www.software.ac.uk/resources/guides/developing-maintainable-software)
 - Does it make sense to apply the FAIR Data Principles to Software?
@@ -220,9 +224,9 @@ Jackson, M. (2018b). Software Deposit: What to deposit (Version 1.0). _Zenodo_. 
 
 
 # End Notes
-1 https://www.jisc.ac.uk/
+1 https://www.software.ac.uk/, [Software Deposit Guidance for Researchers](https://softwaresaved.github.io/software-deposit-guidance/)
 
-2 https://www.software.ac.uk/
+2 https://www.jisc.ac.uk/
 
 3 https://jupyter.org/install
 
@@ -246,6 +250,10 @@ Jackson, M. (2018b). Software Deposit: What to deposit (Version 1.0). _Zenodo_. 
 
 13 https://bit.ly/2sBF3jH
 
-14 https://arxiv.org/abs/1810.06559
+14 https://zenodo.org/record/3565772
 
-15 https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0
+15 https://arxiv.org/abs/1810.06559
+
+16 https://doi.org/10.7302/559r-t639
+
+17 https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0
