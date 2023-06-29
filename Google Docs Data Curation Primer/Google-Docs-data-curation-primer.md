@@ -72,15 +72,15 @@ Google Drive files are not natively embedded with any metadata standard, and can
 
 ## Preservation Actions
 
-Google Docs provides the ability to export files in Microsoft Word, OpenDocument Format, Rich Text Format, PDF, Plain Text, HTML, and EPub.  In 2017, Jenny Mitcham of York University published the results of exporting google documents in a blog post for York Universities digital archives. Mitcham found that the majority of the format types largely preserved, with some changes to the number of pages and locations of footnotes. The exception is Plain Text which will strip images, charts, graphs and other features.<sup>1</sup> You can also see the results of exporting files in the appendices to this document.  These files were exported from google drive in December 2019, keep in mind that functionality may change over time, and it checking the quality of your exports should be done with each project. Special characters may not be supported in exported documents.
+Google Docs provides the ability to export files in Microsoft Word, OpenDocument Format, Rich Text Format, PDF, Plain Text, HTML, and EPub.  In 2017, Jenny Mitcham of York University published the results of exporting google documents in a blog post for York Universities digital archives. Mitcham found that the majority of the format types largely preserved, with some changes to the number of pages and locations of footnotes. The exception is Plain Text which will strip images, charts, graphs and other features.[^1] You can also see the results of exporting files in the appendices to this document.  These files were exported from google drive in December 2019, keep in mind that functionality may change over time, and it checking the quality of your exports should be done with each project. Special characters may not be supported in exported documents.
 
-<p  id="note1"><sup>1</sup> Mitcham, Jenny. http://digital-archiving.blogspot.com/2017/04/how-can-we-preserve-google-documents_35.html accessed 12/04/2019 </p>
+[^1]: Mitcham, Jenny. http://digital-archiving.blogspot.com/2017/04/how-can-we-preserve-google-documents_35.html accessed 12/04/2019 
 
 ### Exporting multiple files
 
-	Individual files can be exported from Google Docs via the dropdown menus in the browser-based editor. Exporting as a PDF, and then converting that file to PDF/A is recommended for preservation. See the Library of Congress documentation for more information on the PDF/A standard.<sup>2</sup> Exporting a folder from google drive will produce a zipped file. A utility created by Google called Google Take Out (https://opensource.googleblog.com/2018/07/introducing-data-transfer-project.html) gives you more options when exporting multiple files.  It is important to note that this will not work on folders in the “Shared with Me” drive, only for those owned by a given account. 
+	Individual files can be exported from Google Docs via the dropdown menus in the browser-based editor. Exporting as a PDF, and then converting that file to PDF/A is recommended for preservation. See the Library of Congress documentation for more information on the PDF/A standard.[^2] Exporting a folder from google drive will produce a zipped file. A utility created by Google called Google Take Out (https://opensource.googleblog.com/2018/07/introducing-data-transfer-project.html) gives you more options when exporting multiple files.  It is important to note that this will not work on folders in the “Shared with Me” drive, only for those owned by a given account. 
 
-<p id="note1"><sup>2</sup> Library of congress,  https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml accessed 12/04/2019 </p>
+[^2]: Library of congress,  https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml accessed 12/04/2019
 
 ### Comments and Versioning
 
