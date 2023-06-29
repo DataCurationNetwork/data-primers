@@ -147,7 +147,7 @@ Oral history data are broader than a specific file type or set of technical stan
   
 ### Technical metadata:
 
-- The particular metadata will depend on file formats. For example, video files may be described using the [IPTC Video Metadata](https://www.iptc.org/std/videometadatahub/recommendation/IPTC-VideoMetadataHub-props-Rec_1.3.html) schema which includes fields for properties on what can be seen and heard in the video, technical characteristics, administrative (permissions), and structural components.
+- The particular metadata will depend on file formats. For example, video files may be described using the [IPTC Video Metadata](https://iptc.org/standards/video-metadata-hub/) schema which includes fields for properties on what can be seen and heard in the video, technical characteristics, administrative (permissions), and structural components.
 - Additional technical metadata may include:
   - Ingest parametrics - the technical features or characteristics of a digital file, often useful in performing quality review or repository-ingestion processes on batches of files
   - Time Code (legacy, digitization) identification and [Sidecar](https://en.wikipedia.org/wiki/Sidecar_file) file merge. (Also useful for descriptive metadata purposes)
@@ -221,7 +221,7 @@ Producing consistent findable, accessible, interactive, and reusable oral histor
 
 # Bibliography
 
-Data Curation · Oral History Methods. (n.d.). Retrieved March 2, 2020, from [http://projects.leadr.msu.edu/oralhistorymethods/curation](http://projects.leadr.msu.edu/oralhistorymethods/curation)
+Data Curation · Oral History Methods. (n.d.). Retrieved March 2, 2020, from [http://projects.leadr.msu.edu/oralhistorymethods/curation](https://web.archive.org/web/20220517080320/http://projects.leadr.msu.edu/oralhistorymethods/curation)
 
 Oral History: Defined. (n.d.). Oral History Association. Retrieved March 2, 2020, from [https://www.oralhistory.org/about/do-oral-history/ ](https://www.oralhistory.org/about/do-oral-history/)
 
@@ -454,9 +454,9 @@ The following CURATED checklist model is based on the Digital Curation Network�
 
 ### General References
 
-[Oral History processing Manuel](https://drive.google.com/file/d/0Bzm6OcJO9sNxUngtcXBxYWp0bFlpTFR3ck5wdEJTV0VKdlg4/view)
+[Oral History processing manual](https://drive.google.com/file/d/0Bzm6OcJO9sNxUngtcXBxYWp0bFlpTFR3ck5wdEJTV0VKdlg4/view)
 
-[Archiving Oral History: Manuel for best practices](https://www.oralhistory.org/archives-principles-and-best-practices-complete-manual/)
+[Archiving Oral History: manual for best practices](https://www.oralhistory.org/archives-principles-and-best-practices-complete-manual/)
 
 [Oral History in the digital age - best practices](http://wiki.ohda.matrix.msu.edu/index.php/Best_Practices)
 
