@@ -62,7 +62,7 @@ See also: Primers authored by the workshop attendees at DLF: http://datacuration
 
 ## Background
 
-Jupyter Notebooks are composite digital objects used to develop, share, view, and execute interspersed, interlinked, and interactive documentation, equations, visualizations, and code. Researchers seeking to deposit software, in this case Jupyter Notebooks, in repositories do so with the expectation that repositories will provide documentation explaining &quot;what you can deposit, the supported file formats for deposits, what metadata you may need to provide, how to provide this metadata and what happens after you make your deposit&quot; (Jackson, 2018a). This expectation is not necessarily met by repositories that currently accept software deposits and complex objects like Jupyter Notebooks. This guide is meant to both inform curatorial practices around Jupyter Notebooks, and support the development of resources that meet researchers&#39; expectations to ensure long-term availability of software in curated archival repositories. Guidance provided by Jisc (1) and the Software Sustainability Institute (2) outlines three different kinds of software deposits: a minimal deposit, a runnable deposit, and a comprehensive deposit (Jackson, 2018b). This primer follows this same conceptual framework in dealing with Jupyter Notebooks, which even in their static, non-executable form, can be used to document how scientific research was carried out or be used as teaching models among many other use cases.
+Jupyter Notebooks are composite digital objects used to develop, share, view, and execute interspersed, interlinked, and interactive documentation, equations, visualizations, and code. Researchers seeking to deposit software, in this case Jupyter Notebooks, in repositories do so with the expectation that repositories will provide documentation explaining &quot;what you can deposit, the supported file formats for deposits, what metadata you may need to provide, how to provide this metadata and what happens after you make your deposit&quot; (Jackson, 2018a). This expectation is not necessarily met by repositories that currently accept software deposits and complex objects like Jupyter Notebooks. This guide is meant to both inform curatorial practices around Jupyter Notebooks, and support the development of resources that meet researchers&#39; expectations to ensure long-term availability of software in curated archival repositories. Guidance provided by Jisc [^1] and the Software Sustainability Institute (2) outlines three different kinds of software deposits: a minimal deposit, a runnable deposit, and a comprehensive deposit (Jackson, 2018b). This primer follows this same conceptual framework in dealing with Jupyter Notebooks, which even in their static, non-executable form, can be used to document how scientific research was carried out or be used as teaching models among many other use cases.
 
 ## Jupyter Notebook Format Description
 
@@ -220,7 +220,7 @@ Jackson, M. (2018b). Software Deposit: What to deposit (Version 1.0). _Zenodo_. 
 
 
 # End Notes
-1 https://www.jisc.ac.uk/
+[^1]: https://www.jisc.ac.uk/
 
 2 https://www.software.ac.uk/
 
