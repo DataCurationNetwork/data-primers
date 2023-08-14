@@ -43,9 +43,13 @@ Peer Reviewers: Talya Cooper, New York University, and Courtney Dalton, Cornell
  [Metadata core elements and standards](#metadata-core-elements-and-standards)
 
 >  [Administrative metadata](#administrative-metadata)
+
 >  [Technical metadata](#technical-metadata)
+
 >  [Descriptive metadata](#descriptive-metadata)
+
 >  [Preservation metadata](#preservation-metadata)
+
 >  [Rights and access metadata](#rights-and-access-metadata)
 
  [Technical issues](#technical-issues)
