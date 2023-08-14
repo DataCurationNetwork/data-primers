@@ -42,17 +42,7 @@ Peer Reviewers: Talya Cooper, New York University, and Courtney Dalton, Cornell
 
  [Metadata core elements and standards](#metadata-core-elements-and-standards)
 
->  [Administrative metadata](#administrative-metadata)
-
->  [Technical metadata](#technical-metadata)
-
->  [Descriptive metadata](#descriptive-metadata)
-
->  [Preservation metadata](#preservation-metadata)
-
->  [Rights and access metadata](#rights-and-access-metadata)
-
- [Technical issues](#technical-issues)
+>  [Administrative metadata](#administrative-metadata) <br> [Technical metadata](#technical-metadata) <br> [Descriptive metadata](#descriptive-metadata) <br> [Preservation metadata](#preservation-metadata) <br> [Rights and access metadata](#rights-and-access-metadata) <br> [Technical issues](#technical-issues)
 
  [Check Files](#check-files)
 
@@ -69,10 +59,7 @@ Peer Reviewers: Talya Cooper, New York University, and Courtney Dalton, Cornell
  [Appendix C: Additional Information and Materials](#appendix-c-additional-information-and-materials)
 
 >  [Special Considerations](#special-considerations)
->> [User Purpose](#user-purpose)
->> [Editing](#editing)
->> [Staffing Requirements 14](#staffing-requirements)
->> [Unresolved issues and questions that are beyond the scope of this primer](#unresolved-issues-and-questions-that-are-beyond-the-scope-of-this-primer)
+>> [User Purpose](#user-purpose) <br> [Editing](#editing) <br> [Staffing Requirements 14](#staffing-requirements) <br> [Unresolved issues and questions that are beyond the scope of this primer](#unresolved-issues-and-questions-that-are-beyond-the-scope-of-this-primer)
 
  [References](#references)
 
