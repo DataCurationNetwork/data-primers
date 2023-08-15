@@ -456,7 +456,7 @@ Gilmore, R. O., Adolph, K. E., & Millman, D. S. (2016, August). Curating identif
 
 Mazé, E. A. (2012). Metadata: best practices for oral history access and preservation. *Oral History in the Digital Age*.
 
-## Resources
+# Resources
 
 The Activists’ Guide to Archiving Video. (n.d.). *WITNESS Archiving*. Retrieved December 20, 2022, from [https://archiving.witness.org/archive-guide/](https://archiving.witness.org/archive-guide/)
 
