@@ -59,7 +59,7 @@ Peer Reviewers: Talya Cooper, New York University, and Courtney Dalton, Cornell
  [Appendix C: Additional Information and Materials](#appendix-c-additional-information-and-materials)
 
 >  [Special Considerations](#special-considerations)
->> [User Purpose](#user-purpose) <br> [Editing](#editing) <br> [Staffing Requirements 14](#staffing-requirements) <br> [Unresolved issues and questions that are beyond the scope of this primer](#unresolved-issues-and-questions-that-are-beyond-the-scope-of-this-primer)
+>> [User Purpose](#user-purpose) <br> [Editing](#editing) <br> [Staffing Requirements](#staffing-requirements) <br> [Unresolved issues and questions that are beyond the scope of this primer](#unresolved-issues-and-questions-that-are-beyond-the-scope-of-this-primer)
 
  [References](#references)
 
