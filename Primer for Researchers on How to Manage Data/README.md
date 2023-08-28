@@ -10,8 +10,6 @@ Introduction to Research Data Management for Researchers. Data Curation Network 
 Repository](https://github.com/DataCurationNetwork/data-primers).
 
 **Funding:**
-This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building the Data Curation Community: Advancing Specialized Data Curation".
-
 This project was partially funded by Federal funds from the National Library of Medicine (NLM), National Institutes of Health (NIH), under cooperative agreement number UG4LM01234 with the University of Massachusetts Chan Medical School, Lamar Soutter Library. The content is solely the responsibility of the authors and does not necessarily represent the of icial views of the National Institutes of Health.
 
 **Please update the following fields with each contribution**  
