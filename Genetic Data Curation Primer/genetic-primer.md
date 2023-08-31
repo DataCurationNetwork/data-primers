@@ -24,10 +24,6 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 | .txt  | open source format |
 
 
-
-
-
-
 # Executive Summary
 |   Topic   |   Description   |
 | :------------- | :------------- |
@@ -43,62 +39,31 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 (Adapted from Brown et al., 2018) | <li>Do you have the expected number of sequence records or files (do they match the file manifest in the readme, or in the accompanying article)? </li><li>Are there outliers in sequence lengths? </li><li>Are there duplicates in the sequence identifiers?</li><li>If FASTQ, do the length of the sequence line (line 2) and of the quality designation line (line 4) match?</li><li>Are there repository-specific requirements for formatting or length?</li><li>Are there extra or unsupported characters, e.g., tabs in a definition-line or asterisks or periods in the sequence line? </li> |
 | Tools for curation review |  <li>Text editor (or [glogg](http://glogg.bonnefon.org/index.html) for large files) </li><li> [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi), or other sequence editors  </li><li>R, Python, or other scripting languages</li> |
 | Date Created | August 2023|
-| Created by | Laura Bowman
-Shannon Sheridan
-Briana Wham
-Sarah J. Wright - Cornell University
+| Created by | Laura Bowman <br> Shannon Sheridan <br> Briana Wham <br> Sarah J. Wright - Cornell University <br> DCN Mentor - Sarah Wright - Cornell University |
 
-DCN Mentor - Sarah Wright - Cornell University |
+# Table of Contents 
 
-## 
-
-> [Background](#background)
->
-> [Description of Format](#description-of-format)
->
-> [FASTA](#fasta)
->
-> [Example FASTA file:](#example-fasta-file)
->
-> [FASTQ](#fastq)
->
-> [Example FASTQ file:](#example-fastq-file)
->
-> [Diving Deeper into FASTA/FASTQ formats and
-> requirements](#diving-deeper-into-fastafastq-formats-and-requirements)
->
-> [Sample data set citations](#sample-data-set-citations)
->
-> [Key questions to ask yourself](#key-questions-to-ask-yourself)
->
-> [Inspecting the files:](#inspecting-the-files)
->
-> [Human subjects and/or ethics:](#human-subjects-andor-ethics)
->
-> [Repositories to consider:](#repositories-to-consider)
->
-> [Metadata and documentation:](#metadata-and-documentation)
->
-> [Key clarifications to get from
-> researcher](#key-clarifications-to-get-from-researcher)
->
-> [Applicable metadata standard, core elements and readme
-> requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
->
-> [Resources for reviewing data](#resources-for-reviewing-data)
->
-> [Software for viewing or analyzing
-> data](#software-for-viewing-or-analyzing-data)
->
-> [Preservation actions](#preservation-actions)
->
-> [What to look for to make sure this file meets FAIR
-> principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)
->
-> [Bibliography](#bibliography)
->
-> [Additional Recommended
-> Reading](#additional-recommended-reading)
+[Background](#background)
+[Description of Format](#description-of-format)   
+[FASTA](#fasta)
+[Example FASTA file:](#example-fasta-file)
+[FASTQ](#fastq)
+[Example FASTQ file:](#example-fastq-file)
+[Diving Deeper into FASTA/FASTQ formats and  requirements](#diving-deeper-into-fastafastq-formats-and-requirements)   
+[Sample data set citations](#sample-data-set-citations)
+[Key questions to ask yourself](#key-questions-to-ask-yourself)
+[Inspecting the files:](#inspecting-the-files)
+[Human subjects and/or ethics:](#human-subjects-andor-ethics)
+[Repositories to consider:](#repositories-to-consider)
+[Metadata and documentation:](#metadata-and-documentation)
+[Key clarifications to get from  researcher](#key-clarifications-to-get-from-researcher)
+[Applicable metadata standard, core elements and readme  requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
+[Resources for reviewing data](#resources-for-reviewing-data)
+[Software for viewing or analyzing  data](#software-for-viewing-or-analyzing-data)
+[Preservation actions](#preservation-actions)
+[What to look for to make sure this file meets FAIR  principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)
+[Bibliography](#bibliography)
+[Additional Recommended  Reading](#additional-recommended-reading)
 
 ## 
 
@@ -157,31 +122,7 @@ files containing multiple sequences:
 - The second line is the actual sequence letters.
 
 #### Example FASTA file:
-
-> \>CL311878.1 282119_LB1-8C13_T7u LBNL-1 Rabbit BAC Library Oryctolagus
-> cuniculus genomic clone LB1-8C13, genomic survey sequence
->
-> GCTTTCTTAAGGTGACACCATAAAGGGGGACTTAAGATGGCCTTATGGGGCTGCTGCTGTGGCGCAGTGG
->
-> GTTAAAGCTCTGGCCCGAAGTGCGGGCATCCCATATGGGCGCTGGTTCTAGTCCCGGCTGCTCCTCTTCC
->
-> AATCCAGCTCTATGCTATGGCCTGGGAAAACAATAGAAAATGGCCCAAGTTCTTGGGCCCCTGCACCCAT
->
-> GTGGGAGACCCAGAGGAAGCTCCTGGCTCCTGGCTTTGGATCAGCGCAGCTCCGGCCATTGCGGCCATCT
->
-> GGGGAAGGAACCAGCGGATGGAAGACCCCTTTCTGCCTCTGTCTCTCTCTCTCTCTCTAACTTTTTCAAA
->
-> TAAATGTATCTTTTTAAAAAAAAAAAAAAAGATGGCTTAGATACAGCGAGAGTTCCCGGATTCTTTTAAC
->
-> TTCCTACATCCCAGAAAGACCAAAAATCCAGATGGTGTAGTGGGAAATGCTCTTAGCCCTTGGATGAGAA
->
-> AGCCAAATACTAAGTGTAACGATGACATTGTAATGAGCAAGTTTGTGTATTGTTTTCCATGGTAACCTAC
->
-> CTATTGGCCATCACCAGTGACCTGAGCTTCCATGAACAATGTCTGTCAATAACAGGCAGACCTCGGGGTT
->
-> CTGTGCAGTTGTCAGCTCCACCTCACACTCAGAGCCACAGTTTTGGGAGAAATGGGCACCTATCAAAAGA
->
-> CAAAAGGTGAAACATGATTGTACAGGGGACTGAACTGGTGT
+  \>CL311878.1 282119_LB1-8C13_T7u LBNL-1 Rabbit BAC Library Oryctolagus  cuniculus genomic clone LB1-8C13, genomic survey sequence   GCTTTCTTAAGGTGACACCATAAAGGGGGACTTAAGATGGCCTTATGGGGCTGCTGCTGTGGCGCAGTGG   GTTAAAGCTCTGGCCCGAAGTGCGGGCATCCCATATGGGCGCTGGTTCTAGTCCCGGCTGCTCCTCTTCC   AATCCAGCTCTATGCTATGGCCTGGGAAAACAATAGAAAATGGCCCAAGTTCTTGGGCCCCTGCACCCAT   GTGGGAGACCCAGAGGAAGCTCCTGGCTCCTGGCTTTGGATCAGCGCAGCTCCGGCCATTGCGGCCATCT   GGGGAAGGAACCAGCGGATGGAAGACCCCTTTCTGCCTCTGTCTCTCTCTCTCTCTCTAACTTTTTCAAA   TAAATGTATCTTTTTAAAAAAAAAAAAAAAGATGGCTTAGATACAGCGAGAGTTCCCGGATTCTTTTAAC   TTCCTACATCCCAGAAAGACCAAAAATCCAGATGGTGTAGTGGGAAATGCTCTTAGCCCTTGGATGAGAA   AGCCAAATACTAAGTGTAACGATGACATTGTAATGAGCAAGTTTGTGTATTGTTTTCCATGGTAACCTAC   CTATTGGCCATCACCAGTGACCTGAGCTTCCATGAACAATGTCTGTCAATAACAGGCAGACCTCGGGGTT   CTGTGCAGTTGTCAGCTCCACCTCACACTCAGAGCCACAGTTTTGGGAGAAATGGGCACCTATCAAAAGA   CAAAAGGTGAAACATGATTGTACAGGGGACTGAACTGGTGT
 
 (<https://www.ncbi.nlm.nih.gov/nuccore/CL311878.1?report=fasta>)
 
