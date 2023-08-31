@@ -82,8 +82,7 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 
 # Background
 
-FASTA and FASTQ are commonly used text-based file formats for storing and sharing nucleotide (DNA or RNA) sequences and/or amino acid (protein) sequences, and are the main focus of this primer. FASTA and FASTQ are the recognized standard file formats for bioinformatics studies, including next-generation sequencing (NGS), enabling
-large-scale exchange of data and information associated with massive sequencing projects (Sielemann et al., 2020). NGS refers to high-throughput technologies for large-scale DNA sequencing such as whole genome sequencing, whole-exome sequencing (WES, WXS), RNA-seq, miRNA-seq, ChIP-seq, and DNA Methylation. NGS experiments generate billions of short sequence reads for each sample which when combined with description and annotations can result in files ranging from a few to hundreds of gigabytes (Zhang, 2016). FASTA and FASTQ files can be opened by many sequence alignment applications or text editors. There are various applications that can convert .fasta files.
+FASTA and FASTQ are commonly used text-based file formats for storing and sharing nucleotide (DNA or RNA) sequences and/or amino acid (protein) sequences, and are the main focus of this primer. FASTA and FASTQ are the recognized standard file formats for bioinformatics studies, including next-generation sequencing (NGS), enabling large-scale exchange of data and information associated with massive sequencing projects (Sielemann et al., 2020). NGS refers to high-throughput technologies for large-scale DNA sequencing such as whole genome sequencing, whole-exome sequencing (WES, WXS), RNA-seq, miRNA-seq, ChIP-seq, and DNA Methylation. NGS experiments generate billions of short sequence reads for each sample which when combined with description and annotations can result in files ranging from a few to hundreds of gigabytes (Zhang, 2016). FASTA and FASTQ files can be opened by many sequence alignment applications or text editors. There are various applications that can convert .fasta files.
 
 ## Description of Format
 
@@ -156,23 +155,19 @@ GTTGTACTTCGTTCAATCGGTAGGTGTTTAACCGGATGGTCACGCCTACCGTGACAAAGAGATTGTCGGTGTCTTTGTGT
 
 - Repositories may have specific requirements and [guidelines](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/#:~:text=In%20FASTA%20format%20the%20line,to%2025%20characters%20or%20less) for the format of the header line, so be sure to check the requirements for the repository in which the data are being deposited. For example, GenBank requires that:
 
-  - “The SeqID must be unique for each nucleotide sequence and should
-    > not contain any spaces.”
+  - “The SeqID must be unique for each nucleotide sequence and should not contain any spaces.”
 
   - SeqID should be 25 characters or less
 
-  - Should only include “letters, digits, hyphens (-), underscores (\_),
-    > periods (.), colons (:), asterisks (\*), and number signs (#)”
+  - Should only include “letters, digits, hyphens (-), underscores (\_), periods (.), colons (:), asterisks (\*), and number signs (#)”
 
-  - “Information about the source organism from which the sequence was
-    > obtained follows the SeqID and must be in the format
-    > \[modifier=text\].”
+  - “Information about the source organism from which the sequence was obtained follows the SeqID and must be in the format \[modifier=text\].”
 
   - The sequence title is the final component of the header. “The title should contain a brief description of the sequence” ([National Library of Medicine, 2021](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/)).
 
 - There may also be repository-specific requirements for the sequence, which is formatted as a one-letter character string. For example, for sequences being deposited in GenBank, the sequence information should only include standard amino acid (U and \* are acceptable) and nucleic acid (A,C,G,T) codes and gaps (a single hyphen or dash) or alignment characters. “For sequences that are not contained within an alignment, "?" or "-" characters” are not allowed, and the “IUPAC approved symbol "N" for ambiguous characters” should be used instead ([National Library of Medicine, 2021](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/)).
 
-- <span class="mark">In the sequence itself, it is customary to use separate lines of 60 or 70 characters in length for readability reasons; some repositories will have their own requirements (e.g., GenBank recommends no longer than 80 characters) ([National Library of Medicine, 2021](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/))<span class="mark">.
+- In the sequence itself, it is customary to use separate lines of 60 or 70 characters in length for readability reasons; some repositories will have their own requirements (e.g., GenBank recommends no longer than 80 characters) ([National Library of Medicine, 2021](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/)).
 
 ## Sample data set citations
 
@@ -180,8 +175,7 @@ GTTGTACTTCGTTCAATCGGTAGGTGTTTAACCGGATGGTCACGCCTACCGTGACAAAGAGATTGTCGGTGTCTTTGTGT
 
 - Nucleotide \[Internet\]. Bethesda (MD): National Library of Medicine (US), National Center for Biotechnology Information; \[1988\] – . Accession No. CL311878.1, 282119_LB1-8C13_T7u LBNL-1 Rabbit BAC Library Oryctolagus cuniculus genomic clone LB1-8C13, genomic survey sequence.; \[2022 December 13\]. Available from: [https://www.ncbi.nlm.nih.gov/nuccore/CL311878.1](https://www.ncbi.nlm.nih.gov/nuccore/CL311878.1)
 
-N.B.! The order of the information is not as important as having
-sufficient information to find the dataset used.
+N.B.! The order of the information is not as important as having sufficient information to find the dataset used.
 
 ## Key questions to ask yourself
 
@@ -209,28 +203,15 @@ sufficient information to find the dataset used.
 
 - What repository is most appropriate for the type of data being shared?
 
-  - NIH searchable list of [Repositories for Sharing Scientific
-    > Data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)
+  - NIH searchable list of [Repositories for Sharing Scientific Data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)
 
-  - [Re3data](https://www.re3data.org/) registry of research data
-    > repositories
+  - [Re3data](https://www.re3data.org/) registry of research data repositories
 
 - Some common data repositories for:
 
-  - Non-human genomic data: [Gene Expression Omnibus
-    > (GEO)](http://ncbi.nlm.nih.gov/geo/), [Sequence Read
-    > Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra), [Array
-    > Express](https://www.ebi.ac.uk/biostudies/arrayexpress),
-    > [Mouse Genome Informatics
-    > (MGI)](https://www.informatics.jax.org/),
-    > [WormBase](https://wormbase.org/), the [Zebrafish Model
-    > Organism Database (ZFIN)](https://zfin.org/),
-    > [GenBank](https://www.ncbi.nlm.nih.gov/genbank/),
-    > [European Nucleotide Archive
-    > (ENA)](https://www.ebi.ac.uk/ena/browser), or [DNA Data
-    > Bank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp/).
+  - Non-human genomic data: [Gene Expression Omnibus (GEO)](http://ncbi.nlm.nih.gov/geo/), [Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra), [Array Express](https://www.ebi.ac.uk/biostudies/arrayexpress), [Mouse Genome Informatics (MGI)](https://www.informatics.jax.org/), [WormBase](https://wormbase.org/), the [Zebrafish Model Organism Database (ZFIN)](https://zfin.org/), [GenBank](https://www.ncbi.nlm.nih.gov/genbank/), [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser), or [DNA Data Bank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp/).
 
-  - Humangenomic data: [dpGaP](https://www.ncbi.nlm.nih.gov/gap/)
+  - Human genomic data: [dpGaP](https://www.ncbi.nlm.nih.gov/gap/)
 
 ### Metadata and documentation:
 
@@ -256,13 +237,7 @@ sufficient information to find the dataset used.
 
 ## Applicable metadata standard, core elements and readme requirements 
 
-The [Genomic Standards Consortium (GSC)](https://www.gensc.org/)
-is a community-driven organization formed in 2005 to establish a
-**minimum** set of metadata descriptions for genomic data. These are
-collectively referred to as MIxS (Minimum Information about any (x)
-Sequence). In addition to these core elements, there are “extensions”
-available for various types of genomic data which include more than the
-minimal elements to make the data more FAIR.
+The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-driven organization formed in 2005 to establish a **minimum** set of metadata descriptions for genomic data. These are collectively referred to as MIxS (Minimum Information about any (x) Sequence). In addition to these core elements, there are “extensions” available for various types of genomic data which include more than the minimal elements to make the data more FAIR.
 
 - The [core descriptors](https://www.gensc.org/pages/standards/checklists.html) for all genomic data are:
 
@@ -282,15 +257,15 @@ minimal elements to make the data more FAIR.
 
   - Sequencing method
 
-- <span class="mark">The extensions include [<span class="mark">checklists](https://www.gensc.org/pages/standards/checklists.html) <span class="mark">for genome, metagenome, marker gene, single amplified genome, metagenome-assembled genome, and Uncultivated Virus Genome sequences. The genome sequence and marker gene sequences are further divided into categories to increase specificity.
+- The extensions include <https://www.gensc.org/pages/standards/checklists.html> for genome, metagenome, marker gene, single amplified genome, metagenome-assembled genome, and Uncultivated Virus Genome sequences. The genome sequence and marker gene sequences are further divided into categories to increase specificity.
 
 - Repositories may have their own requirements and standards as well. For example, see the required descriptors for sequencing experiments in the [International Nucleotide Sequence Database Collaboration (INSDC) databases](https://www.insdc.org/), including instrument platform, instrument model, library source, library strategy, and other fields that provide necessary documentation of sequence data context and provenance.
 
-- <span class="mark">When possible, use appropriate standards, controlled vocabularies, and/or taxonomies specific to the field of study (e.g., one of hundreds of different biological ontologies searchable in [BioPortal](https://bioportal.bioontology.org) or in [The Open Biological and Biomedical Ontology (OBO) Foundry](http://obofoundry.org/) (Brown et al., 2018)). In the absence of standards, general [readme](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files) metadata should accompany the FASTA/FASTQ files, with the core descriptors listed above, along with as much experimental data as possible. Stevens et.al. (2020) state that “\[M\]anual curation remains the gold standard for ensuring high-quality metadata.”
+- When possible, use appropriate standards, controlled vocabularies, and/or taxonomies specific to the field of study (e.g., one of hundreds of different biological ontologies searchable in [BioPortal](https://bioportal.bioontology.org) or in [The Open Biological and Biomedical Ontology (OBO) Foundry](http://obofoundry.org/) (Brown et al., 2018)). In the absence of standards, general [readme](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files) metadata should accompany the FASTA/FASTQ files, with the core descriptors listed above, along with as much experimental data as possible. Stevens et.al. (2020) state that “\[M\]anual curation remains the gold standard for ensuring high-quality metadata.”
 
 ## Resources for reviewing data
 
-- [NIH Submission Portal](https://submit.ncbi.nlm.nih.gov/)   This portal developed by the NIH helps researchers determine which NCBI repository might be the best option based on the type of genomic data being gathered. Before depositing data into an institutional repository, it is good practice to check whether data should be submitted to one of these databases first. In some instances, these repositories will also ask researchers before submission to confirm that the data are a match for the repository and will be accepted.FAIRsharing ([https://fairsharing.org/](https://fairsharing.org/)) is another resource that can be used to navigate a wider range of repositories than solely NCBI-related ones.
+- [NIH Submission Portal](https://submit.ncbi.nlm.nih.gov/): This portal developed by the NIH helps researchers determine which NCBI repository might be the best option based on the type of genomic data being gathered. Before depositing data into an institutional repository, it is good practice to check whether data should be submitted to one of these databases first. In some instances, these repositories will also ask researchers before submission to confirm that the data are a match for the repository and will be accepted.FAIRsharing ([https://fairsharing.org/](https://fairsharing.org/)) is another resource that can be used to navigate a wider range of repositories than solely NCBI-related ones.
 
 ## Software for viewing or analyzing data 
 
@@ -318,63 +293,30 @@ minimal elements to make the data more FAIR.
 
 ## Bibliography
 
-<span class="mark">Brouwer, A. C., with contributions by Nathan L.
-Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of
-r for bioinformatics 2. 0*. Retrieved May 25, 2023, from
-[https://brouwern.github.io/lbrb/introducingFASTA.htm](https://brouwern.github.io/lbrb/introducingFASTA.htm)l
+- Brouwer, A. C., with contributions by Nathan L. Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of r for bioinformatics 2. 0*. Retrieved May 25, 2023, from [https://brouwern.github.io/lbrb/introducingFASTA.htm](https://brouwern.github.io/lbrb/introducingFASTA.htm)l
 
-<span class="mark">Brown, A. V., Campbell, J. D., Assefa, T., Grant, D.,
-Nelson, R. T., Weeks, N. T., & Cannon, S. B. (2018). Ten quick tips for
-sharing open genomic data. *PLOS Computational Biology*, *14*(12),
-e1006472. https://doi.org/10.1371/journal.pcbi.1006472
+- Brown, A. V., Campbell, J. D., Assefa, T., Grant, D., Nelson, R. T., Weeks, N. T., & Cannon, S. B. (2018). Ten quick tips for sharing open genomic data. *PLOS Computational Biology*, *14*(12), e1006472. https://doi.org/10.1371/journal.pcbi.1006472
 
-<span class="mark">Corpas, M., Kovalevskaya, N. V., McMurray, A., &
-Nielsen, F. G. G. (2018). A FAIR guide for data providers to maximise
-sharing of human genomic data. *PLOS Computational Biology*, *14*(3),
-e1005873.
-[https://doi.org/10.1371/journal.pcbi.1005873](https://doi.org/10.1371/journal.pcbi.1005873)
+- Corpas, M., Kovalevskaya, N. V., McMurray, A., & Nielsen, F. G. G. (2018). A FAIR guide for data providers to maximise sharing of human genomic data. *PLOS Computational Biology*, *14*(3), e1005873. [https://doi.org/10.1371/journal.pcbi.1005873](https://doi.org/10.1371/journal.pcbi.1005873)
 
-<span class="mark">FASTA format. (2023, August 23). In *Wikipedia*.
-[https://en.wikipedia.org/w/index.php?title=FASTA_format&oldid=1144411708](https://en.wikipedia.org/w/index.php?title=FASTA_format&oldid=1144411708)
+- FASTA format. (2023, August 23). In *Wikipedia*. [https://en.wikipedia.org/w/index.php?title=FASTA_format&oldid=1144411708](https://en.wikipedia.org/w/index.php?title=FASTA_format&oldid=1144411708)
 
-<span class="mark">FASTQ format. (2023, August 28). In *Wikipedia*.
-https://en.wikipedia.org/w/index.php?title=FASTQ_format&oldid=1159281216
+- FASTQ format. (2023, August 28). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=FASTQ_format&oldid=1159281216
 
-<span class="mark">National Library of Medicine. (2021, February 24).
-*Fasta format for nucleotide sequences*. (n.d.). Retrieved July 12,
-2023, from
-<https://www.ncbi.nlm.nih.gov/genbank/fastaformat/>
+- National Library of Medicine. (2021, February 24). *Fasta format for nucleotide sequences*. (n.d.). Retrieved July 12, 2023, from <https://www.ncbi.nlm.nih.gov/genbank/fastaformat/>
 
-<span class="mark">Phred quality score. (2023, July 10). In *Wikipedia*.
-[https://en.wikipedia.org/w/index.php?title=Phred_quality_score&oldid=1164616985](https://en.wikipedia.org/w/index.php?title=Phred_quality_score&oldid=1164616985)
+- Phred quality score. (2023, July 10). In *Wikipedia*. [https://en.wikipedia.org/w/index.php?title=Phred_quality_score&oldid=1164616985](https://en.wikipedia.org/w/index.php?title=Phred_quality_score&oldid=1164616985)
 
-<span class="mark">Sielemann, K., Hafner, A., & Pucker, B. (2020). The
-reuse of public datasets in the life sciences: Potential risks and
-rewards. *PeerJ*, *8*, e9954. https://doi.org/10.7717/peerj.9954
+- Sielemann, K., Hafner, A., & Pucker, B. (2020). The reuse of public datasets in the life sciences: Potential risks and rewards. *PeerJ*, *8*, e9954. https://doi.org/10.7717/peerj.9954
 
-<span class="mark">Stevens, I., Mukarram, A. K., Hörtenhuber, M.,
-Meehan, T. F., Rung, J., & Daub, C. O. (2020). Ten simple rules for
-annotating sequencing experiments. *PLOS Computational Biology*,
-*16*(10), e1008260. https://doi.org/10.1371/journal.pcbi.1008260
+- Stevens, I., Mukarram, A. K., Hörtenhuber, M., Meehan, T. F., Rung, J., & Daub, C. O. (2020). Ten simple rules for annotating sequencing experiments. *PLOS Computational Biology*, *16*(10), e1008260. https://doi.org/10.1371/journal.pcbi.1008260
 
-<span class="mark">Ten Hoopen, P., Finn, R. D., Bongo, L. A., Corre, E.,
-Fosso, B., Meyer, F., Mitchell, A., Pelletier, E., Pesole, G.,
-Santamaria, M., Willassen, N. P., & Cochrane, G. (2017). The metagenomic
-data life-cycle: Standards and best practices. *GigaScience*, *6*(8).
-https://doi.org/10.1093/gigascience/gix047
+- Ten Hoopen, P., Finn, R. D., Bongo, L. A., Corre, E., Fosso, B., Meyer, F., Mitchell, A., Pelletier, E., Pesole, G., Santamaria, M., Willassen, N. P., & Cochrane, G. (2017). The metagenomic data life-cycle: Standards and best practices. *GigaScience*, *6*(8). https://doi.org/10.1093/gigascience/gix047
 
-<span class="mark">Zhang, H. (2016). Overview of sequence data formats.
-*Methods in Molecular Biology (Clifton, N.J.)*, *1418*, 3–17.
-[https://doi.org/10.1007/978-1-4939-3578-9_1](https://doi.org/10.1007/978-1-4939-3578-9_1)
+- Zhang, H. (2016). Overview of sequence data formats. *Methods in Molecular Biology (Clifton, N.J.)*, *1418*, 3–17. [https://doi.org/10.1007/978-1-4939-3578-9_1](https://doi.org/10.1007/978-1-4939-3578-9_1)
 
 ## Additional Recommended Reading
 
-<span class="mark">Brouwer, A. C., with contributions by Nathan L.
-Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of
-r for bioinformatics 2. 0*. Retrieved May 25, 2023, from
-https://brouwern.github.io/lbrb/introducingFASTA.html
+- Brouwer, A. C., with contributions by Nathan L. Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of r for bioinformatics 2. 0*. Retrieved May 25, 2023, from https://brouwern.github.io/lbrb/introducingFASTA.html
 
-<span class="mark">Brown, A. V., Campbell, J. D., Assefa, T., Grant, D.,
-Nelson, R. T., Weeks, N. T., & Cannon, S. B. (2018). Ten quick tips for
-sharing open genomic data. *PLOS Computational Biology*, *14*(12),
-e1006472. https://doi.org/10.1371/journal.pcbi.1006472
+- Brown, A. V., Campbell, J. D., Assefa, T., Grant, D., Nelson, R. T., Weeks, N. T., & Cannon, S. B. (2018). Ten quick tips for sharing open genomic data. *PLOS Computational Biology*, *14*(12), e1006472. https://doi.org/10.1371/journal.pcbi.1006472
