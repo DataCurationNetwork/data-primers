@@ -39,30 +39,30 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 (Adapted from Brown et al., 2018) | <li>Do you have the expected number of sequence records or files (do they match the file manifest in the readme, or in the accompanying article)? </li><li>Are there outliers in sequence lengths? </li><li>Are there duplicates in the sequence identifiers?</li><li>If FASTQ, do the length of the sequence line (line 2) and of the quality designation line (line 4) match?</li><li>Are there repository-specific requirements for formatting or length?</li><li>Are there extra or unsupported characters, e.g., tabs in a definition-line or asterisks or periods in the sequence line? </li> |
 | Tools for curation review |  <li>Text editor (or [glogg](http://glogg.bonnefon.org/index.html) for large files) </li><li> [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi), or other sequence editors  </li><li>R, Python, or other scripting languages</li> |
 | Date Created | August 2023|
-| Created by | Laura Bowman <br> Shannon Sheridan <br> Briana Wham <br> Sarah J. Wright - Cornell University <br> DCN Mentor - Sarah Wright - Cornell University |
+| Created by | Laura Bowman <br> Shannon Sheridan <br> Briana Wham <br> Sarah J. Wright - Cornell University <br><br> DCN Mentor - Sarah Wright - Cornell University |
 
 # Table of Contents 
 
-[Background](#background)
-[Description of Format](#description-of-format)   
-[FASTA](#fasta)
-[Example FASTA file:](#example-fasta-file)
-[FASTQ](#fastq)
-[Example FASTQ file:](#example-fastq-file)
-[Diving Deeper into FASTA/FASTQ formats and  requirements](#diving-deeper-into-fastafastq-formats-and-requirements)   
-[Sample data set citations](#sample-data-set-citations)
-[Key questions to ask yourself](#key-questions-to-ask-yourself)
-[Inspecting the files:](#inspecting-the-files)
-[Human subjects and/or ethics:](#human-subjects-andor-ethics)
-[Repositories to consider:](#repositories-to-consider)
-[Metadata and documentation:](#metadata-and-documentation)
-[Key clarifications to get from  researcher](#key-clarifications-to-get-from-researcher)
-[Applicable metadata standard, core elements and readme  requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
-[Resources for reviewing data](#resources-for-reviewing-data)
-[Software for viewing or analyzing  data](#software-for-viewing-or-analyzing-data)
-[Preservation actions](#preservation-actions)
-[What to look for to make sure this file meets FAIR  principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)
-[Bibliography](#bibliography)
+[Background](#background)<br>
+[Description of Format](#description-of-format) <br>  
+[FASTA](#fasta)<br>
+[Example FASTA file](#example-fasta-file)<br>
+[FASTQ](#fastq)<br>
+[Example FASTQ file](#example-fastq-file)
+[Diving Deeper into FASTA/FASTQ formats and  requirements](#diving-deeper-into-fastafastq-formats-and-requirements)<br>   
+[Sample data set citations](#sample-data-set-citations)<br>
+[Key questions to ask yourself](#key-questions-to-ask-yourself)<br>
+[Inspecting the files](#inspecting-the-files)<br>
+[Human subjects and/or ethics](#human-subjects-andor-ethics)<br>
+[Repositories to consider](#repositories-to-consider)<br>
+[Metadata and documentation](#metadata-and-documentation)<br>
+[Key clarifications to get from  researcher](#key-clarifications-to-get-from-researcher)<br>
+[Applicable metadata standard, core elements and readme  requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)<br>
+[Resources for reviewing data](#resources-for-reviewing-data)<br>
+[Software for viewing or analyzing  data](#software-for-viewing-or-analyzing-data)<br>
+[Preservation actions](#preservation-actions)<br>
+[What to look for to make sure this file meets FAIR  principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)<br>
+[Bibliography](#bibliography)<br>
 [Additional Recommended  Reading](#additional-recommended-reading)
 
 ## 
