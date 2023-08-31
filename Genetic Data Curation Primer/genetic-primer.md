@@ -125,17 +125,9 @@ CAAAAGGTGAAACATGATTGTACAGGGGACTGAACTGGTGT
 
 ### FASTQ
 
-The FASTQ format stores the sequence in addition to its quality score
-(most use the Phred quality score). The Phred quality score is a
-single-character representation of the quality of the sequence read, or
-the probability that the sequence is what it has been identified as
-(<span class="mark">Phred quality score, *Wikipedia*, 2023*)*.
-Both the sequence and the quality score are encoded with a single ASCII
-character, and there should be the same number of quality score symbols
-as sequence letters. These files are also plain text, can be represented
-with the extension “.fq” or “.fastq”, and are often compressed to GNU
-zip format (.gz) Each FASTQ file follows a four line format
-(<span class="mark">FASTQ format*,* 2023*)*:
+The FASTQ format stores the sequence in addition to its quality score (most use the Phred quality score). The Phred quality score is a
+single-character representation of the quality of the sequence read, or the probability that the sequence is what it has been identified as
+(Phred quality score, *Wikipedia*, 2023). Both the sequence and the quality score are encoded with a single ASCII character, and there should be the same number of quality score symbols as sequence letters. These files are also plain text, can be represented with the extension “.fq” or “.fastq”, and are often compressed to GNU zip format (.gz) Each FASTQ file follows a four line format (FASTQ format, 2023):
 
 - The first line starts “with a “@” character and is followed by a sequence identifier and an optional description”
 
