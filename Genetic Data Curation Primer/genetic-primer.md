@@ -48,8 +48,8 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 [FASTA](#fasta)<br>
 [Example FASTA file](#example-fasta-file)<br>
 [FASTQ](#fastq)<br>
-[Example FASTQ file](#example-fastq-file)
-[Diving Deeper into FASTA/FASTQ formats and  requirements](#diving-deeper-into-fastafastq-formats-and-requirements)<br>   
+[Example FASTQ file](#example-fastq-file)<br>
+[Diving Deeper into FASTA/FASTQ formats and requirements](#diving-deeper-into-fastafastq-formats-and-requirements)<br>
 [Sample data set citations](#sample-data-set-citations)<br>
 [Key questions to ask yourself](#key-questions-to-ask-yourself)<br>
 [Inspecting the files](#inspecting-the-files)<br>
