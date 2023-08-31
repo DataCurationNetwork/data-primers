@@ -49,17 +49,18 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 >> [Example FASTA file](#example-fasta-file)<br>
 >  [FASTQ](#fastq)<br>
 >> [Example FASTQ file](###example-fastq-file)<br>
->  [Diving Deeper into FASTA/FASTQ formats and requirements](##diving-deeper-into-fastafastq-formats-and-requirements)<br>
-[Sample data set citations](#sample-data-set-citations)<br>
+>  [Diving Deeper into FASTA/FASTQ formats and requirements](##diving-deeper-into-fastafastq-formats-and-requirements)
+
+[Sample data set citations](#sample-data-set-citations)
 [Key questions to ask yourself](#key-questions-to-ask-yourself)<br>
 >  [Inspecting the files](##inspecting-the-files)<br> [Human subjects and/or ethics](##human-subjects-andor-ethics)<br> [Repositories to consider](##repositories-to-consider)<br> [Metadata and documentation](##metadata-and-documentation)<br>
-[Key clarifications to get from  researcher](#key-clarifications-to-get-from-researcher)<br>
-[Applicable metadata standard, core elements and readme  requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)<br>
-[Resources for reviewing data](#resources-for-reviewing-data)<br>
-[Software for viewing or analyzing  data](#software-for-viewing-or-analyzing-data)<br>
-[Preservation actions](#preservation-actions)<br>
-[What to look for to make sure this file meets FAIR  principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)<br>
-[Bibliography](#bibliography)<br>
+[Key clarifications to get from  researcher](#key-clarifications-to-get-from-researcher)
+[Applicable metadata standard, core elements and readme  requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
+[Resources for reviewing data](#resources-for-reviewing-data)
+[Software for viewing or analyzing  data](#software-for-viewing-or-analyzing-data)
+[Preservation actions](#preservation-actions)
+[What to look for to make sure this file meets FAIR  principles](#what-to-look-for-to-make-sure-this-file-meets-fair-principles)
+[Bibliography](#bibliography)
 [Additional Recommended  Reading](#additional-recommended-reading)
 
 
