@@ -44,7 +44,7 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 # Table of Contents 
 
 [Background](#background)<br>
-[Description of Format](#description-of-format) <br>  
+[Description of Format](#description-of-format) <br>
 [FASTA](#fasta)<br>
 [Example FASTA file](#example-fasta-file)<br>
 [FASTQ](#fastq)<br>
