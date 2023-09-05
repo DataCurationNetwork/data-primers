@@ -250,7 +250,7 @@ The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-
 
 ## Resources for reviewing data
 
-- [NIH Submission Portal](https://submit.ncbi.nlm.nih.gov/): This portal developed by the NIH helps researchers determine which NCBI repository might be the best option based on the type of genomic data being gathered. Before depositing data into an institutional repository, it is good practice to check whether data should be submitted to one of these databases first. In some instances, these repositories will also ask researchers before submission to confirm that the data are a match for the repository and will be accepted.FAIRsharing ([https://fairsharing.org/](https://fairsharing.org/)) is another resource that can be used to navigate a wider range of repositories than solely NCBI-related ones.
+- [NIH Submission Portal](https://submit.ncbi.nlm.nih.gov/): This portal developed by the NIH helps researchers determine which NCBI repository might be the best option based on the type of genomic data being gathered. Before depositing data into an institutional repository, it is good practice to check whether data should be submitted to one of these databases first. In some instances, these repositories will also ask researchers before submission to confirm that the data are a match for the repository and will be accepted. FAIRsharing ([https://fairsharing.org/](https://fairsharing.org/)) is another resource that can be used to navigate a wider range of repositories than solely NCBI-related ones.
 
 ## Software for viewing or analyzing data 
 
