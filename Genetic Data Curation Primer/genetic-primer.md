@@ -3,7 +3,7 @@
 
 # Genetic Data Curation Primer
 
-Authors: Laura Bowman, Dryad & Penn State University ([ljbowman10@gmail.com](mailto:ljbowman10@gmail.com)); Shannon Sheridan, Pacific Northwest National Laboratory ([shannon.sheridan@pnnl.gov](mailto:shannon.sheridan@pnnl.gov)); Briana Wham, Penn State University (bde125@psu.edu)
+Authors: Laura Bowman, Dryad & Penn State University ([ljbowman10@gmail.com](mailto:ljbowman10@gmail.com)); Shannon Sheridan, Pacific Northwest National Laboratory ([shannon.sheridan@pnnl.gov](mailto:shannon.sheridan@pnnl.gov)); Briana Wham, Penn State University (bde125@psu.edu); Sarah Wright, Cornell University, [sjw256@cornell.edu](mailto:sjw256@cornell.edu)
 
 Mentor:  Sarah Wright, Cornell University (sjw256@cornell.edu)
 
@@ -35,11 +35,10 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 | Source and affiliation | The original FASTA/Pearson format was released in 1985 and “is described in the documentation for the FASTA suite of programs” (FASTA format, 2023) |
 | Metadata standards |  <li> [Minimal Information about a high throughput SEQuencing Experiment (MINSEQE)](https://fairsharing.org/FAIRsharing.a55z32) </li> <li> [MIxS (Minimum Information about any (x) Sequence) standards](https://www.gensc.org/pages/standards/checklists.html) </li> |
 | Key questions for curation review | <li>What repository is most appropriate for the type of data being shared? Are there any funder requirements about which repository should be used?</li><li>Is there accompanying documentation, and does it contain sufficient details needed to reproduce the study and/or to support database queries that will discover the data (MINSEQE or MIxS at minimum)?</li><li>Does this involve any research on information or physical samples taken from human beings?</li><li>Is any other sensitive information included, (e.g., location information for endangered species)?</li> |
-| File-level inspection
-(Adapted from Brown et al., 2018) | <li>Do you have the expected number of sequence records or files (do they match the file manifest in the readme, or in the accompanying article)? </li><li>Are there outliers in sequence lengths? </li><li>Are there duplicates in the sequence identifiers?</li><li>If FASTQ, do the length of the sequence line (line 2) and of the quality designation line (line 4) match?</li><li>Are there repository-specific requirements for formatting or length?</li><li>Are there extra or unsupported characters, e.g., tabs in a definition-line or asterisks or periods in the sequence line? </li> |
+| File-level inspection (Adapted from Brown et al., 2018) | <li>Do you have the expected number of sequence records or files (do they match the file manifest in the readme, or in the accompanying article)? </li><li>Are there outliers in sequence lengths? </li><li>Are there duplicates in the sequence identifiers?</li><li>If FASTQ, do the length of the sequence line (line 2) and of the quality designation line (line 4) match?</li><li>Are there repository-specific requirements for formatting or length?</li><li>Are there extra or unsupported characters, e.g., tabs in a definition-line or asterisks or periods in the sequence line? </li> |
 | Tools for curation review |  <li>Text editor (or [glogg](http://glogg.bonnefon.org/index.html) for large files) </li><li> [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi), or other sequence editors  </li><li>R, Python, or other scripting languages</li> |
 | Date Created | August 2023|
-| Created by | Laura Bowman <br> Shannon Sheridan <br> Briana Wham <br> Sarah J. Wright - Cornell University <br><br> DCN Mentor - Sarah Wright - Cornell University |
+| Created by | Laura Bowman (Dryad & Penn State University), Shannon Sheridan (Pacific Northwest National Laboratory),  Briana Wham (Penn State University), Sarah J. Wright (Cornell University) |
 
 # Table of Contents 
 
@@ -84,9 +83,9 @@ Peer Reviewers: Leslie Delserone and Katie Wampole
 
 FASTA and FASTQ are commonly used text-based file formats for storing and sharing nucleotide (DNA or RNA) sequences and/or amino acid (protein) sequences, and are the main focus of this primer. FASTA and FASTQ are the recognized standard file formats for bioinformatics studies, including next-generation sequencing (NGS), enabling large-scale exchange of data and information associated with massive sequencing projects (Sielemann et al., 2020). NGS refers to high-throughput technologies for large-scale DNA sequencing such as whole genome sequencing, whole-exome sequencing (WES, WXS), RNA-seq, miRNA-seq, ChIP-seq, and DNA Methylation. NGS experiments generate billions of short sequence reads for each sample which when combined with description and annotations can result in files ranging from a few to hundreds of gigabytes (Zhang, 2016). FASTA and FASTQ files can be opened by many sequence alignment applications or text editors. There are various applications that can convert .fasta files.
 
-## Description of Format
+# Description of Format
 
-### FASTA
+## FASTA
 
 The FASTA file format is the standard text-based format used for nucleotide or amino acid sequences. Sequence data are represented using single-letter codes, and should typically be standard IUB/IUPAC amino acid and nucleic acid codes (Brouwer, n.d.). While FASTA files most frequently use the file extensions “.fa” or “.fasta”, there are, in fact, many variations, with the file extension denoting the type of sequence the file represents. Examples include:
 
@@ -104,25 +103,15 @@ A FASTA file can contain one sequence or multiple sequences. If a FASTA file con
 
 - The second line is the actual sequence letters.
 
-#### Example FASTA file:
+## Example FASTA file:
 \>CL311878.1 282119_LB1-8C13_T7u LBNL-1 Rabbit BAC Library Oryctolagus cuniculus genomic clone LB1-8C13, genomic survey sequence
 
-GCTTTCTTAAGGTGACACCATAAAGGGGGACTTAAGATGGCCTTATGGGGCTGCTGCTGTGGCGCAGTGG
-GTTAAAGCTCTGGCCCGAAGTGCGGGCATCCCATATGGGCGCTGGTTCTAGTCCCGGCTGCTCCTCTTCC
-AATCCAGCTCTATGCTATGGCCTGGGAAAACAATAGAAAATGGCCCAAGTTCTTGGGCCCCTGCACCCAT
-GTGGGAGACCCAGAGGAAGCTCCTGGCTCCTGGCTTTGGATCAGCGCAGCTCCGGCCATTGCGGCCATCT
-GGGGAAGGAACCAGCGGATGGAAGACCCCTTTCTGCCTCTGTCTCTCTCTCTCTCTCTAACTTTTTCAAA
-TAAATGTATCTTTTTAAAAAAAAAAAAAAAGATGGCTTAGATACAGCGAGAGTTCCCGGATTCTTTTAAC
-TTCCTACATCCCAGAAAGACCAAAAATCCAGATGGTGTAGTGGGAAATGCTCTTAGCCCTTGGATGAGAA
-AGCCAAATACTAAGTGTAACGATGACATTGTAATGAGCAAGTTTGTGTATTGTTTTCCATGGTAACCTAC
-CTATTGGCCATCACCAGTGACCTGAGCTTCCATGAACAATGTCTGTCAATAACAGGCAGACCTCGGGGTT
-CTGTGCAGTTGTCAGCTCCACCTCACACTCAGAGCCACAGTTTTGGGAGAAATGGGCACCTATCAAAAGA
-CAAAAGGTGAAACATGATTGTACAGGGGACTGAACTGGTGT
+GCTTTCTTAAGGTGACACCATAAAGGGGGACTTAAGATGGCCTTATGGGGCTGCTGCTGTGGCGCAGTGGGTTAAAGCTCTGGCCCGAAGTGCGGGCATCCCATATGGGCGCTGGTTCTAGTCCCGGCTGCTCCTCTTCCAATCCAGCTCTATGCTATGGCCTGGGAAAACAATAGAAAATGGCCCAAGTTCTTGGGCCCCTGCACCCATGTGGGAGACCCAGAGGAAGCTCCTGGCTCCTGGCTTTGGATCAGCGCAGCTCCGGCCATTGCGGCCATCTGGGGAAGGAACCAGCGGATGGAAGACCCCTTTCTGCCTCTGTCTCTCTCTCTCTCTCTAACTTTTTCAAATAAATGTATCTTTTTAAAAAAAAAAAAAAAGATGGCTTAGATACAGCGAGAGTTCCCGGATTCTTTTAACTTCCTACATCCCAGAAAGACCAAAAATCCAGATGGTGTAGTGGGAAATGCTCTTAGCCCTTGGATGAGAAAGCCAAATACTAAGTGTAACGATGACATTGTAATGAGCAAGTTTGTGTATTGTTTTCCATGGTAACCTACCTATTGGCCATCACCAGTGACCTGAGCTTCCATGAACAATGTCTGTCAATAACAGGCAGACCTCGGGGTTCTGTGCAGTTGTCAGCTCCACCTCACACTCAGAGCCACAGTTTTGGGAGAAATGGGCACCTATCAAAAGACAAAAGGTGAAACATGATTGTACAGGGGACTGAACTGGTGT
 
 
 (<https://www.ncbi.nlm.nih.gov/nuccore/CL311878.1?report=fasta>)
 
-### FASTQ
+## FASTQ
 
 The FASTQ format stores the sequence in addition to its quality score (most use the Phred quality score). The Phred quality score is a
 single-character representation of the quality of the sequence read, or the probability that the sequence is what it has been identified as
@@ -136,7 +125,7 @@ single-character representation of the quality of the sequence read, or the prob
 
 - The fourth line contains the quality values for the sequence, and should match the number of letters in the sequence in the second line.
 
-#### Example FASTQ file:
+### Example FASTQ file:
 
 @ee15a423-b008-44be-a4b2-5441d11b0b94
 runid=fa1d76e661ac2bbb53a002e85e75a30e91827c51 sampleid=1 read=5087
@@ -144,9 +133,9 @@ ch=53 start_time=2019-10-18T22:14:05Z
 
 GTTGTACTTCGTTCAATCGGTAGGTGTTTAACCGGATGGTCACGCCTACCGTGACAAAGAGATTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGCATTATGCATGAACGTAATGCCCATTAGTTGTGAATCCACCATGCGCGGAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTGTC
 
-\\+
++
 
-\\##\\$&\\$&/035881()'\\$0&\\\*('-.=;685()\\$.%(\\$'%%&#&)+..0,&+&%.-/+,%&()\\$3:0&@09BF=\\>CC8(78029F7=\\<=)@+.6CCFFC@-8%2579\\<B8;88412134,,;:8./,#1#&(%((09;B=??48\\<=\\<@79\\\*-:B540,8=B=444:\\<571-B5=ED2.56;110.5+,\\\*)%%\\\*
+##$&$&/035881()'$0&\*('-.=;685()$.%($'%%&#&)+..0,&+&%.-/+,%&()$3:0&@09BF=>CC8(78029F7=<=)@+.6CCFFC@-8%2579<B8;88412134,,;:8./,#1#&(%((09;B=??48<=<@79\*-:B540,8=B=444:<571-B5=ED2.56;110.5+,\*)%%\*
 
 (Raposa. (2020). Sample Fastq Files: 1_control_psbA3_2019_minq7.fastq
 \[Data set\]. Zenodo. https://doi.org/10.5281/zenodo.3736457)
