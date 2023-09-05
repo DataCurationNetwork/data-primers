@@ -125,7 +125,7 @@ single-character representation of the quality of the sequence read, or the prob
 
 - The fourth line contains the quality values for the sequence, and should match the number of letters in the sequence in the second line.
 
-### Example FASTQ file:
+## Example FASTQ file:
 
 @ee15a423-b008-44be-a4b2-5441d11b0b94 runid=fa1d76e661ac2bbb53a002e85e75a30e91827c51 sampleid=1 read=5087 ch=53 start_time=2019-10-18T22:14:05Z
 GTTGTACTTCGTTCAATCGGTAGGTGTTTAACCGGATGGTCACGCCTACCGTGACAAAGAGATTGTCGGTGTCTTTGTGTTTCTGTTGGTGCTGATATTGCATTATGCATGAACGTAATGCCCATTAGTTGTGAATCCACCATGCGCGGAAGATAGAGCGACAGGCAAGTCACAAAGACACCGACAACTGTC
@@ -154,7 +154,7 @@ GTTGTACTTCGTTCAATCGGTAGGTGTTTAACCGGATGGTCACGCCTACCGTGACAAAGAGATTGTCGGTGTCTTTGTGT
 
 - In the sequence itself, it is customary to use separate lines of 60 or 70 characters in length for readability reasons; some repositories will have their own requirements (e.g., GenBank recommends no longer than 80 characters) ([National Library of Medicine, 2021](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/)).
 
-## Sample data set citations
+# Sample data set citations
 
 - Citation examples for some of the popular NCBI resources: [https://ftp.ncbi.nlm.nih.gov/pub/education/supportcenter/NCBI_services_citation_examples.txt](https://ftp.ncbi.nlm.nih.gov/pub/education/supportcenter/NCBI_services_citation_examples.txt)
 
@@ -162,9 +162,9 @@ GTTGTACTTCGTTCAATCGGTAGGTGTTTAACCGGATGGTCACGCCTACCGTGACAAAGAGATTGTCGGTGTCTTTGTGT
 
 N.B.! The order of the information is not as important as having sufficient information to find the dataset used.
 
-## Key questions to ask yourself
+# Key questions to ask yourself
 
-### Inspecting the files:
+## Inspecting the files:
 
 - Can you open the files with text editors available to you? If the files are large, has the researcher included additional documentation about what tools can be used to open them?
 
@@ -178,13 +178,13 @@ N.B.! The order of the information is not as important as having sufficient info
 
 - Check for repository-specific requirements for header line and/or sequence characters and designation for ambiguous characters, as well as length and size limits.
 
-### Human subjects and/or ethics:
+## Human subjects and/or ethics:
 
 - Does this involve any research on information or physical samples taken from human beings that is either subject to IRB or other regulatory approval, used consent forms, or where the data presents ethical quandaries due to human subjects content? If so, see the [Human Participants Data Primer.](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md) Note that human genomic data may present unique privacy concerns, and that even with de-identified data it may still be possible to identify an individual in the case of whole genome sequencing (Corpas et al., 2018).
 
 - Is there any other sensitive information in the dataset, for example location data of endangered species?
 
-### Repositories to consider:
+## Repositories to consider:
 
 - What repository is most appropriate for the type of data being shared?
 
@@ -198,7 +198,7 @@ N.B.! The order of the information is not as important as having sufficient info
 
   - Human genomic data: [dpGaP](https://www.ncbi.nlm.nih.gov/gap/)
 
-### Metadata and documentation:
+## Metadata and documentation:
 
 - What are you putting elsewhere and what are you putting in an institutional or other data repository? Provide links between related data, code, and articles whenever possible.
 
@@ -206,7 +206,7 @@ N.B.! The order of the information is not as important as having sufficient info
 
 - Does the metadata include contributors to the data, for example, sequencing centers, data centers, funding agencies, etc.? If so, use the correct identifiers provided by the funding agencies (project grant numbers) or sequencing centers.
 
-## Key clarifications to get from researcher 
+# Key clarifications to get from researcher 
 
 - Are there any funder requirements about which repository should be used?
 
@@ -220,7 +220,7 @@ N.B.! The order of the information is not as important as having sufficient info
 
 - Licensing
 
-## Applicable metadata standard, core elements and readme requirements 
+# Applicable metadata standard, core elements and readme requirements 
 
 The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-driven organization formed in 2005 to establish a **minimum** set of metadata descriptions for genomic data. These are collectively referred to as MIxS (Minimum Information about any (x) Sequence). In addition to these core elements, there are “extensions” available for various types of genomic data which include more than the minimal elements to make the data more FAIR.
 
@@ -248,11 +248,11 @@ The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-
 
 - When possible, use appropriate standards, controlled vocabularies, and/or taxonomies specific to the field of study (e.g., one of hundreds of different biological ontologies searchable in [BioPortal](https://bioportal.bioontology.org) or in [The Open Biological and Biomedical Ontology (OBO) Foundry](http://obofoundry.org/) (Brown et al., 2018)). In the absence of standards, general [readme](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files) metadata should accompany the FASTA/FASTQ files, with the core descriptors listed above, along with as much experimental data as possible. Stevens et.al. (2020) state that “\[M\]anual curation remains the gold standard for ensuring high-quality metadata.”
 
-## Resources for reviewing data
+# Resources for reviewing data
 
 - [NIH Submission Portal](https://submit.ncbi.nlm.nih.gov/): This portal developed by the NIH helps researchers determine which NCBI repository might be the best option based on the type of genomic data being gathered. Before depositing data into an institutional repository, it is good practice to check whether data should be submitted to one of these databases first. In some instances, these repositories will also ask researchers before submission to confirm that the data are a match for the repository and will be accepted. FAIRsharing ([https://fairsharing.org/](https://fairsharing.org/)) is another resource that can be used to navigate a wider range of repositories than solely NCBI-related ones.
 
-## Software for viewing or analyzing data 
+# Software for viewing or analyzing data 
 
 - Text editors can be used to view. However, be aware that some sequences may be too large, and a sequence can be corrupted if you view and modify it in the text editor. In these cases, there is a multi-platform GUI application to browse and search through long or complex files called [glogg](http://glogg.bonnefon.org/index.html), which is free to download and can be used to load these large sequences.
 
@@ -260,13 +260,13 @@ The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-
 
 - Manipulation and parsing of FASTA files can be done using standard text-processors and script-based programming languages such as R, Python, Perl, and Ruby (Brouwer, n.d.).
 
-## Preservation actions
+# Preservation actions
 
 - FASTA/FASTQ are text-based formats recommended for preservation.
 
 - The MINSEQE established by the Functional Genomics Data Society (FGED) and MIxS standards are intended to provide the minimum descriptive information to enable data reuse. Many public repositories are MINSEQE compliant, and FASTA/FASTQ files should be accompanied by this minimal level of documentation. Consider adding as much experimental detail as possible to maximize potential for reuse.
 
-## What to look for to make sure this file meets FAIR principles
+# What to look for to make sure this file meets FAIR principles
 
 - Findable: quality metadata to enable discovery, including a descriptive title and details about the specimen, experimental methods; appropriate repository for the data; link(s) to publication(s) (DOIs, etc.)
 
@@ -276,7 +276,7 @@ The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-
 
 - Reusable: Are the FASTA files accompanied with sufficient documentation to enable reuse (e.g., data quality, study methods, preferably beyond just MINSEQE or MIxS compliant documentation)? FASTA files alone do not contain sufficient documentation for reuse.
 
-## Bibliography
+# Bibliography
 
 - Brouwer, A. C., with contributions by Nathan L. Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of r for bioinformatics 2. 0*. Retrieved May 25, 2023, from [https://brouwern.github.io/lbrb/introducingFASTA.htm](https://brouwern.github.io/lbrb/introducingFASTA.htm)l
 
@@ -300,7 +300,7 @@ The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-
 
 - Zhang, H. (2016). Overview of sequence data formats. *Methods in Molecular Biology (Clifton, N.J.)*, *1418*, 3–17. [https://doi.org/10.1007/978-1-4939-3578-9_1](https://doi.org/10.1007/978-1-4939-3578-9_1)
 
-## Additional Recommended Reading
+# Additional Recommended Reading
 
 - Brouwer, A. C., with contributions by Nathan L. Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of r for bioinformatics 2. 0*. Retrieved May 25, 2023, from https://brouwern.github.io/lbrb/introducingFASTA.html
 
