@@ -262,281 +262,124 @@ It is important to discuss any concerns you may have about data sensitivity with
 
 # Example Data Sets 
 
+## Basketmaker Communities Project
 
-|   Project |   Links   |   Features   |
-| :------------- | :------------- | :------------- |
-| **Basketmaker Communities Project** <br><br> “The Basketmaker Communities Project, a multi-faceted research and public education archaeological initiative undertaken by Crow Canyon from 2011 through 2017.” (Crow Canyon Archaeological Center, nd) | **Project Landing Page** <br> <a href="https://exhibits.library.uvic.ca/spotlight/iaff"> https://exhibits.library.uvic.ca/spotlight/iaff</a> <br><br> **Example** <br><br> Basketmaker Community Features. Crow Canyon Archaeological Center. Crow Canyon Archaeological Center. 2020 (tDAR id: 467829); <a href="https://www.doi.org/10.48512/XCV8467829">https://www.doi.org/10.48512/XCV8467829</a> | Data is in a recommended file formats (.xls and .xlsx)<br><br> Varying access levels<br><br>Archaeology Specific Metadata Fields <li>Spatial Coverage Map</li><li>Site Name</li><li>Temporal Keywords</li><br><br>Clear identifiers assigned <br><br> Documentation to build context about the dataset in sections titled: <li>Table Information</li><li>Data Set Structure</li><li>File Information</li><br><br> tDAR is a domain specific data repository|
-|   Type   |   Benefits   |   Challenges   |
+About: “The Basketmaker Communities Project, a multi-faceted research and public education archaeological initiative undertaken by Crow Canyon from 2011 through 2017.” (Crow Canyon Archaeological Center, nd)
+
+**Project Landing Page**  <a href="https://core.tdar.org/collection/70157">https://core.tdar.org/collection/70157</a>
+
+**Example** Basketmaker Community Features. Crow Canyon Archaeological Center. Crow Canyon Archaeological Center. 2020 (tDAR id: 467829); <a href="https://www.doi.org/10.48512/XCV8467829">https://www.doi.org/10.48512/XCV8467829</a> 
+
+This project is an exemplar because:
+
+-Data is in a recommended file formats (.xls and .xlsx)
+
+-Varying access levels
+
+-Archaeology Specific Metadata Fields
+
+  -  Spatial Coverage Map
+  -  Site Name
+  -  Temporal Keywords
+
+-Clear identifiers assigned
+
+-Documentation to build context about the dataset in sections titled: 
+
+  -  Table Information
+  -  Data Set Structure
+  -  File Information
+
+-tDAR is a domain specific data repository
+
+## Banda through Time
+
+About: “Banda Through Time is a digital collection of cultural heritage materials relevant to the Banda Traditional Area of west central Ghana. It includes archival materials from the collections of researchers associated with the long-term Banda Research Project (1982-2014) as well as recent works produced by the collaborative community-based Banda Heritage Initiative.”(Logan, nd.)
+
+**Project Landing Page** <a href="https://exhibits.library.uvic.ca/spotlight/iaff">https://exhibits.library.uvic.ca/spotlight/iaff</a> 
+
+**Example** <a href="https://exhibits.library.uvic.ca/spotlight/iaff/catalog/17-19105">https://exhibits.library.uvic.ca/spotlight/iaff/catalog/17-19105</a>
+
+This project is an exemplar because:
+
+-Images in a recommended file format (.jpg)
+
+-Rich and descriptive metadata
+
+-University of Victoria Libraries is an institutional repository
 
 
 
-
-<p></p></th>
-<th><ul>
-<li><blockquote>
-<p>Data is in a recommended file formats (.xls and .xlsx)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Varying access levels</p>
-</blockquote></li>
-<li><blockquote>
-<p>Archaeology Specific Metadata Fields</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>Spatial Coverage map</p>
-</blockquote></li>
-<li><blockquote>
-<p>Site Name</p>
-</blockquote></li>
-<li><blockquote>
-<p>Temporal Keywords</p>
-</blockquote></li>
-</ul></li>
-<li><blockquote>
-<p>Clear identifiers assigned</p>
-</blockquote></li>
-<li><blockquote>
-<p>Documentation to build context about the dataset in sections
-titled:</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>Table Information</p>
-</blockquote></li>
-<li><blockquote>
-<p>Data Set Structure</p>
-</blockquote></li>
-<li><blockquote>
-<p>File Information</p>
-</blockquote></li>
-</ul></li>
-<li><blockquote>
-<p>tDAR is a domain specific data repository</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="header">
-<th><p><strong>Banda through Time</strong></p>
-<p>“Banda Through Time is a digital collection of cultural heritage
-materials relevant to the Banda Traditional Area of west central Ghana.
-It includes archival materials from the collections of researchers
-associated with the long-term Banda Research Project (1982-2014) as well
-as recent works produced by the collaborative community-based Banda
-Heritage Initiative.”(Logan, nd.)</p></th>
-<th><p><strong>Project Landing Page:</strong> <a
-href="https://exhibits.library.uvic.ca/spotlight/iaff">https://exhibits.library.uvic.ca/spotlight/iaff</a></p>
-<p><strong>Example</strong>:</p>
-<p><a
-href="https://exhibits.library.uvic.ca/spotlight/iaff/catalog/17-19105">https://exhibits.library.uvic.ca/spotlight/iaff/catalog/17-19105</a></p></th>
-<th><ul>
-<li><blockquote>
-<p>Images in a recommended file format (.jpg)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Rich and descriptive metadata</p>
-</blockquote></li>
-<li><blockquote>
-<p>University of Victoria Libraries is an Institutional repository</p>
-</blockquote></li>
-</ul></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 
 # CURATED Checklist
 
 Curation steps selected from the [CURATED steps](https://z.umn.edu/curate) and modified as relevant for archaeology data curation needs.
 
-<table>
-<colgroup>
-<col style="width: 22%" />
-<col style="width: 77%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>CURATE(D) Action</strong></th>
-<th><strong>Checklist</strong></th>
-</tr>
-<tr class="odd">
-<th><strong>Check</strong></th>
-<th><ul>
-<li><blockquote>
-<p>Begin Curator Log to track curation decisions</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>Open files. Do they open as expected?</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>Inventory the dataset</p>
-</blockquote></li>
-</ul></li>
-<li><blockquote>
-<p>Check that metadata quality is rich, accurate, and complete to
-institutional requirements.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Check documentation type</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>README, Photo Logs, Manuals</p>
-</blockquote></li>
-<li><blockquote>
-<p>If missing, document for the “Request” step</p>
-</blockquote></li>
-</ul></li>
-<li><blockquote>
-<p>Check whether culturally sensitive data or site data is present</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>Request consent form / participation agreement if it’s not
-present</p>
-</blockquote></li>
-<li><blockquote>
-<p>If the site locations are not de-identified, document for the
-"Request" step.</p>
-</blockquote></li>
-</ul></li>
-</ul></th>
-</tr>
-<tr class="header">
-<th><strong>Understand</strong></th>
-<th><ul>
-<li><blockquote>
-<p>Examine files, organization, and documentation</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>Are there missing data?</p>
-</blockquote></li>
-<li><blockquote>
-<p>Is there referential integrity?</p>
-</blockquote></li>
-<li><blockquote>
-<p>Could a user with similar qualifications to the author’s understand
-and reuse these data and reproduce the results?</p>
-</blockquote></li>
-<li><blockquote>
-<p>Are variable names unambiguous?</p>
-</blockquote></li>
-</ul></li>
-<li><blockquote>
-<p>Are the data, documentation and/or metadata presented in a way that
-aids in interpretation? (e.g., readme Example)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Record all questions and concerns in the Curation Log.</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th><strong>Request</strong></th>
-<th><ul>
-<li><blockquote>
-<p>Collaborate with the researcher(s) to make necessary changes</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>Triage and prioritize issues. Identify and highlight those with the
-highest data reuse implications</p>
-</blockquote></li>
-<li><blockquote>
-<p>Communicate any changes you, the curator, will make on their
-behalf</p>
-</blockquote></li>
-</ul></li>
-</ul>
-<p><a href="http://z.umn.edu/curate">Email template</a></p></th>
-</tr>
-<tr class="header">
-<th><strong>Augment</strong></th>
-<th><ul>
-<li><blockquote>
-<p>Enhance metadata</p>
-</blockquote></li>
-<li><blockquote>
-<p>Apply persistent identifier (DOI) See ‘Findability’</p>
-</blockquote></li>
-<li><blockquote>
-<p>Record any changes in Curator Log</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th><strong>Transform</strong></th>
-<th><ul>
-<li><blockquote>
-<p>Record any data transformations in Curator Log</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="header">
-<th><strong>Evaluate</strong></th>
-<th><ul>
-<li><blockquote>
-<p><mark>Verify the language used is up to date</mark></p>
-</blockquote></li>
-<li><blockquote>
-<p>Remind the submitter of their responsibility, if they choose to
-ignore requests for de-identification or similar concerns.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Review final state of data and record with researcher before
-publication</p>
-</blockquote></li>
-<li><blockquote>
-<p>Add any final changes to Curator Log</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th><strong>Document</strong></th>
-<th><ul>
-<li><blockquote>
-<p>Ensure the following information is captured in the Curator Log:</p>
-</blockquote>
-<ul>
-<li><blockquote>
-<p>Activities taken during the CURATE process</p>
-</blockquote></li>
-<li><blockquote>
-<p>Accessioning &amp; deposit records (Names, dates, contact
-information, submission agreements, etc.)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Repository collection metadata</p>
-</blockquote></li>
-<li><blockquote>
-<p>Provenance logs (changes by curators in the Transform step)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Service workflow</p>
-</blockquote></li>
-<li><blockquote>
-<p>Correspondences and other interactions</p>
-</blockquote></li>
-<li><blockquote>
-<p>Preservation packaging</p>
-</blockquote></li>
-<li><blockquote>
-<p>Any additional requirements at your institution</p>
-</blockquote></li>
-</ul></li>
-</ul></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+## Check
 
-Table 2: Data Curation Network (2022).*“CURATE(D) Steps and Checklist for Data Curation, version 2”*[http://z.umn.edu/curate](http://z.umn.edu/curate).
+-Begin Curator Log to track curation decisions
+-Open files. Do they open as expected? 
+  -  Inventory the dataset
+-Check that metadata quality is rich, accurate, and complete to institutional requirements.
+-Check documentation type 
+  -  README, Photo Logs, Manuals 
+  -  If missing, document for the “Request” step
+-Check whether culturally sensitive data or site data is present
+  -  Request consent form / participation agreement if it’s not present
+  -  If the site locations are not de-identified, document for the "Request" step.
+
+
+## Understand
+
+-Examine files, organization, and documentation
+  -  Are there missing data?
+  -  Is there referential integrity? 
+  -  Could a user with similar qualifications to the author’s understand and reuse these data and reproduce the results?
+  -  Are variable names unambiguous?
+-Are the data, documentation and/or metadata presented in a way that aids in interpretation? (e.g., readme Example)
+-Record all questions and concerns in the Curation Log.
+
+
+## Request
+
+-Collaborate with the researcher(s) to make necessary changes
+  -  Triage and prioritize issues. Identify and highlight those with the highest data reuse implications
+  -  Communicate any changes you, the curator, will make on their behalf
+
+<a href="http://z.umn.edu/curate">Email template</a>
+
+## Augment
+
+-Enhance metadata
+-Apply persistent identifier (DOI) See ‘Findability’
+-Record any changes in Curator Log
+
+
+## Transform
+
+-Record any data transformations in Curator Log
+
+## Evaluate
+
+-Verify the language used is up to date 
+-Remind the submitter of their responsibility, if they choose to ignore requests for de-identification or similar concerns. 
+-Review final state of data and record with researcher before publication
+-Add any final changes to Curator Log
+
+
+## Document
+
+-Ensure the following information is captured in the Curator Log:
+  -  Activities taken during the CURATE process
+  -  Accessioning & deposit records (Names, dates, contact information, submission agreements, etc.)
+  -  Repository collection metadata
+  -  Provenance logs (changes by curators in the Transform step)
+  -  Service workflow
+  -  Correspondences and other interactions
+  -  Preservation packaging
+  -  Any additional requirements at your institution
+
+
 
 # Related Primers
 
