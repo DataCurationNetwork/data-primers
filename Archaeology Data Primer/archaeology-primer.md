@@ -24,10 +24,6 @@ Affiliate Contributors (external peer reviewers): Eric C. Kansa, PhD (Open Conte
 
 # Table of Contents
 
-[Overview](#overview)
-
-[Table of Contents](#table-of-contents)
-
 [Scope](#scope)
 
 [Data Types](#data-types)
@@ -38,7 +34,7 @@ Affiliate Contributors (external peer reviewers): Eric C. Kansa, PhD (Open Conte
 
 [Metadata](#metadata)
 [Metadata Standards](#metadata-standards)
->[Archaeology Specific MetadataFields](#archaeology-specific-metadata-fields)
+>[Archaeology Specific MetadataFields](#archaeology-specific-metadata-fields)<br>
 >[Supplementary Documentation](#supplementary-documentation)
 
 [Ethical and Legal
@@ -59,9 +55,9 @@ Considerations](#ethical-and-legal-considerations)
 [Bibliography](#bibliography)
 
 [Appendix 1: FAIR Principles](#appendix-1-fair-principles)
-[Findable](#findable)
->[Accessible](#accessible)
->[Interoperable](#interoperable)
+[Findable](#findable)<br>
+>[Accessible](#accessible)<br>
+>[Interoperable](#interoperable)<br>
 >[Reusable](#reusable)
 
 # Scope
