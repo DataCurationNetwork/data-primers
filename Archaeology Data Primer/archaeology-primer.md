@@ -265,7 +265,7 @@ It is important to discuss any concerns you may have about data sensitivity with
 
 |   Project |   Links   |   Features   |
 | :------------- | :------------- | :------------- |
-| **Basketmaker Communities Project** <br><br> “The Basketmaker Communities Project, a multi-faceted research and public education archaeological initiative undertaken by Crow Canyon from 2011 through 2017.” (Crow Canyon Archaeological Center, nd) | **Project Landing Page** <br> <a href"https://exhibits.library.uvic.ca/spotlight/iaff">https://exhibits.library.uvic.ca/spotlight/iaff</a> <br><br> **Example** <br><br> Basketmaker Community Features. Crow Canyon Archaeological Center. Crow Canyon Archaeological Center. 2020 (tDAR id: 467829); <a href="https://www.doi.org/10.48512/XCV8467829">https://www.doi.org/10.48512/XCV8467829</a> | :------------- |
+| **Basketmaker Communities Project** <br><br> “The Basketmaker Communities Project, a multi-faceted research and public education archaeological initiative undertaken by Crow Canyon from 2011 through 2017.” (Crow Canyon Archaeological Center, nd) | **Project Landing Page** <br> <a href+"https://exhibits.library.uvic.ca/spotlight/iaff"</a> <br><br> **Example** <br><br> Basketmaker Community Features. Crow Canyon Archaeological Center. Crow Canyon Archaeological Center. 2020 (tDAR id: 467829); <a href="https://www.doi.org/10.48512/XCV8467829">https://www.doi.org/10.48512/XCV8467829</a> | :------------- |
 |   Type   |   Benefits   |   Challenges   |
 
 
