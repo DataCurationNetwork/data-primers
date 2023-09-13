@@ -55,7 +55,7 @@ Considerations](#ethical-and-legal-considerations)
 [Bibliography](#bibliography)
 
 [Appendix 1: FAIR Principles](#appendix-1-fair-principles)<br>
-[Findable](#findable)<br>
+>[Findable](#findable)<br>
 >[Accessible](#accessible)<br>
 >[Interoperable](#interoperable)<br>
 >[Reusable](#reusable)
@@ -118,7 +118,7 @@ California Digital Library (CDL) Merritt repository and Zenodo for archiving (Op
 
 When selecting the right repository, a curator can help guide researchers with the following considerations: 
 
--**Sustainability**
+- **Sustainability**
 
   -  Is the repository accepting the data sustainable in the long term? 
 
@@ -126,13 +126,13 @@ When selecting the right repository, a curator can help guide researchers with t
 
   -  How are repository services priced? 
 
--**Quality Assurance**
+- **Quality Assurance**
 
   -  What kind of checks are in place to ensure long term data integrity? 
 
   -  Does the repository follow generally accepted digital preservation best practices? 
 
--**Access**
+- **Access**
 
   -  Does the repository match the needs of its users to the accessibility of the data? 
 
@@ -142,7 +142,7 @@ When selecting the right repository, a curator can help guide researchers with t
 
   -  How is data accessed once it is deposited? By you? By the public? 
 
--**Files**
+- **Files**
 
   -  What file formats are accepted? 
 
@@ -208,15 +208,15 @@ In addition to choosing an appropriate metadata schema, it is vital to choose ap
 
 Supplementary documentation and files are necessary to provide complete context for archaeological information. This can come in the form of:
 
--**README:** text file that provides a description of the data and may include the methodology of how the data was produced and sources of external data used.
+- **README:** text file that provides a description of the data and may include the methodology of how the data was produced and sources of external data used.
 
--**Photo Logs:** found with the photographs of the project and will contain file information alongside additional metadata such as site numbers, location, and photographer.
+- **Photo Logs:** found with the photographs of the project and will contain file information alongside additional metadata such as site numbers, location, and photographer.
 
--**Manuals and Reports:** Project manuals and reports give context to the data by providing a broad overview of the methodology and purpose of the project, along with framing the data alongside the research objectives.
+- **Manuals and Reports:** Project manuals and reports give context to the data by providing a broad overview of the methodology and purpose of the project, along with framing the data alongside the research objectives.
 
--**Ontologies and Controlled Vocabularies:** a hierarchical list of terms that shows the relationships between different concepts and it can be used to match distinct datasets. Ontologies and controlled vocabularies typically accompany datasets and are used for semantic and linked open data.
+- **Ontologies and Controlled Vocabularies:** a hierarchical list of terms that shows the relationships between different concepts and it can be used to match distinct datasets. Ontologies and controlled vocabularies typically accompany datasets and are used for semantic and linked open data.
 
--**Coding Sheets:** list of codes and their definitions used within the data. Ideally, data will be decoded; coding sheets are difficult to maintain and keep current, but if coded data is present, coding sheets should be as well.
+- **Coding Sheets:** list of codes and their definitions used within the data. Ideally, data will be decoded; coding sheets are difficult to maintain and keep current, but if coded data is present, coding sheets should be as well.
 
 Further, the data curator should encourage archaeologists to maintain referential integrity in the data. Referential integrity ensures that the context for the data is not lost when beginning a new project, and that the links to the original project data are maintained (Kansa, 2020). Check for identifiers that are actionable, unambiguous, shared, and reused (Kansa, 2022).
 
@@ -272,25 +272,25 @@ About: “The Basketmaker Communities Project, a multi-faceted research and publ
 
 This project is an exemplar because:
 
--Data is in a recommended file formats (.xls and .xlsx)
+- Data is in a recommended file formats (.xls and .xlsx)
 
--Varying access levels
+- Varying access levels
 
--Archaeology Specific Metadata Fields
+- Archaeology Specific Metadata Fields
 
   -  Spatial Coverage Map
   -  Site Name
   -  Temporal Keywords
 
--Clear identifiers assigned
+- Clear identifiers assigned
 
--Documentation to build context about the dataset in sections titled: 
+- Documentation to build context about the dataset in sections titled: 
 
   -  Table Information
   -  Data Set Structure
   -  File Information
 
--tDAR is a domain specific data repository
+- tDAR is a domain specific data repository
 
 ## Banda through Time
 
@@ -302,11 +302,11 @@ About: “Banda Through Time is a digital collection of cultural heritage materi
 
 This project is an exemplar because:
 
--Images in a recommended file format (.jpg)
+- Images in a recommended file format (.jpg)
 
--Rich and descriptive metadata
+- Rich and descriptive metadata
 
--University of Victoria Libraries is an institutional repository
+- University of Victoria Libraries is an institutional repository
 
 
 
@@ -317,32 +317,32 @@ Curation steps selected from the [CURATED steps](https://z.umn.edu/curate) and m
 
 ## Check
 
--Begin Curator Log to track curation decisions
--Open files. Do they open as expected? 
+- Begin Curator Log to track curation decisions
+- Open files. Do they open as expected? 
   -  Inventory the dataset
--Check that metadata quality is rich, accurate, and complete to institutional requirements.
--Check documentation type 
+- Check that metadata quality is rich, accurate, and complete to institutional requirements.
+- Check documentation type 
   -  README, Photo Logs, Manuals 
   -  If missing, document for the “Request” step
--Check whether culturally sensitive data or site data is present
+- Check whether culturally sensitive data or site data is present
   -  Request consent form / participation agreement if it’s not present
   -  If the site locations are not de-identified, document for the "Request" step.
 
 
 ## Understand
 
--Examine files, organization, and documentation
+- Examine files, organization, and documentation
   -  Are there missing data?
   -  Is there referential integrity? 
   -  Could a user with similar qualifications to the author’s understand and reuse these data and reproduce the results?
   -  Are variable names unambiguous?
--Are the data, documentation and/or metadata presented in a way that aids in interpretation? (e.g., readme Example)
--Record all questions and concerns in the Curation Log.
+- Are the data, documentation and/or metadata presented in a way that aids in interpretation? (e.g., readme Example)
+- Record all questions and concerns in the Curation Log.
 
 
 ## Request
 
--Collaborate with the researcher(s) to make necessary changes
+- Collaborate with the researcher(s) to make necessary changes
   -  Triage and prioritize issues. Identify and highlight those with the highest data reuse implications
   -  Communicate any changes you, the curator, will make on their behalf
 
@@ -350,26 +350,26 @@ Curation steps selected from the [CURATED steps](https://z.umn.edu/curate) and m
 
 ## Augment
 
--Enhance metadata
--Apply persistent identifier (DOI) See ‘Findability’
--Record any changes in Curator Log
+- Enhance metadata
+- Apply persistent identifier (DOI) See ‘Findability’
+- Record any changes in Curator Log
 
 
 ## Transform
 
--Record any data transformations in Curator Log
+- Record any data transformations in Curator Log
 
 ## Evaluate
 
--Verify the language used is up to date 
--Remind the submitter of their responsibility, if they choose to ignore requests for de-identification or similar concerns. 
--Review final state of data and record with researcher before publication
--Add any final changes to Curator Log
+- Verify the language used is up to date 
+- Remind the submitter of their responsibility, if they choose to ignore requests for de-identification or similar concerns. 
+- Review final state of data and record with researcher before publication
+- Add any final changes to Curator Log
 
 
 ## Document
 
--Ensure the following information is captured in the Curator Log:
+- Ensure the following information is captured in the Curator Log:
   -  Activities taken during the CURATE process
   -  Accessioning & deposit records (Names, dates, contact information, submission agreements, etc.)
   -  Repository collection metadata
