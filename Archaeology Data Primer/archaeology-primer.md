@@ -208,15 +208,15 @@ In addition to choosing an appropriate metadata schema, it is vital to choose ap
 
 Supplementary documentation and files are necessary to provide complete context for archaeological information. This can come in the form of:
 
--**README:**text file that provides a description of the data and may include the methodology of how the data was produced and sources of external data used.
+-**README:** text file that provides a description of the data and may include the methodology of how the data was produced and sources of external data used.
 
--**Photo Logs:**found with the photographs of the project and will contain file information alongside additional metadata such as site numbers, location, and photographer.
+-**Photo Logs:** found with the photographs of the project and will contain file information alongside additional metadata such as site numbers, location, and photographer.
 
--**Manuals and Reports:**Project manuals and reports give context to the data by providing a broad overview of the methodology and purpose of the project, along with framing the data alongside the research objectives.
+-**Manuals and Reports:** Project manuals and reports give context to the data by providing a broad overview of the methodology and purpose of the project, along with framing the data alongside the research objectives.
 
--**Ontologies and Controlled Vocabularies:**a hierarchical list of terms that shows the relationships between different concepts and it can be used to match distinct datasets. Ontologies and controlled vocabularies typically accompany datasets and are used for semantic and linked open data.
+-**Ontologies and Controlled Vocabularies:** a hierarchical list of terms that shows the relationships between different concepts and it can be used to match distinct datasets. Ontologies and controlled vocabularies typically accompany datasets and are used for semantic and linked open data.
 
--**Coding Sheets:**list of codes and their definitions used within the data. Ideally, data will be decoded; coding sheets are difficult to maintain and keep current, but if coded data is present, coding sheets should be as well.
+-**Coding Sheets:** list of codes and their definitions used within the data. Ideally, data will be decoded; coding sheets are difficult to maintain and keep current, but if coded data is present, coding sheets should be as well.
 
 Further, the data curator should encourage archaeologists to maintain referential integrity in the data. Referential integrity ensures that the context for the data is not lost when beginning a new project, and that the links to the original project data are maintained (Kansa, 2020). Check for identifiers that are actionable, unambiguous, shared, and reused (Kansa, 2022).
 
@@ -262,30 +262,16 @@ It is important to discuss any concerns you may have about data sensitivity with
 
 # Example Data Sets 
 
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 32%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Project</th>
-<th>Links</th>
-<th>Features</th>
-</tr>
-<tr class="odd">
-<th><p><strong>Basketmaker Communities Project</strong></p>
-<p>“The Basketmaker Communities Project, a multi-faceted research and
-public education archaeological initiative undertaken by Crow Canyon
-from 2011 through 2017.” (<mark>Crow Canyon Archaeological Center,
-nd)</mark></p></th>
-<th><p><strong>Project Landing Page:</strong> <a
-href="https://core.tdar.org/collection/70157">https://core.tdar.org/collection/70157</a></p>
-<p><strong>Example</strong>:</p>
-<p>Basketmaker Community Features. Crow Canyon Archaeological Center.
-Crow Canyon Archaeological Center. 2020 (tDAR id: 467829) ; <a
-href="https://www.doi.org/10.48512/XCV8467829">https://www.doi.org/10.48512/XCV8467829</a></p></th>
+
+|   Project |   Links   |   Features   |
+| :------------- | :------------- | :------------- |
+| **Basketmaker Communities Project** <br><br> “The Basketmaker Communities Project, a multi-faceted research and public education archaeological initiative undertaken by Crow Canyon from 2011 through 2017.” (Crow Canyon Archaeological Center, nd) | **Project Landing Page** <br> <a href"https://exhibits.library.uvic.ca/spotlight/iaff" <br><br> **Example** <br><br> Basketmaker Community Features. Crow Canyon Archaeological Center. Crow Canyon Archaeological Center. 2020 (tDAR id: 467829) ; <a href="https://www.doi.org/10.48512/XCV8467829">https://www.doi.org/10.48512/XCV8467829</a> | :------------- |
+|   Type   |   Benefits   |   Challenges   |
+
+
+
+
+<p></p></th>
 <th><ul>
 <li><blockquote>
 <p>Data is in a recommended file formats (.xls and .xlsx)</p>
