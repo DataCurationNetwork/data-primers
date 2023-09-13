@@ -78,7 +78,7 @@ Congress, Summary of Digital Format Preferences](https://www.loc.gov/preservatio
 
 Note - because of the range of data types reflected here, there are existing primers that may be helpful to review. For example, if you are working with data from an oral history project, please see the [Oral History Interviews Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Oral%20History%20Interviews%20Data%20Curation%20Primer/oral-history-interviews-data-curation-primer.md); Geographic data: [GeoDatabase Data Curation Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md); and Qualitative Data: [Qualitative Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Qualitative%20Data%20Curation%20Primer/qualitative-data-curation-primer.md).
 
-| **Data type**                               | **Recommended File Formats**               |
+|**Data type**                             |**Recommended File Formats**             |
 |---------------------------------------------|--------------------------------------------|
 | Documents                                   | .pdfa, .pdf, .txt                          |
 | Photographs/Drawings                        | .tif, .jpg                                 |
@@ -118,7 +118,7 @@ California Digital Library (CDL) Merritt repository and Zenodo for archiving (Op
 
 When selecting the right repository, a curator can help guide researchers with the following considerations: 
 
-- ** Sustainability **
+-**Sustainability**
 
   -  Is the repository accepting the data sustainable in the long term? 
 
@@ -126,13 +126,13 @@ When selecting the right repository, a curator can help guide researchers with t
 
   -  How are repository services priced? 
 
-- ** Quality Assurance **
+-**Quality Assurance**
 
   -  What kind of checks are in place to ensure long term data integrity? 
 
   -  Does the repository follow generally accepted digital preservation best practices? 
 
-- ** Access **
+-**Access**
 
   -  Does the repository match the needs of its users to the accessibility of the data? 
 
@@ -142,7 +142,7 @@ When selecting the right repository, a curator can help guide researchers with t
 
   -  How is data accessed once it is deposited? By you? By the public? 
 
-- ** Files **
+-**Files**
 
   -  What file formats are accepted? 
 
@@ -159,15 +159,15 @@ Preserving accurate metadata is crucial for archaeological data. You will want t
 Most archaeological datasets utilize [Dublin Core](https://www.dublincore.org/) metadata structures, though often with some modifications. Broadly speaking, there are five categories of
 metadata to collect, which can apply to both individual items and collections as whole:
 
-1.  **Administrative**: details the use of the collection and the rights associated with it as a whole
+1. **Administrative**: details the use of the collection and the rights associated with it as a whole
 
-2.  **Descriptive**: describes the data itself, both as a whole and in terms of individual items
+2. **Descriptive**: describes the data itself, both as a whole and in terms of individual items
 
-3.  **Preservation**: lists actions taken to preserve the data and other information relating to collection management
+3. **Preservation**: lists actions taken to preserve the data and other information relating to collection management
 
-4.  **Technical**: data related to how systems or data behave
+4. **Technical**: data related to how systems or data behave
 
-5.  **Use**: recounts how users might utilize data
+5. **Use**: recounts how users might utilize data
 
 Using a metadata schema with a Dublin Core base is recommended due to its open source nature as well as avoiding “reinventing the wheel.” Many organizations have begun to address expansions to Dublin Core metadata to appropriately address archaeological data. The repository tDAR uses Dublin Core as a base for its metadata schema and has added other archaeological specific metadata fields to ensure adequate data is captured. Other platforms such as ADS and ARIADNEplus do not use Dublin Core, rather an implementation of the application profile of CIDOC-CRM,
 known as the AO-CAT Model. [CIDOC CRM](https://cidoc-crm.org/) is an object-oriented conceptual model used for describing cultural heritage data. Use of the specific AO-CAT profile has facilitated interoperability between these platforms and has been modeled specifically for cultural heritage data. You can find more documentation on their metadata structure here: [Archaeology Data Service Metadata Standards](https://archaeologydataservice.ac.uk/about/policies/metadata/strategy-and-standards/) and [ARIADNEplus](https://ariadne-infrastructure.eu/producing-metadata-for-archaeological-datasets/).
@@ -208,15 +208,15 @@ In addition to choosing an appropriate metadata schema, it is vital to choose ap
 
 Supplementary documentation and files are necessary to provide complete context for archaeological information. This can come in the form of:
 
-- **README:** text file that provides a description of the data and may include the methodology of how the data was produced and sources of external data used.
+-**README:**text file that provides a description of the data and may include the methodology of how the data was produced and sources of external data used.
 
-- **Photo Logs:** found with the photographs of the project and will contain file information alongside additional metadata such as site numbers, location, and photographer.
+-**Photo Logs:**found with the photographs of the project and will contain file information alongside additional metadata such as site numbers, location, and photographer.
 
-- **Manuals and Reports:** Project manuals and reports give context to the data by providing a broad overview of the methodology and purpose of the project, along with framing the data alongside the research objectives.
+-**Manuals and Reports:**Project manuals and reports give context to the data by providing a broad overview of the methodology and purpose of the project, along with framing the data alongside the research objectives.
 
-- **Ontologies and Controlled Vocabularies:** a hierarchical list of terms that shows the relationships between different concepts and it can be used to match distinct datasets. Ontologies and controlled vocabularies typically accompany datasets and are used for semantic and linked open data.
+-**Ontologies and Controlled Vocabularies:**a hierarchical list of terms that shows the relationships between different concepts and it can be used to match distinct datasets. Ontologies and controlled vocabularies typically accompany datasets and are used for semantic and linked open data.
 
-- **Coding Sheets:** list of codes and their definitions used within the data. Ideally, data will be decoded; coding sheets are difficult to maintain and keep current, but if coded data is present, coding sheets should be as well.
+-**Coding Sheets:**list of codes and their definitions used within the data. Ideally, data will be decoded; coding sheets are difficult to maintain and keep current, but if coded data is present, coding sheets should be as well.
 
 Further, the data curator should encourage archaeologists to maintain referential integrity in the data. Referential integrity ensures that the context for the data is not lost when beginning a new project, and that the links to the original project data are maintained (Kansa, 2020). Check for identifiers that are actionable, unambiguous, shared, and reused (Kansa, 2022).
 
@@ -550,7 +550,7 @@ information, submission agreements, etc.)</p>
 </tbody>
 </table>
 
-Table 2: Data Curation Network (2022). *“CURATE(D) Steps and Checklist for Data Curation, version 2”* [http://z.umn.edu/curate](http://z.umn.edu/curate).
+Table 2: Data Curation Network (2022).*“CURATE(D) Steps and Checklist for Data Curation, version 2”*[http://z.umn.edu/curate](http://z.umn.edu/curate).
 
 # Related Primers
 
@@ -590,42 +590,42 @@ Table 2: Data Curation Network (2022). *“CURATE(D) Steps and Checklist for Dat
 
 # Additional Recommended Reading
 
-Roosevelt, C. H. et al. (2015). Excavation is \[Destruction\] Digitization: advances in archaeological practice. *Journal of Field Archaeology, 40*(3), 325-346. [https://doi.org/10.1179/2042458215Y.0000000004](https://doi.org/10.1179/2042458215Y.0000000004)
+Roosevelt, C. H. et al. (2015). Excavation is \[Destruction\] Digitization: advances in archaeological practice.*Journal of Field Archaeology, 40*(3), 325-346. [https://doi.org/10.1179/2042458215Y.0000000004](https://doi.org/10.1179/2042458215Y.0000000004)
 
-Rossi, C. et al. (2020). Digital Workflow to Support Archaeological Excavation: From the 3D Survey to the Websharing of Data. In N. Aste et al. (Eds.), *Innovative Models for Sustainable Development in Emerging African Countries.* Springer. ISBN: 978-3-030-33323-2
+Rossi, C. et al. (2020). Digital Workflow to Support Archaeological Excavation: From the 3D Survey to the Websharing of Data. In N. Aste et al. (Eds.),*Innovative Models for Sustainable Development in Emerging African Countries.*Springer. ISBN: 978-3-030-33323-2
 
-Schiappacasse, P. (2019). Excavating Repositories: Academic Research Projects Using Archaeological Collections. *Advances in Archaeological Practice,* *7*(3), 247-257. [https://www.do.org/10.1017/aap.2019.26](https://www.do.org/10.1017/aap.2019.26)
+Schiappacasse, P. (2019). Excavating Repositories: Academic Research Projects Using Archaeological Collections.*Advances in Archaeological Practice,**7*(3), 247-257. [https://www.do.org/10.1017/aap.2019.26](https://www.do.org/10.1017/aap.2019.26)
 
-Clarke, M. (2015). The Digital Dilemma: Preservation and the Digital Archaeological Record. *Advances in Archaeological Practice,* *3*(4),
+Clarke, M. (2015). The Digital Dilemma: Preservation and the Digital Archaeological Record.*Advances in Archaeological Practice,**3*(4),
 313-330. [https://www.doi.org/10.7183/2326-3768.3.4.313](https://www.doi.org/10.7183/2326-3768.3.4.313)
 
-Egloff, B. J. (2019). *Archaeological Heritage Conservation and Management*. Archaeopress Publishing Ltd. ISBN: 978-1-78969-106-1
+Egloff, B. J. (2019).*Archaeological Heritage Conservation and Management*. Archaeopress Publishing Ltd. ISBN: 978-1-78969-106-1
 
-Faniel, I. et al. (2013). *The challenges of digging data: a study of context in archaeological data reuse*. Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries. [https://doi.org/10.1145/2467696.2467712](https://doi.org/10.1145/2467696.2467712)
+Faniel, I. et al. (2013).*The challenges of digging data: a study of context in archaeological data reuse*. Proceedings of the 13th ACM/IEEE-CS joint conference on Digital libraries. [https://doi.org/10.1145/2467696.2467712](https://doi.org/10.1145/2467696.2467712)
 
-Geser, G., Richards, J. D., Massara, F., and Wright, H. (2022). Data Management Policies and Practices of Digital Archaeological Repositories. *Internet Archaeology 59.* [https://doi.org/10.11141/IA.59.2](https://doi.org/10.11141/IA.59.2)
+Geser, G., Richards, J. D., Massara, F., and Wright, H. (2022). Data Management Policies and Practices of Digital Archaeological Repositories.*Internet Archaeology 59.*[https://doi.org/10.11141/IA.59.2](https://doi.org/10.11141/IA.59.2)
 
-King, J., and Samford, P. (2019). Making Archaeological Collections Available for Research: Recommendations for Repositories. *Advances in Archaeological Practice,* *7*(3), 311-316. [https://www.doi.org/10.1017/aap.2019.27](https://www.doi.org/10.1017/aap.2019.27)
+King, J., and Samford, P. (2019). Making Archaeological Collections Available for Research: Recommendations for Repositories.*Advances in Archaeological Practice,**7*(3), 311-316. [https://www.doi.org/10.1017/aap.2019.27](https://www.doi.org/10.1017/aap.2019.27)
 
-Nicholson, C., Fernandez, R. and Irwin, J. 2021 Digital Archaeological Data in the Wild West: the challenge of practising responsible digital data archiving and access in the United States, *Internet Archaeology* 58. [https://doi.org/10.11141/ia.58.22](https://doi.org/10.11141/ia.58.22)
+Nicholson, C., Fernandez, R. and Irwin, J. 2021 Digital Archaeological Data in the Wild West: the challenge of practising responsible digital data archiving and access in the United States,*Internet Archaeology*58. [https://doi.org/10.11141/ia.58.22](https://doi.org/10.11141/ia.58.22)
 
 Wiseman, R., and Ronn, P. (2020). Archaeology on Furlough: Accessing Archaeological Information Online: A Survey of Volunteers’ Experiences. Apollo - University of Cambridge Repository. [https://doi.org/10.17863/CAM.54876](https://doi.org/10.17863/CAM.54876)
 
 # Bibliography
 
-Archaeological Institute of America (AIA). (2008). *Code of Professional Standards.* [https://www.archaeological.org/code-of-professional-standards/](https://www.archaeological.org/code-of-professional-standards/)
+Archaeological Institute of America (AIA). (2008).*Code of Professional Standards.*[https://www.archaeological.org/code-of-professional-standards/](https://www.archaeological.org/code-of-professional-standards/)
 
-Archaeology Data Service. (2013). *Caring for Digital Data in Archaeology: A guide to good practice*. Oxbow Books.
+Archaeology Data Service. (2013).*Caring for Digital Data in Archaeology: A guide to good practice*. Oxbow Books.
 
 Basketmaker Community Features. (2020.) Crow Canyon Archaeological Center. Crow Canyon Archaeological Center. ( tDAR id: 467829); [https://www.doi.org/10.48512/XCV8467829](https://www.doi.org/10.48512/XCV8467829)
 
-Data Curation Network. (2022). *CURATE(D) Steps and Checklist for Data Curation, version 2.* [http://z.umn.edu/curate](http://z.umn.edu/curate)
+Data Curation Network. (2022).*CURATE(D) Steps and Checklist for Data Curation, version 2.*[http://z.umn.edu/curate](http://z.umn.edu/curate)
 
 FAIR Principles. (n.d.). GO FAIR. Retrieved May 3, 2023, from [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
-Gadsby, D. (2019). *Negotiating Complexity in the Management of Sensitive Digital Data.* [https://saa2019-sensitive.netlify.app/complexity-gadsby/](https://saa2019-sensitive.netlify.app/complexity-gadsby/)
+Gadsby, D. (2019).*Negotiating Complexity in the Management of Sensitive Digital Data.*[https://saa2019-sensitive.netlify.app/complexity-gadsby/](https://saa2019-sensitive.netlify.app/complexity-gadsby/)
 
-Gupta, N., Martindale, A., Supernant, K., and Elvidge, M. (2023). The CARE Principles and the Reuse, Sharing, and Curation of Indigenous Data in Canadian Archaeology. *Advances in Archaeological Practice 11*(1), 76-89. [https://www.doi.org/10.1017/aap.2022.33](https://www.doi.org/10.1017/aap.2022.33)
+Gupta, N., Martindale, A., Supernant, K., and Elvidge, M. (2023). The CARE Principles and the Reuse, Sharing, and Curation of Indigenous Data in Canadian Archaeology.*Advances in Archaeological Practice 11*(1), 76-89. [https://www.doi.org/10.1017/aap.2022.33](https://www.doi.org/10.1017/aap.2022.33)
 
 H.R.5237 - 101st Congress. (1989-1990). Native American Graves Protection and Repatriation Act. [https://www.congress.gov/bill/101st-congress/house-bill/5237](https://www.congress.gov/bill/101st-congress/house-bill/5237)
 
@@ -634,11 +634,11 @@ https://doi.org/10.1073/pnas.2109313118](https://doi.org/10.1073/pnas.2109313118
 
 Kansa, S. W., Atici, L., Kansa, E. C., & Meadow, R. H. (2020). Archaeological Analysis in the Information Age: Guidelines for Maximizing the Reach, Comprehensiveness, and Longevity of Data. Advances in Archaeological Practice, 8(1), 40–52. [https://doi.org/10.1017/aap.2019.36](https://doi.org/10.1017/aap.2019.36)
 
-Nicholson, C., Kansa, S., Gupta, N., & Fernandez, R. (2023). Will It Ever Be FAIR?: Making Archaeological Data Findable, Accessible, Interoperable, and Reusable. *Advances in Archaeological Practice*, 11(1), 63-75. [https://www.doi.org/10.1017/aap.2022.40](https://www.doi.org/10.1017/aap.2022.40)
+Nicholson, C., Kansa, S., Gupta, N., & Fernandez, R. (2023). Will It Ever Be FAIR?: Making Archaeological Data Findable, Accessible, Interoperable, and Reusable.*Advances in Archaeological Practice*, 11(1), 63-75. [https://www.doi.org/10.1017/aap.2022.40](https://www.doi.org/10.1017/aap.2022.40)
 
-Richards, J.D., Jakobsson, U., Novák, D., Štular, B. and Wright, H. 2021 Digital Archiving in Archaeology: The State of the Art. Introduction, *Internet Archaeology* 58. [https://doi.org/10.11141/ia.58.23](https://doi.org/10.11141/ia.58.23)
+Richards, J.D., Jakobsson, U., Novák, D., Štular, B. and Wright, H. 2021 Digital Archiving in Archaeology: The State of the Art. Introduction,*Internet Archaeology*58. [https://doi.org/10.11141/ia.58.23](https://doi.org/10.11141/ia.58.23)
 
-The Global Indigenous Data Alliance (GIDA). (2019). *CARE Principles for Indigenous Data Governance*. [https://www.gida-global.org/care](https://www.gida-global.org/care)
+The Global Indigenous Data Alliance (GIDA). (2019).*CARE Principles for Indigenous Data Governance*. [https://www.gida-global.org/care](https://www.gida-global.org/care)
 
 University of Victoria Special Collections and University Archives. “About. Banda Through Time,” [https://exhibits.library.uvic.ca/spotlight/iaff/about/about](https://exhibits.library.uvic.ca/spotlight/iaff/about/about); Accessed April 25, 2023.
 
