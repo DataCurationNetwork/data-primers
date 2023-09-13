@@ -40,7 +40,7 @@ Affiliate Contributors (external peer reviewers): Eric C. Kansa, PhD (Open Conte
 [Ethical and Legal
 Considerations](#ethical-and-legal-considerations)
 [CARE Principles](#care-principles)
->[Open Data and DataAccessibility](#open-data-and-data-accessibility)
+>[Open Data and Data Accessibility](#open-data-and-data-accessibility)
 
 [Example Data Sets](#example-data-sets)
 
@@ -54,7 +54,7 @@ Considerations](#ethical-and-legal-considerations)
 
 [Bibliography](#bibliography)
 
-[Appendix 1: FAIR Principles](#appendix-1-fair-principles)
+[Appendix 1: FAIR Principles](#appendix-1-fair-principles)<br>
 [Findable](#findable)<br>
 >[Accessible](#accessible)<br>
 >[Interoperable](#interoperable)<br>
@@ -107,6 +107,7 @@ You may also find various digital collections, data publishing, and stand alone 
 California Digital Library (CDL) Merritt repository and Zenodo for archiving (Open Context, Digital Archiving).
 
 |   Type   |   Benefits   |   Challenges   |
+| :------------- | :------------- | :------------- |
 |   Institutional   |   <li>Free / low price</li> <li>Unlimited / large file space</li> <li>Preservation focus</li> <li>Local support and curation (varies)</li>   |   <li>General metadata and access</li><li>Non-archaeology expertise</li>   |
 |   Domain  |   <li>Preservation</li><li>Specific metadata</li><li>Expertise</li><li>Accessibility</li><li>Mechanisms to handle sensitive content</li>   |   <li>Cost</li><li>File limits (space & type)</li><li>Limits on the metadata customization</li>   |
 |   Other   |   <li>Appealing digital collections</li><li>Curation and publication of data</li>   |   <li>Preservation not main focus</li>   |
