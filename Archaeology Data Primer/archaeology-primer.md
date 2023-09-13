@@ -15,16 +15,10 @@ Affiliate Contributors (external peer reviewers): Eric C. Kansa, PhD (Open Conte
 | :------------- | :------------- |
 | Primary fields or areas of use | Archaeology, Anthropology, Cultural Heritage Preservation |
 | Metadata standards | Variations of Dublin Core |
-| Key questions for curation review | <li>Is there data that could identify protected sites, peoples, or cultural sensitive information? If so, has it been de-identified, and how?</li>
-<li>Are there supplementary data files included such as README, coding sheets, photo logs, or field manuals?</li>
-<li>If the data includes interviews or information from individuals, are necessary documents like consent forms present? </li>
-<li>Is the metadata rich and unambiguous to ensure interoperability and prepare for reuse? </li>
-<li>Is the data prepared for long term preservation?</li> |
+| Key questions for curation review | <li>Is there data that could identify protected sites, peoples, or cultural sensitive information? If so, has it been de-identified, and how?</li><li>Are there supplementary data files included such as README, coding sheets, photo logs, or field manuals?</li> <li>If the data includes interviews or information from individuals, are necessary documents like consent forms present? </li> <li>Is the metadata rich and unambiguous to ensure interoperability and prepare for reuse? </li> <li>Is the data prepared for long term preservation?</li> |
 | Date Created | April 25, 2023 |
 | Created By | Maria Arteaga Cuevas, Rachel Fernandez, and Hollis Wittman |
 | Date updated and summary of changes made | August 23, 2023, peer review feedback addressed. |
-| :------------- | :------------- |
-| :------------- | :------------- |
 
 
 
