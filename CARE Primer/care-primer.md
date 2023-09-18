@@ -143,7 +143,7 @@ At its core, IDG is the “power to decide how and when Indigenous data are gath
 
 Governance of data and data for governance form a reciprocal relationship underpinning IDG. Governance of data is about the ownership and control of data and involves answering the question “can Native nations manage, protect, and use that data?” (Carroll et al. 2019, p. 5). Data for governance is the quality, access and relevance of data and involves answering the question “can Native nations obtain the data they need for governance?” (Carroll et al. 2019, p. 5). The CARE Principles provides high level, minimal guidance to inform this reciprocal relationship to aid in nation building and decolonization of data. As Indigenous communities work to rebuild governance institutions and increase their capacity to govern their data, the community “facilitates stronger evidence-based decision-making” (Carroll et al. 2019, p. 5). This rebuilding involves implementing “mechanisms to honor, protect, and control their information both internally and externally,” thereby working to decolonize their data (Carroll et al. 2019, p. 5).
 
-<figure> <img src="clinical-1.JPG" alt="Clinical trial process overview." style="" alt="continuous process of governance of data leading to data rebuilding to data for governance to nation building back to governance of data."> <figcaption>*Image from Carroll, Rodriguez-Lonebear, & Martinez, 2019.*</figcaption> </figure>
+<figure> <img src="care-image-1.png" style="" alt="continuous process of governance of data leading to data rebuilding to data for governance to nation building back to governance of data."> <figcaption>*Image from Carroll, Rodriguez-Lonebear, & Martinez, 2019.*</figcaption> </figure>
 
 
 ## About CARE Principles
