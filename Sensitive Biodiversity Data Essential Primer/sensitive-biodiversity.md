@@ -2,7 +2,7 @@
 
 # Sensitive Biodiversity Data Essentials Primer
 
-Authors: Jen Jordan, Carlos Ramirez-Reyes, Shawna Taylor, Joanna Thielen, and Briana Wham)
+Authors: Jen Jordan, Carlos Ramirez-Reyes, Shawna Taylor, Joanna Thielen, and Briana Wham
 
 DCN Mentors: Shawna Taylor
 
@@ -43,7 +43,9 @@ This work was created as part of the “Specialized Data Curation” Workshop he
 
 [Overview of Modifying and Withholding Sensitive Data](#overview-of-generalizing-and-withholding-sensitive-data)
 
-> [Locality Data](#locality-data) <br> [Generalizing Textual and Spatial Data](#generalizing-textual-and-spatial-data) <br> [Geographic Masking](#geographic-masking) <br> [Georeferencing](#georeferencing) <br> [Withholding Data](#withholding-data) <br> [Metadata and Documentation](#metadata-and-documentation)
+> [Geographic Masking](#geographic-masking)
+
+[Metadata and Documentation](#metadata-and-documentation)
 
 [Key Questions for Curators (and Depositors)](#key-questions-for-curators-and-depositors)
 
@@ -51,9 +53,6 @@ This work was created as part of the “Specialized Data Curation” Workshop he
 
 [Bibliography and Further Reading](#bibliography-and-further-reading)
 
-[Appendices](#appendices)
-
-> [Fossil Data](#fossil-data) <br> [Herbarium Data](#herbarium-data) <br> [Taxidermy Data](#taxidermy-data)
 
 ## Summary
 
@@ -116,7 +115,7 @@ Finally, curators and researchers may want to be aware of Indigenous Knowledge, 
 
 Terms—and their legal implications—used to describe and classify sensitive biodiversity data can vary based on country, region, and between organizations. Similarly, species classification can vary. Terms frequently exist on a spectrum; for instance, the United States Endangered Species Act (1973) draws a distinction between *threatened* and *endangered* species*,* with endangered representing the highest level of risk, and thus granting a species extra protections by the federal government.
 
-The International Union for Conservation of Nature (IUCN) offers more categories for at-risk status than the Endangered Species Act. It defines nine categories in its IUCN Red List, which tracks conservation status of species across the globe; these include four that a relevant to sensitive biodiversity data:
+The International Union for Conservation of Nature (IUCN) offers more categories for at-risk status than the Endangered Species Act. It defines nine categories in its IUCN Red List, which tracks conservation status of species across the globe; these include four that are relevant to sensitive biodiversity data:
 
 - Critically endangered
 
@@ -202,7 +201,7 @@ sensitivity, which are:
 
 The decision tree below (Figure 1) from Tulloch et al. 2018 gives a visual representation of the questions the curator and researcher should be asking about sensitive biodiversity data. While it’s not meant to be prescriptive, it can be used to start a conversation about what to share and what not to share. Researchers need to weigh the benefits and risks of publicly sharing sensitive data. Curators can provide guidance but ultimately it is the depositor’s responsibility.
 
-<figure> <img src="sensitive-data-1.png" alt="Decision tree for publishing biodiversity data from monitoring and survey." style=""> <figcaption>Figure 1: Decision tree for publishing biodiversity data from monitoring and survey; Source: [Tulloch et al. 2018](https://www.nature.com/articles/s41559-018-0608-1)</figcaption> </figure>
+<figure> <img src="sensitive-data-1.png" alt="Decision tree for publishing biodiversity data from monitoring and survey." style=""> <figcaption>Figure 1: Decision tree for publishing biodiversity data from monitoring and survey; Source: [Tulloch et al. 2018](https://doi.org/10.1038/s41559-018-0608-1)</figcaption> </figure>
 
 
 ### Georeferencing
@@ -419,7 +418,7 @@ Zandbergen, P. A. (2014). Ensuring Confidentiality of Geocoded Health Data: Asse
 
 [^3]: For more information on the ecological and ethical issues surrounding the commercialization of California white sage, see [“Sage advice: The ecological and ethical problems of ‘smudging’](https://www.hcn.org/issues/52.10/indigenous-affairs-sage-advice)”
 
-[^4]: Considerations covered in this primer may also apply to the curation of human remains, human burial ground, or archaeological data, but are out-of-scope of the purpose of this primer. For more information on archaeological data specifically, see the Data Curation Network’s Archaeological Data Primer.
+[^4]: Considerations covered in this primer may also apply to the curation of human remains, human burial ground, or archaeological data, but are out-of-scope of the purpose of this primer. For more information on archaeological data specifically, see the Data Curation Network’s [Archaeological Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Archaeology%20Data%20Primer/archaeology-primer.md).
 
 [^5]: For additional information on sharing invasive species data, see Groom, Q. J. et al. (2017). Seven Recommendations to Make Your Invasive Alien Species Data More Useful. *Frontiers in Applied Mathematics and Statistics* (Vol. 3). [https://doi.org/10.3389/fams.2017.00013](https://doi.org/10.3389/fams.2017.00013)
 
