@@ -6,7 +6,7 @@ Authors: Jen Jordan, Carlos Ramirez-Reyes, Shawna Taylor, Joanna Thielen, and Br
 
 DCN Mentors: Shawna Taylor
 
-Affiliate Contributors (external peer reviewers): 
+Affiliate Contributors (external peer reviewers): Megan O'Donnell and Sophia Lafferty-Hess
 
 
 ## Executive Summary
