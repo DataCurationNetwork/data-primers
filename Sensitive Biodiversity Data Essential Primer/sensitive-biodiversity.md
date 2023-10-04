@@ -349,6 +349,7 @@ Australia’s [national framework](https://doi.org/10.54102/ala.94894) for shari
 ## Related Topics & Resources
 
 |   Topic   |   Resource  |
+| :------------- | :------------- |
 | General (Cross-Cutting) | <li> <a href="https://icom.museum/wp-content/uploads/2018/07/nathcode_ethics_en.pdf">The ICOM Code of Ethics for Natural History Museums</a> </li> |
 | Fossil Data | <li> <a href="http://collections.paleo.amnh.org/21/data-and-data-management">Collections Management | The Paleontology Portal</a> </li> <li> <a href="https://doi.org/10.1016/j.cub.2021.07.071">Biodiversity Across Space and Time (article)</a> </li> |
 | Herbarium Data | <li> <a href="https://www.journals.uchicago.edu/doi/10.1086/717623">Herbaria as Big Data Sources of Plant Traits (article)</a> </li> <li> <a href="https://bsapubs.onlinelibrary.wiley.com/doi/10.1002/ajb2.1563">Small herbaria contribute unique biogeographic records to county, locality, and temporal scales (article)</a> </li> <li> <a href="https://academic.oup.com/bioscience/article/69/10/812/5556012?login=false">The Changing Uses of Herbarium Data in an Era of Global Change: An Overview Using Automated Content Analysis (article)</a> </li> <li> <a href="https://riojournal.com/article/14675/">Data Management Plan: Brazil's Virtual Herbarium</a> </li> |
