@@ -333,7 +333,7 @@ Australia’s [national framework](https://doi.org/10.54102/ala.94894) for shari
 
 |   Topic   |   Resource  |
 | :------------- | :------------- |
-| Determining sensitivity | <li><a href="https://doi.org/10.1038/s41559-018-0608-1">A decision tree for assessing the risks and benefits of publishing biodiversity data</a> | <em>Nature Ecology & Evolution</em> - see Table 3 and Supplementary Table 2, which includes three case studies explaining how and why various sensitive biodiversity data were (or were not) made publicly available</li><li><a href="https://doi.org/10.15468/doc-5jp4-5g10">Current Best Practices for Generalizing Sensitive Species Occurrence Data</a> \| GBIF</li> |
+| Determining sensitivity | <li><a href="https://doi.org/10.1038/s41559-018-0608-1">A decision tree for assessing the risks and benefits of publishing biodiversity data</a> \| <em>Nature Ecology & Evolution</em> - see Table 3 and Supplementary Table 2, which includes three case studies explaining how and why various sensitive biodiversity data were (or were not) made publicly available</li><li><a href="https://doi.org/10.15468/doc-5jp4-5g10">Current Best Practices for Generalizing Sensitive Species Occurrence Data</a> \| GBIF</li> |
 | Protected and Conservation status | <li><a href="https://www.iucnredlist.org/">IUCN Red List</a></li><li><a href="https://www.protectedplanet.net">Protected Planet</a></li><li><a href="https://explorer.natureserve.org">NatureServe Explorer</a> (North American species)</li>
  |
 | Regulatory Permit | <li> <a href="https://www.fws.gov/service/permits">U.S. Fish & Wildlife Service permits database</a></li> |
