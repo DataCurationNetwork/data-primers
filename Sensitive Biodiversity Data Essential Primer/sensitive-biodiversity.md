@@ -289,14 +289,11 @@ Australia’s [national framework](https://doi.org/10.54102/ala.94894) for shari
   - Is the species flagged by the [IUCN Red List](https://www.iucnredlist.org) as “near threatened”, "vulnerable", "endangered", or "critically endangered"?
 
   - Is the taxon subject to harmful human activity (e.g., poaching)?
-
-    - If yes - Document with supporting rationale
-
-    - If no - Document that there is not significant risk of a harmful human activity and as such the taxon is not sensitive.
+ - If yes - Document with supporting rationale
+ - If no - Document that there is not significant risk of a harmful human activity and as such the taxon is not sensitive.
 
   - Were the specimens studied on a wildlife/nature preserve or in the wild?
-
-    - If yes - Data will be considered more sensitive if it was collected in the wild because these specimens often have less protections than others in nature preserves
+ - If yes - Data will be considered more sensitive if it was collected in the wild because these specimens often have less protections than others in nature preserves
 
 - Are there relevant local/state/regional/country regulations that apply to this research and the subsequent data?
 
@@ -351,241 +348,83 @@ Australia’s [national framework](https://doi.org/10.54102/ala.94894) for shari
 
 ## Related Topics & Resources
 
-<table>
-<colgroup>
-<col style="width: 22%" />
-<col style="width: 77%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>General (Cross-Cutting)</th>
-<th><ul>
-<li> <a
-href="https://icom.museum/wp-content/uploads/2018/07/nathcode_ethics_en.pdf">The
-ICOM Code of Ethics for Natural History Museums</a> </li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th>Fossil Data</th>
-<th><ul>
-<li> <a
-href="http://collections.paleo.amnh.org/21/data-and-data-management">Collections
-Management | The Paleontology Portal</a> </li>
-<li> <a href="https://doi.org/10.1016/j.cub.2021.07.071">Biodiversity
-Across Space and Time (article)</a> </li>
-</ul></th>
-</tr>
-<tr class="header">
-<th>Herbarium Data</th>
-<th><ul>
-<li> <a
-href="https://www.journals.uchicago.edu/doi/10.1086/717623">Herbaria
-as Big Data Sources of Plant Traits (article)</a> </li>
-<li> <a
-href="https://bsapubs.onlinelibrary.wiley.com/doi/10.1002/ajb2.1563">Small
-herbaria contribute unique biogeographic records to county, locality,
-and temporal scales (article)</a> </li>
-<li> <a
-href="https://academic.oup.com/bioscience/article/69/10/812/5556012?login=false">The
-Changing Uses of Herbarium Data in an Era of Global Change: An Overview
-Using Automated Content Analysis (article)</a> </li>
-<li> <a href="https://riojournal.com/article/14675/">Data Management
-Plan: Brazil's Virtual Herbarium</a> </li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th>Preserved Specimen Data</th>
-<th><ul>
-<li> <a
-href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9113241/">Bridging
-the Research Gap between Live Collections in Zoos and Preserved
-Collections in Natural History Museums (article)</a> </li>
-<li> Curating Tomorrow - Museum collections and biodiversity
-conservation </li>
-</ul></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|   Topic   |   Resource  |
+| General (Cross-Cutting) | <li> <a href="https://icom.museum/wp-content/uploads/2018/07/nathcode_ethics_en.pdf">The ICOM Code of Ethics for Natural History Museums</a> </li> |
+| Fossil Data | <li> <a href="http://collections.paleo.amnh.org/21/data-and-data-management">Collections Management | The Paleontology Portal</a> </li> <li> <a href="https://doi.org/10.1016/j.cub.2021.07.071">Biodiversity Across Space and Time (article)</a> </li> |
+| Herbarium Data | <li> <a href="https://www.journals.uchicago.edu/doi/10.1086/717623">Herbaria as Big Data Sources of Plant Traits (article)</a> </li> <li> <a href="https://bsapubs.onlinelibrary.wiley.com/doi/10.1002/ajb2.1563">Small herbaria contribute unique biogeographic records to county, locality, and temporal scales (article)</a> </li> <li> <a href="https://academic.oup.com/bioscience/article/69/10/812/5556012?login=false">The Changing Uses of Herbarium Data in an Era of Global Change: An Overview Using Automated Content Analysis (article)</a> </li> <li> <a href="https://riojournal.com/article/14675/">Data Management Plan: Brazil's Virtual Herbarium</a> </li> |
+| Preserved Specimen Data | <li> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9113241/">Bridging the Research Gap between Live Collections in Zoos and Preserved Collections in Natural History Museums (article)</a> </li> <li> Curating Tomorrow - Museum collections and biodiversity conservation </li> |
 
 ## Bibliography and Further Reading
 
-*About.* (n.d.) Protected Planet. Retrieved April 28, 2023, from
-[https://www.protectedplanet.net/en/about](https://www.protectedplanet.net/en/about)
+*About.* (n.d.) Protected Planet. Retrieved April 28, 2023, from [https://www.protectedplanet.net/en/about](https://www.protectedplanet.net/en/about)
 
-Aluaq Daniel, R., ‘Aulani Wilhelm, T., Case-Scott, H., Goldman, G., &
-Hinzman, L. (2022). What is “Indigenous Knowledge” And Why Does It
-Matter? Integrating Ancestral Wisdom and Approaches into Federal
-Decision-Making. The White House. Retrieved May 5, 2023, from
-[https://www.whitehouse.gov/ostp/news-updates/2022/12/02/what-is-indigenous-knowledge-and-why-does-it-matter-integrating-ancestral-wisdom-and-approaches-into-federal-decision-making/](https://www.whitehouse.gov/ostp/news-updates/2022/12/02/what-is-indigenous-knowledge-and-why-does-it-matter-integrating-ancestral-wisdom-and-approaches-into-federal-decision-making/)
+Aluaq Daniel, R., ‘Aulani Wilhelm, T., Case-Scott, H., Goldman, G., & Hinzman, L. (2022). What is “Indigenous Knowledge” And Why Does It Matter? Integrating Ancestral Wisdom and Approaches into Federal Decision-Making. The White House. Retrieved May 5, 2023, from [https://www.whitehouse.gov/ostp/news-updates/2022/12/02/what-is-indigenous-knowledge-and-why-does-it-matter-integrating-ancestral-wisdom-and-approaches-into-federal-decision-making/](https://www.whitehouse.gov/ostp/news-updates/2022/12/02/what-is-indigenous-knowledge-and-why-does-it-matter-integrating-ancestral-wisdom-and-approaches-into-federal-decision-making/)
 
-Access to Biological Collections Data Task Group. 2005. Access to
-Biological Collection Data (ABCD). Biodiversity Information Standards
-(TDWG). Retrieved May 5, 2023, from
-[http://www.tdwg.org/standards/115](http://www.tdwg.org/standards/115)
+Access to Biological Collections Data Task Group. 2005. Access to Biological Collection Data (ABCD). Biodiversity Information Standards (TDWG). Retrieved May 5, 2023, from [http://www.tdwg.org/standards/115](http://www.tdwg.org/standards/115)
 
-Borgelt, J., Dorber, M., Høiberg, M. A., & Verones, F. (2022). More than
-half of data deficient species predicted to be threatened by extinction.
-*Communications Biology,* *5*(679).
-https://doi.org/10.1038/s42003-022-03638-9
+Borgelt, J., Dorber, M., Høiberg, M. A., & Verones, F. (2022). More than half of data deficient species predicted to be threatened by extinction. *Communications Biology,* *5*(679). https://doi.org/10.1038/s42003-022-03638-9
 
-Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J.,
-Lovett, R., Materechera, S., Parsons, M., Raseroka, K.,
-Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J.D., Anderson, J.,
-& Hudson, M. (2020). The CARE Principles for Indigenous Data Governance.
-*Data Science Journal*, 19(1), 43.
-[https://doi.org/10.5334/dsj-2020-043](https://doi.org/10.5334/dsj-2020-043)
+Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J.D., Anderson, J., & Hudson, M. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal*, 19(1), 43. [https://doi.org/10.5334/dsj-2020-043](https://doi.org/10.5334/dsj-2020-043)
 
-Carroll, S. R., Herczog, E., Hudson, M., Russell, K., & Stall, S.
-(2021). Operationalizing the CARE and FAIR Principles for Indigenous
-data futures. *Scientific Data* 8(108).
-[https://doi.org/10.1038/s41597-021-00892-0](https://doi.org/10.1038/s41597-021-00892-0)
+Carroll, S. R., Herczog, E., Hudson, M., Russell, K., & Stall, S. (2021). Operationalizing the CARE and FAIR Principles for Indigenous data futures. *Scientific Data* 8(108). [https://doi.org/10.1038/s41597-021-00892-0](https://doi.org/10.1038/s41597-021-00892-0)
 
-Chapman, A. D. (2020). Current Best Practices for Generalizing Sensitive
-Species Occurrence Data. Copenhagen: GBIF Secretariat.
-[https://doi.org/10.15468/doc-5jp4-5g10](https://doi.org/10.15468/doc-5jp4-5g10).
+Chapman, A. D. (2020). Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-5jp4-5g10](https://doi.org/10.15468/doc-5jp4-5g10).
 
-Chapman A. D. & Wieczorek J. R. (2020). Georeferencing Best Practices.
-Copenhagen: GBIF Secretariat.
-[https://doi.org/10.15468/doc-gg7h-s853](https://doi.org/10.15468/doc-gg7h-s853)
+Chapman A. D. & Wieczorek J. R. (2020). Georeferencing Best Practices. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-gg7h-s853](https://doi.org/10.15468/doc-gg7h-s853)
 
-Clarke, K. C. <span class="mark">(2016).
-<span class="mark">A multiscale masking method for point
-geographic data, <span class="mark">International Journal of
-Geographical Information Science, <span class="mark">30:2,
-<span class="mark">300-315,
-<span class="mark">[https://doi.org/10.1080/13658816.2015.1085540](https://doi.org/10.1080/13658816.2015.1085540)
+Clarke, K. C. (2016). A multiscale masking method for point geographic data, International Journal of Geographical Information Science, 30:2, 300-315, [https://doi.org/10.1080/13658816.2015.1085540](https://doi.org/10.1080/13658816.2015.1085540)
 
-Cooke, S. J., Nguyen, V. M., Kessel, S. T., Hussey, N. E., Young, N., &
-Ford, A. T. (2017). Troubling issues at the frontier of animal tracking
-for conservation and management. *Conservation Biology 31*(5), 1205-07.
-[https://doi.org/10.1111/cobi.12895](https://doi.org/10.1111/cobi.12895)
+Cooke, S. J., Nguyen, V. M., Kessel, S. T., Hussey, N. E., Young, N., & Ford, A. T. (2017). Troubling issues at the frontier of animal tracking for conservation and management. *Conservation Biology 31*(5), 1205-07. [https://doi.org/10.1111/cobi.12895](https://doi.org/10.1111/cobi.12895)
 
-Darwin Core Task Group. 2009. Darwin Core. Biodiversity Information
-Standards (TDWG). Retrieved May 5, 2023, from
-[http://www.tdwg.org/standards/450](http://www.tdwg.org/standards/450)
+Darwin Core Task Group. 2009. Darwin Core. Biodiversity Information Standards (TDWG). Retrieved May 5, 2023, from [http://www.tdwg.org/standards/450](http://www.tdwg.org/standards/450)
 
-David-Chavez, D.M. (2023, March 28). Indigenous ethics and data
-stewardship: Enhancing protocol, policy, and practice for our shared
-data futures. Research Data Access and Preservation (RDAP) 2023 Summit.
-Retrieved May 5, 2023, from
-[https://whova.com/portal/webapp/rdaap_202303/Agenda/2850892](https://whova.com/portal/webapp/rdaap_202303/Agenda/2850892)
+David-Chavez, D.M. (2023, March 28). Indigenous ethics and data stewardship: Enhancing protocol, policy, and practice for our shared data futures. Research Data Access and Preservation (RDAP) 2023 Summit. Retrieved May 5, 2023, from [https://whova.com/portal/webapp/rdaap_202303/Agenda/2850892](https://whova.com/portal/webapp/rdaap_202303/Agenda/2850892)
 
-Endangered Species Act, <span class="mark">16 U.S.C. § 1531
-(1973).
+Endangered Species Act, 16 U.S.C. § 1531 (1973).
 
-<span class="mark">“Guidance for Species Data” (updated 2023-01-02).
-Dryad. Retrieved May 2, 2023, from
-[EndangeredSpeciesData.pdf](https://datadryad.org/docs/EndangeredSpeciesData.pdf)
+“Guidance for Species Data” (updated 2023-01-02). Dryad. Retrieved May 2, 2023, from [EndangeredSpeciesData.pdf](https://datadryad.org/docs/EndangeredSpeciesData.pdf)
 
-Hastings, J.T., Hill, L.L. (2009). Georeferencing. In: LIU, L., ÖZSU,
-M.T. (eds) Encyclopedia of Database Systems. Springer, Boston, MA.
-[https://doi.org/10.1007/978-0-387-39940-9_181](https://doi.org/10.1007/978-0-387-39940-9_181)
+Hastings, J.T., Hill, L.L. (2009). Georeferencing. In: LIU, L., ÖZSU, M.T. (eds) Encyclopedia of Database Systems. Springer, Boston, MA. [https://doi.org/10.1007/978-0-387-39940-9_181](https://doi.org/10.1007/978-0-387-39940-9_181)
 
-König, C., Weigelt, P., Schrader, J., Taylor, A., Kattge, J., & Kreft,
-H. (2019). Biodiversity data integration—the significance of data
-resolution and domain. *PLOS Biology 17*(3): e3000183.
-[https://doi.org/10.1371/journal.pbio.3000183](https://doi.org/10.1371/journal.pbio.3000183)
+König, C., Weigelt, P., Schrader, J., Taylor, A., Kattge, J., & Kreft, H. (2019). Biodiversity data integration—the significance of data resolution and domain. *PLOS Biology 17*(3): e3000183. [https://doi.org/10.1371/journal.pbio.3000183](https://doi.org/10.1371/journal.pbio.3000183)
 
-Lidz, F. (2018, April) The Great Feather Heist, Smithsonian Magazine.
-Retrieved on August 3, 2023, from
-[https://www.smithsonianmag.com/science-nature/great-feather-heist-180968408/](https://www.smithsonianmag.com/science-nature/great-feather-heist-180968408/)
+Lidz, F. (2018, April) The Great Feather Heist, Smithsonian Magazine. Retrieved on August 3, 2023, from [https://www.smithsonianmag.com/science-nature/great-feather-heist-180968408/](https://www.smithsonianmag.com/science-nature/great-feather-heist-180968408/)
 
-Lindenmayer, D. & Scheele, B. (2017). Do not publish. *Science,*
-356(6340), 800-801.
-[https://doi.org/10.1126/science.aan1362](https://doi.org/10.1126/science.aan1362)
+Lindenmayer, D. & Scheele, B. (2017). Do not publish. *Science,* 356(6340), 800-801. [https://doi.org/10.1126/science.aan1362](https://doi.org/10.1126/science.aan1362)
 
-Marcer, A., Chapman, A. D., Wieczorek, J. R., Xavier Picó, F., Uribe,
-F., Waller, J. & Ariño, A.H. (2022). Uncertainty matters: ascertaining
-where specimens in natural history collections come from and its
-implications for predicting species distributions. *Ecography* 2022(9).
-[https://doi.org/10.1111/ecog.06025](https://doi.org/10.1111/ecog.06025)
+Marcer, A., Chapman, A. D., Wieczorek, J. R., Xavier Picó, F., Uribe, F., Waller, J. & Ariño, A.H. (2022). Uncertainty matters: ascertaining where specimens in natural history collections come from and its implications for predicting species distributions. *Ecography* 2022(9). [https://doi.org/10.1111/ecog.06025](https://doi.org/10.1111/ecog.06025)
 
-Meeuwig, J. J, Harcourt, R. G., Whoriskey, F. G. (2015) When Science
-Places Threatened Species at Risk. Conservation Letters 8(3), 151-152.
-[https://doi.org/10.1111/conl.12185](https://doi.org/10.1111/conl.12185)
+Meeuwig, J. J, Harcourt, R. G., Whoriskey, F. G. (2015) When Science Places Threatened Species at Risk. Conservation Letters 8(3), 151-152. [https://doi.org/10.1111/conl.12185](https://doi.org/10.1111/conl.12185)
 
-National Framework for the Sharing of Restricted Access Species Data in
-Australia. (2023). *Atlas of Living Australia*, Publication Series No.
-6, Canberra Australia.
-[https://doi.org/10.54102/ala.94894](https://doi.org/10.54102/ala.94894)
+National Framework for the Sharing of Restricted Access Species Data in Australia. (2023). *Atlas of Living Australia*, Publication Series No. 6, Canberra Australia. [https://doi.org/10.54102/ala.94894](https://doi.org/10.54102/ala.94894)
 
-Publish not perish: Conservationists have a new tool for weighing up the
-risks and benefits of open data. (2018) *Nature* 559, 444.
-[https://doi.org/<span class="mark">10.1038/d41586-018-05800-y](https://doi.org/10.1038/d41586-018-05800-y)
+Publish not perish: Conservationists have a new tool for weighing up the risks and benefits of open data. (2018) *Nature* 559, 444. [https://doi.org/10.1038/d41586-018-05800-y](https://doi.org/10.1038/d41586-018-05800-y)
 
-Recio, E. & Hestad, D. (2022, April 22). Policy Brief \#36. Indigenous
-Peoples: defending an environment for all. *Earth Negotiations
-Bulletin*. The International Institute for Sustainable Development
-(IISD). Retrieved May 5, 2023, from
-[https://www.iisd.org/system/files/2022-04/still-one-earth-Indigenous-Peoples.pdf](https://www.iisd.org/system/files/2022-04/still-one-earth-Indigenous-Peoples.pdf)
+Recio, E. & Hestad, D. (2022, April 22). Policy Brief \#36. Indigenous Peoples: defending an environment for all. *Earth Negotiations Bulletin*. The International Institute for Sustainable Development (IISD). Retrieved May 5, 2023, from [https://www.iisd.org/system/files/2022-04/still-one-earth-Indigenous-Peoples.pdf](https://www.iisd.org/system/files/2022-04/still-one-earth-Indigenous-Peoples.pdf)
 
-Roberts, K.E., Smith, B.J., Burkholder, D., & Hart, K.M. (2021)
-Evaluating the use of marine protected areas by endangered species: A
-habitat selection approach. E*cological Solutions and Evidence* 2,
-e12035.
-[https://doi.org/10.1002/2688-8319.12035](https://doi.org/10.1002/2688-8319.12035)
+Roberts, K.E., Smith, B.J., Burkholder, D., & Hart, K.M. (2021) Evaluating the use of marine protected areas by endangered species: A habitat selection approach. E*cological Solutions and Evidence* 2, e12035. [https://doi.org/10.1002/2688-8319.12035](https://doi.org/10.1002/2688-8319.12035)
 
-Tulloch, A.I.T., Auerbach, N., Avery-Gomm, S., Bayraktarov, E., Butt,
-N., Dickman, C. R., Ehmke, G., Fisher, D. O., Grantham, H., Holden, M.
-H., Lavery, T. H., Leseberg, N. P., Micholls, M., O’Conner, J.,
-Roberson, L., Smyth, A. K., Stone, Z., Tulloch, V., Turak, E., Wardle,
-G. M., et al. (2018). A decision tree for assessing the risks and
-benefits of publishing biodiversity data. *Nature Ecology & Evolution
-2,* 1209–1217.
-[https://doi.org/10.1038/s41559-018-0608-1](https://doi.org/10.1038/s41559-018-0608-1)
+Tulloch, A.I.T., Auerbach, N., Avery-Gomm, S., Bayraktarov, E., Butt, N., Dickman, C. R., Ehmke, G., Fisher, D. O., Grantham, H., Holden, M. H., Lavery, T. H., Leseberg, N. P., Micholls, M., O’Conner, J., Roberson, L., Smyth, A. K., Stone, Z., Tulloch, V., Turak, E., Wardle, G. M., et al. (2018). A decision tree for assessing the risks and benefits of publishing biodiversity data. *Nature Ecology & Evolution 2,* 1209–1217. [https://doi.org/10.1038/s41559-018-0608-1](https://doi.org/10.1038/s41559-018-0608-1)
 
-Welz, C. (2017, September 6). Unnatural surveillance: how online data is
-putting species at risk. *Yale Environment 360*, Yale School of the
-Environment. Retrieved May 5, 2023, from
-[https://e360.yale.edu/features/unnatural-surveillance-how-online-data-is-putting-species-at-risk](https://e360.yale.edu/features/unnatural-surveillance-how-online-data-is-putting-species-at-risk)
+Welz, C. (2017, September 6). Unnatural surveillance: how online data is putting species at risk. *Yale Environment 360*, Yale School of the Environment. Retrieved May 5, 2023, from [https://e360.yale.edu/features/unnatural-surveillance-how-online-data-is-putting-species-at-risk](https://e360.yale.edu/features/unnatural-surveillance-how-online-data-is-putting-species-at-risk)
 
-Wieczorek J., Bloom D., Guralnick R., Blum S., Döring M., et al. (2012).
-Darwin Core: An Evolving Community-Developed Biodiversity Data Standard.
-*PLoS ONE,* 7(1): e29715.
-[https://doi.org/10.1371/journal.pone.0029715](https://doi.org/10.1371/journal.pone.0029715)
+Wieczorek J., Bloom D., Guralnick R., Blum S., Döring M., et al. (2012). Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. *PLoS ONE,* 7(1): e29715. [https://doi.org/10.1371/journal.pone.0029715](https://doi.org/10.1371/journal.pone.0029715)
 
-Zandbergen, P. A. (2014). Ensuring Confidentiality of Geocoded Health
-Data: Assessing Geographic Masking Strategies for Individual-Level Data.
-*Advances in Medicine*, *2014*: 567049.
-[https://doi.org/10.1155/2014/567049](https://doi.org/10.1155/2014/567049)
+Zandbergen, P. A. (2014). Ensuring Confidentiality of Geocoded Health Data: Assessing Geographic Masking Strategies for Individual-Level Data. *Advances in Medicine*, *2014*: 567049. [https://doi.org/10.1155/2014/567049](https://doi.org/10.1155/2014/567049)
 
-[^1]: See
-    [https://essd.copernicus.org/articles/15/617/2023/](https://essd.copernicus.org/articles/15/617/2023/)
+[^1]: See [https://essd.copernicus.org/articles/15/617/2023/](https://essd.copernicus.org/articles/15/617/2023/)
 
-[^2]: For examples of poachers using publicly available biodiversity
-    data, see “[Troubling issues at the frontier of animal tracking
-    for conservation and
-    management.](https://doi.org/10.1111/cobi.12895)”
+[^2]: For examples of poachers using publicly available biodiversity data, see “[Troubling issues at the frontier of animal tracking for conservation and management.](https://doi.org/10.1111/cobi.12895)”
 
-[^3]: For more information on the ecological and ethical issues
-    surrounding the commercialization of California white sage, see
-    [“Sage advice: The ecological and ethical problems of
-    ‘smudging’](https://www.hcn.org/issues/52.10/indigenous-affairs-sage-advice)”
+[^3]: For more information on the ecological and ethical issues surrounding the commercialization of California white sage, see [“Sage advice: The ecological and ethical problems of ‘smudging’](https://www.hcn.org/issues/52.10/indigenous-affairs-sage-advice)”
 
-[^4]: Considerations covered in this primer may also apply to the
-    curation of human remains, human burial ground, or archaeological
-    data, but are out-of-scope of the purpose of this primer. For more
-    information on archaeological data specifically, see the Data
-    Curation Network’s Archaeological Data Primer.
+[^4]: Considerations covered in this primer may also apply to the curation of human remains, human burial ground, or archaeological data, but are out-of-scope of the purpose of this primer. For more information on archaeological data specifically, see the Data Curation Network’s Archaeological Data Primer.
 
-[^5]: For additional information on sharing invasive species data, see
-    Groom, Q. J. et al. (2017). Seven Recommendations to Make Your
-    Invasive Alien Species Data More Useful. *Frontiers in Applied
-    Mathematics and Statistics* (Vol. 3).
-    [https://doi.org/10.3389/fams.2017.00013](https://doi.org/10.3389/fams.2017.00013)
+[^5]: For additional information on sharing invasive species data, see Groom, Q. J. et al. (2017). Seven Recommendations to Make Your Invasive Alien Species Data More Useful. *Frontiers in Applied Mathematics and Statistics* (Vol. 3). [https://doi.org/10.3389/fams.2017.00013](https://doi.org/10.3389/fams.2017.00013)
 
-[^6]: See Figure 1 in Carroll et al. (2020) to contrast people oriented
-    principles of CARE with the data oriented principles of FAIR.
+[^6]: See Figure 1 in Carroll et al. (2020) to contrast people oriented principles of CARE with the data oriented principles of FAIR.
 
-[^7]: For example, in an article by Roberts, K.E., et al (2020) on the
-    evaluation of marine protected areas by endangered species, the
-    research data availability statement states, “Initial location data
-    are withheld due to the sensitivity of threatened and endangered
-    species location data in U.S. national parks and protected areas.”
-    This statement indicates the authors felt the need to specifically
-    omit location data from this publicly available dataset.
+[^7]: For example, in an article by Roberts, K.E., et al (2020) on the evaluation of marine protected areas by endangered species, the research data availability statement states, “Initial location data are withheld due to the sensitivity of threatened and endangered species location data in U.S. national parks and protected areas.” This statement indicates the authors felt the need to specifically omit location data from this publicly available dataset.
 
 [^8]: Chapman & Wieczorek (2022) state that “very few institutions use PIDs for specimens, and even fewer for locations; however a recent paper by [Nelson et al. 2018](https://bsapubs.onlinelibrary.wiley.com/doi/10.1002/aps3.1027) makes a number of recommendations on minting, managing and sharing GUIDs for herbarium specimens.” 
 
