@@ -2,7 +2,7 @@
 
 #### License:
 
-CC by 4.0
+CC by 4.1
 
 
 #### Citation:
