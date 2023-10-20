@@ -321,7 +321,7 @@ HITRUST De-identification Methodology Training [https://hitrustalliance.net/hitr
 
 Rights (OCR), O. for C. (2012, September 7). Methods for De-identification of PHI. Retrieved September 11, 2019, from HHS.gov website: [https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html)
 
-Fearon, Dave. (2019). “Guides: Protecting Identifiers in Human Subjects Data.” Accessed February 7, 2020. []().
+Fearon, Dave. (2023). “Guides: Protecting Identifiers in Human Subjects Data.” Accessed October 20, 2023. [https://guides.library.jhu.edu/protecting_identifiers](https://guides.library.jhu.edu/protecting_identifiers).
 
 # Appendix B Links to sources on consent documentation
 
