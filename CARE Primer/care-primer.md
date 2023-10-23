@@ -4,14 +4,14 @@
 
 Authors (in alphabetical order): Sarah Barsness, Jewel Cummins, Maria
 Victoria Fernandez, Ann Myatt James, Katie Pierce Farrier, Jonathan
-Pringle, Stephanie Russo Carroll, Riley Taitingfong, Alex Wieker
+Pringle, SR Carroll, Riley Taitingfong, Alex Wieker
 
 Mentors: Wanda Marsolek, Shanda Hunt
 
 Peer reviewers: An Garagiola; Sandi Caldrone; Matthew Harp
 
 Preferred citation: Barness, S., Cummins, J., Fernandez, M., James, A.,
-Pierce Farrier K., Pringle, J., Russo Carroll, S. Taitingfong, R., &
+Pierce Farrier K., Pringle, J., Carroll, SR. Taitingfong, R., &
 Wieker, A. (2023). CARE Data Principles Primer. Data Curation Network
 
 ## Abstract
