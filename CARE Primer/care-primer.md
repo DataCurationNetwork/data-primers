@@ -62,8 +62,7 @@ The CARE Principle Data Primer is intended to provide an introduction to the CAR
 # Positionality Statement 
 
 Stephanie Russo Carroll, DrPH, MPH, is Ahtna, a citizen of the Native Village of Kluti-Kaah in Alaska, and of Sicilian descent and lives and works in Chukson on O’odham and Yaqui lands. She is an associate professor at the University of Arizona. Stephanie directs the
-[Collaboratory for Indigenous Data Governance](https://indigenousdatalab.org/), co-edited the book [*Indigenous Data Sovereignty and
-Policy*](https://doi.org/10.4324/9780429273957) and co-led the publication of the ‘[CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)’.
+[Collaboratory for Indigenous Data Governance](https://indigenousdatalab.org/), co-edited the book [*Indigenous Data Sovereignty and Policy*](https://doi.org/10.4324/9780429273957) and co-led the publication of the ‘[CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)’.
 
 Sarah Barsness, Katie Pierce Farrier, John Pringle and Alex Wieker are settlers and not affiliated with any Tribal Nations. As co-conspirators and contributors to this project, we have sought to learn from and share the work of Indigenous researchers and their expertise in data curation and sovereignty.
 
@@ -71,8 +70,7 @@ We are grateful to the co-authors and collaborators of this primer, both Indigen
 
 # A Note on Terminology
 
-Throughout this primer and in the linked resources, there is a wide range of terminology used to refer to Indigenous, Aboriginal, Native,
-First Nations, Metis, and Inuit Peoples. Indigenous Peoples are not a monolith and the connotations, acceptance, and accuracy of these terms depend on the context and the specific community or group involved.
+Throughout this primer and in the linked resources, there is a wide range of terminology used to refer to Indigenous, Aboriginal, Native, First Nations, Metis, and Inuit Peoples. Indigenous Peoples are not a monolith and the connotations, acceptance, and accuracy of these terms depend on the context and the specific community or group involved.
 
 For the purpose of this primer, we acknowledge that no single term is universally applicable. This is because this primer is written from U.S. centered lenses and focuses on the history, context, and policies within the U.S. Accordingly, this primer often uses the word ‘community’ to denote the group(s) of Indigenous Peoples potentially involved or impacted by the collection, use, or sharing of data.The term ‘community’ is used to be inclusive of the intersectional, multilayered, multidimensional ways a group may identify as Indigenous. The term we use most often is ‘Indigenous Peoples’ to acknowledge the varied cultures and groups and to align with the verbiage used by [Global Indigenous Data Alliance](https://www.gida-global.org/). For more information and guidance about terminology please see [University of British Columbia Indigenous Peoples: Language Guidelines](https://indigenous.ubc.ca/indigenous-engagement/featured-initiatives/indigenous-peoples-language-guideline/). This terminology guide was selected because it is more comprehensive and
 centers Indigenous advocacy.
@@ -93,8 +91,7 @@ For example, during the Cold War, Kaare Rodahl was contracted by the US governme
 participants due to radiation exposure. Ultimately, the actions of Rodahl and researcher colleagues did more than cause physical harm,
 their actions also caused psychological distress (Lanzarotta, 2020).
 
-An Arizona State University (ASU) study provided another example of abuses of research ethical standards and norms of behavior in US human
-subjects research. In 1989, members of the Havasupai Tribe consented to providing blood samples for a diabetes study. Later, without informed consent for the activities, the researchers used the study to research mental illness and proposed theories on the origin of the Tribe that conflicted with Tribal creation stories and spiritual beliefs (Kelley et al., 2013). Eventually in 2010, the Havasupai Tribe and Arizona Board of Regents reached a settlement resulting in financial compensation and return of the Tribe’s DNA samples (Garrison, 2013). However, the resulting mistrust had long term effects on the Tribes’ willingness to participate with research projects in Arizona. The Havasupai Tribe barred ASU researchers and employees from the reservation and halted all research, and the Navajo Nation passed a moratorium on genetic research within their boundaries (Garrison, 2013).
+An Arizona State University (ASU) study provided another example of abuses of research ethical standards and norms of behavior in US human subjects research. In 1989, members of the Havasupai Tribe consented to providing blood samples for a diabetes study. Later, without informed consent for the activities, the researchers used the study to research mental illness and proposed theories on the origin of the Tribe that conflicted with Tribal creation stories and spiritual beliefs (Kelley et al., 2013). Eventually in 2010, the Havasupai Tribe and Arizona Board of Regents reached a settlement resulting in financial compensation and return of the Tribe’s DNA samples (Garrison, 2013). However, the resulting mistrust had long term effects on the Tribes’ willingness to participate with research projects in Arizona. The Havasupai Tribe barred ASU researchers and employees from the reservation and halted all research, and the Navajo Nation passed a moratorium on genetic research within their boundaries (Garrison, 2013).
 
 The thyroid function study and the diabetes study are only two examples of research malpractice conducted by the research community with Indigenous Peoples. Past violations of trust and consent reinforce the belief that research done on Indigenous Peoples is an extension of colonialism and does not benefit Indigenous Peoples (Kelley et al., 2013). Researchers should be mindful of the history and past wrongs when engaging in research with Indigenous Peoples.
 
@@ -103,10 +100,8 @@ acknowledgements should be thoughtful and respect community priorities and needs
 
 ## Contemporary Research Relationships 
 
-While the research community has been admonished for research malpractice in the 20th century, Tribal sovereignty still continues to
-not always be recognized. The research community continues to subvert the fundamental rights of Indigenous Peoples by depicting, defining, and narrating Indigenous culture in ways that conflict with their knowledge systems, beliefs, and oral traditions (Emanuel & Bird, 2022). When research propagates colonial narratives, it causes harm to Tribal communities because Tribal sovereignty is not recognized and Indigenous voices are ignored (Emanuel & Bird, 2022). Additionally, researchers should acknowledge the use of Indigenous Knowledge Systems
-when utilizing or building upon Indigenous knowledge systems in their research. In order that research aligns with Indigenous values,
-knowledge systems, and oral traditions, it is important that researchers build relations with Tribal communities and allow them to have oversight on research.
+While the research community has been admonished for research malpractice in the 20th century, Tribal sovereignty still continues to not always be recognized. The research community continues to subvert the fundamental rights of Indigenous Peoples by depicting, defining, and narrating Indigenous culture in ways that conflict with their knowledge systems, beliefs, and oral traditions (Emanuel & Bird, 2022). When research propagates colonial narratives, it causes harm to Tribal communities because Tribal sovereignty is not recognized and Indigenous voices are ignored (Emanuel & Bird, 2022). Additionally, researchers should acknowledge the use of Indigenous Knowledge Systems
+when utilizing or building upon Indigenous knowledge systems in their research. In order that research aligns with Indigenous values, knowledge systems, and oral traditions, it is important that researchers build relations with Tribal communities and allow them to have oversight on research.
 
 # Building Relationships and Engaging with Indigenous Peoples 
 
@@ -118,8 +113,7 @@ Another important aspect of engaging with Tribes is establishing effective commu
 
 In addition, researchers are responsible for understanding, respecting,and adhering to community protocols for data access and use, including data management plans and data sharing agreements with Indigenous communities. Protocols developed in collaboration with the Tribal community ensure they reflect Indigenous values and priorities. Researchers should work with community partners to identify and uphold Indigenous data management and sharing practices and preferences, and safeguard against risk by following community protocols for future data access and sharing.
 
-Researchers should recognize the importance of building long-term relationships with Tribes. This may involve investing time and resources
-in building trust and rapport with the community, as well as establishing ongoing partnerships and collaborations. Researchers can work with Tribal leaders and community members to identify areas of mutual interest and develop projects and initiatives that benefit the community and build local capacity.
+Researchers should recognize the importance of building long-term relationships with Tribes. This may involve investing time and resources in building trust and rapport with the community, as well as establishing ongoing partnerships and collaborations. Researchers can work with Tribal leaders and community members to identify areas of mutual interest and develop projects and initiatives that benefit the community and build local capacity.
 
 Ultimately, building relationships with Tribes requires a commitment to ethical and respectful data practices and a willingness to approach these relationships with humility, respect, and a readiness to listen and learn. By doing so, we can promote the CARE Principles for Indigenous Data Governance and ensure that data is used in ways that advance Indigenous Peoples’ self-determination and collective benefit.
 
@@ -244,10 +238,7 @@ People-first language is one extension of this; the way communities are represen
 
 # Pre-Curation Actions 
 
-Key information is needed from researchers to understand how the CARE
-principles have been integrated into the research project and its
-resulting data. Before publishing Indigenous data in your repository,
-data curators should identify key pieces of information such as:
+Key information is needed from researchers to understand how the CARE principles have been integrated into the research project and its resulting data. Before publishing Indigenous data in your repository, data curators should identify key pieces of information such as:
 
 - Verify that the researcher has contacted a representative or official from the Tribe or community.
 
@@ -367,8 +358,7 @@ Adapted from the [CURATED steps and checklists](https://datacurationnetwork.org/
 
 [Guiding Principles for Engaging in Research with Native American Communities](https://hsc.unm.edu/vision2020/common/docs/guiding_principles_research_native_communities2012.pdf) - University of New Mexico – Intended to provide guidance on challenges encountered in research relationships and processes, prompt thoughtful conversation amongst researchers, and increase awareness of the investigators responsibilities to individuals and communities participating in research.
 
-[Participatory Action Research and
-Evaluation](https://organizingengagement.org/models/participatory-action-research-and-evaluation/) - Models and resources on community-driven approaches to research, evaluation, and social change that intentionally include the people who are most affected by an inquiry in the design and execution of the process.
+[Participatory Action Research and Evaluation](https://organizingengagement.org/models/participatory-action-research-and-evaluation/) - Models and resources on community-driven approaches to research, evaluation, and social change that intentionally include the people who are most affected by an inquiry in the design and execution of the process.
 
 [SAR Guidelines for Collaboration](https://guidelinesforcollaboration.info/) - A collaboration between Native and non-Native museum professionals, cultural leaders. and artists intended to support the understanding, stewardship and care of collections.  
   
@@ -410,8 +400,7 @@ Native American Center for Excellence– Explores the lessons and challenges of 
 
 [Native Health Database](https://nativehealthdatabase.net/) - The Native Health Database contains bibliographic information and abstracts of health-related articles, reports, surveys, and other resource documents pertaining to the health and health care of American Indians, Alaska Natives, and Canadian First Nations.
 
-[“Use Our Words”
-Toolkit](https://indigenouslis.ca/the-use-our-words-toolkit/) - For academic and public libraries conducting an evaluation of the subject headings in their catalogs in the decolonization process of removing culturally insensitive headings that cause harm to Indigenous communities. It includes a guide on finding problematic subject headings; suggested alternative terminologies; links to relevant resources; and training activities for cataloging staff.
+[“Use Our Words” Toolkit](https://indigenouslis.ca/the-use-our-words-toolkit/) - For academic and public libraries conducting an evaluation of the subject headings in their catalogs in the decolonization process of removing culturally insensitive headings that cause harm to Indigenous communities. It includes a guide on finding problematic subject headings; suggested alternative terminologies; links to relevant resources; and training activities for cataloging staff.
 
 # Bibliography and Further Reading 
 
