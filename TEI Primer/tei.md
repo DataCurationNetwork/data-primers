@@ -22,8 +22,7 @@ Affiliate Contributors (external peer reviewers): Daniel Johnson and John Walsh
 | Key questions for curation review | Is there any TEI customization?<br><br>Is there any accompanying stylesheet (.xsl or .xslt file)?<br><br>Is the TEI XML file well-formed and valid against the TEI schema in use?<br><br>Does the metadata include sufficient documentation of editorial decisions? |
 | Tools for curation review | Text Editor (preferably with syntax highlighting), Oxygen XML Editor (a paid tool with 30-day free trial) |
 | Date Created | September 2023 |
-| Created by | Courtney Dalton, <a href="mailto:cmd347@cornell.edu">cmd347@cornell.edu</a><br><br>Emily Kilcer, <a
-href="mailto:ekilcer@albany.edu">ekilcer@albany.edu</a><br><br>Katie Wampole, <a href="mailto:kwampole@iastate.edu">kwampole@iastate.edu</a><br><br>Sarah Swanz, <a href="mailto:sswanz@wustl.edu">sswanz@wustl.edu</a><br><br>Mentors:<br><br>Mikala Narlock, <a href="mailto:mnarlock@umn.edu">mnarlock@umn.edu</a><br><br>Sarah Swanz, <a href="mailto:sswanz@wustl.edu">sswanz@wustl.edu</a> |
+| Created by | Courtney Dalton, <a href="mailto:cmd347@cornell.edu">cmd347@cornell.edu</a><br><br>Emily Kilcer, <a href="mailto:ekilcer@albany.edu">ekilcer@albany.edu</a><br><br>Katie Wampole, <a href="mailto:kwampole@iastate.edu">kwampole@iastate.edu</a><br><br>Sarah Swanz, <a href="mailto:sswanz@wustl.edu">sswanz@wustl.edu</a><br><br>Mentors:<br><br>Mikala Narlock, <a href="mailto:mnarlock@umn.edu">mnarlock@umn.edu</a><br><br>Sarah Swanz, <a href="mailto:sswanz@wustl.edu">sswanz@wustl.edu</a> |
 
 
 
