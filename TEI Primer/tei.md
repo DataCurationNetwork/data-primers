@@ -71,13 +71,17 @@ This primer focuses on textual resources or their facsimiles that have been anno
 ## Select Collections of TEI documents 
 
 [Catalogue of Digital Editions](https://dig-ed-cat.acdh.oeaw.ac.at/)
-
-<li> [Catalogue of Digital Editions](https://dig-ed-cat.acdh.oeaw.ac.at/) </li> 
-<li> [Collected Letters of Robert Southey](https://romantic-circles.org/editions/southey_letters) </li> <li> [EarlyPrint: Curating and Exploring Early Printed English](https://earlyprint.org/) </li> <li> [Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/all-works/) </li> <li> [Perseus Digital Library](http://www.perseus.tufts.edu) </li> <li> [Shelley-Godwin Archive](http://shelleygodwinarchive.org/about) 
+[Collected Letters of Robert Southey](https://romantic-circles.org/editions/southey_letters)
+[EarlyPrint: Curating and Exploring Early Printed English](https://earlyprint.org/)
+[Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/all-works/)
+[Perseus Digital Library](http://www.perseus.tufts.edu)
+[Shelley-Godwin Archive](http://shelleygodwinarchive.org/about) 
 
 ## Select Individual TEI files (including sample citations)
 
-<li> Beshero-Bondar, Elisa; Viglianti, Raffaele; Mulligan, Rikk (2020): Frankenstein Variorum - Collations. Carnegie Mellon University. Dataset. [https://doi.org/10.1184/R1/11538798.v1](https://doi.org/10.1184/R1/11538798.v1) </li> <li> Green, Augustus R. *The Life of the Rev. Dandridge F. Davis, of the African M. E. Church.* Pittsburgh, PA: Ohio A. M. E. Conference, 1850. *Documenting the American South.* 2000. University Library, The University of North Carolina at Chapel Hill. 5 January 2023 [https://docsouth.unc.edu/neh/greena/greena.xml](https://docsouth.unc.edu/neh/greena/greena.xml) </li>
+Beshero-Bondar, Elisa; Viglianti, Raffaele; Mulligan, Rikk (2020): Frankenstein Variorum - Collations. Carnegie Mellon University. Dataset. [https://doi.org/10.1184/R1/11538798.v1](https://doi.org/10.1184/R1/11538798.v1)
+
+Green, Augustus R. *The Life of the Rev. Dandridge F. Davis, of the African M. E. Church.* Pittsburgh, PA: Ohio A. M. E. Conference, 1850. *Documenting the American South.* 2000. University Library, The University of North Carolina at Chapel Hill. 5 January 2023 [https://docsouth.unc.edu/neh/greena/greena.xml](https://docsouth.unc.edu/neh/greena/greena.xml)
 
 
 # Key questions for curation review
