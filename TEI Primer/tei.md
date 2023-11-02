@@ -70,12 +70,12 @@ This primer focuses on textual resources or their facsimiles that have been anno
 # TEI Examples
 ## Select Collections of TEI documents 
 
-[Catalogue of Digital Editions](https://dig-ed-cat.acdh.oeaw.ac.at/)
-[Collected Letters of Robert Southey](https://romantic-circles.org/editions/southey_letters)
-[EarlyPrint: Curating and Exploring Early Printed English](https://earlyprint.org/)
-[Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/all-works/)
-[Perseus Digital Library](http://www.perseus.tufts.edu)
-[Shelley-Godwin Archive](http://shelleygodwinarchive.org/about) 
+[Catalogue of Digital Editions](https://dig-ed-cat.acdh.oeaw.ac.at/)<br><br>
+[Collected Letters of Robert Southey](https://romantic-circles.org/editions/southey_letters)<br><br>
+[EarlyPrint: Curating and Exploring Early Printed English](https://earlyprint.org/)<br><br>
+[Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/all-works/)<br><br>
+[Perseus Digital Library](http://www.perseus.tufts.edu)<br><br>
+[Shelley-Godwin Archive](http://shelleygodwinarchive.org/about)
 
 ## Select Individual TEI files (including sample citations)
 
