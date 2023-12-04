@@ -11,10 +11,10 @@
 | Key questions for curation review | <ul><li>Is the consent form included with the data?</li> <li>Does the consent form mention data at all?</li> <li>If so, what does the consent form say about how data will be stored and/or shared?</li></ul> |
 | Metadata-specific considerations | Collecting the consent form as internal metadata |
 | Context-specific considerations | Consider institutional regulations, norms, and expectations. |
-| Tools for curation review | Human eye and intellect; example language |
+| Tools for curation review | Human review and intellect; example language |
 | Date created | 20191213 |
 | Created by | [Shanda Hunt](https://orcid.org/0000-0002-4131-7333), [Alicia Hofelich Mohr](https://orcid.org/0000-0002-7644-4105), [Rachel Woodbrook](https://orcid.org/0000-0002-4548-944X) |
-| Date updated and summary of changes made | 20230705 by [Michelle Yee](https://orcid.org/0000-0003-3756-6780): Updated markdown format and links (broken links and redirects); added resource from the NIH on informed consent and data sharing. |
+| Date updated and summary of changes made | 20231204 by Shanda Hunt, Alicia Hofelich Mohr, Rachel Woodbrook, Michelle Yee, and [Mikala Narlock](https://orcid.org/0000-0002-2730-7542); revised "Tools for curation review" <br><br>20230705 by [Michelle Yee](https://orcid.org/0000-0003-3756-6780): Updated markdown format and links (broken links and redirects); added resource from the NIH on informed consent and data sharing. |
 
 
 # Table of Contents
