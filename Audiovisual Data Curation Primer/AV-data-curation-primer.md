@@ -2,7 +2,7 @@
 
 # Audiovisual Data Curation Primer
 
-Author: Madina Grace, Meg Jerrild, and Lauren Phegley
+Author: Madina Grace, Meghan Valade, and Lauren Phegley
 
 Mentor:  JA Pryse, University of Oklahoma
 
@@ -19,9 +19,10 @@ Peer Reviewers: Talya Cooper, New York University, and Courtney Dalton, Cornell
 | Tools for curation review | MediaInfo, VLCPlayer or general media player |
 | Date Created | August 2023|
 | Created by | Madina Grace, Meg Jerrild, and Lauren Phegley |
+| Date updated and summary of changes made | 20230515: Mikala Narlock updated a creator name and suggested citation. |
 
 --------------------------
-**Suggested Citation:** Grace, M., Jerrild, M., & Phegley, L. (2023). Audiovisual data curation primer. Data Curation Network. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+**Suggested Citation:** Grace, M., Valade, M., & Phegley, L. (2023). Audiovisual data curation primer. Data Curation Network. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 --------------------------
 
