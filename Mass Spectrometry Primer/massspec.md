@@ -14,52 +14,20 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 |  Topic  |  Description  |
 | :------------- | :------------- |
 | File Extensions – Proprietary formats | <li>.BAF</li><li>.D (folder)</li><li>.DAT</li><li>.FID</li><li>.ita</li><li>.itm</li><li>.lcd</li><li>.MS</li><li>.PKL</li><li>.QGD</li><li>.qgd</li><li>.RAW*</li><li>.raw*</li><li>.SMS</li><li>.spec</li><li>.t2d</li><li>.tdc</li><li>.TDF</li><li>.WIFF</li><li>.XMS</li><li>.YEP</li><br><br>*” .raw/.RAW” files by different vendors are not compatible with each other |
-| :------------- | :------------- |
-| :------------- | :------------- |
-| :------------- | :------------- |
-| :------------- | :------------- |
-| :------------- | :------------- |
-| :------------- | :------------- |
-| :------------- | :------------- |
-| :------------- | :------------- |
+| Open Formats (some of the most commonly used) | <li>mzML</li><li>mzXML</li><li>netCDF / ANDI-MS</li><li>.mzMLb</li><li>JCAMP-DX</li><li>.csv</li> |
+| Structure| Data structure may vary significantly, depending on the instrument, vendor’s software, or conversion utility. Structure and location of metadata may also vary from source to source.The essential elements of a mass spectrum are the mass-to-charge ratio (m/z) of the ions present in a sample plotted against their intensities measured and calculated by the instrument. |
+| Primary fields or areas of use | Mass spectrometry is used by multiple disciplines to identify and quantify chemical substances, from biochemistry and molecular biology, to chemistry, engineering, and environmental sciences. |
+| Source and affiliation | Mass spectrometry instruments are manufactured by many vendors, generating data files in their own proprietary formats. See Table 1. |
+| Metadata standards | Multiple metadata guidelines have been promulgated by interested groups and organizations. Some important instrument-generated metadata is embedded in the original, proprietary files. <br><br> The appropriate metadata will generally be determined by the field of research, type of analysis, and choice of repository. Other factors to consider are data integration; facilitating analysis across large numbers of spectra; and creation of libraries for identification of analytes. |
+| Key questions for curation review| <li>Which type of research/study generated the data?</li><li>Is there a relevant data repository?</li><li>Can the data be converted to an open format?</li><li>What kinds of metadata are recommended or required by the repository?</li>|
+| Tools for curation review | ProteoWizard: MSConvert<br><br>ThermoRawFileParser<br><br>MZMine2, MZMine3|
+| Date Created | December 2023 |
+| Created by | Brian Westra, University of Iowa<br><br>Ye Li, Massachusetts Institute of Technology<br><br>Nick Ruhs, Florida State University<br><br>Leah Rae McEwen, Cornell University<br><br> DCN Mentors: Lisa Johnston and Wendy Kozlowski |
+| Date updated and summary of changes made | Dec 2023-Initial upload |
 
 
 
-<table>
-<colgroup>
-<col style="width: 42%" />
-<col style="width: 57%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th>File Extensions – Proprietary formats</th>
-<th><p>.BAF</p>
-<p>.D (folder)</p>
-<p>.DAT</p>
-<p>.FID</p>
-<p>.ita</p>
-<p>.itm</p>
-<p>.lcd</p>
-<p>.MS</p>
-<p>.PKL</p>
-<p>.QGD</p>
-<p>.qgd</p>
-<p>.RAW*</p>
-<p>.raw*</p>
-<p>.SMS</p>
-<p>.spec</p>
-<p>.t2d</p>
-<p>.tdc</p>
-<p>.TDF</p>
-<p>.WIFF</p>
-<p>.XMS</p>
-<p>.YEP</p>
-<p>*” .raw/.RAW” files by different vendors are not compatible with each
-other</p></th>
+
 </tr>
 <tr class="header">
 <th>Open Formats (some of the most commonly used)</th>
