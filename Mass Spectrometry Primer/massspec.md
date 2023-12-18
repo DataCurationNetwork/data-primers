@@ -35,25 +35,25 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 [Research Domains](#research-domains)
 
 > [Proteomics](#proteomics)
->> [Data Repositories](#data-repositories)
+>> [Data Repositories](#data-repositories)<br>
 >> [Recommended Open Data Formats](#recommended-open-data-formats)
 
 > [Metabolomics](#metabolomics)
->> [Data Repositories](#data-repositories-1)
+>> [Data Repositories](#data-repositories-1)<br>
 >>  [Recommended open formats](#recommended-open-formats)
 
 > [Other MS Data Sources](#other-ms-data-sources)
 
->> [Target and non-target screening](#target-and-non-target-screening)
->> [Other Biological and Environmental Research](#other-biological-and-environmental-research)
->> [Data Repositories](#data-repositories-2)
+>> [Target and non-target screening](#target-and-non-target-screening)<br>
+>> [Other Biological and Environmental Research](#other-biological-and-environmental-research)<br>
+>> [Data Repositories](#data-repositories-2)<br>
 >> [Recommended open formats](#recommended-open-formats-1)
 
 [File Conversion Tools](#file-conversion-tools)
 
-> [MS Convert](#ms-convert)
-> [ThermoRawFileParser](#thermorawfileparser)
-> [MZMine2 and MZMine3](#mzmine2-and-mzmine3)
+> [MS Convert](#ms-convert)<br>
+> [ThermoRawFileParser](#thermorawfileparser)<br>
+> [MZMine2 and MZMine3](#mzmine2-and-mzmine3)<br>
 > [Others](#others)
 
 [Curation Steps](#curation-steps)
