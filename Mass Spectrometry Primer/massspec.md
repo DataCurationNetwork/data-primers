@@ -30,7 +30,7 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 
 [Description of Data Type and Formats](#description-of-data-type-and-formats)
 
-> [Overview](#overview)
+> [Overview](#overview-1)
 
 [Research Domains](#research-domains)
 
