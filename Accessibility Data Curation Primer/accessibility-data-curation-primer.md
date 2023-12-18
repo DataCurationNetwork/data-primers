@@ -20,9 +20,9 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 
 
 ----------------------------
-**Suggested Citation:** Oxford, Emily and Woodbrook, Rachel. (2023). Accessibility Data Curation Primer.[Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+**Suggested Citation:** Oxford, Emily and Woodbrook, Rachel. (2023). Accessibility Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
-**Acknowledgements:** The authors would like to thank the University of Michigan’s IT Accessibility Team and U-M Library Accessibility, who assisted in providing expertise by participating in interviews as background for the primer: Jane Berliss-Vincent, Phil Deaton, Gonzalo Silvero, Darrell Williams, Stephanie Rosen and Jon McGlone. Thank you also to Hannah Hadley, who coordinated the drafting and first review process; and to Mikala Narlock, who facilitated the second review. Finally, thank you to the peer reviewers who participated in helping prepare this document for public release, including Stephanie Rosen, Jane Berliss-Vincent, Sebastien Karcher, Abigail Goben, and Randy Colón.
+**Acknowledgements:** The authors would like to thank the University of Michigan’s IT Accessibility Team and U-M Library Accessibility, who assisted in providing expertise by participating in interviews as background for the primer: Jane Berliss-Vincent, Phil Deaton, Gonzalo Silverio, Darrell Williams, Stephanie Rosen and Jon McGlone. Thank you also to Hannah Hadley, who coordinated the drafting and first review process; and to Mikala Narlock, who facilitated the second review. Finally, thank you to the peer reviewers who participated in helping prepare this document for public release, including Stephanie Rosen, Jane Berliss-Vincent, Sebastien Karcher, Abigail Goben, and Randy Colón.
 
 
 ----------------------------
@@ -84,7 +84,7 @@ Although accessibility is a commonly-used word in the context of data curation, 
 
 Providing truly accessible data requires resources that many repositories (and researchers) have in short supply. But **availability is not accessibility, and accessibility is not optional.** (In some cases, accessibility may also be legally mandated, such as by requirements for federally funded research data and publications under [Section 508](https://www.section508.gov/create/)[^8]  in the U.S.) For the purposes of this document, “Accessible” data means data compatible with assistive technologies, as well as featuring the considered use of design features such as color contrast, font size and legibility, and alternatives to visual presentations of information such that users with physical/sensory disabilities or who are neurodivergent have equivalent access to the information represented by the data. 
 
-Ideally, data (as with other artifacts such as software, websites etc.) would be “born accessible,” that is, created taking into account all possible user needs for access (see also “Universal Design” in [Appendix B: Glossary](#appendix-b-glossary)). In practice, curators are likely to encounter datasets that require remediation–that is, adjustments after the fact to address barriers to accessibility for a user or group of users (see also [Appendix B: Glossary](#appendix-b-glossary)). Remediation is often performed for a specific user upon request and can be an important path to access for historical materials; however, request-based remediation services for physical content are frequently labor-intensive, sometimes impractical, and often insufficient. Digital resources should be accessible by design. While accessibility requires work up front, **the benefits and longevity of accessible data are worth the time and resources needed to create and maintain them.**
+Ideally, data (as with other artifacts such as software, websites etc.) would be “born accessible,” that is, created taking into account all possible user needs for access (see also “Universal Design” in [Appendix B: Glossary](#appendix-b-glossary)). In practice, curators are likely to encounter datasets that require remediation–that is, adjustments after the fact to address barriers to accessibility for a user or group of users (see also [Appendix B: Glossary](#appendix-b-glossary)). Remediation is often performed for a specific user upon request and can be an important path to access for historical materials; however, request-based remediation services for content are frequently labor-intensive, sometimes impractical, and often insufficient. Digital resources should be accessible by design. While accessibility requires work up front, **the benefits and longevity of accessible data are worth the time and resources needed to create and maintain them.**
 
 Accessibility benefits everyone who encounters the data regardless of their abilities– **accessible data is more navigable and understandable for everyone.** Accessible data attracts more users, including:
 - People with visible and invisible disabilities
@@ -92,13 +92,13 @@ Accessibility benefits everyone who encounters the data regardless of their abil
 - Scholars from other fields with potentially valuable contributions
 - Anyone who needs the data to be machine-readable and/or optimized for reuse (almost everyone!)
 
-Fortunately, accessibility is also not all-or-nothing, and any change for the better helps build toward new default practices for considering and addressing data accessibility long before a reuser encounters the data and has to discover how accessible it is (or isn’t). Data curators see many different data and are familiar with assessing data and documentation against best practices, advocating for change, and providing researcher education. As with many other curation challenges, many of the solutions actually lie upstream, during data creation and processing. **Data curators are thus uniquely positioned to help improve access not just to individual datasets, but to the world of research data at large.** As guides to and stewards of data, curators can counsel researchers on how to build accessibility into data planning, collection, analysis, and archiving. 
+Fortunately, accessibility is also not all-or-nothing, and any change for the better helps build toward new default practices for considering and addressing data accessibility before a reuser encounters the data and has to discover how accessible it is (or isn’t). Data curators see many different data and are familiar with assessing data and documentation against best practices, advocating for change, and providing researcher education. As with other curation challenges, many of the solutions actually lie upstream, during data creation and processing. **Data curators are thus uniquely positioned to help improve access not just to individual datasets, but to the world of research data at large.** As guides to and stewards of data, curators can counsel researchers on how to build accessibility into data planning, collection, analysis, and archiving. 
 
-**This primer is intended as a starting point for data curators who are invested in improving the accessibility of individual files or datasets, rather than as definitive guide.** There is far more work to be done than can be addressed in the scope of this primer. Disability is also a complex concept with a diversity of possible presentations, which will present varying (sometimes even conflicting) accessibility needs. Similarly, there may be points at which recommended best practices for other aspects of data curation seem to come into conflict with accessibility. (For example, open source file formats are generally preferable from a preservation perspective, but open source software projects may not have the same resources to devote to accessibility features and standards as licensed or proprietary softwares do.) There is no “quick fix” for all users. As curators become more familiar with improving accessibility at the file and dataset level, they will be better equipped to help develop accessible repositories, write policies that foreground accessibility, conduct accessibility research, responsibly engage with disabled users as appropriate throughout the curation process, and improve existing curation workflows. 
+**This primer is intended as a starting point for data curators who are invested in improving the accessibility of individual files or datasets, rather than as definitive guide.** There is far more work to be done than can be addressed in the scope of this primer. Disability is also a complex concept with a diversity of possible presentations, which will present varying (sometimes even conflicting) accessibility needs. Similarly, there may be points at which recommended best practices for other aspects of data curation seem to come into conflict with accessibility. (For example, open source file formats are generally preferable from a preservation perspective, but open source software projects may not have the same resources to devote to accessibility features and standards as licensed or proprietary softwares do.) There is no “quick fix” for all users. But as curators become more familiar with improving accessibility at the file and dataset level, they will be better equipped to help develop accessible repositories, write policies that foreground accessibility, conduct accessibility research, responsibly engage with disabled users as appropriate throughout the curation process, and improve existing curation workflows. 
 
-# A very brief introductions to digital accessibility
+# A very brief introduction to digital accessibility
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)[^9] are the foundation of digital accessibility. These guidelines were developed for and are most applicable to website design and maintenance (though see also the Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT), below). However, many of the guidelines and principles are also applicable to datasets. While most research data is not a single web page, accessibility guidelines for non-web content tend to be based on web guidelines.[^10]  [This abbreviated guide](https://theappbusiness.github.io/accessibility-guidelines/) [^11]  is a good starting point for understanding WCAG.
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)[^9] are the foundation of digital accessibility. These guidelines were developed for and are most applicable to website design and maintenance (though see also the [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/), discussed below). However, many of the guidelines and principles are also applicable to datasets. While most research data is not a single web page, accessibility guidelines for non-web content tend to be based on web guidelines.[^10]  [This abbreviated guide](https://theappbusiness.github.io/accessibility-guidelines/) [^11]  is a good starting point for understanding WCAG.
 
 WCAG centers on four broad objectives:
 - **Perceivable:** “Information and user interface components must be presentable to users in ways they can perceive.”
@@ -106,16 +106,16 @@ WCAG centers on four broad objectives:
 - **Understandable:** “Information and the operation of user interface must be understandable.”
 - **Robust:** “Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.”
 
-**Some data curation work already facilitates access.** Ensuring that information is intuitively organized (“understandable”), clearly describing files and the relationships between them (“understandable”), and promoting open-source, platform-agnostic formats (“robust”) are all key components of digital accessibility. However, **curators also need to concern themselves with whether that content is perceivable, operable, and compatible with assistive technologies.**
+**Much data curation work already facilitates accessibility.** Ensuring that information is intuitively organized (“understandable”), clearly describing files and the relationships between them (“understandable”), and promoting open-source, platform-agnostic formats (“robust”) are all key components of digital accessibility. However, **curators also need to concern themselves with whether that content is _perceivable, operable, and compatible with assistive technologies_.**
 
-A single document can be any file format, and many files and formats contain multiple types of content, each with its own accessibility considerations. Additionally, accessibility does not happen only at the document level. The [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)[^12] describes accessibility as a product of several interwoven layers. **In a truly accessible dataset, each layer must be accessible, both individually and in combination with all other layers.**
+A single document can be any file format, and many files and formats contain multiple data types, each with its own accessibility considerations. Additionally, accessibility does not happen only at the document level. The [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)[^12] describes accessibility as a product of several interwoven layers. **In a truly accessible dataset, each layer must be accessible, both individually and in combination with all other layers.**
 
 Regardless of a dataset’s complexity, as they curate for accessibility, **curators should document their work.** Standards like WCAG are the result of years or decades of research. Documenting best practices and the reasons particular choices are made can inform future standards and make it easier to reproduce effective solutions.[^13] When in doubt, It is generally advisable to follow proven best practices for a particular type of content, file format, etc., as these are most likely to be familiar to users, and there are more likely to be resources to reference. If no consensus on solutions exists, or if the existing solutions are not sufficient, curators can create workflows that can be reproduced and make these workflows publicly available. 
 
 
 # Accessibility by data type
 
-When curating for accessible files, it is important not only to look at the file’s format, but also at all of the types of information or data within or generated by the file. For example, a simple code file may be accessible as a plain text document, but any visualizations it generates may not be. The following guidelines for assessing both data and accompanying documentation files are based on the many data types one may find within various file formats, in the hopes that curators may transfer best practices to whatever data types they find within files. Curators may need to be creative in deciding how best to apply these guidelines when working with formats that might not accommodate necessary accessibility features like alt-text, changing color contrast, or screen reading. See also [Appendix B: Glossary](#appendix-b-glossary)) below for a primer-specific definition of the use of “data type” within this document. 
+When curating for accessible files, it is important not only to look at the file’s format, but also at all of the types of information or data within or generated by the file. For example, a simple code file may be accessible as a plain text document, but any visualizations it generates may not be. The following guidelines for assessing both data and accompanying documentation files are based on the many data types one may find within various file formats, in the hopes that curators may transfer best practices to whatever data types they find within files. Curators may need to be creative in deciding how best to apply these guidelines when working with formats that might not accommodate necessary accessibility features like alt-text, changing color contrast, or screen reading. See also [Appendix B: Glossary](#appendix-b-glossary) below for a primer-specific definition of the use of “data type” within this document. 
 
 ## Text
 
@@ -235,7 +235,7 @@ Some other useful considerations and tips for markdown are included in Godfrey�
     -	 Should strike a balance between being concise and detailed. Provide enough information so that the reader can understand what the image contains, but not more.
     -	 Should **not** interpret the image’s meaning for the reader, but rather let the reader draw their own conclusions from the information provided.
 - **Ask the creator to write the description.** As an expert in their own work, they will have the understanding and expertise to write a sufficiently detailed and focused description of an image for their desired audience.[^59] It can be helpful for the description’s writer to imagine that they are describing the image over the phone.[^60]
-- Check for color contrast (if applicable); online tools such as [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)[^61] may be useful for this purpose. Use best judgment on whether something needs to be corrected or described. If color conveys additional meaning that might not be visible to people with color blindness, include naming the color as part of the description. 
+- Check for color contrast (if applicable); online tools such as [Coolors](https://help.coolors.co/hc/en-us/articles/360010651639-Using-the-Color-Blindness-feature)[^61] may be useful for this purpose. Use best judgment on whether something needs to be corrected or described. If color conveys additional meaning that might not be visible to people with color blindness, include naming the color as part of the description. 
 - Provide any text that is in the image in an accessible format.[^62]
 
 Below are additional considerations for specific image types common in academic research.
@@ -244,7 +244,7 @@ Below are additional considerations for specific image types common in academic 
 ### Maps
 
 “Maps” here refers to any visual representation of a geographical space, including but not limited to static images of maps, interactive maps, and maps generated by GIS software. There are currently no standards for making maps accessible,[^63] so curators may need to find creative solutions to provide access to them depending on the complexity of the map and any accompanying software. However, curators can reference these general principles when working with creators, though not all will be equally relevant to all maps. Some of these resources provide examples as well:
-- Where possible, provide the underlying data that generated the map, in as accessible a format as possible..
+- Where possible, provide the underlying data that generated the map, in as accessible a format as possible.
 “Accessible maps for blind or visually impaired persons are meant to communicate the same or at least a sufficient subset of the information which is stored in a visual map.”[^64]
 - Who are the anticipated users? “Many [...] applications use visual maps to communicate location based information to the user, which is a problem for people [with] visual disabilities or blindness, even though they would at least equally benefit from these types of applications. In addition, other types of disabilities influence the requirements which need to be considered by a location-based application. For example, [for] deaf, hard of hearing or elderly people or people with cognitive disabilities [...] The presentation of geographic data needs to be adapted to these target groups too.”[^65]
 - “Whenever possible, organize the description using bulleted lists and by pulling the most important information to the beginning of the description, so students hear it first.”[^66]
@@ -252,7 +252,7 @@ Below are additional considerations for specific image types common in academic 
 - “If the map is used as part of a geography lesson and the land and water are relevant, describe the labeled areas, including their relationship and distance to each other when relevant.”[^68]
 - “If a map includes color coded regions, make sure that:
     -	 There is sufficient [contrast](https://accessibility.psu.edu/images/contrast)[^69] between the text and the background.
-    -	 [...] color coding is usable for those with [colorblindness](https://accessibility.psu.edu/accommodations/audience/colorblindness/).[^70] A good test is to see if the map is still usable in black and white.”[^71]
+    -	 [...] color coding is usable for those with [colorblindness](https://accessibility.psu.edu/accommodations/audience/colorblindness/).[^70] A good test is to see if the map is still usable in black and white.”[^71] (You can also use specialized tools such as [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) to help choose colorblind-friendly palettes). 
 
 ### 3D Images
 
@@ -271,7 +271,7 @@ When it comes to visualizations and accessibility, “[o]n the whole, graphics a
 
 "Behind every graph that has been created lies an intention to pass information, not usually data; it is this intention that should be communicated in the description.”[^77] For example, in the section of a text that introduces scatter plots it would be preferable to provide a full description; the same dataset might also feature in the material talking about linear regression where only the linearity of the data is relevant. (Note that, as above, this does not mean interpreting the visualization, but rather describing its most salient points given the particular context). Again, this is why it is especially important for data creators to be involved in creating such descriptions, as they will be the experts on what information a given graph is intended to communicate.
 
-For these reasons, The data from which the visualization were created should also be included in the dataset deposit where possible;[^78] CSV is the preferred file format for accessibility of tabular data. Be mindful that access to underlying data does not mean that all users will be able to understand the visualization at the same level, since visualizations illuminate patterns and nuances in a way that tabular data alone cannot.[^79]
+For these reasons, the data from which the visualization were created should also be included in the dataset deposit where possible;[^78] CSV is the preferred file format for accessibility of tabular data. Be mindful that access to underlying data does not mean that all users will be able to understand the visualization at the same level, since visualizations illuminate patterns and nuances in a way that tabular data alone cannot.[^79]
 
 - Describe, but do not overly interpret the visualization for users. They should be able to draw their own conclusions about any patterns the visualization does or does not show.[^80]
 
@@ -289,9 +289,9 @@ All time-based data should be accompanied by textual descriptions (for example c
 ### Audio
 
 - If the audio file contains speaking, ensure that there is a transcription. (Ideally captions, which are machine-readable files with timing information, would also be generated/included).
+- Include descriptions of other components of the audio (such as pauses, non-verbal vocalizations etc.) as well.
 - For any audio without speech, ask the creator to write a description, including the time(s) that certain sounds happen. 
 - If applicable, provide any underlying data that generated the audio file.
-- Include descriptions of other components of the audio (such as pauses, non-verbal vocalizations etc.) as well.
 
 
 ### Moving image/video
@@ -401,17 +401,17 @@ Although use of these terms in the primer may not follow the [WCAG definitions](
 
 # Appendix C: Freely available tools
 
-As of the time of this primer’s publication–please note, this is in no way intended to be an exhaustive list, but merely a selection of tools the authors are aware of for those facing a particular curation for accessibility challenge and wondering where to begin. All links to external resources in this section and elsewhere have been evaluated for usefulness of content but cannot be guaranteed to be free of outdated or deprecated language that could potentially be distressing. These tools are also linked under the appropriate sections above.
+As of the time of this primer’s publication–-please note, this is in no way intended to be an exhaustive list, but merely a selection of tools the authors are aware of for those facing a particular curation for accessibility challenge and wondering where to begin. All links to external resources in this section and elsewhere have been evaluated for usefulness of content but cannot be guaranteed to be free of outdated or deprecated language that could potentially be distressing. These tools are also linked under the appropriate sections above.
 
 ## Specific tools
 
-[Coolors](https://help.coolors.co/hc/en-us/articles/360010651639-Using-the-Color-Blindness-feature) - Color palette generation tool that allows you to view how your palette will appear to users with multiple types of color blindness.
+[Coblis Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) - use to evaluate visual images for contrast by dragging and dropping image.
 
 [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) - online tool providing color advice for map creation; includes an “only show colorblind safe” palette option.
 
-[Coblis Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) - use to evaluate visual images for contrast by dragging and dropping image.
-
 [Color Oracle](https://colororacle.org/) - A free color blindness simulator for Windows, Mac and Linux. Color Oracle applies a full screen color filter to art you are designing, independently of the software in use.
+
+[Coolors](https://help.coolors.co/hc/en-us/articles/360010651639-Using-the-Color-Blindness-feature) - Color palette generation tool that allows you to view how your palette will appear to users with multiple types of color blindness.
 
 [IT Accessibility Checklist](https://depts.washington.edu/uwitats/checklist/) (University of Washington) - This checklist is geared toward web content, but many of the checks are applicable to non-web documents or datasets as well.
 
@@ -421,7 +421,7 @@ As of the time of this primer’s publication–please note, this is in no way i
 
 [PEAT](https://trace.umd.edu/peat/) (Photosensitive Epilepsy Analysis Tool) - downloadable tool intended for developers to identify seizure risks in their web content and software.
 
-Screen readers - screen readers are a built-in accessibility feature of technology operating systems including Windows, MacOS, and mobile devices. They are accessible through your OS settings, but you may need to look up [how to turn them on and off](https://in.nau.edu/virtual-accessibility-expedition/screen-reader-activity-hint-page/)[^115] for your particular device.  
+Screen readers - screen readers are a built-in accessibility feature of technology operating systems including Windows, MacOS, and mobile devices. They are accessible through your OS settings, but you may need to look up [how to turn them on and off](https://in.nau.edu/virtual-accessibility-expedition/screen-reader-activity-hint-page/)[^115] for your particular device. Note also that free, built-in screenreaders may not have the same range of features available on paid products. 
 
 [Tesseract](https://github.com/tesseract-ocr/tesseract/blob/main/README.md) - Open source optical character recognition (OCR) engine. See also the [User Manual](https://tesseract-ocr.github.io/).
 
@@ -576,7 +576,7 @@ Tesseract documentation. (n.d.). Tesseract OCR. Retrieved December 4, 2022, from
 
 The DCN CURATE(D) Steps – Data Curation Network. (n.d.). Retrieved December 4, 2022, from [https://datacurationnetwork.org/outputs/workflows/](https://datacurationnetwork.org/outputs/workflows/)
 
-U-M Accessibility Team: Jane Berliss-Vincent, Phil Deaton, Gonzalo Silvero, Darrell Williams [https://accessibility.umich.edu/about-us](https://accessibility.umich.edu/about-us). In conversation with Emily Oxford. July 13, 2020. (2020, July 13). [Personal communication].
+U-M Accessibility Team: Jane Berliss-Vincent, Phil Deaton, Gonzalo Silverio, Darrell Williams [https://accessibility.umich.edu/about-us](https://accessibility.umich.edu/about-us). In conversation with Emily Oxford. July 13, 2020. (2020, July 13). [Personal communication].
 
 University of Washington. (n.d.). Audio and video. Accessible Technology. Retrieved December 4, 2022, from [https://www.washington.edu/accessibility/checklist/media/](https://www.washington.edu/accessibility/checklist/media/)
 
@@ -669,7 +669,7 @@ Word, PDF, or Web Page? | Web Accessibility | Michigan State University. (n.d.).
 [^58]: Image Description Guidelines (The Diagram Center) 
 [^59]: Godfrey, A.J.R., Loots, M.T., 2015. Advice From Blind Teachers on How to Teach Statistics to Blind Students. Journal of Statistics Education 23, 4, pp. 10. https://doi.org/10.1080/10691898.2015.11889746 
 [^60]: Advice From Blind Teachers on How to Teach Statistics to Blind Students (A.J.R. Godfrey and M.T. Loots) 
-[^61]: Color Brewer 2.0: Color Advice for Cartography (Cynthia Brewer, Mark Harrower and The Pennsylvania State University) 
+[^61]: Using the Color Blindness feature. (2019, December 14). Help Center - Coolors. 
 [^62]: Conversation with Jon McGlone. 
 [^63]: W3C Research and Development Working Group. (n.d.). Accessible Maps. In Research and Development Working Group Wiki. Retrieved March 24, 2023 from https://www.w3.org/WAI/RD/wiki/Accessible_Maps
 [^64]: Accessible Maps (W3C Wiki) 
@@ -699,7 +699,7 @@ Word, PDF, or Web Page? | Web Accessibility | Michigan State University. (n.d.).
 [^88]: Videos (University of Washington) 
 [^89]: See for example Crosref’s recent announcement about recommended changes to DOI displays: https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/ 
 [^90]: Kozlowski, Wendy. “Don't Just Provide ACCESS, Make Data ACCESSIBLE!” [Poster] (2020). Retrieved March 24, 2023, from https://osf.io/8v9bp 
-[^91]: Conversation with U-M Accessibility Team (Gonzalo Silvero) 
+[^91]: Conversation with U-M Accessibility Team (Gonzalo Silverio) 
 [^92]: Scalable Vector Graphics (SVG) 2 (W3C) 
 [^93]: Data Model (Wikipedia) 
 [^94]: Conversation with Stephanie Rosen 
