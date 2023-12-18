@@ -26,7 +26,6 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 | Date updated and summary of changes made | Dec 2023-Initial upload |
 
 
-<p>mzXML</p>
 ## Table of Contents
 
 [Description of Data Type and Formats](#description-of-data-type-and-formats)
