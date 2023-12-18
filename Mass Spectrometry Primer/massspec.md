@@ -95,10 +95,8 @@ on their mass-to-charge ratio (m/z). The ion fragments are detected when
 they leave the mass analyzer, and the intensity of the signal is
 recorded accordingly.
 
-<img src="media/image2.jpg" style="width:5.05556in;height:4.95833in"
-alt="Diagram Description automatically generated" />
+<figure> <img src="mass1.jpg" style="" alt="Example of a mass spectrum"> <figcaption>Figure 1. Example of a mass spectrum[^1].</figcaption> </figure>
 
-Figure 1. Example of a mass spectrum[^1].
 
 In many cases, the sample is run through another instrument first to
 separate chemical compounds from each other (see the schematic diagram
@@ -109,9 +107,9 @@ molecules, based on their size and other factors. The result is that
 different substances exit the LC or GC column at different times
 (retention times) and then go directly into the mass spectrometer.
 
-<img src="media/image3.png" style="width:6.42188in;height:3.71934in" />
+<figure> <img src="mass2.png" style="" alt="Schematic representation of a GC-MS instrument"> <figcaption>Figure 2. Schematic representation of a GC-MS instrument[^2].</figcaption> </figure>
 
-Figure 2. Schematic representation of a GC-MS instrument[^2].
+
 
 In the case of GC-MS and LC-MS, the two systems are interconnected, and
 frequently the chromatographic data (chromatographs) are reported along
