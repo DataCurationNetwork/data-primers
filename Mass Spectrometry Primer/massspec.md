@@ -26,94 +26,7 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 | Date updated and summary of changes made | Dec 2023-Initial upload |
 
 
-
-
-</tr>
-<tr class="header">
-<th>Open Formats (some of the most commonly used)</th>
-<th><p>mzML</p>
 <p>mzXML</p>
-<p>netCDF / ANDI-MS</p>
-<p>.mzMLb</p>
-<p>JCAMP-DX</p>
-<p>.csv</p></th>
-</tr>
-<tr class="odd">
-<th>Structure</th>
-<th>Data structure may vary significantly, depending on the instrument,
-vendor’s software, or conversion utility. Structure and location of
-metadata may also vary from source to source.The essential elements of a
-mass spectrum are the mass-to-charge ratio (m/z) of the ions present in
-a sample plotted against their intensities measured and calculated by
-the instrument.</th>
-</tr>
-<tr class="header">
-<th>Primary fields or areas of use</th>
-<th>Mass spectrometry is used by multiple disciplines to identify and
-quantify chemical substances, from biochemistry and molecular biology,
-to chemistry, engineering, and environmental sciences.</th>
-</tr>
-<tr class="odd">
-<th>Source and affiliation</th>
-<th>Mass spectrometry instruments are manufactured by many vendors,
-generating data files in their own proprietary formats. See Table
-1.</th>
-</tr>
-<tr class="header">
-<th>Metadata standards</th>
-<th><p>Multiple metadata guidelines have been promulgated by interested
-groups and organizations. Some important instrument-generated metadata
-is embedded in the original, proprietary files.</p>
-<p>The appropriate metadata will generally be determined by the field of
-research, type of analysis, and choice of repository. Other factors to
-consider are data integration; facilitating analysis across large
-numbers of spectra; and creation of libraries for identification of
-analytes.</p></th>
-</tr>
-<tr class="odd">
-<th>Key questions for curation review</th>
-<th><ul>
-<li><blockquote>
-<p>Which type of research/study generated the data?</p>
-</blockquote></li>
-<li><blockquote>
-<p>Is there a relevant data repository?</p>
-</blockquote></li>
-<li><blockquote>
-<p>Can the data be converted to an open format?</p>
-</blockquote></li>
-<li><blockquote>
-<p>What kinds of metadata are recommended or required by the
-repository?</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="header">
-<th>Tools for curation review</th>
-<th>ProteoWizard: MSConvert<br />
-ThermoRawFileParser<br />
-MZMine2, MZMine3</th>
-</tr>
-<tr class="odd">
-<th>Date Created</th>
-<th>December 2023</th>
-</tr>
-<tr class="header">
-<th>Created by</th>
-<th><p>Brian Westra, University of Iowa</p>
-<p>Ye Li, Massachusetts Institute of Technology</p>
-<p>Nick Ruhs, Florida State University</p>
-<p>Leah Rae McEwen, Cornell University</p></th>
-</tr>
-<tr class="odd">
-<th>Date updated and summary of changes made</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
 ## Table of Contents
 
 [Description of Data Type and Formats](#description-of-data-type-and-formats)
@@ -122,61 +35,44 @@ MZMine2, MZMine3</th>
 
 [Research Domains](#research-domains)
 
-> [Proteomics 10](#proteomics)
->
-> [Data Repositories 10](#data-repositories)
->
-> [Recommended Open Data Formats 11](#recommended-open-data-formats)
->
-> [Metabolomics 11](#metabolomics)
->
-> [Data Repositories 12](#data-repositories-1)
->
-> [Recommended open formats 12](#recommended-open-formats)
->
-> [Other MS Data Sources 13](#other-ms-data-sources)
->
-> [Target and non-target screening 13](#target-and-non-target-screening)
->
-> [Other Biological and Environmental Research
-> 13](#other-biological-and-environmental-research)
->
-> [Data Repositories 13](#data-repositories-2)
->
-> [Recommended open formats 13](#recommended-open-formats-1)
+> [Proteomics](#proteomics)
+>> [Data Repositories](#data-repositories)
+>> [Recommended Open Data Formats](#recommended-open-data-formats)
 
-[File Conversion Tools 15](#file-conversion-tools)
+> [Metabolomics](#metabolomics)
+>> [Data Repositories](#data-repositories-1)
+>>  [Recommended open formats](#recommended-open-formats)
 
-> [MS Convert 15](#ms-convert)
->
-> [ThermoRawFileParser 15](#thermorawfileparser)
->
-> [MZMine2 and MZMine3 15](#mzmine2-and-mzmine3)
->
-> [Others 15](#others)
+> [Other MS Data Sources](#other-ms-data-sources)
 
-[Curation Steps 15](#curation-steps)
+>> [Target and non-target screening](#target-and-non-target-screening)
+>> [Other Biological and Environmental Research](#other-biological-and-environmental-research)
+>> [Data Repositories](#data-repositories-2)
+>> [Recommended open formats](#recommended-open-formats-1)
 
-> [Metadata standards and core elements
-> 16](#metadata-standards-and-core-elements)
->
-> [Metadata Files and Templates 20](#metadata-files-and-templates)
+[File Conversion Tools](#file-conversion-tools)
 
-[Key questions to ask yourself 24](#key-questions-to-ask-yourself)
+> [MS Convert](#ms-convert)
+> [ThermoRawFileParser](#thermorawfileparser)
+> [MZMine2 and MZMine3](#mzmine2-and-mzmine3)
+> [Others](#others)
 
-[Key clarifications to get from the researcher
-25](#key-clarifications-to-get-from-the-researcher)
+[Curation Steps](#curation-steps)
 
-[Curation actions log: documenting the process
-25](#curation-actions-log-documenting-the-process)
+> [Metadata standards and core elements](#metadata-standards-and-core-elements)
+>> [Metadata Files and Templates](#metadata-files-and-templates)
 
-[References 26](#references)
+[Key questions to ask yourself](#key-questions-to-ask-yourself)
 
-[Appendix A: Common Chemical Identifiers
-28](#appendix-a-common-chemical-identifiers)
+[Key clarifications to get from the researcher](#key-clarifications-to-get-from-the-researcher)
 
-[Appendix B: Chemical Structure Files
-29](#appendix-b-chemical-structure-files)
+[Curation actions log: documenting the process](#curation-actions-log-documenting-the-process)
+
+[References](#references)
+
+[Appendix A: Common Chemical Identifiers](#appendix-a-common-chemical-identifiers)
+
+[Appendix B: Chemical Structure Files](#appendix-b-chemical-structure-files)
 
 # Description of Data Type and Formats
 
