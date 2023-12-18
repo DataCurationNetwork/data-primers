@@ -13,30 +13,7 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 
 |  Topic  |  Description  |
 | :------------- | :------------- |
-| File Extensions – Proprietary formats | <li>.BAF</li>
-<li>.D (folder)</li>
-<li>.DAT</li>
-<li>.FID</li>
-<li>.ita</li>
-<li>.itm</li>
-<li>.lcd</li>
-<li>.MS</li>
-<li>.PKL</li>
-<li>.QGD</li>
-<li>.qgd</li>
-<li>.RAW*</li>
-<li>.raw*</li>
-<li>.SMS</li>
-<li>.spec</li>
-<li>.t2d</li>
-<li>.tdc</li>
-<li>.TDF</li>
-<li>.WIFF</li>
-<li>.XMS</li>
-<li>.YEP</li>
-<br><br>
-*” .raw/.RAW” files by different vendors are not compatible with each other
- |
+| File Extensions – Proprietary formats | <li>.BAF</li><li>.D (folder)</li><li>.DAT</li><li>.FID</li><li>.ita</li><li>.itm</li><li>.lcd</li><li>.MS</li><li>.PKL</li><li>.QGD</li><li>.qgd</li><li>.RAW*</li><li>.raw*</li><li>.SMS</li><li>.spec</li><li>.t2d</li><li>.tdc</li><li>.TDF</li><li>.WIFF</li><li>.XMS</li><li>.YEP</li><br><br>*” .raw/.RAW” files by different vendors are not compatible with each other |
 | :------------- | :------------- |
 | :------------- | :------------- |
 | :------------- | :------------- |
@@ -604,7 +581,7 @@ organisms via the Metabolomics Workbench</th>
 </tr>
 <tr class="header">
 <th><u><a href="https://mona.fiehnlab.ucdavis.edu/">MassBank of North
-America</a> <a
+America</a><a
 href="https://massbank.eu/MassBank/">MassBank.eu</a><br />
 <a href="http://www.massbank.jp/">MassBank Japan</a></u></th>
 <th>Single substance mass spectral libraries for the identification of
