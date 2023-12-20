@@ -162,30 +162,30 @@ Table 1. Proprietary mass spectrometry file formats.[^5]
 
 |  Topic  |  Description  |  Description  |
 | :------------- | :------------- | :------------- |
-| Agilent | :------------- | :------------- |
-| Bruker | :------------- | :------------- |
-| Agilent Bruker | :------------- | :------------- |
-| Chromtech Finnigan*** VG  | :------------- | :------------- |
-| Bruker | :------------- | :------------- |
-| ION-TOF | :------------- | :------------- |
-| ION-TOF | :------------- | :------------- |
-| Shimadzu | :------------- | :------------- |
-| Finnigan*** | :------------- | :------------- |
-| Waters | :------------- | :------------- |
-| Shimadzu  | :------------- | :------------- |
-| Shimadzu  | :------------- | :------------- |
-| Physical Electronics/ULVAC-PHI | :------------- | :------------- |
-| Thermo; PerkinElmer  | :------------- | :------------- |
-| Micromass**/Waters | :------------- | :------------- |
-| Bruker/Varian | :------------- | :------------- |
-| Shimadzu  | :------------- | :------------- |
-| ABI/Sciex | :------------- | :------------- |
-| Physical Electronics/ULVAC-PH | :------------- | :------------- |
-| Bruker | :------------- | :------------- |
-| ABI/Sciex | :------------- | :------------- |
-| Bruker/Varian  | :------------- | :------------- |
-| Agilent/Bruker  | :------------- | :------------- |
-| ACD/Labs  | :------------- | :------------- |
+| Agilent | .AEV, .ASR | ASCII Report format (for Analytical Studio Reviewer) |
+| Bruker | .BAF | instrument data format  |
+| Agilent Bruker | .D (folder) | Agilent MassHunter, Agilent ChemStation, or Bruker BAF/YEP/TDF data format  |
+| Chromtech Finnigan*** VG  | .DAT | Finnigan ITDS file format; MAT95 instrument data format MassLab data format  |
+| Bruker | .FID | instrument data format |
+| ION-TOF | .ita | analysis data |
+| ION-TOF | .itm | raw measurement data |
+| Shimadzu | .lcd | QQQ/QTOF instrument data format |
+| Finnigan*** | .MS | ITS40 instrument data format |
+| Waters | .PKL | MassLynx peak list format |
+| Shimadzu  | .qgd | instrument data format |
+| Shimadzu  | .QGD | GCMSSolution format |
+| Physical Electronics/ULVAC-PHI | .raw* | raw measurement data |
+| Thermo<br> PerkinElmer  | .RAW* | Thermo Xcalibur <br> PerkinElmer TurboMass |
+| Micromass**/Waters | .RAW* (folder) | Waters MassLynx |
+| Bruker/Varian | .SMS | instrument data format |
+| Shimadzu  | .spc | library data format |
+| ABI/Sciex | .t2d | 4700 and 4800 file format |
+| Physical Electronics/ULVAC-PH | .tdc | spectrum data |
+| Bruker | .TDF | timsTOF instrument data format |
+| ABI/Sciex | .WIFF | instrument data format |
+| Bruker/Varian  | .XMS | instrument data format|
+| Agilent/Bruker  | .YEP | instrument data format |
+| ACD/Labs  | *.spectrus | Imports LC/MS and GC/MS data from most major instrument vendors listed here |
 
 
 \* Note that the RAW formats of each vendor are not interchangeable;
@@ -224,19 +224,13 @@ data depositors, curators should consider the following when determining
 the most appropriate resources and curation steps for publishing MS
 data:
 
-1.  The research domain or type of investigation and substances being
-    > researched (e.g., proteomics, metabolomics, environmental
-    > sampling).
+1.  The research domain or type of investigation and substances being researched (e.g., proteomics, metabolomics, environmental sampling).
 
-2.  Availability of a repository specific to that data and analytical
-    > method.
+2.  Availability of a repository specific to that data and analytical method.
 
-3.  Ability of the repository system, and the data and metadata, to
-    > enable discovery and facilitate computational analysis across
-    > datasets.
+3.  Ability of the repository system, and the data and metadata, to enable discovery and facilitate computational analysis across datasets.
 
-4.  Researcher and curator capacities to prepare and provide the
-    > necessary files and information for a given repository.
+4.  Researcher and curator capacities to prepare and provide the necessary files and information for a given repository.
 
 Mass spectrometry data is highly variable, and this primer attempts to
 address the most common sources of MS data. Keep in mind that standards
