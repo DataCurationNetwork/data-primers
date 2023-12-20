@@ -160,6 +160,12 @@ format, which are presented in Table 1[^4].
 
 Table 1. Proprietary mass spectrometry file formats.[^5]
 
+|  Topic  |  Description  |  Description  |
+| :------------- | :------------- | :------------- |
+| :------------- | :------------- | :------------- |
+| :------------- | :------------- | :------------- |
+| :------------- | :------------- | :------------- |
+
 <table>
 <colgroup>
 <col style="width: 28%" />
