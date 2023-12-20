@@ -438,43 +438,23 @@ likely steps to be taken:
 
 2.  Evaluate the alignment between the research data topic, type of data, data analysis and metadata, and potential repository(ies). Is there a repository that is well-suited to the research topic and the methods, including computational approaches, that may have been used to analyze the data, and will make the data available to the broader community?
 
-    1.  Factors such as the computational methods used for the data
-        > analysis may influence the choices
+    1.  Factors such as the computational methods used for the data analysis may influence the choices
 
-    2.  For instance, a study that characterizes products of
-        > bioremediation might be better suited to MassIVE than
-        > Metabolomic Workbench, by virtue of the nature of the
-        > characterization, the computational process that was used and
-        > the metadata that are available.
+    2.  For instance, a study that characterizes products of bioremediation might be better suited to MassIVE than Metabolomic Workbench, by virtue of the nature of the characterization, the computational process that was used and the metadata that are available.
 
 
 
 2.  Data review and deposit
 
-    1.  Identify the open file format(s) that are in scope for the
-        > repository(ies) per the repository’s data deposit
-        > instructions.
+    1.  Identify the open file format(s) that are in scope for the repository(ies) per the repository’s data deposit instructions.
 
-    2.  If the raw MS data files are in a proprietary format, inquire if
-        > the researcher (or instrument center manager) can export the
-        > data from the instrument vendor system to a preferred or
-        > acceptable open format. If not, see File Conversion Tools
-        > above for MSConvert and other tools to convert the data to an
-        > open format.
+    2.  If the raw MS data files are in a proprietary format, inquire if the researcher (or instrument center manager) can export the data from the instrument vendor system to a preferred or acceptable open format. If not, see File Conversion Tools above for MSConvert and other tools to convert the data to an open format.
 
 3.  Metadata review and deposit
 
-    1.  Review the repository’s guidelines and templates for metadata
-        > and documentation if the data depositor wants assistance.
-        > Robust structured metadata can improve data discoverability.
-        > It also assists users in determining which properties and data
-        > files can be read and indexed by the repository or other
-        > computational processes.
+    1.  Review the repository’s guidelines and templates for metadata and documentation if the data depositor wants assistance. Robust structured metadata can improve data discoverability. It also assists users in determining which properties and data files can be read and indexed by the repository or other computational processes.
 
-    2.  If the repository does not specify details specific to MS data
-        > (e.g., an institutional or generalist repository) see the
-        > following section for additional metadata that might be
-        > included.
+    2.  If the repository does not specify details specific to MS data (e.g., an institutional or generalist repository) see the following section for additional metadata that might be included.
 
 ## Metadata standards and core elements
 
@@ -878,15 +858,11 @@ If compounds are known and present in prominent public databases or
 repositories, these database identifiers can be included to help other
 researchers easily link to more information:
 
-- Common open database identifiers include: PubChem Compound ID, DSSTox
-  > ID, ChemSpider ID, MassBank ID, and others.
+- Common open database identifiers include: PubChem Compound ID, DSSTox ID, ChemSpider ID, MassBank ID, and others.
 
-- CAS Registry Number is proprietary and many that appear in public
-  > sources are not verified, so confirm these with the depositor.
+- CAS Registry Number is proprietary and many that appear in public sources are not verified, so confirm these with the depositor.
 
-- Database identifiers can be helpful especially for substances that are
-  > commonly used but not easily represented by any of the above options
-  > (e.g., mixtures, natural products).
+- Database identifiers can be helpful especially for substances that are commonly used but not easily represented by any of the above options (e.g., mixtures, natural products).
 
 Table of Identifiers and Descriptors
 
@@ -919,49 +895,33 @@ interoperable chemical information.[^25]
 
 4.  Do the files need to be migrated to a more open/interoperable format (e.g., from .raw to mzML)?
 
-    1.  Are there any special considerations for the file migration
-        > (e.g., software requirements, responsible parties)?
+    1.  Are there any special considerations for the file migration (e.g., software requirements, responsible parties)?
 
 5.  Did the authors include appropriate documentation and metadata? See “Metadata Standards”.
 
-    1.  Is there detailed information on the structure, contents, and
-        > layout of the data files, either in a README file or other
-        > data documentation?
+    1.  Is there detailed information on the structure, contents, and layout of the data files, either in a README file or other data documentation?
 
-    2.  Experimental and instrument conditions used to obtain the data
-        > should be listed as part of a README or other data
-        > documentation.
+    2.  Experimental and instrument conditions used to obtain the data should be listed as part of a README or other data documentation.
 
-    3.  Information on the instruments themselves (manufacturer, model,
-        > installed software, etc.) is also helpful.
+    3.  Information on the instruments themselves (manufacturer, model, installed software, etc.) is also helpful.
 
 6.  If specific chemical substances are identified in the study, does the metadata include specific chemical identifier information? See “Substance Descriptors/Identifiers” for more information.
 
 7.  Do the repository, dataset and metadata meet stakeholder and community expectations for findability, access, interoperability, and reuse?
 
-    1.  Does the repository meet [Desirable Characteristics for Data
-        > Repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories)?
+    1.  Does the repository meet [Desirable Characteristics for Data Repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories)?
 
-    2.  Are data files in standard and/or commonly available open
-        > formats as much as possible, and described relative to
-        > specific file types, software requirements and/or conversion
-        > information?
+    2.  Are data files in standard and/or commonly available open formats as much as possible, and described relative to specific file types, software requirements and/or conversion information?
 
-    3.  Are all associated data files unambiguously named in the
-        > metadata and described relative to their scientific nature?
+    3.  Are all associated data files unambiguously named in the metadata and described relative to their scientific nature?
 
-    4.  Does the metadata description include standard scientific
-        > identifiers and terminology (e.g., IUPAC InChIs, IUPAC
-        > nomenclature, IUPAC terminology, etc.)
+    4.  Does the metadata description include standard scientific identifiers and terminology (e.g., IUPAC InChIs, IUPAC nomenclature, IUPAC terminology, etc.)
 
-    5.  Does the metadata include/use machine-readable standards such as
-        > ORCIDs (authors/contributors), ISO international date
-        > standard, etc?
+    5.  Does the metadata include/use machine-readable standards such as ORCIDs (authors/contributors), ISO international date standard, etc?
 
     6.  Are related articles referenced and linked in the metadata?
 
-    7.  Is the citation format for the dataset provided, including
-        > license attribution?
+    7.  Is the citation format for the dataset provided, including license attribution?
 
 # Key clarifications to get from the researcher
 
