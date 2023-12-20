@@ -307,7 +307,7 @@ Table 3. Data Repositories for Metabolomic MS Data.
 | :------------- | :------------- |
 |  <a href="https://www.metabolomicsworkbench.org/">Metabolomics Workbench</a>, and the National Metabolomics Data Repository (NMDR)  |  Repository for metabolomics data and  metadata. NMDR provides metabolomics data for small and large studies on cells, tissues and organisms via the Metabolomics Workbench  |
 |  <a href="https://mona.fiehnlab.ucdavis.edu/">MassBank of North America</a> <br><a href="https://massbank.eu/MassBank/">MassBank.eu</a><br><a href="http://www.massbank.jp/">MassBank Japan</a>  |  Single substance mass spectral libraries for the identification of small chemical molecules of metabolomics, exposomics and environmental relevance  |
-|  <a href="https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp">MassIVE (Mass Spectrometry Interactive Virtual Environment)</a  |  Mainly proteomics data but also accepts metabolomics data. |
+|  <a href="https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp">MassIVE (Mass Spectrometry Interactive Virtual Environment)</a>  |  Mainly proteomics data but also accepts metabolomics data. |
 |  <a href="https://www.ebi.ac.uk/metabolights/">MetaboLights</a> |  Repository for metabolomics studies, their raw experimental data and associated metadata  |
 |  <a href="https://www.ebi.ac.uk/chebi/">ChEBI</a>  |  Chemical Entities of Biological Interest, containing manually annotated small molecular entities (molecules not encoded by the genome)  |
 
@@ -949,7 +949,6 @@ interoperable chemical information.[^25]
 
 5.  Changes requested from researchers so that metadata files meet applicable metadata standards.
 
-# References 
 
 # Appendix A: Common Chemical Identifiers
 
