@@ -67,11 +67,11 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 
 [Curation actions log: documenting the process](#curation-actions-log-documenting-the-process)
 
-[References](#references)
-
 [Appendix A: Common Chemical Identifiers](#appendix-a-common-chemical-identifiers)
 
 [Appendix B: Chemical Structure Files](#appendix-b-chemical-structure-files)
+
+[References](#references)
 
 # Description of Data Type and Formats
 
@@ -1112,6 +1112,8 @@ href="https://docs.chemaxon.com/display/docs/marvin-documents-mrv.md">MarvinSket
 
 These programs may also be able to generate computed identifiers such as
 SMILES, IUPAC Name, InChI and InChIKey from the structure/drawing file.
+
+# References
 
 [^1]: [What is Mass Spectrometry? \[Internet\]. Broad Institute. 2010
     \[cited 2022 Jun 27\]. Available from:](about:blank)
