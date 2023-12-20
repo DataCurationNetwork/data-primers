@@ -142,7 +142,7 @@ masses for the PCBs will be measured while others are ignored. The
 resulting chromatograph is the focus because it provides the information
 needed to quantify PCB concentrations.
 
-<figure> <img src="mass2.png" style="" alt="Schematic representation of a GC-MS instrument"></figure>
+<figure> <img src="mass3.png" style="" alt="Liquid chromatography MS Spectrum 3D analysis"></figure>
 
 Figure 3. Liquid chromatography MS Spectrum 3D analysis.[^3] Image
 by Daniel Norena-Caro, CC0 1.0
@@ -189,7 +189,7 @@ Table 1. Proprietary mass spectrometry file formats.[^5]
 format</th>
 </tr>
 <tr class="header">
-<th>Chromtech Finnigan* VG</th>
+<th>Chromtech Finnigan\*\*\* VG</th>
 <th>.DAT</th>
 <th>Finnigan ITDS file format; MAT95 instrument data format<br />
 MassLab data format</th>
