@@ -379,7 +379,7 @@ several compelling reasons for using mzML:
 As with metabolomics and proteomics, some repositories and research
 projects may prefer to use and support other data formats.[^19]
 
-<figure> <img src="mass4.jpg" style="" alt="Schematic representation of mzML"></figure>
+<figure> <img src="mass4.jpeg" style="" alt="Schematic representation of mzML"></figure>
 
 
 Figure 4. A schematic representation of mzML, showing key elements of
