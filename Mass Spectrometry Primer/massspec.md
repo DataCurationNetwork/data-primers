@@ -162,151 +162,31 @@ Table 1. Proprietary mass spectrometry file formats.[^5]
 
 |  Topic  |  Description  |  Description  |
 | :------------- | :------------- | :------------- |
-| :------------- | :------------- | :------------- |
-| :------------- | :------------- | :------------- |
-| :------------- | :------------- | :------------- |
+| Agilent | :------------- | :------------- |
+| Bruker | :------------- | :------------- |
+| Agilent Bruker | :------------- | :------------- |
+| Chromtech Finnigan*** VG  | :------------- | :------------- |
+| Bruker | :------------- | :------------- |
+| ION-TOF | :------------- | :------------- |
+| ION-TOF | :------------- | :------------- |
+| Shimadzu | :------------- | :------------- |
+| Finnigan*** | :------------- | :------------- |
+| Waters | :------------- | :------------- |
+| Shimadzu  | :------------- | :------------- |
+| Shimadzu  | :------------- | :------------- |
+| Physical Electronics/ULVAC-PHI | :------------- | :------------- |
+| Thermo; PerkinElmer  | :------------- | :------------- |
+| Micromass**/Waters | :------------- | :------------- |
+| Bruker/Varian | :------------- | :------------- |
+| Shimadzu  | :------------- | :------------- |
+| ABI/Sciex | :------------- | :------------- |
+| Physical Electronics/ULVAC-PH | :------------- | :------------- |
+| Bruker | :------------- | :------------- |
+| ABI/Sciex | :------------- | :------------- |
+| Bruker/Varian  | :------------- | :------------- |
+| Agilent/Bruker  | :------------- | :------------- |
+| ACD/Labs  | :------------- | :------------- |
 
-<table>
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 13%" />
-<col style="width: 57%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Company</th>
-<th>Extension</th>
-<th>File type</th>
-</tr>
-<tr class="odd">
-<th>Agilent</th>
-<th>.AEV, .ASR</th>
-<th>ASCII Report format (for Analytical Studio Reviewer)</th>
-</tr>
-<tr class="header">
-<th>Bruker</th>
-<th>.BAF</th>
-<th>instrument data format</th>
-</tr>
-<tr class="odd">
-<th>Agilent Bruker</th>
-<th>.D (folder)</th>
-<th>Agilent MassHunter, Agilent ChemStation, or Bruker BAF/YEP/TDF data
-format</th>
-</tr>
-<tr class="header">
-<th>Chromtech Finnigan*** VG</th>
-<th>.DAT</th>
-<th>Finnigan ITDS file format; MAT95 instrument data format<br />
-MassLab data format</th>
-</tr>
-<tr class="odd">
-<th>Bruker</th>
-<th>.FID</th>
-<th>instrument data format</th>
-</tr>
-<tr class="header">
-<th>ION-TOF</th>
-<th>.ita</th>
-<th>analysis data</th>
-</tr>
-<tr class="odd">
-<th>ION-TOF</th>
-<th>.itm</th>
-<th>raw measurement data</th>
-</tr>
-<tr class="header">
-<th>Shimadzu</th>
-<th>.lcd</th>
-<th>QQQ/QTOF instrument data format</th>
-</tr>
-<tr class="odd">
-<th>Finnigan**</th>
-<th>.MS</th>
-<th>ITS40 instrument data format</th>
-</tr>
-<tr class="header">
-<th>Waters</th>
-<th>.PKL</th>
-<th>MassLynx peak list format</th>
-</tr>
-<tr class="odd">
-<th>Shimadzu</th>
-<th>.qgd</th>
-<th>instrument data format</th>
-</tr>
-<tr class="header">
-<th>Shimadzu</th>
-<th>.QGD</th>
-<th>GCMSSolution format</th>
-</tr>
-<tr class="odd">
-<th>Physical Electronics/ULVAC-PHI</th>
-<th>.raw*</th>
-<th>raw measurement data</th>
-</tr>
-<tr class="header">
-<th>Thermo<br />
-PerkinElmer</th>
-<th>.RAW*</th>
-<th>Thermo Xcalibur<br />
-PerkinElmer TurboMass</th>
-</tr>
-<tr class="odd">
-<th>Micromass/Waters</th>
-<th>.RAW* (folder)</th>
-<th>Waters MassLynx</th>
-</tr>
-<tr class="header">
-<th>Bruker/Varian</th>
-<th>.SMS</th>
-<th>instrument data format</th>
-</tr>
-<tr class="odd">
-<th>Shimadzu</th>
-<th>.spc</th>
-<th>library data format</th>
-</tr>
-<tr class="header">
-<th>ABI/Sciex</th>
-<th>.t2d</th>
-<th>4700 and 4800 file format</th>
-</tr>
-<tr class="odd">
-<th>Physical Electronics/ULVAC-PHI</th>
-<th>.tdc</th>
-<th>spectrum data</th>
-</tr>
-<tr class="header">
-<th>Bruker</th>
-<th>.TDF</th>
-<th>timsTOF instrument data format</th>
-</tr>
-<tr class="odd">
-<th>ABI/Sciex</th>
-<th>.WIFF</th>
-<th>instrument data format</th>
-</tr>
-<tr class="header">
-<th>Bruker/Varian</th>
-<th>.XMS</th>
-<th>instrument data format</th>
-</tr>
-<tr class="odd">
-<th>Agilent/Bruker</th>
-<th>.YEP</th>
-<th>instrument data format</th>
-</tr>
-<tr class="header">
-<th>ACD/Labs</th>
-<th>*.spectrus</th>
-<th>Imports LC/MS and GC/MS data from most major instrument vendors
-listed here</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 
 \* Note that the RAW formats of each vendor are not interchangeable;
 software from one cannot handle the RAW files from another.  
