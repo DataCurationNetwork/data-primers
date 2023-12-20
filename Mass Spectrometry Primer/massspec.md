@@ -370,20 +370,17 @@ new non-target methods and data analysis processes. On the other hand,
 environmental monitoring has employed MS for quite some time. There are
 several compelling reasons for using mzML:
 
-- file conversion utilities are available to generate this type of data
-  > from proprietary file formats
+- file conversion utilities are available to generate this type of data from proprietary file formats
 
-- mzML files typically retain metadata from the data files (see Figure
-  > 4), and
+- mzML files typically retain metadata from the data files (see Figure 4), and
 
-- there is broad support for this format as far as tools and uptake
-  > across the research community.
+- there is broad support for this format as far as tools and uptake across the research community.
 
 As with metabolomics and proteomics, some repositories and research
 projects may prefer to use and support other data formats.[^19]
 
-<img src="media/image4.jpg" style="width:6.5in;height:6.84722in"
-alt="Diagram Description automatically generated" />
+<figure> <img src="mass4.jpg" style="" alt="Schematic representation of mzML"></figure>
+
 
 Figure 4. A schematic representation of mzML, showing key elements of
 the format. Each rectangle represents an XML element.[^20] See article
@@ -433,21 +430,13 @@ Curating MS data is typically an iterative process informed by
 conversations with the data depositor/researcher. Listed below are the
 likely steps to be taken:
 
-1.  Identify the repository(ies) that are most appropriate for the data
-    > and metadata:
+1.  Identify the repository(ies) that are most appropriate for the data and metadata:
 
-<!-- -->
 
-1.  Identify the research topic or target, e.g., proteomics,
-    > metabolomics, environmental sampling, chemical synthesis and
-    > characterization.
 
-2.  Evaluate the alignment between the research data topic, type of
-    > data, data analysis and metadata, and potential repository(ies).
-    > Is there a repository that is well-suited to the research topic
-    > and the methods, including computational approaches, that may have
-    > been used to analyze the data, and will make the data available to
-    > the broader community?
+1.  Identify the research topic or target, e.g., proteomics, metabolomics, environmental sampling, chemical synthesis and characterization.
+
+2.  Evaluate the alignment between the research data topic, type of data, data analysis and metadata, and potential repository(ies). Is there a repository that is well-suited to the research topic and the methods, including computational approaches, that may have been used to analyze the data, and will make the data available to the broader community?
 
     1.  Factors such as the computational methods used for the data
         > analysis may influence the choices
@@ -458,7 +447,7 @@ likely steps to be taken:
         > characterization, the computational process that was used and
         > the metadata that are available.
 
-<!-- -->
+
 
 2.  Data review and deposit
 
@@ -836,18 +825,11 @@ source are included in this example.
 
 #### Chemical mass, formula, structure.
 
-1.  Total exact mass can be derived from the structure file, or for
-    > known substances could be taken from chemical substance databases
-    > (e.g. PubChem).
+1.  Total exact mass can be derived from the structure file, or for known substances could be taken from chemical substance databases (e.g. PubChem).
 
-2.  Molecular formula can be derived from the structure file, or, for
-    > known substances, could be taken from chemical substance databases
-    > (e.g. PubChem).
+2.  Molecular formula can be derived from the structure file, or, for known substances, could be taken from chemical substance databases (e.g. PubChem).
 
-3.  A molecular structure diagram is typically included for a novel
-    > substance, or to distinguish the substance of interest if there
-    > are multiple substances that could have the same formula. See
-    > Appendix B for structure file information.
+3.  A molecular structure diagram is typically included for a novel substance, or to distinguish the substance of interest if there are multiple substances that could have the same formula. See Appendix B for structure file information.
 
 Files generated from chemical drawing programs contain specific
 information about the chemical structures that can be parsed by many
@@ -880,21 +862,15 @@ other researchers easily link to more information.
 
 - IUPAC names if specific compounds or chemical classes are known.
 
-  - Consult with the researcher to also include common names and
-    > synonyms used in their research field (e.g., PCB-12) for easier
-    > referral for practicing researchers, especially to indicate groups
-    > or classes of related chemicals. PubChem or Common Chemistry may
-    > also be a good source for synonyms in common use.
+  - Consult with the researcher to also include common names and synonyms used in their research field (e.g., PCB-12) for easier referral for practicing researchers, especially to indicate groups or classes of related chemicals. PubChem or Common Chemistry may also be a good source for synonyms in common use.
 
 - InChI and InChIKey
 
 - Isomeric or canonical SMILES
 
-  - Groups of related chemicals can be represented by including
-    > individual identifiers for each specific chemical
+  - Groups of related chemicals can be represented by including individual identifiers for each specific chemical
 
-  - InChI and SMILES have complementary functions in many databases so
-    > both can be included when available
+  - InChI and SMILES have complementary functions in many databases so both can be included when available
 
 Database Identifiers
 
@@ -937,24 +913,16 @@ interoperable chemical information.[^25]
 
 1.  Can I identify a relevant domain repository for this data?
 
-2.  If there is a domain repository, does the depositor need assistance
-    > with the deposit?
+2.  If there is a domain repository, does the depositor need assistance with the deposit?
 
-3.  If an institutional or generalist repository is an appropriate
-    > option, can I open the file or collection of files (sometimes
-    > called a project)? Is there a specific software that is required
-    > to open the file and extract the data? Are the files available in
-    > an open/interoperable format? See “File formats” in the relevant
-    > Domain section, and “File Conversion Tools”.
+3.  If an institutional or generalist repository is an appropriate option, can I open the file or collection of files (sometimes called a project)? Is there a specific software that is required to open the file and extract the data? Are the files available in an open/interoperable format? See “File formats” in the relevant Domain section, and “File Conversion Tools”.
 
-4.  Do the files need to be migrated to a more open/interoperable format
-    > (e.g., from .raw to mzML)?
+4.  Do the files need to be migrated to a more open/interoperable format (e.g., from .raw to mzML)?
 
     1.  Are there any special considerations for the file migration
         > (e.g., software requirements, responsible parties)?
 
-5.  Did the authors include appropriate documentation and metadata? See
-    > “Metadata Standards”.
+5.  Did the authors include appropriate documentation and metadata? See “Metadata Standards”.
 
     1.  Is there detailed information on the structure, contents, and
         > layout of the data files, either in a README file or other
@@ -967,13 +935,9 @@ interoperable chemical information.[^25]
     3.  Information on the instruments themselves (manufacturer, model,
         > installed software, etc.) is also helpful.
 
-6.  If specific chemical substances are identified in the study, does
-    > the metadata include specific chemical identifier information? See
-    > “Substance Descriptors/Identifiers” for more information.
+6.  If specific chemical substances are identified in the study, does the metadata include specific chemical identifier information? See “Substance Descriptors/Identifiers” for more information.
 
-7.  Do the repository, dataset and metadata meet stakeholder and
-    > community expectations for findability, access, interoperability,
-    > and reuse?
+7.  Do the repository, dataset and metadata meet stakeholder and community expectations for findability, access, interoperability, and reuse?
 
     1.  Does the repository meet [Desirable Characteristics for Data
         > Repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories)?
@@ -1003,21 +967,13 @@ interoperable chemical information.[^25]
 
 1.  What type of study (domain) generated the data?
 
-2.  Have you identified a repository that you would prefer to use? If
-    > so, do any of the domain repositories appear to be a good match
-    > for your study and the data processing/analysis methods you used?
+2.  Have you identified a repository that you would prefer to use? If so, do any of the domain repositories appear to be a good match for your study and the data processing/analysis methods you used?
 
-3.  What software (and version) did you use to export your data, and is
-    > it in an open format? If not, would you be able to export to an
-    > open format from the instrument software, or will you need
-    > software to make the conversion?
+3.  What software (and version) did you use to export your data, and is it in an open format? If not, would you be able to export to an open format from the instrument software, or will you need software to make the conversion?
 
-4.  Are there specific considerations for viewing and analyzing the
-    > data, such as software, processing capabilities, intellectual
-    > property issues, or privacy issues?
+4.  Are there specific considerations for viewing and analyzing the data, such as software, processing capabilities, intellectual property issues, or privacy issues?
 
-5.  Does your metadata include information on the experimental or
-    > instrumental conditions used to collect the data?
+5.  Does your metadata include information on the experimental or instrumental conditions used to collect the data?
 
 6.  Who do we contact if we have questions about the data?
 
@@ -1025,18 +981,13 @@ interoperable chemical information.[^25]
 
 1.  Type of file format(s) and data file organization.
 
-2.  Changes made between versions or file formats, particularly if
-    > converting between a proprietary or instrument specific format and
-    > an open format.
+2.  Changes made between versions or file formats, particularly if converting between a proprietary or instrument specific format and an open format.
 
-3.  Software that was used to open the data files or for any file
-    > conversions.
+3.  Software that was used to open the data files or for any file conversions.
 
-4.  Chemical identifier information used and/or requested from
-    > researchers, if applicable.
+4.  Chemical identifier information used and/or requested from researchers, if applicable.
 
-5.  Changes requested from researchers so that metadata files meet
-    > applicable metadata standards.
+5.  Changes requested from researchers so that metadata files meet applicable metadata standards.
 
 # References 
 
