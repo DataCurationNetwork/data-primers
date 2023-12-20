@@ -142,8 +142,7 @@ masses for the PCBs will be measured while others are ignored. The
 resulting chromatograph is the focus because it provides the information
 needed to quantify PCB concentrations.
 
-<img src="media/image1.png" style="width:6.5in;height:4.4625in"
-alt="A picture containing text, businesscard Description automatically generated" />
+<figure> <img src="mass2.png" style="" alt="Schematic representation of a GC-MS instrument"></figure>
 
 Figure 3. Liquid chromatography MS Spectrum 3D analysis.[^3] Image
 by Daniel Norena-Caro, CC0 1.0
