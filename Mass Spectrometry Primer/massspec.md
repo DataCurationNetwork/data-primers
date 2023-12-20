@@ -189,7 +189,7 @@ Table 1. Proprietary mass spectrometry file formats.[^5]
 format</th>
 </tr>
 <tr class="header">
-<th>Chromtech Finnigan\*\*\* VG</th>
+<th>Chromtech Finnigan*** VG</th>
 <th>.DAT</th>
 <th>Finnigan ITDS file format; MAT95 instrument data format<br />
 MassLab data format</th>
@@ -215,7 +215,7 @@ MassLab data format</th>
 <th>QQQ/QTOF instrument data format</th>
 </tr>
 <tr class="odd">
-<th>Finnigan*</th>
+<th>Finnigan**</th>
 <th>.MS</th>
 <th>ITS40 instrument data format</th>
 </tr>
