@@ -261,16 +261,16 @@ Table 2. Repositories for Proteome Data.[^9]
 
 | Name                                                                                                                         | Description                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [<u>IntAct </u>](https://www.ebi.ac.uk/intact/home)                                                                          | Information about protein interactions                                                      |
-| [<u>iProx</u>](https://www.iprox.cn/)                                                                                        | Integrated proteome resources center, China                                                 |
-| [<u>jPOSTrepo (Japan ProteOme STandard Repository)</u>](https://repository.jpostdb.org/)                                     | Public data repository for shotgun proteomics, Japan                                        |
-| [<u>MassIVE (Mass Spectrometry Interactive Virtual Environment)</u>](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) | Proteins, peptides, peptide variants                                                        |
-| [<u>Panorama Public</u>](https://panoramaweb.org/home/project-begin.view?)                                                   | Targeted mass spectrometry assays from Skyline                                              |
-| [<u>PeptideAtlas</u>](http://www.peptideatlas.org/overview.php)                                                              | Annotations of eukaryotic genomes through validation of expressed proteins                  |
-| [<u>PASSEL (PeptideAtlas SRM Experiment Library)</u>](http://www.peptideatlas.org/passel/)                                   | SRM (Selected Reaction Monitoring) experimental results from analysis of biological samples |
-| [<u>PRIDE (Proteomics Identification Database)</u>](https://www.ebi.ac.uk/pride/)                                            | Experimental evidence of published protein and peptide identifications                      |
-| [<u>Reactome </u>](https://reactome.org/)                                                                                    | Protein functions in human biological pathways                                              |
-| [<u>UniProtKB (UniProt Knowledgebase)</u>](https://www.uniprot.org/)                                                         | Protein sequences and functional information                                                |
+| [IntAct ](https://www.ebi.ac.uk/intact/home)                                                                          | Information about protein interactions                                                      |
+| [iProx](https://www.iprox.cn/)                                                                                        | Integrated proteome resources center, China                                                 |
+| [jPOSTrepo (Japan ProteOme STandard Repository)](https://repository.jpostdb.org/)                                     | Public data repository for shotgun proteomics, Japan                                        |
+| [MassIVE (Mass Spectrometry Interactive Virtual Environment)](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) | Proteins, peptides, peptide variants                                                        |
+| [Panorama Public](https://panoramaweb.org/home/project-begin.view?)                                                   | Targeted mass spectrometry assays from Skyline                                              |
+| [PeptideAtlas](http://www.peptideatlas.org/overview.php)                                                              | Annotations of eukaryotic genomes through validation of expressed proteins                  |
+| [PASSEL (PeptideAtlas SRM Experiment Library)](http://www.peptideatlas.org/passel/)                                   | SRM (Selected Reaction Monitoring) experimental results from analysis of biological samples |
+| [PRIDE (Proteomics Identification Database)](https://www.ebi.ac.uk/pride/)                                            | Experimental evidence of published protein and peptide identifications                      |
+| [Reactome ](https://reactome.org/)                                                                                    | Protein functions in human biological pathways                                              |
+| [UniProtKB (UniProt Knowledgebase)](https://www.uniprot.org/)                                                         | Protein sequences and functional information                                                |
 
 ### Recommended Open Data Formats
 
@@ -303,55 +303,15 @@ hazardous chemicals.
 
 Table 3. Data Repositories for Metabolomic MS Data.
 
-<table>
-<colgroup>
-<col style="width: 35%" />
-<col style="width: 64%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-</tr>
-<tr class="odd">
-<th><a href="https://www.metabolomicsworkbench.org/"><u>Metabolomics
-Workbench</u></a>, and the National Metabolomics Data Repository
-(NMDR)</th>
-<th>Repository for metabolomics data and metadata. NMDR provides
-metabolomics data for small and large studies on cells, tissues and
-organisms via the Metabolomics Workbench</th>
-</tr>
-<tr class="header">
-<th><u><a href="https://mona.fiehnlab.ucdavis.edu/">MassBank of North
-America</a><a
-href="https://massbank.eu/MassBank/">MassBank.eu</a><br />
-<a href="http://www.massbank.jp/">MassBank Japan</a></u></th>
-<th>Single substance mass spectral libraries for the identification of
-small chemical molecules of metabolomics, exposomics and environmental
-relevance</th>
-</tr>
-<tr class="odd">
-<th><a
-href="https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp"><u>MassIVE
-(Mass Spectrometry Interactive Virtual Environment)</u></a></th>
-<th>Mainly proteomics data but also accepts metabolomics data.</th>
-</tr>
-<tr class="header">
-<th><a
-href="https://www.ebi.ac.uk/metabolights/"><u>MetaboLights</u></a></th>
-<th>Repository for metabolomics studies, their raw experimental data and
-associated metadata</th>
-</tr>
-<tr class="odd">
-<th><a href="https://www.ebi.ac.uk/chebi/"><u>ChEBI</u></a></th>
-<th>Chemical Entities of Biological Interest, containing manually
-annotated small molecular entities (molecules not encoded by the
-genome)</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|  Name  |  Description  |
+| :------------- | :------------- |
+|  <a href="https://www.metabolomicsworkbench.org/">Metabolomics Workbench</a>, and the National Metabolomics Data Repository (NMDR)  |  Repository for metabolomics data and  metadata. NMDR provides metabolomics data for small and large studies on cells, tissues and organisms via the Metabolomics Workbench  |
+|  <a href="https://mona.fiehnlab.ucdavis.edu/">MassBank of North America</a> <br><a href="https://massbank.eu/MassBank/">MassBank.eu</a><br><a href="http://www.massbank.jp/">MassBank Japan</a>  |  Single substance mass spectral libraries for the identification of small chemical molecules of metabolomics, exposomics and environmental relevance  |
+|  <a href="https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp">MassIVE (Mass Spectrometry Interactive Virtual Environment)</a  |  Mainly proteomics data but also accepts metabolomics data. |
+|  <a href="https://www.ebi.ac.uk/metabolights/">MetaboLights</a> |  Repository for metabolomics studies, their raw experimental data and associated metadata  |
+|  <a href="https://www.ebi.ac.uk/chebi/">ChEBI</a>  |  Chemical Entities of Biological Interest, containing manually annotated small molecular entities (molecules not encoded by the genome)  |
+
+
 
 ### Recommended open formats
 
@@ -386,8 +346,8 @@ analysis for PCBs by GC-MS[^17]) to support replicability.
 
 Some of the domain repositories might also accept MS data from these
 categories, for example,
-[<u>MassBank.eu</u>](https://massbank.eu/MassBank/) and [<u>MassBank
-Japan</u>](http://www.massbank.jp/) accept any mass spectra of small
+[MassBank.eu](https://massbank.eu/MassBank/) and [MassBank
+Japan](http://www.massbank.jp/) accept any mass spectra of small
 molecules with exposomics and environmental relevance. But at this time,
 there is not a repository specifically designed for these types of data,
 and it is difficult to find similar data. This may be due to the lack of
@@ -437,12 +397,12 @@ formats into open formats.
 ### MS Convert
 
 The MS Convert app is part of the ProteoWizard package
-([<u>http://proteowizard.sourceforge.net/download.html</u>](http://proteowizard.sourceforge.net/download.html))
+([http://proteowizard.sourceforge.net/download.html](http://proteowizard.sourceforge.net/download.html))
 and is frequently mentioned in the literature for converting proprietary
 formats into mzML and other formats. There are several settings for the
 file conversion that should be reviewed before starting. A useful guide
 for MSConvert is at
-[<u>https://ccms-ucsd.github.io/GNPSDocumentation/fileconversion/</u>](https://ccms-ucsd.github.io/GNPSDocumentation/fileconversion/)
+[https://ccms-ucsd.github.io/GNPSDocumentation/fileconversion/](https://ccms-ucsd.github.io/GNPSDocumentation/fileconversion/)
 
 ### ThermoRawFileParser
 
@@ -629,7 +589,7 @@ properties below)</th>
 <tr class="header">
 <th>Funder(s) e.g., ROR ID, and grant number (use funder’s preferred
 grant number format if specified, such as <a
-href="https://grants.nih.gov/policy/federal-funding.htm"><u>NIH</u></a>)</th>
+href="https://grants.nih.gov/policy/federal-funding.htm">NIH</a>)</th>
 <th>✔</th>
 <th colspan="2"></th>
 <th colspan="2"></th>
@@ -832,13 +792,13 @@ Properties headings that are noted in Table 4.
 
 This spreadsheet template (either tab delimited or a Google Sheet
 format:
-[<u>https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=381997835</u>](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=381997835)
+[https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=381997835](https://docs.google.com/spreadsheets/d/1v71bnUd8fiXX51zuZIUAvYETWmpwFQj-M3mu4CNsHBU/edit#gid=381997835)
 ) is used by the Global Natural Products Social Molecular Networking
 (GNPS) to collect information about tandem mass spectrometry data files
 deposited in the MassIVE repository.[^23] This template could easily be
 repurposed for information about other MS data by adding/removing
-columns, and instructions are provided in the [<u>GNPS
-documentation</u>](https://ccms-ucsd.github.io/GNPSDocumentation/metadata/).
+columns, and instructions are provided in the [GNPS
+documentation](https://ccms-ucsd.github.io/GNPSDocumentation/metadata/).
 For a minimal approach, it could be used to collect study-level
 information rather than file-level metadata.
 
@@ -869,7 +829,7 @@ source are included in this example.
 | Sample Collection Method                                       | character string            | enter an option from the controlled vocabulary, please contact the admins for additional options.                                                                                                                                | blood draw, venous                              |
 | Sample Extraction Method                                       | character string            | enter an option from the controlled vocabulary, please contact the admins for additional options.                                                                                                                                | methanol-water (4:1)                            |
 | Internal Standards Used                                        | character string            | enter an option from the controlled vocabulary, please contact the admins for additional options.                                                                                                                                | none                                            |
-| Mass Spectrometer                                              | character string            | enter an option from the controlled vocabulary, please contact the admins for additional options. Uses the Mass Spectrometry ontology, [<u>https://www.ebi.ac.uk/ols/ontologies/ms</u>](https://www.ebi.ac.uk/ols/ontologies/ms) | impact HD\|MS:1002667                           |
+| Mass Spectrometer                                              | character string            | enter an option from the controlled vocabulary, please contact the admins for additional options. Uses the Mass Spectrometry ontology, [https://www.ebi.ac.uk/ols/ontologies/ms](https://www.ebi.ac.uk/ols/ontologies/ms) | impact HD\|MS:1002667                           |
 | Ionization Source And Polarity                                 | character string            | enter an option from the controlled vocabulary, please contact the admins for additional options.                                                                                                                                | electrospray ionization (positive)              |
 | Chromatography And Phase                                       | character string            | enter an option from the controlled vocabulary, please contact the admins for additional options.                                                                                                                                | reverse phase (C18)                             |
 | Human subject information: age, disease, location, population… | Integers, character strings | See the ReDU guidance                                                                                                                                                                                                            | See the ReDU example on the GNPS guidance site. |
@@ -911,8 +871,8 @@ preferable, to facilitate integration with other systems.
 
 Researchers or curators can generate these identifiers from structure
 files using common chemistry drawing programs (see Appendix A) or open
-tools such as the NIH [<u>Chemical Identifier
-Resolver</u>](https://cactus.nci.nih.gov/chemical/structure).
+tools such as the NIH [Chemical Identifier
+Resolver](https://cactus.nci.nih.gov/chemical/structure).
 
 Alternatively, if compounds are known and present in prominent public
 databases or repositories, these identifiers can be included to help
@@ -1015,8 +975,8 @@ interoperable chemical information.[^25]
     > community expectations for findability, access, interoperability,
     > and reuse?
 
-    1.  Does the repository meet [<u>Desirable Characteristics for Data
-        > Repositories</u>](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories)?
+    1.  Does the repository meet [Desirable Characteristics for Data
+        > Repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories)?
 
     2.  Are data files in standard and/or commonly available open
         > formats as much as possible, and described relative to
@@ -1095,8 +1055,8 @@ information about the chemical structures and can be directly parsed by
 many chemistry software programs for further analysis. Researchers or
 curators can generate these identifiers from structure files using
 common chemistry drawing programs (see Appendix B) or open tools such as
-the NIH [<u>Chemical Identifier
-Resolver</u>](https://cactus.nci.nih.gov/chemical/structure).
+the NIH [Chemical Identifier
+Resolver](https://cactus.nci.nih.gov/chemical/structure).
 
 Once generated, identifier strings can be copied directly into metadata
 templates. Database identifiers should be looked up in the source
@@ -1149,7 +1109,7 @@ InChI Trust</th>
 <th>Open database record identifier</th>
 <th>Discrete chemicals</th>
 <th>2519 <a
-href="https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine"><u>https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine</u></a></th>
+href="https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine">https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine</a></th>
 <th></th>
 </tr>
 <tr class="header">
@@ -1160,7 +1120,7 @@ href="https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine"><u>https://pubchem.ncb
 <th>Registered substances, including mixtures, polymers and other
 complex substances</th>
 <th>58-08-2 <a
-href="https://commonchemistry.cas.org/detail?cas_rn=58-08-2"><u>https://commonchemistry.cas.org/detail?cas_rn=58-08-2</u></a></th>
+href="https://commonchemistry.cas.org/detail?cas_rn=58-08-2">https://commonchemistry.cas.org/detail?cas_rn=58-08-2</a></th>
 <th>CAS Common Chemistry is an open source for some CAS RNs</th>
 </tr>
 </thead>
@@ -1206,7 +1166,7 @@ Table 2. Common Chemical Structure File Formats
 <th>.cdx<br />
 .cdxml</th>
 <th><a
-href="https://www.cambridgesoft.com/services/documentation/sdk/chemdraw/cdx/General.htm"><u>ChemDraw</u></a>
+href="https://www.cambridgesoft.com/services/documentation/sdk/chemdraw/cdx/General.htm">ChemDraw</a>
 (PerkinElmer)</th>
 <th>Proprietary connection table</th>
 <th>Very common chemical drawing program</th>
@@ -1215,7 +1175,7 @@ href="https://www.cambridgesoft.com/services/documentation/sdk/chemdraw/cdx/Gene
 <th>Marvin</th>
 <th>.mrv</th>
 <th><a
-href="https://docs.chemaxon.com/display/docs/marvin-documents-mrv.md"><u>MarvinSketch</u></a>
+href="https://docs.chemaxon.com/display/docs/marvin-documents-mrv.md">MarvinSketch</a>
 (ChemAxon)</th>
 <th>Proprietary connection table</th>
 <th></th>
@@ -1250,7 +1210,7 @@ SMILES, IUPAC Name, InChI and InChIKey from the structure/drawing file.
     chromatography-mass spectrometry (GC-MS) \[Internet\]. Illustrated
     Glossary of Organic Chemistry. \[cited 2022 Jun 27\]. Available
     from:
-    [<u>http://www.chem.ucla.edu/~harding/IGOC/G/gc_ms.html</u>](http://www.chem.ucla.edu/~harding/IGOC/G/gc_ms.html)
+    [http://www.chem.ucla.edu/~harding/IGOC/G/gc_ms.html](http://www.chem.ucla.edu/~harding/IGOC/G/gc_ms.html)
 
 [^3]: [File:Liquid chromatography MS spectrum 3D analysis.png. In:
     Wikipedia \[Internet\]. 2017 \[cited 2023 Jan 23\]. Available
@@ -1267,11 +1227,11 @@ SMILES, IUPAC Name, InChI and InChIKey from the structure/drawing file.
 
 [^6]: EMBL-EBI. What is proteomics? \| Proteomics \[Internet\]. \[cited
     2022 Jun 27\]. Available from:
-    [<u>https://www.ebi.ac.uk/training/online/courses/proteomics-an-introduction/what-is-proteomics/</u>](https://www.ebi.ac.uk/training/online/courses/proteomics-an-introduction/what-is-proteomics/)
+    [https://www.ebi.ac.uk/training/online/courses/proteomics-an-introduction/what-is-proteomics/](https://www.ebi.ac.uk/training/online/courses/proteomics-an-introduction/what-is-proteomics/)
 
 [^7]: The ProteomeXchange consortium \[Internet\]. ProteomeXchange
     Consortium. 2023 \[cited 2023 Jan 23\]. Available from:
-    [<u>http://www.proteomexchange.org/</u>](http://www.proteomexchange.org/)
+    [http://www.proteomexchange.org/](http://www.proteomexchange.org/)
 
 [^8]: [HUPO - Proteomics Standards Initiative (PSI) \[Internet\].
     \[cited 2023 Jan 23\]. Available from:
@@ -1281,11 +1241,11 @@ SMILES, IUPAC Name, InChI and InChIKey from the structure/drawing file.
     proteomics data accessible and reusable: Current state of proteomics
     databases and repositories. PROTEOMICS \[Internet\]. 2015 Mar
     \[cited 2022 Jul 14\];15(5–6):930–50. Available from:
-    [<u>https://onlinelibrary.wiley.com/doi/10.1002/pmic.201400302</u>](https://onlinelibrary.wiley.com/doi/10.1002/pmic.201400302)
+    [https://onlinelibrary.wiley.com/doi/10.1002/pmic.201400302](https://onlinelibrary.wiley.com/doi/10.1002/pmic.201400302)
     : [Fondrie WE, Bittremieux W, Noble WS. ppx: Programmatic Access to
     Proteomics Data Repositories. J Proteome Res \[Internet\]. 2021 Sep
     3 \[cited 2022 Aug 15\];20(9):4621–4. Available from:](about:blank)
-    [<u>https://doi.org/10.1021/acs.jproteome.1c00454</u>](https://doi.org/10.1021/acs.jproteome.1c00454)
+    [https://doi.org/10.1021/acs.jproteome.1c00454](https://doi.org/10.1021/acs.jproteome.1c00454)
 
 [^10]: Martens L, Chambers M, Sturm M, Kessner D, Levander F, Shofstahl
     J, et al. mzML - A community standard for mass spectrometry data.
@@ -1298,15 +1258,15 @@ SMILES, IUPAC Name, InChI and InChIKey from the structure/drawing file.
 
 [^12]: EMBL-EBI. What is metabolomics? \| Metabolomics \[Internet\].
     \[cited 2022 Jun 27\]. Available from:
-    [<u>https://www.ebi.ac.uk/training/online/courses/metabolomics-introduction/what-is/</u>](https://www.ebi.ac.uk/training/online/courses/metabolomics-introduction/what-is/)
+    [https://www.ebi.ac.uk/training/online/courses/metabolomics-introduction/what-is/](https://www.ebi.ac.uk/training/online/courses/metabolomics-introduction/what-is/)
 
 [^13]: Exposome and Exposomics \| NIOSH \| CDC \[Internet\]. 2022
     \[cited 2022 Oct 10\]. Available from:
-    [<u>https://www.cdc.gov/niosh/topics/exposome/default.html</u>](https://www.cdc.gov/niosh/topics/exposome/default.html)
+    [https://www.cdc.gov/niosh/topics/exposome/default.html](https://www.cdc.gov/niosh/topics/exposome/default.html)
 
 [^14]: Metabolomics Workbench: Upload and Manage Experimental Data and
     Metadata. \[Internet\]. \[cited 2022 Aug 16\]. Available from:
-    [<u>https://www.metabolomicsworkbench.org/data/DRCCDataDeposit.php</u>](https://www.metabolomicsworkbench.org/data/DRCCDataDeposit.php)
+    [https://www.metabolomicsworkbench.org/data/DRCCDataDeposit.php](https://www.metabolomicsworkbench.org/data/DRCCDataDeposit.php)
 
 [^15]: Schulze B, Jeon Y, Kaserzon S, Heffernan AL, Dewapriya P, O’Brien
     J, et al. An assessment of quality assurance/quality control efforts
@@ -1314,33 +1274,33 @@ SMILES, IUPAC Name, InChI and InChIKey from the structure/drawing file.
     analysis of environmental samples. TrAC Trends Anal Chem
     \[Internet\]. 2020 Dec 1 \[cited 2022 Aug 22\];133:116063. Available
     from:
-    [<u>https://www.sciencedirect.com/science/article/pii/S0165993620302922</u>](https://www.sciencedirect.com/science/article/pii/S0165993620302922)
+    [https://www.sciencedirect.com/science/article/pii/S0165993620302922](https://www.sciencedirect.com/science/article/pii/S0165993620302922)
 
 [^16]: Hollender J, van Bavel B, Dulio V, Farmen E, Furtmann K,
     Koschorreck J, et al. High resolution mass spectrometry-based
     non-target screening can support regulatory environmental monitoring
     and chemicals management. Environ Sci Eur \[Internet\]. 2019;31(1).
     Available from:
-    [<u>https://doi.org/10.1186/s12302-019-0225-x</u>](https://doi.org/10.1186/s12302-019-0225-x)
+    [https://doi.org/10.1186/s12302-019-0225-x](https://doi.org/10.1186/s12302-019-0225-x)
 
 [^17]: US EPA O. SW-846 Test Method 8082A: Polychlorinated Biphenyls
     (PCBs) by Gas Chromatography \[Internet\]. 2015 \[cited 2022 Aug
     18\]. Available from:
-    [<u>https://www.epa.gov/hw-sw846/sw-846-test-method-8082a-polychlorinated-biphenyls-pcbs-gas-chromatography</u>](https://www.epa.gov/hw-sw846/sw-846-test-method-8082a-polychlorinated-biphenyls-pcbs-gas-chromatography)
+    [https://www.epa.gov/hw-sw846/sw-846-test-method-8082a-polychlorinated-biphenyls-pcbs-gas-chromatography](https://www.epa.gov/hw-sw846/sw-846-test-method-8082a-polychlorinated-biphenyls-pcbs-gas-chromatography)
 
 [^18]: Hawkes JA, D’Andrilli J, Agar JN, Barrow MP, Berg SM, Catalán N,
     et al. An international laboratory comparison of dissolved organic
     matter composition by high resolution mass spectrometry: Are we
     getting the same answer? Limnol Oceanogr Methods \[Internet\]. 2020
     \[cited 2022 Aug 22\];18(6):235–58. Available from:
-    [<u>https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.10364</u>](https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.10364)
+    [https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.10364](https://onlinelibrary.wiley.com/doi/abs/10.1002/lom3.10364)
     ; Schulze B, Jeon Y, Kaserzon S, Heffernan AL, Dewapriya P, O’Brien
     J, et al. An assessment of quality assurance/quality control efforts
     in high resolution mass spectrometry non-target workflows for
     analysis of environmental samples. TrAC Trends Anal Chem
     \[Internet\]. 2020 Dec 1 \[cited 2022 Aug 22\];133:116063. Available
     from:
-    [<u>https://www.sciencedirect.com/science/article/pii/S0165993620302922</u>](https://www.sciencedirect.com/science/article/pii/S0165993620302922)
+    [https://www.sciencedirect.com/science/article/pii/S0165993620302922](https://www.sciencedirect.com/science/article/pii/S0165993620302922)
 
 [^19]: [What is Mass Spectrometry? \[Internet\]. Broad Institute. 2010
     \[cited 2022 Jun 27\]. Available from:](about:blank)
@@ -1354,26 +1314,26 @@ SMILES, IUPAC Name, InChI and InChIKey from the structure/drawing file.
     Martens L, et al. ThermoRawFileParser: Modular, Scalable, and
     Cross-Platform RAW File Conversion. J Proteome Res \[Internet\].
     2020 Jan 3 \[cited 2022 Jul 12\];19(1):537–42. Available from:
-    [<u>https://doi.org/10.1021/acs.jproteome.9b00328</u>](https://doi.org/10.1021/acs.jproteome.9b00328)
+    [https://doi.org/10.1021/acs.jproteome.9b00328](https://doi.org/10.1021/acs.jproteome.9b00328)
 
 [^22]: Pluskal T, Castillo S, Villar-Briones A, Orešič M. MZmine 2:
     Modular framework for processing, visualizing, and analyzing mass
     spectrometry-based molecular profile data. BMC Bioinformatics
     \[Internet\]. 2010 Dec \[cited 2022 Jul 7\];11(1):1–11. Available
     from:
-    [<u>http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-395</u>](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-395)
+    [http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-395](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-395)
 
 [^23]: Schymanski EL, Bolton EE. FAIR chemical structures in the Journal
     of Cheminformatics. J Cheminformatics \[Internet\]. 2021 Dec \[cited
     2022 Jul 14\];13(1):1–3. Available from:
-    [<u>https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4</u>](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4)
+    [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4)
 
 [^24]: Schymanski EL, Bolton EE. FAIR chemical structures in the Journal
     of Cheminformatics. J Cheminformatics \[Internet\]. 2021 Dec \[cited
     2022 Jul 14\];13(1):1–3. Available from:
-    [<u>https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4</u>](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4)
+    [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4)
 
 [^25]: Schymanski EL, Bolton EE. FAIR chemical structures in the Journal
     of Cheminformatics. J Cheminformatics \[Internet\]. 2021 Dec \[cited
     2022 Jul 14\];13(1):1–3. Available from:
-    [<u>https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4</u>](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4)
+    [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00520-4)
