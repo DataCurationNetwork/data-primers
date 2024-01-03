@@ -347,7 +347,7 @@ analysis for PCBs by GC-MS[^17]) to support replicability.
 Some of the domain repositories might also accept MS data from these
 categories, for example,
 [MassBank.eu](https://massbank.eu/MassBank/) and [MassBank
-Japan](http://www.massbank.jp/) accept any mass spectra of small
+Japan](http://www.massbank.jp/) accept single-substance mass spectra of small
 molecules with exposomics and environmental relevance. But at this time,
 there is not a repository specifically designed for these types of data,
 and it is difficult to find similar data. This may be due to the lack of
