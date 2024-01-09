@@ -26,6 +26,8 @@ Affiliate Contributors (external peer reviewers): Meghan Lafferty
 | Date updated and summary of changes made | Dec 2023-Initial upload |
 
 
+**Suggested Citation:** Westra, B., Li, Y., Ruhs, N., and McEwen, L. (2023). Mass Spectrometry Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
 ## Table of Contents
 
 [Description of Data Type and Formats](#description-of-data-type-and-formats)
