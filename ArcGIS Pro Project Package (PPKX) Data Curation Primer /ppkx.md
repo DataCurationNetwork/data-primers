@@ -524,11 +524,9 @@ with. This would allow someone to choose only one (i.e. the most
 current) version of the software and reduce the total size of the PPKX
 file that is created.
 
-<figure> <img src="ppkx-11.png" alt="Screenshot of Command Search results" style=""> <fig caption>Figure 11. View the searching for the Package Project tool through the Command Search in ArcGIS Pro.</figcaption> </figure>
-<figure> <img src="ppkx-11.png" alt="Screenshot of Command Search results" style=""> <fig caption>Figure 11. View the searching for the Package Project tool through the Command Search in ArcGIS Pro.</figcaption> </figure>
+<figure> <img src="ppkx-12a.png" alt="Screenshots of the two different dialog boxes for generating PPXK.  The elements are in a different order but are almost the same. " style=""> <fig caption>Figure 12A. Sample dialog for “Share tab” method of saving as PPKX (Refer back to Figure 9).</figcaption> </figure>
+<figure> <img src="ppkx-12b.png" alt="Screenshots of the two different dialog boxes for generating PPXK.  The elements are in a different order but are almost the same. " style=""> <fig caption>Figure 12B Sample dialog for “Data Management Tools “Package Project” from the Toolbox  (Refer back to Figures 10 and 11).</figcaption> </figure>
 
-Alt text: Screenshots of the two different dialog boxes for generating
-PPXK. The elements are in a different order but are almost the same.
 
 ### More on Versions and Compatibility
 
@@ -567,19 +565,14 @@ Feature](https://www.arcgis.com/home/item.html?id=41ca25210ca345a88b2008dce88792
 Figure 13 shows what the example looks like when viewed using three
 different methods.
 
-<img src="media/image8.png" style="width:2.0625in;height:1.77083in" /><img src="media/image12.png" style="width:2.78856in;height:3.47396in" /><img src="media/image13.png" style="width:2.41741in;height:1.88021in" />
+<figure> <img src="ppkx-13a.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13A shows uncompressed data in File Explorer.</figcaption> </figure>
 
-*Figure 13A-C. View of example PPXK: A) Uncompressed data in File Explorer,
-B) Catalog Pane view in ArcGIS Pro, C) Content Pane of associated map in
-ArcGIS Pro*
+<figure> <img src="ppkx-13b.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13B shows the Ctalog Pane view in ArcGIS Pro.</figcaption> </figure>
 
-*Alt text: The File Explorer display shows 7 files: 4 .gdb folders, 1
-.py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested
-folders. There is one data layer nested within each . gdb folder. The
-.tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and
-and a python script “Script for NPS Trail Buffer. In the Content Pane
-view, there are 6 data layers whose names do not match the file names
-used in the other views.*
+<figure> <img src="ppkx-13C.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13C shows the content Pane of associated map in ArcGIS Pro</figcaption> </figure>
+
+
+*Alt text: The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views.*
 
 ### Example Manifest:
 
