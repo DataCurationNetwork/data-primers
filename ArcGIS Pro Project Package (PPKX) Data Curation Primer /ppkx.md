@@ -19,27 +19,27 @@ Affiliate Contributors (peer reviewers): Erich Purpur, Leighton Christiansen Kei
 
 [Key clarifications to get from researcher](#key-clarifications-to-get-from-researcher)
 
-[Software and resources for reviewing data](#software-and-resources-for-reviewing-data)
+[Software and resources for reviewing data](#software-and-resources-for-reviewing-data) 
 > [ArcGIS Pro](#arcgis-pro) <br> [7-Zip or other compression utilities](#zip-or-other-compression-utilities) <br> [ArcGIS Online for Organizations](#arcgis-online-for-organizations) <br> [QGIS](#qgis)
 
-[Checking the components of a PPKX](#checking-the-components-of-a-ppkx)
+[Checking the components of a PPKX](#checking-the-components-of-a-ppkx) 
 > [Reviewing a PPKX in ArcGIS Pro](#reviewing-a-ppkx-in-arcgis-pro) <br> [Reviewing an uncompressed PPKX](#reviewing-an-uncompressed-ppkx)
 
-[Applicable metadata standard, core elements and readme requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
+[Applicable metadata standard, core elements and readme requirements](#applicable-metadata-standard-core-elements-and-readme-requirements) 
 > [Embedding metadata with geospatial datasets (inside the PPKX)](#embedding-metadata-with-geospatial-datasets-inside-the-ppkx) <br> [Project-level metadata options for PPKX](#project-level-metadata-options-for-ppkx) <br>  [Researcher Metadata Recommendations:](#researcher-metadata-recommendations) <br> [Curator Metadata Recommendations:](#curator-metadata-recommendations)
 
 [Preservation Actions](#preservation-actions)
 
-[FAIR Principles](#fair-principles)
+[FAIR Principles](#fair-principles) 
 > [Findable](#findable) <br> [Accessible](#accessible) <br> [Interoperable](#interoperable) <br> [Reusable](#reusable)
 
 [Unresolved Issues/Further Questions:](#unresolved-issuesfurther-questions)
 
-[Appendix 1: Process to create a PPKX (Project Package)](#appendix-1-process-to-create-a-ppkx-project-package)
+[Appendix 1: Process to create a PPKX (Project Package)](#appendix-1-process-to-create-a-ppkx-project-package) 
 > [More on Versions and Compatibility](#more-on-versions-and-compatibility)
 
-[Appendix 2: Example PPKX File Manifest](#appendix-2-example-ppkx-file-manifest)
-> [Example Manifest:](#example-manifest)
+[Appendix 2: Example PPKX File Manifest](#appendix-2-example-ppkx-file-manifest) 
+> [Example Manifest:](#example-manifest) 
   > [Geodatabases:](#geodatabases) <br> [Toolboxes and Python Scripts:](#toolboxes-and-python-scripts)
 
 ## Format Overview 
@@ -59,67 +59,15 @@ Affiliate Contributors (peer reviewers): Erich Purpur, Leighton Christiansen Kei
 | Date updated and summary of changes made |                                                                                                                            |
 
 ## Introduction
+ Geographic Information Systems (GIS) are computer-based tools used to store, visualize, analyze, and interpret geospatial data. Projects that use GIS can contain multiple datasets, programs, subsidiary files, maps, scripts, and layers. The proliferation of files and geospatial data in a typical GIS project poses a challenge for reproducible research. In particular, different elements within a GIS project are often interrelated in complex ways, and these interrelationships can be difficult to understand and reproduce outside the context in which they were originally created (given, for example, the problem of missing dependencies or changing file paths across different computing environments). When data repositories provide the elements of a GIS project as disaggregated individual files, it can be time-consuming and labor-intensive for end-users to use these files to recreate, reproduce, or extend published results that rely on GIS analysis or visualization. The ArcGIS Pro Project Package (PPKX) file format addresses this challenge by allowing researchers to share all of the elements of their project as a single file. ArcGIS Pro Project Packages are great for researchers sharing files within the same software environment (i.e. ArcGIS Pro), but the proprietary nature of the format and rapid versioning of the software makes decisions about long-term archiving difficult. In addition to introducing the file format, we hope this primer helps you think through questions such as:
 
-> Geographic Information Systems (GIS) are computer-based tools used to
-> store, visualize, analyze, and interpret geospatial data. Projects
-> that use GIS can contain multiple datasets, programs, subsidiary
-> files, maps, scripts, and layers. The proliferation of files and
-> geospatial data in a typical GIS project poses a challenge for
-> reproducible research. In particular, different elements within a GIS
-> project are often interrelated in complex ways, and these
-> interrelationships can be difficult to understand and reproduce
-> outside the context in which they were originally created (given, for
-> example, the problem of missing dependencies or changing file paths
-> across different computing environments). When data repositories
-> provide the elements of a GIS project as disaggregated individual
-> files, it can be time-consuming and labor-intensive for end-users to
-> use these files to recreate, reproduce, or extend published results
-> that rely on GIS analysis or visualization. The ArcGIS Pro Project
-> Package (PPKX) file format addresses this challenge by allowing
-> researchers to share all of the elements of their project as a single
-> file.
->
-> ArcGIS Pro Project Packages are great for researchers sharing files
-> within the same software environment (i.e. ArcGIS Pro), but the
-> proprietary nature of the format and rapid versioning of the software
-> makes decisions about long-term archiving difficult. In addition to
-> introducing the file format, we hope this primer helps you think
-> through questions such as:
+- Should data and other files be made available outside of the project package to make them more accessible to people without ArcGIS software? In which situations would this be appropriate?
 
-- Should data and other files be made available outside of the project
-  > package to make them more accessible to people without ArcGIS
-  > software? In which situations would this be appropriate?
-
-- In documentation about the project, should data layers be described as
-  > they would be viewed from within ArcGIS software or with the actual
-  > file names (only visible if you uncompress the package)?
-
-> This primer describes tips for opening and reviewing this overarching
-> project file. Curators are encouraged to consult additional DCN Data
-> Primers for curation checklists for component file types (like
-> [geodatabases](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md)
-> and
-> [geotiffs](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoTIFF%20Data%20Curation%20Primer/geotiff-data-curation-primer.md)).
->
-> A note about software: This primer includes a method for accessing
-> data included in a Project Package with open source software. ArcGIS
-> Pro is required, however, to fully view the components of a PPKX file.
+- In documentation about the project, should data layers be described as they would be viewed from within ArcGIS software or with the actual file names (only visible if you uncompress the package)?
+ This primer describes tips for opening and reviewing this overarching project file. Curators are encouraged to consult additional DCN Data Primers for curation checklists for component file types (like [geodatabases](https://github.com/DataCurationNetwork/data-primers/blob/master/Geodatabase%20Data%20Curation%20Primer/Geodata-Primer.md) and [geotiffs](https://github.com/DataCurationNetwork/data-primers/blob/master/GeoTIFF%20Data%20Curation%20Primer/geotiff-data-curation-primer.md)). A note about software: This primer includes a method for accessing data included in a Project Package with open source software. ArcGIS Pro is required, however, to fully view the components of a PPKX file.
 
 ## Description of format
-
-> The Project Package format (extension .PPKX) is a proprietary file
-> format for use with Esri’s ArcGIS Pro software. Its primary function
-> is to allow for sharing or publishing of GIS projects either publicly
-> or within specific organizations. There are many [types of package
-> formats
-> available](https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/introduction-to-sharing-packages.htm).[^1]
-> The PPXK is an all encompassing file share package, which functions
-> similar to ZIP or TAR.
->
-> The .PPKX file creates a ‘wrapper’ around an entire GIS project. It is
-> a compressed version of an ArcGIS Pro Project -consolidating the
-> dependent elements of the project into one file location. It can
-> include:
+ The Project Package format (extension .PPKX) is a proprietary file format for use with Esri’s ArcGIS Pro software. Its primary function is to allow for sharing or publishing of GIS projects either publicly or within specific organizations. There are many [types of package formats available](https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/introduction-to-sharing-packages.htm).[^1] The PPXK is an all encompassing file share package, which functions similar to ZIP or TAR. The .PPKX file creates a ‘wrapper’ around an entire GIS project. It is a compressed version of an ArcGIS Pro Project -consolidating the dependent elements of the project into one file location. It can include:
 
 - Maps and 3D views (.aprx)
 
@@ -132,13 +80,7 @@ Affiliate Contributors (peer reviewers): Erich Purpur, Leighton Christiansen Kei
 - Attachments and related documents
 
 - Geoprocessing history and folder connections
-
-> To see a full list of the items that can be included in a PPKX, please
-> see this [ESRI resource
-> table](https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/project-package.htm).[^2]
-> From a data curation standpoint, saving PPKX files outside of
-> individual organizations (publicly) is recommended to ensure universal
-> access to all dependent elements of the geospatial project.
+ To see a full list of the items that can be included in a PPKX, please see this [ESRI resource table](https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/project-package.htm).[^2] From a data curation standpoint, saving PPKX files outside of individual organizations (publicly) is recommended to ensure universal access to all dependent elements of the geospatial project.
 
 ## Examples
 
@@ -147,70 +89,35 @@ example will open. Project packages should be forward compatible. (In
 other words, you can open packages saved for version 1.X in version 2.X,
 3.X, etc)
 
-- [Transit Tools: Routes and
-  > Stops](https://www.arcgis.com/home/item.html?id=079fa4b862a744ffb3a12edb99a4b16c)[^3] -
-  > Version 1.X Includes a map, python scripts, ArcGIS toolboxes, tasks,
-  > shapefiles, and a geodatabase
+- [Transit Tools: Routes and Stops](https://www.arcgis.com/home/item.html?id=079fa4b862a744ffb3a12edb99a4b16c)[^3] - Version 1.X Includes a map, python scripts, ArcGIS toolboxes, tasks, shapefiles, and a geodatabase
 
-- [National Park Service Trail Proximity to Surrounding
-  > Features](https://www.arcgis.com/home/item.html?id=41ca25210ca345a88b2008dce88792ac)[^4] -
-  > Version 2.X Includes a map, geodatabases, a python script, and an
-  > ArcGIS toolbox
+- [National Park Service Trail Proximity to Surrounding Features](https://www.arcgis.com/home/item.html?id=41ca25210ca345a88b2008dce88792ac)[^4] - Version 2.X Includes a map, geodatabases, a python script, and an ArcGIS toolbox
 
-- [Daily COVID-19 USA Testing
-  > Data](https://www.arcgis.com/home/item.html?id=68074308e21c42a48aee677de6abfe89)[^5]-
-  > Version 2.X Includes a map, python script tool, geodatabase, and
-  > attachments (.lyrx and .ipynb)
+- [Daily COVID-19 USA Testing Data](https://www.arcgis.com/home/item.html?id=68074308e21c42a48aee677de6abfe89)[^5]- Version 2.X Includes a map, python script tool, geodatabase, and attachments (.lyrx and .ipynb)
 
-- [Crime Analysis Project: ESRI
-  > Canada](https://www.arcgis.com/home/item.html?id=57233cb5a0da4d01bf5e28053d61c987)[^6]
-  > **-** Version 2.X Includes a map and geodatabases
+- [Crime Analysis Project: ESRI Canada](https://www.arcgis.com/home/item.html?id=57233cb5a0da4d01bf5e28053d61c987)[^6] **-** Version 2.X Includes a map and geodatabases
 
-- [An Experimental Study of Drainage Network Development by Surface
-  > and Subsurface Flow in Low-Gradient Landscapes Raster
-  > Datasets](https://doi.org/10.13020/7a27-tg76)[^7] - Version 2.X
-  > Includes five maps, geodatabases, shapefiles, and tiffs
+- [An Experimental Study of Drainage Network Development by Surface and Subsurface Flow in Low-Gradient Landscapes Raster Datasets](https://doi.org/10.13020/7a27-tg76)[^7] - Version 2.X Includes five maps, geodatabases, shapefiles, and tiffs
 
-<!-- -->
 
-- [Explore Climate
-  > Projections](https://arc-gis-hub-home-arcgishub.hub.arcgis.com/content/01bb69f1466d4d2490183b31cad54210/about)[^8]
-  > Version 2.X Includes a map, toolbox/model, geodatabase, and
-  > attachments (netCDFs and .doc)
+
+- [Explore Climate Projections](https://arc-gis-hub-home-arcgishub.hub.arcgis.com/content/01bb69f1466d4d2490183b31cad54210/about)[^8] Version 2.X Includes a map, toolbox/model, geodatabase, and attachments (netCDFs and .doc)
 
 ## Key questions to ask yourself
 
-- <span class="mark">What components are present in this package (ie.
-  > maps, data, toolboxes, additional documents)? Is it clear how the
-  > components are related to one another?</span>
+- <span class="mark">What components are present in this package (ie. maps, data, toolboxes, additional documents)? Is it clear how the components are related to one another?</span>
 
-- What documentation has the researcher provided? Do the names used in
-  > the documentation match the file names or the data layers as viewed
-  > through ArcGIS Pro? (See [Applicable metadata standard, core
-  > elements and readme
-  > requirements](#applicable-metadata-standard-core-elements-and-readme-requirements)
-  > and [Preservation actions](#preservation-actions) for
-  > discussion)
+- What documentation has the researcher provided? Do the names used in the documentation match the file names or the data layers as viewed through ArcGIS Pro? (See [Applicable metadata standard, core elements and readme requirements](#applicable-metadata-standard-core-elements-and-readme-requirements) and [Preservation actions](#preservation-actions) for discussion)
 
-- What is the purpose of this project? Is the primary goal to share
-  > research data or to walk someone through a process that would
-  > require ArcGIS Pro? (See [Preservation
-  > actions](#preservation-actions) for discussion of how this might
-  > impact your curation process)
+- What is the purpose of this project? Is the primary goal to share research data or to walk someone through a process that would require ArcGIS Pro? (See [Preservation actions](#preservation-actions) for discussion of how this might impact your curation process)
 
 ## Key clarifications to get from researcher
 
-- Are there datasets within the project package that are intellectual
-  > contributions in their own right, which you would also like to
-  > archive separately?
+- Are there datasets within the project package that are intellectual contributions in their own right, which you would also like to archive separately?
 
-- What is the relationship between the layers, tools, and items within
-  > the PPKX? What overview documentation can you provide for this file?
+- What is the relationship between the layers, tools, and items within the PPKX? What overview documentation can you provide for this file?
 
-- In what version of software was this file created? Was it saved to be
-  > backwards compatible? (See [Reviewing an uncompressed
-  > PPKX](#reviewing-an-uncompressed-ppkx) for tips guessing what
-  > the settings might have been)
+- In what version of software was this file created? Was it saved to be backwards compatible? (See [Reviewing an uncompressed PPKX](#reviewing-an-uncompressed-ppkx) for tips guessing what the settings might have been)
 
 ## Software and resources for reviewing data
 
@@ -220,77 +127,16 @@ Components of a PPKX](#checking-the-components-of-a-ppkx)” provides
 more specific details about how to use the tools.
 
 #### ArcGIS Pro
-
-> ArcGIS Pro is required in order to fully view the contents of a PPKX
-> file.
->
-> The version of ArcGIS Pro that was used to create the PPKX file is
-> important. While there is some forwards compatibility in opening PPKX
-> files in newer versions of ArcGIS Pro, backwards compatibility has
-> limited support or is not supported. Projects, project packages, and
-> project templates (.aprx, .ppkx, and .aptx files) saved with any
-> version of ArcGIS Pro 1.x can be opened and used by any version of
-> ArcGIS Pro. However, projects saved using ArcGIS Pro 2.x cannot be
-> opened by ArcGIS Pro 1.x. You cannot save a copy of an ArcGIS Pro 2.x
-> project that can be opened with any 1.x version of ArcGIS Pro. If a
-> project is saved with a recent version of ArcGIS Pro, such as 2.3, it
-> can be opened with previous versions of ArcGIS Pro 2.x, such as 2.0,
-> but the project will be downgraded in a manner appropriate for the
-> previous version. ([ESRI Documentation: Open a
-> project](https://pro.arcgis.com/en/pro-app/2.9/help/projects/open-a-project.htm)[^9])
->
-> How the PPKX file is created in ArcGIS Pro determines how elements
-> inside the project are accessed by others. Project packages can be
-> created within specific organizations (authorizing access to
-> enterprise geodatabases or universal naming convention (UNC) data
-> paths to only those users inside the organization) or they can be
-> created publicly (authorizing access to all enterprise or UNC data as
-> extracted, standalone files saved inside the project package file). If
-> the desire is to share the PPKX with others, the researcher should
-> check the box to “Share outside of Organization” or make the project
-> public. See the [Reviewing a PPKX in ArcGIS
-> Pro](#reviewing-a-ppkx-in-arcgis-pro) section below for tips
-> identifying which settings were used.
+ ArcGIS Pro is required in order to fully view the contents of a PPKX file. The version of ArcGIS Pro that was used to create the PPKX file is important. While there is some forwards compatibility in opening PPKX files in newer versions of ArcGIS Pro, backwards compatibility has limited support or is not supported. Projects, project packages, and project templates (.aprx, .ppkx, and .aptx files) saved with any version of ArcGIS Pro 1.x can be opened and used by any version of ArcGIS Pro. However, projects saved using ArcGIS Pro 2.x cannot be opened by ArcGIS Pro 1.x. You cannot save a copy of an ArcGIS Pro 2.x project that can be opened with any 1.x version of ArcGIS Pro. If a project is saved with a recent version of ArcGIS Pro, such as 2.3, it can be opened with previous versions of ArcGIS Pro 2.x, such as 2.0, but the project will be downgraded in a manner appropriate for the previous version. ([ESRI Documentation: Open a project](https://pro.arcgis.com/en/pro-app/2.9/help/projects/open-a-project.htm)[^9]) How the PPKX file is created in ArcGIS Pro determines how elements inside the project are accessed by others. Project packages can be created within specific organizations (authorizing access to enterprise geodatabases or universal naming convention (UNC) data paths to only those users inside the organization) or they can be created publicly (authorizing access to all enterprise or UNC data as extracted, standalone files saved inside the project package file). If the desire is to share the PPKX with others, the researcher should check the box to “Share outside of Organization” or make the project public. See the [Reviewing a PPKX in ArcGIS Pro](#reviewing-a-ppkx-in-arcgis-pro) section below for tips identifying which settings were used.
 
 #### 7-Zip or other compression utilities
-
-> There may be situations where there is a desire to open the PPKX
-> outside of the ArcGIS Pro environment. It is possible to use a
-> compression utility platform to uncompress the components of a PPKX.
-> Be careful with uncompressing the original. Making a second copy and
-> uncompressing the copy will ensure that the original remains intact.
-> You can uncompress the PPKX directly or you can rename the file
-> extension from .PPXK to .ZIP (or .7z). At the time of writing, while
-> uncompressing the PPKX enables access to all files that make up the
-> PPXK, including the data sources, python scripts and other file
-> format, compressing the files back together was not possible due to a
-> protection on the .aprx file. ([GIS StackExchange post about
-> editing
-> APRX](https://gis.stackexchange.com/questions/351253/arcgis-pro-open-aprx-files-to-edit-file-paths)[^10]).
-> Uncompressing the PPKX is a great way to get access to the various
-> files that make up a PPKX, granting access to files and scripts that
-> can be used in other software platforms such as QGIS, Jupyter
-> Notebooks, or other.
+ There may be situations where there is a desire to open the PPKX outside of the ArcGIS Pro environment. It is possible to use a compression utility platform to uncompress the components of a PPKX. Be careful with uncompressing the original. Making a second copy and uncompressing the copy will ensure that the original remains intact. You can uncompress the PPKX directly or you can rename the file extension from .PPXK to .ZIP (or .7z). At the time of writing, while uncompressing the PPKX enables access to all files that make up the PPXK, including the data sources, python scripts and other file format, compressing the files back together was not possible due to a protection on the .aprx file. ([GIS StackExchange post about editing APRX](https://gis.stackexchange.com/questions/351253/arcgis-pro-open-aprx-files-to-edit-file-paths)[^10]). Uncompressing the PPKX is a great way to get access to the various files that make up a PPKX, granting access to files and scripts that can be used in other software platforms such as QGIS, Jupyter Notebooks, or other.
 
 #### ArcGIS Online for Organizations
-
-> ArcGIS Online for Organizations is a cloud-based storage and mapping
-> platform that is part of the ArcGIS product suite. ArcGIS Online can
-> be used to store and share PPKX files with other users inside the
-> organization or publicly. When PPKX is shared using ArcGIS Online, it
-> is best to have the share setting set to public. Access from ArcGIS
-> Online provides a link for the PPKX to be downloaded to a local
-> computer and can be opened using ArcGIS Pro or 7-zip.
+ ArcGIS Online for Organizations is a cloud-based storage and mapping platform that is part of the ArcGIS product suite. ArcGIS Online can be used to store and share PPKX files with other users inside the organization or publicly. When PPKX is shared using ArcGIS Online, it is best to have the share setting set to public. Access from ArcGIS Online provides a link for the PPKX to be downloaded to a local computer and can be opened using ArcGIS Pro or 7-zip.
 
 #### QGIS 
-
-> QGIS is an open source geospatial software program that is widely
-> used. It is not possible to directly open a PPKX file in QGIS. At the
-> time of writing, it is also not possible to open the project file
-> (APRX) that is made accessible after uncompressing a PPKX without a
-> paid license, but this might become possible in the future. ([SLYR:
-> ESRI to QGIS Compatibility
-> Suite](https://north-road.com/slyr/)[^11])
+ QGIS is an open source geospatial software program that is widely used. It is not possible to directly open a PPKX file in QGIS. At the time of writing, it is also not possible to open the project file (APRX) that is made accessible after uncompressing a PPKX without a paid license, but this might become possible in the future. ([SLYR: ESRI to QGIS Compatibility Suite](https://north-road.com/slyr/)[^11])
 
 ## Checking the components of a PPKX
 
@@ -520,63 +366,18 @@ researchers can add informative details about the project.*
 
 ### Researcher Metadata Recommendations:
 
-1.  Metadata that follows an existing standard for geospatial data is
-    > recommended to be included with every geospatial dataset within a
-    > PPKX (embedded). Ideally this documentation should be created
-    > during the project development process (or be retained from
-    > original sources if the data was created elsewhere) with an
-    > appropriate amount of detail for the data to be accessible as
-    > standalone files outside of the PPKX or project environment.
-    > Researchers can export existing metadata for datasets or maps from
-    > ArcGIS Pro as standalone XML files using the [Export Metadata
-    > to a Standalone Format instructions from
-    > ESRI](https://pro.arcgis.com/en/pro-app/latest/help/metadata/export-metadata-to-a-standard-format.htm).[^14]
+1.  Metadata that follows an existing standard for geospatial data is recommended to be included with every geospatial dataset within a PPKX (embedded). Ideally this documentation should be created during the project development process (or be retained from original sources if the data was created elsewhere) with an appropriate amount of detail for the data to be accessible as standalone files outside of the PPKX or project environment. Researchers can export existing metadata for datasets or maps from ArcGIS Pro as standalone XML files using the [Export Metadata to a Standalone Format instructions from ESRI](https://pro.arcgis.com/en/pro-app/latest/help/metadata/export-metadata-to-a-standard-format.htm).[^14]
 
-2.  Because of a lack of descriptive metadata for the PPKX (or project)
-    > itself as a standalone file, it is recommended that researchers
-    > create a separate README file that is accessible outside of the
-    > Esri environment, and offers a more robust description of the
-    > project. This documentation can be created in a simple text editor
-    > and included as an “attachment” when creating the PPKX file.
-    > README details might include:  
-    > A. Title of the project  
-    > B. Geographic extent  
-    > C. Description of the project that provides context for use;
-    > include descriptions of
-
-> tools, scripts, maps or other relevant materials  
-> D. Purpose of the work - why was the project created and what function
-> does it serve?  
-> E. Author, Originator, Creator or Credits and associated contact
-> details  
-> F. Relevant dates (i.e. content, creation, publication, revision)
+2.  Because of a lack of descriptive metadata for the PPKX (or project) itself as a standalone file, it is recommended that researchers create a separate README file that is accessible outside of the Esri environment, and offers a more robust description of the project. This documentation can be created in a simple text editor and included as an “attachment” when creating the PPKX file. README details might include:   A. Title of the project   B. Geographic extent   C. Description of the project that provides context for use; include descriptions of
+ tools, scripts, maps or other relevant materials   D. Purpose of the work - why was the project created and what function does it serve?   E. Author, Originator, Creator or Credits and associated contact details   F. Relevant dates (i.e. content, creation, publication, revision)
 
 ### Curator Metadata Recommendations:
 
-1.  It is not assumed that the wide variety of digital preservation
-    > environments at different institutions will take into account
-    > metadata or documentation that are accessible *only* via ArcGIS
-    > Online or within Esri software. Because of this, PPKX files to be
-    > preserved outside of the Esri environment should include a
-    > separate, descriptive README metadata file to aid in preservation.
+1.  It is not assumed that the wide variety of digital preservation environments at different institutions will take into account metadata or documentation that are accessible *only* via ArcGIS Online or within Esri software. Because of this, PPKX files to be preserved outside of the Esri environment should include a separate, descriptive README metadata file to aid in preservation.
 
-2.  Documentation provided by the researcher in the form of a README can
-    > be used to aid the curator in determining what details are most
-    > important to apply to institutional preservation or discovery.
-    > Because of the variability in institutional adopted metadata
-    > schemas, repository structures, and workflows for preservation,
-    > understanding how a researcher describes the PPKX and its contents
-    > will help a curator communicate with the researcher to determine
-    > the most appropriate metadata details to include for preservation.
+2.  Documentation provided by the researcher in the form of a README can be used to aid the curator in determining what details are most important to apply to institutional preservation or discovery. Because of the variability in institutional adopted metadata schemas, repository structures, and workflows for preservation, understanding how a researcher describes the PPKX and its contents will help a curator communicate with the researcher to determine the most appropriate metadata details to include for preservation.
 
-3.  If the curator has access to ArcGIS Pro and/or ArcGIS Online,
-    > metadata created by the researcher for the PPKX and its contents
-    > may be viewed and possibly used in the process of creating
-    > preservation or discovery metadata for an institutional
-    > repository. Information on how to view existing metadata in ArcGIS
-    > Pro, is available in the [View and Edit Metadata Documentation
-    > from
-    > ESRI](https://pro.arcgis.com/en/pro-app/latest/help/metadata/view-and-edit-metadata.htm).[^15]
+3.  If the curator has access to ArcGIS Pro and/or ArcGIS Online, metadata created by the researcher for the PPKX and its contents may be viewed and possibly used in the process of creating preservation or discovery metadata for an institutional repository. Information on how to view existing metadata in ArcGIS Pro, is available in the [View and Edit Metadata Documentation from ESRI](https://pro.arcgis.com/en/pro-app/latest/help/metadata/view-and-edit-metadata.htm).[^15]
 
 ## Preservation Actions
 
@@ -686,71 +487,39 @@ that PPKX data files are FAIR.
 
 1.  Assign the PPKX file a unique and persistent identifier
 
-2.  Include tags describing the various file formats contained within
-    > the PPKX file
+2.  Include tags describing the various file formats contained within the PPKX file
 
-3.  Work with researcher to create the most complete and robust metadata
-    > possible, both within PPKX elements and files, but also external
-    > supporting documentation, such as data dictionaries, etc.
+3.  Work with researcher to create the most complete and robust metadata possible, both within PPKX elements and files, but also external supporting documentation, such as data dictionaries, etc.
 
 ### Accessible 
 
-1.  Since PPKX is a relatively new format, it may be useful to include
-    > instructions for end-users on how to access the underlying data.
-    > ([Example
-    > instructions](https://www.esri.com/arcgis-blog/products/arcgis-pro/sharing-collaboration/project-packages-ppkx-files/#what)[^19])
+1.  Since PPKX is a relatively new format, it may be useful to include instructions for end-users on how to access the underlying data. ([Example instructions](https://www.esri.com/arcgis-blog/products/arcgis-pro/sharing-collaboration/project-packages-ppkx-files/#what)[^19])
 
-2.  Because a PPKX file will usually contain multiple types of data, it
-    > is important to ensure that all of the data in the collection has
-    > the same access and reuse rights. If not, it is important to
-    > explicitly clarify any exceptions or special cases.
+2.  Because a PPKX file will usually contain multiple types of data, it is important to ensure that all of the data in the collection has the same access and reuse rights. If not, it is important to explicitly clarify any exceptions or special cases.
 
-3.  As noted earlier, saving PPKX files outside of individual
-    > organizations (publicly) is recommended to ensure universal access
-    > to all dependent elements of the geospatial project.
+3.  As noted earlier, saving PPKX files outside of individual organizations (publicly) is recommended to ensure universal access to all dependent elements of the geospatial project.
 
 ### Interoperable
 
-1.  There are likely to be non-ESRI subscribers among the data’s
-    > end-users. It is important to ensure that instructions are
-    > provided on accessing the data for these users (i.e. through the
-    > 7-zip method); alternatively, the curator may upload the various
-    > files individually (as a Zip file), in addition to the PPKX file.
+1.  There are likely to be non-ESRI subscribers among the data’s end-users. It is important to ensure that instructions are provided on accessing the data for these users (i.e. through the 7-zip method); alternatively, the curator may upload the various files individually (as a Zip file), in addition to the PPKX file.
 
-2.  To the extent possible, the underlying data files in the PPKX file
-    > should be in open and/or widely used formats that can be read by
-    > both Esri and open-source geospatial applications.
+2.  To the extent possible, the underlying data files in the PPKX file should be in open and/or widely used formats that can be read by both Esri and open-source geospatial applications.
 
-3.  Ensure backwards compatibility in PPKX files by selecting the “All
-    > versions” option for the *Package Version”* option when using the
-    > “Package Project” tool in ArcGIS Pro to create a standalone PPKX
-    > file. See [Appendix 1: Process to Create a PPKX (Project
-    > Package)](#appendix-1-process-to-create-a-ppkx-project-package)
-    > for instructions.
+3.  Ensure backwards compatibility in PPKX files by selecting the “All versions” option for the *Package Version”* option when using the “Package Project” tool in ArcGIS Pro to create a standalone PPKX file. See [Appendix 1: Process to Create a PPKX (Project Package)](#appendix-1-process-to-create-a-ppkx-project-package) for instructions.
 
 ### Reusable 
 
-1.  In addition to providing the PPKX file, it may make sense to upload
-    > the various files individually (as a Zip file), so that the
-    > relevant data is easily reusable by researchers who are not ESRI
-    > users, and so that users can easily extract the specific data they
-    > are interested in.
+1.  In addition to providing the PPKX file, it may make sense to upload the various files individually (as a Zip file), so that the relevant data is easily reusable by researchers who are not ESRI users, and so that users can easily extract the specific data they are interested in.
 
-2.  Include a file manifest and/or Readme to provide a collection-level
-    > overview of data that clarifies how various data components. It is
-    > also important to ensure that individual data files have relevant
-    > geospatial metadata, so that they can be reused individually (i.e.
-    > coordinate system and projection information).
+2.  Include a file manifest and/or Readme to provide a collection-level overview of data that clarifies how various data components. It is also important to ensure that individual data files have relevant geospatial metadata, so that they can be reused individually (i.e. coordinate system and projection information).
 
 ## 
 
 ##  Unresolved Issues/Further Questions:
 
-- When and how to preserve metadata embedded in data layers outside of
-  > the project package
+- When and how to preserve metadata embedded in data layers outside of the project package
 
-- Whether project-level metadata for a PPKX added through ArcGIS Online
-  > will be included when the file is downloaded
+- Whether project-level metadata for a PPKX added through ArcGIS Online will be included when the file is downloaded
 
 ## Appendix 1: Process to create a PPKX (Project Package)
 
@@ -890,8 +659,7 @@ layer name: NPSTrails_Buffer
 
 description: 10 mile buffers around National Park Service trails
 calculated with “Buffers for NPS
-
-> Trails.py”
+ Trails.py”
 
 ##### Data layers for included for context: 
 
@@ -905,8 +673,7 @@ map alias: USA Detailed Streams
 
 description: Linear water features and stream segments that comprise the
 surface water drainage
-
-> system of United States
+ system of United States
 
 source: U.S. Geological Survey in cooperation with U.S. Environmental
 Protection Agency
@@ -961,9 +728,7 @@ Name: Final.tbx
 
 Description: Legacy toolbox allowing the python script to be read within
 ArcGIS Pro and storing the path of
-
-> the tool's processing script (ie. Buffers for NPS Trails,py) relative
-> to the toolbox file.
+ the tool's processing script (ie. Buffers for NPS Trails,py) relative to the toolbox file.
 
 [^1]: https://pro.arcgis.com/en/pro-app/latest/help/sharing/overview/introduction-to-sharing-packages.htm
 
