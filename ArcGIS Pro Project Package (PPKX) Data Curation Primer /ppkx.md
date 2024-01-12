@@ -311,21 +311,11 @@ describe the project. Unlike the ArcGIS Pro software environment, it is
 also possible to utilize the *Metadata editor* in ArcGIS Online to enter
 more robust details about the project as necessary.
 
-<img src="media/image10.png" style="width:7.05833in;height:4.10938in"
-alt="This image shows the PPKX ArcGIS Online view, inlcuding the metadata button at the right to open the editor." />
+<figure> <img src="ppkx-7.png" alt="Screenshot of ArcGIS Online landing page for a PPXK" style=""> <fig caption>Figure 7. Sample PPKX in ArcGIS Online with the metadata button at the right. Clicking the Metadata button at the right opens the full metadata editor window where additional details can be captured.</figcaption> </figure>
 
-*Figure 7. Sample PPKX in ArcGIS Online with the metadata button at the
-right. Clicking the Metadata button at the right opens the full metadata
-editor window where additional details can be captured.*
 
-*Alt text: Screenshot of ArcGIS Online landing page for a PPXK*
+<figure> <img src="ppkx-8.png" alt="Screenshot of ArcGIS Online metadata editor" style=""> <fig caption>Figure 8. The metadata editor window in ArcGIS Online - where researchers can add informative details about the project.</figcaption> </figure>
 
-<img src="media/image7.png" style="width:6.51929in;height:3.78646in"
-alt="This image shows the detailed metadata editor window in ArcGIS Online." />  
-Figure 8. *The metadata editor window in ArcGIS Online - where
-researchers can add informative details about the project.*
-
-*Alt text: Screenshot of ArcGIS Online metadata editor*
 
 ### Researcher Metadata Recommendations:
 
@@ -500,33 +490,19 @@ There are two ways to create a PPKX in ArcGIS Pro 2.x and 3.0:
 \(1\) via the ‘Share’ tab, by clicking on the “Project” icon in the
 “Package” group:
 
-<img src="media/image17.png" style="width:7.00521in;height:1.00228in"
-alt="This image shows the main menu bar in ArcGIS Pro - highlighting the share tab for creation of the PPKX." />  
-*Figure 9. View of the top menu bar options in ArcGIS Pro with the
-Project menu selected and the ‘Share’ tab active. Share ‘Project’ is the
-first option shown at the left (highlighted in light blue).*
+<figure> <img src="ppkx-9.png" alt="Screenshot of ArcGIS Pro menu" style=""> <fig caption>Figure 9. View of the top menu bar options in ArcGIS Pro with the Project menu selected and the ‘Share’ tab active. Share ‘Project’ is the first option shown at the left (highlighted in light blue).</figcaption> </figure>
 
-*Alt text: Screenshot of ArcGIS Pro menu*
+
 
 Or (2) using the Package Project tool via the Geoprocessing toolbox.
 When locating tools or toolboxes in ArcGIS Pro, the simple command
 search function can be very useful. Search for ‘PPKX’ in the command
-search box and select ‘Package Project’ to view the PPKX tool window.  
-<img src="media/image16.png" style="width:2.35938in;height:0.46813in"
-alt="This image is highlighting the search bar option for locating the PPKX creator tool." />
+search box and select ‘Package Project’ to view the PPKX tool window. 
 
-*Figure 10. View of the Command Search option visible at the top of the
-screen in ArcGIS Pro.*
+<figure> <img src="ppkx-10.png" alt="Screenshot of Command Search tool" style=""> <fig caption>Figure 10. View of the Command Search option visible at the top of the screen in ArcGIS Pro.</figcaption> </figure>
 
-*Alt text: Screenshot of Command Search tool*
+<figure> <img src="ppkx-11.png" alt="Screenshot of Command Search results" style=""> <fig caption>Figure 11. View the searching for the Package Project tool through the Command Search in ArcGIS Pro.</figcaption> </figure>
 
-<img src="media/image6.png" style="width:4.06921in;height:1.57813in"
-alt="This image shows an example of the term &#39;PPKX&#39; in the ArcGIS Pro search bar, with the result being the &#39;Package Project&#39; tool." />
-
-*Figure 11. View the searching for the Package Project tool through the
-Command Search in ArcGIS Pro.*
-
-*Alt text: Screenshot of Command Search results*
 
 There are some differences between the two methods. When using the
 *Share Tab* option, one can opt to share the PPKX via ArcGIS Online as
@@ -548,11 +524,8 @@ with. This would allow someone to choose only one (i.e. the most
 current) version of the software and reduce the total size of the PPKX
 file that is created.
 
-| *Figure 12A. Sample dialog for “Share tab” method of saving as PPKX (Refer back to Figure 9)*      | *Figure 12B Sample dialog for “Data Management Tools “Package Project” from the Toolbox (Refer back to Figures 10 and 11)*     |
-|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| <img src="media/image1.png" style="width:3.60417in;height:6.40278in"                               
- alt="Figure A shows the sample dialog for sharing a PPKX using the &#39;Share tab&#39; method." />  | <img src="media/image15.png" style="width:3.60417in;height:6.39063in"                                                          
-                                                                                                      alt="Figure B shows the sample dialog for sharing a PPKX using the Data management Tools &#39;Package Project&#39; method." />  |
+<figure> <img src="ppkx-11.png" alt="Screenshot of Command Search results" style=""> <fig caption>Figure 11. View the searching for the Package Project tool through the Command Search in ArcGIS Pro.</figcaption> </figure>
+<figure> <img src="ppkx-11.png" alt="Screenshot of Command Search results" style=""> <fig caption>Figure 11. View the searching for the Package Project tool through the Command Search in ArcGIS Pro.</figcaption> </figure>
 
 Alt text: Screenshots of the two different dialog boxes for generating
 PPXK. The elements are in a different order but are almost the same.
