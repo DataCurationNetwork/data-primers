@@ -159,10 +159,7 @@ You will want to check whether there are toolboxes, scripts, or
 additional files associated with the project. These can be found by
 choosing “View” and then “Catalog Pane” (Figure 1)
 
-<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <figcaption>View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure>
-
-
-*Figure 1.* **
+<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure>
 
 
 Through the Catalog Pane, you can explore Toolboxes, Tasks, and other
@@ -175,14 +172,7 @@ Pane is “Folders.” Check the subfolders “commondata” and “userdata” 
 present. Subfolders “p1”, “p2”, or “p3” will contain duplicates of
 information linked in other parts of the Catalog Pane.
 
-<img src="media/image4.jpg" style="width:2.8661in;height:4.26563in" />
-
-*Figure 2 View of an example dataset in the Catalog Pane. In this
-example, there are two toolboxes, three tasks, and two shapefiles that
-should be considered during curation. There is also an empty toolbox and
-empty geodatabase.*
-
-*Alt text: Screenshot of ArcGIS Pro Catalog Pane*
+<figure> <img src="ppkx-2.jpeg" alt="Screenshot of ArcGIS Pro Catalog Pane" style=""> <fig caption> Figure 2: View of an example dataset in the Catalog Pane. In this example, there are two toolboxes, three tasks, and two shapefiles that should be considered during curation. There is also an empty toolbox and empty geodatabase.</figcaption> </figure>
 
 ### Reviewing an uncompressed PPKX
 
@@ -195,13 +185,8 @@ within the project file (.aprx) that are not reflected in file names.
 Within a project folder uncompressed using 7zip, there will be several
 subfolders (Figure 3)
 
-<img src="media/image9.jpg" style="width:1.69498in;height:0.88986in" />
+<figure> <img src="ppkx-3.jpeg" alt="The three folders that are most frequently found in an uncompressed PPKX are commondata, esriinfo, and p20." style=""> <fig caption>Figure 3.  The contents of an uncompressed PPKX folder viewed in File Explorer</figcaption> </figure>
 
-*Figure 3. The contents of an uncompressed PPKX folder viewed in File
-Explorer*
-
-*Alt text: The three folders that are most frequently found in an
-uncompressed PPKX are commondata, esriinfo, and p20.*
 
 If the PPKX has been saved to be compatible with multiple versions of
 the software. You will see multiple folders with the naming convention
@@ -212,24 +197,14 @@ but for different versions of the software. For example, files within
 Within the “esriinfo” folder you will find a thumbnail and brief
 metadata describing the project file as a whole. (Figure 4)
 
-<img src="media/image14.jpg" style="width:1.47396in;height:0.93889in" />
-
-*Figure 4. The contents of the “esriinfor” folder viewed in File
-Explorer*
-
-*Alt text: The “esriinfo” folder has one folder named thumbnail and two
-files named item.pkinfo and iteminfo.xml*
+<figure> <img src="ppkx-4.jpeg" alt="The “esriinfo” folder has one folder named thumbnail and two files named item.pkinfo and iteminfo.xml" style=""> <fig caption>Figure 4. The contents of the “esriinfor” folder viewed in File Explorer</figcaption> </figure>
 
 Within the “p20” (or “p30” etc.) folder, you will find the primary
 project file (.aprx) (which requires ArcGIS Pro to open), geodatabases
 (.gdb), toolboxes (.tbx), and other python scripts (.py).
 
-<img src="media/image3.png" style="width:2.10417in;height:2.10417in" />
+<figure> <img src="ppkx-5.png" alt="The example p20 folder includes a .gdb folder, four .py files, three .tbx toolboxes, and an .aprx file." style=""> <fig caption>Figure 5. The contents of a “p20” folder viewed in File Explorer</figcaption> </figure>
 
-*Figure 5. The contents of a “p20” folder viewed in File Explorer*
-
-*Alt text: The example p20 folder includes a .gdb folder, four .py
-files, three .tbx toolboxes, and an .aprx file.*
 
 If the project has geospatial data in other file formats (such as
 shapefiles or geotiffs), they will appear in a folder called
@@ -323,20 +298,9 @@ PPKX. The details can then be located in an ‘iteminfo.xml file. This is
 shown in more detail in the [Reviewing an uncompressed
 PPKX](#reviewing-an-uncompressed-ppkx) section of this primer.
 
-<img src="media/image5.png" style="width:2.90639in;height:4.94271in"
-alt="This image shows the package Project window with options for adding limited metadata elements. It shows the option to save the project as a standalone file." /><img src="media/image11.png" style="width:2.90625in;height:4.94248in"
-alt="This image shows the Package Project window with limited metadata entries. It has the upload package to online account option selected." />
+<figure> <img src="ppkx-6a.png" alt="Screenshots of the Project Package tool.  When “Upload package to Online account” is selected there are a few additional fields to enter, including choosing an online “Location” to save the file and sharing settings for the digital file." style=""> <fig caption>Figure 6A shows the metadata entry fields with the option to save as a standalone file selected. </figcaption> </figure>
+<figure> <img src="ppkx-6b.png" alt="Screenshots of the Project Package tool.  When “Upload package to Online account” is selected there are a few additional fields to enter, including choosing an online “Location” to save the file and sharing settings for the digital file." style=""> <fig caption>Figure 6B shows the metadata entry fields but with the option to save to an online account selected.</figcaption> </figure>
 
-A B
-
-*Figure 6A shows the metadata entry fields with the option to save as a
-standalone file selected. 6B shows the metadata entry fields but with
-the option to save to an online account selected.*
-
-*Alt text: Screenshots of the Project Package tool. When “Upload package
-to Online account” is selected there are a few additional fields to
-enter, including choosing an online “Location” to save the file and
-sharing settings for the digital file.*
 
 If the project file is shared online (ArcGIS Online account), the
 details that were added in the “Package Project” window at the time of
