@@ -159,7 +159,7 @@ You will want to check whether there are toolboxes, scripts, or
 additional files associated with the project. These can be found by
 choosing “View” and then “Catalog Pane” (Figure 1)
 
-<figure> <img src="2punched_card.jpg" alt="Punched survey card." style=""> <figcaption>View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption></figure>
+<img src="ppkx-1.jpeg" alt="Punched survey card." <figcaption>View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption>>
 
 *Figure 1.* **
 
