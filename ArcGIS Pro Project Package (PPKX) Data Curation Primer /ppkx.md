@@ -40,7 +40,7 @@ Affiliate Contributors (peer reviewers): Erich Purpur, Leighton Christiansen Kei
 
 [Appendix 2: Example PPKX File Manifest](#appendix-2-example-ppkx-file-manifest) 
 > [Example Manifest:](#example-manifest) 
-  > [Geodatabases:](#geodatabases) <br> [Toolboxes and Python Scripts:](#toolboxes-and-python-scripts)
+	> [Geodatabases:](#geodatabases) <br> [Toolboxes and Python Scripts:](#toolboxes-and-python-scripts)
 
 ## Format Overview 
 
@@ -633,8 +633,8 @@ different methods.
 
 <img src="media/image8.png" style="width:2.0625in;height:1.77083in" /><img src="media/image12.png" style="width:2.78856in;height:3.47396in" /><img src="media/image13.png" style="width:2.41741in;height:1.88021in" />
 
-*Figure 13. View of example PPXK: 1) Uncompressed data in File Explorer,
-2) Catalog Pane view in ArcGIS Pro, 3) Content Pane of associated map in
+*Figure 13A-C. View of example PPXK: A) Uncompressed data in File Explorer,
+B) Catalog Pane view in ArcGIS Pro, C) Content Pane of associated map in
 ArcGIS Pro*
 
 *Alt text: The File Explorer display shows 7 files: 4 .gdb folders, 1
