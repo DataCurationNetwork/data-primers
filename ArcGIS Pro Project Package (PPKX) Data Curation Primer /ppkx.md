@@ -163,7 +163,7 @@ You will want to check whether there are toolboxes, scripts, or
 additional files associated with the project. These can be found by
 choosing “View” and then “Catalog Pane” (Figure 1)
 
-<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure> <br><br><br>
+<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure> <br><br>
 
 
 Through the Catalog Pane, you can explore Toolboxes, Tasks, and other
@@ -176,7 +176,7 @@ Pane is “Folders.” Check the subfolders “commondata” and “userdata” 
 present. Subfolders “p1”, “p2”, or “p3” will contain duplicates of
 information linked in other parts of the Catalog Pane.
 
-<figure> <img src="ppkx-2.jpeg" alt="Screenshot of ArcGIS Pro Catalog Pane" style=""> <fig caption> Figure 2: View of an example dataset in the Catalog Pane. In this example, there are two toolboxes, three tasks, and two shapefiles that should be considered during curation. There is also an empty toolbox and empty geodatabase.</figcaption> </figure>
+<figure> <img src="ppkx-2.jpeg" alt="Screenshot of ArcGIS Pro Catalog Pane" style=""> <fig caption> Figure 2: View of an example dataset in the Catalog Pane. In this example, there are two toolboxes, three tasks, and two shapefiles that should be considered during curation. There is also an empty toolbox and empty geodatabase.</figcaption> </figure><br><br>
 
 ### Reviewing an uncompressed PPKX
 
@@ -189,7 +189,7 @@ within the project file (.aprx) that are not reflected in file names.
 Within a project folder uncompressed using 7zip, there will be several
 subfolders (Figure 3)
 
-<figure> <img src="ppkx-3.jpeg" alt="The three folders that are most frequently found in an uncompressed PPKX are commondata, esriinfo, and p20." style=""> <fig caption>Figure 3.  The contents of an uncompressed PPKX folder viewed in File Explorer</figcaption> </figure>
+<figure> <img src="ppkx-3.jpeg" alt="The three folders that are most frequently found in an uncompressed PPKX are commondata, esriinfo, and p20." style=""> <fig caption>Figure 3.  The contents of an uncompressed PPKX folder viewed in File Explorer</figcaption> </figure><br><br>
 
 
 If the PPKX has been saved to be compatible with multiple versions of
@@ -201,13 +201,13 @@ but for different versions of the software. For example, files within
 Within the “esriinfo” folder you will find a thumbnail and brief
 metadata describing the project file as a whole. (Figure 4)
 
-<figure> <img src="ppkx-4.jpeg" alt="The “esriinfo” folder has one folder named thumbnail and two files named item.pkinfo and iteminfo.xml" style=""> <fig caption>Figure 4. The contents of the “esriinfor” folder viewed in File Explorer</figcaption> </figure>
+<figure> <img src="ppkx-4.jpeg" alt="The “esriinfo” folder has one folder named thumbnail and two files named item.pkinfo and iteminfo.xml" style=""> <fig caption>Figure 4. The contents of the “esriinfor” folder viewed in File Explorer</figcaption> </figure><br><br>
 
 Within the “p20” (or “p30” etc.) folder, you will find the primary
 project file (.aprx) (which requires ArcGIS Pro to open), geodatabases
 (.gdb), toolboxes (.tbx), and other python scripts (.py).
 
-<figure> <img src="ppkx-5.png" alt="The example p20 folder includes a .gdb folder, four .py files, three .tbx toolboxes, and an .aprx file." style=""> <fig caption>Figure 5. The contents of a “p20” folder viewed in File Explorer</figcaption> </figure>
+<figure> <img src="ppkx-5.png" alt="The example p20 folder includes a .gdb folder, four .py files, three .tbx toolboxes, and an .aprx file." style=""> <fig caption>Figure 5. The contents of a “p20” folder viewed in File Explorer</figcaption> </figure><br><br>
 
 
 If the project has geospatial data in other file formats (such as
@@ -302,8 +302,8 @@ PPKX. The details can then be located in an ‘iteminfo.xml file. This is
 shown in more detail in the [Reviewing an uncompressed
 PPKX](#reviewing-an-uncompressed-ppkx) section of this primer.
 
-<figure> <img src="ppkx-6a.png" alt="Screenshots of the Project Package tool.  When “Upload package to Online account” is selected there are a few additional fields to enter, including choosing an online “Location” to save the file and sharing settings for the digital file." style=""> <fig caption>Figure 6A shows the metadata entry fields with the option to save as a standalone file selected. </figcaption> </figure>
-<figure> <img src="ppkx-6b.png" alt="Screenshots of the Project Package tool.  When “Upload package to Online account” is selected there are a few additional fields to enter, including choosing an online “Location” to save the file and sharing settings for the digital file." style=""> <fig caption>Figure 6B shows the metadata entry fields but with the option to save to an online account selected.</figcaption> </figure>
+<figure> <img src="ppkx-6a.png" alt="Screenshots of the Project Package tool.  When “Upload package to Online account” is selected there are a few additional fields to enter, including choosing an online “Location” to save the file and sharing settings for the digital file." style=""> <fig caption>Figure 6A shows the metadata entry fields with the option to save as a standalone file selected. </figcaption> </figure><br><br>
+<figure> <img src="ppkx-6b.png" alt="Screenshots of the Project Package tool.  When “Upload package to Online account” is selected there are a few additional fields to enter, including choosing an online “Location” to save the file and sharing settings for the digital file." style=""> <fig caption>Figure 6B shows the metadata entry fields but with the option to save to an online account selected.</figcaption> </figure><br><br>
 
 
 If the project file is shared online (ArcGIS Online account), the
@@ -315,10 +315,10 @@ describe the project. Unlike the ArcGIS Pro software environment, it is
 also possible to utilize the *Metadata editor* in ArcGIS Online to enter
 more robust details about the project as necessary.
 
-<figure> <img src="ppkx-7.png" alt="Screenshot of ArcGIS Online landing page for a PPXK" style=""> <fig caption>Figure 7. Sample PPKX in ArcGIS Online with the metadata button at the right. Clicking the Metadata button at the right opens the full metadata editor window where additional details can be captured.</figcaption> </figure>
+<figure> <img src="ppkx-7.png" alt="Screenshot of ArcGIS Online landing page for a PPXK" style=""> <fig caption>Figure 7. Sample PPKX in ArcGIS Online with the metadata button at the right. Clicking the Metadata button at the right opens the full metadata editor window where additional details can be captured.</figcaption> </figure><br><br>
 
 
-<figure> <img src="ppkx-8.png" alt="Screenshot of ArcGIS Online metadata editor" style=""> <fig caption>Figure 8. The metadata editor window in ArcGIS Online - where researchers can add informative details about the project.</figcaption> </figure>
+<figure> <img src="ppkx-8.png" alt="Screenshot of ArcGIS Online metadata editor" style=""> <fig caption>Figure 8. The metadata editor window in ArcGIS Online - where researchers can add informative details about the project.</figcaption> </figure><br><br>
 
 
 ### Researcher Metadata Recommendations:
@@ -494,7 +494,7 @@ There are two ways to create a PPKX in ArcGIS Pro 2.x and 3.0:
 \(1\) via the ‘Share’ tab, by clicking on the “Project” icon in the
 “Package” group:
 
-<figure> <img src="ppkx-9.png" alt="Screenshot of ArcGIS Pro menu" style=""> <fig caption>Figure 9. View of the top menu bar options in ArcGIS Pro with the Project menu selected and the ‘Share’ tab active. Share ‘Project’ is the first option shown at the left (highlighted in light blue).</figcaption> </figure>
+<figure> <img src="ppkx-9.png" alt="Screenshot of ArcGIS Pro menu" style=""> <fig caption>Figure 9. View of the top menu bar options in ArcGIS Pro with the Project menu selected and the ‘Share’ tab active. Share ‘Project’ is the first option shown at the left (highlighted in light blue).</figcaption> </figure><br><br>
 
 
 
@@ -503,9 +503,9 @@ When locating tools or toolboxes in ArcGIS Pro, the simple command
 search function can be very useful. Search for ‘PPKX’ in the command
 search box and select ‘Package Project’ to view the PPKX tool window. 
 
-<figure> <img src="ppkx-10.png" alt="Screenshot of Command Search tool" style=""> <fig caption>Figure 10. View of the Command Search option visible at the top of the screen in ArcGIS Pro.</figcaption> </figure>
+<figure> <img src="ppkx-10.png" alt="Screenshot of Command Search tool" style=""> <fig caption>Figure 10. View of the Command Search option visible at the top of the screen in ArcGIS Pro.</figcaption> </figure><br><br>
 
-<figure> <img src="ppkx-11.png" alt="Screenshot of Command Search results" style=""> <fig caption>Figure 11. View the searching for the Package Project tool through the Command Search in ArcGIS Pro.</figcaption> </figure>
+<figure> <img src="ppkx-11.png" alt="Screenshot of Command Search results" style=""> <fig caption>Figure 11. View the searching for the Package Project tool through the Command Search in ArcGIS Pro.</figcaption> </figure><br><br>
 
 
 There are some differences between the two methods. When using the
@@ -528,8 +528,8 @@ with. This would allow someone to choose only one (i.e. the most
 current) version of the software and reduce the total size of the PPKX
 file that is created.
 
-<figure> <img src="ppkx-12a.png" alt="Screenshots of the two different dialog boxes for generating PPXK.  The elements are in a different order but are almost the same. " style=""> <fig caption>Figure 12A. Sample dialog for “Share tab” method of saving as PPKX (Refer back to Figure 9).</figcaption> </figure>
-<figure> <img src="ppkx-12b.png" alt="Screenshots of the two different dialog boxes for generating PPXK.  The elements are in a different order but are almost the same. " style=""> <fig caption>Figure 12B Sample dialog for “Data Management Tools “Package Project” from the Toolbox  (Refer back to Figures 10 and 11).</figcaption> </figure>
+<figure> <img src="ppkx-12a.png" alt="Screenshots of the two different dialog boxes for generating PPXK.  The elements are in a different order but are almost the same. " style=""> <fig caption>Figure 12A. Sample dialog for “Share tab” method of saving as PPKX (Refer back to Figure 9).</figcaption> </figure><br><br>
+<figure> <img src="ppkx-12b.png" alt="Screenshots of the two different dialog boxes for generating PPXK.  The elements are in a different order but are almost the same. " style=""> <fig caption>Figure 12B Sample dialog for “Data Management Tools “Package Project” from the Toolbox  (Refer back to Figures 10 and 11).</figcaption> </figure><br><br>
 
 
 ### More on Versions and Compatibility
@@ -569,11 +569,11 @@ Feature](https://www.arcgis.com/home/item.html?id=41ca25210ca345a88b2008dce88792
 Figure 13 shows what the example looks like when viewed using three
 different methods.
 
-<figure> <img src="ppkx-13a.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13A shows uncompressed data in File Explorer.</figcaption> </figure>
+<figure> <img src="ppkx-13a.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13A shows uncompressed data in File Explorer.</figcaption> </figure><br><br>
 
-<figure> <img src="ppkx-13b.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13B shows the Ctalog Pane view in ArcGIS Pro.</figcaption> </figure>
+<figure> <img src="ppkx-13b.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13B shows the Ctalog Pane view in ArcGIS Pro.</figcaption> </figure><br><br>
 
-<figure> <img src="ppkx-13C.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13C shows the content Pane of associated map in ArcGIS Pro</figcaption> </figure>
+<figure> <img src="ppkx-13c.png" alt="The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views." style=""> <fig caption>Figure 13C shows the content Pane of associated map in ArcGIS Pro</figcaption> </figure><br><br>
 
 
 *Alt text: The File Explorer display shows 7 files: 4 .gdb folders, 1 .py, 1 .aprx, 1.tbx. In the Catalog Pane view, there are many nested folders. There is one data layer nested within each . gdb folder. The .tbx (toolbox) has two sub-items - a model “Buffers for NPS Trails” and and a python script “Script for NPS Trail Buffer. In the Content Pane view, there are 6 data layers whose names do not match the file names used in the other views.*
