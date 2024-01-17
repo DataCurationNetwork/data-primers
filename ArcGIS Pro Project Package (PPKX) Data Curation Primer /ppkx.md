@@ -163,7 +163,7 @@ You will want to check whether there are toolboxes, scripts, or
 additional files associated with the project. These can be found by
 choosing “View” and then “Catalog Pane” (Figure 1)
 
-<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure>
+<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure> <br>
 
 
 Through the Catalog Pane, you can explore Toolboxes, Tasks, and other
