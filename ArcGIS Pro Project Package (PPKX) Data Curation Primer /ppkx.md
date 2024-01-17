@@ -40,11 +40,9 @@ Suggested Citation: Martindale, Jaime; Ranganath, Aditya; Work, Amy; Kernik, Mel
 [Unresolved Issues/Further Questions:](#unresolved-issuesfurther-questions)
 
 [Appendix 1: Process to create a PPKX (Project Package)](#appendix-1-process-to-create-a-ppkx-project-package) 
-> [More on Versions and Compatibility](#more-on-versions-and-compatibility)
 
 [Appendix 2: Example PPKX File Manifest](#appendix-2-example-ppkx-file-manifest) 
-> [Example Manifest:](#example-manifest) 
-	> [Geodatabases:](#geodatabases) <br> [Toolboxes and Python Scripts:](#toolboxes-and-python-scripts)
+
 
 ## Format Overview 
 
