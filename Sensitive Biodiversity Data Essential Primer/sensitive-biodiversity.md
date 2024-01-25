@@ -21,7 +21,7 @@ Affiliate Contributors (external peer reviewers): Megan O'Donnell and Sophia Laf
 
 
 
-Suggested Citation: Jordan, J., Ramirez-Reyes, C., Taylor, S., Thielen, J., and Wham, B. (2023) Sensitive Biodiversity Data Essentials Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+**Suggested Citation:** Jordan, J., Ramirez-Reyes, C., Taylor, S., Thielen, J., and Wham, B. (2023) Sensitive Biodiversity Data Essentials Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 This work was created as part of the “Specialized Data Curation” Workshop held at the University of Minnesota on October 26-27, 2022.
 
