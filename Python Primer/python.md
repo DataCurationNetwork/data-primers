@@ -1,6 +1,6 @@
 ![](DCNlogo.png)
 
-# Python Primer
+# Python Data Curation Primer
 
 Authors: Megan Sheffield, Jonathan Hernandez, Justin de la Cruz and Kaypounyers Maye
 
@@ -24,7 +24,7 @@ Affiliate Contributors (external peer reviewers): Peter Cerda, Talya Cooper, and
 | Date Created | October 2023 |
 | Created By | Megan Sheffield, Emory University; Jonathan Hernandez, University of Puerto Rico; Justin de la Cruz, NYU Langone Health; Kaypounyers Maye, Tulane University <br><br> Mentor:<br><br>Erich Purpur, University of Virginia |
 
-
+**Suggested Citation:** Sheffield, Megan; Hernandez,Jonathan; de la Cruz, Justin; Maye, Kaypounyers. (2023). Python Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 
 # Table of Contents
