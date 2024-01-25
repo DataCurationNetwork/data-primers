@@ -423,7 +423,7 @@ Roosevelt, C. H. et al. (2015). Excavation is \[Destruction\] Digitization: adva
 
 Rossi, C. et al. (2020). Digital Workflow to Support Archaeological Excavation: From the 3D Survey to the Websharing of Data. In N. Aste et al. (Eds.),*Innovative Models for Sustainable Development in Emerging African Countries.*Springer. ISBN: 978-3-030-33323-2
 
-Schiappacasse, P. (2019). Excavating Repositories: Academic Research Projects Using Archaeological Collections.*Advances in Archaeological Practice,**7*(3), 247-257. [https://www.do.org/10.1017/aap.2019.26](https://www.do.org/10.1017/aap.2019.26)
+Schiappacasse, P. (2019). Excavating Repositories: Academic Research Projects Using Archaeological Collections.*Advances in Archaeological Practice,**7*(3), 247-257. [https://www.doi.org/10.1017/aap.2019.26](https://www.doi.org/10.1017/aap.2019.26)
 
 Clarke, M. (2015). The Digital Dilemma: Preservation and the Digital Archaeological Record.*Advances in Archaeological Practice,**3*(4),
 313-330. [https://www.doi.org/10.7183/2326-3768.3.4.313](https://www.doi.org/10.7183/2326-3768.3.4.313)
