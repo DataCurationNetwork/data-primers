@@ -4,7 +4,7 @@
 
 Authors: Emily Oxford and Rachel Woodbrook (woodbr@umich.edu)
 
-DCN Mentors: Wendy Kozlowski, Cornell University  
+DCN Mentors: Wendy Kozlowski, Cornell University
 
 
 ## Executive Summary

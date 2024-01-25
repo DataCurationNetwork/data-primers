@@ -16,10 +16,10 @@
 | Created by | [Shanda Hunt](https://orcid.org/0000-0002-4131-7333), [Alicia Hofelich Mohr](https://orcid.org/0000-0002-7644-4105), [Rachel Woodbrook](https://orcid.org/0000-0002-4548-944X) |
 | Date updated and summary of changes made | 20231204 by Shanda Hunt, Alicia Hofelich Mohr, Rachel Woodbrook, Michelle Yee, and [Mikala Narlock](https://orcid.org/0000-0002-2730-7542); revised "Tools for curation review" <br><br>20230705 by [Michelle Yee](https://orcid.org/0000-0003-3756-6780): Updated markdown format and links (broken links and redirects); added resource from the NIH on informed consent and data sharing. |
 
+**Suggested Citation:** Hunt, Shanda; Hofelich Mohr, Alicia; and Woodbrook, Rachel. (2019). Curation of Data Collected by Informed Consent. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)  
+
 
 # Table of Contents
-
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:undetermined orderedList:0 -->
 
 - [Summary](#Summary)
 - [Introduction to Informed Consent](#Introduction-to-Informed-Consent)
@@ -29,7 +29,6 @@
 - [Completion of Consent Form Assessment](#Completion-of-Consent-Form-Assessment)
 - [Glossary of Terms](#Glossary-of-Terms)
 
-<!-- /TOC -->
 
 
 

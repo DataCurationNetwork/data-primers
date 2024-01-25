@@ -33,6 +33,8 @@ Related DCN Primers:
 
 <p  id="note1"><sup>1</sup> ATLAS.ti primer </p>
 
+**Suggested Citation:** Castillo, Diana; Coates, Heather; Narlock, Mikala. 2020. Qualitative Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
 # Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:undetermined orderedList:0 -->
