@@ -21,6 +21,8 @@ Affiliate Contributors (external peer reviewers): Eric C. Kansa, PhD (Open Conte
 | Date updated and summary of changes made | August 23, 2023, peer review feedback addressed. |
 
 
+**Suggested Citation:** Arteaga Cuevas, Maria; Fernandez, Rachel; and Wittman, Hollis. (2023). Archaeology Data Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
 
 # Table of Contents
 
