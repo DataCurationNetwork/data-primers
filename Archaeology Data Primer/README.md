@@ -4,22 +4,29 @@ V1.0
 CC BY 4.0
 
 **Citation:**
-
+Arteaga Cuevas, Maria; Fernandez, Rachel; and Wittman, Hollis. (2023). Archaeology Data Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 Version:
-V1.0
+V1.2
 
-Summary of changes: Creating a README file to the archaeology-primer.md. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+Summary of changes: Creating a README file for the archaeology-primer.md. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
 
-Date [01/25/2024]: 
+Date [mm/dd/yy]: 01/28/2024
 
 Note: please add change date in descending order
 
 Version:
+V1.1
+
+Summary of changes: updated broken link in document. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yy]: 01/24/2024
+
+Version:
 V1.0
 
-Summary of changes: Creating a README file for the archaeology-primer.md. upload changes to GitHub
+Summary of changes: Primer uploaded to GitHub 
 
-Date [01/25/2024]: 
+Date [mm/dd/yy]: 04/25/2023
 
-Note: please add change date in descending order
+Note: please add change in descending order
