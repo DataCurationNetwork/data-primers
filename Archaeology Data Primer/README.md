@@ -1,5 +1,6 @@
 **Current Version:**  
-V1.2
+V1.2  
+
 **License:**  
 CC BY 4.0
 
