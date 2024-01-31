@@ -337,7 +337,7 @@ Guidelines for other specific file formats, or workarounds when a format does no
 
 ## Datasets
 
-Accessibility guidelines for common combinations of software, sets of software, documents, sets of documents, or user agents (as defined below in [Appendix B: Glossary](#appendix-b-glossary)) would be a useful addition to available resources, as would standardized guidelines on how to make navigating a dataset accessible (again, [Building a Fluent Assistive Technology Testing Pool to Improve Campus Digital Accessibility](https://files-eric-ed-gov.proxy.lib.umich.edu/fulltext/EJ1247072.pdf0[^98] might be a good starting point).
+Accessibility guidelines for common combinations of software, sets of software, documents, sets of documents, or user agents (as defined below in [Appendix B: Glossary](#appendix-b-glossary)) would be a useful addition to available resources, as would standardized guidelines on how to make navigating a dataset accessible (again, [Building a Fluent Assistive Technology Testing Pool to Improve Campus Digital Accessibility](https://files.eric.ed.gov/fulltext/EJ1247072.pdf)[^98] might be a good starting point).
 
 Accessibility should also be built into existing curation workflows. The creation of accessibility checklists or evaluation forms to use across file formats, such as those used for product and service evaluation within institutions, could be a good model. For example, see the University of Washington’s [IT Accessibility Checklist](https://depts.washington.edu/uwitats/checklist/).[^99] The DCN’s own [CURATE(D) steps](https://datacurationnetwork.org/outputs/workflows/)[^100] have been updated to explicitly include some accessibility questions, and other workflows and models such as the [DCC Curation Lifecycle Model](https://www.dcc.ac.uk/guidance/curation-lifecycle-model)[^101] would likely benefit from a similar review.
 
@@ -373,7 +373,7 @@ The repository platform and interface in which data is stored also affects the a
 
 **Markdown** - Markdown can be thought of as text-to-HTML: “Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. [...] In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.”[^108]
 
-**Markup** - “Markup language is a [text-encoding system](https://en.wikipedia.org/wiki/Encoding) consisting of a set of symbols inserted in a [text document](https://en.wikipedia.org/wiki/Text_file) to control its structure, formatting, or the relationship between its parts.[1] Markup is often used to control the display of the document or to enrich its content to facilitating [sic] automated processing.”[^109]
+**Markup** - “Markup language is a [text-encoding system](https://en.wikipedia.org/w/index.php?title=Markup_language&direction=next&oldid=1140707117) consisting of a set of symbols inserted in a [text document](https://en.wikipedia.org/wiki/Text_file) to control its structure, formatting, or the relationship between its parts.[1] Markup is often used to control the display of the document or to enrich its content to facilitating [sic] automated processing.”[^109]
 
 **MathML** - MathML is a text-based XML markup language designed for the presentation of math equations. Browsers which support MathML are able to translate the XML into a formatted equation.[^110]
 
