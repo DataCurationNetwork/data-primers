@@ -258,7 +258,7 @@ Example of repository procedures:
 
 The data curation process is an important opportunity to review the application of CARE principles within a dataset, to determine its quality and appropriateness. The CARE Principles CURATED checklist provides data curators with a starting point for reviewing and remediating issues. When the checklist is insufficient to deal with problems identified, the data curator should work with members of impacted communities wherever possible, as well as researchers and leaders within their institution to create a plan that remediates harms caused, reduces future harms, and respects Tribal data sovereignty.
 
-Adapted from the [CURATED steps and checklists](https://datacurationnetwork.org/outputs/workflows/) and [Human Participants Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md) from the Data Curation Network.
+Adapted from the [CURATED steps and checklists](https://datacurationnetwork.org/outputs/workflows/) and [Human Participants Data Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md#appendix-c-human-participant-curated-checklist) from the Data Curation Network.
 
 ## Check files and read documentation
 
@@ -412,7 +412,7 @@ Carroll, S., Garba, I., Figueroa-Rodriguez, O., Holbrook, J., Lovett, R., Matere
 
 Carroll, S.R., Rodriguez-Lonebear, D. and Martinez, A. (2019). Indigenous Data Governance: Strategies from United States Native Nations. *Data Science Journal*, *18*(31), 1-15. <http://doi.org/10.5334/dsj-2019-031>
 
-Cobb, A. (2005). Understanding Tribal Sovereignty: Definitions, Conceptualizations, and Interpretations. *American Studies*, *46*(3/4), 115–132. [https://doi.org/https://www.jstor.org/stable/40643893](https://doi.org/https://www.jstor.org/stable/40643893)
+Cobb, A. (2005). Understanding Tribal Sovereignty: Definitions, Conceptualizations, and Interpretations. *American Studies*, *46*(3/4), 115–132. [https://www.jstor.org/stable/40643893](https://www.jstor.org/stable/40643893)
 
 Dudak, L. (2023, February 14). *Working Toward Wellness: Exploring trauma-informed librarianship*. Library Journal. https://www.libraryjournal.com/story/Working-Toward-Wellness-Exploring-Trauma-Informed-Librarianship
 
