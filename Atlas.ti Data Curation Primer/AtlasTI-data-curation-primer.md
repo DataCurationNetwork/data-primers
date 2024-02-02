@@ -131,7 +131,7 @@ PSI/Central Asia, 2014, "Central Asia (2006): Injecting Drug Users in Bishkek, K
 
 # 5. Key clarifications to get from researcher
 
-1. What version did you use? It could be that the researchers used an old version of ATLAS.ti to analyze their data. If you are unable to open the file, you might need to ask them to export it as an .atlproj file so that you can open it. They can follow ​​[these instructions](https://ciser.cornell.edu/atlas-ti-projects-version-7-to-8/)  to transfer their project. ATLAS.ti 8 is able to import projects of any older version, as far back as to v. 5.
+1. What version did you use? It could be that the researchers used an old version of ATLAS.ti to analyze their data. If you are unable to open the file, you might need to ask them to export it as an .atlproj file so that you can open it. They can follow ​​[these instructions](https://atlastihelp.helpscoutdocs.com/article/188-how-do-i-transfer-my-projects-from-atlas-ti-7-to-atlas-ti-8)  to transfer their project. ATLAS.ti 8 is able to import projects of any older version, as far back as to v. 5.
 
 2. Are there any privacy issues we should be aware of?  What is the protocol you had to follow to comply with your IRB guidelines? Did you have to de-identify your subjects?
 
