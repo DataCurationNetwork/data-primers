@@ -6,7 +6,7 @@ Authors: Jaime Martindale, Aditya Ranganath, Amy Work, Melinda Kernik
 
 Mentor: Melinda Kernik
 
-Affiliate Contributors (peer reviewers): Erich Purpur, Leighton Christiansen Keith Jenkins
+Affiliate Contributors (peer reviewers): Erich Purpur, Leighton Christiansen, and Keith Jenkins
 
 Suggested Citation: Martindale, Jaime; Ranganath, Aditya; Work, Amy; Kernik, Melinda. (2023). ArcGIS Pro Package Data Curation Primer. Data Curation Network [GitHub Repository](https://github.com/DataCurationNetwork/data-primers).
 
