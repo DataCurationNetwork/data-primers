@@ -15,7 +15,7 @@ V1.2
 
 Summary of changes: Updating DCN CURATE(D) checklist broken link. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
 
-Date [mm/dd/yy]: 02/01/2024
+Date [mm/dd/yy]: 02/02/2024
 
 Version:
 V1.1

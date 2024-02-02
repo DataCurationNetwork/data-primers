@@ -275,7 +275,7 @@ A comprehensive data package, typically shared by publication or the end of the 
 
 ## DCN CURATE(D) Steps
 
-Use the [Data Curation Network’s CURATE(D)](https://docs.google.com/document/d/1RWt2obXOOeJRRFmVo9VAkl4h41cL33Zm5YYny3hbPZ8/edit#heading=h.djyqun5skhom) checklist to finalize your data for submission:
+Use the [Data Curation Network’s CURATE(D)](http://z.umn.edu/curate) checklist to finalize your data for submission:
 
 ### **Check** files and read documentation (review for appropriate levels of sharing, ensuring privacy and ethical standards are upheld, review file inventory and file appraisal/selection)
 - Review the [consent form](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md) template, if available, to confirm data are being shared as described to the participants before agreeing to participate in the study
