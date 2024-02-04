@@ -1,5 +1,5 @@
 **Current Version:**   
-V1.1 
+V1.2 
 
 **License:**   
 CC BY 4.0
@@ -9,6 +9,13 @@ Gonzalez, Liliana; Narlock, Mikala; and Taylor, Shawna. (2022). Clinical Trials 
 
 **Funding:**
 This project was partially funded by Federal funds from the National Library of Medicine (NLM), National Institutes of Health (NIH), under cooperative agreement number UG4LM01234 with the University of Massachusetts Chan Medical School, Lamar Soutter Library. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+
+Version:
+V1.2
+
+Summary of changes: Updating DCN CURATE(D) checklist broken link. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yy]: 02/02/2024
 
 Version:
 V1.1

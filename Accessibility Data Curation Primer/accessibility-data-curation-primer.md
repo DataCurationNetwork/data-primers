@@ -417,7 +417,7 @@ As of the time of this primer’s publication–-please note, this is in no way 
 
 [MAGpie](http://ncamftp.wgbh.org/ncam-old-site/invent_build/web_multimedia/tools-guidelines/magpie.html) - Free software for adding captions and video descriptions to QuickTime, Windows Media, Real and Flash multimedia. See also these technical instructions for MAGpie: [Audio Description Authoring](http://ncamftp.wgbh.org/ncam-old-site/invent_build/web_multimedia/tools-guidelines/magpie2-audio-description-auth.html).
 
-[PAC 2021]() (PDF Accessibility Checker - Automated PDF/UA compliance validation tool. PAC is designed to identify all of the machine verifiable success criterion of ISO 14289-1 (PDF/UA) and WCAG (Web Content Accessibility Guidelines).
+[PAC 2021](https://pdfua.foundation/en/pdf-accessibility-checker-pac/) (PDF Accessibility Checker - Automated PDF/UA compliance validation tool. PAC is designed to identify all of the machine verifiable success criterion of ISO 14289-1 (PDF/UA) and WCAG (Web Content Accessibility Guidelines).
 
 [PEAT](https://trace.umd.edu/peat/) (Photosensitive Epilepsy Analysis Tool) - downloadable tool intended for developers to identify seizure risks in their web content and software.
 
