@@ -74,7 +74,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 - electronic forms to gather data and integrate with business systems.
 
-<sub>*List adapted from ​ https://www.adobe.com/acrobat/about-adobe-pdf.html, p vii.*</sub>
+<sub>*List adapted from [https://www.adobe.com/acrobat/about-adobe-pdf.html](https://www.adobe.com/acrobat/about-adobe-pdf.html)​, p vii.*</sub>
 
 ### Standards, Specifications, and Subsets
 
@@ -175,7 +175,7 @@ Mobile applications allowing for reading PDF documents include Amazon Kindle app
 
 ***__Uses Definitions__: ​ creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.**
 
-<sub>*Information adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*</sub>
+<sub>*Information adapted from [https://en.wikipedia.org/wiki/List_of_PDF_software](https://en.wikipedia.org/wiki/List_of_PDF_software)*</sub>
 
 ## PDF CURATED Checklist
 
@@ -226,7 +226,7 @@ The following checklist is adapted from the original Data Curation Network (2018
 
 > Johnson, D. (2014, February 17). The 8 most popular document formats on the web [Blog post]. Retrieved from [https://web.archive.org/web/20141202155936/http://duff-johnson.com/2014/02/17/the-8-most-popular-document-formats-on-the-web/](https://web.archive.org/web/20141202155936/http://duff-johnson.com/2014/02/17/the-8-most-popular-document-formats-on-the-web/)
 
-> Johnston, L. (Ed.). (2017). ​Curating research data. Volume one: Practical strategies for your digital repository​.  Chicago, Illinois: Association of College and Research Libraries, a division of the American Library Association. 
+> Johnston, L. (Ed.). (2017). ​Curating research data. Volume one: Practical strategies for your digital repository​.  Chicago, Illinois: Association of College and Research Libraries, a division of the American Library Association. Retrieved from [https://hdl.handle.net/11299/185335](https://hdl.handle.net/11299/185335)
 
 > PDF Association. (2017, July 31).​ ISO 32000-2 (PDF 2.0)​. Retrieved from [https://pdfa.org/resource/iso-32000-pdf/](https://pdfa.org/resource/iso-32000-pdf/)
 
