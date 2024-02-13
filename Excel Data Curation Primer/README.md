@@ -1,6 +1,6 @@
 #### Current Version:
 
-V1.1
+V1.2
 
 #### License:
 
@@ -17,6 +17,13 @@ This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building 
 _____________
 
 #### Please update the following fields with each contribution
+
+Version:
+V1.2
+
+Summary of changes: Updated broken links within primer for DataOne dictionary and in reference section. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yyyy]: 02/12/2024
 
 Version:
 V1.1

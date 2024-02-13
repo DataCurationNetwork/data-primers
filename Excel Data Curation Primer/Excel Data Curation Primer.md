@@ -173,7 +173,7 @@ A data dictionary describes the meaning or purpose of the data; its relationship
   - Acceptable or allowed values​: If the column is numeric, list the range of acceptable values. If textual column values are restricted to a vocabulary, list all acceptable values and indicate their meanings.
   - If blank cells occur in the table, explain their meaning (No data? Not applicable? etc.).
 
-**Additional resources:** Data dictionaries can be made for data in any discipline. For examples and guides to creating data dictionaries, see the [Canadian Heritage Information Network (2013)](https://app.pch.gc.ca/application/ddrcip-chindd/description-about.app?lang=en) for the Humanities; the [USGS](https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries) for the geological sciences; [DataONE](https://www.dataone.org/best-practices/create-data-dictionary) for environmental sciences; and [National Network of Libraries of Medicine](https://www.nnlm.gov/guides/data-glossary/data-dictionary) for medical sciences.
+**Additional resources:** Data dictionaries can be made for data in any discipline. For examples and guides to creating data dictionaries, see the [Canadian Heritage Information Network (2013)](https://app.pch.gc.ca/application/ddrcip-chindd/description-about.app?lang=en) for the Humanities; the [USGS](https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries) for the geological sciences; [DataONE](https://dataoneorg.github.io/Education/bestpractices/create-a-data) for environmental sciences; and [National Network of Libraries of Medicine](https://www.nnlm.gov/guides/data-glossary/data-dictionary) for medical sciences.
 
 # References
 
@@ -193,5 +193,5 @@ _Best practices in creating spreadsheets._
 _Not specific to Excel, but a general guide._
 10. (Canadian Heritage Information Network 2013) &quot;CHIN Data Dictionaries&quot;. Government of Canada, retrieved 4 April 2019, [https://app.pch.gc.ca/application/ddrcip-chindd/description-about.app?lang=en](https://app.pch.gc.ca/application/ddrcip-chindd/description-about.app?lang=en)
 11. (U.S. Geological Survey) &quot;Data Dictionaries.&quot; _Data Management,_ U.S. Geological Survey, retrieved 4 April 2019, [https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries](https://www.usgs.gov/products/data-and-tools/data-management/data-dictionaries).
-12. (Data ONE) &quot;Create a data dictionary.&quot; DataONE, retrieved 4 April 2019, [https://www.dataone.org/best-practices/create-data-dictionary](https://www.dataone.org/best-practices/create-data-dictionary).
+12. (Data ONE) &quot;Create a data dictionary.&quot; DataONE, retrieved 4 April 2019, [https://dataoneorg.github.io/Education/bestpractices/create-a-data](https://dataoneorg.github.io/Education/bestpractices/create-a-data)
 13. (National Network of Libraries of Medicine) &quot;Data Dictionary.&quot; National Network of Libraries of Medicine, retrieved 4 April 2019, [https://www.nnlm.gov/guides/data-glossary/data-dictionary](https://www.nnlm.gov/guides/data-glossary/data-dictionary).
