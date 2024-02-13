@@ -1,5 +1,5 @@
 **Current Version:**  
-V1.0
+V1.1
 **License:**  
 CC BY 4.0
 
@@ -9,6 +9,12 @@ Bowman, Laura; Sheridan, Shannon; Wham, Briana; Wright, Sarah J. (2023). FASTA/F
 **Funding:**
 This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building the Data Curation Community: Advancing Specialized Data Curation".
 
+Version:
+V1.1
+
+Summary of changes: updated broken link to Brouwer resource. The link was missing a letter at the end of the html. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yy]: 02/07/2024
 
 Version:
 V1.0

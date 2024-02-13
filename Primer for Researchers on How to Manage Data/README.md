@@ -1,5 +1,5 @@
 **Current Version:**  
-V1.0
+V1.1
 
 **License:**  
 CC by 4.0
@@ -13,6 +13,15 @@ Repository](https://github.com/DataCurationNetwork/data-primers).
 This project was partially funded by Federal funds from the National Library of Medicine (NLM), National Institutes of Health (NIH), under cooperative agreement number UG4LM01234 with the University of Massachusetts Chan Medical School, Lamar Soutter Library. The content is solely the responsibility of the authors and does not necessarily represent the of icial views of the National Institutes of Health.
 
 **Please update the following fields with each contribution**  
+
+Version: 
+V1.1
+
+Summary of changes: Updated 2 broken links: link for "Library Carpentry Data Tip" and link for CURATE(D) checklist. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yy]: 02/07/2024
+
+
 
 **Version:**  
 V1.0

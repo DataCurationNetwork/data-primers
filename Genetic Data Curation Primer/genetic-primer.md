@@ -278,7 +278,7 @@ The [Genomic Standards Consortium (GSC)](https://www.gensc.org/) is a community-
 
 # Bibliography
 
-- Brouwer, A. C., with contributions by Nathan L. Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of r for bioinformatics 2. 0*. Retrieved May 25, 2023, from [https://brouwern.github.io/lbrb/introducingFASTA.htm](https://brouwern.github.io/lbrb/introducingFASTA.htm)l
+- Brouwer, A. C., with contributions by Nathan L. Brouwer (n.d.). *Chapter 16 introducing fasta files \| a little book of r for bioinformatics 2. 0*. Retrieved May 25, 2023, from [https://brouwern.github.io/lbrb/introducingFASTA.html](https://brouwern.github.io/lbrb/introducingFASTA.html)
 
 - Brown, A. V., Campbell, J. D., Assefa, T., Grant, D., Nelson, R. T., Weeks, N. T., & Cannon, S. B. (2018). Ten quick tips for sharing open genomic data. *PLOS Computational Biology*, *14*(12), e1006472. https://doi.org/10.1371/journal.pcbi.1006472
 

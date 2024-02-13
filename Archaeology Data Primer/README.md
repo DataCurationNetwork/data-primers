@@ -14,8 +14,6 @@ Summary of changes: Creating a README file for the archaeology-primer.md. Update
 
 Date [mm/dd/yy]: 01/28/2024
 
-Note: please add change date in descending order
-
 Version:
 V1.1
 
