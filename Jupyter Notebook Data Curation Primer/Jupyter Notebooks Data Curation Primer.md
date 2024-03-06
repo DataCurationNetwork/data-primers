@@ -152,7 +152,7 @@ Once a decision has been made to accept and curate Jupyter Notebook submissions 
 3. Is the Notebook self-contained?
 4. Is the Notebook a standalone object or one of many products resulting from a project?
 	- Examples:
-		- Notebook that is a stand alone object: [USGS Python for Data Management](https://my.usgs.gov/confluence/display/cdi/Python+for+Data+Management#PythonforDataManagement-June11,2018:Part1-WorkingwithLocalFiles)[^13]
+		- Notebook that is a stand alone object: [USGS Python for Data Management](https://code.usgs.gov/sas/sdm/sciencebasepy)[^13]
 		- Notebooks that supplement other digital objects: [Starry](https://arxiv.org/abs/1810.06559)[^14]
 	- Were supplemental files deposited along with the Notebook?
 		- Is information about supplemental files included within the Notebook or in separate files?
@@ -171,15 +171,15 @@ Once a decision has been made to accept and curate Jupyter Notebook submissions 
 11. Are there any confidentiality/ethics concerns associated with the Notebook?
 
 # Decision Trees
-([view online](https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0))
+[view online](https://github.com/DataCurationNetwork/data-primers/blob/main/Jupyter%20Notebook%20Data%20Curation%20Primer/DT-Curat.png)
 
 The following decision trees [^15] illustrate questions and actions that should be considered when determining whether or not to accept a Jupyter Notebook submission into a particular repository, as well key questions curators should consider when evaluating Jupyter Notebook submissions.
 
 ## Repository Suitability
 ![](DT-Repo.png)
 
-*https://datacurationnetwork.org/home/resources/ <br/>
-**http://hdl.handle.net/11299/202815
+*[http://z.umn.edu/curate](http://z.umn.edu/curate) <br/>
+**[http://hdl.handle.net/11299/202815](http://hdl.handle.net/11299/202815)
 
 ## Curatorial Activities
 ![](DT-Curat.png)
@@ -190,8 +190,8 @@ The following decision trees [^15] illustrate questions and actions that should 
   - [https://zenodo.org/record/1327310](https://zenodo.org/record/1327310)
 - Ten Simple Rules for Reproducible Research in Jupyter Notebooks
   - [https://arxiv.org/abs/1810.08055](https://arxiv.org/abs/1810.08055)
-- How IPython and Jupyter Notebook work
-  - [https://jupyter.readthedocs.io/en/latest/architecture/how\_jupyter\_ipython\_work.html](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
+- Migrating from Ipython to Jupyter
+  - [https://docs.jupyter.org/en/latest/use/advanced/migrating.html](https://docs.jupyter.org/en/latest/use/advanced/migrating.html)
 - Developing maintainable software
   - [https://www.software.ac.uk/resources/guides/developing-maintainable-software](https://www.software.ac.uk/resources/guides/developing-maintainable-software)
 - Does it make sense to apply the FAIR Data Principles to Software?
@@ -244,8 +244,8 @@ Jackson, M. (2018b). Software Deposit: What to deposit (Version 1.0). _Zenodo_. 
 
 [^12]: This assumes the Notebook is self-contained. How to best archive Notebooks that are not self-contained is an unresolved issue.
 
-[^13]: https://bit.ly/2sBF3jH
+[^13]: https://code.usgs.gov/sas/sdm/sciencebasepy
 
 [^14]: https://arxiv.org/abs/1810.06559
 
-[^15]: https://www.lucidchart.com/documents/view/4848c483-1267-499c-9172-3a2782abfaaf/0
+[^15]: https://github.com/DataCurationNetwork/data-primers/blob/main/Jupyter%20Notebook%20Data%20Curation%20Primer/DT-Curat.png
