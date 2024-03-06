@@ -34,24 +34,24 @@
 
 # Summary
 
-This primer will address the specific considerations for assessing informed consent of a dataset. Informed consent is the process by which researchers gain permission to conduct research with human participants, and that process includes how the data collected will be used, and possibly shared, by the research team. This document may be useful for data curators at the point of assessing data for acceptance into a repository; for repositories considering setting policy around data obtained using the subject consent process; or for data professionals working with researchers on education around consent form language prior to data collection For more information on the curation of human subjects data, please see the [Human Subjects Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md).
+This primer will address the specific considerations for assessing informed consent of a dataset. Informed consent is the process by which researchers gain permission to conduct research with human participants, and that process includes how the data collected will be used, and possibly shared, by the research team. This document may be useful for data curators at the point of assessing data for acceptance into a repository; for repositories considering setting policy around data obtained using the subject consent process; or for data professionals working with researchers on education around consent form language prior to data collection For more information on the curation of human participants data, please see the [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md).
 
 
 # Introduction to Informed Consent
 
 More often than not, research being conducted with human participants (subjects) undergoes evaluation by an ethics committee. At universities in the United States, this committee is often called an Institutional Review Board (IRB). The IRB determines if the research needs to be reviewed at all, if it requires expedited review, or if it requires full review - the determination is made according to Department of Health & Human Services regulations and other factors, such as potential risks to the participants.
 
-**Example**: [University of Minnesota Human Research Determination Worksheet](https://research.umn.edu/sites/research.umn.edu/files/hrp-310_-_worksheet-human_research_determination.docx)
+**Example**: [University of Minnesota Human Research Determination Worksheet](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/hrp-503_-_human_research_determination_form_2023-03.pdf)
 
 If the research requires full review, then the researchers must present an informed consent form (a.k.a. consent form) to the participants. If the research requires expedited review (a shortened and less extensive review), then the researchers must present a consent information sheet to the participants. This provides much of the same information as the consent form, but using summarized language. An information sheet does not require the signature of the participant
 
-**Example**: [University of Minnesota Informed Consent](https://research.umn.edu/sites/research.umn.edu/files/hrp-582-template-social-behavioral-consent-form.docx) (for social/behavioral research)
+**Example**: [University of Minnesota Informed Consent](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/hrp-582-template-social-behavioral-consent-form_2023-12.pdf) (for social/behavioral research)
 
 **Example**: [University of Minnesota Consent Information Sheet](https://research.umn.edu/sites/research.umn.edu/files/hrp-587_-_template_-_information_sheet_for_exempt_research.docx)
 
 Minors cannot consent to participate in research. Instead, minors sign an assent form to participate in research, while their legal guardian signs a consent form for the minor’sparticipation.
 
-**Example**: [University of Minnesota Assent Form](https://research.umn.edu/sites/research.umn.edu/files/hrp-583-template-assent-form.docx)
+**Example**: [University of Minnesota Assent Form](https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/hrp-583-template-assent-form_2023-12.pdf)
 
 In some circumstances, when consent is not legally required, there might instead be a participant agreement. If there is a participant agreement, or if a consent form was presented to participants even when not legally required, there is an ethical responsibility for researchers to adhere to what was presented in these forms.
 
@@ -92,7 +92,7 @@ In order to determine whether participants consented to data sharing, it is impo
       - They can share the data in a repository that offers restricted access so that researchers can vet who accesses the data.
    - You might recommend changes to the dataset which make it more shareable.
       - Collapsing or removing variables can protect the identity of participants.
-      - See [Human Subjects Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md) for more information on de-identification and dataset manipulation.
+      - See [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md) for more information on de-identification and dataset manipulation.
 
 2. Repositories may consider a formal policy regarding the review of the consent form.
    - Data deposit agreements may include a statement that appropriate consent has been obtained from all participants in the data.
@@ -128,7 +128,7 @@ In order to determine whether participants consented to data sharing, it is impo
 
 # Completion of Consent Form Assessment
 
-There are many potential outcomes after assessing consent forms that were used to collect data being ingested into a public repository. Use this guide, with the [Human Subjects Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md),  to determine the best next steps for your repository and institution. You can ensure you have completed a job well-done with the Data Curation Network’s [CURATE(D) checklist](https://datacurationnetwork.org/outputs/workflows/):
+There are many potential outcomes after assessing consent forms that were used to collect data being ingested into a public repository. Use this guide, with the [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md),  to determine the best next steps for your repository and institution. You can ensure you have completed a job well-done with the Data Curation Network’s [CURATE(D) checklist](https://datacurationnetwork.org/outputs/workflows/):
 
 ❏ Check files/code and read documentation
 - ❏ Check all files submitted and assess the type of data presented.
@@ -151,22 +151,22 @@ There are many potential outcomes after assessing consent forms that were used t
 
 # Glossary of Terms
 
-*Informed consent*: A voluntary agreement to participate in research. It is not merely a form that is signed but is a process in which the subject has an understanding of the research and its risks. Informed consent is essential before enrolling a participant and ongoing once enrolled. Informed consent must be obtained for all types of human subjects research including; diagnostic, therapeutic, interventional, social and behavioral studies, and for research conducted domestically or abroad. Obtaining consent involves informing the subject about his or her rights, the purpose of the study, the procedures to be undergone, and the potential risks and benefits of participation. Subjects in the study must participate willingly. Vulnerable populations (i.e. prisoners, children, pregnant women, etc.) must receive extra protections. The legal rights of subjects may not be waived and subjects may not be asked to release or appear to release the investigator, the sponsor, the institution or its agents from liability for negligence. [https://www.hhs.gov/ohrp/regulations-and-policy/guidance/faq/informed-consent/index.html]
+*Informed consent*: A voluntary agreement to participate in research. It is not merely a form that is signed but is a process in which the subject has an understanding of the research and its risks. Informed consent is essential before enrolling a participant and ongoing once enrolled. Informed consent must be obtained for all types of human participants research including; diagnostic, therapeutic, interventional, social and behavioral studies, and for research conducted domestically or abroad. Obtaining consent involves informing the subject about his or her rights, the purpose of the study, the procedures to be undergone, and the potential risks and benefits of participation. Subjects in the study must participate willingly. Vulnerable populations (i.e. prisoners, children, pregnant women, etc.) must receive extra protections. The legal rights of subjects may not be waived and subjects may not be asked to release or appear to release the investigator, the sponsor, the institution or its agents from liability for negligence. [https://www.hhs.gov/ohrp/regulations-and-policy/guidance/faq/informed-consent/index.html](https://www.hhs.gov/ohrp/regulations-and-policy/guidance/faq/informed-consent/index.html)
 
-*Assent*: Agreement by an individual not competent to give legally valid informed consent (e.g., a child or adult who is cognitively impaired) to participate in research. A legal guardian or other representative must still provide consent on behalf of the participant. [https://oprs.research.illinois.edu/glossary/assent]
+*Assent*: Agreement by an individual not competent to give legally valid informed consent (e.g., a child or adult who is cognitively impaired) to participate in research. A legal guardian or other representative must still provide consent on behalf of the participant. [https://oprs.research.illinois.edu/glossary/assent](https://oprs.research.illinois.edu/glossary/assent)
 
 *Consent form*: This is the form signed by study participants to document their agreement to participate. It must be written in a language easily understood by the participant, minimize the possibility of coercion or undue influence, and the subject must be given sufficient time to consider participation. 
 
 *Consent information sheet*: Also called an information sheet for exempt research, this form does not require the study participant’s signature, but shares with them the study process, confidentiality notices, voluntary nature of the study, and contact information for any questions or concerns that might arise.
 
-*Participant agreement*: If a legal consent form or consent information sheet is not required by the IRB, researchers may still request that participants sign a participant agreement. Since a participant agreement is not regulated, the information in it will vary, but it commonly contains similar content to a consent form (i.e., reasons for research, harms/benefits, confidentiality, contact information, etc). [https://research.virginia.edu/irb-sbs/when-consent-not-required]
+*Participant agreement*: If a legal consent form or consent information sheet is not required by the IRB, researchers may still request that participants sign a participant agreement. Since a participant agreement is not regulated, the information in it will vary, but it commonly contains similar content to a consent form (i.e., reasons for research, harms/benefits, confidentiality, contact information, etc). [https://research.virginia.edu/irb-sbs/when-consent-not-required](https://research.virginia.edu/irb-sbs/when-consent-not-required)
 
 
 # Bibliography
 
-Meyer, M. N. (2018). Practical Tips for Ethical Data Sharing. Advances in Methods and Practices in Psychological Science, 1(1), 131–144. https://doi.org/10.1177/2515245917747656
+Meyer, M. N. (2018). Practical Tips for Ethical Data Sharing. Advances in Methods and Practices in Psychological Science, 1(1), 131–144. [https://doi.org/10.1177/2515245917747656](https://doi.org/10.1177/2515245917747656)
 
-Mozersky, J., Walsh, H., Parsons, M., McIntosh, T., Baldwin, K., & DuBois, J. M. (2020). Are we ready to share qualitative research data? Knowledge and preparedness among qualitative researchers, IRB Members, and data repository curators. IASSIST quarterly, 43(4), 952. https://doi.org/10.29173/iq952
+Mozersky, J., Walsh, H., Parsons, M., McIntosh, T., Baldwin, K., & DuBois, J. M. (2020). Are we ready to share qualitative research data? Knowledge and preparedness among qualitative researchers, IRB Members, and data repository curators. IASSIST quarterly, 43(4), 952. [https://doi.org/10.29173/iq952](https://doi.org/10.29173/iq952)
 
 
 # Appendix A - Links to sources on consent documentation
