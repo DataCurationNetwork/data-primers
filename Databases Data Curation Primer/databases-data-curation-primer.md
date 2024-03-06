@@ -42,13 +42,13 @@ Almost all the databases come with a Database Engine with a graphical user inter
 
 - MS  Access: https://products.office.com/en-us/access?rtc=1 <br> Microsoft Access is a database management system from Microsoft that combines the relational Microsoft Jet Database Engine with a graphical user interface and software-development tools. It is a member of the Microsoft Office suite of applications, included in the Professional and higher editions or sold separately. It is suitable for home and small business use. 
 
-- MS SQL Server: https://www.microsoft.com/en-us/sql-server/default.aspx <br> Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.
+- MS SQL Server: [https://www.microsoft.com/en-us/sql-server/sql-server-2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022) <br> Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.
 
-- MySQL: https://www.mysql.com/ <br> MySQL is free and open-source software under the terms of the GNU General Public License and is also available under a variety of proprietary licenses. MySQL was owned and sponsored by the Swedish company MySQL AB, which was bought by Sun Microsystems (now Oracle Corporation). In 2010, when Oracle acquired Sun, the owner forked the open-source MySQL project to create MariaDB.
+- MySQL: [https://www.mysql.com/](https://www.mysql.com/) <br> MySQL is free and open-source software under the terms of the GNU General Public License and is also available under a variety of proprietary licenses. MySQL was owned and sponsored by the Swedish company MySQL AB, which was bought by Sun Microsystems (now Oracle Corporation). In 2010, when Oracle acquired Sun, the owner forked the open-source MySQL project to create MariaDB.
 
-- Oracle Database: https://www.oracle.com/database/ <br> Oracle Database is a proprietary multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online transaction processing, data warehousing and mixed database workloads.
+- Oracle Database: [https://www.oracle.com/database/](https://www.oracle.com/database/)  <br> Oracle Database is a proprietary multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online transaction processing, data warehousing and mixed database workloads.
 
-- PostgreSQL: https://www.postgresql.org/ <br> PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. It is designed to handle a range of workloads, from single machines to data 
+- PostgreSQL: [https://www.postgresql.org/](https://www.postgresql.org/) <br> PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. It is designed to handle a range of workloads, from single machines to data 
 warehouses or Web services with many concurrent users.
 
 ## Table: general information for common databases 
@@ -73,10 +73,10 @@ warehouses or Web services with many concurrent users.
  
  |   **Database Names**   |   **Microsoft Access**   | **Microsoft SQL Server** |
  | :------------- | :------------- |:------------- |
- |Description|Microsoft Access combines a backend RDBMS (JET / ACE Engine) with a GUI frontend for data manipulation and queries. |Microsoft relational DBMS|
- |Primary database model|[Relational DBMS](https://db-engines.com/en/article/Relational+DBMS?ref=RDBMS)|[Relational DBMS](https://db-engines.com/en/article/Relational+DBMS?ref=RDBMS)|
- |**Website**|[products.office.com/en-us/access](products.office.com/en-us/access)|[www.microsoft.com/en-us/sql-server](www.microsoft.com/en-us/sql-server)|
- |**Technical documentation**|[msdn.microsoft.com/en-us/library/office/ff604965.aspx](msdn.microsoft.com/en-us/library/office/ff604965.aspx)|[docs.microsoft.com/en-ie/sql/sql-server/sql-server-technical-documentation](docs.microsoft.com/en-ie/sql/sql-server/sql-server-technical-documentation)|
+ |**Description**|Microsoft Access combines a backend RDBMS (JET / ACE Engine) with a GUI frontend for data manipulation and queries. |Microsoft relational DBMS|
+ |**Primary database model**|[Relational DBMS](https://db-engines.com/en/article/Relational+DBMS?ref=RDBMS)|[Relational DBMS](https://db-engines.com/en/article/Relational+DBMS?ref=RDBMS)|
+ |**Website**|[https://www.microsoft.com/en-us/microsoft-365/access](https://www.microsoft.com/en-us/microsoft-365/access)|[https://www.microsoft.com/en-us/sql-server](https://www.microsoft.com/en-us/sql-server)|
+ |**Technical documentation**|[https://learn.microsoft.com/en-us/previous-versions/office/developer/office-2010/ff604965(v=office.14)?redirectedfrom=MSDN](https://learn.microsoft.com/en-us/previous-versions/office/developer/office-2010/ff604965(v=office.14)?redirectedfrom=MSDN)|[https://learn.microsoft.com/en-ie/sql/sql-server/?view=sql-server-ver16](https://learn.microsoft.com/en-ie/sql/sql-server/?view=sql-server-ver16)
  |**Developer**|Microsoft|Microsoft|
  |**Initial release**|1992|1989|
  |**License** |commercial|commercial|
