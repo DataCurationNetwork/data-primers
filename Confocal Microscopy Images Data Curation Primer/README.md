@@ -1,5 +1,5 @@
 **Current Version:**  
-V1.0
+V1.1
 **License:**  
 CC BY 4.0
 
@@ -10,11 +10,19 @@ Ivey, Susan; Koshoffer, Amy; Sneff, Gretchen; Wang, Huajin. (2019). Confocal Mic
 This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building the Data Curation Community: Advancing Specialized Data Curation".
 
 
+
+Note: please add change date in descending order
+
+Version:
+V1.1
+
+Summary of changes: Updating footnote formatting to facilitate use and future updates. Updates done by Mikala Narlock.
+
+Date [mm/dd/yyyy]: 03/07/2024
+
 Version:
 V1.0
 
 Summary of changes: Primer uploaded to GitHub
 
 Date [mm/dd/yyyy]: 01/03/2020
-
-Note: please add change date in descending order
