@@ -97,7 +97,7 @@ Many microscopes produce proprietary formats, but it is recommended that users c
 
 <p  id="note1"><sup>7</sup> The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. </p>
 
-<p  id="note1"><sup>8</sup> CIL Project: P1723 -Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. (2019-07-09). Retrieved from http://www.cellimagelibrary.org/P1723  </p>
+<p  id="note1"><sup>8</sup> CIL Project: P1723 -Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. (2019-07-09). Retrieved from [Cell Images Library](http://cellimagelibrary.org/images?k=Localization+of+Metabotropic+Glutamate+Receptors+in+Alpha+Synuclein+Overexpressing+Mouse&simple_search=Search&per_page=10&page=1)</p>
 
 <p  id="note1"><sup>9</sup> A confocal image of breast cancer cells in culture. (2019-07-09) Retrieved from http://www.cellimagelibrary.org/images/38979 </p>
 
