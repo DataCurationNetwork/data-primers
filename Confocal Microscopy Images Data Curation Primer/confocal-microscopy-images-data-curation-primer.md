@@ -17,7 +17,7 @@
 | Date Created | 2019-07-01 |
 | Created by | Susan Ivey- North Carolina State University <br> Amy Koshoffer - University of Cincinnati <br> Gretchen Sneff - Temple University <br> Huajin Wang - Carnegie Mellon University <br> Team Mentor - Lisa Johnston – University of Minnesota |
 
-[1^:] "CZI The File Format for the Microscope - Zeiss." https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html. Accessed 26 Jul. 2019. 
+[^1:] "CZI The File Format for the Microscope - Zeiss." https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html. Accessed 26 Jul. 2019. 
 
 <p  id="note1"><sup>2</sup> Supported Formats — Bio-Formats 6.0.1 documentation." 13 Mar. 2019, https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. Accessed 26 Jul. 2019. </p>
 
