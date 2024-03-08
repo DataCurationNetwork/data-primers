@@ -1,5 +1,5 @@
 **Current Version:**  
-V1.0
+V1.1
 **License:**  
 CC BY 4.0
 
@@ -9,6 +9,12 @@ Xin, Xuying. (2020). Databases Data Curation Primer. [Data Curation Network GitH
 **Funding:**
 This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building the Data Curation Community: Advancing Specialized Data Curation".
 
+Version:
+V1.1
+
+Summary of changes: Updated broken links in primer: encoding issues and some links were not properly formatted. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yyyy]: 03/05/2024
 
 Version:
 V1.0

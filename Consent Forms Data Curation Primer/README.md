@@ -1,11 +1,18 @@
 **Current Version:**  
-V1.2
+V1.3
 
 **License:**  
 CC BY 4.0
 
 **Citation:**
 Hunt, Shanda; Hofelich Mohr, Alicia; and Woodbrook, Rachel. (2019). Curation of Data Collected by Informed Consent. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)  
+
+Version:
+V1.3
+
+Summary of changes: Updated broken links and embedded web links using proper format. Updated language from "human subjects" to "human participants". Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yyyy]: 03/05/2024
 
 Version:
 V1.2
