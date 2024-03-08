@@ -132,11 +132,12 @@ Many microscopes produce proprietary formats, but it is recommended that users c
 
 ### Resources/Software for viewing or analyzing data
 
-**Resource:** Fiji/ImageJ - https://imagej.nih.gov/ij/[^17] - LMS browser
+**Resource:** Fiji/ImageJ - [https://imagej.net/ij/index.html](https://imagej.net/ij/index.html)[^17] - LMS browser
 
 > Purpose: This is an open source java-based image viewer and analysis software. Open and analyze many file types such as .lsm confocal images, .jpeg, and .tiff file formats. <br> When to use: after image capture  <br> Barrier: learning curve
 
-**Resource:** (Adobe) Photoshop - https://www.adobe.com[^18]
+
+**Resource:** (Adobe) Photoshop - [https://www.adobe.com](https://www.adobe.com)[^18]
 
 > Purpose: to open images and make edits, add text, etc. <br> When to use: after image capture <br> Barrier: cost, learning curve is steep, proprietary software Edits should not be made if planning to analyze the images or uniform edits should be made to all images.
 
@@ -230,55 +231,55 @@ Similar to z-stacks: composite images – Care should be taken to weigh the cost
 2. [Duke University’s Light Microscopy Core Facility’s Guides and Tutorials website](https://microscopy.duke.edu/guides-tutorials)
 
 # Footnotes
-[^1]: "CZI The File Format for the Microscope - Zeiss." https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html. Accessed 26 Jul. 2019. 
+[^1]: "CZI The File Format for the Microscope - Zeiss." [https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html#](https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html#)
 
-[^2]: Supported Formats — Bio-Formats 6.0.1 documentation." 13 Mar. 2019, https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. Accessed 26 Jul. 2019. 
+[^2]: Supported Formats — Bio-Formats 6.0.1 documentation." 13 Mar. 2019, [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html) https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. Accessed 26 Jul. 2019. 
 
-[^3]: Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) http://www.tdwg.org/standards/115. 
+[^3]: Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) [http://www.tdwg.org/standards/115](http://www.tdwg.org/standards/115). 
 
-[^4]: OME format page. (2019-07-09). Retrieved from  https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. 
+[^4]: OME format page. (2019-07-09). Retrieved from  [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html)
 
-[^5]: "Confocal Microscopy in a Nutshell | Imaging & Microscopy - Research ...." 17 Aug. 2016, https://www.imaging-git.com/science/light-microscopy/confocal-microscopy-nutshell. Accessed 26 Jul. 2019. 
+[^5]: "Confocal Microscopy in a Nutshell | Imaging & Microscopy - Research ...." 17 Aug. 2016, [https://www.imaging-git.com/science/light-microscopy/confocal-microscopy-nutshell](https://www.imaging-git.com/science/light-microscopy/confocal-microscopy-nutshell). Accessed 26 Jul. 2019. 
 
-[^6]: Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. "The Cell Image Library." http://www.cellimagelibrary.org/images/CCDB_4065 Accessed 26 Jul. 2019 
+[^6]: Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. "The Cell Image Library." [http://www.cellimagelibrary.org/images/CCDB_4065](http://www.cellimagelibrary.org/images/CCDB_4065) Accessed 26 Jul. 2019 
 
-[^7]: The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. 
+[^7]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
 
 [^8]: CIL Project: P1723 -Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. (2019-07-09). Retrieved from [Cell Images Library](http://cellimagelibrary.org/images?k=Localization+of+Metabotropic+Glutamate+Receptors+in+Alpha+Synuclein+Overexpressing+Mouse&simple_search=Search&per_page=10&page=1)
 
-[^9]: A confocal image of breast cancer cells in culture. (2019-07-09) Retrieved from http://www.cellimagelibrary.org/images/38979 
+[^9]: A confocal image of breast cancer cells in culture. (2019-07-09) Retrieved from [http://www.cellimagelibrary.org/images/38979](http://www.cellimagelibrary.org/images/38979)
 
-[^10]: The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. 
+[^10]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
 
-[^11]: OME format page. (2019-07-09). Retrieved from  https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html.
+[^11]: OME format page. (2019-07-09). Retrieved from  [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html)
 
-[^12] Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) http://www.tdwg.org/standards/115. 
+[^12] Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) [http://www.tdwg.org/standards/115](http://www.tdwg.org/standards/115). 
  
-[^13]: The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. 
+[^13]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
 
-[^14]: The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. 
+[^14]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
 
-[^15]: "Copyright and Data » Data Ab Initio." 17 Mar. 2016, http://dataabinitio.com/?p=632. Accessed 26 Jul. 2019. 
+[^15]: "Copyright and Data » Data Ab Initio." 17 Mar. 2016, [http://dataabinitio.com/?p=632](http://dataabinitio.com/?p=632). Accessed 26 Jul. 2019. 
 
-[^16]: Creative Commons Homepage. (2019-07-22) Retrieved from https://creativecommons.org Accessed 26 Jul. 2019. 
+[^16]: Creative Commons Homepage. (2019-07-22) Retrieved from [https://creativecommons.org](https://creativecommons.org) Accessed 26 Jul. 2019. 
 
-[^17]: ImageJ Website home page. (2019-07-09). Retrieved from https://imagej.nih.gov/ij/index.html Accessed 26 Jul. 2019. 
+[^17]: ImageJ Website home page. (2019-07-09). Retrieved from [https://imagej.net/ij/index.html](https://imagej.net/ij/index.html)
 
-[^18]: Adobe Photoshop Homepage (2019-07-09). Retrieved from https://www.adobe.com/ Accessed 26 Jul. 2019. 
+[^18]: Adobe Photoshop Homepage (2019-07-09). Retrieved from [https://www.adobe.com/](https://www.adobe.com/) Accessed 26 Jul. 2019. 
 
-[^19]: OME format page. (2019-07-09). Retrieved from  https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html.
+[^19]: OME format page. (2019-07-09). Retrieved from  [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html)
 
-[^20]: The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. 
+[^20]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
 
-[^21]: "Copyright and Data » Data Ab Initio." 17 Mar. 2016, http://dataabinitio.com/?p=632. Accessed 26 Jul. 2019. 
+[^21]: "Copyright and Data » Data Ab Initio." 17 Mar. 2016, [http://dataabinitio.com/?p=632](http://dataabinitio.com/?p=632). Accessed 26 Jul. 2019. 
 
-[^22]: The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. 
+[^22]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org)Accessed 26 Jul. 2019. 
 
-[^23]: Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. Retrieved from https://doi.org/10.1038/sdata.2016.18 
+[^23]: Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. Retrieved from [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 
-[^24]: “Metadata overview” in Harvard biomedical data management. Retrieved from https://datamanagement.hms.harvard.edu/metadata-overview. Accessed 26 Jul 2019. 
+[^24]: “Metadata overview” in Harvard biomedical data management. Retrieved from [https://datamanagement.hms.harvard.edu/metadata-overview](https://datamanagement.hms.harvard.edu/metadata-overview). Accessed 26 Jul 2019. 
 
-[^25]: “Persistent Identifiers” in the Digital Preservation Handbook, 2nd Edition,  http://handbook.dpconline.org/, Digital Preservation Coalition © 2015. Accessed 26 Jul 2019. 
+[^25]: “Persistent Identifiers” in the Digital Preservation Handbook, 2nd Edition, [https://www.project-consult.de/files/DPC_Digital_Preservation_Handbook_V2_2015.pdf](https://www.project-consult.de/files/DPC_Digital_Preservation_Handbook_V2_2015.pdf), Digital Preservation Coalition © 2015. Accessed 26 Jul 2019. 
 
-[^26]: http://bioportal.bioontology.org/. Accessed 26 Jul 2019 
+[^26]: [http://bioportal.bioontology.org/](http://bioportal.bioontology.org/). Accessed 26 Jul 2019 
 

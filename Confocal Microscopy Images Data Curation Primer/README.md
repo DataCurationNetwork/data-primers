@@ -1,5 +1,5 @@
 **Current Version:**  
-V1.1
+V1.2
 **License:**  
 CC BY 4.0
 
@@ -12,6 +12,13 @@ This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building 
 
 
 Note: please add change date in descending order
+
+Version:
+V1.2
+
+Summary of changes: Updated broken links within primer. Corrected proper format for embedding links throughout the primer. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yyyy]: 03/08/2024
 
 Version:
 V1.1
