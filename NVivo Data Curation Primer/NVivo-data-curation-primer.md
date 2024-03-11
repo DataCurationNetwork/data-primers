@@ -168,7 +168,11 @@ An Nvivo project has multiple containers that may hold many different data types
 
 ## Examples of NVivo projects
 
-An NVivo sample project is included in versions 9-12. See: [How to access the NVivo sample project?](https://www.qsrinternational.com/nvivo/support-overview/faqs/how-to-access-the-nvivo-sample-project)
+An NVivo sample project is included in versions 9-12. See: How to access the NVivo sample project?:
+
+- [**Windows**](https://help-nv.qsrinternational.com/20/win/Content/about-nvivo/explore-sample-project.htm)
+
+- [**Mac**](https://help-nv.qsrinternational.com/20/mac/Content/about-nvivo/explore-sample-project.htm)
 
 NVivo data are also available with limited access at the Qualitative Data Repository. See example: [Burke_EDI_NENA.NVivoProject.2017.nvp](https://data.qdr.syr.edu/?now=Sat%20Jan%2025%2001%3A40%3A45%202020&requestURL=https%3A%2F%2Fdata.qdr.syr.edu%2FShibboleth.sso%2FSAML2%2FPOST&errorType=opensaml%3A%3AFatalProfileException&errorText=SAML%20response%20reported%20an%20IdP%20error.&RelayState=https%3A%2F%2Fdata.qdr.syr.edu%2Fshib.xhtml%3FredirectPage%3D%2Ffile.xhtml%3FpersistentId%3Ddoi%3A10.5064%2FF6BUAX58%2FHBEUQ0&contactEmail=mailto%3Andk%40internet2.edu&contactName=Nate%20Klingenstein&entityID=https%3A%2F%2Fidp.qdr.syr.edu%2Fidp%2Fshibboleth&eventType=Login&statusCode=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Astatus%3ARequester&statusCode2=urn%3Aoasis%3Anames%3Atc%3ASAML%3A2.0%3Astatus%3ANoPassive&statusMessage=An%20error%20occurred.)
 
@@ -182,7 +186,7 @@ NCapture is a web browser extension that assists in gathering selected informati
 
 NVivo 12 has three formats: Mac, PC Pro and PC Plus. These formats may impact your curation workflow and considerations. NVivo for Mac will be unable to directly open a PC format. Conversions from PC to Mac formats can only be made within a PC format. There is limited functionality for certain data types and interoperability in the Mac format, so a data curator may prefer to work in a PC format. The Mac and PC formats also have different file extensions, see below.
 
-See the QSR comparison table for NVivo 12 formats: https://www.qsrinternational.com/nvivo/nvivo-products/nvivo-product-suite-overview
+See the QSR comparison table for NVivo 12 formats: [https://www.qsrinternational.com/nvivo/nvivo-products/nvivo-product-suite-overview](https://www.qsrinternational.com/nvivo/nvivo-products/nvivo-product-suite-overview)
 
 ### NVivo 12 for Mac (.nvpx)
 
@@ -192,7 +196,7 @@ NVivo 12 for Mac will hide data that is not supported by this format. Hidden dat
 
 NVivo for Mac doesn’t support importing YouTube content. The curator will not be able to access YouTube content in submitted NCapture files (.nvcx) while working from the NVivo for Mac format.
 
-This link will take you to a list of known issues with NVivo 12 for Mac format: https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-12-mac
+This link will take you to a list of known issues with NVivo 12 for Mac format: [https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-12-mac](https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-12-mac)  
 
 ### NVivo 12 for PC Pro (.nvp)
 
@@ -204,7 +208,7 @@ This format for computers using the Microsoft Windows operating system will open
 
 The plus version supports PAJEK software, which is used for analysis and visualization of large networks. This version also has the capability to support additional visualization types. Please see the QSR International comparison table of NVivo 12 formats for details.
 
-This link will take you to a list of known issues with NVivo for PC formats: https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-12-windows
+This link will take you to a list of known issues with NVivo for PC formats: [https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-12-windows](https://www.qsrinternational.com/nvivo/support-overview/faqs/are-there-any-known-issues-in-nvivo-12-windows)
 
 ## Problems opening the file
 
@@ -331,7 +335,7 @@ DDI is a metadata standard for social science data that can be used in conjuncti
 A ReadMe file may serve to explain how various components within an NVivo project, or those exported from an Nvivo project, relate within the context of the original research. The ReadMe file can also be used to describe how components may be accessed; such as, how to view the contents of an NCapture file, if one is included in the submission. It can also describe conversions between formats of NVivo or other transformations that may affect opening or accessing the contents of the file.
 
 
-Cornell guide to writing a README: https://data.research.cornell.edu/content/readme
+Cornell guide to writing a README: [https://data.research.cornell.edu/content/readme](https://data.research.cornell.edu/content/readme)
 
 # Preservation actions
 
