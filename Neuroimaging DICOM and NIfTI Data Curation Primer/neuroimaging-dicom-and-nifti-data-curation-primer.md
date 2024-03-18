@@ -163,7 +163,7 @@ AFNI (Analysis of Functional NeuroImages) is a free suite of C, Python, and R sc
 
 Mango is a set of three programs developed by the University of Texas Health Science Center’s Research Imaging Institute to view and analyze medical research images. Mango runs on Mac OS X, Linux, and Windows; Papaya is entirely browser-based; and iMango is for Apple’s iPad. All three support both DICOM and NIfTI (both versions).
 
-**Link:** [http://ric.uthscsa.edu/mango/index.html](http://ric.uthscsa.edu/mango/index.html)
+**Link:** [https://mangoviewer.com/download.html](https://mangoviewer.com/download.html)
 
 ## MRIcron
 
@@ -183,7 +183,7 @@ MicroGL allows users to view images, convert DICOM images to NIfTI format, and d
 
 Curation of medical data adds an additional challenge not faced in other domains: datasets may include highly sensitive and identifying patient health information, a large portion of which is protected by strict federal laws like the Health Insurance Portability and Accountability Act (HIPAA). PHI includes a [list of 18 identifier classifications](https://privacyruleandresearch.nih.gov/pr_08.asp), such as names, geographic locations, dates, contact information, medical records and health plans, biometric identifiers, and full-face photographs. Depending on the type or purpose of a scan and how it was taken, some of these identifiers are always included in initial scans, others sometimes, and still others rarely.
 
-Datasets submitted for curation should already be anonymized by the researchers or clinicians, but the responsibility may fall on the curators to ensure that the process has been done correctly before hosting the files. PHI may be found both in the image header (such as a patient’s name) and the image itself (such as details of a patient’s face). The DCN Primer on [Human Subjects Data Essentials](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Subjects%20Data%20Essentials%20Data%20Curation%20Primer/human-subjects-data-essentials-data-curation-primer.md) explains ethical quandaries due to human subjects content and provides steps for screening de-identified data for remaining risk.
+Datasets submitted for curation should already be anonymized by the researchers or clinicians, but the responsibility may fall on the curators to ensure that the process has been done correctly before hosting the files. PHI may be found both in the image header (such as a patient’s name) and the image itself (such as details of a patient’s face). The DCN Primer on [Human Participants Data Essentials](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md) explains ethical quandaries due to human participant content and provides steps for screening de-identified data for remaining risk.
 
 A large amount of personal information collected by the scanning device is inherently included in DICOM header files, which are generally prepared and exported directly from a scanning instrument. Due to DICOM’s broad scope, it would be unrealistic for generalist data curators to be expected to be able to read, analyze, and manually de-identify the data themselves. In some cases, DICOM images have textual information "burned in,” such as the date of a scan-PHI embedded in the pixel data. The ability to blackout "burned in" information is critical to maintaining patient confidentiality.
 
@@ -303,7 +303,7 @@ The following questions can assist researchers in evaluating the FAIRness of the
 |F1. (meta)data are assigned a globally unique and persistent identifier|Does each object have a unique identifier?|
 |F2. data are described with rich metadata (defined by R1 below)|Is the metadata stored in standardized attributes describing versatile aspects of the data (the subject being imaged, processing details, references to related objects, etc.)?|
 |F3. metadata clearly and explicitly include the identifier of the data it describes|Is metadata stored in the same object as the processing result?|
-|F4. (meta)data are registered or indexed in a searchable resource|Are objects and accompanying metadata file(s) stored in a repository with full index and search functionality? Is general-purpose search and indexing of DICOM data supported by every Picture Archival and Communications System (PACS) using DICOM Query and Retrieve protocol, or using REST-based [DICOMWeb](https://dicomweb.hcintegrations.ca) protocol?|
+|F4. (meta)data are registered or indexed in a searchable resource|Are objects and accompanying metadata file(s) stored in a repository with full index and search functionality? Is general-purpose search and indexing of DICOM data supported by every Picture Archival and Communications System (PACS) using DICOM Query and Retrieve protocol, or using REST-based [DICOMWeb](https://www.dicomstandard.org/using/dicomweb) protocol?|
 
 ## To be Accessible:
 

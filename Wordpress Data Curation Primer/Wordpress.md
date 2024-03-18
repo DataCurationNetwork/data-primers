@@ -26,7 +26,7 @@ This work was created as part of the Data Curation Network "Specialized Data Cur
 See also: Primers authored by the workshop attendees at DLF: http://datacurationnetwork.org.
 
 # Overview
-WordPress.com is the hosted version of the open source WordPress.org software (https://en.support.wordpress.com/com-vs-org/;https://dailypost.wordpress.com/2013/11/14/com-or-org/) offering a free online publishing platform with optional features, plans, and custom domains available for additional cost; https://wordpress.com/about/ This primer will focus exclusively on the WordPress.com free site export and archiving process. In the future additional primers and/or additions to this primer may be beneficial in order to cover the variations with WordPress.com Business Plan sites and WordPress.org software.
+WordPress.com is the hosted version of the open source WordPress.org software [https://wordpress.com/support/com-vs-org/](https://wordpress.com/support/com-vs-org/) offering a free online publishing platform with optional features, plans, and custom domains available for additional cost; [https://wordpress.com/about/](https://wordpress.com/about/). This primer will focus exclusively on the WordPress.com free site export and archiving process. In the future additional primers and/or additions to this primer may be beneficial in order to cover the variations with WordPress.com Business Plan sites and WordPress.org software.
 
 # Table of Contents
 
@@ -49,7 +49,7 @@ WordPress.com is the hosted version of the open source WordPress.org software (h
 <!-- /TOC -->
 
 # Description of Format
-WordPress.com is an online publishing platform, run by Automattic (https://automattic.com/), a company started by Matt Mullenweg - a founding developer of WordPress.org software. Automattic maintains the hosting, backups, security, indexing and search engine optimization, and feature development for all WordPress.com sites. WordPress.com is currently one of the most popular online publishing platforms around the world primarily based on its free/low cost user-friendly interface for creating websites and blogs. It offers a very low technical knowledge threshold for users to create good looking sites without having to arrange for servers and domain space. Users, on the free account platform, are not able to manipulate the code in order to further customize their sites, nor are they able to access all of the files associated with their sites. Free accounts do not allow third party plugins.
+WordPress.com is an online publishing platform, run by Automattic [https://automattic.com](https://automattic.com/), a company started by Matt Mullenweg - a founding developer of WordPress.org software. Automattic maintains the hosting, backups, security, indexing and search engine optimization, and feature development for all WordPress.com sites. WordPress.com is currently one of the most popular online publishing platforms around the world primarily based on its free/low cost user-friendly interface for creating websites and blogs. It offers a very low technical knowledge threshold for users to create good looking sites without having to arrange for servers and domain space. Users, on the free account platform, are not able to manipulate the code in order to further customize their sites, nor are they able to access all of the files associated with their sites. Free accounts do not allow third party plugins.
 
 When looking to archive or migrate their WordPress.com site, users are limited to the Export options - “content” (text of posts, pages, comments, categories, and tags) and “media”(media in this case indicates all files that were uploaded to populate the site, including images, audio, or video) within WordPress.com and creating their own screen captures.
 
@@ -57,13 +57,13 @@ For the purposes of this primer, the site itself is being considered as data, re
 
 # Examples
 
-https://digitalmarquette.wordpress.com/about/
+[https://digitalmarquette.wordpress.com/about/](https://digitalmarquette.wordpress.com/about/)
 
-https://sundoglit.com/washer/
+[https://sundoglit.com/washer/](https://sundoglit.com/washer/)
 
-https://06880danwoog.com/
+[https://06880danwoog.com/](https://06880danwoog.com/)
 
-http://datacurationnetwork.org (migrated to Wordpress Jan 22, 2019)
+[http://datacurationnetwork.org](http://datacurationnetwork.org) (migrated to Wordpress Jan 22, 2019)
 
 # Key questions to ask yourself
 
@@ -83,7 +83,7 @@ http://datacurationnetwork.org (migrated to Wordpress Jan 22, 2019)
 
 - Who will perform the export? WordPress.com login credentials and ownership of the site are necessary to perform the export. These can be shared with the curator (i.e. the owner of the site can give their login credentials to the curator), or the owner can perform the export and send the files to the curator.
 
-  - Another option, in many ways a better recommendation, is to have the owner transfer the site to a WordPress.com account that is run by the repository manager so that the curator can handle the export and have administrative privileges to compare the XML document to the actual site. This option only works if the site is no longer going to be maintained.(https://en.support.wordpress.com/transferring-a-site-to-another-wordpress-com-account/)
+  - Another option, in many ways a better recommendation, is to have the owner transfer the site to a WordPress.com account that is run by the repository manager so that the curator can handle the export and have administrative privileges to compare the XML document to the actual site. This option only works if the site is no longer going to be maintained.[https://en.support.wordpress.com/transferring-a-site-to-another-wordpress-com-account/](https://en.support.wordpress.com/transferring-a-site-to-another-wordpress-com-account/)
 
 - Are there additional files (media) associated with the site? These will not be included in the site export XML file and need to be exported separately.
 
@@ -148,7 +148,7 @@ Ensure that ReadMe file to accompany the site includes baseline information (see
 
 Upload the XML document, any media files, and any other types of captures of the site into repository
 
-Export process (https://en.support.wordpress.com/export/; as dashboard is set up January 2019, may change with WP updates):
+Export process [https://en.support.wordpress.com/export/](https://en.support.wordpress.com/export/) (as dashboard is set up January 2019, may change with WP updates)
 
 - Login at WordPress.com with owner credentials for the site being deposited
 
@@ -194,7 +194,7 @@ WP XML export header (WXR header) excerpts
 
 Another option in the curation process would be to transform the exported XML into a PDF formatted to imitate a book.
 
-There are multiple tools available for transforming the XML document into a PDF. One that we tested is BlogBookerforWordPress(h​ ttps://www.blogbooker.com/wordpress.php​)whichproducedreasonably successful .pdfs of the posts, though not of the other site content. In the case of our test site, that meant that sidebar content like related websites and banner images and text as well as other pages of the site (About, Get Involved, etc.) were not captured. In BlogBooker there is not an option or setting to force the process to include other kinds of content.
+There are multiple tools available for transforming the XML document into a PDF. One that we tested is [BlogBooker for WordPress](https://www.blogbooker.com/wordpress.php) which produced reasonably successful .pdfs of the posts, though not of the other site content. In the case of our test site, that meant that sidebar content like related websites and banner images and text as well as other pages of the site (About, Get Involved, etc.) were not captured. In BlogBooker there is not an option or setting to force the process to include other kinds of content.
 
 Also, the site needs to still be hosted in order for the BlogBooker to download and insert any images that are indicated in the XML document.
 
