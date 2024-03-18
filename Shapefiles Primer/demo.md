@@ -19,3 +19,5 @@ This is my second paragraph
 ### Level three header
 
 *this is italic text*
+
+__this is bold text__
