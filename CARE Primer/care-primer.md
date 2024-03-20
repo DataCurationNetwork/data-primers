@@ -10,7 +10,7 @@ Mentors: Wanda Marsolek, Shanda Hunt
 
 Peer reviewers: An Garagiola; Sandi Caldrone; Matthew Harp
 
-**Preferred citation:** Barness, S., Cummins, J., Fernandez, M., James, A.,
+**Preferred citation:** Barsness, S., Cummins, J., Fernandez, M., James, A.,
 Pierce Farrier K., Pringle, J., Carroll, SR. Taitingfong, R., &
 Wieker, A. (2023). CARE Data Principles Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
