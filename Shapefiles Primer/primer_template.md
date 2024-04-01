@@ -1,6 +1,6 @@
 **Primer Template**
 
-Overview
+Overview (kb)
 
   -----------------------------------------------------------------------
   Topic                         Description
@@ -35,33 +35,33 @@ Overview
 
 **Example Table of Contents \[Optional Components\]**
 
-1.  Description of format
+1.  Description of format (kb)
 
-2.  Examples
+2.  Examples (lh)
 
-3.  Sample data set citations
+3.  Sample data set citations (lh)
 
-4.  Key questions to ask yourself
+4.  Key questions to ask yourself (lh)
 
-5.  Key clarifications to get from researcher
+5.  Key clarifications to get from researcher (lh)
 
-6.  Applicable metadata standard, core elements and readme requirements
+6.  Applicable metadata standard, core elements and readme requirements (kb)
 
-7.  Resources for reviewing data
+7.  Resources for reviewing data (ww)
 
-8.  Software for viewing or analyzing data
+8.  Software for viewing or analyzing data (kb)
 
-9.  Preservation actions
+9.  Preservation actions (ww)
 
-10. What to look for to make sure this file meets FAIR principles
+10. What to look for to make sure this file meets FAIR principles (ww)
 
-11. Ways in which fields may use this format
+11. Ways in which fields may use this format (ww)
 
 12. Unresolved Issues/Further Questions \[for example: tracking
-    provenance of data creation, level of detail in dataset\]
+    provenance of data creation, level of detail in dataset\] (ww)
 
 13. Documentation of curation process: What do capture from curation
-    process
+    process (ww)
 
 14. Appendix A - filetype CURATED checklist
 
