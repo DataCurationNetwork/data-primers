@@ -39,7 +39,39 @@ Overview (kb)
 
 2.  Examples (lh)
 
+Snowstorm Database
+
+The Snowstorm Database is a collection of over 500 snowstorms dating back to 1900 and updated operationally. Only storms having large areas of heavy snowfall (10-20 inches or greater) are included. The data is archived in shapefile format, one shapefile per storm. The data is archived in shapefile format, one shapefile per storm. See National Center for Environmental Information (NCEI) Dataset Landing Page at https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#.
+
+TIGER/Line Shapefiles 
+
+The TIGER/Line Shapefiles are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The shapefiles include polygon boundaries
+of geographic areas and features, linear features including roads and hydrography, and point features. See 2023 TIGER/Line ShapeIGER/Line Shapefiles from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341.
+
+Geospatial Data Repositories:
+
+GeoPlatform
+
+GeoPlatform suports discovery and registering geospatial data assets with special emphasis on 177 NationalGeospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC). See About GeoPlatform at https://www.geoplatform.gov/about
+
+The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)
+
+BTAA-GIN is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
+
+
 3.  Sample data set citations (lh)
+
+Mennis, Jeremy; Yuen, Kai, 2023, "Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865", https://doi.org/10.7910/DVN/KPILKU, Harvard Dataverse, V1 
+
+Squires, Mike(2012). Snowstorm Database [snowstorm-db_storm-1_s19000226_e19000303_c20130514.tar]. NOAA National Centers for Environmental Information. [4/28/2022] Available from https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#.
+
+Minnesota Pollution Control Agency. (n.d.). Current Stream Water Units [Minnesota]. Minnesota Geospatial Commons. https://gisdata.mn.gov/dataset/09bb6648-25c4-4c9b-84f5-5d3358989af9 (dataset) 
+
+Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological Survey data release, https://doi.org/10.5066/P9IQDHIT.  
+
+Seven typical elements include Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3r party producer, editor or contributor, publication place, and data within a larger work.
+
+Source: USGS Data Citation at https://www.usgs.gov/data-management/data-citation#elements.
 
 4.  Key questions to ask yourself (lh)
 
