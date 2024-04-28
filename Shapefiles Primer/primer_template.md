@@ -41,18 +41,17 @@ Overview (kb)
 
 Snowstorm Database
 
-The Snowstorm Database is a collection of over 500 snowstorms dating back to 1900 and updated operationally. Only storms having large areas of heavy snowfall (10-20 inches or greater) are included. The data is archived in shapefile format, one shapefile per storm. The data is archived in shapefile format, one shapefile per storm. See National Center for Environmental Information (NCEI) Dataset Landing Page at https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#.
+The [Snowstorm Database] (https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#) is a collection of over 500 snowstorms dating back to 1900 and updated operationally. Only storms having large areas of heavy snowfall (10-20 inches or greater) are included. The data is archived in shapefile format, one shapefile per storm. The data is archived in shapefile format, one shapefile per storm.
 
 TIGER/Line Shapefiles 
 
-The TIGER/Line Shapefiles are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The shapefiles include polygon boundaries
-of geographic areas and features, linear features including roads and hydrography, and point features. See 2023 TIGER/Line ShapeIGER/Line Shapefiles from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341.
+The [TIGER/Line Shapefiles] (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341) are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islan]ds). The shapefiles include polygon boundaries of geographic areas and features, linear features including roads and hydrography, and point features.
 
 Geospatial Data Repositories:
 
 GeoPlatform
 
-GeoPlatform suports discovery and registering geospatial data assets with special emphasis on 177 NationalGeospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC). See About GeoPlatform at https://www.geoplatform.gov/about
+[GeoPlatform] (https://www.geoplatform.gov) suports discovery and registering geospatial data assets with special emphasis on 177 NationalGeospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC).
 
 The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)
 
