@@ -55,7 +55,7 @@ GeoPlatform
 
 The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)
 
-BTAA-GIN is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
+[BTAA-GIN] (https://btaa.org/library/programs-and-services/geoportal) is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
 
 
 3.  Sample data set citations (lh)
@@ -70,7 +70,7 @@ Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological
 
 Seven typical elements include Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3r party producer, editor or contributor, publication place, and data within a larger work.
 
-Source: USGS Data Citation at https://www.usgs.gov/data-management/data-citation#elements.
+Source: [USGS Data Citation] (https://www.usgs.gov/data-management/data-citation#elements).
 
 4.  Key questions to ask yourself (lh)
 
