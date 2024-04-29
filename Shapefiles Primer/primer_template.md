@@ -79,6 +79,9 @@ Source: [USGS Data Citation] (https://www.usgs.gov/data-management/data-citation
 6.  Applicable metadata standard, core elements and readme requirements (kb)
 
 7.  Resources for reviewing data (ww)
+In the process of working with shapefile data, it's crucial to have access to reliable resources for reviewing and understanding the intricacies of the data. Here's a session dedicated to exploring various resources that can aid in the comprehensive review of shapefile data:
+Official Documentation: Start with the official documentation provided by the organization or platform that created or maintains the shapefile format. This documentation often includes detailed specifications, data structure explanations, and usage guidelines.
+Software Manuals: If you're using specific GIS software to work with shapefiles, refer to its manuals. These manuals usually offer insights into how the software handles shapefiles, data manipulation techniques, and troubleshooting tips.
 
 8.  Software for viewing or analyzing data (kb)
 
