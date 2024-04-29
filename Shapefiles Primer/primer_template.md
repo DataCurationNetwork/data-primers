@@ -41,26 +41,26 @@ Overview (kb)
 
 Snowstorm Database
 
-The [Snowstorm Database] (https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#) is a collection of over 500 snowstorms dating back to 1900 and updated operationally. Only storms having large areas of heavy snowfall (10-20 inches or greater) are included. The data is archived in shapefile format, one shapefile per storm. The data is archived in shapefile format, one shapefile per storm.
+The [Snowstorm Database](https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#) is a collection of over 500 snowstorms dating back to 1900 and updated operationally. Only storms having large areas of heavy snowfall (10-20 inches or greater) are included. The data is archived in shapefile format, one shapefile per storm. The data is archived in shapefile format, one shapefile per storm.
 
 TIGER/Line Shapefiles 
 
-The [TIGER/Line Shapefiles] (https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341) are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islan]ds). The shapefiles include polygon boundaries of geographic areas and features, linear features including roads and hydrography, and point features.
+The [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341) are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islan]ds). The shapefiles include polygon boundaries of geographic areas and features, linear features including roads and hydrography, and point features.
 
 Geospatial Data Repositories:
 
 GeoPlatform
 
-[GeoPlatform] (https://www.geoplatform.gov) suports discovery and registering geospatial data assets with special emphasis on 177 NationalGeospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC).
+[GeoPlatform](https://www.geoplatform.gov) suports discovery and registering geospatial data assets with special emphasis on 177 NationalGeospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC).
 
 The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)
 
-[BTAA-GIN] (https://btaa.org/library/programs-and-services/geoportal) is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
+[BTAA-GIN](https://btaa.org/library/programs-and-services/geoportal) is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
 
 
 3.  Sample data set citations (lh)
 
-Mennis, Jeremy; Yuen, Kai, 2023, "Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865", https://doi.org/10.7910/DVN/KPILKU, Harvard Dataverse, V1 
+Mennis, Jeremy; Yuen, Kai, 2023, "Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865", [https://doi.org/10.7910/DVN/KPILKU](https://doi.org/10.7910/DVN/KPILKU), Harvard Dataverse, V1 
 
 Squires, Mike(2012). Snowstorm Database [snowstorm-db_storm-1_s19000226_e19000303_c20130514.tar]. NOAA National Centers for Environmental Information. [4/28/2022] Available from https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#.
 
@@ -70,7 +70,7 @@ Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological
 
 Seven typical elements include Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3r party producer, editor or contributor, publication place, and data within a larger work.
 
-Source: [USGS Data Citation] (https://www.usgs.gov/data-management/data-citation#elements).
+Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements).
 
 4.  Key questions to ask yourself (lh)
 
