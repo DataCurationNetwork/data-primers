@@ -144,10 +144,10 @@ Heritage Preservation: Cultural heritage agencies employ shapefiles to inventory
 Risk Assessment: Shapefiles support disaster risk assessment, hazard mapping, and vulnerability analysis to mitigate the impacts of natural disasters and climate-related events.
 Emergency Planning: Emergency management agencies use shapefiles for emergency planning, evacuation route mapping, and resource allocation during disaster response operations.
 
-
 12. Unresolved Issues/Further Questions \[for example: tracking
     provenance of data creation, level of detail in dataset\] (ww)
 
+Long-Term Preservation and Accessibility:
 Issue: Ensuring the long-term preservation and accessibility of shapefile data poses challenges related to format obsolescence, data migration, and evolving technological landscapes.
 Further Questions: What strategies and best practices can be implemented to safeguard shapefile data against format obsolescence and ensure its accessibility and usability for future generations? How can advancements in data preservation technologies and standards be leveraged to address these challenges?
 
@@ -158,7 +158,6 @@ Further Questions: How can we implement standardized frameworks for tracking the
 Level of Detail in Dataset:
 Issue: Determining the appropriate level of detail for shapefile datasets can be subjective and context-dependent, leading to variations in dataset granularity and usability.
 Further Questions: How can we establish guidelines or standards for defining the level of detail in shapefile datasets based on specific applications and user requirements? What methods can be employed to balance data granularity with storage and processing considerations?
-
 
 13. Documentation of curation process: What do capture from curation
     process (ww)
