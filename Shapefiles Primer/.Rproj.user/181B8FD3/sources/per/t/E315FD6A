@@ -1,0 +1,31 @@
+{
+    "id": "E315FD6A",
+    "path": "~/Documents/GitHub/data-primers/Shapefiles Primer/demo.md",
+    "project_path": "demo.md",
+    "type": "markdown",
+    "hash": "4081208000",
+    "contents": "",
+    "dirty": false,
+    "created": 1710780800435.0,
+    "source_on_save": true,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "10,10",
+        "scrollLine": "0",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "0",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "200:124.28571319580078"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1710781547,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1710781547432,
+    "read_only": false,
+    "read_only_alternatives": []
+}
