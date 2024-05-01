@@ -74,6 +74,8 @@ Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#
 
 4.  Key questions to ask yourself (lh)
 
+Are there obvious georeference errors, such as plants, animals, or landmarks mapped in the wrong environment (whales on land), in the wrong hemisphere, or wrong country?
+
 5.  Key clarifications to get from researcher (lh)
 
 6.  Applicable metadata standard, core elements and readme requirements (kb)
