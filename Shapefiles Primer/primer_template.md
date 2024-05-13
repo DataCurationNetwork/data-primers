@@ -1,6 +1,6 @@
 **Primer Template**
 
-Overview (kb)
+## Overview (kb)
 
   -----------------------------------------------------------------------
   Topic                         Description
@@ -42,7 +42,7 @@ Overview (kb)
 
 **Example Table of Contents \[Optional Components\]**
 
-1.  Description of format (kb)
+##  Description of format (kb)
 
 The ESRI Shapefile format was developed and released as a proprietary format for encoding and exchanging non-topological geometry and attribute data for spatial features (points, lines, polygons) in a dataset. While released as a proprietary format, the [published documentation](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) has enabled geospatial application developers to implement support for reading and writing files in the shapefile format, resulting in broad support and use of the shapefile format for the exchange and use of non-topological feature data. 
 
@@ -83,7 +83,7 @@ Additional optional files
   - Metadata: text/xml                  
 
 
-2.  Examples (lh)
+## Examples (lh)
 
 Snowstorm Database
 
@@ -104,7 +104,7 @@ The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)
 [BTAA-GIN](https://btaa.org/library/programs-and-services/geoportal) is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
 
 
-3.  Sample data set citations (lh)
+## Sample data set citations (lh)
 
 Mennis, Jeremy; Yuen, Kai, 2023, "Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865", [https://doi.org/10.7910/DVN/KPILKU](https://doi.org/10.7910/DVN/KPILKU), Harvard Dataverse, V1 
 
@@ -118,7 +118,7 @@ Seven typical elements include Author, Publication, Year, Title of the data, Pub
 
 Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements).
 
-4.  Key questions to ask yourself (lh)
+##  Key questions to ask yourself (lh)
 
 Are there obvious georeference errors, such as plants, animals, or landmarks mapped in the wrong environment (whales on land), in the wrong hemisphere, or wrong country?
 
@@ -140,19 +140,19 @@ Shapefiles can be read, visualized, and analyzed in a wide variety of applicatio
   * Commercial: ArcGIS Online, ...
   * Open Source: GeoServer, MapServer
 
-9.  Preservation actions (ww)
+## Preservation actions (ww)
 
-10. What to look for to make sure this file meets FAIR principles (ww)
+## What to look for to make sure this file meets FAIR principles (ww)
 
-11. Ways in which fields may use this format (ww)
+## Ways in which fields may use this format (ww)
 
-12. Unresolved Issues/Further Questions \[for example: tracking
+## Unresolved Issues/Further Questions \[for example: tracking
     provenance of data creation, level of detail in dataset\] (ww)
 
-13. Documentation of curation process: What do capture from curation
+## Documentation of curation process: What do capture from curation
     process (ww)
 
-14. Appendix A - filetype CURATED checklist
+## Appendix A - filetype CURATED checklist
 
 ----------------
 Suggested Citation: Author. Date Released. Title.
