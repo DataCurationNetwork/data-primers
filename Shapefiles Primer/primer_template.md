@@ -9,9 +9,8 @@
   Versions                      
   - Original Release: [ESRI Shapefile Technical Description (1998)](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) with subsequent extensions by ESRI
 
-  Primary fields or areas of    
-  * All fields in which non-topological geospatial data are used/exchanged
-  use                           
+  Primary fields or areas of use   
+  * Shapefiles are broadly used across many disciplines in which non-topological vector geometries (i.e. point, line, polygon) and attributes associated with those geometries (e.g. observation timestamp, well depth, street address, population) are stored, visualized, analyzed, and exchanged.                          
 
   Source and affiliation        
   * ESRI - formerly Environmental Systems Research Institute
