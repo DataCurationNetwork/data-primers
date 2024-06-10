@@ -85,44 +85,89 @@ Additional optional files
 
 ## Examples (lh)
 
-Snowstorm Database
+Note how the dataset abstracts include lineage and tools used to create the shapefiles.
 
-The [Snowstorm Database](https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#) is a collection of over 500 snowstorms dating back to 1900 and updated operationally. Only storms having large areas of heavy snowfall (10-20 inches or greater) are included. The data is archived in shapefile format, one shapefile per storm. The data is archived in shapefile format, one shapefile per storm.
+Shapefile datasets:
 
-TIGER/Line Shapefiles 
+[TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341)
 
-The [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341) are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islan]ds). The shapefiles include polygon boundaries of geographic areas and features, linear features including roads and hydrography, and point features.
+The TIGER/Line Shapefiles are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The shapefiles include polygon boundaries of geographic areas and features, linear features including roads and hydrography, and point features.
+
+[Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865](https://doi.org/10.7910/DVN/KPILKU)
+
+This dataset contains geospatial (GIS) data files that capture historical roads and points of interest for the Chesapeake Bay Eastern Shore region of Maryland, as derived from Simon J. Martenet's Map of Maryland: Atlas Edition (1866). Maryland counties covered include present-day Cecil, Caroline, Dorchester, Kent, Queen Anne’s, Somerset, Talbot, Wicomico, and Worcester counties. Geospatial data layers include roads, landings, ferries, churches, shops, mills, schools, hotels, towns with post offices, and towns with court houses. These data can be used to support historical geographic, economic, social, and cultural analyses.
+
+Note:The README file includes additional details about data sources, digital map creation methods, and spacial reference information. 
+
+[Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission (1958)](https://geo.btaa.org/catalog/b98a7b39-830a-48ca-84c2-06332aaebbb8#metadata)
+
+High-quality GIS land use maps for the Twin Cities Metropolitan Area for 1958 that were developed from paper maps (no GIS version existed previously). The GIS shapefiles were exported using ArcGIS Quick Import Tool from the Data Interoperability Toolbox. The coverage files was imported into a file geodatabase then exported to a .shp file for long-term use without proprietary software. An example output of the final GIS file is include as a pdf, in addition, a scan of the original 1958 map (held in the UMN Borchert Map Library) is included as a pdf. Metadata was extracted as an xml file. Finally, all associated coverage files and original map scans were zipped into one file for download and reuse.
 
 Geospatial Data Repositories:
 
-GeoPlatform
+[GeoPlatform](https://www.geoplatform.gov) 
 
-[GeoPlatform](https://www.geoplatform.gov) suports discovery and registering geospatial data assets with special emphasis on 177 NationalGeospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC).
+GeoPlatform suports discovery and registering geospatial data assets with special emphasis on 177 NationalGeospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC).
 
-The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)
+[ScienceBase](https://www.sciencebase.gov/catalog/#)
 
-[BTAA-GIN](https://btaa.org/library/programs-and-services/geoportal) is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
+ScienceBase is a U.S. Geological Survey (USGS) Trusted Digital Repository providing access to scientific data products and resources.
+
+[The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)](https://btaa.org/library/programs-and-services/geoportal)
+
+BTAA-GIN is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
 
 
 ## Sample data set citations (lh)
 
-Mennis, Jeremy; Yuen, Kai, 2023, "Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865", [https://doi.org/10.7910/DVN/KPILKU](https://doi.org/10.7910/DVN/KPILKU), Harvard Dataverse, V1 
+APA style:
 
-Squires, Mike(2012). Snowstorm Database [snowstorm-db_storm-1_s19000226_e19000303_c20130514.tar]. NOAA National Centers for Environmental Information. [4/28/2022] Available from https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00464/html#.
+United States Census Bureau, 2023. 2023 TIGER/Line Shapefiles: States (and equivalent) (machine readable data files). U.S. Department of Commerce. [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php), (Accessed 2 June 2024)
 
-Minnesota Pollution Control Agency. (n.d.). Current Stream Water Units [Minnesota]. Minnesota Geospatial Commons. https://gisdata.mn.gov/dataset/09bb6648-25c4-4c9b-84f5-5d3358989af9 (dataset) 
+Harvard Dataverse suggested citation:
 
-Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological Survey data release, https://doi.org/10.5066/P9IQDHIT.  
+Mennis, Jeremy; Yuen, Kai, 2023, "Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865", [https://doi.org/10.7910/DVN/KPILKU](https://doi.org/10.7910/DVN/KPILKU), Harvard Dataverse, V1 (Accessed 9 June 2024)
 
-Seven typical elements include Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3r party producer, editor or contributor, publication place, and data within a larger work.
+BTAA-GIN suggested citation:
 
-Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements).
+Chen, Wei, Levinson, David M. (2013). Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission (1958). University of Minnesota. [http://dx.doi.org/10.13020/D6059J](http://dx.doi.org/10.13020/D6059J) (dataset) (Accessed 9 June 2024)
+
+
+USGS suggested citation:
+
+Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological Survey data release, [https://doi.org/10.5066/P9IQDHIT](https://doi.org/10.5066/P9IQDHIT), (Accessed 9 June 2024).
+
+Seven typical elements include Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3r party producer, editor or contributor, publication place, and data within a larger work. Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements).
 
 ##  Key questions to ask yourself (lh)
 
-Are there obvious georeference errors, such as plants, animals, or landmarks mapped in the wrong environment (whales on land), in the wrong hemisphere, or wrong country?
+Are there any shapefiles missing from the zipfile? At minimum, there should be three shapefiles:.shp, .shx, and .dbf.
+
+Do all shapefiles have the same prefix (e.g., ferries.shp, ferries.shx, and ferries.dbf)?
+
+Are there obvious georeference errors such as animals, plants, buildings, or parks mapped to the wrong country or hemisphere? This could be caused by missing projection coordinate metadata, which are contained in the .prj shapefile.
+
+Are there polygons with misaligned edges, appearing as overlapping areas or gaps between polygons representing adjacent areas, such as lots, neigborhoods, cities or counties. This is a particular concern with shapefiles because they do not contain topological information (spatial relationships), such as borders.
+
+Did the researcher include data reuse limitations in the metadata or documentation? 
+
+Example: "The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only. Their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are not legal land descriptions." [TIGER/Line Shapefile Legal Disclaimers](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2023/TGRSHP2023_TechDoc_Ch1.pdf).
+
 
 5.  Key clarifications to get from researcher (lh)
+
+Was the data transferred from a geodatabase to a shapefile format?  
+
+If so, there could be significant data loss since shapefiles do not support advanced features, such as time values in date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), and topography, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
+
+Where does the raw data come from, and how does it end up in this form? 
+
+Data digitized from georeferenced images should cite the underlying georeferenced source. In addtion, the software and hardware used to produce and/or work with this data should be described. If ArcGIS was used, the version should be indicated. 
+
+What aspects of the visualization are important? (geometry, color scale, distribution of data, etc.)
+
+What kind of documentation or metadata about your data, data sets, or files has been created?
+
 
 6.  Applicable metadata standard, core elements and readme requirements (kb)
 
