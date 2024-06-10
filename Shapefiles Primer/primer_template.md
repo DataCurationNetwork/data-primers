@@ -162,9 +162,10 @@ If so, there could be significant data loss since shapefiles do not support adva
 
 Where does the raw data come from, and how does it end up in this form? 
 
-Data digitized from georeferenced images should cite the underlying georeferenced source. In addtion, the software and hardware used to produce and/or work with this data should be described. If ArcGIS was used, the version should be indicated. 
+Data digitized from georeferenced images should cite the underlying georeferenced source. In addtion, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5.
+If ArcGIS was used, the version should be indicated.
 
-What aspects of the visualization are important (e.g., scale, boundary lines, resolution, color)?
+What aspects of the visualization are important (e.g., scale, boundary lines, buildings, topgraphy, resolution, color)?
 
 What dates do the non-geospatial data cover (e.g., historic land use designations, historical railroad stations)?
 
