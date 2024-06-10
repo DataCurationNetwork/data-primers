@@ -180,9 +180,16 @@ What kind of documentation or metadata about your data, data sets, or files has 
 
 6.  Applicable metadata standard, core elements and readme requirements (kb)
 
-7.  Resources for reviewing data (ww)
+The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards - numbered 191** in the ISO/TC 211 *Geographic information/Geomatics* "Geographic Information" standards collection - are the currently defined standards-based metadata recommended for geospatial data, including Shapefiles. The specific required and optional elements of the ISO standard depend upon data type and characteristics and as a result a "minimal" metadata record (i.e. a metadata record that would meet structural requirements when evaluated using an XML schema) can be created that is only minimally useful, but could be substantially improved through the use of additional metadata elements within the 19115 standard that are optional. Because of this a number of guidance documents have been developed to aid in the development of ISO 19115 compliant metadata that also meet dataset specific requirements for discovery, access, understanding, and use. Examples of these guidelines documents include:
 
-8.  Software for viewing or analyzing data (kb)
+* [USGS ISO Content Specifications](https://www.usgs.gov/software/usgs-iso-content-specifications)
+* NOAA Guidelines
+* ESRI
+* ...
+
+8.  Resources for reviewing data (ww)
+
+9.  Software for viewing or analyzing data (kb)
 
 Shapefiles can be read, visualized, and analyzed in a wide variety of applications including:
 
