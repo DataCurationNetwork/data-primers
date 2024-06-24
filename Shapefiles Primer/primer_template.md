@@ -183,26 +183,29 @@ Data digitized from georeferenced images should cite the underlying georeference
 
 6.  Applicable metadata standard, core elements and readme requirements (kb)
 
-The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards - numbered 191** in the ISO/TC 211 *Geographic information/Geomatics* "Geographic Information" standards collection - are the currently defined standards-based metadata recommended for geospatial data, including Shapefiles. The specific required and optional elements of the ISO standard depend upon data type and characteristics and as a result a "minimal" metadata record (i.e. a metadata record that would meet structural requirements when evaluated using an XML schema) can be created that is only minimally useful, but could be substantially improved through the use of additional metadata elements within the 19115 standard that are optional. Because of this a number of guidance documents have been developed to aid in the development of ISO 19115 compliant metadata that also meet dataset specific requirements for discovery, access, understanding, and use. Examples of these guidelines documents include:
+The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards - numbered 191** in the ISO/TC 211 *Geographic information/Geomatics* "Geographic Information" standards collection - are the currently defined standards-based metadata recommended for geospatial data, including Shapefiles. The specific required and optional elements of the ISO standard depend upon data type and characteristics and as a result a "minimal" metadata record (i.e. a metadata record that would meet structural requirements when evaluated using an XML schema) can be created that is only minimally useful, but could be substantially improved through the use of additional metadata elements within the 19115 standard that are optional. Because of this, a number of guidance documents have been developed to aid in the development of ISO 19115 compliant metadata that also meet dataset specific requirements for discovery, access, understanding, and use - with these specific requirements being referred to as application profiles (e.g. the [FGDC North American Profile of ISO19115:2003 - Geographic Information - Metadata (2007)](https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf)) and profiles listed in the [RDA Metada Standards Catalog](https://rdamsc.bath.ac.uk/msc/m22)). Examples of these guidelines documents include:
 
-* [USGS ISO Content Specifications](https://www.usgs.gov/software/usgs-iso-content-specifications)
-* NOAA Guidelines
-* ESRI
-* ...
+* [USGS Metadata Creation Web Page](https://www.usgs.gov/data-management/metadata-creation)
+* [NOAA Metadata Creation Reference Web Page](https://www.ncei.noaa.gov/resources/metadata/create)
+* [ESRI ISO Metadata Creation Instructions](https://pro.arcgis.com/en/pro-app/latest/help/metadata/create-iso-19115-and-iso-19139-metadata.htm)
+
+The RDA ISO 19115 Metadata Standards Catalog [entry] contains a valuable list of references related to the standard itself, related standards and profiles, tools for creating ISO metadata, and users of the standard that can be visited to view examples of their application of the standard. 
 
 7.  Resources for reviewing data (ww)
 
 8.  Software for viewing or analyzing data (kb)
 
-Shapefiles can be read, visualized, and analyzed in a wide variety of applications including:
+Shapefiles can be read, visualized, and analyzed in a wide variety of applications including (a short list of many):
 
-* Desktop GIS: 
-  * Commercial: ArcGIS, ...
-  * Open Source: QGIS, ...
-* Programming languages: R, Python, ...
-* Online mapping applications: 
-  * Commercial: ArcGIS Online, ...
-  * Open Source: GeoServer, MapServer
+  * Desktop Geographic Information System (GIS):
+    * Open Source: [QGIS](https://www.qgis.org/en/site/), [GRASS GIS](https://grass.osgeo.org/), [uDig](http://udig.refractions.net/)
+    * Commercial: [ArcGIS](https://www.arcgis.com/index.html)
+  * Programming Languages:
+    * R: e.g. [`sf` package](https://cran.r-project.org/web/packages/sf/index.html) 
+    * Python: [`GeoPandas` module](https://geopandas.org/en/stable/getting_started/introduction.html)
+  * Online mapping applications: 
+    * Commercial: [ArcGIS Online](https://www.arcgis.com/index.html)
+    * Open Source: [GeoServer](https://geoserver.org/), [MapServer](https://mapserver.org/)
 
 ## Preservation actions (ww)
 
