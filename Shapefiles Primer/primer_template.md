@@ -1,5 +1,14 @@
 **Primer Template**
 
+# To-Do
+* Section 7 reference format references in section 1 above
+* Section 7 paragraph breaks before "Official Documentation", and "Software manuals"
+* Section 9 paragraph breaks before "Regular backups", "Comprehensive metadata", "Standardized Metadata Formats", "Regular Format Checks", "Data Conversion Tools"
+* Add MIME types ref. - https://www.iana.org/assignments/media-types/media-types.xhtml
+* Consider location of "Geospatial Data Repositories" section to just above regional repositories ...
+* Consider separate discussion of difference between registries, clearinghouses, and trusted repositories ...
+* 
+
 ## Overview (kb)
 
   -----------------------------------------------------------------------
@@ -10,10 +19,10 @@
   - Original Release: [ESRI Shapefile Technical Description (1998)](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) with subsequent extensions by ESRI
 
   Primary fields or areas of use   
-  * Shapefiles are broadly used across many disciplines in which non-topological vector geometries (i.e. point, line, polygon) and attributes associated with those geometries (e.g. observation timestamp, well depth, street address, population) are stored, visualized, analyzed, and exchanged.                          
+  * Shapefiles are broadly used across many disciplines in which [non-topological vector geometries](https://www.esri.com/news/arcuser/0401/topo.html) (i.e. point, line, polygon) and attributes associated with those geometries (e.g. observation timestamp, well depth, street address, population) are stored, visualized, analyzed, and exchanged.                          
 
   Source and affiliation        
-  * ESRI - formerly Environmental Systems Research Institute
+  * [ESRI](https://www.esri.com/en-us/home) - formerly Environmental Systems Research Institute
 
   Metadata standards ([FGDC Geospatial Metadata Standards and Guidelines](https://www.fgdc.gov/metadata/geospatial-metadata-standards))            
   * U.S. Federal Geographic Data Committee *Content Standard for Digital Geospatial Metadata (CSDGM)* (depricated)
@@ -32,8 +41,12 @@
   * Python for programming/automated review/testing, e.g. [`GeoPandas` module](https://geopandas.org/en/stable/getting_started/introduction.html)
 
   Date Created                  
+  * June 24, 2024
 
   Created by                    
+  * Laura Hjerpe
+  * Karl Benedict
+  * WW
 
   Date updated and summary of   
   changes made                  
@@ -43,7 +56,7 @@
 
 ##  Description of format (kb)
 
-The ESRI Shapefile format was developed and released as a proprietary format for encoding and exchanging non-topological geometry and attribute data for spatial features (points, lines, polygons) in a dataset. While released as a proprietary format, the [published documentation](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) has enabled geospatial application developers to implement support for reading and writing files in the shapefile format, resulting in broad support and use of the shapefile format for the exchange and use of non-topological feature data. 
+The ESRI Shapefile format was developed and released as a proprietary format for encoding and exchanging non-topological geometry and attribute data for spatial features (points, lines, polygons - AKA features) in a dataset. While released as a proprietary format, the [published documentation](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) has enabled geospatial application developers to implement support for reading and writing files in the shapefile format, resulting in broad support and use of the shapefile format for the exchange and use of non-topological feature data. 
 
 Structure Documentation
 
@@ -102,7 +115,7 @@ Note:The README file includes additional details about data sources, digital map
 
 High-quality GIS land use maps for the Twin Cities Metropolitan Area for 1958 that were developed from paper maps (no GIS version existed previously). The GIS shapefiles were exported using ArcGIS Quick Import Tool from the Data Interoperability Toolbox. The coverage files were imported into a file geodatabase then exported to a .shp file for long-term use without proprietary software. An example output of the final GIS file is include as a pdf, in addition, a scan of the original 1958 map (held in the UMN Borchert Map Library) is included as a pdf. Metadata was extracted as an xml file. Finally, all associated coverage files and original map scans were zipped into one file for download and reuse.
 
-Geospatial Data Repositories:
+**Geospatial Data Repositories** are specialized platforms that are typically designed to provide data discovery, access, and use capabilities that might be considered value-added services on top of the datasets stored in those systems. Such systems do not necessarily provide long-term digital preservation capabilities or associated persistent identifiers (such as DOIs) for the data upon which they are built - two key characteristics that commonly define trusted repositories (e.g. [USGS Fundamental Science Practices (FSP) Standards for Establishing Trusted Repositories for USGS Digital Assets](https://www.usgs.gov/office-of-science-quality-and-integrity/fundamental-science-practices-fsp-standards-establishing)) and enable effective data citation (e.g. [Data Citation Synthesis Group: Joint Declaration of Data Citation Principles](https://doi.org/10.25490/a97f-egyk)). For these reasons geospatial data repositories such as those listed below may be considered as high-impact platforms for providing access to geospatial data, but must be separately evaluated to determine if additional digital preservation actions, such as placement in a separate trusted data repository, are needed for a specific dataset.  
 
 [GeoPlatform](https://www.geoplatform.gov) 
 
@@ -151,7 +164,7 @@ Do all shapefiles have the same prefix (e.g., ferries.shp, ferries.shx, and ferr
 
 Are there obvious georeference errors such as animals, plants, buildings, or parks mapped to the wrong country or hemisphere? This could be caused by missing projection coordinate metadata, which are contained in the .prj shapefile.
 
-Are there polygons with misaligned edges, appearing as overlapping areas or gaps between polygons representing adjacent areas, such as lots, neigborhoods, cities or counties. This is a particular concern with shapefiles because they do not contain topological information (spatial relationships), such as borders.
+Are there polygons with misaligned edges, appearing as overlapping areas or gaps between polygons representing adjacent areas, such as lots, neigborhoods, cities or counties. This is a particular concern with shapefiles because they do not contain topological information (spatial relationships), such as shared edges and direction.
 
 Did the researcher include data reuse limitations in the metadata or documentation? 
 
@@ -160,46 +173,48 @@ Example: "The boundary information in the TIGER/Line Shapefiles is for statistic
 
 5.  Key clarifications to get from researcher (lh)
 
-Was the data transferred from a geodatabase to a shapefile format?  
+**Was the data transferred from a geodatabase to a shapefile format?**  
 
-If so, there could be significant data loss since shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
+If so, there could be significant data loss since shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), linkages with additional tabular data within the geodatabase, and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
 
-Where does the raw data come from, and how does it end up in this form? 
+**Where does the raw data come from, and how does it end up in this form?** 
 
-Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5.
-If ArcGIS was used, the version should be indicated.
+Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated.
 
-What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?
+**What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
 
-What dates do the non-geospatial data cover (e.g., land use designations, railroad stations)? Is this data supposed to be historical or current?
+**What dates do the non-geospatial data cover (e.g., land use designations, railroad stations)? Is this data supposed to be historical or current?**
 
-What dates do the geospatial data cover (e.g, cities, states, countries)? Is this data supposed to be historical or current?
+**What dates do the geospatial data cover (e.g, cities, states, countries)? Is this data supposed to be historical or current?**
 
-What kind of documentation or metadata about your data, data sets, or files has been created?
+**What kind of documentation or metadata about your data, data sets, or files has been created?**
 
 
 6.  Applicable metadata standard, core elements and readme requirements (kb)
 
-The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards - numbered 191** in the ISO/TC 211 *Geographic information/Geomatics* "Geographic Information" standards collection - are the currently defined standards-based metadata recommended for geospatial data, including Shapefiles. The specific required and optional elements of the ISO standard depend upon data type and characteristics and as a result a "minimal" metadata record (i.e. a metadata record that would meet structural requirements when evaluated using an XML schema) can be created that is only minimally useful, but could be substantially improved through the use of additional metadata elements within the 19115 standard that are optional. Because of this a number of guidance documents have been developed to aid in the development of ISO 19115 compliant metadata that also meet dataset specific requirements for discovery, access, understanding, and use. Examples of these guidelines documents include:
+The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards - numbered 191** in the ISO/TC 211 *Geographic information/Geomatics* "Geographic Information" standards collection - are the currently defined standards-based metadata recommended for geospatial data, including Shapefiles. The specific required and optional elements of the ISO standard depend upon data type and characteristics and as a result a "minimal" metadata record (i.e. a metadata record that would meet structural requirements when evaluated using an XML schema) can be created that is only minimally useful, but could be substantially improved through the use of additional metadata elements within the 19115 standard that are optional. Because of this, a number of guidance documents have been developed to aid in the development of ISO 19115 compliant metadata that also meet dataset specific requirements for discovery, access, understanding, and use - with these specific requirements being referred to as application profiles (e.g. the [FGDC North American Profile of ISO19115:2003 - Geographic Information - Metadata (2007)](https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf)) and profiles listed in the [RDA Metada Standards Catalog](https://rdamsc.bath.ac.uk/msc/m22)). Examples of these guidelines documents include:
 
-* [USGS ISO Content Specifications](https://www.usgs.gov/software/usgs-iso-content-specifications)
-* NOAA Guidelines
-* ESRI
-* ...
+* [USGS Metadata Creation Web Page](https://www.usgs.gov/data-management/metadata-creation)
+* [NOAA Metadata Creation Reference Web Page](https://www.ncei.noaa.gov/resources/metadata/create)
+* [ESRI ISO Metadata Creation Instructions](https://pro.arcgis.com/en/pro-app/latest/help/metadata/create-iso-19115-and-iso-19139-metadata.htm)
 
-8.  Resources for reviewing data (ww)
+The RDA ISO 19115 Metadata Standards Catalog [entry] contains a valuable list of references related to the standard itself, related standards and profiles, tools for creating ISO metadata, and users of the standard that can be visited to view examples of their application of the standard. 
 
-9.  Software for viewing or analyzing data (kb)
+7.  Resources for reviewing data (ww)
 
-Shapefiles can be read, visualized, and analyzed in a wide variety of applications including:
+8.  Software for viewing or analyzing data (kb)
 
-* Desktop GIS: 
-  * Commercial: ArcGIS, ...
-  * Open Source: QGIS, ...
-* Programming languages: R, Python, ...
-* Online mapping applications: 
-  * Commercial: ArcGIS Online, ...
-  * Open Source: GeoServer, MapServer
+Shapefiles can be read, visualized, and analyzed in a wide variety of applications including (a short list of many):
+
+  * Desktop Geographic Information System (GIS):
+    * Open Source: [QGIS](https://www.qgis.org/en/site/), [GRASS GIS](https://grass.osgeo.org/), [uDig](http://udig.refractions.net/)
+    * Commercial: [ArcGIS](https://www.arcgis.com/index.html)
+  * Programming Languages:
+    * R: e.g. [`sf` package](https://cran.r-project.org/web/packages/sf/index.html) 
+    * Python: [`GeoPandas` module](https://geopandas.org/en/stable/getting_started/introduction.html)
+  * Online mapping applications: 
+    * Commercial: [ArcGIS Online](https://www.arcgis.com/index.html)
+    * Open Source: [GeoServer](https://geoserver.org/), [MapServer](https://mapserver.org/)
 
 ## Preservation actions (ww)
 
