@@ -1,13 +1,13 @@
 **Primer Template**
 
 # To-Do
-* Section 7 reference format references in section 1 above
-* Section 7 paragraph breaks before "Official Documentation", and "Software manuals"
-* Section 9 paragraph breaks before "Regular backups", "Comprehensive metadata", "Standardized Metadata Formats", "Regular Format Checks", "Data Conversion Tools"
-* Add MIME types ref. - https://www.iana.org/assignments/media-types/media-types.xhtml
-* Consider location of "Geospatial Data Repositories" section to just above regional repositories ...
-* Consider separate discussion of difference between registries, clearinghouses, and trusted repositories ...
-* 
+- [ ] Section 7 reference format references in section 1 above
+- [ ] Section 7 paragraph breaks before "Official Documentation", and "Software manuals"
+- [ ] Section 9 paragraph breaks before "Regular backups", "Comprehensive metadata", "Standardized Metadata Formats", "Regular Format Checks", "Data Conversion Tools"
+- [ ] Add MIME types ref. - https://www.iana.org/assignments/media-types/media-types.xhtml
+- [ ] Consider location of "Geospatial Data Repositories" section to just above regional repositories ...
+- [ ] Consider separate discussion of difference between registries, clearinghouses, and trusted repositories ...
+- [ ] ... additional to-do items go here
 
 ## Overview (kb)
 
