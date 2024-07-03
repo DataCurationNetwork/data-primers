@@ -11,8 +11,8 @@
 
 ## Overview (kb)
 
-  ----------------------------------------------------------------------------------------------------
-  Topic                         Description
+  
+  | Topic                      | Description
   ----------------------------- ----------------------------------------------------------------------
   | Versions                   | Original Release: [ESRI Shapefile Technical Description (1998)](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) with subsequent extensions by ESRI |
 
