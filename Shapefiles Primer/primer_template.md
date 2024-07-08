@@ -26,7 +26,8 @@
  
  **Sample image link and caption**
  
- ![Photo by [delfi de la Rua](https://unsplash.com/@delfidelarua7) on Unspash](images/delfi-de-la-rua-vfzfavUZmfc-unsplash.jpg)
+ ![Photo by [delfi de la Rua](https://unsplash.com/@delfidelarua7) on Unspash](images/delfi-de-la-rua-vfzfavUZmfc-unsplash.jpg)<br/>
+ Photo by [delfi de la Rua](https://unsplash.com/@delfidelarua7) on Unspash
 
 ##  Description of format
 
