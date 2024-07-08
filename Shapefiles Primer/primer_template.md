@@ -24,6 +24,9 @@
   | Created by                 | Laura Hjerpe, Karl Benedict, Wenjie Wang |
   | Date updated and summary of changes made | 2024-07-31 Peer review version completed <br/><hr/> TBD edits from peer review |                
  
+ **Sample image link and caption**
+ 
+ ![Photo by [delfi de la Rua](https://unsplash.com/@delfidelarua7) on Unspash](images/delfi-de-la-rua-vfzfavUZmfc-unsplash.jpg)
 
 ##  Description of format
 
