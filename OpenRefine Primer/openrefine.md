@@ -123,7 +123,8 @@ you use Microsoft Excel?</p>
 </tr>
 <tr class="header">
 <th>Created by</th>
-<th>Heather Owen, Aditi Thite, Peyton Tvrdy</th>
+<th><p>Heather Owen, Aditi Thite, Peyton Tvrdy</p>
+<p>Mentor: Sophia Lafferty-Hess</p></th>
 </tr>
 <tr class="odd">
 <th>Date updated and summary of changes made</th>
@@ -152,6 +153,8 @@ Sophia Lafferty-Hess, Duke University
 ## TABLE OF CONTENTS
 
 [<u>Overview</u>](#overview)
+
+> [<u>TABLE OF CONTENTS</u>](#table-of-contents)
 
 [<u>Volume 1: Introduction and
 Setup</u>](#volume-1-introduction-and-setup)
@@ -506,7 +509,7 @@ Department if you have problems with installation.
 
 ### **Navigation and Settings**
 
-<img src="media/image43.png" style="width:6.5in;height:2.73611in" />
+<img src="media/image67.png" style="width:6.5in;height:2.73611in" />
 
 Fig. 1
 
@@ -516,7 +519,7 @@ To create a new project, you can upload data from your computer, a URL,
 Clipboard, Database and Google Data. Once you upload your data and click
 “Next,” you will be brought to the “Create project” screen.
 
-<img src="media/image23.png" style="width:6.5in;height:2.9905in" />
+<img src="media/image50.png" style="width:6.5in;height:2.9905in" />
 
 Fig. 2
 
@@ -542,7 +545,7 @@ data manipulation, OpenRefine offers embedded in-built functions in the
 form of user-friendly drop-down menus which enable ease of
 use.<sup>11</sup>
 
-<img src="media/image7.png" style="width:6.5in;height:2.69444in" />
+<img src="media/image22.png" style="width:6.5in;height:2.69444in" />
 
 Fig. 3
 
@@ -566,6 +569,10 @@ Manual<sup>4</sup> or for a visual tutorial, you can then view the video
 by the University of Idaho Library.<sup>5</sup>
 
 ## Section 4: Key Questions to Ask Yourself
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
 
 ### **Should you use OpenRefine?**
 
@@ -681,6 +688,10 @@ Some common issues you may want to ask the researcher about:
 
 ## **Section 5: Transformations**
 
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+
 > OpenRefine has useful built-in cleaning/transformation tools, called
 > “Transform…” and “Common transforms” that are located under “Edit
 > Cells” in the drop-down menu of each column.<sup>1, 11</sup>
@@ -702,7 +713,7 @@ Some common issues you may want to ask the researcher about:
 
 #### **Remove Whitespace**
 
-> <img src="media/image78.png" style="width:4.57469in;height:3.36979in" />
+> <img src="media/image83.png" style="width:4.57469in;height:3.36979in" />
 >
 > Fig. 4
 >
@@ -714,7 +725,7 @@ Some common issues you may want to ask the researcher about:
 
 #### **Bulk Transformations**
 
-> <img src="media/image59.png" style="width:3.60417in;height:3.76912in" />
+> <img src="media/image69.png" style="width:3.60417in;height:3.76912in" />
 >
 > Fig. 5
 >
@@ -731,8 +742,8 @@ Some common issues you may want to ask the researcher about:
 
 #### **Changing Format**
 
-> <img src="media/image71.png" style="width:1.27083in;height:3.52083in" />
-> <img src="media/image68.png" style="width:1.26969in;height:3.50477in" />
+> <img src="media/image89.png" style="width:1.27083in;height:3.52083in" />
+> <img src="media/image63.png" style="width:1.26969in;height:3.50477in" />
 >
 > Fig. 6
 >
@@ -748,13 +759,15 @@ Some common issues you may want to ask the researcher about:
 > to the column, and then select “Edit cells,” “Common transforms,” and
 > “To uppercase.”
 >
-> <img src="media/image28.png" style="width:1.125in;height:2.79167in" />
+> <img src="media/image42.png" style="width:1.125in;height:2.79167in" />
 >
 > Fig. 7
 >
 > The titles are then rewritten so they are uppercase.
 
 ## **Section 6: Filtering Data** 
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
 
 > In addition to using facets to filter data in OpenRefine, you can also
 > apply a “Text filter” to filter data. You can look for the piece of
@@ -770,28 +783,28 @@ Some common issues you may want to ask the researcher about:
 > In the following example, we are using the “Title” column to gain
 > insight.
 >
-> <img src="media/image6.png" style="width:2.07813in;height:4.61911in" />
+> <img src="media/image11.png" style="width:2.07813in;height:4.61911in" />
 
 Fig. 8
 
 > First, identify the column that you would like to filter. In this
 > example we will be filtering the “Title” column.
 >
-> <img src="media/image64.png" style="width:2.09375in;height:2.96875in" />
+> <img src="media/image31.png" style="width:2.09375in;height:2.96875in" />
 
 Fig. 9
 
 > To create a text filter, navigate to the column’s drop down. Then
 > select “Text filter”.
 >
-> <img src="media/image53.png" style="width:3.14583in;height:2in" />
+> <img src="media/image49.png" style="width:3.14583in;height:2in" />
 
 Fig. 10
 
 > Once “Text filter” is selected, you have the option to search that
 > column for your desired value.
 >
-> <img src="media/image93.png" style="width:5.01563in;height:4.9353in" />
+> <img src="media/image40.png" style="width:5.01563in;height:4.9353in" />
 
 Fig. 11
 
@@ -805,7 +818,11 @@ Fig. 11
 > successfully cleaned the data for this software without searching for
 > each exclamation point individually.
 
-## **Section 7: Editing Single Cells** <span class="mark"> </span>
+## **Section 7: Editing Single Cells**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)  
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+<span class="mark"> </span>
 
 #### **Editing Individual Cell**
 
@@ -814,13 +831,13 @@ misspelling. You can edit a single cell by simply hovering over a cell
 with your mouse. This is a good approach if you want to edit each cell
 one-by-one.<sup>1</sup>
 
-> <img src="media/image60.png" style="width:5.98958in;height:1.32292in" />
+> <img src="media/image30.png" style="width:5.98958in;height:1.32292in" />
 
 Fig. 12
 
 Edit will appear as an option when you hover over the cell.
 
-<img src="media/image87.png" style="width:4.66667in;height:1.80208in" />
+<img src="media/image80.png" style="width:4.66667in;height:1.80208in" />
 
 Fig. 13
 
@@ -831,6 +848,8 @@ misspelling you can select “Apply to all identical cells.” Bulk editing
 is one of the unique features of OpenRefine.
 
 ## **Section 8: Sorting Data**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
 
 Data can be sorted in OpenRefine by clicking on the drop-down menu of
 the column you want to sort on, by choosing “Sort”.<sup>1</sup> Unlike
@@ -848,7 +867,7 @@ view the following example.
 
 #### **Sort by Title Alphabetically**
 
-> <img src="media/image66.png" style="width:3.0624in;height:4.10938in" />
+> <img src="media/image38.png" style="width:3.0624in;height:4.10938in" />
 
 Fig. 14
 
@@ -857,14 +876,14 @@ Fig. 14
 > would like to change this sort from the chronological order by release
 > date to alphabetical by title.
 >
-> <img src="media/image58.png" style="width:2.46875in;height:3.16667in" />
+> <img src="media/image90.png" style="width:2.46875in;height:3.16667in" />
 
 Fig. 15
 
 To sort the column title, select the column drop down menu and select
 “Sort”
 
-<img src="media/image26.png" style="width:4.21875in;height:3.44792in" />
+<img src="media/image34.png" style="width:4.21875in;height:3.44792in" />
 
 Fig. 16
 
@@ -873,14 +892,14 @@ Fig. 16
 > you would like to change the sort from chronological to alphabetical.
 > Select a-z sort and select ok.
 >
-> <img src="media/image40.png" style="width:3.70417in;height:6.09896in" />
+> <img src="media/image43.png" style="width:3.70417in;height:6.09896in" />
 
 Fig. 17
 
 > Now the table is sorted alphabetically by title. When OpenRefine sorts
 > alphabetically, they sort by symbols, then numbers, then by letters.
 >
-> <img src="media/image29.png" style="width:6.23958in;height:4.07292in" />
+> <img src="media/image3.png" style="width:6.23958in;height:4.07292in" />
 
 Fig. 18
 
@@ -889,6 +908,10 @@ Fig. 18
 > sort”.
 
 ## **Section 9: Faceting Data** 
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
 
 > Facet is the most used feature of OpenRefine, as it enables
 > consistency of data. A “Facet” groups all values that appear in a
@@ -922,14 +945,14 @@ column and their frequency. In the following example, you will create a
 text facet for the “Genre” column. With this information, you can
 establish what genres are the most and least popular in this dataset.
 
-<img src="media/image2.png" style="width:3.63542in;height:2.63542in" />
+<img src="media/image25.png" style="width:3.63542in;height:2.63542in" />
 
 Fig. 19
 
 To create a text facet, navigate to the column menu, select facet, then
 “Text facet.”
 
-<img src="media/image51.png" style="width:3.20833in;height:5.52083in" />
+<img src="media/image35.png" style="width:3.20833in;height:5.52083in" />
 
 Fig. 20
 
@@ -938,7 +961,7 @@ which lists all the values that can be found in the column, including
 the number of blank cells. In this example, you will view all the movies
 that have the genre of “Thriller.”
 
-<img src="media/image15.png" style="width:4.36979in;height:1.83642in" />
+<img src="media/image37.png" style="width:4.36979in;height:1.83642in" />
 
 Fig. 21
 
@@ -952,7 +975,7 @@ the frequency of recurring values.
 Text facets can also be used as a way to easily spot mistakes and to
 correct these mistakes in bulk.
 
-<img src="media/image69.png" style="width:2.74962in;height:1.99724in" />
+<img src="media/image39.png" style="width:2.74962in;height:1.99724in" />
 
 Fig. 22
 
@@ -960,7 +983,7 @@ First, you can create a Text facet for the Country column by clicking on
 the arrow next to the column, and then selecting “Facet” and “Text
 facet.”
 
-<img src="media/image46.png" style="width:2.30432in;height:2.78646in" />
+<img src="media/image41.png" style="width:2.30432in;height:2.78646in" />
 
 Fig. 23
 
@@ -968,11 +991,11 @@ On the left side the Facet / Filter menu will appear. You can scroll
 through the menu to see if you notice any obvious mistakes. Here you can
 see the United States is spelled as USA 2941 times, and as US 3 times.
 
-<img src="media/image31.png" style="width:4.35836in;height:1.53042in" />
+<img src="media/image53.png" style="width:4.35836in;height:1.53042in" />
 
 Fig. 24
 
-<img src="media/image25.png" style="width:4.34896in;height:1.62613in" />
+<img src="media/image48.png" style="width:4.34896in;height:1.62613in" />
 
 Fig. 25
 
@@ -981,7 +1004,7 @@ will appear. You then have the option to edit each cell. You can edit
 each cell one-by-one by selecting Apply, or you can select “Apply to all
 identical cells” to have them edit in bulk.
 
-<img src="media/image73.png" style="width:2.53646in;height:2.99271in" />
+<img src="media/image62.png" style="width:2.53646in;height:2.99271in" />
 
 Fig. 26
 
@@ -989,7 +1012,7 @@ You can also choose to edit within the facet menu. If you hover over the
 value, the “edit” option will appear. If you select that, then you can
 type in the new value.
 
-<img src="media/image11.png" style="width:2.42462in;height:2.87417in" />
+<img src="media/image13.png" style="width:2.42462in;height:2.87417in" />
 
 Fig. 27
 
@@ -1007,14 +1030,14 @@ it is recommended that you use facets to check each column.
 A numeric facet is applicable to the column that contains numeric
 values.
 
-<img src="media/image34.png" style="width:3.7957in;height:2.74664in" />
+<img src="media/image9.png" style="width:3.7957in;height:2.74664in" />
 
 Fig. 28
 
 A numeric facet can be found under the drop-down menu of each column
 under the “Facet” tab.
 
-<img src="media/image70.png" style="width:2.92966in;height:1.78638in" />
+<img src="media/image76.png" style="width:2.92966in;height:1.78638in" />
 
 Fig. 29
 
@@ -1032,7 +1055,7 @@ to move the sliding scale to the desired values. We will find out which
 movies have an IMDb rating below 6. So we move the sliding scale up to
 the value 6.
 
-<img src="media/image86.png" style="width:1.1908in;height:5.56955in" />
+<img src="media/image73.png" style="width:1.1908in;height:5.56955in" />
 
 Fig. 31
 
@@ -1046,7 +1069,7 @@ had a movie rating below 6.
 Timeline facets can be useful for noticing erroneous dates or exploring
 the dataset. It can only be used if the data is in the date format.
 
-<img src="media/image19.png" style="width:5.04688in;height:3.85795in" />
+<img src="media/image46.png" style="width:5.04688in;height:3.85795in" />
 
 Fig. 32
 
@@ -1054,7 +1077,7 @@ You can change the data format to date format by clicking the arrow next
 to the column, and then selecting “Edit cells,” “Common transforms,” and
 “To date.” If the column has the date format, it will have green text.
 
-<img src="media/image52.png" style="width:2.94792in;height:2.29654in" />
+<img src="media/image32.png" style="width:2.94792in;height:2.29654in" />
 
 Fig. 33
 
@@ -1062,7 +1085,7 @@ Once the column is in the date format, you can add a Timeline facet by
 clicking the arrow next to the column, and then selecting “Facet,” and
 “Timeline facet.”
 
-<img src="media/image1.png" style="width:3.34375in;height:2.0625in" />
+<img src="media/image23.png" style="width:3.34375in;height:2.0625in" />
 
 Fig. 34
 
@@ -1077,7 +1100,7 @@ Since you know this dataset should only have data from 1900 - 2015, it
 is easy to see 1420 is a mistake. You can easily use the Timeline facet
 to fix this mistake.
 
-<img src="media/image33.png" style="width:6.5in;height:1.61111in" />
+<img src="media/image28.png" style="width:6.5in;height:1.61111in" />
 
 Fig. 35
 
@@ -1097,14 +1120,14 @@ will appear. After selecting the edit option, you can type in the
 correct date, and then select apply. Make sure to write the date in the
 ISO 8601 format.
 
-<img src="media/image65.png" style="width:3.42708in;height:2.09375in" />
+<img src="media/image72.png" style="width:3.42708in;height:2.09375in" />
 
 Fig. 37
 
 To reset the Timeline, you can select “Reset all” above the timeline.
 The new range of the data is now 1920-09-15 to 2015-12-29.
 
-<img src="media/image32.png" style="width:6.5in;height:2.30556in" />
+<img src="media/image24.png" style="width:6.5in;height:2.30556in" />
 
 Fig. 38
 
@@ -1115,6 +1138,8 @@ be 878 rows of 3725.
 To remove the facet, select the “x” next to the name of the facet.
 
 ## **Section 10: Clustering Data** 
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
 
 > The Cluster function groups together similar, but inconsistent values
 > in a given column and lets you merge these inconsistent values into a
@@ -1130,7 +1155,7 @@ To remove the facet, select the “x” next to the name of the facet.
 
 #### **Using Clustering to Combine Similar Terms**
 
-> <img src="media/image92.png" style="width:2.83854in;height:2.44894in" />
+> <img src="media/image87.png" style="width:2.83854in;height:2.44894in" />
 >
 > Fig. 39
 >
@@ -1138,14 +1163,14 @@ To remove the facet, select the “x” next to the name of the facet.
 > text facet by clicking on the arrow next to the column, and then
 > selecting “Facet” and “Text facet.”
 >
-> <img src="media/image3.png" style="width:2.44271in;height:2.92203in" />
+> <img src="media/image10.png" style="width:2.44271in;height:2.92203in" />
 >
 > Fig. 40
 >
 > After creating the text facet, you want to select “Cluster.” This is
 > located in the right corner of the Facet / Filter menu.
 >
-> <img src="media/image17.png" style="width:5.42188in;height:3.4408in" />
+> <img src="media/image14.png" style="width:5.42188in;height:3.4408in" />
 >
 > Fig. 41
 >
@@ -1154,8 +1179,8 @@ To remove the facet, select the “x” next to the name of the facet.
 > combining values that seem similar but are not exactly the same. This
 > can make it easy for you to edit values so they match.
 >
-> <img src="media/image37.png" style="width:2.68229in;height:2.42098in" />
-> <img src="media/image13.png" style="width:2.4516in;height:2.41057in" />
+> <img src="media/image8.png" style="width:2.68229in;height:2.42098in" />
+> <img src="media/image5.png" style="width:2.4516in;height:2.41057in" />
 
 Fig. 42
 
@@ -1169,7 +1194,7 @@ Fig. 42
 > Since you do want to merge the cells together, you will check the box
 > under “Merge?” and you will leave “DINNER” as the new cell value.
 >
-> <img src="media/image89.png" style="width:5.14063in;height:3.25408in" />
+> <img src="media/image77.png" style="width:5.14063in;height:3.25408in" />
 >
 > Fig. 43
 >
@@ -1178,9 +1203,9 @@ Fig. 42
 > & recluster.” OpenRefine will then select new clusters for you. You
 > can continue this cycle as long as it is beneficial to you.
 >
-> <img src="media/image62.png" style="width:1.96354in;height:0.65193in" />
-> <img src="media/image22.png" style="width:1.98361in;height:1.11408in" />
-> <img src="media/image55.png" style="width:1.80729in;height:2.2122in" />
+> <img src="media/image57.png" style="width:1.96354in;height:0.65193in" />
+> <img src="media/image2.png" style="width:1.98361in;height:1.11408in" />
+> <img src="media/image26.png" style="width:1.80729in;height:2.2122in" />
 >
 > Fig. 44
 >
@@ -1194,20 +1219,24 @@ Fig. 42
 
 ## **Section 11: Splitting and Joining Cells** 
 
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Augment-green)
+
 > OpenRefine enables splitting data from cells into multiple rows
 > according to data manipulation and organizational needs. This is a
 > neat feature of OpenRefine.<sup>9</sup>
 
 #### **Splitting Cells**
 
-> <img src="media/image30.png" style="width:3.34896in;height:3.06727in" />
+> <img src="media/image44.png" style="width:3.34896in;height:3.06727in" />
 >
 > Fig. 45
 >
 > To split cells, you wish to click the arrow next to the column, then
 > select “Edit cells,” and “Split multi-valued cells…”
 >
-> <img src="media/image48.png" style="width:4.51563in;height:2.63411in" />
+> <img src="media/image59.png" style="width:4.51563in;height:2.63411in" />
 >
 > Fig. 46
 >
@@ -1216,7 +1245,7 @@ Fig. 42
 > character. In this case, you can split the names by adding a space
 > into the Separator box. Then you can select “Ok.”
 >
-> <img src="media/image27.png" style="width:5.82813in;height:1.90535in" />
+> <img src="media/image51.png" style="width:5.82813in;height:1.90535in" />
 >
 > Fig. 47
 >
@@ -1230,7 +1259,7 @@ Fig. 42
 > However, if there were numerous names in a cell separated by a dash,
 > separating it so each person has their own row makes sense.
 >
-> <img src="media/image57.png" style="width:2.95313in;height:2.96066in" />
+> <img src="media/image56.png" style="width:2.95313in;height:2.96066in" />
 >
 > Fig. 48
 
@@ -1240,7 +1269,7 @@ Fig. 42
 > perform this action by clicking on the arrow next to a column, and
 > then selecting “Edit cells” and “Join multi-valued cells…”
 >
-> <img src="media/image5.png" style="width:3.56771in;height:1.51958in" />
+> <img src="media/image1.png" style="width:3.56771in;height:1.51958in" />
 >
 > Fig. 49
 >
@@ -1248,7 +1277,7 @@ Fig. 42
 > between the values. Since we want to combine the first and last name
 > together, we will use a space as the separator.
 >
-> <img src="media/image54.png" style="width:3.0625in;height:2.44792in" />
+> <img src="media/image64.png" style="width:3.0625in;height:2.44792in" />
 >
 > Fig. 50
 >
@@ -1261,14 +1290,14 @@ Fig. 42
 > according to data manipulation and organizational needs. This is a
 > neat feature of OpenRefine.
 >
-> <img src="media/image14.png" style="width:3.57813in;height:3.5301in" />
+> <img src="media/image15.png" style="width:3.57813in;height:3.5301in" />
 >
 > Fig. 51
 
 You can split columns by clicking the arrow next to the column, and then
 selecting “Edit column” and “Split into several columns.”
 
-<img src="media/image63.png" style="width:5.01563in;height:2.41136in" />
+<img src="media/image78.png" style="width:5.01563in;height:2.41136in" />
 
 Fig. 52
 
@@ -1293,7 +1322,7 @@ Using actions in OpenRefine can lead to unexpected results.
 
 #### **Joining Columns**
 
-<img src="media/image81.png" style="width:2.90104in;height:2.91016in" />
+<img src="media/image68.png" style="width:2.90104in;height:2.91016in" />
 
 Fig. 54
 
@@ -1301,14 +1330,14 @@ You can also join columns together. To do so, you want to click on the
 arrow next to one of the columns you want to join. Then you can select
 “Edit column” and “Join columns…”
 
-<img src="media/image77.png" style="width:5.16103in;height:2.97396in" />
+<img src="media/image71.png" style="width:5.16103in;height:2.97396in" />
 
 Fig. 55
 
 OpenRefine will then ask you to select the other columns you wish to
 join.
 
-<img src="media/image35.png" style="width:5.16146in;height:2.96949in" />
+<img src="media/image36.png" style="width:5.16146in;height:2.96949in" />
 
 Fig. 56
 
@@ -1323,13 +1352,13 @@ names will be separated by a space. You then choose for the result to be
 put into a new column named “Lead Actor.” You also choose to delete the
 joined columns, so only the new column will remain.
 
-<img src="media/image39.png" style="width:3.08333in;height:2.39583in" />
+<img src="media/image7.png" style="width:3.08333in;height:2.39583in" />
 
 Fig. 57
 
 The Lead Actor column now looks identical to before you split it.
 
-<img src="media/image41.png" style="width:3.61979in;height:3.59533in" />
+<img src="media/image55.png" style="width:3.61979in;height:3.59533in" />
 
 Fig. 58
 
@@ -1338,7 +1367,11 @@ columns, remove columns, and move the location of columns. You can learn
 more about column editing, a type of transformation, on the OpenRefine
 website<sup>9</sup>.
 
-## **Section 12:** **OpenRefine Expressions**
+## **Section 12: OpenRefine Expressions**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
 
 ### **Regular Expressions** 
 
@@ -1355,13 +1388,13 @@ operation (under Edit cells).<sup>1,10,11</sup>
 
 #### **Find Titles that Contain One or More Digits** 
 
-> <img src="media/image79.png" style="width:1.28646in;height:2.37946in" />
+> <img src="media/image54.png" style="width:1.28646in;height:2.37946in" />
 
 Fig. 59
 
 > <span class="mark">Select “Text filter” under “Title”.</span>
 >
-> <img src="media/image82.png" style="width:2.90104in;height:1.41194in" />
+> <img src="media/image86.png" style="width:2.90104in;height:1.41194in" />
 
 Fig. 60
 
@@ -1369,7 +1402,7 @@ Fig. 60
 > column “Title” will appear. Click the box to select “regular
 > expression.”</span>
 >
-> <img src="media/image44.png" style="width:3.05729in;height:1.50665in" />
+> <img src="media/image19.png" style="width:3.05729in;height:1.50665in" />
 
 Fig. 61
 
@@ -1380,7 +1413,7 @@ Fig. 61
 >
 > <span class="mark">\[0-9\] stands for any digit between 0 and 9</span>
 >
-> <img src="media/image20.png" style="width:1.46551in;height:5.68229in" />
+> <img src="media/image12.png" style="width:1.46551in;height:5.68229in" />
 
 Fig. 62
 
@@ -1389,7 +1422,7 @@ more digits in their title will be seen.</span>
 
 #### **Find Titles that Start with Individual Letters/Articles not Words**
 
-> <img src="media/image75.png" style="width:3.35938in;height:1.66632in" />
+> <img src="media/image85.png" style="width:3.35938in;height:1.66632in" />
 
 Fig. 63
 
@@ -1405,7 +1438,7 @@ Fig. 63
 > <span class="mark">\s indicates to look for a space after the
 > letter</span>
 >
-> <img src="media/image88.png" style="width:1.73438in;height:5.86837in" />
+> <img src="media/image93.png" style="width:1.73438in;height:5.86837in" />
 
 Fig. 64
 
@@ -1422,14 +1455,14 @@ Fig. 64
 
 #### 
 
-> <img src="media/image74.png" style="width:3.28646in;height:3.16376in" />
+> <img src="media/image84.png" style="width:3.28646in;height:3.16376in" />
 
 Fig. 65
 
 > <span class="mark">Select the drop-down menu of column “Title” and
 > then select “Replace…” from the “Edit cells” menu.</span>
 >
-> <img src="media/image47.png" style="width:4.99345in;height:2.64877in" />
+> <img src="media/image70.png" style="width:4.99345in;height:2.64877in" />
 
 Fig. 66
 
@@ -1443,6 +1476,10 @@ number or punctuation that you want to replace. Click “OK”. On clicking
 
 ### **General Refine Expression Language (GREL)**
 
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+
 The General Refine Expression Language (GREL)<sup>1,10,11</sup> is a
 programming language similar to Javascript that works inside OpenRefine.
 GREL is a powerful transformation tool that uses functions to act upon
@@ -1455,20 +1492,20 @@ well.
 Example 1: GREL Expression using the “replace()” GREL function to
 transform/replace values from the desired column.
 
-> <img src="media/image38.png" style="width:1.04929in;height:5.96599in" />
+> <img src="media/image33.png" style="width:1.04929in;height:5.96599in" />
 
 Fig. 67
 
 The “Color/B&W” column in its original format.
 
-> <img src="media/image80.png" style="width:2.83854in;height:2.82875in" />
+> <img src="media/image75.png" style="width:2.83854in;height:2.82875in" />
 
 Fig. 68
 
 From the drop-down menu, select “Edit cells”, and then select
 “Transform…”
 
-> <img src="media/image90.png" style="width:4.89063in;height:4.14929in" />
+> <img src="media/image91.png" style="width:4.89063in;height:4.14929in" />
 
 Fig. 69
 
@@ -1476,7 +1513,7 @@ A Custom text transform window pops up after you make a selection. We
 intend to replace ‘Black and White’ with ‘Black & White’ with the
 ‘replace()’ GREL function.
 
-> <img src="media/image85.png" style="width:4.93229in;height:4.17859in" />
+> <img src="media/image92.png" style="width:4.93229in;height:4.17859in" />
 
 Fig. 70
 
@@ -1484,7 +1521,7 @@ We input: ‘**value.replace(“and”, “&' ')**’. A preview of the desired
 change is seen in the right hand column. This indicates that the GREL
 expression is executed correctly.
 
-> <img src="media/image12.png" style="width:0.76563in;height:5.10417in" />
+> <img src="media/image29.png" style="width:0.76563in;height:5.10417in" />
 
 Fig. 71
 
@@ -1497,13 +1534,13 @@ be able to replace ‘Black and White’ with ‘Black & White’ using a GREL
 Example 2: GREL Expression ‘toString()’ function to convert the date
 value from the desired column.
 
-> <img src="media/image91.png" style="width:1.25521in;height:7.23591in" />
+> <img src="media/image79.png" style="width:1.25521in;height:7.23591in" />
 
 Fig. 72
 
 The “Release Date” column in its original format.
 
-> <img src="media/image36.png" style="width:5.18229in;height:4.43578in" />
+> <img src="media/image47.png" style="width:5.18229in;height:4.43578in" />
 
 Fig. 73
 
@@ -1512,7 +1549,7 @@ function in the “Transform…” function from the “Edit cells” of the
 “Release Date” column. In the Custom text format window enter the GREL
 function: ‘**value.toString("MM-dd-yyy")**’.
 
-> <img src="media/image24.png" style="width:0.95313in;height:5.82376in" />
+> <img src="media/image18.png" style="width:0.95313in;height:5.82376in" />
 
 Fig. 74
 
@@ -1521,6 +1558,10 @@ of MM-DD-YYYY in the ‘Release Date’ column. This date format is written
 as “MM-dd-yyy” in the formula.
 
 ## **Section 13: Reconciling** **Data** 
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Augment-green)
 
 OpenRefine allows you to reconcile your dataset with an external
 source.<sup>8,14</sup> In order to do so, that external dataset must
@@ -1535,7 +1576,7 @@ You can use reconciling to adjust the data so it follows a standard and
 matches your dataset to an external source. Reconciling is available at
 the bottom of the column menu.
 
-<img src="media/image61.png" style="width:2.81771in;height:3.54866in" />
+<img src="media/image81.png" style="width:2.81771in;height:3.54866in" />
 
 Fig. 75
 
@@ -1557,20 +1598,20 @@ benefits are also included below.
 
 #### **Using Reconciling for Actors and Add Additional Identifiers**
 
-<img src="media/image72.png" style="width:1.8854in;height:4.10938in" />
+<img src="media/image66.png" style="width:1.8854in;height:4.10938in" />
 
 Fig. 76
 
 In this example, the “Lead Actor” column will be reconciled.
 
-<img src="media/image56.png" style="width:3.59842in;height:3.92188in" />
+<img src="media/image58.png" style="width:3.59842in;height:3.92188in" />
 
 Fig. 77
 
 To reconcile this column, navigate to the edit column and select
 “Reconcile” then “Start reconciling…” at the bottom of the menu.
 
-<img src="media/image10.png" style="width:5.26563in;height:3.74303in" />
+<img src="media/image17.png" style="width:5.26563in;height:3.74303in" />
 
 Fig. 78
 
@@ -1580,7 +1621,7 @@ service. The Wikidata service is
 [<u>https://wikidata.reconci.link/en/api</u>](https://wikidata.reconci.link/en/api).
 Add this link to the add standard service to use Wikidata.
 
-<img src="media/image50.png" style="width:6.5in;height:4.30556in" />
+<img src="media/image61.png" style="width:6.5in;height:4.30556in" />
 
 Fig. 79
 
@@ -1589,20 +1630,20 @@ to a variety of wikidata elements. In this example, we will match this
 column to Q5, “Human.” You have the option to include other relevant
 details from other columns if they are relevant.
 
-<img src="media/image42.png" style="width:4.48958in;height:0.71875in" />
+<img src="media/image45.png" style="width:4.48958in;height:0.71875in" />
 
 Once reconciliation begins, you will see a progress bar at the top of
 OpenRefine. This process can take a long time, so be patient with the
 software.
 
-<img src="media/image18.png" style="width:3.5625in;height:5.52083in" />
+<img src="media/image27.png" style="width:3.5625in;height:5.52083in" />
 
 Fig. 80
 
 Once reconciliation is complete, each value in the “Lead Actor” column
 must be matched to the correct value.
 
-<img src="media/image9.png" style="width:5.80208in;height:4.92708in" />
+<img src="media/image6.png" style="width:5.80208in;height:4.92708in" />
 
 Fig. 81
 
@@ -1611,7 +1652,7 @@ then add more columns based on these values. In this example, QID and
 VIAF ID will be added based on the matched values in the “Lead Actor”
 column.
 
-<img src="media/image45.png" style="width:6.5in;height:4.75in" />
+<img src="media/image65.png" style="width:6.5in;height:4.75in" />
 
 Fig. 82
 
@@ -1620,7 +1661,7 @@ where you can add more values. OpenRefine recommends adding Wikidata’s
 QID, but other values can be added as well. By searching the “Add
 property” field, other information can be added, such as VIAF ID.
 
-<img src="media/image76.png" style="width:3.14583in;height:5.60417in" />
+<img src="media/image74.png" style="width:3.14583in;height:5.60417in" />
 
 Fig. 83
 
@@ -1629,7 +1670,7 @@ OpenRefine project. Note in this example, Stephen Carr does not have a
 VIAF ID. This is just one example of how reconciliation can enhance and
 improve your dataset.
 
-## **Section 14:** **Using AI with OpenRefine**
+## **Section 14: Using AI with OpenRefine**
 
 Although OpenRefine does not natively support AI functionalities, recent
 advancements in AI can still be harnessed through external tools and
@@ -1682,14 +1723,14 @@ removing the symbols from the titles as my visualization software
 doesn’t take values with symbols. Because writing a regular expression
 for this could be tricky, you can ask AI for help.
 
-<img src="media/image49.png" style="width:6.99947in;height:0.66181in" />
+<img src="media/image52.png" style="width:6.99947in;height:0.66181in" />
 
 Fig. 84
 
 In this example, you can use Microsoft’s Copilot to answer the regular
 expression question.
 
-<img src="media/image83.png" style="width:6.5in;height:4.26389in" />
+<img src="media/image82.png" style="width:6.5in;height:4.26389in" />
 
 Fig. 85
 
@@ -1715,6 +1756,12 @@ together, and monitor the OpenRefine Forums for any new developments.
 
 ## Section 15: Documentation and Transformation Actions
 
+\![Static Badge\](https://img.shields.io/badge/DCN-Transform-blue)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Evaluate-b600b6)
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Document-hotpink)
+
 ### **Undo/Redo**
 
 OpenRefine offers well-formed preservation actions in the form of
@@ -1733,11 +1780,13 @@ OpenRefine autosaves your actions every five minutes by default. All
 preservation actions can be executed from the Undo/Redo button on the
 top pane of the OpenRefine interface.
 
-<img src="media/image67.png" style="width:3.11458in;height:6.67708in" />
+<img src="media/image60.png" style="width:3.11458in;height:6.67708in" />
 
-Fig. 87
+Fig. 86
 
 ### **File Format Transformations**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Transform-blue)
 
 OpenRefine enables file format transformations seamlessly. During data
 import, it is good practice for the curator to check, identify and
@@ -1764,6 +1813,8 @@ verify if:
   > from cell values
 
 ### **Exporting**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Evaluate-b600b6)
 
 The full OpenRefine project data can be exported to someone else using
 OpenRefine or can be exported to yourself on another computer.<sup>1,
@@ -1797,9 +1848,9 @@ information on these exporters can be found in the OpenRefine manual.
 
 #### **Exporting Data from your OpenRefine Project**
 
-<img src="media/image84.png" style="width:2.98188in;height:4.0164in" />
+<img src="media/image88.png" style="width:2.98188in;height:4.0164in" />
 
-Fig. 86
+Fig. 87
 
 Click the Export dropdown button in the top right corner and select the
 desired format in which you wish to export your data.
@@ -1817,9 +1868,9 @@ Undo/Redo Tab and click extract. Then you will be able to choose which
 operations you want to extract. It is good practice to extract all
 operations for documentation purposes.
 
-<img src="media/image8.png" style="width:6.5in;height:4.88889in" />
+<img src="media/image20.png" style="width:6.5in;height:4.88889in" />
 
-Fig. 89
+Fig. 88
 
 Further, you can manually add the reasons why you took those steps for
 your documentation. It is always a good idea to note why you made the
@@ -1952,6 +2003,8 @@ headers, rows, and columns
 
 ### **UNDERSTAND Step**
 
+\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+
 #### **Understand the data** 
 
 Examine/study datasets and documentation before importing in OpenRefine
@@ -2002,6 +2055,8 @@ datasets in OpenRefine
 
 ### **REQUEST Step**
 
+\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+
 #### **Request missing information or changes** 
 
 Generate a list of questions to help researcher(s) fix issues before
@@ -2045,6 +2100,8 @@ performing data manipulation in OpenRefine
 > could/should be used to include in the documentation.
 
 ### **AUGMENT Step**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Augment-green)
 
 #### **Augment the dataset** 
 
@@ -2108,6 +2165,8 @@ performing data manipulation in OpenRefine
 
 ### **TRANSFORM Step**
 
+\![Static Badge\](https://img.shields.io/badge/DCN-Transform-blue)
+
 #### **Transform file formats**
 
 Certain data transformations may have already been performed on the data
@@ -2140,6 +2199,8 @@ exporting dataset out of OpenRefine
 > 11. Document the file format conversion workflow in the Curator Log
 
 ### **EVALUATE Step**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Evaluate-b600b6)
 
 #### **Evaluate and rate the dataset** 
 
@@ -2198,6 +2259,8 @@ Evaluate/test the full extracted/exported project data in OpenRefine
     > racist/harmful
 
 ### **DOCUMENT Step**
+
+\![Static Badge\](https://img.shields.io/badge/DCN-Document-hotpink)
 
 #### **Document curation activities** 
 
