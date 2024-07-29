@@ -69,7 +69,7 @@ Peer Reviewers: Talya Cooper, New York University, and Courtney Dalton, Cornell
 # Description of format 
 
 This primer reviews the practices of curating audiovisual data. Data is defined as “facts, ideas, or discrete pieces of information, especially when in the form originally collected and
-unanalyzed” (</span>Society of American Archivists). Audiovisual data is then discrete pieces of information captured in signals and sound waves that when given context allow the user to create meaning. We believe that what makes something research data is the way it is utilized, as not all data was created initially for research purposes. While audiovisual materials are not a common form of research data in all fields, they have been used in the social sciences, such as behavioral psychology and anthropology, and we have seen a new movement towards
+unanalyzed” (Society of American Archivists). Audiovisual data is then discrete pieces of information captured in signals and sound waves that when given context allow the user to create meaning. We believe that what makes something research data is the way it is utilized, as not all data was created initially for research purposes. While audiovisual materials are not a common form of research data in all fields, they have been used in the social sciences, such as behavioral psychology and anthropology, and we have seen a new movement towards
 audiovisual data in the sciences as well. The increasing affordability of storage space and the continual development of quality recording equipment seem to be driving this new enthusiasm for audiovisual data.
 
 The technically correct way to describe audiovisual data is video payload, as a video signal includes components such as audio, captions, and time code (IASA, 2019). We will be focusing on file based digital media that is media independent, and either born digital or previously digitized. File based media exist only in the digital form as bitstreams, which do not need to rely on a carrier (material holding the signal) for it to be usable (IASA, 2019). Media independence frees digital materials from the issues that plague analog materials that are confined to a certain carrier, such as an ethnographic interview confined to a U-matic ¾-inch videocassette (Wright, 2012). You can migrate file based content between storage systems for preservation purposes in a way that you can’t with media dependent video where the carrier and signal depend on one another (IASA, 2019).
@@ -289,7 +289,7 @@ We suggest “good-enough” audiovisual data preservation practices. Normalizat
 
   2.  The ability for an institution or organization to undertake this workflow depends on the amount of audiovisual data they have coming down the pipeline and if they have the capacity, storage space, and budget to support this method. The best practice is to have higher quality preservation copies as well as access copies, but if that is not possible then do your best to balance preservation and access.
 
-  3.  <span class="mark">We recommend making a compressed video file available in a common, widely used format. If you intend to support large amounts of audiovisual data, you may want to explore installing an in-page player for your repository, such as Kaltura, as patrons may expect to be able to preview the files in the repository before they download them. Installing or developing a video player can be costly.</span>
+  3.  <span class="mark">We recommend making a compressed video file available in a common, widely used format. If you intend to support large amounts of audiovisual data, you may want to explore installing an in-page player for your repository, such as Kaltura, as patrons may expect to be able to preview the files in the repository before they download them. Installing or developing a video player can be costly.
 
 - Compression
 
@@ -471,9 +471,9 @@ Blackden, C. (2021). *Everything You Ever Wanted to Know about ExifTool*. [https
 
 Corrado, E. M., & Moulaison Sandy, H. (2016). Digital Preservation of Audiovisual-Based Materials: The State of the Art. *Archiving Conference*, *13*(1), 161–166. [https://doi.org/10.2352/issn.2168-3204.2016.1.0.161](https://doi.org/10.2352/issn.2168-3204.2016.1.0.161)
 
-Elnabli, S. \[<span class="mark">alctsce</span>\]. (2019, March 13). *Digital Preservation: Audiovisual Edition, Part II*. [https://www.youtube.com/watch?v=23h7vlcQf-k](https://www.youtube.com/watch?v=23h7vlcQf-k)
+Elnabli, S. \[<span class="mark">alctsce\]. (2019, March 13). *Digital Preservation: Audiovisual Edition, Part II*. [https://www.youtube.com/watch?v=23h7vlcQf-k](https://www.youtube.com/watch?v=23h7vlcQf-k)
 
-Elnabli, S. \[<span class="mark">alctsce</span>\]. (2019, February 27). *Digital Preservation Audiovisual Edition, Part I*. https://youtu.be/L6cM6H_pGnE
+Elnabli, S. \[<span class="mark">alctsce\]. (2019, February 27). *Digital Preservation Audiovisual Edition, Part I*. https://youtu.be/L6cM6H_pGnE
 
 *Federal Agencies Digital Guidelines Initiative*. (n.d.). Retrieved March 17, 2023, from [https://www.digitizationguidelines.gov/](https://www.digitizationguidelines.gov/)
 
