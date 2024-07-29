@@ -292,7 +292,7 @@ Department if you have problems with installation.
 
 ### **Navigation and Settings**
 
-<img src="media/image67.png" style="width:6.5in;height:2.73611in" />
+<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure> <br><br>
 
 Fig. 1
 
