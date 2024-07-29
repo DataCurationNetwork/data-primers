@@ -24,7 +24,7 @@ Suggested Citation: Owen, Heather; Thite, Aditi; and Tvrdy, Peyton. (2024). Open
 | Created by | Heather Owen, Aditi Thite, Peyton Tvrdy<br><br>Mentor: Sophia Lafferty-Hess |
 | Date updated and summary of changes made | 2024-07-31: Initial upload to GitHub|
 
-**OpenRefine Team Members:**
+OpenRefine Team Members:
 
 Heather Owen, University of Rochester,
 [howen@library.rochester.edu](mailto:howen@library.rochester.edu)
@@ -35,7 +35,7 @@ Aditi Thite, AVSInfoPro, LLC.,
 Peyton Tvrdy, National Transportation Library
 [peyton.tvrdy.ctr@dot.gov](mailto:peyton.tvrdy.ctr@dot.gov)
 
-**Mentor:**
+Mentor:
 
 Sophia Lafferty-Hess, Duke University
 
@@ -171,8 +171,8 @@ modifies data for a variety of use cases. OpenRefine:
 
 While OpenRefine is an excellent, free software that allows users to
 easily clean and manipulate their data, it is not an all-in-one tool for
-data. Because its primary purpose is data cleaning, OpenRefine **does
-not** have the capability to:
+data. Because its primary purpose is data cleaning, OpenRefine does
+not have the capability to:
 
 - Visualize data
 
@@ -239,7 +239,7 @@ to Wikidata/Wikidata Schema
 
 ## Section 3: Getting Started with OpenRefine
 
-### **Prerequisites**
+### Prerequisites
 
 Java: For the current 3.8.2 (2024-07-08), OpenRefine requires Java 11 to
 Java 17. You can consult Section 19 for additional information on Java
@@ -254,7 +254,7 @@ Safari
 OpenRefine, but is required for data import and connection for data on
 the web.)
 
-### **Installation**
+### Installation
 
 For best results, install the latest, stable release of
 OpenRefine.[^3] Beta versions may have additional and
@@ -276,7 +276,7 @@ For more details on installing extensions, increasing memory, or
 changing where files are stored, consult the installation section of the
 manual.[^2]
 
-### **First-Time Run**
+### First-Time Run
 
 OpenRefine will open in your computer’s default browser. OpenRefine does
 not support Internet Explorer, and Firefox has some minor rendering and
@@ -290,11 +290,9 @@ the manual.[^4] In some cases, installation might require
 administrative rights. You can consult with your employer’s IT
 Department if you have problems with installation.
 
-### **Navigation and Settings**
+### Navigation and Settings
 
-<figure> <img src="ppkx-1.jpeg" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure> <br><br>
-
-Fig. 1
+<figure> <img src="openrefine-1.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 1: View of OpenRefine home screen.</figcaption> </figure> <br><br>
 
 On the left-hand side menu, you can find your “home screen” area where
 you can create, import, open projects and adjust your language settings.
@@ -302,9 +300,7 @@ To create a new project, you can upload data from your computer, a URL,
 Clipboard, Database and Google Data. Once you upload your data and click
 “Next,” you will be brought to the “Create project” screen.
 
-<img src="media/image50.png" style="width:6.5in;height:2.9905in" />
-
-Fig. 2
+<figure> <img src="openrefine-2.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 2: View of OpenRefine home screen during file import process.</figcaption> </figure> <br><br>
 
 In the “Create project” screen you can see a preview of what the data
 will look like. If your data has multiple worksheets, you can select
@@ -317,20 +313,18 @@ clicking the “Create project” button in the top right corner. If
 desired, you have the option to change the name of your project, and to
 add tags to increase the findability of your project.
 
-### **Interface**
+### Interface
 
-<span class="mark">OpenRefine gives you a bird's eye view of your data.
+OpenRefine gives you a bird's eye view of your data.
 It lets you view and edit your data in various ways, and usually in
 bulk. You can see trends, do analysis, and perform mass edits in ways
 that are not possible with spreadsheet programs. OpenRefine is not a
-spreadsheet or a database, although it has aspects of each.</span> For
+spreadsheet or a database, although it has aspects of each. For
 data manipulation, OpenRefine offers embedded in-built functions in the
 form of user-friendly drop-down menus which enable ease of
 use.[^11]
 
-<img src="media/image22.png" style="width:6.5in;height:2.69444in" />
-
-Fig. 3
+<figure> <img src="openrefine-3.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 3: View of OpenRefine interface.</figcaption> </figure> <br><br>
 
 Once a project is open, there are several sections that you can use and
 explore. This includes:
@@ -357,17 +351,13 @@ by the University of Idaho Library.[^5]
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-### **Should you use OpenRefine?**
+### Should you use OpenRefine?
 
 - Can the file be brought into OpenRefine? OpenRefine works with the following file formats, and it works best with tabular data:
 
   - Comma-separated values (CSV) or tab-separated values (TSV)
 
-  <!-- -->
-
   - Column separated files (custom separator other than comma or tab)
-
-  <!-- -->
 
   - Text files
 
@@ -393,12 +383,12 @@ by the University of Idaho Library.[^5]
 
 - If the file is a delimited text or spreadsheet program file, is the data rectangular and ready to be brought into OpenRefine? A rectangular dataset has the header column as the first row and has one table per sheet or file.
 
-### **What mistakes do you notice in the dataset?**
+### What mistakes do you notice in the dataset?
 
 Explore the dataset using facets. Information and examples on facets can
-be found in Section 9.
+be found in [Section 9](#section-9-faceting-data)
 
-1.  See if there are null values. You can do this by using Text facets and seeing if there are any blank values. <span class="mark"></span>To look closer at them, you can click on “(blank)” to only be looking at the row with a null value. You can also use a special facet, such as "Facet by blank (null or empty string)." Is there an explanation for why there are null values in the documentation?
+1.  See if there are null values. You can do this by using Text facets and seeing if there are any blank values. To look closer at them, you can click on “(blank)” to only be looking at the row with a null value. You can also use a special facet, such as "Facet by blank (null or empty string)." Is there an explanation for why there are null values in the documentation?
 
 2.  Examine spelling. Are there inconsistencies in how things are spelled? Should data values be combined?
 
@@ -410,7 +400,7 @@ be found in Section 9.
 
 6.  If needed, you can sort the data by different columns in alphabetical, numerical, or chronological order in order to examine the dataset deeper. Do you see any strange outliers or anything that doesn’t make sense?
 
-### **Which mistakes should I fix?**
+### Which mistakes should I fix?
 
 The mistakes fixed by the data curator are dependent on your
 institution’s policies. Some curators will fix errors for researchers,
@@ -444,32 +434,30 @@ Some common issues you may want to ask the researcher about:
 
 # Volume 2: OpenRefine Functions
 
-## **Section 5: Transformations**
+## Section 5: Transformations
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-> OpenRefine has useful built-in cleaning/transformation tools, called
-> “Transform…” and “Common transforms” that are located under “Edit
-> Cells” in the drop-down menu of each column.[^1][^11]
->
-> Transforms - With the “Transforms'' function, data can be efficiently
-> edited to make it consistent and error free with an array of GREL
-> expressions. It can be used for standardizing data formats in a column
-> without changing the values (e.g. removing punctuation or
-> standardizing a date format). Extracting a particular type of data
-> from a longer text string (e.g. finding ISBNs in a bibliographic
-> citation) can also be achieved with this function. See Section 12 for
-> GREL Expressions examples.
->
-> Common transforms - The “Common transforms” functions enable trimming
-> of leading and trailing whitespaces, collapsing consecutive white
-> spaces, enabling conversions to titlecase, lowercase, and uppercase
-> transforms. It also enables transformations to numbers, dates and
-> texts in bulk throughout the columns and rows of the dataset.
+OpenRefine has useful built-in cleaning/transformation tools, called “Transform…” and “Common transforms” that are located under “Edit Cells” in the drop-down menu of each column.[^1][^11]
 
-#### **Remove Whitespace**
+Transforms - With the “Transforms'' function, data can be efficiently
+edited to make it consistent and error free with an array of GREL
+expressions. It can be used for standardizing data formats in a column
+without changing the values (e.g. removing punctuation or
+standardizing a date format). Extracting a particular type of data
+from a longer text string (e.g. finding ISBNs in a bibliographic
+citation) can also be achieved with this function. See Section 12 for
+GREL Expressions examples.
+
+Common transforms - The “Common transforms” functions enable trimming
+of leading and trailing whitespaces, collapsing consecutive white
+spaces, enabling conversions to titlecase, lowercase, and uppercase
+transforms. It also enables transformations to numbers, dates and
+texts in bulk throughout the columns and rows of the dataset.
+
+#### Remove Whitespace
 
 > <img src="media/image83.png" style="width:4.57469in;height:3.36979in" />
 >
@@ -481,7 +469,7 @@ Some common issues you may want to ask the researcher about:
 > whitespaces”. With this function, you will be able to clean up any
 > whitespaces before and after the titles.
 
-#### **Bulk Transformations**
+#### Bulk Transformations
 
 > <img src="media/image69.png" style="width:3.60417in;height:3.76912in" />
 >
@@ -498,7 +486,7 @@ Some common issues you may want to ask the researcher about:
 > bulk (such as whitespace), but some transformations should be done
 > column by column (such as data format).
 
-#### **Changing Format**
+#### Changing Format
 
 > <img src="media/image89.png" style="width:1.27083in;height:3.52083in" />
 > <img src="media/image63.png" style="width:1.26969in;height:3.50477in" />
@@ -510,7 +498,7 @@ Some common issues you may want to ask the researcher about:
 > the correct format. Data in the text format will be black, and data in
 > the number and date format will be green.
 
-#### **Changing Case**
+#### Changing Case
 
 > Other common transformations include changing to titlecase, uppercase,
 > or lowercase. To change to uppercase, you can click on the arrow next
@@ -523,7 +511,7 @@ Some common issues you may want to ask the researcher about:
 >
 > The titles are then rewritten so they are uppercase.
 
-## **Section 6: Filtering Data** 
+## Section 6: Filtering Data 
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
@@ -536,7 +524,7 @@ Some common issues you may want to ask the researcher about:
 > transformations or editing. Rows not included in the filter will
 > remain unchanged.
 
-#### **Filtering Title Column**
+#### Filtering Title Column
 
 > In the following example, we are using the “Title” column to gain
 > insight.
@@ -576,13 +564,13 @@ Fig. 11
 > successfully cleaned the data for this software without searching for
 > each exclamation point individually.
 
-## **Section 7: Editing Single Cells**
+## Section 7: Editing Single Cells
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)  
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
-<span class="mark"> </span>
+ 
 
-#### **Editing Individual Cell**
+#### Editing Individual Cell
 
 Single cell editing can be useful if you spot a blank cell or a
 misspelling. You can edit a single cell by simply hovering over a cell
@@ -605,7 +593,7 @@ If you wish to apply it to all cells that are blank or have the same
 misspelling you can select “Apply to all identical cells.” Bulk editing
 is one of the unique features of OpenRefine.
 
-## **Section 8: Sorting Data**
+## Section 8: Sorting Data
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
@@ -623,7 +611,7 @@ appears above the header. You can sort on multiple columns at the same
 time by adding another sorted column. To understand the sort function,
 view the following example.
 
-#### **Sort by Title Alphabetically**
+#### Sort by Title Alphabetically
 
 > <img src="media/image38.png" style="width:3.0624in;height:4.10938in" />
 
@@ -665,7 +653,7 @@ Fig. 18
 > by navigating back to the column menu, then sort, then select “Remove
 > sort”.
 
-## **Section 9: Faceting Data** 
+## Section 9: Faceting Data 
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
@@ -695,7 +683,7 @@ Fig. 18
 
 - Customized facets, such as “Text length facet”, “Facet by null”, “Facet by blank (null or empty string)”
 
-#### **Text Faceting to Explore Your Dataset**
+#### Text Faceting to Explore Your Dataset
 
 In OpenRefine, you can create a text facet to find the text values in a
 column and their frequency. In the following example, you will create a
@@ -727,7 +715,7 @@ classified as that genre. Text facets can be used to find and view rows
 of data that have a matching text field and can also be used to analyze
 the frequency of recurring values.
 
-#### **Text Faceting to Spot and Fix Errors**
+#### Text Faceting to Spot and Fix Errors
 
 Text facets can also be used as a way to easily spot mistakes and to
 correct these mistakes in bulk.
@@ -782,7 +770,7 @@ it is recommended that you use facets to check each column.
 
 #### 
 
-#### **Numeric Facet**
+#### Numeric Facet
 
 A numeric facet is applicable to the column that contains numeric
 values.
@@ -821,7 +809,7 @@ had a movie rating below 6.
 
 #### 
 
-#### **Timeline Facet**
+#### Timeline Facet
 
 Timeline facets can be useful for noticing erroneous dates or exploring
 the dataset. It can only be used if the data is in the date format.
@@ -894,7 +882,7 @@ be 878 rows of 3725.
 
 To remove the facet, select the “x” next to the name of the facet.
 
-## **Section 10: Clustering Data** 
+## Section 10: Clustering Data 
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
@@ -910,7 +898,7 @@ To remove the facet, select the “x” next to the name of the facet.
 > algorithms highlights different clusters. You can replace varying
 > forms of the same data with a single consistent value.
 
-#### **Using Clustering to Combine Similar Terms**
+#### Using Clustering to Combine Similar Terms
 
 > <img src="media/image87.png" style="width:2.83854in;height:2.44894in" />
 >
@@ -974,7 +962,7 @@ Fig. 42
 > Clustering is a tool not available in most other softwares, and is
 > useful when your dataset is particularly messy.
 
-## **Section 11: Splitting and Joining Cells** 
+## Section 11: Splitting and Joining Cells 
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
@@ -984,7 +972,7 @@ Fig. 42
 > according to data manipulation and organizational needs. This is a
 > neat feature of OpenRefine.[^9]
 
-#### **Splitting Cells**
+#### Splitting Cells
 
 > <img src="media/image44.png" style="width:3.34896in;height:3.06727in" />
 >
@@ -1020,7 +1008,7 @@ Fig. 42
 >
 > Fig. 48
 
-#### **Joining Cells**
+#### Joining Cells
 
 > You also have the option to join multi-valued cells together. You can
 > perform this action by clicking on the arrow next to a column, and
@@ -1041,7 +1029,7 @@ Fig. 42
 > As you can see, the cells have been joined together so there is only
 > one row per entry.
 
-#### **Splitting Columns**
+#### Splitting Columns
 
 > OpenRefine enables splitting data from columns into multiple columns
 > according to data manipulation and organizational needs. This is a
@@ -1077,7 +1065,7 @@ Splitting the column using a space separator created 4 columns. This is
 because at least one Lead Actor entry had four spaces in their name.
 Using actions in OpenRefine can lead to unexpected results.
 
-#### **Joining Columns**
+#### Joining Columns
 
 <img src="media/image68.png" style="width:2.90104in;height:2.91016in" />
 
@@ -1124,13 +1112,13 @@ columns, remove columns, and move the location of columns. You can learn
 more about column editing, a type of transformation, on the OpenRefine
 website.[^9]
 
-## **Section 12: OpenRefine Expressions**
+## Section 12: OpenRefine Expressions
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-### **Regular Expressions** 
+### Regular Expressions 
 
 Regular expressions make OpenRefine a powerful editing tool. Regular
 expressions (regex) locate text patterns, similar to "Find" in a
@@ -1143,72 +1131,72 @@ expressions can select text patterns, rather than just text. OpenRefine
 supports regular expressions, from the Text filter or a Replace…
 operation (under Edit cells).[^1][^10][^11]
 
-#### **Find Titles that Contain One or More Digits** 
+#### Find Titles that Contain One or More Digits 
 
 > <img src="media/image54.png" style="width:1.28646in;height:2.37946in" />
 
 Fig. 59
 
-> <span class="mark">Select “Text filter” under “Title”.</span>
+> Select “Text filter” under “Title”.
 >
 > <img src="media/image86.png" style="width:2.90104in;height:1.41194in" />
 
 Fig. 60
 
-> <span class="mark">In the “Facet/Filter” tab, the filter box for the
+> In the “Facet/Filter” tab, the filter box for the
 > column “Title” will appear. Click the box to select “regular
-> expression.”</span>
+> expression.”
 >
 > <img src="media/image19.png" style="width:3.05729in;height:1.50665in" />
 
 Fig. 61
 
-> <span class="mark">To find titles starting with a digit, we input the
-> above regex:</span>
+> To find titles starting with a digit, we input the
+> above regex:
 >
-> <span class="mark">\d stands for any digit</span>
+> \d stands for any digit
 >
-> <span class="mark">\[0-9\] stands for any digit between 0 and 9</span>
+> \[0-9\] stands for any digit between 0 and 9
 >
 > <img src="media/image12.png" style="width:1.46551in;height:5.68229in" />
 
 Fig. 62
 
-<span class="mark">On running this regex, all records that have one or
-more digits in their title will be seen.</span>
+On running this regex, all records that have one or
+more digits in their title will be seen.
 
-#### **Find Titles that Start with Individual Letters/Articles not Words**
+#### Find Titles that Start with Individual Letters/Articles not Words
 
 > <img src="media/image85.png" style="width:3.35938in;height:1.66632in" />
 
 Fig. 63
 
-> <span class="mark">Using the “Text filter” from the “Title” column,
-> run the above regex:</span>
+> Using the “Text filter” from the “Title” column,
+> run the above regex:
 >
-> <span class="mark">^ sign indicates to begin searching at the start of
-> the title</span>
+> ^ sign indicates to begin searching at the start of
+> the title
 >
-> <span class="mark">\[A-Z\] indicates to look for capital letters
-> between A and Z</span>
+> \[A-Z\] indicates to look for capital letters
+> between A and Z
 >
-> <span class="mark">\s indicates to look for a space after the
-> letter</span>
+> \s indicates to look for a space after the
+> letter
 >
 > <img src="media/image93.png" style="width:1.73438in;height:5.86837in" />
 
 Fig. 64
 
-> <span class="mark">Upon running the above regex, you will find movie
+> Upon running the above regex, you will find movie
 > titles that either started with a letter ‘A’ or ‘I’, or with any other
-> letter.</span>
+> letter.
 
-#### **Find and Replace with Regular Expressions**
+#### Find and Replace with Regular Expressions
 
-> <span class="mark">With just a couple of steps, you will be able to
+> With just a couple of steps, you will be able to
 > comb through all the records to find the desired records using a
 > regular expression. Regex can also be used to find and replace any
-> part of a number, text and also punctuation.</span>
+> part of a number, text and also punctuation.
 
 #### 
 
@@ -1216,22 +1204,22 @@ Fig. 64
 
 Fig. 65
 
-> <span class="mark">Select the drop-down menu of column “Title” and
-> then select “Replace…” from the “Edit cells” menu.</span>
+> Select the drop-down menu of column “Title” and
+> then select “Replace…” from the “Edit cells” menu.
 >
 > <img src="media/image70.png" style="width:4.99345in;height:2.64877in" />
 
 Fig. 66
 
-<span class="mark">On selecting “Replace…” from the ‘Edit cells menu, a
+On selecting “Replace…” from the ‘Edit cells menu, a
 “Replace” window will appear. In this window, you can input a regex in
 the ‘Find’ box to look for a particular text, number or a punctuation.
 Do check the ‘regular expression’ option in the box below the “Find”
 box. Subsequently, in the “Replace with” box enter a part of text,
 number or punctuation that you want to replace. Click “OK”. On clicking
-“OK” you should be able to see the replaced part in your records.</span>
+“OK” you should be able to see the replaced part in your records.
 
-### **General Refine Expression Language (GREL)**
+### General Refine Expression Language (GREL)
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
@@ -1244,7 +1232,7 @@ data in a variety of ways. Regular expressions can be used inside of
 GREL expressions to control the selection and/or output of your data as
 well.
 
-#### **Using GREL to Replace Values with “replace()”**
+#### Using GREL to Replace Values with “replace()”
 
 Example 1: GREL Expression using the “replace()” GREL function to
 transform/replace values from the desired column.
@@ -1274,7 +1262,7 @@ intend to replace ‘Black and White’ with ‘Black & White’ with the
 
 Fig. 70
 
-We input: ‘**value.replace(“and”, “&' ')**’. A preview of the desired
+We input: ‘value.replace(“and”, “&' ')’. A preview of the desired
 change is seen in the right hand column. This indicates that the GREL
 expression is executed correctly.
 
@@ -1286,7 +1274,7 @@ On clicking “OK” the function is implemented by OpenRefine and you will
 be able to replace ‘Black and White’ with ‘Black & White’ using a GREL
 ‘replace()’ function.
 
-#### **Using GREL to Convert Dates to Strings using ‘toString()’**
+#### Using GREL to Convert Dates to Strings using ‘toString()’
 
 Example 2: GREL Expression ‘toString()’ function to convert the date
 value from the desired column.
@@ -1304,7 +1292,7 @@ Fig. 73
 To convert the column values to dates we use the ‘toString()’ GREL
 function in the “Transform…” function from the “Edit cells” of the
 “Release Date” column. In the Custom text format window enter the GREL
-function: ‘**value.toString("MM-dd-yyy")**’.
+function: ‘value.toString("MM-dd-yyy")’.
 
 > <img src="media/image18.png" style="width:0.95313in;height:5.82376in" />
 
@@ -1314,7 +1302,7 @@ On clicking “OK” the date value will be converted to the desired format
 of MM-DD-YYYY in the ‘Release Date’ column. This date format is written
 as “MM-dd-yyy” in the formula.
 
-## **Section 13: Reconciling** **Data** 
+## Section 13: Reconciling Data 
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
@@ -1352,7 +1340,7 @@ The OpenRefine website and the GitHub resource has detailed instructions
 on how to reconcile.[^8][^14] An example of reconciliation and its
 benefits are also included below.
 
-#### **Using Reconciling for Actors and Add Additional Identifiers**
+#### Using Reconciling for Actors and Add Additional Identifiers
 
 <img src="media/image66.png" style="width:1.8854in;height:4.10938in" />
 
@@ -1426,7 +1414,7 @@ OpenRefine project. Note in this example, Stephen Carr does not have a
 VIAF ID. This is just one example of how reconciliation can enhance and
 improve your dataset.
 
-## **Section 14: Using AI with OpenRefine**
+## Section 14: Using AI with OpenRefine
 
 Although OpenRefine does not natively support AI functionalities, recent
 advancements in AI can still be harnessed through external tools and
@@ -1436,15 +1424,15 @@ refine data sets.
 
 Some examples of how AI can be used are:
 
-- **Writing Regular Expressions and GREL Commands**: AI-powered tools can generate regular expressions or GREL commands. Users can employ platforms like OpenAI’s GPT-4 or Microsoft’s Copilot to generate these commands and import them into OpenRefine.[^15]
+- Writing Regular Expressions and GREL Commands: AI-powered tools can generate regular expressions or GREL commands. Users can employ platforms like OpenAI’s GPT-4 or Microsoft’s Copilot to generate these commands and import them into OpenRefine.[^15]
 
-- **Adding and Transforming Columns**: Leverage APIs from AI services like the OpenAI API to create or modify columns based on data-driven insights.[^16]
+- Adding and Transforming Columns: Leverage APIs from AI services like the OpenAI API to create or modify columns based on data-driven insights.[^16]
 
-- **Data Standardization**: Use AI for contextual standardization of entities or dates, possibly through custom Python or JavaScript extensions that interface with AI APIs.[^17]
+- Data Standardization: Use AI for contextual standardization of entities or dates, possibly through custom Python or JavaScript extensions that interface with AI APIs.[^17]
 
-- **Predictive Data Entry**: Incorporate TensorFlow or other machine learning models to predict missing data points, such as zip codes, which can be scripted to run alongside OpenRefine operations.[^7]
+- Predictive Data Entry: Incorporate TensorFlow or other machine learning models to predict missing data points, such as zip codes, which can be scripted to run alongside OpenRefine operations.[^7]
 
-- **Contextual Reconciliation**: Enhance the reconciliation process by integrating AI tools that assess the context of data, improving the accuracy of data matching. (Knowing whether the location Vienna is in reference to the city of Vienna in the United States or in Austria)
+- Contextual Reconciliation: Enhance the reconciliation process by integrating AI tools that assess the context of data, improving the accuracy of data matching. (Knowing whether the location Vienna is in reference to the city of Vienna in the United States or in Austria)
 
 These examples are just the beginning of how AI can assist in cleaning
 your data. While using python to integrate AI into OpenRefine is
@@ -1453,7 +1441,7 @@ is a feature anyone can use. Regular expressions in particular can be
 tricky, especially for non-programmers, but AI can help bridge this
 knowledge gap.
 
-| **Movie Title and Release Date**   |
+| Movie Title and Release Date   |
 |------------------------------------|
 | Amazing Spider-Man!                |
 | Romeo + Juliet                     |
@@ -1504,7 +1492,7 @@ together, and monitor the OpenRefine Forums for any new developments.
 
  ![Static Badge](https://img.shields.io/badge/DCN-Document-hotpink)
 
-### **Undo/Redo**
+### Undo/Redo
 
 OpenRefine offers well-formed preservation actions in the form of
 Undo/Redo functions.[^1][^6][^11] The entire project history can be
@@ -1526,7 +1514,7 @@ top pane of the OpenRefine interface.
 
 Fig. 86
 
-### **File Format Transformations**
+### File Format Transformations
 
  ![Static Badge](https://img.shields.io/badge/DCN-Transform-blue)
 
@@ -1548,7 +1536,7 @@ verify if:
 
 - There is general data loss, formatting errors, unwanted characters from cell values
 
-### **Exporting**
+### Exporting
 
  ![Static Badge](https://img.shields.io/badge/DCN-Evaluate-b600b6)
 
@@ -1561,13 +1549,13 @@ Undo/Redo pane). The project will be exported with all its JSON
 information. Also, the entire project data can be exported out of
 OpenRefine and into a system or application of one’s choice.
 
-On the other hand, <span class="mark">if you export the project data
+On the other hand, if you export the project data
 only, to a CSV or any other format, you will be exporting a snapshot of
 the data at that instance. Your project in OpenRefine will still exist
 in the application, and you can continue to work on it after you've
 exported the data. But your exported data will be the ‘data only’ - it
 will be stripped of the JSON information. If you load it into
-OpenRefine, it will be a brand new project.</span>
+OpenRefine, it will be a brand new project.
 
 OpenRefine exports data in a number of file formats, CSV, TSV, XLSX,
 HTML etc. It can upload your data directly into Google Sheets, and can
@@ -1581,7 +1569,7 @@ wants to use their exported data. Some of these types are: Custom
 tabular exporter, SQL exporter, and Templating exporter. Detailed
 information on these exporters can be found in the OpenRefine manual.
 
-#### **Exporting Data from your OpenRefine Project**
+#### Exporting Data from your OpenRefine Project
 
 <img src="media/image88.png" style="width:2.98188in;height:4.0164in" />
 
@@ -1594,7 +1582,7 @@ Your project data will be saved in the format you chose. The exported
 data will show all the actions that you have performed on the columns
 and rows of the original data.
 
-### **Using Your History to Create a Log**
+### Using Your History to Create a Log
 
 To help with creating documentation for your curation process, you can
 extract your project history in OpenRefine and add it to your
@@ -1618,7 +1606,7 @@ documentation to their methodology or README.
 Overall, OpenRefine is a useful, easy-to-use, open-source tool that can
 help with data curation and data preservation.
 
-### **Data Curation**
+### Data Curation
 
 - Facet/Filter: Can easily fix null/missing values, incorrect spellings, unwanted characters, and other inconsistencies.
 
@@ -1632,7 +1620,7 @@ help with data curation and data preservation.
 
 - Regular Expressions and GREL functions: Can be used to perform advanced curation techniques.
 
-### **Data Preservation**
+### Data Preservation
 
 - Undo/Redo: The entire project history can be traced back/undone/redone and preserved.
 
@@ -1655,9 +1643,9 @@ take to ensure if datasets to be organized, cleaned, and manipulated in
 OpenRefine meet expectations of the CURATE(D) checklist and fulfills
 data curation best practices.
 
-### **CHECK Step** 
+### CHECK Step 
 
-#### **Check files and read documentation** 
+#### Check files and read documentation 
 
 ##### Steps before importing the dataset in OpenRefine 
 
@@ -1719,11 +1707,11 @@ headers, rows, and columns
 
 2.  If data is not de-identified, document it for the "Request" step.
 
-### **UNDERSTAND Step**
+### UNDERSTAND Step
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
-#### **Understand the data** 
+#### Understand the data 
 
 Examine/study datasets and documentation before importing in OpenRefine
 
@@ -1760,11 +1748,11 @@ datasets in OpenRefine
 
 1.  Use custom sorts and text facets to gain new insights on the data and to find inconsistencies in the data.
 
-### **REQUEST Step**
+### REQUEST Step
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-#### **Request missing information or changes** 
+#### Request missing information or changes 
 
 Generate a list of questions to help researcher(s) fix issues before
 performing data manipulation in OpenRefine
@@ -1795,11 +1783,11 @@ performing data manipulation in OpenRefine
 > 4\. Ask researcher(s) if there are limitations to how data
 > could/should be used to include in the documentation.
 
-### **AUGMENT Step**
+### AUGMENT Step
 
  ![Static Badge](https://img.shields.io/badge/DCN-Augment-green)
 
-#### **Augment the dataset** 
+#### Augment the dataset 
 
 > To augment the OpenRefine project/dataset, after receiving information
 > from the “Request” step, you need to review if the project metadata
@@ -1840,11 +1828,11 @@ performing data manipulation in OpenRefine
 
 - check if entities in the project appear in some specific authority list
 
-### **TRANSFORM Step**
+### TRANSFORM Step
 
  ![Static Badge](https://img.shields.io/badge/DCN-Transform-blue)
 
-#### **Transform file formats**
+#### Transform file formats
 
 Certain data transformations may have already been performed on the data
 in the CHECK step prior to importing the data into OpenRefine.
@@ -1859,8 +1847,8 @@ exporting dataset out of OpenRefine
 > was received by the curation team before the ingest and appraise
 > steps.  
 > 3. Ensure that changes made to the original file are documented.
-> <span class="mark">  
-> </span>4. Reorganize files appropriately after conversion to keep a
+>   
+> 4. Reorganize files appropriately after conversion to keep a
 > clean layout  
 > 5. Standardize file names  
 > 6. Evaluate if the data and or formatting loss will affect the dataset
@@ -1875,11 +1863,11 @@ exporting dataset out of OpenRefine
 > export  
 > 11. Document the file format conversion workflow in the Curator Log
 
-### **EVALUATE Step**
+### EVALUATE Step
 
  ![Static Badge](https://img.shields.io/badge/DCN-Evaluate-b600b6)
 
-#### **Evaluate and rate the dataset** 
+#### Evaluate and rate the dataset 
 
 Evaluate/test the full extracted/exported project data in OpenRefine
 
@@ -1932,11 +1920,11 @@ Evaluate/test the full extracted/exported project data in OpenRefine
 
 2.  Verify the language used in the dataset to ensure it is not racist/harmful
 
-### **DOCUMENT Step**
+### DOCUMENT Step
 
 ![Static Badge](https://img.shields.io/badge/DCN-Document-hotpink)
 
-#### **Document curation activities** 
+#### Document curation activities 
 
 Service workflow documentation - Record actions relevant to tracking and
 administration of the dataset deposit in OpenRefine; information on
