@@ -58,147 +58,76 @@ Sophia Lafferty-Hess, Duke University
 >> [Remove Whitespace](#remove-whitespace) <br> [Bulk Transformations](#bulk-transformations) <br> [Changing Format](#changing-format) <br> [Changing Case](#changing-case)
 
 > [Section 6: Filtering Data](#section-6-filtering-data)
->
-> [Filtering Title Column](#filtering-title-column)
->
-> [Section 7: Editing Single
-> Cells](#section-7-editing-single-cells)
->
-> [Editing Individual Cell](#editing-individual-cell)
->
+>> [Filtering Title Column](#filtering-title-column)
+
+> [Section 7: Editing Single Cells](#section-7-editing-single-cells)
+>> [Editing Individual Cell](#editing-individual-cell)
+
 > [Section 8: Sorting Data](#section-8-sorting-data)
->
-> [Sort by Title Alphabetically](#sort-by-title-alphabetically)
->
+>> [Sort by Title Alphabetically](#sort-by-title-alphabetically)
+
 > [Section 9: Faceting Data](#section-9-faceting-data)
->
-> [Text Faceting to Explore Your
-> Dataset](#text-faceting-to-explore-your-dataset)
->
-> [Text Faceting to Spot and Fix
-> Errors](#text-faceting-to-spot-and-fix-errors)
->
-> [Numeric Facet](#numeric-facet)
->
-> [Timeline Facet](#timeline-facet)
->
+>> [Text Faceting to Explore Your Dataset](#text-faceting-to-explore-your-dataset) <br> [Text Faceting to Spot and Fix Errors](#text-faceting-to-spot-and-fix-errors) <br> [Numeric Facet](#numeric-facet) <br> [Timeline Facet](#timeline-facet)
+
 > [Section 10: Clustering Data](#section-10-clustering-data)
->
-> [Using Clustering to Combine Similar
-> Terms](#using-clustering-to-combine-similar-terms)
->
-> [Section 11: Splitting and Joining
-> Cells](#section-11-splitting-and-joining-cells)
->
-> [Splitting Cells](#splitting-cells)
->
-> [Joining Cells](#joining-cells)
->
-> [Splitting Columns](#splitting-columns)
->
-> [Joining Columns](#joining-columns)
->
-> [Section 12: OpenRefine
-> Expressions](#section-12-openrefine-expressions)
->
-> [Regular Expressions](#regular-expressions)
->
-> [Find Titles that Contain One or More
-> Digits](#find-titles-that-contain-one-or-more-digits)
->
-> [Find Titles that Start with Individual Letters/Articles not
-> Words](#find-titles-that-start-with-individual-lettersarticles-not-words)
->
-> [Find and Replace with Regular
-> Expressions](#find-and-replace-with-regular-expressions)
->
-> [General Refine Expression Language
-> (GREL)](#general-refine-expression-language-grel)
->
-> [Using GREL to Replace Values with
-> “replace()”](#using-grel-to-replace-values-with-replace)
->
-> [Using GREL to Convert Dates to Strings using
-> ‘toString()’](#using-grel-to-convert-dates-to-strings-using-tostring)
->
+>> [Using Clustering to Combine Similar Terms](#using-clustering-to-combine-similar-terms)
+
+> [Section 11: Splitting and Joining Cells](#section-11-splitting-and-joining-cells)
+
+>> [Splitting Cells](#splitting-cells) <br>  [Joining Cells](#joining-cells) <br> [Splitting Columns](#splitting-columns) <br> [Joining Columns](#joining-columns)
+
+> [Section 12: OpenRefine Expressions](#section-12-openrefine-expressions)
+>> [Regular Expressions](#regular-expressions)
+>>> [Find Titles that Contain One or More Digits](#find-titles-that-contain-one-or-more-digits) <br>  [Find Titles that Start with Individual Letters/Articles not Words](#find-titles-that-start-with-individual-lettersarticles-not-words) <br>  [Find and Replace with Regular Expressions](#find-and-replace-with-regular-expressions)
+
+>> [General Refine Expression Language (GREL)](#general-refine-expression-language-grel)
+>>> [Using GREL to Replace Values with “replace()”](#using-grel-to-replace-values-with-replace) <br> [Using GREL to Convert Dates to Strings using ‘toString()’](#using-grel-to-convert-dates-to-strings-using-tostring)
+
 > [Section 13: Reconciling Data](#section-13-reconciling-data)
->
-> [Using Reconciling for Actors and Add Additional
-> Identifiers](#using-reconciling-for-actors-and-add-additional-identifiers)
->
-> [Section 14: Using AI with
-> OpenRefine](#section-14-using-ai-with-openrefine)
+>> [Using Reconciling for Actors and Add Additional Identifiers](#using-reconciling-for-actors-and-add-additional-identifiers)
+
+> [Section 14: Using AI with OpenRefine](#section-14-using-ai-with-openrefine)
 
 [Volume 3: Preservation](#volume-3-preservation)
 
-> [Section 15: Documentation and Transformation
-> Actions](#section-15-documentation-and-transformation-actions)
->
-> [Undo/Redo](#undoredo)
->
-> [File Format Transformations](#file-format-transformations)
->
-> [Exporting](#exporting)
->
-> [Exporting Data from your OpenRefine
-> Project](#exporting-data-from-your-openrefine-project)
->
-> [Using Your History to Create a
-> Log](#using-your-history-to-create-a-log)
->
+> [Section 15: Documentation and Transformation Actions](#section-15-documentation-and-transformation-actions)
+>> [Undo/Redo](#undoredo) <br> [File Format Transformations](#file-format-transformations) <br> [Exporting](#exporting)
+>>> [Exporting Data from your OpenRefine Project](#exporting-data-from-your-openrefine-project)
+>> [Using Your History to Create a Log](#using-your-history-to-create-a-log)
+
 > [Section 16: Conclusion](#section-16-conclusion)
->
-> [Data Curation](#data-curation)
->
-> [Data Preservation](#data-preservation)
+>> [Data Curation](#data-curation) <br> [Data Preservation](#data-preservation)
 
 [Volume 4: Appendix](#volume-4-appendix)
 
-[Section 17: CURATED Checklist](#section-17-curated-checklist)
+>[Section 17: CURATED Checklist](#section-17-curated-checklist)
 
-> [CHECK Step](#check-step)
->
-> [Check files and read
-> documentation](#check-files-and-read-documentation)
->
-> [Steps before importing the dataset in
-> OpenRefine](#steps-before-importing-the-dataset-in-openrefine)
->
-> [Steps after importing the dataset in
+>> [CHECK Step](#check-step)
+
+>>> [Check files and read documentation](#check-files-and-read-documentation)
+>>>> [Steps before importing the dataset in OpenRefine](#steps-before-importing-the-dataset-in-openrefine) <br> [Steps after importing the dataset in
 > OpenRefine](#steps-after-importing-the-dataset-in-openrefine)
->
-> [UNDERSTAND Step](#understand-step)
->
-> [Understand the data](#understand-the-data)
->
-> [REQUEST Step](#request-step)
->
-> [Request missing information or
-> changes](#request-missing-information-or-changes)
->
-> [AUGMENT Step](#augment-step)
->
-> [Augment the dataset](#augment-the-dataset)
->
-> [TRANSFORM Step](#transform-step)
->
-> [Transform file formats](#transform-file-formats)
->
-> [EVALUATE Step](#evaluate-step)
->
-> [Evaluate and rate the dataset](#evaluate-and-rate-the-dataset)
->
-> [DOCUMENT Step](#document-step)
->
-> [Document curation activities](#document-curation-activities)
->
-> [Section 18: References](#section-18-references)
->
-> [Section 19: Resources](#section-19-resources)
->
-> [Section 20: Datasets Used](#section-20-datasets-used)
->
-> [Badges for Markdown](#badges-for-markdown)
+
+>> [UNDERSTAND Step](#understand-step)
+>>> [Understand the data](#understand-the-data)
+
+>> [REQUEST Step](#request-step)
+>>> [Request missing information or changes](#request-missing-information-or-changes)
+
+>> [AUGMENT Step](#augment-step)
+>>> [Augment the dataset](#augment-the-dataset)
+
+>> [TRANSFORM Step](#transform-step)
+>>> [Transform file formats](#transform-file-formats)
+
+>> [EVALUATE Step](#evaluate-step)
+>>> [Evaluate and rate the dataset](#evaluate-and-rate-the-dataset)
+
+>> [DOCUMENT Step](#document-step)
+>>> [Document curation activities](#document-curation-activities)
+
+> [Section 18: References](#section-18-references) <br> [Section 19: Resources](#section-19-resources) <br> [Section 20: Datasets Used](#section-20-datasets-used)
+
 
 # Volume 1: Introduction and Setup
 
