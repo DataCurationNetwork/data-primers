@@ -1,347 +1,204 @@
-# **Overview**
+![](DCNlogo.png)
 
-<table>
-<colgroup>
-<col style="width: 30%" />
-<col style="width: 69%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Topic</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-<tr class="odd">
-<th>Data Type</th>
-<th>Tabular Data</th>
-</tr>
-<tr class="header">
-<th>File Format Export</th>
-<th>OpenRefine exports project archives in .tar.gz</th>
-</tr>
-<tr class="odd">
-<th>Import File Types</th>
-<th><ul>
-<li><blockquote>
-<p>Comma-separated values (CSV) or Tab-separated values (TSV)</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>Column separated files (custom separator other than comma or tab)</p>
-</blockquote></li>
-</ul>
-<ul>
-<li><blockquote>
-<p>Text files (TXT)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Fixed-width columns (TXT)</p>
-</blockquote></li>
-<li><blockquote>
-<p>JSON</p>
-</blockquote></li>
-<li><blockquote>
-<p>XML</p>
-</blockquote></li>
-<li><blockquote>
-<p>OpenDocument spreadsheet (ODS)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Excel spreadsheet (XLS or XLSX)</p>
-</blockquote></li>
-<li><blockquote>
-<p>PC-Axis (PX)</p>
-</blockquote></li>
-<li><blockquote>
-<p>MARC</p>
-</blockquote></li>
-<li><blockquote>
-<p>RDF data (JSON-LD, N3, N-Triples, Turtle, RDF/XML)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Wikitext</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="header">
-<th>Export File Types</th>
-<th><ul>
-<li><blockquote>
-<p>Comma-separated values (CSV) or Tab-separated values (TSV)</p>
-</blockquote></li>
-<li><blockquote>
-<p>JSON (Templating exporter, which generates JSON by default)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Google Sheets</p>
-</blockquote></li>
-<li><blockquote>
-<p>OpenDocument spreadsheet (ODS)</p>
-</blockquote></li>
-<li><blockquote>
-<p>Excel Spreadsheet (XLS or XLSX)</p>
-</blockquote></li>
-<li><blockquote>
-<p>HTML-formatted table</p>
-</blockquote></li>
-<li><blockquote>
-<p>Custom tabular exporter (TXT)</p>
-</blockquote></li>
-<li><blockquote>
-<p>SQL statement exporter</p>
-</blockquote></li>
-<li><blockquote>
-<p>Upload to Wikidata/Wikidata Schema</p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th>Version</th>
-<th>3.8.2 (2024-07-8)</th>
-</tr>
-<tr class="header">
-<th>Primary fields or areas of use</th>
-<th>Data cleaning, data manipulation, data curation, data
-preservation</th>
-</tr>
-<tr class="odd">
-<th>Source and affiliation</th>
-<th>https://openrefine.org/</th>
-</tr>
-<tr class="header">
-<th>Key questions for curation review</th>
-<th><p>Can the file’s type be brought into OpenRefine?</p>
-<p>Do the files need to be brought into OpenRefine for cleaning or can
-you use Microsoft Excel?</p>
-<p>Is the file ready to be brought into OpenRefine?</p>
-<p>Which curation activities need to be performed?</p>
-<p>See Section 4 and Volume 2 for more information</p></th>
-</tr>
-<tr class="odd">
-<th>Date Created</th>
-<th>2024-07-12</th>
-</tr>
-<tr class="header">
-<th>Created by</th>
-<th><p>Heather Owen, Aditi Thite, Peyton Tvrdy</p>
-<p>Mentor: Sophia Lafferty-Hess</p></th>
-</tr>
-<tr class="odd">
-<th>Date updated and summary of changes made</th>
-<th><mark>Add date on the day we upload the primer to GitHub</mark></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+# OpenRefine Primer
+
+Authors: Heather Owen, Aditi Thite, Peyton Tvrdy
+
+DCN Mentor: Sophia Lafferty-Hess, Duke University 
+
+Affiliate Contributors (peer reviewers): Alexandra Provo, Kent Gerber, Sherry Lake, and Matthew Murray
+
+Suggested Citation: Owen, Heather; Thite, Aditi; and Tvrdy, Peyton. (2024). OpenRefine Primer. Data Curation Network [GitHub Repository](https://github.com/DataCurationNetwork/data-primers).
+
+
+|   Topic   |   Description   |
+| :------------- | :------------- |
+| Data Type | Tabular Data |
+| File Format Export | OpenRefine exports project archives in .tar.gz |
+| Import File Types | <li>Comma-separated values (CSV) or Tab-separated values (TSV)</li><li>Column separated files (custom separator other than comma or tab)</li><li>Text files (TXT)</li><li>Fixed-width columns (TXT)</li><li>JSON</li><li>XML</li><li>OpenDocument spreadsheet (ODS)</li><li>Excel spreadsheet (XLS or XLSX)</li><li>PC-Axis (PX)</li><li>MARC</li><li>RDF data (JSON-LD, N3, N-Triples, Turtle, RDF/XML)</li><li>Wikitext</li> |
+| Export File Types | <li>Comma-separated values (CSV) or Tab-separated values (TSV)</li><li>JSON (Templating exporter, which generates JSON by default)</li><li>Google Sheets</li><li>OpenDocument spreadsheet (ODS)</li><li>Excel Spreadsheet (XLS or XLSX)</li><li>HTML-formatted table</li><li>Custom tabular exporter (TXT)</li><li>SQL statement exporter</li><li>Upload to Wikidata/Wikidata Schema</li> |
+| Version | 3.8.2 (2024-07-8) |
+| Primary fields or areas of use | Data cleaning, data manipulation, data curation, data preservation |
+| Source and affiliation | https://openrefine.org/ |
+| Key questions for curation review | <li>Can the file’s type be brought into OpenRefine?</li><li>Do the files need to be brought into OpenRefine for cleaning or can you use Microsoft Excel?</li><li>Is the file ready to be brought into OpenRefine?</li><li>Which curation activities need to be performed?</li> <br><br> See [Section 4: Key Questions to Ask Yourself](#section-4-key-questions-to-ask-yourself) and Volume 2 for more information |
+| Created by | Heather Owen, Aditi Thite, Peyton Tvrdy<br><br>Mentor: Sophia Lafferty-Hess |
+| Date updated and summary of changes made | 2024-07-31: Initial upload to GitHub|
 
 **OpenRefine Team Members:**
 
 Heather Owen, University of Rochester,
-[<u>howen@library.rochester.edu</u>](mailto:howen@library.rochester.edu)
+[howen@library.rochester.edu](mailto:howen@library.rochester.edu)
 
 Aditi Thite, AVSInfoPro, LLC.,
-[<u>aditi@avsinfopro.com</u>](mailto:aditi@avsinfopro.com)
+[aditi@avsinfopro.com](mailto:aditi@avsinfopro.com)
 
 Peyton Tvrdy, National Transportation Library
-[<u>peyton.tvrdy.ctr@dot.gov</u>](mailto:peyton.tvrdy.ctr@dot.gov)
+[peyton.tvrdy.ctr@dot.gov](mailto:peyton.tvrdy.ctr@dot.gov)
 
-**Mentors:**
+**Mentor:**
 
 Sophia Lafferty-Hess, Duke University
 
 ## TABLE OF CONTENTS
 
-[<u>Overview</u>](#overview)
 
-> [<u>TABLE OF CONTENTS</u>](#table-of-contents)
+[Volume 1: Introduction and Setup](#volume-1-introduction-and-setup)
 
-[<u>Volume 1: Introduction and
-Setup</u>](#volume-1-introduction-and-setup)
+> [Section 1: Purpose of OpenRefine and Primer](#section-1-purpose-of-openrefine-and-primer) <br> [Section 2: Description of Software](#section-2-description-of-software) <br> [Section 3: Getting Started with OpenRefine](#section-3-getting-started-with-openrefine)
 
-> [<u>Section 1: Purpose of OpenRefine and
-> Primer</u>](#section-1-purpose-of-openrefine-and-primer)
->
-> [<u>Section 2: Description of
-> Software</u>](#section-2-description-of-software)
->
-> [<u>Section 3: Getting Started with
-> OpenRefine</u>](#section-3-getting-started-with-openrefine)
->
-> [<u>Prerequisites</u>](#prerequisites)
->
-> [<u>Installation</u>](#installation)
->
-> [<u>First-Time Run</u>](#first-time-run)
->
-> [<u>Navigation and Settings</u>](#navigation-and-settings)
->
-> [<u>Interface</u>](#interface)
->
-> [<u>Section 4: Key Questions to Ask
-> Yourself</u>](#section-4-key-questions-to-ask-yourself)
->
-> [<u>Should you use OpenRefine?</u>](#should-you-use-openrefine)
->
-> [<u>What mistakes do you notice in the
-> dataset?</u>](#what-mistakes-do-you-notice-in-the-dataset)
->
-> [<u>Which mistakes should I fix?</u>](#which-mistakes-should-i-fix)
+>> [Prerequisites](#prerequisites) <br> [Installation](#installation) <br> [First-Time Run](#first-time-run) <br> [Navigation and Settings](#navigation-and-settings) <br> [Interface](#interface)
 
-[<u>Volume 2: OpenRefine Functions</u>](#volume-2-openrefine-functions)
+> [Section 4: Key Questions to Ask Yourself](#section-4-key-questions-to-ask-yourself)
 
-> [<u>Section 5: Transformations</u>](#section-5-transformations)
->
-> [<u>Remove Whitespace</u>](#remove-whitespace)
->
-> [<u>Bulk Transformations</u>](#bulk-transformations)
->
-> [<u>Changing Format</u>](#changing-format)
->
-> [<u>Changing Case</u>](#changing-case)
->
-> [<u>Section 6: Filtering Data</u>](#section-6-filtering-data)
->
-> [<u>Filtering Title Column</u>](#filtering-title-column)
->
-> [<u>Section 7: Editing Single
-> Cells</u>](#section-7-editing-single-cells)
->
-> [<u>Editing Individual Cell</u>](#editing-individual-cell)
->
-> [<u>Section 8: Sorting Data</u>](#section-8-sorting-data)
->
-> [<u>Sort by Title Alphabetically</u>](#sort-by-title-alphabetically)
->
-> [<u>Section 9: Faceting Data</u>](#section-9-faceting-data)
->
-> [<u>Text Faceting to Explore Your
-> Dataset</u>](#text-faceting-to-explore-your-dataset)
->
-> [<u>Text Faceting to Spot and Fix
-> Errors</u>](#text-faceting-to-spot-and-fix-errors)
->
-> [<u>Numeric Facet</u>](#numeric-facet)
->
-> [<u>Timeline Facet</u>](#timeline-facet)
->
-> [<u>Section 10: Clustering Data</u>](#section-10-clustering-data)
->
-> [<u>Using Clustering to Combine Similar
-> Terms</u>](#using-clustering-to-combine-similar-terms)
->
-> [<u>Section 11: Splitting and Joining
-> Cells</u>](#section-11-splitting-and-joining-cells)
->
-> [<u>Splitting Cells</u>](#splitting-cells)
->
-> [<u>Joining Cells</u>](#joining-cells)
->
-> [<u>Splitting Columns</u>](#splitting-columns)
->
-> [<u>Joining Columns</u>](#joining-columns)
->
-> [<u>Section 12: OpenRefine
-> Expressions</u>](#section-12-openrefine-expressions)
->
-> [<u>Regular Expressions</u>](#regular-expressions)
->
-> [<u>Find Titles that Contain One or More
-> Digits</u>](#find-titles-that-contain-one-or-more-digits)
->
-> [<u>Find Titles that Start with Individual Letters/Articles not
-> Words</u>](#find-titles-that-start-with-individual-lettersarticles-not-words)
->
-> [<u>Find and Replace with Regular
-> Expressions</u>](#find-and-replace-with-regular-expressions)
->
-> [<u>General Refine Expression Language
-> (GREL)</u>](#general-refine-expression-language-grel)
->
-> [<u>Using GREL to Replace Values with
-> “replace()”</u>](#using-grel-to-replace-values-with-replace)
->
-> [<u>Using GREL to Convert Dates to Strings using
-> ‘toString()’</u>](#using-grel-to-convert-dates-to-strings-using-tostring)
->
-> [<u>Section 13: Reconciling Data</u>](#section-13-reconciling-data)
->
-> [<u>Using Reconciling for Actors and Add Additional
-> Identifiers</u>](#using-reconciling-for-actors-and-add-additional-identifiers)
->
-> [<u>Section 14: Using AI with
-> OpenRefine</u>](#section-14-using-ai-with-openrefine)
+>> [Should you use OpenRefine?](#should-you-use-openrefine) <br> [What mistakes do you notice in the dataset?](#what-mistakes-do-you-notice-in-the-dataset) <br> [Which mistakes should I fix?](#which-mistakes-should-i-fix)
 
-[<u>Volume 3: Preservation</u>](#volume-3-preservation)
+[Volume 2: OpenRefine Functions](#volume-2-openrefine-functions)
 
-> [<u>Section 15: Documentation and Transformation
-> Actions</u>](#section-15-documentation-and-transformation-actions)
->
-> [<u>Undo/Redo</u>](#undoredo)
->
-> [<u>File Format Transformations</u>](#file-format-transformations)
->
-> [<u>Exporting</u>](#exporting)
->
-> [<u>Exporting Data from your OpenRefine
-> Project</u>](#exporting-data-from-your-openrefine-project)
->
-> [<u>Using Your History to Create a
-> Log</u>](#using-your-history-to-create-a-log)
->
-> [<u>Section 16: Conclusion</u>](#section-16-conclusion)
->
-> [<u>Data Curation</u>](#data-curation)
->
-> [<u>Data Preservation</u>](#data-preservation)
+> [Section 5: Transformations](#section-5-transformations)
+>> [Remove Whitespace](#remove-whitespace) <br> [Bulk Transformations](#bulk-transformations) <br> [Changing Format](#changing-format) <br> [Changing Case](#changing-case)
 
-[<u>Volume 4: Appendix</u>](#volume-4-appendix)
+> [Section 6: Filtering Data](#section-6-filtering-data)
+>
+> [Filtering Title Column](#filtering-title-column)
+>
+> [Section 7: Editing Single
+> Cells](#section-7-editing-single-cells)
+>
+> [Editing Individual Cell](#editing-individual-cell)
+>
+> [Section 8: Sorting Data](#section-8-sorting-data)
+>
+> [Sort by Title Alphabetically](#sort-by-title-alphabetically)
+>
+> [Section 9: Faceting Data](#section-9-faceting-data)
+>
+> [Text Faceting to Explore Your
+> Dataset](#text-faceting-to-explore-your-dataset)
+>
+> [Text Faceting to Spot and Fix
+> Errors](#text-faceting-to-spot-and-fix-errors)
+>
+> [Numeric Facet](#numeric-facet)
+>
+> [Timeline Facet](#timeline-facet)
+>
+> [Section 10: Clustering Data](#section-10-clustering-data)
+>
+> [Using Clustering to Combine Similar
+> Terms](#using-clustering-to-combine-similar-terms)
+>
+> [Section 11: Splitting and Joining
+> Cells](#section-11-splitting-and-joining-cells)
+>
+> [Splitting Cells](#splitting-cells)
+>
+> [Joining Cells](#joining-cells)
+>
+> [Splitting Columns](#splitting-columns)
+>
+> [Joining Columns](#joining-columns)
+>
+> [Section 12: OpenRefine
+> Expressions](#section-12-openrefine-expressions)
+>
+> [Regular Expressions](#regular-expressions)
+>
+> [Find Titles that Contain One or More
+> Digits](#find-titles-that-contain-one-or-more-digits)
+>
+> [Find Titles that Start with Individual Letters/Articles not
+> Words](#find-titles-that-start-with-individual-lettersarticles-not-words)
+>
+> [Find and Replace with Regular
+> Expressions](#find-and-replace-with-regular-expressions)
+>
+> [General Refine Expression Language
+> (GREL)](#general-refine-expression-language-grel)
+>
+> [Using GREL to Replace Values with
+> “replace()”](#using-grel-to-replace-values-with-replace)
+>
+> [Using GREL to Convert Dates to Strings using
+> ‘toString()’](#using-grel-to-convert-dates-to-strings-using-tostring)
+>
+> [Section 13: Reconciling Data](#section-13-reconciling-data)
+>
+> [Using Reconciling for Actors and Add Additional
+> Identifiers](#using-reconciling-for-actors-and-add-additional-identifiers)
+>
+> [Section 14: Using AI with
+> OpenRefine](#section-14-using-ai-with-openrefine)
 
-[<u>Section 17: CURATED Checklist</u>](#section-17-curated-checklist)
+[Volume 3: Preservation](#volume-3-preservation)
 
-> [<u>CHECK Step</u>](#check-step)
+> [Section 15: Documentation and Transformation
+> Actions](#section-15-documentation-and-transformation-actions)
 >
-> [<u>Check files and read
-> documentation</u>](#check-files-and-read-documentation)
+> [Undo/Redo](#undoredo)
 >
-> [<u>Steps before importing the dataset in
-> OpenRefine</u>](#steps-before-importing-the-dataset-in-openrefine)
+> [File Format Transformations](#file-format-transformations)
 >
-> [<u>Steps after importing the dataset in
-> OpenRefine</u>](#steps-after-importing-the-dataset-in-openrefine)
+> [Exporting](#exporting)
 >
-> [<u>UNDERSTAND Step</u>](#understand-step)
+> [Exporting Data from your OpenRefine
+> Project](#exporting-data-from-your-openrefine-project)
 >
-> [<u>Understand the data</u>](#understand-the-data)
+> [Using Your History to Create a
+> Log](#using-your-history-to-create-a-log)
 >
-> [<u>REQUEST Step</u>](#request-step)
+> [Section 16: Conclusion](#section-16-conclusion)
 >
-> [<u>Request missing information or
-> changes</u>](#request-missing-information-or-changes)
+> [Data Curation](#data-curation)
 >
-> [<u>AUGMENT Step</u>](#augment-step)
+> [Data Preservation](#data-preservation)
+
+[Volume 4: Appendix](#volume-4-appendix)
+
+[Section 17: CURATED Checklist](#section-17-curated-checklist)
+
+> [CHECK Step](#check-step)
 >
-> [<u>Augment the dataset</u>](#augment-the-dataset)
+> [Check files and read
+> documentation](#check-files-and-read-documentation)
 >
-> [<u>TRANSFORM Step</u>](#transform-step)
+> [Steps before importing the dataset in
+> OpenRefine](#steps-before-importing-the-dataset-in-openrefine)
 >
-> [<u>Transform file formats</u>](#transform-file-formats)
+> [Steps after importing the dataset in
+> OpenRefine](#steps-after-importing-the-dataset-in-openrefine)
 >
-> [<u>EVALUATE Step</u>](#evaluate-step)
+> [UNDERSTAND Step](#understand-step)
 >
-> [<u>Evaluate and rate the dataset</u>](#evaluate-and-rate-the-dataset)
+> [Understand the data](#understand-the-data)
 >
-> [<u>DOCUMENT Step</u>](#document-step)
+> [REQUEST Step](#request-step)
 >
-> [<u>Document curation activities</u>](#document-curation-activities)
+> [Request missing information or
+> changes](#request-missing-information-or-changes)
 >
-> [<u>Section 18: References</u>](#section-18-references)
+> [AUGMENT Step](#augment-step)
 >
-> [<u>Section 19: Resources</u>](#section-19-resources)
+> [Augment the dataset](#augment-the-dataset)
 >
-> [<u>Section 20: Datasets Used</u>](#section-20-datasets-used)
+> [TRANSFORM Step](#transform-step)
 >
-> [<u>Badges for Markdown</u>](#badges-for-markdown)
+> [Transform file formats](#transform-file-formats)
+>
+> [EVALUATE Step](#evaluate-step)
+>
+> [Evaluate and rate the dataset](#evaluate-and-rate-the-dataset)
+>
+> [DOCUMENT Step](#document-step)
+>
+> [Document curation activities](#document-curation-activities)
+>
+> [Section 18: References](#section-18-references)
+>
+> [Section 19: Resources](#section-19-resources)
+>
+> [Section 20: Datasets Used](#section-20-datasets-used)
+>
+> [Badges for Markdown](#badges-for-markdown)
 
 # Volume 1: Introduction and Setup
 
@@ -1618,7 +1475,7 @@ Fig. 78
 After selecting “Start reconciling,” a menu pops up that allows you to
 pick a reconciliation service. In this example we will add the wikidata
 service. The Wikidata service is
-[<u>https://wikidata.reconci.link/en/api</u>](https://wikidata.reconci.link/en/api).
+[https://wikidata.reconci.link/en/api](https://wikidata.reconci.link/en/api).
 Add this link to the add standard service to use Wikidata.
 
 <img src="media/image61.png" style="width:6.5in;height:4.30556in" />
@@ -1937,7 +1794,7 @@ data curation best practices.
 
 #### **Check files and read documentation** 
 
-##### <u>Steps before importing the dataset in OpenRefine</u> 
+##### Steps before importing the dataset in OpenRefine 
 
 1.  Review and ensure if dataset is in scope for the repository
 
@@ -1983,7 +1840,7 @@ included with the dataset
 
 7.  Does this dataset follow compliance & institutional policy?
 
-##### <u>Steps after importing the dataset in OpenRefine</u>
+##### Steps after importing the dataset in OpenRefine
 
 6\. Check if the datasets and any supporting information open as
 expected in OpenRefine without any errors
@@ -2321,57 +2178,57 @@ captured in the Curator Log:
 ## Section 18: References
 
 1.  OpenRefine User Manual:
-    > [<u>https://openrefine.org/docs</u>](https://openrefine.org/docs)
+    > [https://openrefine.org/docs](https://openrefine.org/docs)
 
 2.  OpenRefine User Manual Installation:
-    > [<u>https://openrefine.org/docs/manual/installing</u>](https://openrefine.org/docs/manual/installing)
+    > [https://openrefine.org/docs/manual/installing](https://openrefine.org/docs/manual/installing)
 
 3.  OpenRefine Releases:
-    > [<u>https://github.com/OpenRefine/OpenRefine/releases</u>](https://github.com/OpenRefine/OpenRefine/releases)
+    > [https://github.com/OpenRefine/OpenRefine/releases](https://github.com/OpenRefine/OpenRefine/releases)
 
 4.  OpenRefine User Manual Running:
-    > [<u>https://openrefine.org/docs/manual/running</u>](https://openrefine.org/docs/manual/running)
+    > [https://openrefine.org/docs/manual/running](https://openrefine.org/docs/manual/running)
 
 5.  University of Idaho “Get Started with OpenRefine: Explore, Clean,
     > and Transform your Data!”
-    > [<u>https://www.youtube.com/watch?v=yTJ6x6zEQmI</u>](https://www.youtube.com/watch?v=yTJ6x6zEQmI)
+    > [https://www.youtube.com/watch?v=yTJ6x6zEQmI](https://www.youtube.com/watch?v=yTJ6x6zEQmI)
 
 6.  Introduction to OpenRefine by Owen Stephens
-    > [<u>https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf</u>](https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf)
+    > [https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf](https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf)
 
 7.  TensorFlow Making predictions:
-    > [<u>https://www.tensorflow.org/decision_forests/tutorials/predict_colab</u>](https://www.tensorflow.org/decision_forests/tutorials/predict_colab)
+    > [https://www.tensorflow.org/decision_forests/tutorials/predict_colab](https://www.tensorflow.org/decision_forests/tutorials/predict_colab)
 
 8.  OpenRefine Reconciling:
-    > [<u>https://openrefine.org/docs/manual/reconciling</u>](https://openrefine.org/docs/manual/reconciling)
+    > [https://openrefine.org/docs/manual/reconciling](https://openrefine.org/docs/manual/reconciling)
 
 9.  OpenRefine Column editing:
-    > [<u>https://openrefine.org/docs/manual/columnediting</u>](https://openrefine.org/docs/manual/columnediting)
+    > [https://openrefine.org/docs/manual/columnediting](https://openrefine.org/docs/manual/columnediting)
 
 10. OpenRefine Expressions:
-    > [<u>https://openrefine.org/docs/manual/expressions</u>](https://openrefine.org/docs/manual/expressions)
+    > [https://openrefine.org/docs/manual/expressions](https://openrefine.org/docs/manual/expressions)
 
 11. Library Juice Academy: Using OpenRefine for Library Metadata Course
 
 12. FAIR Guiding Principles:
-    > [<u>https://www.go-fair.org/fair-principles/</u>](https://www.go-fair.org/fair-principles/)
+    > [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
 13. Data Curation Network CURATE(D) Steps
-    > [<u>https://datacurationnetwork.org/outputs/workflows/</u>](https://datacurationnetwork.org/outputs/workflows/)
+    > [https://datacurationnetwork.org/outputs/workflows/](https://datacurationnetwork.org/outputs/workflows/)
 
-14. OpenRefine Reconciliation Services: [<u>Reconciliation service test
+14. OpenRefine Reconciliation Services: [Reconciliation service test
     > bench
-    > (reconciliation-api.github.io)</u>](https://reconciliation-api.github.io/testbench/#/)
+    > (reconciliation-api.github.io)](https://reconciliation-api.github.io/testbench/#/)
 
 15. OpenRefine Forum on Using AI to Create GREL/RegEx:
-    > [<u>https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369</u>](https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369)
+    > [https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369](https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369)
 
 16. OpenRefine Forum on Using the OpenAI API to apply natural language
     > queries to cells/data:
-    > [<u>https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308</u>](https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308)
+    > [https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308](https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308)
 
 17. Using ChatGPT to clean data: an experiment:
-    > [<u>https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/</u>](https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/)
+    > [https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/](https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/)
 
 ## Section 19: Resources 
 
@@ -2393,17 +2250,17 @@ captured in the Curator Log:
         > introduction to OpenRefine
 
 3.  University of Toronto Libraries OpenRefine tutorials:
-    > [<u>https://mdl.library.utoronto.ca/tools/openrefine</u>](https://mdl.library.utoronto.ca/tools/openrefine)
+    > [https://mdl.library.utoronto.ca/tools/openrefine](https://mdl.library.utoronto.ca/tools/openrefine)
 
 4.  OpenRefine GREL recipes:
-    > [<u>https://github.com/OpenRefine/OpenRefine/wiki/Recipes</u>](https://github.com/OpenRefine/OpenRefine/wiki/Recipes)
+    > [https://github.com/OpenRefine/OpenRefine/wiki/Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes)
 
-5.  Links to Other Data Curation Network Primers: [<u>Data Curation
+5.  Links to Other Data Curation Network Primers: [Data Curation
     > Network Primers
-    > (umn.edu)</u>](https://conservancy.umn.edu/handle/11299/202810)
+    > (umn.edu)](https://conservancy.umn.edu/handle/11299/202810)
 
 6.  OpenRefine Forums:
-    > [<u>https://forum.openrefine.org/</u>](https://forum.openrefine.org/)
+    > [https://forum.openrefine.org/](https://forum.openrefine.org/)
 
 ## Section 20: Datasets Used 
 
@@ -2413,41 +2270,13 @@ datasets in order to depict OpenRefine’s functionality. The datasets we
 used are:
 
 1.  IMDb Data Files Main Page:
-    > [<u>https://developer.imdb.com/non-commercial-datasets/</u>](https://developer.imdb.com/non-commercial-datasets/)
+    > [https://developer.imdb.com/non-commercial-datasets/](https://developer.imdb.com/non-commercial-datasets/)
 
 2.  IMDb Dataset:
-    > [<u>https://datasets.imdbws.com/</u>](https://datasets.imdbws.com/)
+    > [https://datasets.imdbws.com/](https://datasets.imdbws.com/)
 
 3.  *What’s on the menu?* Dataset, created by the New York Public
     > Library:
-    > [<u>https://menus.nypl.org/data</u>](https://menus.nypl.org/data)
+    > [https://menus.nypl.org/data](https://menus.nypl.org/data)
 
-## Badges for Markdown
 
-https://img.shields.io/badge/DCN-Check-red
-
-\![Static Badge\](https://img.shields.io/badge/DCN-Check-red)
-
-https://img.shields.io/badge/DCN-Understand-orange
-
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
-
-https://img.shields.io/badge/DCN-Request-yellow
-
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
-
-https://img.shields.io/badge/DCN-Augment-green
-
-\![Static Badge\](https://img.shields.io/badge/DCN-Augment-green)
-
-https://img.shields.io/badge/DCN-Transform-blue
-
-\![Static Badge\](https://img.shields.io/badge/DCN-Transform-blue)
-
-https://img.shields.io/badge/DCN-Evaluate-b600b6
-
-\![Static Badge\](https://img.shields.io/badge/DCN-Evaluate-b600b6)
-
-https://img.shields.io/badge/DCN-Document-hotpink
-
-\![Static Badge\](https://img.shields.io/badge/DCN-Document-hotpink)
