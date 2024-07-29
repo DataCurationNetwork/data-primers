@@ -292,7 +292,7 @@ Department if you have problems with installation.
 
 ### Navigation and Settings
 
-<figure> <img src="openrefine-1.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 1: View of OpenRefine home screen.</figcaption> </figure> <br><br>
+<figure> <img src="openrefine1.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 1: View of OpenRefine home screen.</figcaption> </figure> <br><br>
 
 On the left-hand side menu, you can find your “home screen” area where
 you can create, import, open projects and adjust your language settings.
@@ -300,7 +300,7 @@ To create a new project, you can upload data from your computer, a URL,
 Clipboard, Database and Google Data. Once you upload your data and click
 “Next,” you will be brought to the “Create project” screen.
 
-<figure> <img src="openrefine-2.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 2: View of OpenRefine home screen during file import process.</figcaption> </figure> <br><br>
+<figure> <img src="openrefine2.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 2: View of OpenRefine home screen during file import process.</figcaption> </figure> <br><br>
 
 In the “Create project” screen you can see a preview of what the data
 will look like. If your data has multiple worksheets, you can select
@@ -324,7 +324,7 @@ data manipulation, OpenRefine offers embedded in-built functions in the
 form of user-friendly drop-down menus which enable ease of
 use.[^11]
 
-<figure> <img src="openrefine-3.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 3: View of OpenRefine interface.</figcaption> </figure> <br><br>
+<figure> <img src="openrefine3.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 3: View of OpenRefine interface.</figcaption> </figure> <br><br>
 
 Once a project is open, there are several sections that you can use and
 explore. This includes:
@@ -459,110 +459,95 @@ texts in bulk throughout the columns and rows of the dataset.
 
 #### Remove Whitespace
 
-> <img src="media/image83.png" style="width:4.57469in;height:3.36979in" />
->
-> Fig. 4
->
-> In this example, to remove all leading and trailing whitespaces from
-> the “Title” column, select the “Title” column. From the drop-down menu
-> select “Edit cells” - “Common transforms” - “Trim leading and trailing
-> whitespaces”. With this function, you will be able to clean up any
-> whitespaces before and after the titles.
+<figure> <img src="openrefine4.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 4: View of OpenRefine interface showing common transformations.</figcaption> </figure> <br><br>
+
+In this example, to remove all leading and trailing whitespaces from
+the “Title” column, select the “Title” column. From the drop-down menu
+select “Edit cells” - “Common transforms” - “Trim leading and trailing
+whitespaces”. With this function, you will be able to clean up any
+whitespaces before and after the titles.
 
 #### Bulk Transformations
 
-> <img src="media/image69.png" style="width:3.60417in;height:3.76912in" />
->
-> Fig. 5
->
-> “Common transforms” actions can also be applied in bulk to the entire
-> dataset from the “All” column in OpenRefine. The “All” column always
-> appears as the first column in the header. To apply these functions in
-> bulk, select the “All” column. From the drop-down, select “Edit all
-> columns” followed by “Trim leading and trailing whitespace…”. Upon
-> selection, all leading and trailing whitespaces will be removed from
-> the entire dataset all at once. You can also change the case and
-> format of the data in bulk. Some transformations make sense to do in
-> bulk (such as whitespace), but some transformations should be done
-> column by column (such as data format).
+<figure> <img src="openrefine5.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 5: View of OpenRefine interface showing options for editing all columns.</figcaption> </figure> <br><br>
+
+“Common transforms” actions can also be applied in bulk to the entire
+dataset from the “All” column in OpenRefine. The “All” column always
+appears as the first column in the header. To apply these functions in
+bulk, select the “All” column. From the drop-down, select “Edit all
+columns” followed by “Trim leading and trailing whitespace…”. Upon
+selection, all leading and trailing whitespaces will be removed from
+the entire dataset all at once. You can also change the case and
+format of the data in bulk. Some transformations make sense to do in
+bulk (such as whitespace), but some transformations should be done
+column by column (such as data format).
 
 #### Changing Format
 
-> <img src="media/image89.png" style="width:1.27083in;height:3.52083in" />
-> <img src="media/image63.png" style="width:1.26969in;height:3.50477in" />
->
-> Fig. 6
->
-> You have the option to change the format type to number, date, text,
-> null, and empty string. It is important to make sure each column has
-> the correct format. Data in the text format will be black, and data in
-> the number and date format will be green.
+<figure> <img src="openrefine6a.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 6a: View of OpenRefine interface showing green text (date format)></figcaption> </figure> <br><br><figure> <img src="openrefine6b.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 6b: View of OpenRefine interface showing black text (text format).</figcaption> </figure> <br><br>
+
+You have the option to change the format type to number, date, text,
+null, and empty string. It is important to make sure each column has
+the correct format. Data in the text format will be black, and data in
+the number and date format will be green.
 
 #### Changing Case
 
-> Other common transformations include changing to titlecase, uppercase,
-> or lowercase. To change to uppercase, you can click on the arrow next
-> to the column, and then select “Edit cells,” “Common transforms,” and
-> “To uppercase.”
->
-> <img src="media/image42.png" style="width:1.125in;height:2.79167in" />
->
-> Fig. 7
->
-> The titles are then rewritten so they are uppercase.
+Other common transformations include changing to titlecase, uppercase,
+or lowercase. To change to uppercase, you can click on the arrow next
+to the column, and then select “Edit cells,” “Common transforms,” and
+“To uppercase.”
+
+<br><br><figure> <img src="openrefine7.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 7: View of OpenRefine interface showing rewritten titles.</figcaption> </figure> <br><br>
+
+The titles are then rewritten so they are uppercase.
 
 ## Section 6: Filtering Data 
 
  ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
-> In addition to using facets to filter data in OpenRefine, you can also
-> apply a “Text filter” to filter data. You can look for the piece of
-> text in the records with the “find” feature. “Text filter” is located
-> in the drop down menu of each column. Select “Text filter” from the
-> column you want to apply the filter to. When working with filtered
-> data, only the rows that meet the filter criteria are affected by any
-> transformations or editing. Rows not included in the filter will
-> remain unchanged.
+In addition to using facets to filter data in OpenRefine, you can also
+apply a “Text filter” to filter data. You can look for the piece of
+text in the records with the “find” feature. “Text filter” is located
+in the drop down menu of each column. Select “Text filter” from the
+column you want to apply the filter to. When working with filtered
+data, only the rows that meet the filter criteria are affected by any
+transformations or editing. Rows not included in the filter will
+remain unchanged.
 
 #### Filtering Title Column
 
-> In the following example, we are using the “Title” column to gain
-> insight.
->
-> <img src="media/image11.png" style="width:2.07813in;height:4.61911in" />
+In the following example, we are using the “Title” column to gain
+insight.
 
-Fig. 8
+<br><br><figure> <img src="openrefine8.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 8: View of OpenRefine interface showing title column of dataset.</figcaption> </figure> <br><br>
 
-> First, identify the column that you would like to filter. In this
-> example we will be filtering the “Title” column.
->
-> <img src="media/image31.png" style="width:2.09375in;height:2.96875in" />
+First, identify the column that you would like to filter. In this
+example we will be filtering the “Title” column.
 
-Fig. 9
+<figure> <img src="openrefine9.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 9: View of OpenRefine interface showing text filter underlined.</figcaption> </figure> <br><br>
 
-> To create a text filter, navigate to the column’s drop down. Then
-> select “Text filter”.
->
-> <img src="media/image49.png" style="width:3.14583in;height:2in" />
+To create a text filter, navigate to the column’s drop down. Then
+select “Text filter”.
 
-Fig. 10
+<figure> <img src="openrefine10.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 10: View of OpenRefine interface showing text filter through the title column.</figcaption> </figure> <br><br>
 
-> Once “Text filter” is selected, you have the option to search that
-> column for your desired value.
->
-> <img src="media/image40.png" style="width:5.01563in;height:4.9353in" />
 
-Fig. 11
+Once “Text filter” is selected, you have the option to search that
+column for your desired value.
 
-> In this example, we would like to search for all titles that have an
-> exclamation point. When searching the titles for this character,
-> OpenRefine returned 22 matching results.
->
-> This result can be used in many ways. For example, perhaps your
-> visualization software does not understand exclamation points. By text
-> filtering for exclamation points and then removing them, you will have
-> successfully cleaned the data for this software without searching for
-> each exclamation point individually.
+<figure> <img src="openrefine11.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 11: View of OpenRefine interface showing text filter through the title column, searching for titles with an "!".</figcaption> </figure> <br><br>
+
+
+In this example, we would like to search for all titles that have an
+exclamation point. When searching the titles for this character,
+OpenRefine returned 22 matching results.
+
+This result can be used in many ways. For example, perhaps your
+visualization software does not understand exclamation points. By text
+filtering for exclamation points and then removing them, you will have
+successfully cleaned the data for this software without searching for
+each exclamation point individually.
 
 ## Section 7: Editing Single Cells
 
