@@ -1934,7 +1934,7 @@ Evaluate/test the full extracted/exported project data in OpenRefine
 
 ### **DOCUMENT Step**
 
-\![](https://img.shields.io/badge/DCN-Document-hotpink)
+![Static Badge](https://img.shields.io/badge/DCN-Document-hotpink)
 
 #### **Document curation activities** 
 
