@@ -353,9 +353,9 @@ by the University of Idaho Library.[^5]
 
 ## Section 4: Key Questions to Ask Yourself
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 ### **Should you use OpenRefine?**
 
@@ -446,9 +446,9 @@ Some common issues you may want to ask the researcher about:
 
 ## **Section 5: Transformations**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 > OpenRefine has useful built-in cleaning/transformation tools, called
 > “Transform…” and “Common transforms” that are located under “Edit
@@ -525,7 +525,7 @@ Some common issues you may want to ask the researcher about:
 
 ## **Section 6: Filtering Data** 
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
 > In addition to using facets to filter data in OpenRefine, you can also
 > apply a “Text filter” to filter data. You can look for the piece of
@@ -578,8 +578,8 @@ Fig. 11
 
 ## **Section 7: Editing Single Cells**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)  
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)  
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 <span class="mark"> </span>
 
 #### **Editing Individual Cell**
@@ -607,7 +607,7 @@ is one of the unique features of OpenRefine.
 
 ## **Section 8: Sorting Data**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
 Data can be sorted in OpenRefine by clicking on the drop-down menu of
 the column you want to sort on, by choosing “Sort”.[^1] Unlike
@@ -667,9 +667,9 @@ Fig. 18
 
 ## **Section 9: Faceting Data** 
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 > Facet is the most used feature of OpenRefine, as it enables
 > consistency of data. A “Facet” groups all values that appear in a
@@ -896,7 +896,7 @@ To remove the facet, select the “x” next to the name of the facet.
 
 ## **Section 10: Clustering Data** 
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 > The Cluster function groups together similar, but inconsistent values
 > in a given column and lets you merge these inconsistent values into a
@@ -976,9 +976,9 @@ Fig. 42
 
 ## **Section 11: Splitting and Joining Cells** 
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Augment-green)
+ ![Static Badge](https://img.shields.io/badge/DCN-Augment-green)
 
 > OpenRefine enables splitting data from cells into multiple rows
 > according to data manipulation and organizational needs. This is a
@@ -1126,9 +1126,9 @@ website.[^9]
 
 ## **Section 12: OpenRefine Expressions**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 ### **Regular Expressions** 
 
@@ -1233,9 +1233,9 @@ number or punctuation that you want to replace. Click “OK”. On clicking
 
 ### **General Refine Expression Language (GREL)**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 The General Refine Expression Language (GREL)[^1][^10][^11] is a
 programming language similar to Javascript that works inside OpenRefine.
@@ -1316,9 +1316,9 @@ as “MM-dd-yyy” in the formula.
 
 ## **Section 13: Reconciling** **Data** 
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Augment-green)
+ ![Static Badge](https://img.shields.io/badge/DCN-Augment-green)
 
 OpenRefine allows you to reconcile your dataset with an external
 source.[^8][^14] In order to do so, that external dataset must
@@ -1498,11 +1498,11 @@ together, and monitor the OpenRefine Forums for any new developments.
 
 ## Section 15: Documentation and Transformation Actions
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Transform-blue)
+ ![Static Badge](https://img.shields.io/badge/DCN-Transform-blue)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Evaluate-b600b6)
+ ![Static Badge](https://img.shields.io/badge/DCN-Evaluate-b600b6)
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Document-hotpink)
+ ![Static Badge](https://img.shields.io/badge/DCN-Document-hotpink)
 
 ### **Undo/Redo**
 
@@ -1528,7 +1528,7 @@ Fig. 86
 
 ### **File Format Transformations**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Transform-blue)
+ ![Static Badge](https://img.shields.io/badge/DCN-Transform-blue)
 
 OpenRefine enables file format transformations seamlessly. During data
 import, it is good practice for the curator to check, identify and
@@ -1550,7 +1550,7 @@ verify if:
 
 ### **Exporting**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Evaluate-b600b6)
+ ![Static Badge](https://img.shields.io/badge/DCN-Evaluate-b600b6)
 
 The full OpenRefine project data can be exported to someone else using
 OpenRefine or can be exported to yourself on another computer.[^1][^11] You can save your exported OpenRefine project archive locally.
@@ -1721,7 +1721,7 @@ headers, rows, and columns
 
 ### **UNDERSTAND Step**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Understand-orange)
+ ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
 
 #### **Understand the data** 
 
@@ -1762,7 +1762,7 @@ datasets in OpenRefine
 
 ### **REQUEST Step**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Request-yellow)
+ ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 #### **Request missing information or changes** 
 
@@ -1797,7 +1797,7 @@ performing data manipulation in OpenRefine
 
 ### **AUGMENT Step**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Augment-green)
+ ![Static Badge](https://img.shields.io/badge/DCN-Augment-green)
 
 #### **Augment the dataset** 
 
@@ -1842,7 +1842,7 @@ performing data manipulation in OpenRefine
 
 ### **TRANSFORM Step**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Transform-blue)
+ ![Static Badge](https://img.shields.io/badge/DCN-Transform-blue)
 
 #### **Transform file formats**
 
@@ -1877,7 +1877,7 @@ exporting dataset out of OpenRefine
 
 ### **EVALUATE Step**
 
-\![Static Badge\](https://img.shields.io/badge/DCN-Evaluate-b600b6)
+ ![Static Badge](https://img.shields.io/badge/DCN-Evaluate-b600b6)
 
 #### **Evaluate and rate the dataset** 
 
