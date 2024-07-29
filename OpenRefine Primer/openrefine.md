@@ -146,12 +146,11 @@ data curation are:
 
 - Transform and augment a dataset to correct errors
 
-- Document and create a clear history of all actions completed on a
-  > dataset during the curation process
+- Document and create a clear history of all actions completed on a dataset during the curation process
 
 - Export data from OpenRefine in a variety of formats
 
-OpenRefine<sup>1</sup> is an open-source application that cleans and
+OpenRefine[^1] is an open-source application that cleans and
 modifies data for a variety of use cases. OpenRefine:
 
 - Is used for extensive/complex cleaning
@@ -160,8 +159,7 @@ modifies data for a variety of use cases. OpenRefine:
 
 - Is secure on a local/networked device
 
-- Requires no coding, but Regular Expressions (Regex and GREL) can be
-  > used for advanced transformations
+- Requires no coding, but Regular Expressions (Regex and GREL) can be used for advanced transformations
 
 - Has an interface and is easy to learn
 
@@ -169,8 +167,7 @@ modifies data for a variety of use cases. OpenRefine:
 
 - Is discipline agnostic
 
-- Supports various file formats such as .XLSX, .CSV, .JSON, .XML, .RDF,
-  > etc.
+- Supports various file formats such as .XLSX, .CSV, .JSON, .XML, .RDF, etc.
 
 While OpenRefine is an excellent, free software that allows users to
 easily clean and manipulate their data, it is not an all-in-one tool for
@@ -211,14 +208,14 @@ that allow you to look for various patterns of data in a dataset.
 OpenRefine allows transforming the dataset through common and custom
 transformations, clustering, splitting and joining cells and columns,
 reconciling, and writing expressions (Regex and GREL) to enhance data
-cleanup and manipulation of datasets.<sup>1,2</sup>
+cleanup and manipulation of datasets.[^1,2]
 
 While many operations are done in the program, OpenRefine has the
 capability to connect to web resources by connecting cells to entries in
 Wikidata and other online data on the web via APIs. For experienced
 users, it also supports the use of advanced operations, including
 Java-based Regular Expressions (GREL, Jython, and
-Clojure).<sup>1,2</sup>
+Clojure).[^1,2]
 
 Once your dataset is ready, it needs to be extracted and exported out of
 OpenRefine into another system. OpenRefine outputs a number of file
@@ -362,8 +359,7 @@ by the University of Idaho Library.<sup>5</sup>
 
 ### **Should you use OpenRefine?**
 
-- Can the file be brought into OpenRefine? OpenRefine works with the
-  > following file formats, and it works best with tabular data:
+- Can the file be brought into OpenRefine? OpenRefine works with the following file formats, and it works best with tabular data:
 
   - Comma-separated values (CSV) or tab-separated values (TSV)
 
@@ -393,48 +389,26 @@ by the University of Idaho Library.<sup>5</sup>
 
   - Wikitext
 
-- Do the files need to be brought into OpenRefine for cleaning? At first
-  > glance, do there appear to be numerous errors? Is the file size
-  > large? OpenRefine is useful for all datasets, but is particularly
-  > helpful when your datasets are large or you have numerous errors. If
-  > you have a small dataset, it may not be worth it to open it in
-  > OpenRefine.
+- Do the files need to be brought into OpenRefine for cleaning? At first glance, do there appear to be numerous errors? Is the file size large? OpenRefine is useful for all datasets, but is particularly helpful when your datasets are large or you have numerous errors. If you have a small dataset, it may not be worth it to open it in OpenRefine.
 
-- If the file is a delimited text or spreadsheet program file, is the
-  > data rectangular and ready to be brought into OpenRefine? A
-  > rectangular dataset has the header column as the first row and has
-  > one table per sheet or file.
+- If the file is a delimited text or spreadsheet program file, is the data rectangular and ready to be brought into OpenRefine? A rectangular dataset has the header column as the first row and has one table per sheet or file.
 
 ### **What mistakes do you notice in the dataset?**
 
 Explore the dataset using facets. Information and examples on facets can
 be found in Section 9.
 
-1.  See if there are null values. You can do this by using Text facets
-    > and seeing if there are any blank values.
-    > <span class="mark"></span>To look closer at them, you can click on
-    > “(blank)” to only be looking at the row with a null value. You can
-    > also use a special facet, such as "Facet by blank (null or empty
-    > string)." Is there an explanation for why there are null values in
-    > the documentation?
+1.  See if there are null values. You can do this by using Text facets and seeing if there are any blank values. <span class="mark"></span>To look closer at them, you can click on “(blank)” to only be looking at the row with a null value. You can also use a special facet, such as "Facet by blank (null or empty string)." Is there an explanation for why there are null values in the documentation?
 
-2.  Examine spelling. Are there inconsistencies in how things are
-    > spelled? Should data values be combined?
+2.  Examine spelling. Are there inconsistencies in how things are spelled? Should data values be combined?
 
-3.  Do any of the rows seem strange or out of place? Does anything not
-    > make sense?
+3.  Do any of the rows seem strange or out of place? Does anything not make sense?
 
-4.  Do you think the researcher is not following a standard that you
-    > believe they should be following to allow for interoperability?
-    > (e.g. ISO 3166 for country codes or ISO 8601 for dates).
+4.  Do you think the researcher is not following a standard that you believe they should be following to allow for interoperability? (e.g. ISO 3166 for country codes or ISO 8601 for dates).
 
-5.  Do any of the columns not make sense or would not be convenient for
-    > analysis? Should columns be split or joined together?
+5.  Do any of the columns not make sense or would not be convenient for analysis? Should columns be split or joined together?
 
-6.  If needed, you can sort the data by different columns in
-    > alphabetical, numerical, or chronological order in order to
-    > examine the dataset deeper. Do you see any strange outliers or
-    > anything that doesn’t make sense?
+6.  If needed, you can sort the data by different columns in alphabetical, numerical, or chronological order in order to examine the dataset deeper. Do you see any strange outliers or anything that doesn’t make sense?
 
 ### **Which mistakes should I fix?**
 
@@ -462,11 +436,9 @@ Some common issues you may want to ask the researcher about:
 
 - Why are \_\_\_\_\_\_ values null?
 
-- List any inconsistencies you noticed and ask if they should be
-  > modified.
+- List any inconsistencies you noticed and ask if they should be modified.
 
-- Ask if you can adjust data values in a column so it follows a
-  > standard.
+- Ask if you can adjust data values in a column so it follows a standard.
 
 - Ask if you can combine or split columns.
 
@@ -721,8 +693,7 @@ Fig. 18
 
 - Scatterplot facet
 
-- Customized facets, such as “Text length facet”, “Facet by null”,
-  > “Facet by blank (null or empty string)”
+- Customized facets, such as “Text length facet”, “Facet by null”, “Facet by blank (null or empty string)”
 
 #### **Text Faceting to Explore Your Dataset**
 
@@ -1371,8 +1342,7 @@ in order to:
 
 - fix spelling or variations in proper names
 
-- clean up manually-entered subject headings against authorities such as
-  > the Library of Congress Subject Headings (LCSH)
+- clean up manually-entered subject headings against authorities such as the Library of Congress Subject Headings (LCSH)
 
 - link your data to an existing dataset
 
@@ -1466,29 +1436,15 @@ refine data sets.
 
 Some examples of how AI can be used are:
 
-- **Writing Regular Expressions and GREL Commands**: AI-powered tools
-  > can generate regular expressions or GREL commands. Users can employ
-  > platforms like OpenAI’s GPT-4 or Microsoft’s Copilot to generate
-  > these commands and import them into OpenRefine.<sup>15</sup>
+- **Writing Regular Expressions and GREL Commands**: AI-powered tools can generate regular expressions or GREL commands. Users can employ platforms like OpenAI’s GPT-4 or Microsoft’s Copilot to generate these commands and import them into OpenRefine.<sup>15</sup>
 
-- **Adding and Transforming Columns**: Leverage APIs from AI services
-  > like the OpenAI API to create or modify columns based on data-driven
-  > insights.<sup>16</sup>
+- **Adding and Transforming Columns**: Leverage APIs from AI services like the OpenAI API to create or modify columns based on data-driven insights.<sup>16</sup>
 
-- **Data Standardization**: Use AI for contextual standardization of
-  > entities or dates, possibly through custom Python or JavaScript
-  > extensions that interface with AI APIs.<sup>17</sup>
+- **Data Standardization**: Use AI for contextual standardization of entities or dates, possibly through custom Python or JavaScript extensions that interface with AI APIs.<sup>17</sup>
 
-- **Predictive Data Entry**: Incorporate TensorFlow or other machine
-  > learning models to predict missing data points, such as zip codes,
-  > which can be scripted to run alongside OpenRefine
-  > operations.<sup>7</sup>
+- **Predictive Data Entry**: Incorporate TensorFlow or other machine learning models to predict missing data points, such as zip codes, which can be scripted to run alongside OpenRefine operations.<sup>7</sup>
 
-- **Contextual Reconciliation**: Enhance the reconciliation process by
-  > integrating AI tools that assess the context of data, improving the
-  > accuracy of data matching. (Knowing whether the location Vienna is
-  > in reference to the city of Vienna in the United States or in
-  > Austria)
+- **Contextual Reconciliation**: Enhance the reconciliation process by integrating AI tools that assess the context of data, improving the accuracy of data matching. (Knowing whether the location Vienna is in reference to the city of Vienna in the United States or in Austria)
 
 These examples are just the beginning of how AI can assist in cleaning
 your data. While using python to integrate AI into OpenRefine is
@@ -1578,25 +1534,19 @@ OpenRefine enables file format transformations seamlessly. During data
 import, it is good practice for the curator to check, identify and
 verify if:
 
-- Original data came in any specialized/proprietary file formats, that
-  > need to be converted to a non-proprietary format
+- Original data came in any specialized/proprietary file formats, that need to be converted to a non-proprietary format
 
 - Dataset is accompanied with any software
 
 - Original file formats of all files are retained
 
-- There is any data loss or formatting error due to conversion. This can
-  > be checked with the help of Facet/Filter functions and Regular
-  > Expressions in OpenRefine
+- There is any data loss or formatting error due to conversion. This can be checked with the help of Facet/Filter functions and Regular Expressions in OpenRefine
 
-- Color formatting loss would lead to any potential data loss or any
-  > data inconsistencies. Color formatting is often lost during data
-  > conversion in OpenRefine
+- Color formatting loss would lead to any potential data loss or any data inconsistencies. Color formatting is often lost during data conversion in OpenRefine
 
 - Data needs to be converted to a non-proprietary format before export
 
-- There is general data loss, formatting errors, unwanted characters
-  > from cell values
+- There is general data loss, formatting errors, unwanted characters from cell values
 
 ### **Exporting**
 
@@ -1671,38 +1621,25 @@ help with data curation and data preservation.
 
 ### **Data Curation**
 
-- Facet/Filter: Can easily fix null/missing values, incorrect spellings,
-  > unwanted characters, and other inconsistencies.
+- Facet/Filter: Can easily fix null/missing values, incorrect spellings, unwanted characters, and other inconsistencies.
 
-- Sort: Can sort values by data types, text, numbers, dates, and
-  > Boolean.
+- Sort: Can sort values by data types, text, numbers, dates, and Boolean.
 
-- Transform function: Enables cell editing to tackle whitespaces, case,
-  > and data-type transforms, replacing, renaming cell values,
-  > splitting, joining, and clustering multi-valued cells.
+- Transform function: Enables cell editing to tackle whitespaces, case, and data-type transforms, replacing, renaming cell values, splitting, joining, and clustering multi-valued cells.
 
 - Split/Combine: Can easily split or combine columns.
 
-- Reconcile: Can reconcile your data with another dataset in order to
-  > fix spellings or variations in proper names, follow a standard, or
-  > link your data to another dataset.
+- Reconcile: Can reconcile your data with another dataset in order to fix spellings or variations in proper names, follow a standard, or link your data to another dataset.
 
-- Regular Expressions and GREL functions: Can be used to perform
-  > advanced curation techniques.
+- Regular Expressions and GREL functions: Can be used to perform advanced curation techniques.
 
 ### **Data Preservation**
 
-- Undo/Redo: The entire project history can be traced back/undone/redone
-  > and preserved.
+- Undo/Redo: The entire project history can be traced back/undone/redone and preserved.
 
-- Export: Can export a wide array of file formats. Any data loss or
-  > format inconsistencies can be fixed with the help of OpenRefine
-  > functions and expressions before exporting.
+- Export: Can export a wide array of file formats. Any data loss or format inconsistencies can be fixed with the help of OpenRefine functions and expressions before exporting.
 
-- Project History: You can extract your history, which lists every
-  > single action you performed on the dataset. Reports/outputs are
-  > generated in JSON in OpenRefine and they can be reused and
-  > integrated seamlessly into other projects.
+- Project History: You can extract your history, which lists every single action you performed on the dataset. Reports/outputs are generated in JSON in OpenRefine and they can be reused and integrated seamlessly into other projects.
 
 OpenRefine with its helpful functionality and its ability to perform
 data curation and preservation actions certainly helps make a dataset
@@ -1735,8 +1672,7 @@ data curation best practices.
 
 2.  Check if the file size is large
 
-3.  Identify and ensure that dataset file formats are compliant with
-    > OpenRefine
+3.  Identify and ensure that dataset file formats are compliant with OpenRefine
 
 4.  Review file organization, hierarchy, and naming convention(s)
 
@@ -1759,13 +1695,11 @@ included with the dataset
 
 3.  If the protection or endangerment status of species is specified
 
-4.  If geographic locations (e.g., contested boundaries, historical and
-    > current political situations) are specified
+4.  If geographic locations (e.g., contested boundaries, historical and current political situations) are specified
 
 5.  If animal research ethics and approvals are acquired
 
-6.  Review and ensure if it is possible that the dataset may impact a
-    > specific group?
+6.  Review and ensure if it is possible that the dataset may impact a specific group?
 
 7.  Does this dataset follow compliance & institutional policy?
 
@@ -1782,8 +1716,7 @@ headers, rows, and columns
 
 9\. Check if any human subjects data is present. If so,
 
-1.  Request consent form/participant agreement if not present in the
-    > “Request” step
+1.  Request consent form/participant agreement if not present in the “Request” step
 
 2.  If data is not de-identified, document it for the "Request" step.
 
@@ -1797,47 +1730,36 @@ Examine/study datasets and documentation before importing in OpenRefine
 
 1\. Before importing the dataset in OpenRefine
 
-1.  Thoroughly check organization of data - Are rows and columns
-    > well-structured?
+1.  Thoroughly check organization of data - Are rows and columns well-structured?
 
 2.  Are headers clearly defined?
 
-3.  Does data presented in the headers match the metadata of
-    > accompanying information?
+3.  Does data presented in the headers match the metadata of accompanying information?
 
-4.  OpenRefine does not preserve any formatting (cell/text color) from
-    > the original data file, so make sure to modify such changes in the
-    > dataset before importing in OpenRefine
+4.  OpenRefine does not preserve any formatting (cell/text color) from the original data file, so make sure to modify such changes in the dataset before importing in OpenRefine
 
 5.  Is there documentation on tables, relationships, queries etc.?
 
 6.  Is the data presented/available in open-source formats
 
-7.  Can the data be exported to CSV, TXT and to other non-proprietary
-    > formats?
+7.  Can the data be exported to CSV, TXT and to other non-proprietary formats?
 
-8.  Is there any missing data? (Missing column headers, missing data in
-    > rows and columns)
+8.  Is there any missing data? (Missing column headers, missing data in rows and columns)
 
 9.  Is there inconsistency in how things are spelled, etc.
 
-10. Could a user understand and reuse this dataset and reproduce the
-    > results?
+10. Could a user understand and reuse this dataset and reproduce the results?
 
 2\. Before performing curation actions (cleaning, organizing) on human
 datasets in OpenRefine
 
-1.  Check for any data sources, researchers’ background, their
-    > connections to the communities/participants they are serving, to
-    > facilitate conversation with researcher(s) in the “Request” step
+1.  Check for any data sources, researchers’ background, their connections to the communities/participants they are serving, to facilitate conversation with researcher(s) in the “Request” step
 
-2.  Check if there are authoritative groups who should be contacted in
-    > the “Request” step
+2.  Check if there are authoritative groups who should be contacted in the “Request” step
 
 3\. Use OpenRefine functions to understand the dataset.
 
-1.  Use custom sorts and text facets to gain new insights on the data
-    > and to find inconsistencies in the data.
+1.  Use custom sorts and text facets to gain new insights on the data and to find inconsistencies in the data.
 
 ### **REQUEST Step**
 
@@ -1850,30 +1772,19 @@ performing data manipulation in OpenRefine
 
 > 1\. Enrich usability of the data
 
-1.  Identify/highlight errors/issues that are most critical to improve
-    > the quality of datasets in OpenRefine
+1.  Identify/highlight errors/issues that are most critical to improve the quality of datasets in OpenRefine
 
 2.  Consider how best to frame and communicate requests
 
-3.  Convey a sense of urgency to researcher(s) to avoid delays in
-    > responses which may eventually delay the curation process and
-    > subsequently the research project
+3.  Convey a sense of urgency to researcher(s) to avoid delays in responses which may eventually delay the curation process and subsequently the research project
 
-4.  Collaborate with researcher(s) to make necessary changes. Set up
-    > meetings.
+4.  Collaborate with researcher(s) to make necessary changes. Set up meetings.
 
-5.  With researcher permission, perform cell edits/bulk editing, GREL
-    > and clustering functions to fix errors
+5.  With researcher permission, perform cell edits/bulk editing, GREL and clustering functions to fix errors
 
-6.  Communicate any changes that you, as a curator, will make on their
-    > behalf if changes need to be made. Confirm and clarify with the
-    > researcher(s), if you will be allowed and will be responsible for
-    > making any changes/clean/manipulate data files in OpenRefine.
+6.  Communicate any changes that you, as a curator, will make on their behalf if changes need to be made. Confirm and clarify with the researcher(s), if you will be allowed and will be responsible for making any changes/clean/manipulate data files in OpenRefine.
 
-7.  If the curator is given permission to perform changes as permitted
-    > by the institutional policy, all documentation regarding
-    > approvals/permissions from the researcher(s), will need to be
-    > included in the CHECK step.
+7.  If the curator is given permission to perform changes as permitted by the institutional policy, all documentation regarding approvals/permissions from the researcher(s), will need to be included in the CHECK step.
 
 > 2\. Ask researcher(s) if participants will be notified about their
 > data being shared
@@ -1898,45 +1809,27 @@ performing data manipulation in OpenRefine
 >
 > 1\. Metadata
 
-1.  Enhance metadata of the dataset for findability by ensuring that the
-    > dataset has a persistent identifier.
+1.  Enhance metadata of the dataset for findability by ensuring that the dataset has a persistent identifier.
 
-2.  Update/review fields in the dataset based on the information
-    > received from the Request step. For example, check fields/columns
-    > date, title, row count, subject terms, description etc. in the
-    > OpenRefine dataset. These fields constitute the metadata of the
-    > project.
+2.  Update/review fields in the dataset based on the information received from the Request step. For example, check fields/columns date, title, row count, subject terms, description etc. in the OpenRefine dataset. These fields constitute the metadata of the project.
 
-3.  Make updates to documentation/data dictionary/README/Codebook as
-    > appropriate, to make data more understandable, interoperable and
-    > reusable
+3.  Make updates to documentation/data dictionary/README/Codebook as appropriate, to make data more understandable, interoperable and reusable
 
 > 2\. Accessibility
 
-1.  Ensure if project renaming or changes to file naming conventions
-    > were made during the “Request” step.
+1.  Ensure if project renaming or changes to file naming conventions were made during the “Request” step.
 
 2.  Check for dataset reorder and/or dataset description updates
 
-3.  Check if any changes were made to the file format of project dataset
-    > itself
+3.  Check if any changes were made to the file format of project dataset itself
 
 > 3\. Discoverability
 
-1.  HTML/data from web pages can be fetched in OpenRefine with the “Add
-    > column by fetching URLs” function. Source data, related
-    > publications, grants etc. can be linked to OpenRefine
-    > project/dataset with this feature.
+1.  HTML/data from web pages can be fetched in OpenRefine with the “Add column by fetching URLs” function. Source data, related publications, grants etc. can be linked to OpenRefine project/dataset with this feature.
 
-- Check to see if data from the chosen column contains paths to valid
-  > HTML pages/files online
+- Check to see if data from the chosen column contains paths to valid HTML pages/files online
 
-2.  OpenRefine enables Reconciliation, that is matching the dataset with
-    > that of an external source. OpenRefine matches cell values to the
-    > reconciliation information as best it can. Human judgment is
-    > required to review and approve results. It is important to clean
-    > and cluster the dataset before reconciliation. Reconciliation is
-    > performed to:
+2.  OpenRefine enables Reconciliation, that is matching the dataset with that of an external source. OpenRefine matches cell values to the reconciliation information as best it can. Human judgment is required to review and approve results. It is important to clean and cluster the dataset before reconciliation. Reconciliation is performed to:
 
 - fix spelling or variations in proper names
 
@@ -1946,8 +1839,7 @@ performing data manipulation in OpenRefine
 
 - add to an editable platform such as Wikidata
 
-- check if entities in the project appear in some specific authority
-  > list
+- check if entities in the project appear in some specific authority list
 
 ### **TRANSFORM Step**
 
@@ -2037,12 +1929,9 @@ Evaluate/test the full extracted/exported project data in OpenRefine
 
 > 6\. Review for a final time to find any ethical concerns
 
-1.  Remind the submitter/researcher of their responsibility, if they
-    > choose to ignore requests for de-identification or similar
-    > concerns
+1.  Remind the submitter/researcher of their responsibility, if they choose to ignore requests for de-identification or similar concerns
 
-2.  Verify the language used in the dataset to ensure it is not
-    > racist/harmful
+2.  Verify the language used in the dataset to ensure it is not racist/harmful
 
 ### **DOCUMENT Step**
 
@@ -2062,11 +1951,9 @@ captured in the Curator Log:
 
 1.  Changes made to the original dataset that was received by curators
 
-2.  Accessioning & deposit records (Names, dates, contact information,
-    > submission agreements from the researcher’s institution)
+2.  Accessioning & deposit records (Names, dates, contact information, submission agreements from the researcher’s institution)
 
-3.  All file format transformations performed on the dataset before
-    > ingest and during export
+3.  All file format transformations performed on the dataset before ingest and during export
 
 4.  Data cleaning steps performed using OpenRefine functions
 
@@ -2080,84 +1967,59 @@ captured in the Curator Log:
 
 9.  Record workflows/actions taken during the CURATE process:
 
-- Record all curation activities from data input in OpenRefine up to
-  > data export.
+- Record all curation activities from data input in OpenRefine up to data export.
 
-- OpenRefine project history documents all actions performed on the
-  > dataset.
+- OpenRefine project history documents all actions performed on the dataset.
 
-- Save the OpenRefine project history, with comments as to why changes
-  > were made to the dataset.
+- Save the OpenRefine project history, with comments as to why changes were made to the dataset.
 
 10. Preservation actions taken. Record if:
 
-- Entire OpenRefine project was exported with all its history out of
-  > OpenRefine to another system or application
+- Entire OpenRefine project was exported with all its history out of OpenRefine to another system or application
 
 - Extracted JSON project files were made available for reuse
 
 - Dataset was exported out of OpenRefine into another file format
 
-11. Additional requirements/policy and permissions at the curator’s
-    > institution.
+11. Additional requirements/policy and permissions at the curator’s institution.
 
-12. Consent/waiver/IRB approval for data sharing from the researcher’s
-    > institution
+12. Consent/waiver/IRB approval for data sharing from the researcher’s institution
 
 ## Section 18: References
 
-1.  OpenRefine User Manual:
-    > [https://openrefine.org/docs](https://openrefine.org/docs)
+[^1]: OpenRefine User Manual: [https://openrefine.org/docs](https://openrefine.org/docs)
 
-2.  OpenRefine User Manual Installation:
-    > [https://openrefine.org/docs/manual/installing](https://openrefine.org/docs/manual/installing)
+[^2]:  OpenRefine User Manual Installation: [https://openrefine.org/docs/manual/installing](https://openrefine.org/docs/manual/installing)
 
-3.  OpenRefine Releases:
-    > [https://github.com/OpenRefine/OpenRefine/releases](https://github.com/OpenRefine/OpenRefine/releases)
+[^3]:  OpenRefine Releases: [https://github.com/OpenRefine/OpenRefine/releases](https://github.com/OpenRefine/OpenRefine/releases)
 
-4.  OpenRefine User Manual Running:
-    > [https://openrefine.org/docs/manual/running](https://openrefine.org/docs/manual/running)
+[^4]:  OpenRefine User Manual Running: [https://openrefine.org/docs/manual/running](https://openrefine.org/docs/manual/running)
 
-5.  University of Idaho “Get Started with OpenRefine: Explore, Clean,
-    > and Transform your Data!”
-    > [https://www.youtube.com/watch?v=yTJ6x6zEQmI](https://www.youtube.com/watch?v=yTJ6x6zEQmI)
+[^5]:  University of Idaho “Get Started with OpenRefine: Explore, Clean, and Transform your Data!” [https://www.youtube.com/watch?v=yTJ6x6zEQmI](https://www.youtube.com/watch?v=yTJ6x6zEQmI)
 
-6.  Introduction to OpenRefine by Owen Stephens
-    > [https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf](https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf)
+[^6]:  Introduction to OpenRefine by Owen Stephens [https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf](https://www.libraryjuiceacademy.com/moodle/pluginfile.php/140017/mod_resource/content/1/Introduction-to-OpenRefine-handout-CC-BY.pdf)
 
-7.  TensorFlow Making predictions:
-    > [https://www.tensorflow.org/decision_forests/tutorials/predict_colab](https://www.tensorflow.org/decision_forests/tutorials/predict_colab)
+[^7]:  TensorFlow Making predictions: [https://www.tensorflow.org/decision_forests/tutorials/predict_colab](https://www.tensorflow.org/decision_forests/tutorials/predict_colab)
 
-8.  OpenRefine Reconciling:
-    > [https://openrefine.org/docs/manual/reconciling](https://openrefine.org/docs/manual/reconciling)
+[^8]:  OpenRefine Reconciling: [https://openrefine.org/docs/manual/reconciling](https://openrefine.org/docs/manual/reconciling)
 
-9.  OpenRefine Column editing:
-    > [https://openrefine.org/docs/manual/columnediting](https://openrefine.org/docs/manual/columnediting)
+[^9]:  OpenRefine Column editing: [https://openrefine.org/docs/manual/columnediting](https://openrefine.org/docs/manual/columnediting)
 
-10. OpenRefine Expressions:
-    > [https://openrefine.org/docs/manual/expressions](https://openrefine.org/docs/manual/expressions)
+[^10]: OpenRefine Expressions: [https://openrefine.org/docs/manual/expressions](https://openrefine.org/docs/manual/expressions)
 
-11. Library Juice Academy: Using OpenRefine for Library Metadata Course
+[^11]: Library Juice Academy: Using OpenRefine for Library Metadata Course
 
-12. FAIR Guiding Principles:
-    > [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
+[^12]: FAIR Guiding Principles: [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
-13. Data Curation Network CURATE(D) Steps
-    > [https://datacurationnetwork.org/outputs/workflows/](https://datacurationnetwork.org/outputs/workflows/)
+[^13]: Data Curation Network CURATE(D) Steps [https://datacurationnetwork.org/outputs/workflows/](https://datacurationnetwork.org/outputs/workflows/)
 
-14. OpenRefine Reconciliation Services: [Reconciliation service test
-    > bench
-    > (reconciliation-api.github.io)](https://reconciliation-api.github.io/testbench/#/)
+[^14]: OpenRefine Reconciliation Services: [Reconciliation service test bench (reconciliation-api.github.io)](https://reconciliation-api.github.io/testbench/#/)
 
-15. OpenRefine Forum on Using AI to Create GREL/RegEx:
-    > [https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369](https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369)
+[^15]: OpenRefine Forum on Using AI to Create GREL/RegEx: [https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369](https://forum.openrefine.org/t/playing-a-bit-with-chatgpt-to-make-my-life-easier-i-think-it-can-help-users-generate-regex-grel/369)
 
-16. OpenRefine Forum on Using the OpenAI API to apply natural language
-    > queries to cells/data:
-    > [https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308](https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308)
+[^16]: OpenRefine Forum on Using the OpenAI API to apply natural language queries to cells/data: [https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308](https://forum.openrefine.org/t/using-the-openai-api-to-apply-natural-language-queries-to-cells-data/308)
 
-17. Using ChatGPT to clean data: an experiment:
-    > [https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/](https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/)
+[^17]: Using ChatGPT to clean data: an experiment: [https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/](https://robertorocha.info/using-chatgpt-to-clean-data-an-experiment/)
 
 ## Section 19: Resources 
 
@@ -2172,24 +2034,18 @@ captured in the Curator Log:
     3.  OpenRefine (Library Carpentry):
         > <https://librarycarpentry.org/lc-open-refine/index.html>
 
-2.  DLF Metadata Assessment Group's Metadata Assessment Workshop (2018):
-    > <https://github.com/DLFMetadataAssessment/2018MetadataAnalysisWorkshop/blob/master/slides/or_1.md>
+2.  DLF Metadata Assessment Group's Metadata Assessment Workshop (2018): <https://github.com/DLFMetadataAssessment/2018MetadataAnalysisWorkshop/blob/master/slides/or_1.md>
 
     1.  Tutorial focused on metadata assessment but also a good
         > introduction to OpenRefine
 
-3.  University of Toronto Libraries OpenRefine tutorials:
-    > [https://mdl.library.utoronto.ca/tools/openrefine](https://mdl.library.utoronto.ca/tools/openrefine)
+3.  University of Toronto Libraries OpenRefine tutorials: [https://mdl.library.utoronto.ca/tools/openrefine](https://mdl.library.utoronto.ca/tools/openrefine)
 
-4.  OpenRefine GREL recipes:
-    > [https://github.com/OpenRefine/OpenRefine/wiki/Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes)
+4.  OpenRefine GREL recipes: [https://github.com/OpenRefine/OpenRefine/wiki/Recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes)
 
-5.  Links to Other Data Curation Network Primers: [Data Curation
-    > Network Primers
-    > (umn.edu)](https://conservancy.umn.edu/handle/11299/202810)
+5.  Links to Other Data Curation Network Primers: [Data Curation Network Primers (umn.edu)](https://conservancy.umn.edu/handle/11299/202810)
 
-6.  OpenRefine Forums:
-    > [https://forum.openrefine.org/](https://forum.openrefine.org/)
+6.  OpenRefine Forums: [https://forum.openrefine.org/](https://forum.openrefine.org/)
 
 ## Section 20: Datasets Used 
 
@@ -2198,14 +2054,10 @@ OpenRefine’s functions. In some cases, we added mistakes to these
 datasets in order to depict OpenRefine’s functionality. The datasets we
 used are:
 
-1.  IMDb Data Files Main Page:
-    > [https://developer.imdb.com/non-commercial-datasets/](https://developer.imdb.com/non-commercial-datasets/)
+1.  IMDb Data Files Main Page: [https://developer.imdb.com/non-commercial-datasets/](https://developer.imdb.com/non-commercial-datasets/)
 
-2.  IMDb Dataset:
-    > [https://datasets.imdbws.com/](https://datasets.imdbws.com/)
+2.  IMDb Dataset: [https://datasets.imdbws.com/](https://datasets.imdbws.com/)
 
-3.  *What’s on the menu?* Dataset, created by the New York Public
-    > Library:
-    > [https://menus.nypl.org/data](https://menus.nypl.org/data)
+3.  *What’s on the menu?* Dataset, created by the New York Public Library: [https://menus.nypl.org/data](https://menus.nypl.org/data)
 
 
