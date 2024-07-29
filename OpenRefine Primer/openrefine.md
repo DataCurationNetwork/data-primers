@@ -208,14 +208,14 @@ that allow you to look for various patterns of data in a dataset.
 OpenRefine allows transforming the dataset through common and custom
 transformations, clustering, splitting and joining cells and columns,
 reconciling, and writing expressions (Regex and GREL) to enhance data
-cleanup and manipulation of datasets.[^1,2]
+cleanup and manipulation of datasets.[^1][^2]
 
 While many operations are done in the program, OpenRefine has the
 capability to connect to web resources by connecting cells to entries in
 Wikidata and other online data on the web via APIs. For experienced
 users, it also supports the use of advanced operations, including
 Java-based Regular Expressions (GREL, Jython, and
-Clojure).[^1,2]
+Clojure).[^1][^2]
 
 Once your dataset is ready, it needs to be extracted and exported out of
 OpenRefine into another system. OpenRefine outputs a number of file
@@ -227,7 +227,7 @@ export it back out into the file format of your choice. You can also
 receive and open other people’s projects, or send them yours, by
 exporting a project archive and importing it. You can also export
 reconciled data to Wikidata, or export your Wikidata schema for future
-use with other OpenRefine projects.<sup>1,2</sup>
+use with other OpenRefine projects.[^1][^2]
 
 Accessibility: Limited Text-To-Speech
 
