@@ -1519,11 +1519,10 @@ data curation best practices.
 1.  Review and ensure if dataset is in scope for the repository
 
 2.  Inventory the datasets:
-
-<li>Extract zip files if any</li>
-<li>Check if the file size is large</li>
-<li>Identify and ensure that dataset file formats are compliant with OpenRefine</li>
-<li>Review file organization, hierarchy, and naming convention(s)</li>
+	- Extract zip files if any
+	- Check if the file size is large
+	- Identify and ensure that dataset file formats are compliant with OpenRefine
+	- Review file organization, hierarchy, and naming convention(s)
 
 3. Ensure if the metadata and/or accompanying information provided by
 researcher is accurate and complete to institutional requirements
@@ -1538,13 +1537,13 @@ are in plain text
 6. Ensure/review if participant agreement and data use agreement is
 included with the dataset
 
-<li>If individuals and communities are represented</li>
-<li>If there is representativeness of diverse human populations</li>
-<li>If the protection or endangerment status of species is specified</li>
-<li>If geographic locations (e.g., contested boundaries, historical and current political situations) are specified</li>
-<li>If animal research ethics and approvals are acquired</li>
-<li>Review and ensure if it is possible that the dataset may impact a specific group?</li>
-<li>Does this dataset follow compliance & institutional policy?</li>
+	- If individuals and communities are represented</li>
+	- If there is representativeness of diverse human populations</li>
+	- If the protection or endangerment status of species is specified</li>
+	- If geographic locations (e.g., contested boundaries, historical and current political situations) are specified</li>
+	- If animal research ethics and approvals are acquired</li>
+	- Review and ensure if it is possible that the dataset may impact a specific group?</li>
+	- Does this dataset follow compliance & institutional policy?</li>
 
 ##### Steps after importing the dataset in OpenRefine
 
