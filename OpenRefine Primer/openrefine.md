@@ -1558,8 +1558,8 @@ headers, rows, and columns
 
 10. Check if any human subjects data is present. If so,
 
-<li>Request consent form/participant agreement if not present in the “Request” step</li>
-<li>If data is not de-identified, document it for the "Request" step.</li>
+	- Request consent form/participant agreement if not present in the “Request” step
+	- If data is not de-identified, document it for the "Request" step.
 
 ### UNDERSTAND Step
 
@@ -1571,25 +1571,25 @@ Examine/study datasets and documentation before importing in OpenRefine
 
 1. Before importing the dataset in OpenRefine
 
-<li>Thoroughly check organization of data - Are rows and columns well-structured?</li>
-<li>Are headers clearly defined?</li>
-<li>Does data presented in the headers match the metadata of accompanying information?</li>
-<li>OpenRefine does not preserve any formatting (cell/text color) from the original data file, so make sure to modify such changes in the dataset before importing in OpenRefine.</li>
-<li>Is there documentation on tables, relationships, queries etc.?</li>
-<li>Is the data presented/available in open-source formats</li>
-<li>Can the data be exported to CSV, TXT and to other non-proprietary formats?</li>
-<li>Is there any missing data? (Missing column headers, missing data in rows and columns)</li>
-<li>Is there inconsistency in how things are spelled, etc.</li>
-<li>Could a user understand and reuse this dataset and reproduce the results?</li>
+	- Thoroughly check organization of data - Are rows and columns well-structured?
+	- Are headers clearly defined?
+	- Does data presented in the headers match the metadata of accompanying information?
+	- OpenRefine does not preserve any formatting (cell/text color) from the original data file, so make sure to modify such changes in the dataset before importing in OpenRefine
+	- Is there documentation on tables, relationships, queries etc.?
+	- Is the data presented/available in open-source formats
+	- Can the data be exported to CSV, TXT and to other non-proprietary formats?
+	- Is there any missing data? (Missing column headers, missing data in rows and columns)
+	- Is there inconsistency in how things are spelled, etc.
+	- Could a user understand and reuse this dataset and reproduce the results?
 
 2. Before performing curation actions (cleaning, organizing) on human
 datasets in OpenRefine
 
-<li>Check for any data sources, researchers’ background, their connections to the communities/participants they are serving, to facilitate conversation with researcher(s) in the “Request” step</li>
-<li>Check if there are authoritative groups who should be contacted in the “Request” step</li>
+	- Check for any data sources, researchers’ background, their connections to the communities/participants they are serving, to facilitate conversation with researcher(s) in the “Request” step
+	- Check if there are authoritative groups who should be contacted in the “Request” step
 
 3. Use OpenRefine functions to understand the dataset.
-<li>Use custom sorts and text facets to gain new insights on the data and to find inconsistencies in the data.</li>
+	- Use custom sorts and text facets to gain new insights on the data and to find inconsistencies in the data.
 
 ### REQUEST Step
 
@@ -1602,13 +1602,13 @@ performing data manipulation in OpenRefine
 
 1. Enrich usability of the data
 
-<li>Identify/highlight errors/issues that are most critical to improve the quality of datasets in OpenRefine</li>
-<li>Consider how best to frame and communicate requests</li>
-<li>Convey a sense of urgency to researcher(s) to avoid delays in responses which may eventually delay the curation process and subsequently the research project</li>
-<li>Collaborate with researcher(s) to make necessary changes. Set up meetings.</li>
-<li>With researcher permission, perform cell edits/bulk editing, GREL and clustering functions to fix errors</li>
-<li>Communicate any changes that you, as a curator, will make on their behalf if changes need to be made. Confirm and clarify with the researcher(s), if you will be allowed and will be responsible for making any changes/clean/manipulate data files in OpenRefine.</li>
-<li>If the curator is given permission to perform changes as permitted by the institutional policy, all documentation regarding approvals/permissions from the researcher(s), will need to be included in the CHECK step.</li>
+	- Identify/highlight errors/issues that are most critical to improve the quality of datasets in OpenRefine
+	- Consider how best to frame and communicate requests
+	- Convey a sense of urgency to researcher(s) to avoid delays in responses which may eventually delay the curation process and subsequently the research project
+	- Collaborate with researcher(s) to make necessary changes. Set up meetings
+	- With researcher permission, perform cell edits/bulk editing, GREL and clustering functions to fix errors
+	- Communicate any changes that you, as a curator, will make on their behalf if changes need to be made. Confirm and clarify with the researcher(s), if you will be allowed and will be responsible for making any changes/clean/manipulate data files in OpenRefine.
+	- If the curator is given permission to perform changes as permitted by the institutional policy, all documentation regarding approvals/permissions from the researcher(s), will need to be included in the CHECK step.
 
 2. Ask researcher(s) if participants will be notified about their data being shared
 
@@ -1629,32 +1629,28 @@ findability and accessibility with the following considerations:
 
 1. Metadata
 
-<li>Enhance metadata of the dataset for findability by ensuring that the dataset has a persistent identifier.</li>
-<li>Update/review fields in the dataset based on the information received from the Request step. For example, check fields/columns date, title, row count, subject terms, description etc. in the OpenRefine dataset. These fields constitute the metadata of the project.</li>
-<li>Make updates to documentation/data dictionary/README/Codebook as appropriate, to make data more understandable, interoperable and reusable</li>
+	- Enhance metadata of the dataset for findability by ensuring that the dataset has a persistent identifier
+	- Update/review fields in the dataset based on the information received from the Request step. For example, check fields/columns date, title, row count, subject terms, description etc. in the OpenRefine dataset. These fields constitute the metadata of the project
+	- Make updates to documentation/data dictionary/README/Codebook as appropriate, to make data more understandable, interoperable and reusable
 
 2. Accessibility
 
-<li>Ensure if project renaming or changes to file naming conventions were made during the “Request” step.</li>
-<li>Check for dataset reorder and/or dataset description updates</li>
-<li>Check if any changes were made to the file format of project dataset itself</li>
+	- Ensure if project renaming or changes to file naming conventions were made during the “Request” step
+	- Check for dataset reorder and/or dataset description updates
+	- Check if any changes were made to the file format of project dataset itself
 
 3. Discoverability
 
-<li>HTML/data from web pages can be fetched in OpenRefine with the “Add column by fetching URLs” function. Source data, related publications, grants etc. can be linked to OpenRefine project/dataset with this feature.</li>
-	<li>Check to see if data from the chosen column contains paths to valid HTML pages/files online</li>
+	- HTML/data from web pages can be fetched in OpenRefine with the “Add column by fetching URLs” function. Source data, related publications, grants etc. can be linked to OpenRefine project/dataset with this feature.	- 
+		- Check to see if data from the chosen column contains paths to valid HTML pages/files online</li>
 
 2.  OpenRefine enables Reconciliation, that is matching the dataset with that of an external source. OpenRefine matches cell values to the reconciliation information as best it can. Human judgment is required to review and approve results. It is important to clean and cluster the dataset before reconciliation. Reconciliation is performed to:
 
-- fix spelling or variations in proper names
-
-- clean up subject headings with authorities such as the LCSH
-
-- link data to an existing dataset
-
-- add to an editable platform such as Wikidata
-
-- check if entities in the project appear in some specific authority list
+	- fix spelling or variations in proper names
+	- clean up subject headings with authorities such as the LCSH
+	- link data to an existing dataset
+	- add to an editable platform such as Wikidata
+	- check if entities in the project appear in some specific authority list
 
 ### TRANSFORM Step
 
@@ -1668,28 +1664,33 @@ in the CHECK step prior to importing the data into OpenRefine.
 Check the file formats for interoperability and reusability before
 exporting dataset out of OpenRefine
 
-> 1\. Identify specialized file formats. Check whether the file format
-> is in use or if it is a proprietary format. Recommend file format
-> conversion to a non-proprietary format.  
-> 2. Retain the original dataset/project file in the format in which it
-> was received by the curation team before the ingest and appraise
-> steps.  
-> 3. Ensure that changes made to the original file are documented.
->   
-> 4. Reorganize files appropriately after conversion to keep a
-> clean layout  
-> 5. Standardize file names  
-> 6. Evaluate if the data and or formatting loss will affect the dataset
-> and its values  
-> 7. Check for any repository restrictions on file formats that may
-> hamper data reuse  
-> 8. Check for potential data/formatting loss due to format
-> transformations for data export  
-> 9. If there is potential data loss during export, communicate changes
-> to the researcher(s)  
-> 10. Always suggest other open-source file format options for data
-> export  
-> 11. Document the file format conversion workflow in the Curator Log
+1. Identify specialized file formats. Check whether the file format
+ is in use or if it is a proprietary format. Recommend file format
+ conversion to a non-proprietary format.  
+
+2. Retain the original dataset/project file in the format in which it
+ was received by the curation team before the ingest and appraise
+steps.  
+
+3. Ensure that changes made to the original file are documented.
+   
+4. Reorganize files appropriately after conversion to keep a clean layout  
+
+5. Standardize file names  
+
+6. Evaluate if the data and or formatting loss will affect the dataset
+and its values  
+
+7. Check for any repository restrictions on file formats that may hamper data reuse  
+
+8. Check for potential data/formatting loss due to format
+transformations for data export  
+
+9. If there is potential data loss during export, communicate changes to the researcher(s)  
+
+10. Always suggest other open-source file format options for data export  
+
+11. Document the file format conversion workflow in the Curator Log
 
 ### EVALUATE Step
 
@@ -1699,54 +1700,43 @@ exporting dataset out of OpenRefine
 
 Evaluate/test the full extracted/exported project data in OpenRefine
 
-> 1\. Test that project data successfully gets extracted/exported in the
-> desired format  
-> 2. Test that the OpenRefine project successfully download to another
-> computer/network  
-> 3. Check if changes in TRANSFORM step didn’t adversely affect the
-> project export  
-> 4. Final review of extracted and exported data with researcher(s)
-> before publication  
-> 5. Score the dataset and recommend ways to make the data
-> FAIR[^12]
->
-> a\. Findable:
+1. Test that project data successfully gets extracted/exported in the
+ desired format  
 
-- Metadata exceeds researcher/ title/ date
+2. Test that the OpenRefine project successfully download to another
+computer/network  
 
-- There is a persistent identifier for the project dataset (Project ID)
+3. Check if changes in TRANSFORM step didn’t adversely affect the
+ project export  
 
-- Dataset is discoverable via web search engines
+4. Final review of extracted and exported data with researcher(s) before publication  
 
-> b\. Accessible:
+5. Score the dataset and recommend ways to make the data FAIR[^12]
+	-  Findable:
+		- Metadata exceeds researcher/ title/ date
+		- There is a persistent identifier for the project dataset (Project ID)
+		- Dataset is discoverable via web search engines
 
-- Project data are open access
+	- Accessible:
+		- Project data are open access
+		- Project data is exported in desired formats
+		- URL and reconciled project data are accessible without errors
 
-- Project data is exported in desired formats
+	- Interoperable:
+		- Metadata/fields in OpenRefine are formatted in a standard schema
+		- Metadata is provided in machine-readable format
+		- Project data includes sufficient metadata/supporting documentation
 
-- URL and reconciled project data are accessible without errors
+	- Reusable:
+		- There are clear indicators of who created, owns, and stewards the data
+		- Project data is well understood and reused by users in desired formats
+		- Data are released with clear data usage terms (e.g., a CC License)
 
-> c\. Interoperable:
+6. Review for a final time to find any ethical concerns
 
-- Metadata/fields in OpenRefine are formatted in a standard schema
+	- Remind the submitter/researcher of their responsibility, if they choose to ignore requests for de-identification or similar concerns
 
-- Metadata is provided in machine-readable format
-
-- Project data includes sufficient metadata/supporting documentation
-
-> d\. Reusable:
-
-- There are clear indicators of who created, owns, and stewards the data
-
-- Project data is well understood and reused by users in desired formats
-
-- Data are released with clear data usage terms (e.g., a CC License)
-
-> 6\. Review for a final time to find any ethical concerns
-
-1.  Remind the submitter/researcher of their responsibility, if they choose to ignore requests for de-identification or similar concerns
-
-2.  Verify the language used in the dataset to ensure it is not racist/harmful
+	- Verify the language used in the dataset to ensure it is not racist/harmful
 
 ### DOCUMENT Step
 
@@ -1782,19 +1772,15 @@ captured in the Curator Log:
 
 9.  Record workflows/actions taken during the CURATE process:
 
-- Record all curation activities from data input in OpenRefine up to data export.
-
-- OpenRefine project history documents all actions performed on the dataset.
-
-- Save the OpenRefine project history, with comments as to why changes were made to the dataset.
+	- Record all curation activities from data input in OpenRefine up to data export.
+	- OpenRefine project history documents all actions performed on the dataset.
+	- Save the OpenRefine project history, with comments as to why changes were made to the dataset.
 
 10. Preservation actions taken. Record if:
 
-- Entire OpenRefine project was exported with all its history out of OpenRefine to another system or application
-
-- Extracted JSON project files were made available for reuse
-
-- Dataset was exported out of OpenRefine into another file format
+	- Entire OpenRefine project was exported with all its history out of OpenRefine to another system or application
+	- Extracted JSON project files were made available for reuse
+	- Dataset was exported out of OpenRefine into another file format
 
 11. Additional requirements/policy and permissions at the curator’s institution.
 
@@ -1805,11 +1791,9 @@ captured in the Curator Log:
 
 1.  Carpentries tutorials:
 
-    1.  OpenRefine for Social Science data: <https://datacarpentry.org/openrefine-socialsci/index.html>
-
-    2.  OpenRefine for Ecology: <https://datacarpentry.org/OpenRefine-ecology-lesson/index.html>
-
-    3.  OpenRefine (Library Carpentry): <https://librarycarpentry.org/lc-open-refine/index.html>
+	- OpenRefine for Social Science data: <https://datacarpentry.org/openrefine-socialsci/index.html>
+	- OpenRefine for Ecology: <https://datacarpentry.org/OpenRefine-ecology-lesson/index.html>
+	- OpenRefine (Library Carpentry): <https://librarycarpentry.org/lc-open-refine/index.html>
 
 2.  DLF Metadata Assessment Group's Metadata Assessment Workshop (2018): <https://github.com/DLFMetadataAssessment/2018MetadataAnalysisWorkshop/blob/master/slides/or_1.md>
 
