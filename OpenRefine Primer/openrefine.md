@@ -851,67 +851,55 @@ forms of the same data with a single consistent value.
 
 #### Using Clustering to Combine Similar Terms
 
-> <img src="media/image87.png" style="width:2.83854in;height:2.44894in" />
->
-> Fig. 39
->
-> To cluster, you first want to create a text facet. You can create a
-> text facet by clicking on the arrow next to the column, and then
-> selecting “Facet” and “Text facet.”
->
-> <img src="media/image10.png" style="width:2.44271in;height:2.92203in" />
->
-> Fig. 40
->
-> After creating the text facet, you want to select “Cluster.” This is
-> located in the right corner of the Facet / Filter menu.
->
-> <img src="media/image14.png" style="width:5.42188in;height:3.4408in" />
->
-> Fig. 41
->
-> Once you select “Cluster,” the cluster menu will open. Here you can
-> select the Method and Keying function. OpenRefine clusters by
-> combining values that seem similar but are not exactly the same. This
-> can make it easy for you to edit values so they match.
->
-> <img src="media/image8.png" style="width:2.68229in;height:2.42098in" />
-> <img src="media/image5.png" style="width:2.4516in;height:2.41057in" />
+<figure> <img src="openrefine39.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 39: View of OpenRefine interface showing facet options.</figcaption> </figure> <br><br>
 
-Fig. 42
+To cluster, you first want to create a text facet. You can create a
+text facet by clicking on the arrow next to the column, and then
+selecting “Facet” and “Text facet.”
 
-> The first cluster has different variations of the word “DINNER.” If
-> you scroll to the right, you can see that you have the option to merge
-> the values together, and you can decide on the new cell value.
-> OpenRefine automatically assigns the most popular value to the new
-> cell value. In this circumstance, it recommended “DINNER” because that
-> value was used in 1827 rows and is the most popular.
->
-> Since you do want to merge the cells together, you will check the box
-> under “Merge?” and you will leave “DINNER” as the new cell value.
->
-> <img src="media/image77.png" style="width:5.14063in;height:3.25408in" />
->
-> Fig. 43
->
-> After you have scrolled through all of the clusters and decided if you
-> want to merge it or not, you then will want to select “Merge selected
-> & recluster.” OpenRefine will then select new clusters for you. You
-> can continue this cycle as long as it is beneficial to you.
->
-> <img src="media/image57.png" style="width:1.96354in;height:0.65193in" />
-> <img src="media/image2.png" style="width:1.98361in;height:1.11408in" />
-> <img src="media/image26.png" style="width:1.80729in;height:2.2122in" />
->
-> Fig. 44
->
-> If you are not happy with the clusters being suggested to you, then
-> you can try a new method, a different keying function, or you can
-> alter the range for “#Choices in cluster,” “# Rows in cluster,”
-> “Average length of choices,” and “Length variance of choices.”
->
-> Clustering is a tool not available in most other softwares, and is
-> useful when your dataset is particularly messy.
+<figure> <img src="openrefine40.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 40: View of OpenRefine interface showing the cluster option.</figcaption> </figure> <br><br>
+
+After creating the text facet, you want to select “Cluster.” This is
+located in the right corner of the Facet / Filter menu.
+
+<figure> <img src="openrefine41.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 41: View of OpenRefine interface showing the cluster dialogue box.</figcaption> </figure> <br><br>
+
+
+Once you select “Cluster,” the cluster menu will open. Here you can
+select the Method and Keying function. OpenRefine clusters by
+combining values that seem similar but are not exactly the same. This
+can make it easy for you to edit values so they match.
+
+<figure> <img src="openrefine42a.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 42a: View of OpenRefine interface showing the cluster option on a sample dataset.</figcaption> </figure> <br><br>
+<figure> <img src="openrefine42b.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 42b: View of OpenRefine interface showing how to apply the cluster option to a sample dataset.</figcaption> </figure> <br><br>
+
+The first cluster has different variations of the word “DINNER.” If
+you scroll to the right, you can see that you have the option to merge
+the values together, and you can decide on the new cell value.
+OpenRefine automatically assigns the most popular value to the new
+cell value. In this circumstance, it recommended “DINNER” because that
+value was used in 1827 rows and is the most popular.
+
+Since you do want to merge the cells together, you will check the box
+under “Merge?” and you will leave “DINNER” as the new cell value.
+
+<figure> <img src="openrefine43.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 43: View of OpenRefine interface showing the cluster options in a dialogue box.</figcaption> </figure> <br><br>
+
+After you have scrolled through all of the clusters and decided if you
+want to merge it or not, you then will want to select “Merge selected & recluster.” OpenRefine will then select new clusters for you. You
+can continue this cycle as long as it is beneficial to you.
+
+<figure> <img src="openrefine44a.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 44a: View of OpenRefine interface showing cluster method options.</figcaption> </figure> <br><br>
+<figure> <img src="openrefine44b.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 44b: View of OpenRefine interface showing cluster keying function.</figcaption> </figure> <br><br>
+<figure> <img src="openrefine44c.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 44c: View of OpenRefine interface showing cluster choices.</figcaption> </figure> <br><br>
+
+If you are not happy with the clusters being suggested to you, then
+you can try a new method, a different keying function, or you can
+alter the range for “#Choices in cluster,” “# Rows in cluster,”
+“Average length of choices,” and “Length variance of choices.”
+
+Clustering is a tool not available in most other softwares, and is
+useful when your dataset is particularly messy.
 
 ## Section 11: Splitting and Joining Cells 
 
@@ -919,83 +907,67 @@ Fig. 42
 
  ![Static Badge](https://img.shields.io/badge/DCN-Augment-green)
 
-> OpenRefine enables splitting data from cells into multiple rows
-> according to data manipulation and organizational needs. This is a
-> neat feature of OpenRefine.[^9]
+OpenRefine enables splitting data from cells into multiple rows
+according to data manipulation and organizational needs. This is a
+neat feature of OpenRefine.[^9]
 
 #### Splitting Cells
 
-> <img src="media/image44.png" style="width:3.34896in;height:3.06727in" />
->
-> Fig. 45
->
-> To split cells, you wish to click the arrow next to the column, then
-> select “Edit cells,” and “Split multi-valued cells…”
->
-> <img src="media/image59.png" style="width:4.51563in;height:2.63411in" />
->
-> Fig. 46
->
-> Within the menu you need to add the separator you wish to use to split
-> the cells. Common examples are a space, a comma, a dash, or a pipe
-> character. In this case, you can split the names by adding a space
-> into the Separator box. Then you can select “Ok.”
->
-> <img src="media/image51.png" style="width:5.82813in;height:1.90535in" />
->
-> Fig. 47
->
-> The end result is there will be a new row for each name. However, this
-> may not work the way you want it to. What if someone has multiple
-> names, or a middle initial? This will affect how many rows are
-> created.
->
-> For curation purposes, splitting a cell so different parts of a single
-> person’s name are in different rows doesn’t make logical sense.
-> However, if there were numerous names in a cell separated by a dash,
-> separating it so each person has their own row makes sense.
->
-> <img src="media/image56.png" style="width:2.95313in;height:2.96066in" />
->
-> Fig. 48
+<figure> <img src="openrefine45.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 45: View of OpenRefine interface showing the options for editing cells.</figcaption> </figure> <br><br>
+
+To split cells, you wish to click the arrow next to the column, then
+select “Edit cells,” and “Split multi-valued cells…”
+
+<figure> <img src="openrefine46.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 46: View of OpenRefine interface showing the split mutli-valued cells dialogue box.</figcaption> </figure> <br><br>
+
+Within the menu you need to add the separator you wish to use to split
+the cells. Common examples are a space, a comma, a dash, or a pipe
+character. In this case, you can split the names by adding a space
+into the Separator box. Then you can select “Ok.”
+
+<figure> <img src="openrefine47.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 47: View of OpenRefine interface showing a sample dataset with additional rows added.</figcaption> </figure> <br><br>
+
+The end result is there will be a new row for each name. However, this
+may not work the way you want it to. What if someone has multiple
+names, or a middle initial? This will affect how many rows are
+created.
+
+For curation purposes, splitting a cell so different parts of a single
+person’s name are in different rows doesn’t make logical sense.
+However, if there were numerous names in a cell separated by a dash,
+separating it so each person has their own row makes sense.
+
+<figure> <img src="openrefine48.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 48: View of OpenRefine interface showing the options for editing cells.</figcaption> </figure> <br><br>
 
 #### Joining Cells
 
-> You also have the option to join multi-valued cells together. You can
-> perform this action by clicking on the arrow next to a column, and
-> then selecting “Edit cells” and “Join multi-valued cells…”
->
-> <img src="media/image1.png" style="width:3.56771in;height:1.51958in" />
->
-> Fig. 49
->
-> OpenRefine then prompts you to enter the separator you wish to use
-> between the values. Since we want to combine the first and last name
-> together, we will use a space as the separator.
->
-> <img src="media/image64.png" style="width:3.0625in;height:2.44792in" />
->
-> Fig. 50
->
-> As you can see, the cells have been joined together so there is only
-> one row per entry.
+You also have the option to join multi-valued cells together. You can
+perform this action by clicking on the arrow next to a column, and
+then selecting “Edit cells” and “Join multi-valued cells…”
+
+<figure> <img src="openrefine49.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 49: View of OpenRefine interface showing the join cells dialogue box.</figcaption> </figure> <br><br>
+
+OpenRefine then prompts you to enter the separator you wish to use
+between the values. Since we want to combine the first and last name
+together, we will use a space as the separator.
+
+<figure> <img src="openrefine50.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 50: View of OpenRefine interface showing a sample dataset with additional rows removed.</figcaption> </figure> <br><br>
+
+As you can see, the cells have been joined together so there is only
+one row per entry.
 
 #### Splitting Columns
 
-> OpenRefine enables splitting data from columns into multiple columns
-> according to data manipulation and organizational needs. This is a
-> neat feature of OpenRefine.
->
-> <img src="media/image15.png" style="width:3.57813in;height:3.5301in" />
->
-> Fig. 51
+OpenRefine enables splitting data from columns into multiple columns
+according to data manipulation and organizational needs. This is a
+neat feature of OpenRefine.
+
+<figure> <img src="openrefine51.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 51: View of OpenRefine interface showing the edit column options.</figcaption> </figure> <br><br>
 
 You can split columns by clicking the arrow next to the column, and then
 selecting “Edit column” and “Split into several columns.”
 
-<img src="media/image78.png" style="width:5.01563in;height:2.41136in" />
-
-Fig. 52
+<figure> <img src="openrefine52.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 52: View of OpenRefine interface showing the split column dialogue box.</figcaption> </figure> <br><br>
 
 Just like with splitting the cell, you are asked to add a separator.
 Since we wish to separate the first and last name, we will use a space
@@ -1008,9 +980,8 @@ original column and only have the separated columns. Having it unchecked
 means the original column will remain. Once you have made your decision,
 select OK.
 
-<img src="media/image21.png" style="width:4.10938in;height:2.52166in" />
+<figure> <img src="openrefine53.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 53: View of OpenRefine interface showing a sample dataset that has been split into multiple columns.</figcaption> </figure> <br><br>
 
-Fig. 53
 
 Splitting the column using a space separator created 4 columns. This is
 because at least one Lead Actor entry had four spaces in their name.
@@ -1018,24 +989,21 @@ Using actions in OpenRefine can lead to unexpected results.
 
 #### Joining Columns
 
-<img src="media/image68.png" style="width:2.90104in;height:2.91016in" />
+<figure> <img src="openrefine54.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 54: View of OpenRefine interface showing the edit column options.</figcaption> </figure> <br><br>
 
-Fig. 54
 
 You can also join columns together. To do so, you want to click on the
 arrow next to one of the columns you want to join. Then you can select
 “Edit column” and “Join columns…”
 
-<img src="media/image71.png" style="width:5.16103in;height:2.97396in" />
+<figure> <img src="openrefine55.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 55: View of OpenRefine interface showing the join columns dialogue box.</figcaption> </figure> <br><br>
 
-Fig. 55
 
 OpenRefine will then ask you to select the other columns you wish to
 join.
 
-<img src="media/image36.png" style="width:5.16146in;height:2.96949in" />
+<figure> <img src="openrefine56.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 56: View of OpenRefine interface showing the join column options in a dialogue box.</figcaption> </figure> <br><br>
 
-Fig. 56
 
 Check all of the columns you wish to be joined together. You can drag
 the columns if you wish to change the order they will join in. In this
@@ -1048,15 +1016,12 @@ names will be separated by a space. You then choose for the result to be
 put into a new column named “Lead Actor.” You also choose to delete the
 joined columns, so only the new column will remain.
 
-<img src="media/image7.png" style="width:3.08333in;height:2.39583in" />
-
-Fig. 57
+<figure> <img src="openrefine57.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 57: View of OpenRefine interface showing a sample dataset with rejoined columns.</figcaption> </figure> <br><br>
 
 The Lead Actor column now looks identical to before you split it.
 
-<img src="media/image55.png" style="width:3.61979in;height:3.59533in" />
+<figure> <img src="openrefine58.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 58: View of OpenRefine interface showing the edit column options.</figcaption> </figure> <br><br>
 
-Fig. 58
 
 Other column editing options include the ability to add columns, rename
 columns, remove columns, and move the location of columns. You can learn
@@ -1084,83 +1049,68 @@ operation (under Edit cells).[^1][^10][^11]
 
 #### Find Titles that Contain One or More Digits 
 
-> <img src="media/image54.png" style="width:1.28646in;height:2.37946in" />
+<figure> <img src="openrefine59.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 59: View of OpenRefine interface showing tool options under a column</figcaption> </figure> <br><br>
 
-Fig. 59
 
-> Select “Text filter” under “Title”.
->
-> <img src="media/image86.png" style="width:2.90104in;height:1.41194in" />
+Select “Text filter” under “Title”.
 
-Fig. 60
+<figure> <img src="openrefine-60.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 60: View of OpenRefine interface showing the Facet/Filter dialogue box.</figcaption> </figure> <br><br>
 
-> In the “Facet/Filter” tab, the filter box for the
-> column “Title” will appear. Click the box to select “regular
-> expression.”
->
-> <img src="media/image19.png" style="width:3.05729in;height:1.50665in" />
+In the “Facet/Filter” tab, the filter box for the
+column “Title” will appear. Click the box to select “regular
+expression.”
 
-Fig. 61
+<figure> <img src="openrefine-61.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 61: View of OpenRefine interface showing a sample regular expression in the Facet/Filter dialogue box.</figcaption> </figure> <br><br>
 
-> To find titles starting with a digit, we input the
-> above regex:
->
-> \d stands for any digit
->
-> \[0-9\] stands for any digit between 0 and 9
->
-> <img src="media/image12.png" style="width:1.46551in;height:5.68229in" />
+To find titles starting with a digit, we input the
+above regex:
 
-Fig. 62
+\d stands for any digit
+
+ \[0-9\] stands for any digit between 0 and 9
+
+<figure> <img src="openrefine-62.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 62: View of OpenRefine interface showing a filtered view of a sample dataset.</figcaption> </figure> <br><br>
 
 On running this regex, all records that have one or
 more digits in their title will be seen.
 
 #### Find Titles that Start with Individual Letters/Articles not Words
 
-> <img src="media/image85.png" style="width:3.35938in;height:1.66632in" />
+<figure> <img src="openrefine-63.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 63: View of OpenRefine interface showing a sample regular expression the Facet/Filter dialogue box.</figcaption> </figure> <br><br>
 
-Fig. 63
+Using the “Text filter” from the “Title” column,
+run the above regex:
 
-> Using the “Text filter” from the “Title” column,
-> run the above regex:
->
-> ^ sign indicates to begin searching at the start of
-> the title
->
-> \[A-Z\] indicates to look for capital letters
-> between A and Z
->
-> \s indicates to look for a space after the
-> letter
->
-> <img src="media/image93.png" style="width:1.73438in;height:5.86837in" />
+^ sign indicates to begin searching at the start of
+the title
 
-Fig. 64
+\[A-Z\] indicates to look for capital letters
+between A and Z
 
-> Upon running the above regex, you will find movie
-> titles that either started with a letter ‘A’ or ‘I’, or with any other
-> letter.
+\s indicates to look for a space after the
+letter
+
+<figure> <img src="openrefine-64.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 64: View of OpenRefine interface showing a sample filtered dataset.</figcaption> </figure> <br><br>
+
+Upon running the above regex, you will find movie
+titles that either started with a letter ‘A’ or ‘I’, or with any other
+letter.
 
 #### Find and Replace with Regular Expressions
 
-> With just a couple of steps, you will be able to
-> comb through all the records to find the desired records using a
-> regular expression. Regex can also be used to find and replace any
-> part of a number, text and also punctuation.
+With just a couple of steps, you will be able to
+comb through all the records to find the desired records using a
+regular expression. Regex can also be used to find and replace any
+part of a number, text and also punctuation.
 
 #### 
 
-> <img src="media/image84.png" style="width:3.28646in;height:3.16376in" />
+<figure> <img src="openrefine-65.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 65: View of OpenRefine interface showing the options for editing cells.</figcaption> </figure> <br><br>
 
-Fig. 65
+Select the drop-down menu of column “Title” and
+then select “Replace…” from the “Edit cells” menu.
 
-> Select the drop-down menu of column “Title” and
-> then select “Replace…” from the “Edit cells” menu.
->
-> <img src="media/image70.png" style="width:4.99345in;height:2.64877in" />
-
-Fig. 66
+<figure> <img src="openrefine-66.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 66: View of OpenRefine interface showing the replace dialogue box.</figcaption> </figure> <br><br>
 
 On selecting “Replace…” from the ‘Edit cells menu, a
 “Replace” window will appear. In this window, you can input a regex in
@@ -1172,9 +1122,8 @@ number or punctuation that you want to replace. Click “OK”. On clicking
 
 ### General Refine Expression Language (GREL)
 
- ![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
-
- ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
+![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)
+![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
 The General Refine Expression Language (GREL)[^1][^10][^11] is a
 programming language similar to Javascript that works inside OpenRefine.
@@ -1188,38 +1137,28 @@ well.
 Example 1: GREL Expression using the “replace()” GREL function to
 transform/replace values from the desired column.
 
-> <img src="media/image33.png" style="width:1.04929in;height:5.96599in" />
-
-Fig. 67
+<figure> <img src="openrefine-67.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 67: View of OpenRefine showing a sample dataset.</figcaption> </figure> <br><br>
 
 The “Color/B&W” column in its original format.
 
-> <img src="media/image75.png" style="width:2.83854in;height:2.82875in" />
-
-Fig. 68
+<figure> <img src="openrefine-68.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 68: View of OpenRefine interface showing the edit cells options.</figcaption> </figure> <br><br>
 
 From the drop-down menu, select “Edit cells”, and then select
 “Transform…”
 
-> <img src="media/image91.png" style="width:4.89063in;height:4.14929in" />
-
-Fig. 69
+<figure> <img src="openrefine-69.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 69: View of OpenRefine interface showing the transform dialogue box.</figcaption> </figure> <br><br>
 
 A Custom text transform window pops up after you make a selection. We
 intend to replace ‘Black and White’ with ‘Black & White’ with the
 ‘replace()’ GREL function.
 
-> <img src="media/image92.png" style="width:4.93229in;height:4.17859in" />
-
-Fig. 70
+<figure> <img src="openrefine-70.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 70: View of OpenRefine interface showing the Facet/Filter dialogue box.</figcaption> </figure> <br><br>
 
 We input: ‘value.replace(“and”, “&' ')’. A preview of the desired
 change is seen in the right hand column. This indicates that the GREL
 expression is executed correctly.
 
-> <img src="media/image29.png" style="width:0.76563in;height:5.10417in" />
-
-Fig. 71
+<figure> <img src="openrefine-71.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 71: View of OpenRefine interface showing a sample dataset that has been transformed.</figcaption> </figure> <br><br>
 
 On clicking “OK” the function is implemented by OpenRefine and you will
 be able to replace ‘Black and White’ with ‘Black & White’ using a GREL
@@ -1230,24 +1169,21 @@ be able to replace ‘Black and White’ with ‘Black & White’ using a GREL
 Example 2: GREL Expression ‘toString()’ function to convert the date
 value from the desired column.
 
-> <img src="media/image79.png" style="width:1.25521in;height:7.23591in" />
+<figure> <img src="openrefine-72.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 72: View of OpenRefine interface showing a sample dataset.</figcaption> </figure> <br><br>
 
-Fig. 72
 
 The “Release Date” column in its original format.
 
-> <img src="media/image47.png" style="width:5.18229in;height:4.43578in" />
+<figure> <img src="openrefine-73.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 73: View of OpenRefine interface showing the text transform dialogue box.</figcaption> </figure> <br><br>
 
-Fig. 73
 
 To convert the column values to dates we use the ‘toString()’ GREL
 function in the “Transform…” function from the “Edit cells” of the
 “Release Date” column. In the Custom text format window enter the GREL
 function: ‘value.toString("MM-dd-yyy")’.
 
-> <img src="media/image18.png" style="width:0.95313in;height:5.82376in" />
+<figure> <img src="openrefine-74.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 74: View of OpenRefine interface showing a sample dataset that has been transformed.</figcaption> </figure> <br><br>
 
-Fig. 74
 
 On clicking “OK” the date value will be converted to the desired format
 of MM-DD-YYYY in the ‘Release Date’ column. This date format is written
@@ -1272,9 +1208,8 @@ You can use reconciling to adjust the data so it follows a standard and
 matches your dataset to an external source. Reconciling is available at
 the bottom of the column menu.
 
-<img src="media/image81.png" style="width:2.81771in;height:3.54866in" />
+<figure> <img src="openrefine-75.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 75: View of OpenRefine interface showing the reconcile options.</figcaption> </figure> <br><br>
 
-Fig. 75
 
 According to the OpenRefine website, the curator may want to reconcile
 in order to:
@@ -1293,22 +1228,18 @@ benefits are also included below.
 
 #### Using Reconciling for Actors and Add Additional Identifiers
 
-<img src="media/image66.png" style="width:1.8854in;height:4.10938in" />
+<figure> <img src="openrefine-76.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 76: View of OpenRefine interface showing a sample dataset.</figcaption> </figure> <br><br>
 
-Fig. 76
 
 In this example, the “Lead Actor” column will be reconciled.
 
-<img src="media/image58.png" style="width:3.59842in;height:3.92188in" />
+<figure> <img src="openrefine-77.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 77: View of OpenRefine interface showing additional reconcile options.</figcaption> </figure> <br><br>
 
-Fig. 77
 
 To reconcile this column, navigate to the edit column and select
 “Reconcile” then “Start reconciling…” at the bottom of the menu.
 
-<img src="media/image17.png" style="width:5.26563in;height:3.74303in" />
-
-Fig. 78
+<figure> <img src="openrefine-78.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 78: View of OpenRefine interface showing the reconcile dialogue box. </figcaption> </figure> <br><br>
 
 After selecting “Start reconciling,” a menu pops up that allows you to
 pick a reconciliation service. In this example we will add the wikidata
@@ -1316,49 +1247,44 @@ service. The Wikidata service is
 [https://wikidata.reconci.link/en/api](https://wikidata.reconci.link/en/api).
 Add this link to the add standard service to use Wikidata.
 
-<img src="media/image61.png" style="width:6.5in;height:4.30556in" />
+<figure> <img src="openrefine-79.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 79: View of OpenRefine interface showing reconcile options for a sample dataset.</figcaption> </figure> <br><br>
 
-Fig. 79
 
 After selecting wikidata as your service, you can then match this column
 to a variety of wikidata elements. In this example, we will match this
 column to Q5, “Human.” You have the option to include other relevant
 details from other columns if they are relevant.
 
-<img src="media/image45.png" style="width:4.48958in;height:0.71875in" />
+<figure> <img src="openrefine-80.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 80: View of OpenRefine interface showing the reconcile loading bar.</figcaption> </figure> <br><br>
+
 
 Once reconciliation begins, you will see a progress bar at the top of
 OpenRefine. This process can take a long time, so be patient with the
 software.
 
-<img src="media/image27.png" style="width:3.5625in;height:5.52083in" />
-
-Fig. 80
+<figure> <img src="openrefine-81.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 81: View of OpenRefine interface showing a sample dataset that has been reconciled.</figcaption> </figure> <br><br>
 
 Once reconciliation is complete, each value in the “Lead Actor” column
 must be matched to the correct value.
 
-<img src="media/image6.png" style="width:5.80208in;height:4.92708in" />
+<figure> <img src="openrefine-82.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 82: View of OpenRefine interface showing edit cell options.</figcaption> </figure> <br><br>
 
-Fig. 81
 
 Once all of the values are reconciled to their correct match, you can
 then add more columns based on these values. In this example, QID and
 VIAF ID will be added based on the matched values in the “Lead Actor”
 column.
 
-<img src="media/image65.png" style="width:6.5in;height:4.75in" />
+<figure> <img src="openrefine-83.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 83: View of OpenRefine interface showing a dialogue box for adding columns based on reconciled values.</figcaption> </figure> <br><br>
 
-Fig. 82
 
 After selecting, “Add column based on reconciled values,” a menu appears
 where you can add more values. OpenRefine recommends adding Wikidata’s
 QID, but other values can be added as well. By searching the “Add
 property” field, other information can be added, such as VIAF ID.
 
-<img src="media/image74.png" style="width:3.14583in;height:5.60417in" />
+<figure> <img src="openrefine-84.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 84: View of OpenRefine interface showing a sample dataset that has been reconciled and has additional columns added.</figcaption> </figure> <br><br>
 
-Fig. 83
 
 Once you select “OK,” these desired extra columns are added to your
 OpenRefine project. Note in this example, Stephen Carr does not have a
@@ -1404,16 +1330,12 @@ removing the symbols from the titles as my visualization software
 doesn’t take values with symbols. Because writing a regular expression
 for this could be tricky, you can ask AI for help.
 
-<img src="media/image52.png" style="width:6.99947in;height:0.66181in" />
-
-Fig. 84
+<figure> <img src="openrefine-85.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 85: View of AI ChatBot interface.</figcaption> </figure> <br><br>
 
 In this example, you can use Microsoft’s Copilot to answer the regular
 expression question.
 
-<img src="media/image82.png" style="width:6.5in;height:4.26389in" />
-
-Fig. 85
+<figure> <img src="openrefine-86.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 85: View of AI ChatBot interface.</figcaption> </figure> <br><br>
 
 Copilot in return to your query generated this result. It provided a
 regular expression, explained the steps you would need to take in
@@ -1461,9 +1383,7 @@ OpenRefine autosaves your actions every five minutes by default. All
 preservation actions can be executed from the Undo/Redo button on the
 top pane of the OpenRefine interface.
 
-<img src="media/image60.png" style="width:3.11458in;height:6.67708in" />
-
-Fig. 86
+<figure> <img src="openrefine-87.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 87: View of OpenRefine interface showing the history of changes to a dataset.</figcaption> </figure> <br><br>
 
 ### File Format Transformations
 
@@ -1522,9 +1442,7 @@ information on these exporters can be found in the OpenRefine manual.
 
 #### Exporting Data from your OpenRefine Project
 
-<img src="media/image88.png" style="width:2.98188in;height:4.0164in" />
-
-Fig. 87
+<figure> <img src="openrefine-88.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 88: View of OpenRefine interface showing export options.</figcaption> </figure> <br><br>
 
 Click the Export dropdown button in the top right corner and select the
 desired format in which you wish to export your data.
@@ -1542,9 +1460,7 @@ Undo/Redo Tab and click extract. Then you will be able to choose which
 operations you want to extract. It is good practice to extract all
 operations for documentation purposes.
 
-<img src="media/image20.png" style="width:6.5in;height:4.88889in" />
-
-Fig. 88
+<figure> <img src="openrefine-89.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 89: View of OpenRefine interface showing a dialogue box for extracting history from OpenRefine.</figcaption> </figure> <br><br>
 
 Further, you can manually add the reasons why you took those steps for
 your documentation. It is always a good idea to note why you made the
@@ -1604,59 +1520,47 @@ data curation best practices.
 
 2.  Inventory the datasets:
 
-<!-- -->
+<li>Extract zip files if any</li>
+<li>Check if the file size is large</li>
+<li>Identify and ensure that dataset file formats are compliant with OpenRefine</li>
+<li>Review file organization, hierarchy, and naming convention(s)</li>
 
-1.  Extract zip files if any
-
-2.  Check if the file size is large
-
-3.  Identify and ensure that dataset file formats are compliant with OpenRefine
-
-4.  Review file organization, hierarchy, and naming convention(s)
-
-2\. Ensure if the metadata and/or accompanying information provided by
+3. Ensure if the metadata and/or accompanying information provided by
 researcher is accurate and complete to institutional requirements
 
-3\. Check if researcher(s) has provided any documentation in the form of
+4. Check if researcher(s) has provided any documentation in the form of
 README/Codebook/Data Dictionary. Ensure all documentation is accurate
 and complete
 
-4\. Check accessibility of all files. Ensure files/image descriptions
+5. Check accessibility of all files. Ensure files/image descriptions
 are in plain text
 
-5\. Ensure/review if participant agreement and data use agreement is
+6. Ensure/review if participant agreement and data use agreement is
 included with the dataset
 
-1.  If individuals and communities are represented
-
-2.  If there is representativeness of diverse human populations
-
-3.  If the protection or endangerment status of species is specified
-
-4.  If geographic locations (e.g., contested boundaries, historical and current political situations) are specified
-
-5.  If animal research ethics and approvals are acquired
-
-6.  Review and ensure if it is possible that the dataset may impact a specific group?
-
-7.  Does this dataset follow compliance & institutional policy?
+<li>If individuals and communities are represented</li>
+<li>If there is representativeness of diverse human populations</li>
+<li>If the protection or endangerment status of species is specified</li>
+<li>If geographic locations (e.g., contested boundaries, historical and current political situations) are specified</li>
+<li>If animal research ethics and approvals are acquired</li>
+<li>Review and ensure if it is possible that the dataset may impact a specific group?</li>
+<li>Does this dataset follow compliance & institutional policy?</li>
 
 ##### Steps after importing the dataset in OpenRefine
 
-6\. Check if the datasets and any supporting information open as
+7. Check if the datasets and any supporting information open as
 expected in OpenRefine without any errors
 
-7\. Ensure that datasets do not have security features preventing files
+8. Ensure that datasets do not have security features preventing files
 to open/upload in OpenRefine
 
-8\. Examine the dataset for any obvious errors/missing information in
+9. Examine the dataset for any obvious errors/missing information in
 headers, rows, and columns
 
-9\. Check if any human subjects data is present. If so,
+10. Check if any human subjects data is present. If so,
 
-1.  Request consent form/participant agreement if not present in the “Request” step
-
-2.  If data is not de-identified, document it for the "Request" step.
+<li>Request consent form/participant agreement if not present in the “Request” step</li>
+<li>If data is not de-identified, document it for the "Request" step.</li>
 
 ### UNDERSTAND Step
 
@@ -1666,38 +1570,27 @@ headers, rows, and columns
 
 Examine/study datasets and documentation before importing in OpenRefine
 
-1\. Before importing the dataset in OpenRefine
+1. Before importing the dataset in OpenRefine
 
-1.  Thoroughly check organization of data - Are rows and columns well-structured?
+<li>Thoroughly check organization of data - Are rows and columns well-structured?</li>
+<li>Are headers clearly defined?</li>
+<li>Does data presented in the headers match the metadata of accompanying information?</li>
+<li>OpenRefine does not preserve any formatting (cell/text color) from the original data file, so make sure to modify such changes in the dataset before importing in OpenRefine.</li>
+<li>Is there documentation on tables, relationships, queries etc.?</li>
+<li>Is the data presented/available in open-source formats</li>
+<li>Can the data be exported to CSV, TXT and to other non-proprietary formats?</li>
+<li>Is there any missing data? (Missing column headers, missing data in rows and columns)</li>
+<li>Is there inconsistency in how things are spelled, etc.</li>
+<li>Could a user understand and reuse this dataset and reproduce the results?</li>
 
-2.  Are headers clearly defined?
-
-3.  Does data presented in the headers match the metadata of accompanying information?
-
-4.  OpenRefine does not preserve any formatting (cell/text color) from the original data file, so make sure to modify such changes in the dataset before importing in OpenRefine
-
-5.  Is there documentation on tables, relationships, queries etc.?
-
-6.  Is the data presented/available in open-source formats
-
-7.  Can the data be exported to CSV, TXT and to other non-proprietary formats?
-
-8.  Is there any missing data? (Missing column headers, missing data in rows and columns)
-
-9.  Is there inconsistency in how things are spelled, etc.
-
-10. Could a user understand and reuse this dataset and reproduce the results?
-
-2\. Before performing curation actions (cleaning, organizing) on human
+2. Before performing curation actions (cleaning, organizing) on human
 datasets in OpenRefine
 
-1.  Check for any data sources, researchers’ background, their connections to the communities/participants they are serving, to facilitate conversation with researcher(s) in the “Request” step
+<li>Check for any data sources, researchers’ background, their connections to the communities/participants they are serving, to facilitate conversation with researcher(s) in the “Request” step</li>
+<li>Check if there are authoritative groups who should be contacted in the “Request” step</li>
 
-2.  Check if there are authoritative groups who should be contacted in the “Request” step
-
-3\. Use OpenRefine functions to understand the dataset.
-
-1.  Use custom sorts and text facets to gain new insights on the data and to find inconsistencies in the data.
+3. Use OpenRefine functions to understand the dataset.
+<li>Use custom sorts and text facets to gain new insights on the data and to find inconsistencies in the data.</li>
 
 ### REQUEST Step
 
@@ -1708,31 +1601,21 @@ datasets in OpenRefine
 Generate a list of questions to help researcher(s) fix issues before
 performing data manipulation in OpenRefine
 
-> 1\. Enrich usability of the data
+1. Enrich usability of the data
 
-1.  Identify/highlight errors/issues that are most critical to improve the quality of datasets in OpenRefine
+<li>Identify/highlight errors/issues that are most critical to improve the quality of datasets in OpenRefine</li>
+<li>Consider how best to frame and communicate requests</li>
+<li>Convey a sense of urgency to researcher(s) to avoid delays in responses which may eventually delay the curation process and subsequently the research project</li>
+<li>Collaborate with researcher(s) to make necessary changes. Set up meetings.</li>
+<li>With researcher permission, perform cell edits/bulk editing, GREL and clustering functions to fix errors</li>
+<li>Communicate any changes that you, as a curator, will make on their behalf if changes need to be made. Confirm and clarify with the researcher(s), if you will be allowed and will be responsible for making any changes/clean/manipulate data files in OpenRefine.</li>
+<li>If the curator is given permission to perform changes as permitted by the institutional policy, all documentation regarding approvals/permissions from the researcher(s), will need to be included in the CHECK step.</li>
 
-2.  Consider how best to frame and communicate requests
+2. Ask researcher(s) if participants will be notified about their data being shared
 
-3.  Convey a sense of urgency to researcher(s) to avoid delays in responses which may eventually delay the curation process and subsequently the research project
+3.If there’s discomfort about sharing data in its current state and/or it does not meet your institution's requirements, reserve the right not to publish.
 
-4.  Collaborate with researcher(s) to make necessary changes. Set up meetings.
-
-5.  With researcher permission, perform cell edits/bulk editing, GREL and clustering functions to fix errors
-
-6.  Communicate any changes that you, as a curator, will make on their behalf if changes need to be made. Confirm and clarify with the researcher(s), if you will be allowed and will be responsible for making any changes/clean/manipulate data files in OpenRefine.
-
-7.  If the curator is given permission to perform changes as permitted by the institutional policy, all documentation regarding approvals/permissions from the researcher(s), will need to be included in the CHECK step.
-
-> 2\. Ask researcher(s) if participants will be notified about their
-> data being shared
->
-> 3\. If there’s discomfort about sharing data in its current state
-> and/or it does not meet your institution's requirements, reserve the
-> right not to publish.
->
-> 4\. Ask researcher(s) if there are limitations to how data
-> could/should be used to include in the documentation.
+4. Ask researcher(s) if there are limitations to how data could/should be used to include in the documentation.
 
 ### AUGMENT Step
 
@@ -1740,32 +1623,27 @@ performing data manipulation in OpenRefine
 
 #### Augment the dataset 
 
-> To augment the OpenRefine project/dataset, after receiving information
-> from the “Request” step, you need to review if the project metadata
-> conforms to repository and/or discipline standards to improve
-> findability and accessibility with the following considerations:
->
-> 1\. Metadata
+To augment the OpenRefine project/dataset, after receiving information
+from the “Request” step, you need to review if the project metadata
+conforms to repository and/or discipline standards to improve
+findability and accessibility with the following considerations:
 
-1.  Enhance metadata of the dataset for findability by ensuring that the dataset has a persistent identifier.
+1. Metadata
 
-2.  Update/review fields in the dataset based on the information received from the Request step. For example, check fields/columns date, title, row count, subject terms, description etc. in the OpenRefine dataset. These fields constitute the metadata of the project.
+<li>Enhance metadata of the dataset for findability by ensuring that the dataset has a persistent identifier.</li>
+<li>Update/review fields in the dataset based on the information received from the Request step. For example, check fields/columns date, title, row count, subject terms, description etc. in the OpenRefine dataset. These fields constitute the metadata of the project.</li>
+<li>Make updates to documentation/data dictionary/README/Codebook as appropriate, to make data more understandable, interoperable and reusable</li>
 
-3.  Make updates to documentation/data dictionary/README/Codebook as appropriate, to make data more understandable, interoperable and reusable
+2. Accessibility
 
-> 2\. Accessibility
+<li>Ensure if project renaming or changes to file naming conventions were made during the “Request” step.</li>
+<li>Check for dataset reorder and/or dataset description updates</li>
+<li>Check if any changes were made to the file format of project dataset itself</li>
 
-1.  Ensure if project renaming or changes to file naming conventions were made during the “Request” step.
+3. Discoverability
 
-2.  Check for dataset reorder and/or dataset description updates
-
-3.  Check if any changes were made to the file format of project dataset itself
-
-> 3\. Discoverability
-
-1.  HTML/data from web pages can be fetched in OpenRefine with the “Add column by fetching URLs” function. Source data, related publications, grants etc. can be linked to OpenRefine project/dataset with this feature.
-
-- Check to see if data from the chosen column contains paths to valid HTML pages/files online
+<li>HTML/data from web pages can be fetched in OpenRefine with the “Add column by fetching URLs” function. Source data, related publications, grants etc. can be linked to OpenRefine project/dataset with this feature.</li>
+	<li>Check to see if data from the chosen column contains paths to valid HTML pages/files online</li>
 
 2.  OpenRefine enables Reconciliation, that is matching the dataset with that of an external source. OpenRefine matches cell values to the reconciliation information as best it can. Human judgment is required to review and approve results. It is important to clean and cluster the dataset before reconciliation. Reconciliation is performed to:
 
