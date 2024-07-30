@@ -562,15 +562,11 @@ misspelling. You can edit a single cell by simply hovering over a cell
 with your mouse. This is a good approach if you want to edit each cell
 one-by-one.[^1]
 
-> <img src="media/image30.png" style="width:5.98958in;height:1.32292in" />
-
-Fig. 12
+<figure> <img src="openrefine12.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 12: View of OpenRefine interface showing edit highlighted under Country.</figcaption> </figure> <br><br>
 
 Edit will appear as an option when you hover over the cell.
 
-<img src="media/image80.png" style="width:4.66667in;height:1.80208in" />
-
-Fig. 13
+<figure> <img src="openrefine13.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 13: View of OpenRefine interface showing the edit dialogue box.</figcaption> </figure> <br><br>
 
 When you click edit, you can type in the correct value and click
 “Apply”. In this example, you want to correct the value ‘US’ to ‘USA’.
@@ -598,45 +594,39 @@ view the following example.
 
 #### Sort by Title Alphabetically
 
-> <img src="media/image38.png" style="width:3.0624in;height:4.10938in" />
+<figure> <img src="openrefine14.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 14: View of OpenRefine interface showing a sample dataset sorting by release date.</figcaption> </figure> <br><br>
 
-Fig. 14
 
-> In its current form, the IMDb movie data spreadsheet is currently
-> sorted by release date from oldest to newest. In this example, you
-> would like to change this sort from the chronological order by release
-> date to alphabetical by title.
->
-> <img src="media/image90.png" style="width:2.46875in;height:3.16667in" />
+In its current form, the IMDb movie data spreadsheet is currently
+sorted by release date from oldest to newest. In this example, you
+would like to change this sort from the chronological order by release
+date to alphabetical by title.
 
-Fig. 15
+<figure> <img src="openrefine15.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 15: View of OpenRefine interface showing the sort option under the column Title.</figcaption> </figure> <br><br>
+
 
 To sort the column title, select the column drop down menu and select
 “Sort”
 
-<img src="media/image34.png" style="width:4.21875in;height:3.44792in" />
+<figure> <img src="openrefine16.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 16: View of OpenRefine interface showing the sort dialogue box.</figcaption> </figure> <br><br>
 
-Fig. 16
 
-> Once you select sort, the sorting menu appears. In this menu you can
-> select various options on how you would like to sort. In this example,
-> you would like to change the sort from chronological to alphabetical.
-> Select a-z sort and select ok.
->
-> <img src="media/image43.png" style="width:3.70417in;height:6.09896in" />
+Once you select sort, the sorting menu appears. In this menu you can
+select various options on how you would like to sort. In this example,
+you would like to change the sort from chronological to alphabetical.
+Select a-z sort and select ok.
 
-Fig. 17
+<figure> <img src="openrefine17.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 13: View of OpenRefine interface showing a sample dataset sorting by title.</figcaption> </figure> <br><br>
 
-> Now the table is sorted alphabetically by title. When OpenRefine sorts
-> alphabetically, they sort by symbols, then numbers, then by letters.
->
-> <img src="media/image3.png" style="width:6.23958in;height:4.07292in" />
 
-Fig. 18
+Now the table is sorted alphabetically by title. When OpenRefine sorts
+alphabetically, they sort by symbols, then numbers, then by letters.
 
-> If the sort you created is no longer needed, you can remove the sort
-> by navigating back to the column menu, then sort, then select “Remove
-> sort”.
+<figure> <img src="openrefine18.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 13: View of OpenRefine interface showing the "Remove Sort" option under the column Title.</figcaption> </figure> <br><br>
+
+If the sort you created is no longer needed, you can remove the sort
+by navigating back to the column menu, then sort, then select “Remove
+sort”.
 
 ## Section 9: Faceting Data 
 
@@ -644,19 +634,19 @@ Fig. 18
 
  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-> Facet is the most used feature of OpenRefine, as it enables
-> consistency of data. A “Facet” groups all values that appear in a
-> column, and then allows you to filter and edit these values across
-> many records at the same time. One of the most commonly used facets is
-> the “Text facet”. This groups all the text values in a column and
-> lists each value with the number of records it appears in. The created
-> facet for the column can be sorted alphabetically, and can also be
-> sorted by count.You can filter the data displayed by clicking on one
-> of these headings. You can include multiple values from the facet in a
-> filter at one time by using the “Include” option which appears when
-> you hover your mouse over a value in the facet. You can also “invert”
-> the filter to show all records which do not match your selected
-> values. There are several types of facets in this function:
+Facet is the most used feature of OpenRefine, as it enables
+consistency of data. A “Facet” groups all values that appear in a
+column, and then allows you to filter and edit these values across
+many records at the same time. One of the most commonly used facets is
+the “Text facet”. This groups all the text values in a column and
+lists each value with the number of records it appears in. The created
+facet for the column can be sorted alphabetically, and can also be
+sorted by count.You can filter the data displayed by clicking on one
+of these headings. You can include multiple values from the facet in a
+filter at one time by using the “Include” option which appears when
+you hover your mouse over a value in the facet. You can also “invert”
+the filter to show all records which do not match your selected
+values. There are several types of facets in this function:
 
 - Text facet
 
@@ -675,25 +665,22 @@ column and their frequency. In the following example, you will create a
 text facet for the “Genre” column. With this information, you can
 establish what genres are the most and least popular in this dataset.
 
-<img src="media/image25.png" style="width:3.63542in;height:2.63542in" />
+<figure> <img src="openrefine19.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 19: View of OpenRefine interface showing the text facet option.</figcaption> </figure> <br><br>
 
-Fig. 19
 
 To create a text facet, navigate to the column menu, select facet, then
 “Text facet.”
 
-<img src="media/image35.png" style="width:3.20833in;height:5.52083in" />
+<figure> <img src="openrefine20.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 20: View of OpenRefine interface showing the "Remove Sort" option under the column Title.</figcaption> </figure> <br><br>
 
-Fig. 20
 
 Once “Text facet” is selected, a navigation menu appears on the side
 which lists all the values that can be found in the column, including
 the number of blank cells. In this example, you will view all the movies
 that have the genre of “Thriller.”
 
-<img src="media/image37.png" style="width:4.36979in;height:1.83642in" />
+<figure> <img src="openrefine21.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 21: View of OpenRefine interface showing a sample dataset filtered by Genre.</figcaption> </figure> <br><br>
 
-Fig. 21
 
 Upon selecting “Thriller,” OpenRefine returns us the 3 films that are
 classified as that genre. Text facets can be used to find and view rows
@@ -705,46 +692,40 @@ the frequency of recurring values.
 Text facets can also be used as a way to easily spot mistakes and to
 correct these mistakes in bulk.
 
-<img src="media/image39.png" style="width:2.74962in;height:1.99724in" />
+<figure> <img src="openrefine22.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 21: View of OpenRefine interface showing the text facet options.</figcaption> </figure> <br><br>
 
-Fig. 22
 
 First, you can create a Text facet for the Country column by clicking on
 the arrow next to the column, and then selecting “Facet” and “Text
 facet.”
 
-<img src="media/image41.png" style="width:2.30432in;height:2.78646in" />
+<figure> <img src="openrefine23.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 23: View of OpenRefine interface showing a sample facet/filter menu.</figcaption> </figure> <br><br>
 
-Fig. 23
 
 On the left side the Facet / Filter menu will appear. You can scroll
 through the menu to see if you notice any obvious mistakes. Here you can
 see the United States is spelled as USA 2941 times, and as US 3 times.
 
-<img src="media/image53.png" style="width:4.35836in;height:1.53042in" />
+<figure> <img src="openrefine24.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 24: View of OpenRefine interface showing a sample dataset filtered by Country.</figcaption> </figure> <br><br>
 
-Fig. 24
 
-<img src="media/image48.png" style="width:4.34896in;height:1.62613in" />
+<figure> <img src="openrefine25.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 25: View of OpenRefine interface showing how to edit multiple cells.</figcaption> </figure> <br><br>
 
-Fig. 25
 
 If you select “US” in the facet, then the three rows with “US” in them
 will appear. You then have the option to edit each cell. You can edit
 each cell one-by-one by selecting Apply, or you can select “Apply to all
 identical cells” to have them edit in bulk.
 
-<img src="media/image62.png" style="width:2.53646in;height:2.99271in" />
+<figure> <img src="openrefine26.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 26: View of OpenRefine interface showing a sample facet/filter menu and how to edit from that screen.</figcaption> </figure> <br><br>
 
-Fig. 26
 
 You can also choose to edit within the facet menu. If you hover over the
 value, the “edit” option will appear. If you select that, then you can
 type in the new value.
 
-<img src="media/image13.png" style="width:2.42462in;height:2.87417in" />
+<figure> <img src="openrefine27.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 27: View of OpenRefine interface showing a sample dataset with updated Country information.</figcaption> </figure> <br><br>
 
-Fig. 27
 
 Now that “US” is spelled as “USA”, it combines with the other “USA”
 values, to equal 2944 “USA” values altogether.
@@ -760,34 +741,30 @@ it is recommended that you use facets to check each column.
 A numeric facet is applicable to the column that contains numeric
 values.
 
-<img src="media/image9.png" style="width:3.7957in;height:2.74664in" />
+<figure> <img src="openrefine28.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 28: View of OpenRefine interface showing the text facet options.</figcaption> </figure> <br><br>
 
-Fig. 28
 
 A numeric facet can be found under the drop-down menu of each column
 under the “Facet” tab.
 
-<img src="media/image76.png" style="width:2.92966in;height:1.78638in" />
+<figure> <img src="openrefine29.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 29: View of OpenRefine interface showing a numeric filter option.</figcaption> </figure> <br><br>
 
-Fig. 29
 
 On selecting “Numeric facet” from the drop-down menu, it will create a
 facet displaying the range of number of characters in the form of an
 histogram for that column, as shown above. In this example, the IMDb
 movie rating ranges from 1.6 - 9.32.
 
-<img src="media/image16.png" style="width:2.58854in;height:1.58537in" />
+<figure> <img src="openrefine30.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 30: View of OpenRefine interface showing how to narrow results using a numeric filter option.</figcaption> </figure> <br><br>
 
-Fig. 30
 
 To find information about a particular range of values, you simply need
 to move the sliding scale to the desired values. We will find out which
 movies have an IMDb rating below 6. So we move the sliding scale up to
 the value 6.
 
-<img src="media/image73.png" style="width:1.1908in;height:5.56955in" />
+<figure> <img src="openrefine31.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 31: View of OpenRefine interface showing a sample dataset.</figcaption> </figure> <br><br>
 
-Fig. 31
 
 On sliding the scale up to 6, it returned a set of records which only
 had a movie rating below 6.
@@ -799,25 +776,21 @@ had a movie rating below 6.
 Timeline facets can be useful for noticing erroneous dates or exploring
 the dataset. It can only be used if the data is in the date format.
 
-<img src="media/image46.png" style="width:5.04688in;height:3.85795in" />
+<figure> <img src="openrefine32.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 32: View of OpenRefine interface showing common transform options.</figcaption> </figure> <br><br>
 
-Fig. 32
 
 You can change the data format to date format by clicking the arrow next
 to the column, and then selecting “Edit cells,” “Common transforms,” and
 “To date.” If the column has the date format, it will have green text.
 
-<img src="media/image32.png" style="width:2.94792in;height:2.29654in" />
-
-Fig. 33
+<figure> <img src="openrefine33.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 33: View of OpenRefine interface showing the Timeline Facet menu option.</figcaption> </figure> <br><br>
 
 Once the column is in the date format, you can add a Timeline facet by
 clicking the arrow next to the column, and then selecting “Facet,” and
 “Timeline facet.”
 
-<img src="media/image23.png" style="width:3.34375in;height:2.0625in" />
+<figure> <img src="openrefine34.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 34: View of OpenRefine interface showing the Timeline Facet dialogue window.</figcaption> </figure> <br><br>
 
-Fig. 34
 
 On the far left of the screen under the “Facet / Filter” tab the
 Timeline facet will appear. On the bottom you can see the earliest date
@@ -830,9 +803,8 @@ Since you know this dataset should only have data from 1900 - 2015, it
 is easy to see 1420 is a mistake. You can easily use the Timeline facet
 to fix this mistake.
 
-<img src="media/image28.png" style="width:6.5in;height:1.61111in" />
+<figure> <img src="openrefine35.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 35: View of OpenRefine interface showing a sample  dataset filtered by a timeline.</figcaption> </figure> <br><br>
 
-Fig. 35
 
 You can reduce the data being shown by dragging the timeline to the
 right or to the left. If you drag the timeline from the right to the
@@ -841,25 +813,19 @@ left, you reduce the time being shown till it only shows dates in the
 showing dates from 1420 to 1475. Then, the only date which will be
 displayed on the right are dates in that range.
 
-<img src="media/image4.png" style="width:6.5in;height:2.08333in" />
-
-Fig. 36
+<figure> <img src="openrefine36.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 36: View of OpenRefine interface showing how to edit a single cell.</figcaption> </figure> <br><br>
 
 To fix this date you should hover over the wrong cell. The “edit” option
 will appear. After selecting the edit option, you can type in the
 correct date, and then select apply. Make sure to write the date in the
 ISO 8601 format.
 
-<img src="media/image72.png" style="width:3.42708in;height:2.09375in" />
-
-Fig. 37
+<figure> <img src="openrefine37.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 37: View of OpenRefine interface showing the Timeline Facet Dialogue window.</figcaption> </figure> <br><br>
 
 To reset the Timeline, you can select “Reset all” above the timeline.
 The new range of the data is now 1920-09-15 to 2015-12-29.
 
-<img src="media/image24.png" style="width:6.5in;height:2.30556in" />
-
-Fig. 38
+<figure> <img src="openrefine38.png" alt="Screenshot of OpenRefine." style=""> <fig caption>Figure 38: View of OpenRefine interface showing how to remove a facet.</figcaption> </figure> <br><br>
 
 You can also use the Timeline facet to explore the dataset. Here, you
 are exploring the data from 1990-09-14 to 2000-12-28, which turns out to
@@ -869,19 +835,19 @@ To remove the facet, select the “x” next to the name of the facet.
 
 ## Section 10: Clustering Data 
 
- ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
+![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)
 
-> The Cluster function groups together similar, but inconsistent values
-> in a given column and lets you merge these inconsistent values into a
-> single value you choose. This is very effective where you have data
-> with minor variations in data values, e.g. names of people,
-> organizations, places classification terms. The ‘Clusters’ are created
-> automatically according to an algorithm. OpenRefine supports a number
-> of different clustering algorithms - some experimentation may be
-> required to see which clustering algorithm works best with any
-> particular set of data, and you may find that using different
-> algorithms highlights different clusters. You can replace varying
-> forms of the same data with a single consistent value.
+The Cluster function groups together similar, but inconsistent values
+in a given column and lets you merge these inconsistent values into a
+single value you choose. This is very effective where you have data
+with minor variations in data values, e.g. names of people,
+organizations, places classification terms. The ‘Clusters’ are created
+automatically according to an algorithm. OpenRefine supports a number
+of different clustering algorithms - some experimentation may be
+required to see which clustering algorithm works best with any
+particular set of data, and you may find that using different
+algorithms highlights different clusters. You can replace varying
+forms of the same data with a single consistent value.
 
 #### Using Clustering to Combine Similar Terms
 
