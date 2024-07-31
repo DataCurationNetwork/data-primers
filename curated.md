@@ -208,28 +208,19 @@ REQUEST steps include:
 >
 > Thank you for depositing your data set, [title of the data set], to [name of repository]. 
 >
-> After we receive a data set, we review it to ensure that the data we
-host are as complete and understandable as possible. We have reviewed your data set and have the following recommendations for you:
-
-<li>
-Recommendation #1
-</li>
-<li>
-Recommendation #2
-</li>
-<li>
-Recommendation #3
-</li>
-<li>
-Recommendation #4
-</li>
-
-We look forward to hearing your response.
-Please let us know if you have any questions about our
-recommendations. We would be happy to talk with you or meet in person to
-discuss our review of your data, if you would like
-Sincerely,
-[Name of Curator]</th>
+> After we receive a data set, we review it to ensure that the data we host are as complete and understandable as possible. We have reviewed your data set and have the following recommendations for you:
+> 
+> - Recommendation #1
+> - Recommendation #2
+> - Recommendation #3
+> - Recommendation #4
+>
+> We look forward to hearing your response. 
+>
+> Please let us know if you have any questions about our recommendations. We would be happy to talk with you or meet in person to discuss our review of your data, if you would like.
+>
+> Sincerely,
+> [Name of Curator]</th>
 </tr>
 </thead>
 <tbody>
