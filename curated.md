@@ -84,10 +84,10 @@ potential impacts of sharing this data. Consider:
 
 - [ ] Begin Curator Log to track curation decisions
 - [ ] Open the related article and supporting information if available
-- [ ] Inventory the dataset <br>
-      - [ ] Identify file formats
-      - [ ] Review file organization, hierarchy, and naming convention(s)
-      - [ ] Extract zip files when possible
+- [ ] Inventory the dataset
+  - [ ] Identify file formats
+  - [ ] Review file organization, hierarchy, and naming convention(s)
+  - [ ] Extract zip files when possible
 - [ ] Create working copy of files for formal inventory and testing
 - [ ] Examine code for obvious errors/missing components, etc.
 - [ ] Check that metadata quality is rich, accurate, and complete to institutional requirements.
