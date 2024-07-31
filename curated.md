@@ -220,224 +220,76 @@ REQUEST steps include:
 > Please let us know if you have any questions about our recommendations. We would be happy to talk with you or meet in person to discuss our review of your data, if you would like.
 >
 > Sincerely,
+>
 > [Name of Curator]</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
 
 # **AUGMENT Step**
 
-<table>
-<colgroup>
-<col style="width: 46%" />
-<col style="width: 53%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"><strong>Augment</strong> the dataset
-In this step we ensure metadata conforms to repository and/or
-appropriate discipline standards; adjust metadata to improve findability
-and accessibility; and improve documentation to make data more
-understandable, interoperable and reusable. Common AUGMENT steps
-include:
+<strong>Augment</strong> the dataset
 
-<li>
-Enhance metadata to best facilitate discoverability, such as by
-ensuring datasets have a persistent identifier.
-</li>
-<li>
-Create and apply metadata for the data record, including descriptive
-keywords
-</li>
-<li>
-When appropriate, structure and present metadata in domain-specific
-schemas to facilitate interoperability with other systems
-</li>
-<li>
-Implement any other agreed-on enhancements to metadata or
-documentation following discussion with researcher
-</li>
-</th>
-</tr>
-<tr class="odd">
-<th colspan="2"><strong>Key Ethical Considerations</strong>
+In this step we ensure metadata conforms to repository and/or appropriate discipline standards; adjust metadata to improve findability and accessibility; and improve documentation to make data more understandable, interoperable and reusable. Common AUGMENT steps include:
+- Enhance metadata to best facilitate discoverability, such as by ensuring datasets have a persistent identifier.
+- Create and apply metadata for the data record, including descriptive keywords
+- When appropriate, structure and present metadata in domain-specific schemas to facilitate interoperability with other systems
+- Implement any other agreed-on enhancements to metadata or documentation following discussion with researcher
 
-<li>
-Make sure bibliographic information reflects correct author
-attribution.
-</li>
-<li>
-Ensure any augmentation by the depositor to resolve ethical questions
-from previous steps is completed.
-</li>
-</th>
-</tr>
-<tr class="header">
-<th colspan="2"><strong>Essential Tasks</strong>
+## <strong>Key Ethical Considerations for Augment</strong>
 
-<li>
-Review information received from the researcher from initial deposit
-and all subsequent conversations
-</li>
-<li>
-Update, as appropriate:
+- Make sure bibliographic information reflects correct author attribution.
+- Ensure any augmentation by the depositor to resolve ethical questions from previous steps is completed.
 
+## <strong>Essential Augment Tasks</strong>
 
-<li>
-Metadata
-</li>
-<li>
-Documentation (readme, Codebook, Data Dictionary, Other)
-</li>
-<li>
-Replacement files
-</li>
-<li>
-Organization and Arrangement of files
-</li>
-<li>
-Documentation of file organization, hierarchy, and naming
-convention(s)
-</li>
-</li>
-<li>
-Facilitate discoverability:
+- [ ] Review information received from the researcher from initial deposit and all subsequent conversations
+- [ ] Update, as appropriate:
+  - [ ] Metadata
+  - [ ] Documentation (readme, Codebook, Data Dictionary, Other)
+  - [ ] Replacement files
+  - [ ] Organization and Arrangement of files
+  - [ ] Documentation of file organization, hierarchy, and naming convention(s)
+- [ ] Facilitate discoverability:
+  - [ ] Add links to related publications, grants, reports, source data, etc.
+  - [ ] Provide additional description of files as appropriate for external indexing or other purposes.
+  - [ ] Add subject terms
+- [ ] Ensure keywords are sufficient and representative
+- [ ] Record all changes in the Curation Log
+- [ ] Provide suggestions to improve accessibility of content (e.g., alt-text or additional descriptions; color contrast; etc)
 
-
-<li>
-Add links to related publications, grants, reports, source data,
-etc.
-</li>
-<li>
-Provide additional description of files as appropriate for external
-indexing or other purposes.
-</li>
-<li>
-Add subject terms
-</li>
-</li>
-<li>
-Ensure keywords are sufficient and representative
-</li>
-<li>
-Record all changes in the Curation Log
-</li>
-<li>
-Provide suggestions to improve accessibility of content (e.g.,
-alt-text or additional descriptions; color contrast; etc)
-</li>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 
 # **TRANSFORM Step**
 
-<table>
-<colgroup>
-<col style="width: 46%" />
-<col style="width: 53%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"><strong>Transform</strong> file formats
-In this step, consider the file formats in the dataset to make them
-more interoperable, reusable, preservation friendly, and non-proprietary
-when possible.<sup>1</sup> Common TRANSFORM steps include:
+<strong>Transform</strong> file formats 
 
-<li>
-Identify specialized file formats and their restrictions (e.g., Is
-the software freely available? If so, link to it or archive it alongside
-the data)
-</li>
-<li>
-Propose open source or more reusable formats when appropriate
-</li>
-<li>
-Retain original file formats
-</li>
+In this step, consider the file formats in the dataset to make them more interoperable, reusable, preservation friendly, and non-proprietary when possible.[^1] Common TRANSFORM steps include:
 
-<sup>1</sup> See Cornell’s list of preservation format
-recommendations: <a
-href="http://guides.library.cornell.edu/ecommons/formats">http://guides.library.cornell.edu/ecommons/formats</a></th>
-</tr>
-<tr class="odd">
-<th colspan="2"><strong>Key Ethical Considerations</strong>
+- Identify specialized file formats and their restrictions (e.g., Is the software freely available? If so, link to it or archive it alongside the data)
+- Propose open source or more reusable formats when appropriate
+- Retain original file formats
 
-<li>
-Consider how best to navigate researcher bandwidth limitations and
-ownership of data with repository commitments to reducing barriers to
-reuse.
-</li>
-<li>
-Decide how to balance the potential benefits of transformation
-with the risks of mistakes and loss of content/context, especially if
-the curator or repository will be performing transformation. Document
-the decision.
-</li>
-</th>
-</tr>
-<tr class="header">
-<th colspan="2"><strong>Essential Tasks</strong>
+## <strong>Key Ethical Considerations for Transform</strong>
 
-<li>
-Check whether preferred file formats are in use
+- Consider how best to navigate researcher bandwidth limitations and ownership of data with repository commitments to reducing barriers to reuse.
+- Decide how to balance the potential benefits of transformation with the risks of mistakes and loss of content/context, especially if the curator or repository will be performing transformation. Document the decision.
 
+## <strong>Essential Transform Tasks</strong>
 
-<li>
-If not, recommend conversion
-</li>
-<li>
-Retain original formats
-</li>
-</li>
-<li>
-Check whether software needed is readily available
+- [ ] Check whether preferred file formats are in use
+  - [ ] If not, recommend conversion
+  - [ ] Retain original formats
+- [ ] Check whether software needed is readily available
+  - [ ] Suggest open source options, if applicable and appropriate
+  - [ ] Ensure software and software version is documented
+- [ ] Convert any data visualization(s) that are not accessible (e.g., R <a href="https://github.com/DataCurationNetwork/data-primers/blob/master/R%20Data%20Curation%20Primer/R-data-curation-primer.md#accessibility-considerations">visualizations</a>, which need to be converted for screen reader use, or visualizations that do not meet color contrast guidelines)
+- [ ] Reorganize files as appropriate
+- [ ] Standardize file names
+- [ ] Record any transformations in Curator Log
 
-
-<li>
-Suggest open source options, if applicable and appropriate
-</li>
-<li>
-Ensure software and software version is documented
-</li>
-</li>
-<li>
-Convert any data visualization(s) that are not accessible (e.g., R <a
-href="https://github.com/DataCurationNetwork/data-primers/blob/master/R%20Data%20Curation%20Primer/R-data-curation-primer.md#accessibility-considerations">visualizations</a>,
-which need to be converted for screen reader use, or visualizations that
-do not meet color contrast guidelines)
-</li>
-<li>
-Reorganize files as appropriate
-</li>
-<li>
-Standardize file names
-</li>
-<li>
-Record any transformations in Curator Log
-</li>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 
 # **EVALUATE Step**
 
-<table>
-<colgroup>
-<col style="width: 46%" />
-<col style="width: 53%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"><strong>Evaluate</strong> and rate the dataset
+<strong>Evaluate</strong> and rate the dataset
+
 In this step, review the dataset and companion data record against
 international standards, including FAIR,<sup>2</sup> CARE,<sup>3</sup>
 and FATE.<sup>4</sup> Common EVALUATE steps:
@@ -624,11 +476,5 @@ Preservation packaging
 </li>
 <li>
 Any additional requirements at your institution
-</li>
-</li>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+[^1]: See Cornell’s list of preservation format recommendations: [http://guides.library.cornell.edu/ecommons/formats](http://guides.library.cornell.edu/ecommons/formats)
