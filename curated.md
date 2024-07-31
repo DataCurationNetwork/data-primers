@@ -21,7 +21,7 @@ repository based on a range of factors including local policy and
 potential for reuse?).
 
 > [!NOTE]  
-> <strong>Should the data be shared?</strong>
+> <strong>Should the data be shared?</strong><br><br>
 > Data curators analyze content to assess near and long-term impacts of data sharing, which is especially critical when evaluating for ethical concerns in data derived from human participants. To learn more about this, review
 > <li> <a href="https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md">Human Participants Data Essentials primer</a></li>
 > <li> <a href="https://github.com/DataCurationNetwork/data-primers/blob/master/Consent%20Forms%20Data%20Curation%20Primer/consent-forms-data-curation-primer.md">Curation of Data Collected by Informed Consent</a></li>
@@ -29,14 +29,12 @@ potential for reuse?).
 > <li> <a href="https://www.urban.org/research/publication/principles-advancing-equitable-data-practice">Principles for Advancing Equitable Data Practice</a> </li>
 
 
-<img src="media/image3.png" style="width:6.5in;height:2.40625in" />
-
 # Checklist of CURATE(D) Steps Performed by the DCN
 
-**Check** files and read documentation (risk mitigation, file inventory,
+**[CHECK](#check-step)** files and read documentation (risk mitigation, file inventory,
 appraisal/selection)
 
-**Understand** the data (or try to), if not… (run files/environment,
+**[UNDERSTAND](#understand-step)** the data (or try to), if not… (run files/environment,
 QA/QC issues, readme)
 
 **Request** missing information or changes (tracking provenance of any
@@ -52,6 +50,21 @@ tools, data viz)
 for tracking use)
 
 **Document** your curation activities (Curator Log, correspondence)
+
+
+
+
+[UNDERSTAND](#understand-step)
+
+[REQUEST](#request-step)
+
+[AUGMENT](#augment-step)
+
+[TRANSFORM](#transform-step)
+
+[EVALUATE](#evaluate-step)
+
+[DOCUMENT](#document-step)
 
 # **CHECK Step**
 
