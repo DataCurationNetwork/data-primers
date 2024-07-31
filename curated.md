@@ -37,71 +37,45 @@ appraisal/selection)
 **[UNDERSTAND](#understand-step)** the data (or try to), if not… (run files/environment,
 QA/QC issues, readme)
 
-**Request** missing information or changes (tracking provenance of any
+**[REQUEST](#request-step)** missing information or changes (tracking provenance of any
 changes and why)
 
-**Augment** metadata for findability (DOIs, metadata standards,
+**[AUGMENT](#augment-step)** metadata for findability (DOIs, metadata standards,
 discoverability)
 
-**Transform** file formats for reuse (data preservation, conversion
+**[TRANSFORM](#transform-step)** file formats for reuse (data preservation, conversion
 tools, data viz)
 
-**Evaluate** for FAIRness (licenses, responsibility standards, metrics
+**[EVALUATE](#evaluate-step)** for FAIRness (licenses, responsibility standards, metrics
 for tracking use)
 
-**Document** your curation activities (Curator Log, correspondence)
+**[DOCUMENT](#document-step)** your curation activities (Curator Log, correspondence)
 
-
-
-
-[UNDERSTAND](#understand-step)
-
-[REQUEST](#request-step)
-
-[AUGMENT](#augment-step)
-
-[TRANSFORM](#transform-step)
-
-[EVALUATE](#evaluate-step)
-
-[DOCUMENT](#document-step)
 
 # **CHECK Step**
 
-<table>
-<colgroup>
-<col style="width: 47%" />
-<col style="width: 52%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"><strong>Check</strong> data files/code and read
-documentation
+<strong>Check</strong> data files/code and readdocumentation
+
+
 In this step we secure the dataset by inventorying and reviewing the
 contents, applying local appraisal and selection criteria. Common CHECK
 steps include:
-<ul>
-<li>
-Review to ensure data is in scope for the repository
-</li>
-<li>
-Inventory the contents of the data files (e.g., open and sample the
-files or code)
-</li>
-<li>
-Verify all metadata provided by the researcher; check available
-documentation
-</li>
-</ul></th>
-</tr>
-<tr class="odd">
+
+<li>Review to ensure data is in scope for the repository</li>
+<li>Inventory the contents of the data files (e.g., open and sample the
+files or code)</li>
+<li>Verify all metadata provided by the researcher; check available
+documentation</li>
+
+
+
 <th colspan="2"><strong>Key Ethical Considerations</strong>
-<ul>
+
 <li>
 Review participant agreement and data use agreements; examine
 potential impacts of sharing this data. Consider:
 
-<ul>
+
 <li>
 Individuals and communities represented
 </li>
@@ -118,7 +92,7 @@ current political situations)
 <li>
 Animal research ethics and approval
 </li>
-</ul></li>
+</li>
 <li>
 <mark>Is it possible that the dataset may impact a specific
 group?</mark>
@@ -126,11 +100,11 @@ group?</mark>
 <li>
 Does this dataset follow compliance &amp; institutional policy?
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="header">
 <th colspan="2"><strong>Essential Tasks</strong>
-<ul>
+
 <li>
 <mark>Begin Curator Log to track curation decisions</mark>
 </li>
@@ -141,7 +115,7 @@ available</mark>
 <li>
 Inventory the dataset
 
-<ul>
+
 <li>
 Identify file formats
 </li>
@@ -154,7 +128,7 @@ Extract zip files when possible
 <li>
 Create working copy of files for formal inventory and testing
 </li>
-</ul></li>
+</li>
 <li>
 Examine code for obvious errors/missing components, etc.
 </li>
@@ -167,7 +141,7 @@ Check documentation type (circle)<br />
 readme / Codebook / Data Dictionary / Other:
 ________________________
 
-<ul>
+
 <li>
 Complete
 </li>
@@ -177,12 +151,12 @@ Needs work
 <li>
 If missing, document for the “Request” step
 </li>
-</ul></li>
+</li>
 <li>
 Check whether human subject data (data about humans regardless of IRB
 determination) is present. If so,
 
-<ul>
+
 <li>
 Request consent form / participation agreement if not present
 </li>
@@ -190,20 +164,20 @@ Request consent form / participation agreement if not present
 If the data are not de-identified, document for the "Request"
 step.
 </li>
-</ul></li>
+</li>
 <li>
 Check the accessibility of all files
 
-<ul>
+
 <li>
 Ensure there are robust descriptions in plain text of data files and
 any images.
 </li>
-</ul></li>
+</li>
 <li>
 Check whether any visualization(s) of data are easily accessible
 
-<ul>
+
 <li>
 Review alt-text and visualization descriptions. Ensure these
 describe, but do not interpret, associated visualizations.
@@ -218,8 +192,8 @@ Recommend graphical representation ____________
 <li>
 Recommend web-accessible surrogate ________________
 </li>
-</ul></li>
-</ul></th>
+</li>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -239,7 +213,7 @@ Recommend web-accessible surrogate ________________
 In this step, examine the dataset closely to understand what it is,
 how the files interrelate, and what information is needed to reuse.
 Common UNDERSTAND steps include:
-<ul>
+
 <li>
 Check for quality assurance and usability issues such as missing
 data, ambiguous headings, code execution failures, and data presentation
@@ -256,11 +230,11 @@ with similar qualifications to the researcher’s to understand and reuse
 the data. If not, recommend or create additional documentation (e.g., a
 readme.txt template)
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="odd">
 <th colspan="2"><strong>Key Ethical Considerations</strong>
-<ul>
+
 <li>
 If working with human data, is this research done <em>with</em> and
 not <em>on</em> communities and populations involved? (You may wish to
@@ -268,12 +242,12 @@ review data sources, researchers, and their connections to the
 communities and subjects they are serving to facilitate further
 conversation with researcher(s).)
 
-<ul>
+
 <li>
 Are there authoritative group representatives who should be contacted
 in the next (request) step?
 </li>
-</ul></li>
+</li>
 <li>
 Are there labels or other descriptive indicators that could be
 applied to better represent or protect an identified group of people
@@ -281,16 +255,16 @@ impacted by this dataset? (Example: <a
 href="https://localcontexts.org/labels/traditional-knowledge-labels/">TK
 labels</a>)
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="header">
 <th colspan="2"><strong>Essential Tasks</strong>
-<ul>
+
 <li>
 Examine files, organization, and documentation more thoroughly. Are
 there changes that could enhance the dataset?
 
-<ul>
+
 <li>
 Are there missing data?
 </li>
@@ -304,15 +278,15 @@ aids in interpretation? (e.g., <a
 href="https://deepblue.lib.umich.edu/data/Deep_Blue_Data_Example_Readme.txt">readme
 Example</a>)
 </li>
-</ul></li>
+</li>
 <li>
 Record all questions and concerns in Curation Log.
 </li>
-</ul>
+
 <em>Tasks vary based on file formats and subject domain. Sample tasks
 based on format:</em>
 Tabular Data (e.g, Microsoft Excel) Questions:
-<ul>
+
 <li>
 Check the organization of the data–is it well-structured?
 </li>
@@ -322,14 +296,14 @@ Are headers/codes clearly defined?
 <li>
 Is quality control clearly defined?
 
-<ul>
+
 <li>
 Is methodology clear and sufficient?
 </li>
-</ul></li>
-</ul>
+</li>
+
 Database(s) Questions:
-<ul>
+
 <li>
 Is there documentation on tables, relationships, queries, etc?
 </li>
@@ -340,9 +314,9 @@ Can the data be exported (to CSV(s), TXT or other) easily?
 Which tables or queries are the relevant ones used in a
 publication?
 </li>
-</ul>
+
 Code Questions:
-<ul>
+
 <li>
 Does the provided code execute without errors?
 </li>
@@ -371,10 +345,10 @@ Is there an indication of whether the depositor intends reusers to be
 able to run the code and reproduce results, or just see the process
 used?
 </li>
-</ul>
+
 To view additional UNDERSTAND steps based on format, view the
 following primers:
-<ul>
+
 <li>
 <a href="http://hdl.handle.net/11299/210210">Acrobat PDF</a>
 Primer
@@ -434,7 +408,7 @@ Primer
 <a href="http://hdl.handle.net/11299/202811">Wordpress.com</a>
 Primer
 </li>
-</ul></th>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -455,7 +429,7 @@ changes
 In this step, generate a list of questions to help the researcher fix
 any errors or issues and enrich the usability of the data. Common
 REQUEST steps include:
-<ul>
+
 <li>
 Triage and prioritize issues. Identify and highlight those with the
 highest data reuse implications
@@ -475,11 +449,11 @@ behalf
 Pause and consider how best to frame and communicate requests. This
 should be the start of a conversation.
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="odd">
 <th colspan="2"><strong>Key Ethical Considerations</strong>
-<ul>
+
 <li>
 <mark>Consider asking researchers if their participants will be
 notified that their data (in addition to published results) are being
@@ -495,11 +469,11 @@ Consider asking researcher(s) if there are limitations to how data
 could/should be used to include in documentation. (Based on, e.g.,
 representativeness of sample).
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="header">
 <th colspan="2"><strong>Essential Tasks</strong>
-<ul>
+
 <li>
 Ask about additional data contributors, beyond publication authors.
 Consider using the Contributor Roles Taxonomy to communicate this:
@@ -508,7 +482,7 @@ https://casrai.org/credit/
 <li>
 Summarize conversations / outreach efforts in Curator Log
 </li>
-</ul>
+
 Sample email to researcher:
 Dear [<em>name of the data set author or contact</em>],
 Thank you for depositing your data set, [<em>title of the data
@@ -516,7 +490,7 @@ set</em>], to [<em>name of repository</em>].
 After we receive a data set, we review it to ensure that the data we
 host are as complete and understandable as possible. We have reviewed
 your data set and have the following recommendations for you:
-<ul>
+
 <li>
 Recommendation #1
 </li>
@@ -529,7 +503,7 @@ Recommendation #3
 <li>
 Recommendation #4
 </li>
-</ul>
+
 We look forward to hearing your response.
 Please let us know if you have any questions about our
 recommendations. We would be happy to talk with you or meet in person to
@@ -557,7 +531,7 @@ appropriate discipline standards; adjust metadata to improve findability
 and accessibility; and improve documentation to make data more
 understandable, interoperable and reusable. Common AUGMENT steps
 include:
-<ul>
+
 <li>
 Enhance metadata to best facilitate discoverability, such as by
 ensuring datasets have a persistent identifier.
@@ -574,11 +548,11 @@ schemas to facilitate interoperability with other systems
 Implement any other agreed-on enhancements to metadata or
 documentation following discussion with researcher
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="odd">
 <th colspan="2"><strong>Key Ethical Considerations</strong>
-<ul>
+
 <li>
 Make sure bibliographic information reflects correct author
 attribution.
@@ -587,11 +561,11 @@ attribution.
 Ensure any augmentation by the depositor to resolve ethical questions
 from previous steps is completed.
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="header">
 <th colspan="2"><strong>Essential Tasks</strong>
-<ul>
+
 <li>
 Review information received from the researcher from initial deposit
 and all subsequent conversations
@@ -599,7 +573,7 @@ and all subsequent conversations
 <li>
 Update, as appropriate:
 
-<ul>
+
 <li>
 Metadata
 </li>
@@ -616,11 +590,11 @@ Organization and Arrangement of files
 Documentation of file organization, hierarchy, and naming
 convention(s)
 </li>
-</ul></li>
+</li>
 <li>
 Facilitate discoverability:
 
-<ul>
+
 <li>
 Add links to related publications, grants, reports, source data,
 etc.
@@ -632,7 +606,7 @@ indexing or other purposes.
 <li>
 Add subject terms
 </li>
-</ul></li>
+</li>
 <li>
 Ensure keywords are sufficient and representative
 </li>
@@ -643,7 +617,7 @@ Record all changes in the Curation Log
 Provide suggestions to improve accessibility of content (e.g.,
 alt-text or additional descriptions; color contrast; etc)
 </li>
-</ul></th>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -663,7 +637,7 @@ alt-text or additional descriptions; color contrast; etc)
 In this step, consider the file formats in the dataset to make them
 more interoperable, reusable, preservation friendly, and non-proprietary
 when possible.<sup>1</sup> Common TRANSFORM steps include:
-<ul>
+
 <li>
 Identify specialized file formats and their restrictions (e.g., Is
 the software freely available? If so, link to it or archive it alongside
@@ -675,14 +649,14 @@ Propose open source or more reusable formats when appropriate
 <li>
 Retain original file formats
 </li>
-</ul>
+
 <sup>1</sup> See Cornell’s list of preservation format
 recommendations: <a
 href="http://guides.library.cornell.edu/ecommons/formats">http://guides.library.cornell.edu/ecommons/formats</a></th>
 </tr>
 <tr class="odd">
 <th colspan="2"><strong>Key Ethical Considerations</strong>
-<ul>
+
 <li>
 Consider how best to navigate researcher bandwidth limitations and
 ownership of data with repository commitments to reducing barriers to
@@ -694,33 +668,33 @@ with the risks of mistakes and loss of content/context, especially if
 the curator or repository will be performing transformation. Document
 the decision.</mark>
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="header">
 <th colspan="2"><strong>Essential Tasks</strong>
-<ul>
+
 <li>
 Check whether preferred file formats are in use
 
-<ul>
+
 <li>
 If not, recommend conversion
 </li>
 <li>
 Retain original formats
 </li>
-</ul></li>
+</li>
 <li>
 Check whether software needed is readily available
 
-<ul>
+
 <li>
 Suggest open source options, if applicable and appropriate
 </li>
 <li>
 Ensure software and software version is documented
 </li>
-</ul></li>
+</li>
 <li>
 Convert any data visualization(s) that are not accessible (e.g., R <a
 href="https://github.com/DataCurationNetwork/data-primers/blob/master/R%20Data%20Curation%20Primer/R-data-curation-primer.md#accessibility-considerations">visualizations</a>,
@@ -736,7 +710,7 @@ Standardize file names
 <li>
 Record any transformations in Curator Log
 </li>
-</ul></th>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -756,7 +730,7 @@ Record any transformations in Curator Log
 In this step, review the dataset and companion data record against
 international standards, including FAIR,<sup>2</sup> CARE,<sup>3</sup>
 and FATE.<sup>4</sup> Common EVALUATE steps:
-<ul>
+
 <li>
 Score the dataset and recommend ways to increase the FAIRness of the
 data
@@ -764,7 +738,7 @@ data
 <li>
 Review data for ethical concerns in line with CARE and FATE
 </li>
-</ul>
+
 2. Rubric evaluating the FAIR principles are based on the scoring
 matrix by Dunning, de Smaele, &amp; Böhmer (<a
 href="http://dx.doi.org/10.2218/ijdc.v12i2.567">2017</a>).
@@ -775,7 +749,7 @@ href="https://www.microsoft.com/en-us/research/theme/fate/">https://www.microsof
 </tr>
 <tr class="odd">
 <th colspan="2"><strong>Key Ethical Considerations</strong>
-<ul>
+
 <li>
 Final review--remember it is not too late to surface any ethical
 concerns.
@@ -787,11 +761,11 @@ Verify the words/language being used are not racist/harmful.
 Remind the submitter of their responsibility, if they choose to
 ignore requests for de-identification or similar concerns.
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="header">
 <th colspan="2"><strong>Essential Tasks</strong>
-<ul>
+
 <li>
 Test that files successfully download
 </li>
@@ -805,12 +779,12 @@ publication
 <li>
 Add any final changes to Curator Log
 </li>
-</ul>
+
 <em>This is a sample checklist for evaluating datasets against a set
 of principles.</em>
 <strong>FAIR evaluation</strong>
 Findable:
-<ul>
+
 <li>
 Metadata exceeds researcher/ title/ date.
 </li>
@@ -820,9 +794,9 @@ There is a unique Persistent ID (DOI, Handle, PURL, etc.).
 <li>
 Data/record is discoverable via web search engines.
 </li>
-</ul>
+
 Accessible:
-<ul>
+
 <li>
 Data/ record are retrievable via a standard protocol (e.g.,
 HTTP).
@@ -830,18 +804,18 @@ HTTP).
 <li>
 Data/ record are free, open (e.g., via a download link).
 </li>
-</ul>
+
 Interoperable:
-<ul>
+
 <li>
 Metadata is formatted in a standard schema (e.g., Dublin Core).
 </li>
 <li>
 Metadata is provided in machine-readable format (OAI feed).
 </li>
-</ul>
+
 Reusable:
-<ul>
+
 <li>
 Data include sufficient metadata and supporting documentation about
 the data characteristics for reuse.
@@ -858,7 +832,7 @@ data.
 Data are released with clear data usage terms (e.g., a CC
 License).
 </li>
-</ul></th>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -881,7 +855,7 @@ significant treatments or actions applied to the dataset. This is for
 your archival record keeping (distinct from documentation the
 researcher(s) created to accompany their own datasets). DOCUMENT
 requires:
-<ul>
+
 <li>
 Recording all information relevant to the tracking and administration
 of the deposit, about who did what to the dataset and when
@@ -889,11 +863,11 @@ of the deposit, about who did what to the dataset and when
 <li>
 Tracking communication with the researcher(s)
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="odd">
 <th colspan="2"><strong>Key Ethical Considerations</strong>
-<ul>
+
 <li>
 Document that disclosure risk review has taken place. State if
 changes from original data have been made, but do not give enough detail
@@ -906,15 +880,15 @@ administrative documentation.
 <li>
 Consider collecting contributor demographics.
 </li>
-</ul></th>
+</th>
 </tr>
 <tr class="header">
 <th colspan="2"><strong>Essential Tasks</strong>
-<ul>
+
 <li>
 Ensure the following information is captured in the Curator Log:
 
-<ul>
+
 <li>
 Activities taken during the CURATE process
 </li>
@@ -940,8 +914,8 @@ Preservation packaging
 <li>
 Any additional requirements at your institution
 </li>
-</ul></li>
-</ul></th>
+</li>
+</th>
 </tr>
 </thead>
 <tbody>
