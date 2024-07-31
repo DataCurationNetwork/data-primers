@@ -54,7 +54,7 @@ for tracking use)
 
 # **CHECK Step**
 
-<strong>Check</strong> data files/code and readdocumentation
+<strong>Check</strong> data files/code and read documentation
 
 
 In this step we secure the dataset by inventorying and reviewing the
@@ -92,356 +92,124 @@ potential impacts of sharing this data. Consider:
 - [ ] Examine code for obvious errors/missing components, etc.
 - [ ] Check that metadata quality is rich, accurate, and complete to institutional requirements.
 - [ ] Check documentation type (circle)<br>readme / Codebook / Data Dictionary / Other: ________________________
+  - [ ] Complete
+  - [ ] Needs work
+  - [ ] If missing, document for the “Request” step
+- [ ] Check whether human subject data (data about humans regardless of IRB determination) is present. If so,
+  - [ ] Request consent form / participation agreement if not present
+  - [ ] If the data are not de-identified, document for the "Request" step.
+- [ ] Check the accessibility of all files
+  - [ ] Ensure there are robust descriptions in plain text of data files and any images.
+- [ ] Check whether any visualization(s) of data are easily accessible
+  - [ ] Review alt-text and visualization descriptions. Ensure these describe, but do not interpret, associated visualizations.
+  - [ ] Check data visualizations follow accessible color contrast guidelines
+  - [ ] Recommend graphical representation ____________
+  - [ ] Recommend web-accessible surrogate ________________
 
-
-<li>
-Complete
-</li>
-<li>
-Needs work
-</li>
-<li>
-If missing, document for the “Request” step
-</li>
-</li>
-<li>
-Check whether human subject data (data about humans regardless of IRB
-determination) is present. If so,
-
-
-<li>
-Request consent form / participation agreement if not present
-</li>
-<li>
-If the data are not de-identified, document for the "Request"
-step.
-</li>
-</li>
-<li>
-Check the accessibility of all files
-
-
-<li>
-Ensure there are robust descriptions in plain text of data files and
-any images.
-</li>
-</li>
-<li>
-Check whether any visualization(s) of data are easily accessible
-
-
-<li>
-Review alt-text and visualization descriptions. Ensure these
-describe, but do not interpret, associated visualizations.
-</li>
-<li>
-Check data visualizations follow accessible color contrast
-guidelines
-</li>
-<li>
-Recommend graphical representation ____________
-</li>
-<li>
-Recommend web-accessible surrogate ________________
-</li>
-</li>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
 
 # **UNDERSTAND Step**
 
-<table>
-<colgroup>
-<col style="width: 46%" />
-<col style="width: 53%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"><strong>Understand</strong> the data (or try to)
+<strong>Understand</strong> the data (or try to)
+
 In this step, examine the dataset closely to understand what it is,
 how the files interrelate, and what information is needed to reuse.
 Common UNDERSTAND steps include:
 
-<li>
-Check for quality assurance and usability issues such as missing
-data, ambiguous headings, code execution failures, and data presentation
-concerns
-</li>
-<li>
-Try to detect and extract any “hidden documentation” inherent to the
-data files that may facilitate reuse or expose unintended
-information
-</li>
-<li>
-Determine if the documentation of the data is sufficient for a user
-with similar qualifications to the researcher’s to understand and reuse
-the data. If not, recommend or create additional documentation (e.g., a
-readme.txt template)
-</li>
-</th>
-</tr>
-<tr class="odd">
-<th colspan="2"><strong>Key Ethical Considerations</strong>
+- Check for quality assurance and usability issues such as missing data, ambiguous headings, code execution failures, and data presentation concerns
+- Try to detect and extract any “hidden documentation” inherent to the data files that may facilitate reuse or expose unintended information
+- Determine if the documentation of the data is sufficient for a user with similar qualifications to the researcher’s to understand and reuse the data. If not, recommend or create additional documentation (e.g., a readme.txt template)
 
-<li>
-If working with human data, is this research done <em>with</em> and
-not <em>on</em> communities and populations involved? (You may wish to
-review data sources, researchers, and their connections to the
-communities and subjects they are serving to facilitate further
-conversation with researcher(s).)
+## <strong>Key Ethical Considerations for Understand</strong>
 
+- If working with human data, is this research done with and not on communities and populations involved? (You may wish to review data sources, researchers, and their connections to the communities and subjects they are serving to facilitate further conversation with researcher(s).)
+  - Are there authoritative group representatives who should be contacted in the next (request) step?
+- Are there labels or other descriptive indicators that could be applied to better represent or protect an identified group of people impacted by this dataset? (Example: <a href="https://localcontexts.org/labels/traditional-knowledge-labels/">TK labels</a>)
 
-<li>
-Are there authoritative group representatives who should be contacted
-in the next (request) step?
-</li>
-</li>
-<li>
-Are there labels or other descriptive indicators that could be
-applied to better represent or protect an identified group of people
-impacted by this dataset? (Example: <a
-href="https://localcontexts.org/labels/traditional-knowledge-labels/">TK
-labels</a>)
-</li>
-</th>
-</tr>
-<tr class="header">
-<th colspan="2"><strong>Essential Tasks</strong>
+## <strong>Essential Understand Tasks</strong>
 
-<li>
-Examine files, organization, and documentation more thoroughly. Are
-there changes that could enhance the dataset?
+- [ ] Examine files, organization, and documentation more thoroughly. Are there changes that could enhance the dataset?
+  - [ ] Are there missing data?
+  - [ ] Could a user with similar qualifications to the author’s understand and reuse these data and reproduce the results?
+  - [ ] Are the data, documentation and/or metadata presented in a way that aids in interpretation? (e.g., <a href="https://deepblue.lib.umich.edu/data/Deep_Blue_Data_Example_Readme.txt">readme Example</a>)
+- [ ] Record all questions and concerns in Curation Log.
 
+> [!NOTE]  
+> Tasks vary based on file formats and subject domain. 
 
-<li>
-Are there missing data?
-</li>
-<li>
-Could a user with similar qualifications to the author’s understand
-and reuse these data and reproduce the results?
-</li>
-<li>
-Are the data, documentation and/or metadata presented in a way that
-aids in interpretation? (e.g., <a
-href="https://deepblue.lib.umich.edu/data/Deep_Blue_Data_Example_Readme.txt">readme
-Example</a>)
-</li>
-</li>
-<li>
-Record all questions and concerns in Curation Log.
-</li>
+Sample tasks based on format:
 
-<em>Tasks vary based on file formats and subject domain. Sample tasks
-based on format:</em>
 Tabular Data (e.g, Microsoft Excel) Questions:
-
-<li>
-Check the organization of the data–is it well-structured?
-</li>
-<li>
-Are headers/codes clearly defined?
-</li>
-<li>
-Is quality control clearly defined?
-
-
-<li>
-Is methodology clear and sufficient?
-</li>
-</li>
+- [ ] Check the organization of the data–is it well-structured?
+- [ ] Are headers/codes clearly defined?
+- [ ] Is quality control clearly defined?
+- [ ] Is methodology clear and sufficient?
 
 Database(s) Questions:
 
-<li>
-Is there documentation on tables, relationships, queries, etc?
-</li>
-<li>
-Can the data be exported (to CSV(s), TXT or other) easily?
-</li>
-<li>
-Which tables or queries are the relevant ones used in a
-publication?
-</li>
+- [ ] Is there documentation on tables, relationships, queries, etc?
+- [ ] Can the data be exported (to CSV(s), TXT or other) easily?
+- [ ] Which tables or queries are the relevant ones used in a publication?
 
 Code Questions:
 
-<li>
-Does the provided code execute without errors?
-</li>
-<li>
-Is the code commented, i.e., did the author provide descriptive
-information on sections of code?
-</li>
-<li>
-Is data for input missing? Are environmental conditions and
-parameters noted? Is it clear which language(s) and version(s) are
-used?
-</li>
-<li>
-Does the code use absolute paths or relative paths? If absolute
-paths, is this documented in the readme?
-</li>
-<li>
-Are packages or additional libraries used? Is so, is this noted with
-clear use instructions?
-</li>
-<li>
-Are any data organized consistently for access by the code ?
-</li>
-<li>
-Is there an indication of whether the depositor intends reusers to be
-able to run the code and reproduce results, or just see the process
-used?
-</li>
+- [ ] Does the provided code execute without errors?
+- [ ] Is the code commented, i.e., did the author provide descriptive information on sections of code?
+- [ ] Is data for input missing? Are environmental conditions and parameters noted? Is it clear which language(s) and version(s) are used?
+- [ ] Does the code use absolute paths or relative paths? If absolute paths, is this documented in the readme?
+- [ ] Are packages or additional libraries used? Is so, is this noted with clear use instructions?
+- [ ] Are any data organized consistently for access by the code ?
+- [ ] Is there an indication of whether the depositor intends reusers to be able to run the code and reproduce results, or just see the process used?
 
 To view additional UNDERSTAND steps based on format, view the
 following primers:
 
-<li>
-<a href="http://hdl.handle.net/11299/210210">Acrobat PDF</a>
-Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/210211">ATLAS.ti</a>
-Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/210206">Confocal Microscopy
-Image</a> Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/202823">Geodatabase</a>
-Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/210208">GeoJSON</a>
-Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/202815">Jupyter
-Notebook</a> Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/202827">Microsoft
-Access</a> Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/202816">Microsoft
-Excel</a> Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/2027.42/145724">netCDF</a>
-Primer and <a href="http://hdl.handle.net/11299/202825">Tutorial
-using NCAR dataset</a>
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/202812">SPSS</a>
-Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/211352">STL</a>
-Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/210209">R</a> Primer
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/210207">Tableau</a>
-Primer
-</li>
-<li>
-(Twitter primer?)
-</li>
-<li>
-<a href="http://hdl.handle.net/11299/202811">Wordpress.com</a>
-Primer
-</li>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+- <a href="http://hdl.handle.net/11299/210210">Acrobat PDF</a> Primer
+- <a href="http://hdl.handle.net/11299/210211">ATLAS.ti</a> Primer
+- <a href="http://hdl.handle.net/11299/210206">Confocal Microscopy Image</a> Primer
+- <a href="http://hdl.handle.net/11299/202823">Geodatabase</a> Primer
+- <a href="http://hdl.handle.net/11299/210208">GeoJSON</a> Primer
+- <a href="http://hdl.handle.net/11299/202815">Jupyter Notebook</a> Primer
+- <a href="http://hdl.handle.net/11299/202827">Microsoft Access</a> Primer
+- <a href="http://hdl.handle.net/11299/202816">Microsoft Excel</a> Primer
+- <a href="http://hdl.handle.net/2027.42/145724">netCDF</a> Primer and <a href="http://hdl.handle.net/11299/202825">Tutorial using NCAR dataset</a>
+- <a href="http://hdl.handle.net/11299/202812">SPSS</a> Primer
+- <a href="http://hdl.handle.net/11299/211352">STL</a> Primer
+- <a href="http://hdl.handle.net/11299/210209">R</a> Primer</li>
+- <a href="http://hdl.handle.net/11299/210207">Tableau</a> Primer
+- <a href="http://hdl.handle.net/11299/202811">Wordpress.com</a> Primer
 
 # **REQUEST Step**
 
-<table>
-<colgroup>
-<col style="width: 46%" />
-<col style="width: 53%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"><strong>Request</strong> missing information or
-changes
+<strong>Request</strong> missing information or changes
+
 In this step, generate a list of questions to help the researcher fix
 any errors or issues and enrich the usability of the data. Common
 REQUEST steps include:
 
-<li>
-Triage and prioritize issues. Identify and highlight those with the
-highest data reuse implications
-</li>
-<li>
-Convey a sense of urgency, as there it becomes more difficult to get
-responses from researchers as time passes.
-</li>
-<li>
-Collaborate with the researcher(s) to make necessary changes
-</li>
-<li>
-Communicate any changes you, the curator, will make on their
-behalf
-</li>
-<li>
-Pause and consider how best to frame and communicate requests. This
-should be the start of a conversation.
-</li>
-</th>
-</tr>
-<tr class="odd">
-<th colspan="2"><strong>Key Ethical Considerations</strong>
+- Triage and prioritize issues. Identify and highlight those with the highest data reuse implications
+- Convey a sense of urgency, as there it becomes more difficult to get responses from researchers as time passes.
+- Collaborate with the researcher(s) to make necessary changes
+- Communicate any changes you, the curator, will make on their behalf
+- Pause and consider how best to frame and communicate requests. This should be the start of a conversation.
 
-<li>
-Consider asking researchers if their participants will be
-notified that their data (in addition to published results) are being
-shared.
-</li>
-<li>
-If you feel uncomfortable about sharing the data in its current
-state and/or it does not meet your institution's requirements, reserve
-the right not to publish.
-</li>
-<li>
-Consider asking researcher(s) if there are limitations to how data
-could/should be used to include in documentation. (Based on, e.g.,
-representativeness of sample).
-</li>
-</th>
-</tr>
-<tr class="header">
-<th colspan="2"><strong>Essential Tasks</strong>
+## <strong>Key Ethical Considerations for Request</strong>
 
-<li>
-Ask about additional data contributors, beyond publication authors.
-Consider using the Contributor Roles Taxonomy to communicate this:
-https://casrai.org/credit/
-</li>
-<li>
-Summarize conversations / outreach efforts in Curator Log
-</li>
+- Consider asking researchers if their participants will be notified that their data (in addition to published results) are being shared.
+- If you feel uncomfortable about sharing the data in its current state and/or it does not meet your institution's requirements, reserve the right not to publish.
+- Consider asking researcher(s) if there are limitations to how data could/should be used to include in documentation. (Based on, e.g., representativeness of sample).
 
-Sample email to researcher:
-Dear [<em>name of the data set author or contact</em>],
-Thank you for depositing your data set, [<em>title of the data
-set</em>], to [<em>name of repository</em>].
-After we receive a data set, we review it to ensure that the data we
-host are as complete and understandable as possible. We have reviewed
-your data set and have the following recommendations for you:
+## <strong>Essential Request Tasks</strong>
+
+- [ ] Ask about additional data contributors, beyond publication authors. Consider using the Contributor Roles Taxonomy to communicate this: https://casrai.org/credit/
+- [ ] Summarize conversations / outreach efforts in Curator Log
+
+> Sample email to researcher:
+> Dear [name of the data set author or contact], 
+>
+> Thank you for depositing your data set, [title of the data set], to [name of repository]. 
+>
+> After we receive a data set, we review it to ensure that the data we
+host are as complete and understandable as possible. We have reviewed your data set and have the following recommendations for you:
 
 <li>
 Recommendation #1
@@ -461,7 +229,7 @@ Please let us know if you have any questions about our
 recommendations. We would be happy to talk with you or meet in person to
 discuss our review of your data, if you would like
 Sincerely,
-[<em>Name of Curator</em>]</th>
+[Name of Curator]</th>
 </tr>
 </thead>
 <tbody>
@@ -732,8 +500,8 @@ publication
 Add any final changes to Curator Log
 </li>
 
-<em>This is a sample checklist for evaluating datasets against a set
-of principles.</em>
+This is a sample checklist for evaluating datasets against a set
+of principles.
 <strong>FAIR evaluation</strong>
 Findable:
 
