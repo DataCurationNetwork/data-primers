@@ -290,191 +290,75 @@ In this step, consider the file formats in the dataset to make them more interop
 
 <strong>Evaluate</strong> and rate the dataset
 
-In this step, review the dataset and companion data record against
-international standards, including FAIR,<sup>2</sup> CARE,<sup>3</sup>
-and FATE.<sup>4</sup> Common EVALUATE steps:
+In this step, review the dataset and companion data record against international standards, including FAIR,[^2] CARE,[^3] and FATE.[^4] Common EVALUATE steps:
 
-<li>
-Score the dataset and recommend ways to increase the FAIRness of the
-data
-</li>
-<li>
-Review data for ethical concerns in line with CARE and FATE
-</li>
+- Score the dataset and recommend ways to increase the FAIRness of the data
+- Review data for ethical concerns in line with CARE and FATE
 
-2. Rubric evaluating the FAIR principles are based on the scoring
-matrix by Dunning, de Smaele, & Böhmer (<a
-href="http://dx.doi.org/10.2218/ijdc.v12i2.567">2017</a>).
-3. CARE principles: <a
-href="https://www.gida-global.org/care">https://www.gida-global.org/care</a>
-4. FATE in AI: <a
-href="https://www.microsoft.com/en-us/research/theme/fate/">https://www.microsoft.com/en-us/research/theme/fate/</a></th>
-</tr>
-<tr class="odd">
-<th colspan="2"><strong>Key Ethical Considerations</strong>
 
-<li>
-Final review--remember it is not too late to surface any ethical
-concerns.
-</li>
-<li>
-Verify the words/language being used are not racist/harmful.
-</li>
-<li>
-Remind the submitter of their responsibility, if they choose to
-ignore requests for de-identification or similar concerns.
-</li>
-</th>
-</tr>
-<tr class="header">
-<th colspan="2"><strong>Essential Tasks</strong>
+## <strong>Key Ethical Considerations for Evaluate</strong>
 
-<li>
-Test that files successfully download
-</li>
-<li>
-Check that any transformations didn’t introduce problems
-</li>
-<li>
-Review final state of data and record with researcher before
-publication
-</li>
-<li>
-Add any final changes to Curator Log
-</li>
+- Final review--remember it is not too late to surface any ethical concerns.
+- Verify the words/language being used are not racist/harmful.
+- Remind the submitter of their responsibility, if they choose to ignore requests for de-identification or similar concerns.
+
+## <strong>Essential Evaluate Tasks</strong>
+
+- [ ] Test that files successfully download
+- [ ] Check that any transformations didn’t introduce problems
+- [ ] Review final state of data and record with researcher before publication
+- [ ] Add any final changes to Curator Log
 
 This is a sample checklist for evaluating datasets against a set
 of principles.
 <strong>FAIR evaluation</strong>
 Findable:
-
-<li>
-Metadata exceeds researcher/ title/ date.
-</li>
-<li>
-There is a unique Persistent ID (DOI, Handle, PURL, etc.).
-</li>
-<li>
-Data/record is discoverable via web search engines.
-</li>
+- [ ] Metadata exceeds researcher/ title/ date.
+- [ ] There is a unique Persistent ID (DOI, Handle, PURL, etc.).
+- [ ] Data/record is discoverable via web search engines.
 
 Accessible:
-
-<li>
-Data/ record are retrievable via a standard protocol (e.g.,
-HTTP).
-</li>
-<li>
-Data/ record are free, open (e.g., via a download link).
-</li>
+- [ ] Data/ record are retrievable via a standard protocol (e.g., HTTP).
+- [ ] Data/ record are free, open (e.g., via a download link).
 
 Interoperable:
-
-<li>
-Metadata is formatted in a standard schema (e.g., Dublin Core).
-</li>
-<li>
-Metadata is provided in machine-readable format (OAI feed).
-</li>
+- [ ] Metadata is formatted in a standard schema (e.g., Dublin Core).
+- [ ] Metadata is provided in machine-readable format (OAI feed).
 
 Reusable:
-
-<li>
-Data include sufficient metadata and supporting documentation about
-the data characteristics for reuse.
-</li>
-<li>
-A way to contact the researcher directly for further questions is
-provided
-</li>
-<li>
-There are clear indicators of who created, owns, and stewards the
-data.
-</li>
-<li>
-Data are released with clear data usage terms (e.g., a CC
-License).
-</li>
-</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+- [ ] Data include sufficient metadata and supporting documentation about the data characteristics for reuse.
+- [ ] A way to contact the researcher directly for further questions is provided
+- [ ] There are clear indicators of who created, owns, and stewards the data.
+- [ ] Data are released with clear data usage terms (e.g., a [CC License](https://creativecommons.org/share-your-work/cclicenses/).
 
 # **DOCUMENT Step**
 
-<table>
-<colgroup>
-<col style="width: 46%" />
-<col style="width: 53%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th colspan="2"><strong>Document</strong> curation activities
-throughout
-In the Curator Log mentioned throughout this guide, record the
-significant treatments or actions applied to the dataset. This is for
-your archival record keeping (distinct from documentation the
-researcher(s) created to accompany their own datasets). DOCUMENT
-requires:
+<strong>Document</strong> curation activities throughout
 
-<li>
-Recording all information relevant to the tracking and administration
-of the deposit, about who did what to the dataset and when
-</li>
-<li>
-Tracking communication with the researcher(s)
-</li>
-</th>
-</tr>
-<tr class="odd">
-<th colspan="2"><strong>Key Ethical Considerations</strong>
+In the Curator Log mentioned throughout this guide, record the significant treatments or actions applied to the dataset. This is for your archival record keeping (distinct from documentation the researcher(s) created to accompany their own datasets). DOCUMENT requires:
 
-<li>
-Document that disclosure risk review has taken place. State if
-changes from original data have been made, but do not give enough detail
-on changes to reverse-engineer any anonymization.
-</li>
-<li>
-Include consent (or waiver) and/or IRB approval of sharing with
-administrative documentation.
-</li>
-<li>
-Consider collecting contributor demographics.
-</li>
-</th>
-</tr>
-<tr class="header">
-<th colspan="2"><strong>Essential Tasks</strong>
+- Recording all information relevant to the tracking and administration of the deposit, about who did what to the dataset and when
+- Tracking communication with the researcher(s)
 
-<li>
-Ensure the following information is captured in the Curator Log:
+## <strong>Key Ethical Considerations for Document</strong>
 
+- Document that disclosure risk review has taken place. State if changes from original data have been made, but do not give enough detail on changes to reverse-engineer any anonymization.
+- Include consent (or waiver) and/or IRB approval of sharing with administrative documentation.
+- Consider collecting contributor demographics.
 
-<li>
-Activities taken during the CURATE process
-</li>
-<li>
-Accessioning & deposit records (Names, dates, contact
-information, submission agreements, etc.)
-</li>
-<li>
-Repository collection metadata
-</li>
-<li>
-Provenance logs (changes by curators in the Transform step)
-</li>
-<li>
-Service workflow
-</li>
-<li>
-Correspondences and other interactions
-</li>
-<li>
-Preservation packaging
-</li>
-<li>
-Any additional requirements at your institution
+## <strong>Essential Tasks</strong>
+
+- [ ] Ensure the following information is captured in the Curator Log:
+  - [ ] Activities taken during the CURATE process
+  - [ ] Accessioning & deposit records (Names, dates, contact information, submission agreements, etc.)
+  - [ ] Repository collection metadata
+  - [ ] Provenance logs (changes by curators in the Transform step)
+  - [ ] Service workflow
+  - [ ] Correspondences and other interactions
+  - [ ] Preservation packaging
+  - [ ] Any additional requirements at your institution
 
 [^1]: See Cornell’s list of preservation format recommendations: [http://guides.library.cornell.edu/ecommons/formats](http://guides.library.cornell.edu/ecommons/formats)
+[^2]: Rubric evaluating the FAIR principles are based on the scoring matrix by Dunning, de Smaele, & Böhmer (<a href="http://dx.doi.org/10.2218/ijdc.v12i2.567">2017</a>).
+[^3]: CARE principles: <a href="https://www.gida-global.org/care">https://www.gida-global.org/care</a>
+[^4]: FATE in AI: <a href="https://www.microsoft.com/en-us/research/theme/fate/">https://www.microsoft.com/en-us/research/theme/fate/</a>
