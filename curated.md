@@ -82,41 +82,16 @@ potential impacts of sharing this data. Consider:
 
 ## <strong>Essential Check Tasks</strong>
 
-<li>
-Begin Curator Log to track curation decisions
-</li>
-<li>
-Open the related article and supporting information if
-available
-</li>
-<li>
-Inventory the dataset
-
-
-<li>
-Identify file formats
-</li>
-<li>
-Review file organization, hierarchy, and naming convention(s)
-</li>
-<li>
-Extract zip files when possible
-</li>
-<li>
-Create working copy of files for formal inventory and testing
-</li>
-</li>
-<li>
-Examine code for obvious errors/missing components, etc.
-</li>
-<li>
-Check that metadata quality is rich, accurate, and complete to
-institutional requirements.
-</li>
-<li>
-Check documentation type (circle)<br />
-readme / Codebook / Data Dictionary / Other:
-________________________
+- [ ] Begin Curator Log to track curation decisions
+- [ ] Open the related article and supporting information if available
+- [ ] Inventory the dataset
+      - [ ] Identify file formats
+      - [ ] Review file organization, hierarchy, and naming convention(s)
+      - [ ] Extract zip files when possible
+- [ ] Create working copy of files for formal inventory and testing
+- [ ] Examine code for obvious errors/missing components, etc.
+- [ ] Check that metadata quality is rich, accurate, and complete to institutional requirements.
+- [ ] Check documentation type (circle)<br>readme / Codebook / Data Dictionary / Other: ________________________
 
 
 <li>
