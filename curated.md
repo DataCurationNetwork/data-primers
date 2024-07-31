@@ -61,56 +61,33 @@ In this step we secure the dataset by inventorying and reviewing the
 contents, applying local appraisal and selection criteria. Common CHECK
 steps include:
 
-<li>Review to ensure data is in scope for the repository</li>
-<li>Inventory the contents of the data files (e.g., open and sample the
-files or code)</li>
-<li>Verify all metadata provided by the researcher; check available
-documentation</li>
+- Review to ensure data is in scope for the repository
+- Inventory the contents of the data files (e.g., open and sample the
+files or code)
+- Verify all metadata provided by the researcher; check available
+documentation
 
 
+## <strong>Key Ethical Considerations for Check</strong>
 
-<th colspan="2"><strong>Key Ethical Considerations</strong>
-
-<li>
-Review participant agreement and data use agreements; examine
+- Review participant agreement and data use agreements; examine
 potential impacts of sharing this data. Consider:
+  - Individuals and communities represented
+  - Representativeness of diverse human populations
+  - Protection or endangerment status of species
+  - Geographic locations (e.g., contested boundaries, historical and current political situations)
+  - Animal research ethics and approval
+- Is it possible that the dataset may impact a specific group?
+- Does this dataset follow compliance & institutional policy?
 
-
-<li>
-Individuals and communities represented
-</li>
-<li>
-<mark>Representativeness of diverse human populations</mark>
-</li>
-<li>
-Protection or endangerment status of species
-</li>
-<li>
-Geographic locations (e.g., contested boundaries, historical and
-current political situations)
-</li>
-<li>
-Animal research ethics and approval
-</li>
-</li>
-<li>
-<mark>Is it possible that the dataset may impact a specific
-group?</mark>
-</li>
-<li>
-Does this dataset follow compliance &amp; institutional policy?
-</li>
-</th>
-</tr>
-<tr class="header">
-<th colspan="2"><strong>Essential Tasks</strong>
+## <strong>Essential Check Tasks</strong>
 
 <li>
-<mark>Begin Curator Log to track curation decisions</mark>
+Begin Curator Log to track curation decisions
 </li>
 <li>
-<mark>Open the related article and supporting information if
-available</mark>
+Open the related article and supporting information if
+available
 </li>
 <li>
 Inventory the dataset
@@ -455,14 +432,14 @@ should be the start of a conversation.
 <th colspan="2"><strong>Key Ethical Considerations</strong>
 
 <li>
-<mark>Consider asking researchers if their participants will be
+Consider asking researchers if their participants will be
 notified that their data (in addition to published results) are being
-shared.</mark>
+shared.
 </li>
 <li>
-<mark>If you feel uncomfortable about sharing the data in its current
+If you feel uncomfortable about sharing the data in its current
 state and/or it does not meet your institution's requirements, reserve
-the right not to publish.</mark>
+the right not to publish.
 </li>
 <li>
 Consider asking researcher(s) if there are limitations to how data
@@ -663,10 +640,10 @@ ownership of data with repository commitments to reducing barriers to
 reuse.
 </li>
 <li>
-<mark>Decide how to balance the potential benefits of transformation
+Decide how to balance the potential benefits of transformation
 with the risks of mistakes and loss of content/context, especially if
 the curator or repository will be performing transformation. Document
-the decision.</mark>
+the decision.
 </li>
 </th>
 </tr>
@@ -740,7 +717,7 @@ Review data for ethical concerns in line with CARE and FATE
 </li>
 
 2. Rubric evaluating the FAIR principles are based on the scoring
-matrix by Dunning, de Smaele, &amp; Böhmer (<a
+matrix by Dunning, de Smaele, & Böhmer (<a
 href="http://dx.doi.org/10.2218/ijdc.v12i2.567">2017</a>).
 3. CARE principles: <a
 href="https://www.gida-global.org/care">https://www.gida-global.org/care</a>
@@ -893,7 +870,7 @@ Ensure the following information is captured in the Curator Log:
 Activities taken during the CURATE process
 </li>
 <li>
-Accessioning &amp; deposit records (Names, dates, contact
+Accessioning & deposit records (Names, dates, contact
 information, submission agreements, etc.)
 </li>
 <li>
