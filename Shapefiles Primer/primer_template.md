@@ -7,7 +7,8 @@
 - [x] Add MIME types ref. - https://www.iana.org/assignments/media-types/media-types.xhtml
 - [x] Consider location of "Geospatial Data Repositories" section to just above regional repositories ...
 - [x] Consider separate discussion of difference between registries, clearinghouses, and trusted repositories ...
-- [ ] ... additional to-do items go here
+- [x] Add section on using QGIS to inspect shapefiles.
+[ ] ... additional to-do items go here
 
 ## Overview
 
@@ -78,13 +79,19 @@ One example of a geospatial data registry is the US Government [Geopspatial Data
 * The [Texas Geographic Information Office](https://tnris.org/) that provides discovery and access to a curated collection of geospatial data related to the US state of Texas.
 * The [New Mexico Resource Geographic Information System](https://rgis.unm.edu/) that provides discovery and access to a curated collection of geospatial data and associated web services for the state of New Mexico. 
 * [GeoPlatform](https://www.geoplatform.gov) suports discovery and registering geospatial data assets with special emphasis on 177 National Geospatial Data Assets (NGDAs) across 18 data themes as guided by the Federal Geographic Data Committee (FGDIC).
-
+*[The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)](https://btaa.org/library/programs-and-services/geoportal) is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
 
 ## Examples of Geospatial Repositories through which Shapefiles May be Discovered and Accessed
 
-Note how the dataset abstracts include lineage and tools used to create the shapefiles.
+[ScienceBase](https://www.sciencebase.gov/catalog/#)
 
-Shapefile datasets:
+ScienceBase is a U.S. Geological Survey (USGS) Trusted Digital Repository providing access to scientific data products and resources.
+
+[National Historical Geographic Information System](https://www.nhgis.org/)
+
+The National Historical Geographic Information System provides historic tabular and spatial data related to socio-economic time-series data from 1790 to present, and is part of the collection of the [Core-Trust Seal](https://coretrustseal.org/) certified [IPUMS](https://www.ipums.org/) suite of data repositories. 
+  
+## Shapefile dataset examples:
 
 [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341)
 
@@ -100,24 +107,14 @@ Note:The README file includes additional details about data sources, digital map
 
 High-quality GIS land use maps for the Twin Cities Metropolitan Area for 1958 that were developed from paper maps (no GIS version existed previously). The GIS shapefiles were exported using ArcGIS Quick Import Tool from the Data Interoperability Toolbox. The coverage files were imported into a file geodatabase then exported to a .shp file for long-term use without proprietary software. An example output of the final GIS file is include as a pdf, in addition, a scan of the original 1958 map (held in the UMN Borchert Map Library) is included as a pdf. Metadata was extracted as an xml file. Finally, all associated coverage files and original map scans were zipped into one file for download and reuse.
 
-[ScienceBase](https://www.sciencebase.gov/catalog/#)
-
-ScienceBase is a U.S. Geological Survey (USGS) Trusted Digital Repository providing access to scientific data products and resources.
-
-[The Big Ten Academic Alliance Geospatial Information Network (BTAA-GIN)](https://btaa.org/library/programs-and-services/geoportal)
-
-BTAA-GIN is a collaboration of library-affiliated staff from Big Ten Academic Alliance universities. The program aims to support the geospatial research community by building and maintaining a collective open-source spatial data infrastructure featuring metadata optimized for spatial discovery platforms.  The BTAA Geoportal contains images, scanned maps, and geospatial data in Shapefile format.
-
-[National Historical Geographic Information System](https://www.nhgis.org/)
-
-The National Historical Geographic Information System provides historic tabular and spatial data related to socio-economic time-series data from 1790 to present, and is part of the collection of the [Core-Trust Seal](https://coretrustseal.org/) certified [IPUMS](https://www.ipums.org/) suite of data repositories. 
-  
-
 ## Sample data set citations
 
 APA style:
 
 United States Census Bureau, 2023. 2023 TIGER/Line Shapefiles: States (and equivalent) (machine readable data files). U.S. Department of Commerce. [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php), (Accessed 2 June 2024)
+
+Chicago style:
+U.S. Department of Commerce. United States Census Bureau. TIGER/Line Shapefiles: States (and equivalent) (machine readable data files), 2023.  [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php).
 
 Harvard Dataverse suggested citation:
 
@@ -154,7 +151,7 @@ If so, there could be significant data loss since shapefiles do not support adva
 
 **Where does the raw data come from, and how does it end up in this form?** 
 
-Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated.
+Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. For examples of descriptions of lineage and tools used to create the shapefiles, see Shapefile dataset examples.
 
 **What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
 
@@ -196,6 +193,40 @@ Shapefiles can be read, visualized, and analyzed in a wide variety of applicatio
   * Online mapping applications: 
     * Commercial: [ArcGIS Online](https://www.arcgis.com/index.html)
     * Open Source: [GeoServer](https://geoserver.org/), [MapServer](https://mapserver.org/)
+
+### Inspecting shapefiles with QGIS
+
+QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from the download page at https://qgis.org/download/ and follow the installation prompts. After opening QGIS, you will see a window with two panels(tabs) labelled as Layers and Browser and a blank Recent Projects window, where your map will be displayed. Select Data Source Manager, the top button on the side toolbar, to add shapefile layers that can be viewed on the Recent Projects window.
+
+![QGIS main menu with black box around Data Source Manage icon on the left side toolbar.](C:\Users\lrhje\OneDrive\Desktop\QGIS_blank.png)
+
+In the Data Source Manager – Vector window, select a shapefile. The shapefile called protected_area.shp has been selected. Choose Add to add the shapefile layer and Close to get back to the main menu.
+
+![Data Source Manager menu with Vector selected](C:\Users\lrhje\OneDrive\Desktop\QGIS_Data_Source_Manager2.png)
+
+The protected areas shapefile layer is shown in the main menu. Add more layers by selecting the Data Source Manager toolbar button again.
+
+![Protected area map with one layer](C:\Users\lrhje\OneDrive\Desktop\QGIS_shp_protected_area.png)
+
+Places, water, and river layers have been added. Right click on a layer in the Layers panel to select the Show Labels option to make place names visible.
+
+![Protected area map with multiple layers and place names]("C:\Users\lrhje\OneDrive\Desktop\QGIS_multiple_layers_labelled.png")
+
+Access the Layer Properties menu by selecting Properties from the right click menu on the Layer. The Information tab is selected for the protected areas layer. Note the Coordinate Reference System information.
+
+![Layer Properties menu with Information selected for protected area with Coordinate Reference System details](C:\Users\lrhje\OneDrive\Desktop\QGIS_properties_info.png)
+
+Scroll down to see Fields on the Properties Information tab.
+
+![Layer Properties menu with Information selected for protected area with Fields list](C:\Users\lrhje\OneDrive\Desktop\QGIS_properties_fields.png)
+
+From the Browser panel, navigate to your Project folder (Shapefile_protected_areas). Right click on a layer, such as places and select Properties.  On the Attribute tab, you can see Attribute names and values. 
+
+![Layer Properties menu from Browser panel for protected areas with Attributes tab selected](C:\Users\lrhje\OneDrive\Desktop\QGIS_shp_places_properties_attributes.png)
+
+This warning message appeared after adding a shapefile for towns with post offices.  This message is warning the user that there was a transformation of coordinates from EPSG:4326 - W6584 to NAD83/Maryland (ftUS) and that properties should be checked to make sure that this transformation is applicable to the whole extent of the project.
+
+![Coordinates transformation warning message](C:\Users\lrhje\OneDrive\Desktop\QGIS_warning_message.png)
 
 ## Preservation actions
 
