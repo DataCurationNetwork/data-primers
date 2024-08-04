@@ -8,6 +8,11 @@
 - [x] Consider location of "Geospatial Data Repositories" section to just above regional repositories ...
 - [x] Consider separate discussion of difference between registries, clearinghouses, and trusted repositories ...
 - [x] Add section on using QGIS to inspect shapefiles.
+- [x] Check other GIS primers for data citation suggestions and add as needed.
+- [x] Move GIS shapefile repositories section under paragraph on registries, clearinghouses, and trusted repositories.
+- [ ] Verify that dataset or data set is spelled consistently.
+- [ ] Verify that heading capitalization is consistent.
+- [ ] Verify that capitalization of shapefile or Shapefile is consistent.
 [ ] ... additional to-do items go here
 
 ## Overview
@@ -91,7 +96,7 @@ ScienceBase is a U.S. Geological Survey (USGS) Trusted Digital Repository provid
 
 The National Historical Geographic Information System provides historic tabular and spatial data related to socio-economic time-series data from 1790 to present, and is part of the collection of the [Core-Trust Seal](https://coretrustseal.org/) certified [IPUMS](https://www.ipums.org/) suite of data repositories. 
   
-## Shapefile dataset examples:
+## Shapefile Dataset Examples:
 
 [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341)
 
@@ -107,14 +112,16 @@ Note:The README file includes additional details about data sources, digital map
 
 High-quality GIS land use maps for the Twin Cities Metropolitan Area for 1958 that were developed from paper maps (no GIS version existed previously). The GIS shapefiles were exported using ArcGIS Quick Import Tool from the Data Interoperability Toolbox. The coverage files were imported into a file geodatabase then exported to a .shp file for long-term use without proprietary software. An example output of the final GIS file is include as a pdf, in addition, a scan of the original 1958 map (held in the UMN Borchert Map Library) is included as a pdf. Metadata was extracted as an xml file. Finally, all associated coverage files and original map scans were zipped into one file for download and reuse.
 
-## Sample data set citations
+## Sample Dataset Citations
+
+Seven typical elements included in data citations are Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3rd party producer, editor or contributor, publication place, and data within a larger work. Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements).  Below are several examples of dataset citations according to APA and Chicago style guides and suggested data citations provided by data repositories or clearinghouses.
 
 APA style:
 
 United States Census Bureau, 2023. 2023 TIGER/Line Shapefiles: States (and equivalent) (machine readable data files). U.S. Department of Commerce. [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php), (Accessed 2 June 2024)
 
 Chicago style:
-U.S. Department of Commerce. United States Census Bureau. TIGER/Line Shapefiles: States (and equivalent) (machine readable data files), 2023.  [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php).
+U.S. Department of Commerce. United States Census Bureau. TIGER/Line Shapefiles: States (and equivalent) (machine readable data files), 2023. Distributed by the U.S.Census Bureau.  [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php).
 
 Harvard Dataverse suggested citation:
 
@@ -124,12 +131,9 @@ BTAA-GIN suggested citation:
 
 Chen, Wei, Levinson, David M. (2013). Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission (1958). University of Minnesota. [http://dx.doi.org/10.13020/D6059J](http://dx.doi.org/10.13020/D6059J) (dataset) (Accessed 9 June 2024)
 
-
-USGS suggested citation:
+USGS ScienceBase suggested citation:
 
 Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological Survey data release, [https://doi.org/10.5066/P9IQDHIT](https://doi.org/10.5066/P9IQDHIT), (Accessed 9 June 2024).
-
-Seven typical elements include Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3r party producer, editor or contributor, publication place, and data within a larger work. Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements).
 
 ##  Key questions to ask yourself
 
@@ -150,8 +154,7 @@ Seven typical elements include Author, Publication, Year, Title of the data, Pub
 If so, there could be significant data loss since shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), linkages with additional tabular data within the geodatabase, and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
 
 **Where does the raw data come from, and how does it end up in this form?** 
-
-Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. For examples of descriptions of lineage and tools used to create the shapefiles, see Shapefile dataset examples.
+Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. For examples of descriptions of lineage and tools used to create the shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
 
 **What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
 
@@ -196,37 +199,43 @@ Shapefiles can be read, visualized, and analyzed in a wide variety of applicatio
 
 ### Inspecting shapefiles with QGIS
 
-QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from the download page at https://qgis.org/download/ and follow the installation prompts. After opening QGIS, you will see a window with two panels(tabs) labelled as Layers and Browser and a blank Recent Projects window, where your map will be displayed. Select Data Source Manager, the top button on the side toolbar, to add shapefile layers that can be viewed on the Recent Projects window.
+QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from the download page at https://qgis.org/download/ and follow the installation prompts. 
 
-![QGIS main menu with black box around Data Source Manage icon on the left side toolbar.](C:\Users\lrhje\OneDrive\Desktop\QGIS_blank.png)
+1. After opening QGIS, you will see a window with two panels(tabs) labelled as Layers and Browser and a blank Recent Projects window, where your map will be displayed. Select Data Source Manager, the top button on the side toolbar, to add shapefile layers that can be viewed on the Recent Projects window.
 
-In the Data Source Manager – Vector window, select a shapefile. The shapefile called protected_area.shp has been selected. Choose Add to add the shapefile layer and Close to get back to the main menu.
+![QGIS main menu with black box around Data Source Manage icon on the left side toolbar.](image.png)
 
-![Data Source Manager menu with Vector selected](C:\Users\lrhje\OneDrive\Desktop\QGIS_Data_Source_Manager2.png)
+2. In the Data Source Manager – Vector window, select a shapefile. The shapefile called protected_area.shp has been selected as an example. Choose **Add** to add the shapefile layer and **Close** to get back to the main menu.
 
-The protected areas shapefile layer is shown in the main menu. Add more layers by selecting the Data Source Manager toolbar button again.
+![Data Source Manager menu with Vector selected](image-1.png)
 
-![Protected area map with one layer](C:\Users\lrhje\OneDrive\Desktop\QGIS_shp_protected_area.png)
+3. The protected areas shapefile layer is shown in the main menu. Add more layers by selecting the Data Source Manager toolbar button again.
 
-Places, water, and river layers have been added. Right click on a layer in the Layers panel to select the Show Labels option to make place names visible.
+![Protected area map with one layer](image-2.png)
 
-![Protected area map with multiple layers and place names]("C:\Users\lrhje\OneDrive\Desktop\QGIS_multiple_layers_labelled.png")
+3. Places, water, and river layers have been added. Right click on a layer in the Layers panel to select the Show Labels option to make place, river and protected area names visible.  You can use this view to check for misaligned edges, georeference errors, and complete or accurate names.  To focus on a specific layer, uncheck the other layers.
 
-Access the Layer Properties menu by selecting Properties from the right click menu on the Layer. The Information tab is selected for the protected areas layer. Note the Coordinate Reference System information.
+![Protected area map with multiple layers and place names](image-3.png)
 
-![Layer Properties menu with Information selected for protected area with Coordinate Reference System details](C:\Users\lrhje\OneDrive\Desktop\QGIS_properties_info.png)
+4. Access the Layer Properties menu by selecting Properties from the right click menu on the Layer. The Information tab is selected for the protected areas layer. Note the Coordinate Reference System information.
 
-Scroll down to see Fields on the Properties Information tab.
+![Layer Properties menu with Information selected for protected area with Coordinate Reference System details](image-4.png)
 
-![Layer Properties menu with Information selected for protected area with Fields list](C:\Users\lrhje\OneDrive\Desktop\QGIS_properties_fields.png)
+5. Scroll down to see Fields on the Properties Information tab.
 
-From the Browser panel, navigate to your Project folder (Shapefile_protected_areas). Right click on a layer, such as places and select Properties.  On the Attribute tab, you can see Attribute names and values. 
+![Layer Properties menu with Information selected for protected area with Fields list](image-6.png)
 
-![Layer Properties menu from Browser panel for protected areas with Attributes tab selected](C:\Users\lrhje\OneDrive\Desktop\QGIS_shp_places_properties_attributes.png)
+6. From the Browser panel, navigate to your Project folder (Shapefile_protected_areas). Right click on a layer, such as places and select Properties.  On the Attribute tab, you can see Attribute names and values, which can be compared against a data dictionary or codebook to make sure all variables are defined.
 
-This warning message appeared after adding a shapefile for towns with post offices.  This message is warning the user that there was a transformation of coordinates from EPSG:4326 - W6584 to NAD83/Maryland (ftUS) and that properties should be checked to make sure that this transformation is applicable to the whole extent of the project.
+![Layer Properties menu from Browser panel for protected areas with Attributes tab selected](image-7.png)
 
-![Coordinates transformation warning message](C:\Users\lrhje\OneDrive\Desktop\QGIS_warning_message.png)
+This warning message appeared after adding a shapefile for towns with post offices.  This message is warning the user that there was a transformation of coordinates between EPSG:4326 - WGS 84 and NAD83/Maryland (ftUS) and that properties should be checked to make sure that this transformation is applicable to the whole extent of the project. 
+
+The warning message screenshot was created from [Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865](https://doi.org/10.7910/DVN/KPILKU). As noted in the README file, all shapefiles are in North American Datum (NAD) 1983 Maryland State Plane.
+
+![Coordinates transformation warning message](image-8.png)
+
+See the [QGIS Training Manual](https://docs.qgis.org/3.34/en/docs/training_manual/) and [QGIS Documentation](https://docs.qgis.org/3.34/en/docs/index.html#) for more guidance and information. Shapefiles from the exercise folder of the [Training Data Repostory](https://github.com/qgis/QGIS-Training-Data/archive/master.zip) were used to create the map examples used for the screenshots. 
 
 ## Preservation actions
 
