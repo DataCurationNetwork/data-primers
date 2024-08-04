@@ -114,13 +114,14 @@ High-quality GIS land use maps for the Twin Cities Metropolitan Area for 1958 th
 
 ## Sample Dataset Citations
 
-Seven typical elements included in data citations are Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3rd party producer, editor or contributor, publication place, and data within a larger work. Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements).  Below are several examples of dataset citations according to APA and Chicago style guides and suggested data citations provided by data repositories or clearinghouses.
+Seven typical elements included in data citations are Author, Publication, Year, Title of the data, Publisher, Digital Object Identifier (DOI), and Access Date and Time. If relevant, you may add other elements, such as query parameters, direct access link, data format, 3rd party producer, editor or contributor, publication place, and data within a larger work. Source: [USGS Data Citation](https://www.usgs.gov/data-management/data-citation#elements). Below are several examples of dataset citations according to APA and Chicago style guides and suggested data citations provided by data repositories or clearinghouses.
 
 APA style:
 
 United States Census Bureau, 2023. 2023 TIGER/Line Shapefiles: States (and equivalent) (machine readable data files). U.S. Department of Commerce. [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php), (Accessed 2 June 2024)
 
 Chicago style:
+
 U.S. Department of Commerce. United States Census Bureau. TIGER/Line Shapefiles: States (and equivalent) (machine readable data files), 2023. Distributed by the U.S.Census Bureau.  [https://www.census.gov/cgi-bin/geo/shapefiles/index.php](https://www.census.gov/cgi-bin/geo/shapefiles/index.php).
 
 Harvard Dataverse suggested citation:
@@ -203,7 +204,7 @@ QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from t
 
 1. After opening QGIS, you will see a window with two panels(tabs) labelled as Layers and Browser and a blank Recent Projects window, where your map will be displayed. Select Data Source Manager, the top button on the side toolbar, to add shapefile layers that can be viewed on the Recent Projects window.
 
-![QGIS main menu with black box around Data Source Manage icon on the left side toolbar.](image.png)
+![QGIS main menu with black box around Data Source Manage icon on the left side toolbar](image.png)
 
 2. In the Data Source Manager – Vector window, select a shapefile. The shapefile called protected_area.shp has been selected as an example. Choose **Add** to add the shapefile layer and **Close** to get back to the main menu.
 
@@ -215,7 +216,7 @@ QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from t
 
 3. Places, water, and river layers have been added. Right click on a layer in the Layers panel to select the Show Labels option to make place, river and protected area names visible.  You can use this view to check for misaligned edges, georeference errors, and complete or accurate names.  To focus on a specific layer, uncheck the other layers.
 
-![Protected area map with multiple layers and place names](image-3.png)
+![Protected area map with multiple layers and names](image-3.png)
 
 4. Access the Layer Properties menu by selecting Properties from the right click menu on the Layer. The Information tab is selected for the protected areas layer. Note the Coordinate Reference System information.
 
