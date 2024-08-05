@@ -162,7 +162,6 @@ Geographic coordinate systems use a three-dimensional spherical surface to defin
 Projected coordinate systems, on the other hand, represent the curved surface of the Earth on a flat plane. This involves mathematical transformations known as map projections, which convert the spherical coordinates into two-dimensional Cartesian coordinates (x, y). Different projections are used based on the needs of the map, such as minimizing distortion in area, shape, distance, or direction. Examples include the Universal Transverse Mercator (UTM) and Albers Equal-Area projections. The choice of coordinate system and projection is crucial for accurately representing spatial data and ensuring consistency across different datasets.
 
 Here are some commonly used coordinate systems and map projections in different regions:
-
 Global:
 
 1.	WGS84 (World Geodetic System 1984): A global geographic coordinate system used for GPS and most international mapping.
