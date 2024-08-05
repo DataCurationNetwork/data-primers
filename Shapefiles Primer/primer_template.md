@@ -177,7 +177,7 @@ The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---c
 * [FGDC Technical Guidance: Data.gov and the GeoPlatform Metadata Recommendations: Including Guidelines for National Geospatial Data Assets (NGDA)](https://www.fgdc.gov/technical-guidance/metadata/fgdc-technical-guidance-datagov-geoplatform-ngda.pdf)
 * [ICSM ISO19115-1 Metadata Good Practice Guide](https://www.icsm.gov.au/sites/default/files/5a-Good%20Practice%20document.pdf)
 
-The RDA ISO 19115[RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk/msc/m22) contains a valuable list of references related to the standard itself, related standards and profiles, tools for creating ISO metadata, and users of the standard that can be visited to view examples of their application of the standard.
+The RDA ISO 19115 [RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk/msc/m22) contains a valuable list of references related to the standard itself, related standards and profiles, tools for creating ISO metadata, and users of the standard that can be visited to view examples of their application of the standard.
 
 Key metadata elements that should be included in what could be considered a "complete" geospatial data metadata record include the following common elements (from [Hatfield Consultants (2020). *Canadian Geospatial Data Infrastructure Cookbook*, Canadian Geospatial DAta Infrastructure Information Product 59e: Section 4.1, pp. 38-42](https://publications.gc.ca/collections/collection_2021/rncan-nrcan/M124-10-1-2020-eng.pdf)):
 
