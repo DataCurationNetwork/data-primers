@@ -46,21 +46,26 @@ Structure Documentation
 
 Base File Structure (multiple files - originally specified to follow 8.3 naming convention). **All files must share the same name prefix and be co-located within the same file system directory/folder**.
 
+Required files:
+
   - Main file (x.shp): ex. counties.shp
   - Index file (x.shx): ex. counties.shx
   - dBase file (x.dbf): ex. counties.dbf
+  - Projections Definition File - **required if coordinate reference system information is to be included in file** (x.prj): ex. counties.prj
+
+Required if present (i.e. if the files are already present ensure that they are included in the preserved/shared file package):
+
+  - Spatial Index for read/write instances - Part 1 (x.sbn): ex. counties.sbn
+  - Spatial Index for read/write instances - Part 2 (x.sbx): ex. counties.sbx
+  - Geocoding index for read/write instances - required if present (x.ixs): ex. counties.ixs
 
 Additional optional files
 
-  - Spatial Index for read/write instances - Part 1 - required if present (x.sbn): ex. counties.sbn
-  - Spatial Index for read/write instances - Part 2 - required if present (x.sbx): ex. counties.sbx
   - Spatial Index - Part 1 - for read-only shapefiles (x.fbn): ex. counties.fbn
   - Spatial Index - Part 2 - for read-only shapefiles (x.fbx): ex. counties.fbx
   - Attribute Index - Part 1 (x.ain): ex. counties.ain
   - Attribute Index - Part 2 (x.aih): ex. counties.aih
-  - Geocoding index for read/write instances - required if present (x.ixs): ex. counties.ixs
   - Geocoding Index for read/write ODB format shapefiles (x.mxs): ex. counties.mxs
-  - Projections Definition File - **required if coordinate reference system information is to be included in file** (x.prj): ex. counties.prj
   - ArcGIS Metadata File (x.xml): ex. counties.xml
   - Character set codepage specification file (x.cpg): ex. counties.cpg
   - ArcView 3.x Attribute Index - no longer used by ArcGIS (x.atx): ex. counties.atx
@@ -168,13 +173,29 @@ Data digitized from georeferenced images should cite the underlying georeference
 
 ## Applicable metadata standard, core elements and readme requirements
 
-The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards - numbered 191** in the ISO/TC 211 *Geographic information/Geomatics* "Geographic Information" standards collection - are the currently defined standards-based metadata recommended for geospatial data, including Shapefiles. The specific required and optional elements of the ISO standard depend upon data type and characteristics and as a result a "minimal" metadata record (i.e. a metadata record that would meet structural requirements when evaluated using an XML schema) can be created that is only minimally useful, but could be substantially improved through the use of additional metadata elements within the 19115 standard that are optional. Because of this, a number of guidance documents have been developed to aid in the development of ISO 19115 compliant metadata that also meet dataset specific requirements for discovery, access, understanding, and use - with these specific requirements being referred to as application profiles (e.g. the [FGDC North American Profile of ISO19115:2003 - Geographic Information - Metadata (2007)](https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf)) and profiles listed in the [RDA Metada Standards Catalog](https://rdamsc.bath.ac.uk/msc/m22)). Examples of these guidelines documents include:
+The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards - numbered 191** in the ISO/TC 211 *Geographic information/Geomatics* "Geographic Information" standards collection - are the currently defined standards-based metadata recommended for geospatial data, including Shapefiles. The specific required and optional elements of the ISO standard depend upon data type and characteristics and as a result a "minimal" metadata record (i.e. a metadata record that would meet structural requirements when evaluated using an XML schema) can be created that is only minimally useful, but could be substantially improved through the use of additional metadata elements within the 19115 standard that are optional (see [T. Habermann, 2020](https://metadatagamechangers.com/blog/2020/12/23/minimum-metadata) for a discussion of the minimal value of minimal metadata). Because of this, a number of guidance documents have been developed to aid in the development of ISO 19115 compliant metadata that also meet dataset and use case specific requirements for discovery, access, understanding, and use - with formalized requirements being referred to as application profiles (e.g. the [FGDC North American Profile of ISO19115:2003 - Geographic Information - Metadata (2007)](https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf)) and profiles listed in the [RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk/msc/m22)). Examples of these guidelines documents include:
 
 * [USGS Metadata Creation Web Page](https://www.usgs.gov/data-management/metadata-creation)
 * [NOAA Metadata Creation Reference Web Page](https://www.ncei.noaa.gov/resources/metadata/create)
 * [ESRI ISO Metadata Creation Instructions](https://pro.arcgis.com/en/pro-app/latest/help/metadata/create-iso-19115-and-iso-19139-metadata.htm)
+* [FGDC Technical Guidance: Data.gov and the GeoPlatform Metadata Recommendations: Including Guidelines for National Geospatial Data Assets (NGDA)](https://www.fgdc.gov/technical-guidance/metadata/fgdc-technical-guidance-datagov-geoplatform-ngda.pdf)
+* [ICSM ISO19115-1 Metadata Good Practice Guide](https://www.icsm.gov.au/sites/default/files/5a-Good%20Practice%20document.pdf)
 
-The RDA ISO 19115 Metadata Standards Catalog [entry] contains a valuable list of references related to the standard itself, related standards and profiles, tools for creating ISO metadata, and users of the standard that can be visited to view examples of their application of the standard. 
+The RDA ISO 19115 [RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk/msc/m22) contains a valuable list of references related to the standard itself, related standards and profiles, tools for creating ISO metadata, and users of the standard that can be visited to view examples of their application of the standard.
+
+Key metadata elements that should be included in what could be considered a "complete" geospatial data metadata record include the following common elements (from [Hatfield Consultants (2020). *Canadian Geospatial Data Infrastructure Cookbook*, Canadian Geospatial DAta Infrastructure Information Product 59e: Section 4.1, pp. 38-42](https://publications.gc.ca/collections/collection_2021/rncan-nrcan/M124-10-1-2020-eng.pdf)):
+
+> Identification information: information that allows the geospatial dataset to be uniquely identified
+and distinguished from other datasets (e.g., name of the dataset, keywords, basic description and
+geographic extents) and assists in cataloging the geospatial dataset.
+> * *Data quality information*: information that could include completeness of the data set, processes used to create and maintain it, and the amount of validation or verification performed on the dataset.
+> * *Spatial data representation information*: information that could include precision and accuracy of vector geometry or the resolution of raster data.
+> * *Non-spatial (attribute or tabular) data information*: information about the attribute data associated with features in geospatial data in vector format, or attribute data associated with cells of geospatial data in raster format. This could include the meaning of attribute names, valid values, domain or range for attribute values, and method used to collect and update attribute values.
+> * *Distribution information*: information that can be used to govern the distribution of the geospatial dataset, including the identity of the organization creating and maintaining the dataset, and date the dataset was published or made available to the public.
+
+If the Shapefiles will be placed into a repository that does not directly support the ISO 19115-1 family of standards, but does support the commonly used (for data-related DOI provisioning) DataCite metadata standard, elements of the ISO metadata can be integrated into the DataCite metadata, with the additional inclusion of "HasMetadata", "relatedMetadataSchema", and  "DocumentedBy" DataCite metadata elements that reference the full ISO metadata record and other documentation as well. This approach is consistent with Habermann's (2020) recommendation from the [Minimum Metadata blog post](https://metadatagamechangers.com/blog/2020/12/23/minimum-metadata) referenced above: 
+
+> First, the “HasMetadata” relationType, along with the relatedMetadataSchema, makes it possible to connect to more detailed metadata from a DataCite record and to let the user know the dialect of those metadata.If, for example, an organization has complete metadata compliant with ISO 19115-1, that metadata can include data quality, user feedback, instrumentation, and lineage metadata not included in DataCite metadata. Letting the user now that those metadata exist can help them understand these important aspects of the data.  Second, the “DocumentedBy” relationType makes it possible to connect to documentation of the resource, typically documents rather than structured metadata. This could point to published reports or papers that contain important details about how the data were processed or why the data were collected. This information is helpful when trying to understand the data and decide if it is trustworthy.
 
 ## Resources for reviewing data
 
@@ -360,6 +381,11 @@ The shapefile format is widely used across various fields due to its versatility
 
 ## Documentation of curation process: What do capture from curation process
 
+
+## Warnings
+
+* Shapefiles are composed of multiple files (see *Description of Format* above), some of which are required, required if present in the collection of files generated by a specific process or tool, or optional. If all *required* files are not included in the full set of files preserved/shared, the shapefile may be missing critical content and potentially damaged beyond use. Shapefiles are often shared/distributed as Zip archives to reduce the liklihood of individual Shapefile file components becoming separatd from the file collection that makes up a Shapefile. 
+* While the attribute data for a Shapefile is stored in a DBF file (a common tabular data format supported by many databases and potentially editable in those and other tools) opening and modifying the attribute file (ending in ".dbf") can break the linkages between the rows in the attribute table and the corresponding features stored in other parts of the Shapefile. **Do not** edit the the attribute table DBF file outside of a tool that is specifically designed to work with Shapefiles as a whole. 
 
 ## Appendix A - filetype CURATED checklist
 
