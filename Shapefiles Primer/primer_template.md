@@ -203,9 +203,8 @@ Shapefiles can be read, visualized, and analyzed in a wide variety of applicatio
 QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from the download page at https://qgis.org/download/ and follow the installation prompts. 
 
 1. After opening QGIS, you will see a window with two panels(tabs) labelled as Layers and Browser and a blank Recent Projects window, where your map will be displayed. Select Data Source Manager, the top button on the side toolbar, to add shapefile layers that can be viewed on the Recent Projects window.
-![QGIS main menu with black box around Data Source Manage icon on the left side toolbar.](image.png)
 
-![QGIS main menu with black box around Data Source Manage icon on the left side toolbar](image.png)
+![QGIS main menu with black box around Data Source Manage icon on the left side toolbar.](image.png)
 
 2. In the Data Source Manager – Vector window, select a shapefile. The shapefile called protected_area.shp has been selected as an example. Choose **Add** to add the shapefile layer and **Close** to get back to the main menu.
 
