@@ -41,21 +41,26 @@ Structure Documentation
 
 Base File Structure (multiple files - originally specified to follow 8.3 naming convention). **All files must share the same name prefix and be co-located within the same file system directory/folder**.
 
+Required files:
+
   - Main file (x.shp): ex. counties.shp
   - Index file (x.shx): ex. counties.shx
   - dBase file (x.dbf): ex. counties.dbf
+  - Projections Definition File - **required if coordinate reference system information is to be included in file** (x.prj): ex. counties.prj
+
+Required if present (i.e. if the files are already present ensure that they are included in the preserved/shared file package):
+
+  - Spatial Index for read/write instances - Part 1 (x.sbn): ex. counties.sbn
+  - Spatial Index for read/write instances - Part 2 (x.sbx): ex. counties.sbx
+  - Geocoding index for read/write instances - required if present (x.ixs): ex. counties.ixs
 
 Additional optional files
 
-  - Spatial Index for read/write instances - Part 1 - required if present (x.sbn): ex. counties.sbn
-  - Spatial Index for read/write instances - Part 2 - required if present (x.sbx): ex. counties.sbx
   - Spatial Index - Part 1 - for read-only shapefiles (x.fbn): ex. counties.fbn
   - Spatial Index - Part 2 - for read-only shapefiles (x.fbx): ex. counties.fbx
   - Attribute Index - Part 1 (x.ain): ex. counties.ain
   - Attribute Index - Part 2 (x.aih): ex. counties.aih
-  - Geocoding index for read/write instances - required if present (x.ixs): ex. counties.ixs
   - Geocoding Index for read/write ODB format shapefiles (x.mxs): ex. counties.mxs
-  - Projections Definition File - **required if coordinate reference system information is to be included in file** (x.prj): ex. counties.prj
   - ArcGIS Metadata File (x.xml): ex. counties.xml
   - Character set codepage specification file (x.cpg): ex. counties.cpg
   - ArcView 3.x Attribute Index - no longer used by ArcGIS (x.atx): ex. counties.atx
