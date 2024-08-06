@@ -10,9 +10,13 @@
 - [x] Add section on using QGIS to inspect shapefiles.
 - [x] Check other GIS primers for data citation suggestions and add as needed.
 - [x] Move GIS shapefile repositories section under paragraph on registries, clearinghouses, and trusted repositories.
+- [ ] **I'v got a question: do we want dataset or data set?**
 - [ ] Verify that dataset or data set is spelled consistently.
+- [ ] **I'v got a question: do we want title or sentence capitalization for headings?**
 - [ ] Verify that heading capitalization is consistent.
+- [ ] **I'v got a question: do we want to capitalize shapefile?**
 - [ ] Verify that capitalization of shapefile or Shapefile is consistent.
+- [ ] Please check Inspecting shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?  
 [ ] ... additional to-do items go here
 
 ## Overview
