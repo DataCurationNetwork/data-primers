@@ -347,8 +347,7 @@ by the University of Idaho Library.[^5]
 
 ## Section 4: Key Questions to Ask Yourself
 
-![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)  
-![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)  
+![Static Badge](https://img.shields.io/badge/DCN-Understand-orange)  ![Static Badge](https://img.shields.io/badge/DCN-Request-yellow)  
 
 ### Should you use OpenRefine?
 
