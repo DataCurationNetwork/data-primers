@@ -431,7 +431,7 @@ The shapefile format is widely used across various fields due to its versatility
 
 *Further Questions:* How can we establish guidelines or standards for defining the level of detail in shapefile datasets based on specific applications and user requirements? What methods can be employed to balance data granularity with storage and processing considerations?
 
-## Documentation of curation process: What do capture from curation process
+## Documentation of curation process: What to capture from curation process
 
 
 ## Warnings
