@@ -211,7 +211,8 @@ Middle East
 If so, there could be significant data loss since shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), linkages with additional tabular data within the geodatabase, and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
 
 **Where does the raw data come from, and how does it end up in this form?** 
-Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. For examples of descriptions of lineage and tools used to create the shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
+Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. 
+For examples of descriptions of lineage and tools used to create the shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
 
 **What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
 
