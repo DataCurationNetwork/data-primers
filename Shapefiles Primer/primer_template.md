@@ -163,7 +163,7 @@ If so, there could be significant data loss since Shapefiles do not support adva
 Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. 
 For examples of descriptions of lineage and tools used to create the Shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
 
-**What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
+**What aspects of visualization the Shapefile data are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
 
 **What dates do the non-geospatial data cover (e.g., land use designations, railroad stations)? Is this data supposed to be historical or current?**
 
