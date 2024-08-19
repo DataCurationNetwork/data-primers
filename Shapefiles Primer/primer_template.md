@@ -143,19 +143,37 @@ Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological
 
 ##  Key questions to ask yourself
 
-*Are there any Shapefiles missing from the zipfile?* At minimum, there should be three Shapefiles:.shp, .shx, and .dbf.
+*Are there any Shapefile components missing from the zipfile?* At minimum, there should be three Shapefile components:.shp, .shx, and .dbf.
 
-*Do all Shapefiles have the same prefix (e.g., ferries.shp, ferries.shx, and ferries.dbf)?*
+*Do all Shapefile components have the same prefix (e.g., ferries.shp, ferries.shx, and ferries.dbf)?*
 
-*Are there obvious georeference errors such as animals, plants, buildings, or parks mapped to the wrong country or hemisphere?* This could be caused by missing projection coordinate metadata, which are contained in the .prj Shapefile.
+*Are there obvious georeference errors such as features (e.g. animals, plants, buildings, or parks) mapped to the wrong country or hemisphere?* This could be caused by missing projection (coordinate reference system) metadata, which are contained in the .prj Shapefile component.
 
 *Are there polygons with misaligned edges, appearing as overlapping areas or gaps between polygons representing adjacent areas, such as lots, neigborhoods, cities or counties?* This is a particular concern with Shapefiles because they do not contain topological information (spatial relationships), such as shared edges and direction.
 
 *Did the researcher include data reuse limitations in the metadata or documentation?*  Example: "The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only. Their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are not legal land descriptions." [TIGER/Line Shapefile Legal Disclaimers](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2023/TGRSHP2023_TechDoc_Ch1.pdf).
 
+
+## Key clarifications to get from researcher
+
+**Was the data transferred from a geodatabase to a Shapefile format?**  
+If so, there could be significant data loss since Shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), linkages with additional tabular data within the geodatabase, and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
+
+**Where does the raw data come from, and how does it end up in this form?** 
+Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. 
+For examples of descriptions of lineage and tools used to create the Shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
+
+**What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
+
+**What dates do the non-geospatial data cover (e.g., land use designations, railroad stations)? Is this data supposed to be historical or current?**
+
+**What dates do the geospatial data cover (e.g, cities, states, countries)? Is this data supposed to be historical or current?**
+
+**What kind of documentation or metadata about your data, datasets, or files has been created?**
+
 ## Commonly Used Coordinate Systems and Projections by Region
 
-**This section separates "Key questions to ask yourself" from "Key clarifications to get from user."  Should we instead put this immediately after "Key clarifications to get from researcher"?**
+**This section separates "Key questions to ask yourself" from "Key clarifications to get from user."  Should we instead put this immediately after "Key clarifications to get from researcher"?** (KB) I went ahead and moved it ...
 
 A coordinate system is a framework used to define the positions of points in space. In geographic information systems (GIS), coordinate systems are essential for accurately mapping and analyzing spatial data. There are two primary types of coordinate systems: geographic and projected.
 
@@ -202,23 +220,6 @@ Africa
 Middle East
 
 1.	Ain el Abd 1970: A geographic coordinate system used in several Middle Eastern countries.
-
-## Key clarifications to get from researcher
-
-**Was the data transferred from a geodatabase to a Shapefile format?**  
-If so, there could be significant data loss since Shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), linkages with additional tabular data within the geodatabase, and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
-
-**Where does the raw data come from, and how does it end up in this form?** 
-Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. 
-For examples of descriptions of lineage and tools used to create the Shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
-
-**What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
-
-**What dates do the non-geospatial data cover (e.g., land use designations, railroad stations)? Is this data supposed to be historical or current?**
-
-**What dates do the geospatial data cover (e.g, cities, states, countries)? Is this data supposed to be historical or current?**
-
-**What kind of documentation or metadata about your data, datasets, or files has been created?**
 
 
 ## Applicable metadata standard, core elements and readme requirements
