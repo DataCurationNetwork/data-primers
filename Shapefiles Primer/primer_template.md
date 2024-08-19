@@ -19,7 +19,7 @@
 - [ ] Please check Inspecting Shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?
 - [ ] **Add bibliography of resources cited in the text.**
 - [ ] Add localized CURATED checklist for Appendix A
-[ ] ... additional to-do items go here
+- [ ] ... additional to-do items go here
 
 ## Overview
 
