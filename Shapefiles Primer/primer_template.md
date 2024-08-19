@@ -17,8 +17,8 @@
 - [ ] **I'v got a question: do we want to capitalize Shapefile?**
 - [ ] Verify that capitalization of Shapefile or Shapefile is consistent.
 - [ ] Please check Inspecting Shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?
-- [ ] **Add bibliography of resources cited in the text.**
-- [ ] Add localized CURATED checklist for Appendix A
+- [ ] **Add bibliography of resources cited in the text. (Laura & all contribute)**
+- [ ] Add localized CURATED checklist for Appendix A (Karl)
 - [ ] ... additional to-do items go here
 
 ## Overview
