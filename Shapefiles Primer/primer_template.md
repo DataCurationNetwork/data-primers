@@ -283,7 +283,7 @@ QGIS is a free tool that can be used to inspect Shapefiles. Download QGIS from t
 
 ![Data Source Manager menu with Vector selected](image-1.png)
 
-3. The protected areas Shapefile layer is shown in the main menu. Add external layers by selecting the Data Source Manager toolbar button again.  These external layers can added for review and to provide additional context. 
+3. The protected areas Shapefile layer is shown in the main menu. Add external layers by selecting the Data Source Manager toolbar button again.  These external layers can be added for review and to provide additional context. 
 
 ![Protected area map with one layer](image-2.png)
 
