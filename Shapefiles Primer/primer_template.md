@@ -283,23 +283,23 @@ QGIS is a free tool that can be used to inspect Shapefiles. Download QGIS from t
 
 ![Data Source Manager menu with Vector selected](image-1.png)
 
-3. The protected areas Shapefile layer is shown in the main menu. Add more layers by selecting the Data Source Manager toolbar button again.
+3. The protected areas Shapefile layer is shown in the main menu. Add external layers by selecting the Data Source Manager toolbar button again.  These external layers can added for review and to provide additional context. 
 
 ![Protected area map with one layer](image-2.png)
 
-3. Places, water, and river layers have been added. Right click on a layer in the Layers panel to select the Show Labels option to make place, river and protected area names visible.  You can use this view to check for misaligned edges, georeference errors, and complete or accurate names.  To focus on a specific layer, uncheck the other layers.
+4. The external places, water, and river layers have been added. Right click on a layer in the Layers panel to select the Show Labels option to make place, river and protected area names visible.  You can use this view to check for misaligned edges, georeference errors, and complete or accurate names.  To focus on a specific layer, uncheck the other layers.
 
 ![Protected area map with multiple layers and names](image-3.png)
 
-4. Access the Layer Properties menu by selecting Properties from the right click menu on the Layer. The Information tab is selected for the protected areas layer. Note the Coordinate Reference System information.
+5. Access the Layer Properties menu by selecting Properties from the right click menu on the Layer. The Information tab is selected for the protected areas layer. Note the Coordinate Reference System information.
 
 ![Layer Properties menu with Information selected for protected area with Coordinate Reference System details](image-4.png)
 
-5. Scroll down to see Fields on the Properties Information tab.
+6. Scroll down to see Fields on the Properties Information tab.
 
 ![Layer Properties menu with Information selected for protected area with Fields list](image-6.png)
 
-6. From the Browser panel, navigate to your Project folder (Shapefile_protected_areas). Right click on a layer, such as places and select Properties.  On the Attribute tab, you can see Attribute names and values, which can be compared against a data dictionary or codebook to make sure all variables are defined.
+7. From the Browser panel, navigate to your Project folder (Shapefile_protected_areas). Right click on a layer, such as places and select Properties.  On the Attribute tab, you can see Attribute names and values, which can be compared against a data dictionary or codebook to make sure all variables are defined.
 
 ![Layer Properties menu from Browser panel for protected areas with Attributes tab selected](image-7.png)
 
