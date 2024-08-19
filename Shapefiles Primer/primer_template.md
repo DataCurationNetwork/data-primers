@@ -443,7 +443,8 @@ The shapefile format is widely used across various fields due to its versatility
 
 ## Appendix A - filetype CURATED checklist
 
+**Do we want to remove Appendix A?**
 ----------------
-Suggested Citation: Author. Date Released. Title.
+Suggested Citation: Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase Data Curation Primer. [Data Curation Network GitHub Repository](https://github.com/DataCurationNetwork/data-primers.)
 
 *This work was created as part of the Data Curation Network ...*
