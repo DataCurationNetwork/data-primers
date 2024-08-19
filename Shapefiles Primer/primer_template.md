@@ -35,12 +35,7 @@
   | Created by                 | Laura Hjerpe, Karl Benedict, Wenjie Wang |
   | Date updated and summary of changes made | 2024-07-31 Peer review version completed <br/><hr/> TBD edits from peer review |                
  
- **Sample image link and caption**
- 
- ![Photo by [delfi de la Rua](https://unsplash.com/@delfidelarua7) on Unspash](images/delfi-de-la-rua-vfzfavUZmfc-unsplash.jpg)<br/>
- Photo by [delfi de la Rua](https://unsplash.com/@delfidelarua7) on Unspash
-
-##  Description of format
+ ##  Description of format
 
 The ESRI Shapefile format was developed and released as a proprietary format for encoding and exchanging non-topological geometry and attribute data for spatial features (points, lines, polygons - AKA features) in a dataset. While released as a proprietary format, the [published documentation](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) has enabled geospatial application developers to implement support for reading and writing files in the shapefile format, resulting in broad support and use of the shapefile format for the exchange and use of non-topological feature data. 
 
