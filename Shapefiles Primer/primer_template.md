@@ -303,11 +303,7 @@ QGIS is a free tool that can be used to inspect Shapefiles. Download QGIS from t
 
 ![Layer Properties menu from Browser panel for protected areas with Attributes tab selected](image-7.png)
 
-This warning message appeared after adding a Shapefile for towns with post offices.  This message is warning the user that there was a transformation of coordinates between EPSG:4326 - WGS 84 and NAD83/Maryland (ftUS) and that properties should be checked to make sure that this transformation is applicable to the whole extent of the project. 
-
-The warning message screenshot was created from [Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865](https://doi.org/10.7910/DVN/KPILKU). As noted in the README file, all Shapefiles are in North American Datum (NAD) 1983 Maryland State Plane.
-
-![Coordinates transformation warning message](image-8.png)
+In cases where datasets are in a highly local area coordinate system, such as NAD83 (North American Datum 1983)/Maryland (ftUS), there may be instances where you would see inconsistencies with large scale coordinate systems, such as WGS84 (World Geodetic System 1984). These inconsistencies may not necessarily require correction but curators should be aware of this possibibility.
 
 See the [QGIS Training Manual](https://docs.qgis.org/3.34/en/docs/training_manual/) and [QGIS Documentation](https://docs.qgis.org/3.34/en/docs/index.html#) for more guidance and information. Shapefiles from the exercise folder of the [Training Data Repostory](https://github.com/qgis/QGIS-Training-Data/archive/master.zip) were used to create the map examples used for the screenshots. 
 
