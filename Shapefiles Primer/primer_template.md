@@ -16,7 +16,8 @@
 - [ ] Verify that heading capitalization is consistent.
 - [ ] **I'v got a question: do we want to capitalize shapefile?**
 - [ ] Verify that capitalization of shapefile or Shapefile is consistent.
-- [ ] Please check Inspecting shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?  
+- [ ] Please check Inspecting shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?
+- [ ] **Add bibliography of resources cited in the text.**
 [ ] ... additional to-do items go here
 
 ## Overview
