@@ -7,16 +7,16 @@
 - [x] Add MIME types ref. - https://www.iana.org/assignments/media-types/media-types.xhtml
 - [x] Consider location of "Geospatial Data Repositories" section to just above regional repositories ...
 - [x] Consider separate discussion of difference between registries, clearinghouses, and trusted repositories ...
-- [x] Add section on using QGIS to inspect shapefiles.
+- [x] Add section on using QGIS to inspect Shapefiles.
 - [x] Check other GIS primers for data citation suggestions and add as needed.
-- [x] Move GIS shapefile repositories section under paragraph on registries, clearinghouses, and trusted repositories.
+- [x] Move GIS Shapefile repositories section under paragraph on registries, clearinghouses, and trusted repositories.
 - [ ] **I'v got a question: do we want dataset or data set?**
 - [ ] Verify that dataset or data set is spelled consistently.
 - [ ] **I'v got a question: do we want title or sentence capitalization for headings?**
 - [ ] Verify that heading capitalization is consistent.
-- [ ] **I'v got a question: do we want to capitalize shapefile?**
-- [ ] Verify that capitalization of shapefile or Shapefile is consistent.
-- [ ] Please check Inspecting shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?
+- [ ] **I'v got a question: do we want to capitalize Shapefile?**
+- [ ] Verify that capitalization of Shapefile or Shapefile is consistent.
+- [ ] Please check Inspecting Shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?
 - [ ] **Add bibliography of resources cited in the text.**
 [ ] ... additional to-do items go here
 
@@ -35,9 +35,9 @@
   | Created by                 | Laura Hjerpe, Karl Benedict, Wenjie Wang |
   | Date updated and summary of changes made | 2024-07-31 Peer review version completed <br/><hr/> TBD edits from peer review |                
  
- ##  Description of format
+ ##  Description of Format
 
-The ESRI Shapefile format was developed and released as a proprietary format for encoding and exchanging non-topological geometry and attribute data for spatial features (points, lines, polygons - AKA features) in a dataset. While released as a proprietary format, the [published documentation](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) has enabled geospatial application developers to implement support for reading and writing files in the shapefile format, resulting in broad support and use of the shapefile format for the exchange and use of non-topological feature data. 
+The ESRI Shapefile format was developed and released as a proprietary format for encoding and exchanging non-topological geometry and attribute data for spatial features (points, lines, polygons - AKA features) in a dataset. While released as a proprietary format, the [published documentation](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) has enabled geospatial application developers to implement support for reading and writing files in the Shapefile format, resulting in broad support and use of the Shapefile format for the exchange and use of non-topological feature data. 
 
 Structure Documentation
 
@@ -61,11 +61,11 @@ Required if present (i.e. if the files are already present ensure that they are 
 
 Additional optional files
 
-  - Spatial Index - Part 1 - for read-only shapefiles (x.fbn): ex. counties.fbn
-  - Spatial Index - Part 2 - for read-only shapefiles (x.fbx): ex. counties.fbx
+  - Spatial Index - Part 1 - for read-only Shapefiles (x.fbn): ex. counties.fbn
+  - Spatial Index - Part 2 - for read-only Shapefiles (x.fbx): ex. counties.fbx
   - Attribute Index - Part 1 (x.ain): ex. counties.ain
   - Attribute Index - Part 2 (x.aih): ex. counties.aih
-  - Geocoding Index for read/write ODB format shapefiles (x.mxs): ex. counties.mxs
+  - Geocoding Index for read/write ODB format Shapefiles (x.mxs): ex. counties.mxs
   - ArcGIS Metadata File (x.xml): ex. counties.xml
   - Character set codepage specification file (x.cpg): ex. counties.cpg
   - ArcView 3.x Attribute Index - no longer used by ArcGIS (x.atx): ex. counties.atx
@@ -105,7 +105,7 @@ The National Historical Geographic Information System provides historic tabular 
 
 [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2023.html#list-tab-790442341)
 
-The TIGER/Line Shapefiles are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The shapefiles include polygon boundaries of geographic areas and features, linear features including roads and hydrography, and point features.
+The TIGER/Line Shapefiles are extracts of selected geographic and cartographic information from the Census Bureau's Master Address File (MAF)/Topologically Integrated Geographic Encoding and Referencing (TIGER) system. The Shapefiles include information for the fifty states, the District of Columbia, Puerto Rico, and the Island  areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the United States Virgin Islands). The Shapefiles include polygon boundaries of geographic areas and features, linear features including roads and hydrography, and point features.
 
 [Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865](https://doi.org/10.7910/DVN/KPILKU)
 
@@ -115,7 +115,7 @@ Note:The README file includes additional details about data sources, digital map
 
 [Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission (1958)](https://geo.btaa.org/catalog/b98a7b39-830a-48ca-84c2-06332aaebbb8#metadata)
 
-High-quality GIS land use maps for the Twin Cities Metropolitan Area for 1958 that were developed from paper maps (no GIS version existed previously). The GIS shapefiles were exported using ArcGIS Quick Import Tool from the Data Interoperability Toolbox. The coverage files were imported into a file geodatabase then exported to a .shp file for long-term use without proprietary software. An example output of the final GIS file is include as a pdf, in addition, a scan of the original 1958 map (held in the UMN Borchert Map Library) is included as a pdf. Metadata was extracted as an xml file. Finally, all associated coverage files and original map scans were zipped into one file for download and reuse.
+High-quality GIS land use maps for the Twin Cities Metropolitan Area for 1958 that were developed from paper maps (no GIS version existed previously). The GIS Shapefiles were exported using ArcGIS Quick Import Tool from the Data Interoperability Toolbox. The coverage files were imported into a file geodatabase then exported to a .shp file for long-term use without proprietary software. An example output of the final GIS file is include as a pdf, in addition, a scan of the original 1958 map (held in the UMN Borchert Map Library) is included as a pdf. Metadata was extracted as an xml file. Finally, all associated coverage files and original map scans were zipped into one file for download and reuse.
 
 ## Sample Dataset Citations
 
@@ -143,13 +143,13 @@ Seymour, W. A., and Traum, J. A., 2021, Petaluma Model GIS Data: U.S. Geological
 
 ##  Key questions to ask yourself
 
-*Are there any shapefiles missing from the zipfile?* At minimum, there should be three shapefiles:.shp, .shx, and .dbf.
+*Are there any Shapefiles missing from the zipfile?* At minimum, there should be three Shapefiles:.shp, .shx, and .dbf.
 
-*Do all shapefiles have the same prefix (e.g., ferries.shp, ferries.shx, and ferries.dbf)?*
+*Do all Shapefiles have the same prefix (e.g., ferries.shp, ferries.shx, and ferries.dbf)?*
 
-*Are there obvious georeference errors such as animals, plants, buildings, or parks mapped to the wrong country or hemisphere?* This could be caused by missing projection coordinate metadata, which are contained in the .prj shapefile.
+*Are there obvious georeference errors such as animals, plants, buildings, or parks mapped to the wrong country or hemisphere?* This could be caused by missing projection coordinate metadata, which are contained in the .prj Shapefile.
 
-*Are there polygons with misaligned edges, appearing as overlapping areas or gaps between polygons representing adjacent areas, such as lots, neigborhoods, cities or counties?* This is a particular concern with shapefiles because they do not contain topological information (spatial relationships), such as shared edges and direction.
+*Are there polygons with misaligned edges, appearing as overlapping areas or gaps between polygons representing adjacent areas, such as lots, neigborhoods, cities or counties?* This is a particular concern with Shapefiles because they do not contain topological information (spatial relationships), such as shared edges and direction.
 
 *Did the researcher include data reuse limitations in the metadata or documentation?*  Example: "The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only. Their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are not legal land descriptions." [TIGER/Line Shapefile Legal Disclaimers](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2023/TGRSHP2023_TechDoc_Ch1.pdf).
 
@@ -205,12 +205,12 @@ Middle East
 
 ## Key clarifications to get from researcher
 
-**Was the data transferred from a geodatabase to a shapefile format?**  
-If so, there could be significant data loss since shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), linkages with additional tabular data within the geodatabase, and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
+**Was the data transferred from a geodatabase to a Shapefile format?**  
+If so, there could be significant data loss since Shapefiles do not support advanced features, such as time values in the date field, null values, location subtypes (e.g, arterial streets, local streets), field type attribute rules (e.g, coded values, limited number ranges), linkages with additional tabular data within the geodatabase, and topology, as mentioned in Key questions to ask yourself. In addition, the overall file size is limited to 2 gigabytes. See [Geoprocessing Considerations for Shapefile Output](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm)
 
 **Where does the raw data come from, and how does it end up in this form?** 
 Data digitized from georeferenced images should cite the underlying georeferenced source. In addition, the software and hardware used to produce and/or work with this data should be described. See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page 5. If ArcGIS or other software was used, the version should be indicated. 
-For examples of descriptions of lineage and tools used to create the shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
+For examples of descriptions of lineage and tools used to create the Shapefiles, see [Shapefile Dataset Examples](#shapefile-dataset-examples).
 
 **What aspects of the visualization are important (e.g., scale, boundary lines, natural or artificial physical features, resolution, color)?**
 
@@ -249,11 +249,11 @@ If the Shapefiles will be placed into a repository that does not directly suppor
 
 ## Resources for reviewing data
 
-In the process of working with shapefile data, it's crucial to have access to reliable resources for reviewing and understanding the intricacies of the data, such as the materials referenced above relating the format description. **Here's a session dedicated to exploring various resources \[is there a reference/link missing here?- kb\]** that can aid in the comprehensive review of shapefile data:
+In the process of working with Shapefile data, it's crucial to have access to reliable resources for reviewing and understanding the intricacies of the data, such as the materials referenced above relating the format description. **Here's a session dedicated to exploring various resources \[is there a reference/link missing here?- kb\]** that can aid in the comprehensive review of Shapefile data:
 
-*Official Documentation:* Start with the official documentation provided by the organization or platform that created or maintains the shapefile format. This documentation often includes detailed specifications, data structure explanations, and usage guidelines.
+*Official Documentation:* Start with the official documentation provided by the organization or platform that created or maintains the Shapefile format. This documentation often includes detailed specifications, data structure explanations, and usage guidelines.
 
-*Software Manuals:* If you're using specific GIS software to work with shapefiles, refer to its manuals. These manuals usually offer insights into how the software handles shapefiles, data manipulation techniques, and troubleshooting tips.
+*Software Manuals:* If you're using specific GIS software to work with Shapefiles, refer to its manuals. These manuals usually offer insights into how the software handles Shapefiles, data manipulation techniques, and troubleshooting tips.
 
 ## Software for viewing or analyzing data
 
@@ -269,19 +269,19 @@ Shapefiles can be read, visualized, and analyzed in a wide variety of applicatio
     * Commercial: [ArcGIS Online](https://www.arcgis.com/index.html)
     * Open Source: [GeoServer](https://geoserver.org/), [MapServer](https://mapserver.org/)
 
-### Inspecting shapefiles with QGIS
+### Inspecting Shapefiles with QGIS
 
-QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from the download page at https://qgis.org/download/ and follow the installation prompts. 
+QGIS is a free tool that can be used to inspect Shapefiles. Download QGIS from the download page at https://qgis.org/download/ and follow the installation prompts. 
 
-1. After opening QGIS, you will see a window with two panels(tabs) labelled as Layers and Browser and a blank Recent Projects window, where your map will be displayed. Select Data Source Manager, the top button on the side toolbar, to add shapefile layers that can be viewed on the Recent Projects window.
+1. After opening QGIS, you will see a window with two panels(tabs) labelled as Layers and Browser and a blank Recent Projects window, where your map will be displayed. Select Data Source Manager, the top button on the side toolbar, to add Shapefile layers that can be viewed on the Recent Projects window.
 
 ![QGIS main menu with black box around Data Source Manage icon on the left side toolbar.](image.png)
 
-2. In the Data Source Manager – Vector window, select a shapefile. The shapefile called protected_area.shp has been selected as an example. Choose **Add** to add the shapefile layer and **Close** to get back to the main menu.
+2. In the Data Source Manager – Vector window, select a Shapefile. The Shapefile called protected_area.shp has been selected as an example. Choose **Add** to add the Shapefile layer and **Close** to get back to the main menu.
 
 ![Data Source Manager menu with Vector selected](image-1.png)
 
-3. The protected areas shapefile layer is shown in the main menu. Add more layers by selecting the Data Source Manager toolbar button again.
+3. The protected areas Shapefile layer is shown in the main menu. Add more layers by selecting the Data Source Manager toolbar button again.
 
 ![Protected area map with one layer](image-2.png)
 
@@ -301,9 +301,9 @@ QGIS is a free tool that can be used to inspect shapefiles. Download QGIS from t
 
 ![Layer Properties menu from Browser panel for protected areas with Attributes tab selected](image-7.png)
 
-This warning message appeared after adding a shapefile for towns with post offices.  This message is warning the user that there was a transformation of coordinates between EPSG:4326 - WGS 84 and NAD83/Maryland (ftUS) and that properties should be checked to make sure that this transformation is applicable to the whole extent of the project. 
+This warning message appeared after adding a Shapefile for towns with post offices.  This message is warning the user that there was a transformation of coordinates between EPSG:4326 - WGS 84 and NAD83/Maryland (ftUS) and that properties should be checked to make sure that this transformation is applicable to the whole extent of the project. 
 
-The warning message screenshot was created from [Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865](https://doi.org/10.7910/DVN/KPILKU). As noted in the README file, all shapefiles are in North American Datum (NAD) 1983 Maryland State Plane.
+The warning message screenshot was created from [Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865](https://doi.org/10.7910/DVN/KPILKU). As noted in the README file, all Shapefiles are in North American Datum (NAD) 1983 Maryland State Plane.
 
 ![Coordinates transformation warning message](image-8.png)
 
@@ -311,130 +311,130 @@ See the [QGIS Training Manual](https://docs.qgis.org/3.34/en/docs/training_manua
 
 ## Preservation actions
 
-Preservation actions are crucial for ensuring the longevity, integrity, and accessibility of shapefile data. Here's a set of preservation actions that can help safeguard shapefile data for future use:
+Preservation actions are crucial for ensuring the longevity, integrity, and accessibility of Shapefile data. Here's a set of preservation actions that can help safeguard Shapefile data for future use:
 
-*Regular Backups:* Establish a routine schedule for backing up shapefile data to secure storage locations, such as external hard drives, cloud storage services, or network servers.
+*Regular Backups:* Establish a routine schedule for backing up Shapefile data to secure storage locations, such as external hard drives, cloud storage services, or network servers.
 
-*Comprehensive Metadata:* Create and maintain comprehensive metadata records for shapefile datasets, including information about data source, creation date, projection, attribute definitions, and data quality.
+*Comprehensive Metadata:* Create and maintain comprehensive metadata records for Shapefile datasets, including information about data source, creation date, projection, attribute definitions, and data quality.
 
 *Standardized Metadata Formats:* Adhere to standardized metadata formats, such as FGDC (Federal Geographic Data Committee) or ISO (International Organization for Standardization), to ensure consistency and interoperability.
 
-*Regular Format Checks:* Periodically assess the compatibility of shapefile data with current and emerging GIS software and standards. Consider migrating data to more sustainable formats, such as GeoPackage or Esri File Geodatabase, if necessary.
+*Regular Format Checks:* Periodically assess the compatibility of Shapefile data with current and emerging GIS software and standards. Consider migrating data to more sustainable formats, such as GeoPackage or Esri File Geodatabase, if necessary.
 
-*Data Conversion Tools:* Use data conversion tools and utilities to facilitate the migration of shapefile data between different file formats while preserving spatial and attribute information.
+*Data Conversion Tools:* Use data conversion tools and utilities to facilitate the migration of Shapefile data between different file formats while preserving spatial and attribute information.
 
 
 ## What to look for to make sure this file meets FAIR principles
 
-Ensuring that shapefile data adheres to the FAIR principles (Findable, Accessible, Interoperable, and Reusable) is essential for maximizing its value and impact within the GIS (Geographic Information Systems) community. Here's a session dedicated to outlining key considerations for evaluating shapefile data to ensure compliance with FAIR principles:
+Ensuring that Shapefile data adheres to the FAIR principles (Findable, Accessible, Interoperable, and Reusable) is essential for maximizing its value and impact within the GIS (Geographic Information Systems) community. Here's a session dedicated to outlining key considerations for evaluating Shapefile data to ensure compliance with FAIR principles:
 
 ### Findable
 
-*Descriptive Metadata:* Assess whether the shapefile data is accompanied by comprehensive metadata that provides detailed descriptions of its content, purpose, spatial extent, attributes, and provenance. 
+*Descriptive Metadata:* Assess whether the Shapefile data is accompanied by comprehensive metadata that provides detailed descriptions of its content, purpose, spatial extent, attributes, and provenance. 
 
-*Persistent Identifiers:* Verify the presence of persistent identifiers, such as DOIs (Digital Object Identifiers) or URLs, that uniquely identify the shapefile dataset and facilitate its discovery and citation in data repositories.
+*Persistent Identifiers:* Verify the presence of persistent identifiers, such as DOIs (Digital Object Identifiers) or URLs, that uniquely identify the Shapefile dataset and facilitate its discovery and citation in data repositories.
 
 ### Accessible
 
-*Open Access Policies:* Ensure that shapefile data is made openly accessible to users without unnecessary restrictions or barriers, adhering to open access policies and licensing agreements.
+*Open Access Policies:* Ensure that Shapefile data is made openly accessible to users without unnecessary restrictions or barriers, adhering to open access policies and licensing agreements.
 
-*Data Repositories:* Check if the shapefile dataset is deposited in trusted data repositories or archives that provide reliable access mechanisms, such as download links, APIs (Application Programming Interfaces), or web services.
+*Data Repositories:* Check if the Shapefile dataset is deposited in trusted data repositories or archives that provide reliable access mechanisms, such as download links, APIs (Application Programming Interfaces), or web services.
 
 ### Interoperable
 
-*Standardized Formats:* Evaluate whether the shapefile data is stored in standardized formats that are widely supported and interoperable with various GIS software and systems, such as ESRI Shapefile or GeoPackage.
+*Standardized Formats:* Evaluate whether the Shapefile data is stored in standardized formats that are widely supported and interoperable with various GIS software and systems, such as ESRI Shapefile or GeoPackage.
 
-*Coordinate Reference Systems (CRS):* Verify that the shapefile data is georeferenced using standard coordinate reference systems and projections, enabling seamless integration with other spatial datasets.
+*Coordinate Reference Systems (CRS):* Verify that the Shapefile data is georeferenced using standard coordinate reference systems and projections, enabling seamless integration with other spatial datasets.
 
 ### Reusable
 
-*Licensing Information:* Review the licensing terms associated with the shapefile data to determine the permissions and conditions for its reuse, redistribution, and modification by users.
+*Licensing Information:* Review the licensing terms associated with the Shapefile data to determine the permissions and conditions for its reuse, redistribution, and modification by users.
 
-*Data Quality Assurance:* Assess the quality and reliability of the shapefile data by examining metadata completeness, spatial accuracy, attribute consistency, and adherence to relevant standards.
+*Data Quality Assurance:* Assess the quality and reliability of the Shapefile data by examining metadata completeness, spatial accuracy, attribute consistency, and adherence to relevant standards.
 
 ### Additional Considerations
 
-*Versioning and Provenance:* Look for versioning information and provenance records that document the history of changes, updates, and transformations applied to the shapefile dataset over time.
+*Versioning and Provenance:* Look for versioning information and provenance records that document the history of changes, updates, and transformations applied to the Shapefile dataset over time.
 
-*Data Documentation:* Ensure that the shapefile data is accompanied by comprehensive documentation, including data dictionaries, field descriptions, processing methodologies, and data transformation records.
+*Data Documentation:* Ensure that the Shapefile data is accompanied by comprehensive documentation, including data dictionaries, field descriptions, processing methodologies, and data transformation records.
 
 ### Tools and Resources
 
-*FAIR Assessment Tools:* Explore FAIR assessment tools and frameworks, such as FAIRshake or FAIR Metrics, that provide structured methodologies for evaluating the compliance of shapefile data with FAIR principles.
+*FAIR Assessment Tools:* Explore FAIR assessment tools and frameworks, such as FAIRshake or FAIR Metrics, that provide structured methodologies for evaluating the compliance of Shapefile data with FAIR principles.
 
 *Community Guidelines:* Refer to community guidelines, best practices, and case studies developed by the GIS community to promote FAIR data sharing and stewardship in the context of spatial data.
 
 ## Ways in which fields may use this format
 
-The shapefile format is widely used across various fields due to its versatility, compatibility, and support for spatial data representation. Here's a session exploring the diverse ways in which fields may utilize the shapefile format:
+The Shapefile format is widely used across various fields due to its versatility, compatibility, and support for spatial data representation. Here's a session exploring the diverse ways in which fields may utilize the Shapefile format:
 
 ### Geographic Information Systems (GIS):
 *Spatial Analysis:* Shapefiles are fundamental to GIS applications, enabling spatial analysis tasks such as proximity analysis, spatial interpolation, and overlay operations.
 
-*Mapping and Visualization:* GIS professionals use shapefiles to create maps, visualize spatial patterns, and communicate geographic information effectively to stakeholders.
+*Mapping and Visualization:* GIS professionals use Shapefiles to create maps, visualize spatial patterns, and communicate geographic information effectively to stakeholders.
 
 ### Environmental Science and Natural Resource Management:
 
 *Habitat Mapping:* Shapefiles are utilized for habitat mapping, species distribution modeling, and biodiversity assessment in environmental science research.
 
-*Resource Management:* Natural resource management agencies use shapefiles to delineate land use zones, manage protected areas, and monitor environmental change over time.
+*Resource Management:* Natural resource management agencies use Shapefiles to delineate land use zones, manage protected areas, and monitor environmental change over time.
 
 ### Urban Planning and Transportation:
 
 *Urban Development:* Shapefiles are employed in urban planning to analyze land use patterns, assess infrastructure needs, and support urban growth management.
 
-*Transportation Planning:* Transportation agencies utilize shapefiles for route planning, traffic analysis, and infrastructure development in urban and regional contexts.
+*Transportation Planning:* Transportation agencies utilize Shapefiles for route planning, traffic analysis, and infrastructure development in urban and regional contexts.
 
 ### Public Health and Epidemiology:
 
 *Disease Mapping:* Shapefiles are used for disease mapping, spatial epidemiology, and outbreak analysis to identify geographic patterns and hotspots of disease transmission.
 
-*Healthcare Access:* Public health researchers leverage shapefiles to assess healthcare access, service availability, and disparities in healthcare provision across geographic areas.
+*Healthcare Access:* Public health researchers leverage Shapefiles to assess healthcare access, service availability, and disparities in healthcare provision across geographic areas.
 
 ### Agriculture and Rural Development:
 
 *Precision Agriculture:* Shapefiles support precision agriculture techniques, including crop yield mapping, soil fertility analysis, and variable rate application of inputs.
 
-*Rural Planning:* Agricultural extension services utilize shapefiles to plan rural development projects, assess land suitability for farming, and manage agricultural land parcels.
+*Rural Planning:* Agricultural extension services utilize Shapefiles to plan rural development projects, assess land suitability for farming, and manage agricultural land parcels.
 
 ### Archaeology and Cultural Heritage Management:
 
-*Site Documentation:* Archaeologists use shapefiles for site documentation, cultural resource management, and spatial analysis of archaeological sites and artifacts.
+*Site Documentation:* Archaeologists use Shapefiles for site documentation, cultural resource management, and spatial analysis of archaeological sites and artifacts.
 
-*Heritage Preservation:* Cultural heritage agencies employ shapefiles to inventory, document, and preserve historic sites, monuments, and cultural landscapes.
+*Heritage Preservation:* Cultural heritage agencies employ Shapefiles to inventory, document, and preserve historic sites, monuments, and cultural landscapes.
 
 ### Disaster Management and Emergency Response:
 
 *Risk Assessment:* Shapefiles support disaster risk assessment, hazard mapping, and vulnerability analysis to mitigate the impacts of natural disasters and climate-related events.
 
-*Emergency Planning:* Emergency management agencies use shapefiles for emergency planning, evacuation route mapping, and resource allocation during disaster response operations.
+*Emergency Planning:* Emergency management agencies use Shapefiles for emergency planning, evacuation route mapping, and resource allocation during disaster response operations.
 
 ## Unresolved Issues/Further Questions 
 
 ### Long-Term Preservation and Accessibility
 
-*Issue:* Ensuring the long-term preservation and accessibility of shapefile data poses challenges related to format obsolescence, data migration, and evolving technological landscapes.
+*Issue:* Ensuring the long-term preservation and accessibility of Shapefile data poses challenges related to format obsolescence, data migration, and evolving technological landscapes.
 
-*Further Questions:* What strategies and best practices can be implemented to safeguard shapefile data against format obsolescence and ensure its accessibility and usability for future generations? How can advancements in data preservation technologies and standards be leveraged to address these challenges?
+*Further Questions:* What strategies and best practices can be implemented to safeguard Shapefile data against format obsolescence and ensure its accessibility and usability for future generations? How can advancements in data preservation technologies and standards be leveraged to address these challenges?
 
 ### Tracking Provenance of Data Creation
 
 *Issue:* Maintaining a comprehensive record of data creation processes, including data collection methodologies, transformation steps, and quality control measures, remains a challenge.
 
-*Further Questions:* How can we implement standardized frameworks for tracking the provenance of shapefile data creation across different organizations and projects? What tools and technologies can facilitate the capture and documentation of data lineage information?
+*Further Questions:* How can we implement standardized frameworks for tracking the provenance of Shapefile data creation across different organizations and projects? What tools and technologies can facilitate the capture and documentation of data lineage information?
 
 ### Level of Detail in Dataset
 
-*Issue:* Determining the appropriate level of detail for shapefile datasets can be subjective and context-dependent, leading to variations in dataset granularity and usability.
+*Issue:* Determining the appropriate level of detail for Shapefile datasets can be subjective and context-dependent, leading to variations in dataset granularity and usability.
 
-*Further Questions:* How can we establish guidelines or standards for defining the level of detail in shapefile datasets based on specific applications and user requirements? What methods can be employed to balance data granularity with storage and processing considerations?
+*Further Questions:* How can we establish guidelines or standards for defining the level of detail in Shapefile datasets based on specific applications and user requirements? What methods can be employed to balance data granularity with storage and processing considerations?
 
 ## Documentation of curation process: What to capture from curation process
 
 
 ## Warnings
 
-* Shapefiles are composed of multiple files (see *Description of Format* above), some of which are **required, required if present\[Should this be required and required if present? LH\]** in the collection of files generated by a specific process or tool, or optional. If all *required* files are not included in the full set of files preserved/shared, the shapefile may be missing critical content and potentially damaged beyond use. Shapefiles are often shared/distributed as Zip archives to reduce the liklihood of individual Shapefile file components becoming separatd from the file collection that makes up a Shapefile. 
+* Shapefiles are composed of multiple files (see *Description of Format* above), some of which are **required, required if present\[Should this be required and required if present? LH\]** in the collection of files generated by a specific process or tool, or optional. If all *required* files are not included in the full set of files preserved/shared, the Shapefile may be missing critical content and potentially damaged beyond use. Shapefiles are often shared/distributed as Zip archives to reduce the liklihood of individual Shapefile file components becoming separatd from the file collection that makes up a Shapefile. 
 * While the attribute data for a Shapefile is stored in a DBF file (a common tabular data format supported by many databases and potentially editable in those and other tools) opening and modifying the attribute file (ending in ".dbf") can break the linkages between the rows in the attribute table and the corresponding features stored in other parts of the Shapefile. **Do not** edit the the attribute table DBF file outside of a tool that is specifically designed to work with Shapefiles as a whole. 
 
 ## Appendix A - filetype CURATED checklist
