@@ -10,8 +10,8 @@
 - [x] Add section on using QGIS to inspect Shapefiles.
 - [x] Check other GIS primers for data citation suggestions and add as needed.
 - [x] Move GIS Shapefile repositories section under paragraph on registries, clearinghouses, and trusted repositories.
-- [ ] **I'v got a question: do we want dataset or data set?**
-- [ ] Verify that dataset or data set is spelled consistently.
+- [ ] **I'v got a question: do we want dataset or dataset?**
+- [ ] Verify that dataset or dataset is spelled consistently.
 - [ ] **I'v got a question: do we want title or sentence capitalization for headings?**
 - [ ] Verify that heading capitalization is consistent.
 - [ ] **I'v got a question: do we want to capitalize Shapefile?**
@@ -218,7 +218,7 @@ For examples of descriptions of lineage and tools used to create the Shapefiles,
 
 **What dates do the geospatial data cover (e.g, cities, states, countries)? Is this data supposed to be historical or current?**
 
-**What kind of documentation or metadata about your data, data sets, or files has been created?**
+**What kind of documentation or metadata about your data, datasets, or files has been created?**
 
 
 ## Applicable metadata standard, core elements and readme requirements
@@ -238,7 +238,7 @@ Key metadata elements that should be included in what could be considered a "com
 > Identification information: information that allows the geospatial dataset to be uniquely identified
 and distinguished from other datasets (e.g., name of the dataset, keywords, basic description and
 geographic extents) and assists in cataloging the geospatial dataset.
-> * *Data quality information*: information that could include completeness of the data set, processes used to create and maintain it, and the amount of validation or verification performed on the dataset.
+> * *Data quality information*: information that could include completeness of the dataset, processes used to create and maintain it, and the amount of validation or verification performed on the dataset.
 > * *Spatial data representation information*: information that could include precision and accuracy of vector geometry or the resolution of raster data.
 > * *Non-spatial (attribute or tabular) data information*: information about the attribute data associated with features in geospatial data in vector format, or attribute data associated with cells of geospatial data in raster format. This could include the meaning of attribute names, valid values, domain or range for attribute values, and method used to collect and update attribute values.
 > * *Distribution information*: information that can be used to govern the distribution of the geospatial dataset, including the identity of the organization creating and maintaining the dataset, and date the dataset was published or made available to the public.
