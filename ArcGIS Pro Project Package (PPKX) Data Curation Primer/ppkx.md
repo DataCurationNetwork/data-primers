@@ -101,13 +101,11 @@ other words, you can open packages saved for version 1.X in version 2.X,
 
 - [An Experimental Study of Drainage Network Development by Surface and Subsurface Flow in Low-Gradient Landscapes Raster Datasets](https://doi.org/10.13020/7a27-tg76)[^7] - Version 2.X Includes five maps, geodatabases, shapefiles, and tiffs
 
-
-
 - [Explore Climate Projections](https://arc-gis-hub-home-arcgishub.hub.arcgis.com/content/01bb69f1466d4d2490183b31cad54210/about)[^8] Version 2.X Includes a map, toolbox/model, geodatabase, and attachments (netCDFs and .doc)
 
 ## Key questions to ask yourself
 
-- <span class="mark">What components are present in this package (ie. maps, data, toolboxes, additional documents)? Is it clear how the components are related to one another?</span>
+- What components are present in this package (ie. maps, data, toolboxes, additional documents)? Is it clear how the components are related to one another?
 
 - What documentation has the researcher provided? Do the names used in the documentation match the file names or the data layers as viewed through ArcGIS Pro? (See [Applicable metadata standard, core elements and readme requirements](#applicable-metadata-standard-core-elements-and-readme-requirements) and [Preservation actions](#preservation-actions) for discussion)
 
