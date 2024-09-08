@@ -439,6 +439,6 @@ The Shapefile format is widely used across various fields due to its versatility
 
 **Do we want to remove Appendix A?**
 ----------------
-Suggested Citation: Battista, Andrew; Brittnacher, Tom; Garrett, Zenobie; Moore, Jennifer; Pirmann, Carrie. (2019). GeoDatabase Data Curation Primer. [Data Curation Network GitHub Repository](https://github.com/DataCurationNetwork/data-primers.)
+Suggested Citation: Benedict, Karl; Hjerpe, Laura; Wang, Wenjie. (2024). Shapefile Data Curation Primer. [Data Curation Network GitHub Repository](https://github.com/DataCurationNetwork/data-primers.)
 
 *This work was created as part of the Data Curation Network ...*
