@@ -443,7 +443,7 @@ Suggested Citation: Benedict, Karl; Hjerpe, Laura; Ranganath, Aditya; Wang, Wenj
 
 *This work was created as part of the Data Curation Network ...*
 
-##Bibliography
+## Bibliography
 
   Account Login - ArcGIS Online. Retrieved September 17, 2024, from https://www.arcgis.com/index.html
   ANZLI Committee on Surveying and Mapping. (2019). ICSM ISO19115-1 Metadata Good Practice Guide. https://www.icsm.gov.au/sites/default/files/5a-Good%20Practice%20document.pdf
