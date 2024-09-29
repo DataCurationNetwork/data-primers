@@ -445,64 +445,66 @@ Suggested Citation: Benedict, Karl; Hjerpe, Laura; Ranganath, Aditya; Wang, Wenj
 
 ## Bibliography
 
-  Account Login - ArcGIS Online. Retrieved September 17, 2024, from https://www.arcgis.com/index.html
-  ANZLI Committee on Surveying and Mapping. (2019). ICSM ISO19115-1 Metadata Good Practice Guide. https://www.icsm.gov.au/sites/default/files/5a-Good%20Practice%20document.pdf
-  Census Bureau. TIGER/Line Shapefiles. Census.Gov. Retrieved September 17, 2024, from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
-  Chen, W., & Levinson, D. M. (2014). 1958 Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission, GIS Data Files. Data Repository for the University of Minnesota (DRUM). https://doi.org/10.13020/D6059J
-  Federal Geographic Data Committee. GeoPlatform.gov | Making Federal Geospatial FAIR. Retrieved September 17, 2024, from https://www.geoplatform.gov
-  Coordinate systems, map projections, and transformations. Esri. https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm
-  CoreTrustSeal. Retrieved September 17, 2024, from https://www.coretrustseal.org/
-  Create ISO 19115 and ISO 19139 metadata. Esri. Retrieved September 8, 2024, from https://pro.arcgis.com/en/pro-app/latest/help/metadata/create-iso-19115-and-iso-19139-metadata.htm
-  Creating Metadata. NOAA National Centers for Environmental Information. Retrieved September 8, 2024, from https://www.ncei.noaa.gov/resources/metadata/creat 
-  Data Management. Data Citation. USGS. Retrieved September 7, 2024, from https://www.usgs.gov/data-management/data-citation#elements
-  Data Management. Metadata Creation. USGS. Retrieved September 8, 2024, from https://www.usgs.gov/data-management/metadata-creation
-  Data.gov Home - Data.gov. Retrieved September 17, 2024, from https://data.gov/
-  Dataset - Catalog. Retrieved September 17, 2024, from https://catalog.data.gov/dataset/?metadata_type=geospatial
-  Documentation for QGIS 3.34. Retrieved August 22, 2024, from https://docs.qgis.org/3.34/en/docs/index.html#
-  Download · QGIS Web Site. Retrieved September 17, 2024, from https://qgis.org/download/
-  Environmental Systems Research Institute (ESRI). (1998). ESRI Shapefile Technical Description. https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf
-  ESIP Data Preservation and Stewardship Committee. (2019). Data Citation Guidelines for Earth Science Data , Version 2. ESIP. https://doi.org/10.6084/M9.FIGSHARE.8441816
-  ESRI Shapefile. (2020, May 29). [Web page]. https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml
-  ESRI Shapefile Technical Description. (1998). Environmental Systems Research Institute, Inc., Redlands, CA, USA. https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf
-  FAIR Principles. https://www.go-fair.org/fair-principles/
-  Federal Geographic Data Committee. Geospatial Metadata Standards and Guidelines. FGDC.Gov. Retrieved September 7, 2024, from https://www.fgdc.gov/metadata/geospatial-metadata-standards
-  Federal Geographic Data Committee. (2022). FGDC Technical Guidance: Data.gov and The GeoPlatform
+Account Login - ArcGIS Online. Retrieved September 17, 2024, from https://www.arcgis.com/index.html
+ANZLI Committee on Surveying and Mapping. (2019). ICSM ISO19115-1 Metadata Good Practice Guide. https://www.icsm.gov.au/sites/default/files/5a-Good%20Practice%20document.pdf
+Census Bureau. TIGER/Line Shapefiles. Census.Gov. Retrieved September 17, 2024, from https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+Chen, W., & Levinson, D. M. (2014). 1958 Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission, GIS Data Files. Data Repository for the University of Minnesota (DRUM). https://doi.org/10.13020/D6059J
+Federal Geographic Data Committee. GeoPlatform.gov | Making Federal Geospatial FAIR. Retrieved September 17, 2024, from https://www.geoplatform.gov
+Coordinate systems, map projections, and transformations. Esri. https://pro.arcgis.com/en/pro-app/latest/help/mapping/properties/coordinate-systems-and-projections.htm
+CoreTrustSeal. Retrieved September 17, 2024, from https://www.coretrustseal.org/
+Create ISO 19115 and ISO 19139 metadata. Esri. Retrieved September 8, 2024, from https://pro.arcgis.com/en/pro-app/latest/help/metadata/create-iso-19115-and-iso-19139-metadata.htm
+Creating Metadata. NOAA National Centers for Environmental Information. Retrieved September 8, 2024, from https://www.ncei.noaa.gov/resources/metadata/creat 
+Data Management. Data Citation. USGS. Retrieved September 7, 2024, from https://www.usgs.gov/data-management/data-citation#elements
+Data Management. Metadata Creation. USGS. Retrieved September 8, 2024, from https://www.usgs.gov/data-management/metadata-creation
+Data.gov Home - Data.gov. Retrieved September 17, 2024, from https://data.gov/
+Dataset - Catalog. Retrieved September 17, 2024, from https://catalog.data.gov/dataset/?metadata_type=geospatial
+Documentation for QGIS 3.34. Retrieved August 22, 2024, from https://docs.qgis.org/3.34/en/docs/index.html#
+Download · QGIS Web Site. Retrieved September 17, 2024, from https://qgis.org/download/
+Environmental Systems Research Institute (ESRI). (1998). ESRI Shapefile Technical Description. https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf
+ESIP Data Preservation and Stewardship Committee. (2019). Data Citation Guidelines for Earth Science Data , Version 2. ESIP. https://doi.org/10.6084/M9.FIGSHARE.8441816
+ESRI Shapefile. (2020, May 29). [Web page]. https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml
+ESRI Shapefile Technical Description. (1998). Environmental Systems Research Institute, Inc., Redlands, CA, USA. https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf
+FAIR Principles. https://www.go-fair.org/fair-principles/
+Federal Geographic Data Committee. Geospatial Metadata Standards and Guidelines. FGDC.Gov. Retrieved September 7, 2024, from https://www.fgdc.gov/metadata/geospatial-metadata-standards
+Federal Geographic Data Committee. (2022). FGDC Technical Guidance: Data.gov and The GeoPlatform
 https://www.fgdc.gov/technical-guidance/metadata/fgdc-technical-guidance-datagov-geoplatform-ngda.pdf
-  Geoprocessing considerations for shapefile output (latest version) | from ArcGIS Desktop Help. ArcGIS Desktop. Retrieved August 21, 2024, from https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm
-  GeoServer. Retrieved September 17, 2024, from https://geoserver.org/
-  Geospatial Information Network. Big Ten Academic Alliance. Retrieved September 17, 2024, from https://btaa.org/library/programs-and-services/geoportal
-  Geospatial Metadata Standards and Guidelines — Federal Geographic Data Committee. [Page]. Retrieved August 21, 2024, from https://www.fgdc.gov/metadata/geospatial-metadata-standards
-  GIS Mapping Software, Location Intelligence & Spatial Analytics | Esri. Retrieved September 17, 2024, from https://www.esri.com/en-us/home
-  GRASS GIS. (2024, August 2). https://grass.osgeo.org/
-  Habermann, T. (2020, December 28). Minimum Metadata. Metadata Game Changers. https://doi.org/10.59350/kanrj-qt678
-  Hatfield Consultants. (2020). Canadian Geospatial Data Infrastructure Cookbook. Natural Resources Canada. https://doi.org/10.4095/328063
-  Homepage | IPUMS. Retrieved September 17, 2024, from https://www.ipums.org/
-  Intergovernmental Committee on Surveying & Mapping. (2019). ICSM ISO19115-1 Metadata Good Practice Guide. https://www.icsm.gov.au/sites/default/files/5a-Good%20Practice%20document.pdf
-  Introduction to GeoPandas — GeoPandas. Retrieved September 17, 2024, from https://geopandas.org/en/stable/getting_started/introduction.html
-  IPUMS NHGIS | National Historical Geographic Information System. Retrieved September 17, 2024, from https://www.nhgis.org/
-  ISO 19115 – Metadata Standards Catalog. Retrieved August 21, 2024, from https://rdamsc.bath.ac.uk/msc/m22
-  ISO 19115-1 Geographic information — Metadata — Part 1: Fundamentals. Retrieved September 17, 2024, from https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html
-  Library of Congress. (2020, May 29). ESRI Shapefile [Web page]. Sustainability of Digital Formats: Planning for Library of Congress Collections. https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml
-  Martone, M., (ed. ) & Data Citation Synthesis Group. (2014). Joint Declaration of Data Citation Principles. FORCE11, San Diego CA USA. https://doi.org/10.25490/a97f-egyk
-  Media Types. Retrieved September 17, 2024, from https://www.iana.org/assignments/media-types/media-types.xhtml
-  Mennis, J., & Yuen, K. (2023). Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865. Harvard Dataverse. https://doi.org/10.7910/DVN/KPILKU
-  Metadata Creation | U.S. Geological Survey. Retrieved August 21, 2024, from https://www.usgs.gov/data-management/metadata-creation
-  National Centers for Environmental Information (NCEI). Creating Metadata. Retrieved August 21, 2024, from https://www.ncei.noaa.gov/resources/metadata/create
-  NM RGIS – New Mexico Resource Geographic Information System Program. Retrieved September 17, 2024, from https://rgis.unm.edu/
-  North American Profile of ISO19115:2003 - Geographic information – Metadata. (2007). https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf
-  Office of Science Quality and Integrity. (2022, January). Fundamental Science Practices (FSP) Standards for Establishing Trusted Repositories for USGS Digital Assets | U.S. Geological Survey. https://www.usgs.gov/office-of-science-quality-and-integrity/fundamental-science-practices-fsp-standards-establishing
-  Pebesma, E., Bivand, R., Racine, E., Sumner, M., Cook, I., Keitt, T., Lovelace, R., Wickham, H., Ooms, J., Müller, K., Pedersen, T. L., Baston, D., & Dunnington, D. (2024). sf: Simple Features for R (Version 1.0-17). https://cran.r-project.org/web/packages/sf/index.html
-  QGIS Documentation. Retrieved September 8, 2024, from https://docs.qgis.org/3.34/en/docs/index.html#
-  QGIS-Training-Data. https://github.com/qgis/QGIS-Training-Data/archive/master.zip
-  Research Data Alliance. ISO 19115. Metadata Standards Catalog. Retrieved September 8, 2024, from https://rdamsc.bath.ac.uk/msc/m22
-  ScienceBase Catalog Home. Retrieved September 17, 2024, from https://www.sciencebase.gov/catalog/#
-  Snow, M. A. (2023). Preserving Geospatial Data, 2nd Edition (DPC Technology Watch  Report, p. 39). Digital Preservation Coalition. http://doi.org/10.7207/twr23-01
-  QGIS. Retrieved September 17, 2024, from https://www.qgis.org/
-  Steve Lime, Thomas Bonfort, Even Rouault, Daniel Morissette, Frank Warmerdam, Tamas Szekeres, Seth G, Sean Gillies, Jeff McKenna, Howard Butler, Tom Kralidis, Stephan Meißl, Umberto Nicoletti, Paul Ramsey, Fabian Schindler, Jérome Boué, Max Kellermann, Bas Couwenberg, Sander Jansen, … Gérald Fenoy. (2024). MapServer 8.2.2 (Version rel-8-2-2). Zenodo. https://doi.org/10.5281/ZENODO.6994443
-  Texas Geographic Information Office. Retrieved September 17, 2024, from https://geographic.texas.gov/
-  TGRSHP2023_TechDoc_Ch1.pdf. Retrieved September 17, 2024, from https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2023/TGRSHP2023_TechDoc_Ch1.pdf
-  Theobald, D. M. (2001). Understanding Topology and Shapefiles. ArcUser Online, April-June. https://www.esri.com/news/arcuser/0401/topo.html
-  Thiede, R., Sutton, T., Düster, H., & Sutton, M. (2024). QGIS Training Manual. Linfiniti Consulting CC. https://docs.qgis.org/3.34/en/docs/training_manual/
-  Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission (1958) - Big Ten Academic Alliance Geoportal. Retrieved September 17, 2024, from https://geo.btaa.org/catalog/b98a7b39-830a-48ca-84c2-06332aaebbb8#metadata
-  uDig : Home. Retrieved September 17, 2024, from http://udig.refractions.net/
-  Understanding Topology and Shapefiles. Retrieved September 17, 2024, from https://www.esri.com/news/arcuser/0401/topo.html
+Geoprocessing considerations for shapefile output (latest version) | from ArcGIS Desktop Help. ArcGIS Desktop. Retrieved August 21, 2024, from https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/geoprocessing-considerations-for-shapefile-output.htm
+GeoServer. Retrieved September 17, 2024, from https://geoserver.org/
+Geospatial Information Network. Big Ten Academic Alliance. Retrieved September 17, 2024, from https://btaa.org/library/programs-and-services/geoportal
+Geospatial Metadata Standards and Guidelines — Federal Geographic Data Committee. [Page]. Retrieved August 21, 2024, from https://www.fgdc.gov/metadata/geospatial-metadata-standards
+GIS Mapping Software, Location Intelligence & Spatial Analytics | Esri. Retrieved September 17, 2024, from https://www.esri.com/en-us/home
+GRASS GIS. (2024, August 2). https://grass.osgeo.org/
+Habermann, T. (2020, December 28). Minimum Metadata. Metadata Game Changers. https://doi.org/10.59350/kanrj-qt678
+Hatfield Consultants. (2020). Canadian Geospatial Data Infrastructure Cookbook. Natural Resources Canada. https://doi.org/10.4095/328063
+Homepage | IPUMS. Retrieved September 17, 2024, from https://www.ipums.org/
+Intergovernmental Committee on Surveying & Mapping. (2019). ICSM ISO19115-1 Metadata Good Practice Guide. https://www.icsm.gov.au/sites/default/files/5a-Good%20Practice%20document.pdf
+Introduction to GeoPandas — GeoPandas. Retrieved September 17, 2024, from https://geopandas.org/en/stable/getting_started/introduction.html
+IPUMS NHGIS | National Historical Geographic Information System. Retrieved September 17, 2024, from https://www.nhgis.org/
+ISO 19115 – Metadata Standards Catalog. Retrieved August 21, 2024, from https://rdamsc.bath.ac.uk/msc/m22
+ISO 19115-1 Geographic information — Metadata — Part 1: Fundamentals. Retrieved September 17, 2024, from https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html
+Library of Congress. (2020, May 29). ESRI Shapefile [Web page]. Sustainability of Digital Formats: Planning for Library of Congress Collections. https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml
+Martone, M., (ed. ) & Data Citation Synthesis Group. (2014). Joint Declaration of Data Citation Principles. FORCE11, San Diego CA USA. https://doi.org/10.25490/a97f-egyk
+Media Types. Retrieved September 17, 2024, from https://www.iana.org/assignments/media-types/media-types.xhtml
+Mennis, J., & Yuen, K. (2023). Geospatial Dataset of Roads and Settlement Features for the Chesapeake Bay Eastern Shore Region of Maryland, USA, 1865. Harvard Dataverse. https://doi.org/10.7910/DVN/KPILKU
+Metadata Creation | U.S. Geological Survey. Retrieved August 21, 2024, from https://www.usgs.gov/data-management/metadata-creation
+National Centers for Environmental Information (NCEI). Creating Metadata. Retrieved August 21, 2024, from https://www.ncei.noaa.gov/resources/metadata/create
+NM RGIS – New Mexico Resource Geographic Information System Program. Retrieved September 17, 2024, from https://rgis.unm.edu/
+North American Profile of ISO19115:2003 - Geographic information – Metadata. (2007). https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf
+Office of Science Quality and Integrity. (2022, January). Fundamental Science Practices (FSP) Standards for Establishing Trusted Repositories for USGS Digital Assets | U.S. Geological Survey. https://www.usgs.gov/office-of-science-quality-and-integrity/fundamental-science-practices-fsp-standards-establishing
+Pebesma, E., Bivand, R., Racine, E., Sumner, M., Cook, I., Keitt, T., Lovelace, R., Wickham, H., Ooms, J., Müller, K., Pedersen, T. L., Baston, D., & Dunnington, D. (2024). sf: Simple Features for R (Version 1.0-17). https://cran.r-project.org/web/packages/sf/index.html
+QGIS Documentation. Retrieved September 8, 2024, from https://docs.qgis.org/3.34/en/docs/index.html#
+QGIS-Training-Data. https://github.com/qgis/QGIS-Training-Data/archive/master.zip
+Research Data Alliance. ISO 19115. Metadata Standards Catalog. Retrieved September 8, 2024, from https://rdamsc.bath.ac.uk/msc/m22
+ScienceBase Catalog Home. Retrieved September 17, 2024, from https://www.sciencebase.gov/catalog/#
+Snow, M. A. (2023). Preserving Geospatial Data, 2nd Edition (DPC Technology Watch  Report, p. 39). Digital Preservation Coalition. http://doi.org/10.7207/twr23-01
+QGIS. Retrieved September 17, 2024, from https://www.qgis.org/
+Steve Lime, Thomas Bonfort, Even Rouault, Daniel Morissette, Frank Warmerdam, Tamas Szekeres, Seth G, Sean Gillies, Jeff McKenna, Howard Butler, Tom Kralidis, Stephan Meißl, Umberto Nicoletti, Paul Ramsey, Fabian Schindler, Jérome Boué, Max Kellermann, Bas Couwenberg, Sander Jansen, … Gérald Fenoy. (2024). MapServer 8.2.2 (Version rel-8-2-2). Zenodo. https://doi.org/10.5281/ZENODO.6994443
+Texas Geographic Information Office. Retrieved September 17, 2024, from https://geographic.texas.gov/
+TGRSHP2023_TechDoc_Ch1.pdf. Retrieved September 17, 2024, from https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2023/TGRSHP2023_TechDoc_Ch1.pdf
+Theobald, D. M. (2001). Understanding Topology and Shapefiles. ArcUser Online, April-June. https://www.esri.com/news/arcuser/0401/topo.html
+Thiede, R., Sutton, T., Düster, H., & Sutton, M. (2024). QGIS Training Manual. Linfiniti Consulting CC. https://docs.qgis.org/3.34/en/docs/training_manual/
+Twin Cities Land Use Map from the Twin Cities Metropolitan Planning Commission (1958) - Big Ten Academic Alliance Geoportal. Retrieved September 17, 2024, from https://geo.btaa.org/catalog/b98a7b39-830a-48ca-84c2-06332aaebbb8#metadata
+uDig : Home. Retrieved September 17, 2024, from http://udig.refractions.net/
+Understanding Topology and Shapefiles. Retrieved September 17, 2024, from https://www.esri.com/news/arcuser/0401/topo.html
+
+ 
