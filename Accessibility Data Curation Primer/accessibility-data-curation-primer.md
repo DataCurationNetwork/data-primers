@@ -2,7 +2,7 @@
 
 # Accessibility Data Primer
 
-Authors: Emily Oxford and Rachel Woodbrook (woodbr@umich.edu)
+Authors: Emily Oxford, Rachel Woodbrook (woodbr@umich.edu), and Brandie Pullen
 
 DCN Mentors: Wendy Kozlowski, Cornell University
 
@@ -14,13 +14,13 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 | Key questions for curation review| <li>What types of files and data are included in the dataset? What types of accessibility considerations apply or are most relevant to ensure for the dataset? </li><li>What are the applicable accessibility best practices for the dataset or file format(s)? If none exist, what alternative practices can be used to make the data set or file formats more accessible?</li><li>Are appropriate metadata present in the right format and location (including metadata on accessibility, where needed)?</li><li>Has the dataset been tested for accessibility using an assistive technology, built-in accessibility checker, or web-based or other accessibility checker?</li> |
 | Tools for curation review | <li>[Assistive technologies](https://www.atia.org/home/at-resources/what-is-at/) (e.g., screen readers, text to voice, zoom capability)[^1] that may be available for individual machines.</li><li>Accessibility checkers built into specific software (e.g., Word products, Adobe Acrobat)</li><li>Published standards (such as [WCAG](https://www.w3.org/TR/WCAG21/),[^2] those endorsed by [DAISY](https://daisy.org/activities/standards/),[^3] [Crossref](https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/),[^4] etc.)</li><li>Online tools (for examples see [Appendix C](#appendix-c-freely-available-tools))</li><li>Accessibility experts (e.g., campus accessibility offices or centers) and users with disabilities.[^5]</li> |
 | Date Created | 2023-03-01 |
-| Created by | Emily Oxford<br> Rachel Woodbrook - University of Michigan <br><br> DCN Mentor - Wendy Kozwloski – Cornell University  |
+| Created by | Emily Oxford<br> Rachel Woodbrook - University of Michigan <br> Brandie Pullen - Virginia Tech <br><br> DCN Mentor - Wendy Kozwloski – Cornell University  |
 | Date updated and summary of changes made | Please see README  |
 
 
 
 ----------------------------
-**Suggested Citation:** Oxford, Emily and Woodbrook, Rachel. (2023). Accessibility Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+**Suggested Citation:** Oxford, Emily, Woodbrook, Rachel, and Pullen, Brandie. (2024). Accessibility Data Curation Primer, version 2. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 **Acknowledgements:** The authors would like to thank the University of Michigan’s IT Accessibility Team and U-M Library Accessibility, who assisted in providing expertise by participating in interviews as background for the primer: Jane Berliss-Vincent, Phil Deaton, Gonzalo Silverio, Darrell Williams, Stephanie Rosen and Jon McGlone. Thank you also to Hannah Hadley, who coordinated the drafting and first review process; and to Mikala Narlock, who facilitated the second review. Finally, thank you to the peer reviewers who participated in helping prepare this document for public release, including Stephanie Rosen, Jane Berliss-Vincent, Sebastien Karcher, Abigail Goben, and Randy Colón.
 

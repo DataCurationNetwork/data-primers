@@ -5,7 +5,7 @@ V2.0
 CC BY 4.0
 
 **Citation:**
-Oxford, Emily, Woodbrook, Rachel, and Pollen, Brandie. (2024). Accessibility Data Curation Primer, version 2. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+Oxford, Emily, Woodbrook, Rachel, and Pullen, Brandie. (2024). Accessibility Data Curation Primer, version 2. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 Version:
 
