@@ -2,7 +2,7 @@
 
 # Accessibility Data Primer
 
-Authors: Emily Oxford and Rachel Woodbrook (woodbr@umich.edu)
+Authors: Emily Oxford, Rachel Woodbrook (woodbr@umich.edu), and Brandie Pullen
 
 DCN Mentors: Wendy Kozlowski, Cornell University
 
@@ -14,13 +14,13 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 | Key questions for curation review| <li>What types of files and data are included in the dataset? What types of accessibility considerations apply or are most relevant to ensure for the dataset? </li><li>What are the applicable accessibility best practices for the dataset or file format(s)? If none exist, what alternative practices can be used to make the data set or file formats more accessible?</li><li>Are appropriate metadata present in the right format and location (including metadata on accessibility, where needed)?</li><li>Has the dataset been tested for accessibility using an assistive technology, built-in accessibility checker, or web-based or other accessibility checker?</li> |
 | Tools for curation review | <li>[Assistive technologies](https://www.atia.org/home/at-resources/what-is-at/) (e.g., screen readers, text to voice, zoom capability)[^1] that may be available for individual machines.</li><li>Accessibility checkers built into specific software (e.g., Word products, Adobe Acrobat)</li><li>Published standards (such as [WCAG](https://www.w3.org/TR/WCAG21/),[^2] those endorsed by [DAISY](https://daisy.org/activities/standards/),[^3] [Crossref](https://www.crossref.org/blog/accessibility-for-crossref-doi-links-call-for-comments-on-proposed-new-guidelines/),[^4] etc.)</li><li>Online tools (for examples see [Appendix C](#appendix-c-freely-available-tools))</li><li>Accessibility experts (e.g., campus accessibility offices or centers) and users with disabilities.[^5]</li> |
 | Date Created | 2023-03-01 |
-| Created by | Emily Oxford<br> Rachel Woodbrook - University of Michigan <br><br> DCN Mentor - Wendy Kozwloski – Cornell University  |
+| Created by | Emily Oxford<br> Rachel Woodbrook - University of Michigan <br> Brandie Pullen - Virginia Tech <br><br> DCN Mentor - Wendy Kozwloski – Cornell University  |
 | Date updated and summary of changes made | Please see README  |
 
 
 
 ----------------------------
-**Suggested Citation:** Oxford, Emily and Woodbrook, Rachel. (2023). Accessibility Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+**Suggested Citation:** Oxford, Emily, Woodbrook, Rachel, and Pullen, Brandie. (2024). Accessibility Data Curation Primer, version 2. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 **Acknowledgements:** The authors would like to thank the University of Michigan’s IT Accessibility Team and U-M Library Accessibility, who assisted in providing expertise by participating in interviews as background for the primer: Jane Berliss-Vincent, Phil Deaton, Gonzalo Silverio, Darrell Williams, Stephanie Rosen and Jon McGlone. Thank you also to Hannah Hadley, who coordinated the drafting and first review process; and to Mikala Narlock, who facilitated the second review. Finally, thank you to the peer reviewers who participated in helping prepare this document for public release, including Stephanie Rosen, Jane Berliss-Vincent, Sebastien Karcher, Abigail Goben, and Randy Colón.
 
@@ -72,6 +72,8 @@ DCN Mentors: Wendy Kozlowski, Cornell University
 
 [Appendix C: Freely available tools](#appendix-c-freely-available-tools)
 > [Specific tools](#specific-tools) <br> [Collections of tools or general guidance](#collections-of-tools-or-general-guidance)
+
+[Appendix D: Basic Data Accessibility Checks](#appendix-d-basic-data-accessibility-checks)
 
 [Bibliography](#bibliography)
 
@@ -443,6 +445,158 @@ The Section 508 site of the U.S. General Services Administration includes many i
 
 The University of Washington’s Accessibility site provides various guidelines and resources under its [Make Digital Content Accessible](https://www.washington.edu/accessibility) section (see the “Make Things Accessible” dropdown in particular)
 
+
+# Appendix D: Basic Data Accessibility Checks
+
+This tool is meant to provide a quick start to
+increasing the accessibility of research data. This checklist deals with
+digital content only and is [based on DCN’s Accessibility
+Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Accessibility%20Data%20Curation%20Primer/accessibility-data-curation-primer.md).
+This is not an exhaustive list. There is more you can do for
+accessibility, this is just a starting point. Refer to the full primer
+for more guidance.
+
+### All types of data considerations:
+
+- Clear file structure and organization
+
+- Give each file a name related to what it is
+
+  - e.g. no filenames like ‘data’ or ‘file 3’
+
+### Text: 
+
+Text content should be organized and formatted in a way that supports
+step-by-step understanding by both humans and machines.
+
+- [Use one of the recommended fonts for web accessibility:](https://www.siteimprove.com/glossary/accessible-fonts/)
+
+  - Tahoma, Calibri, Helvetica, Arial, Verdana, or Times New Roman
+
+- Use the software’s built-in tools to check document accessibility.
+
+  - [Microsoft Word](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Newer_Mac_versions) → Review → Check Accessibility
+
+  - [Adobe Acrobat](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html) → All Tools → View More → Prepare for Accessibility
+
+- Remove images of text, if possible. If not, provide plain text nearby within the document.
+
+- Formatting such as tables should be necessary and created structurally within the document, not just visually.
+
+- Images within text documents should be described with [alternative text](https://webaim.org/techniques/alttext/) or within the document near the image
+
+  - For example, image above is of… image below is of….
+
+- Do not use solely visual aspects of text documents to convey meaning
+
+  - e.g. don't use red and green to indicate bad and good respectively, without another way to access the information.
+
+- Within the whole of the document, [embed hyperlinks to unique word phrases](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/links/link-text-needs-to-be-uniquely-identifiable-within-the-page/)
+
+  - If you have the phrase “Virginia Tech Data Repository” hyperlinked in your document, do not hyperlink the same phrase elsewhere in the document with a new destination.
+
+### Tabular (data in rows and columns): 
+
+As a simple and open file format, Comma- or
+Tab-Separated Value (CSV/TSV) formats are not only best for
+preservation, but for accessibility as well.
+
+- Within spreadsheet applications, every cell should hold only one data point.
+
+- Do not merge cells.
+
+- Have column and row names that are both clear and meaningful.
+
+- Text should be left-aligned and numbers right-aligned.
+
+- If your spreadsheet has visualizations, include alt text.
+
+- [Mark all table headers.](https://accessibility.psu.edu/tables/)
+
+### Code: 
+
+Many best practices for ideal code facilitate both
+human and machine readability.
+
+- Document work throughout with comments.
+
+- Include appropriate alt text tags in your code for any visualizations.
+
+- Use camelCase when naming and calling files and variables rather than underscores.
+
+### All Images: All images should come with a text description for people who interact differently with (or do not perceive) visual content. 
+
+- [Provide alt text for images.](http://diagramcenter.org/table-of-contents-2.html#toc)
+
+- If color is important to the image, name the color in the description.
+
+- If possible, provide the underlying data that generated the map, 3D object, or other image.
+
+- [Have a 3:1 contrast ratio between adjacent colors](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html).
+
+### Maps:  
+“Maps” here refers to any visual representation of a geographical space,
+including but not limited to static images of maps, interactive maps,
+and maps generated by GIS software.
+
+- Use a map specific tool to [check for color contrast](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3).
+
+- The key should naturally be explained in the overall description of the map and shouldn’t need a separate section.
+
+- If the map’s land and water are relevant, describe the labeled areas, including their relationship and distance to each other.
+
+### Data visualization:
+
+Visualizations are ways to present and highlight
+patterns, trends and connections using the brain’s ability to visually
+process complexity and take shortcuts not possible when looking at raw
+numbers.
+
+- Describe the visualization so that users can come to their own conclusions from your description of the visualization.
+
+  - For example, if there is a pie chart available, list each section's percentages, not just which section has the highest percentage and what you think that means.
+
+For more information on each section, and even more
+types of data, please see the primer.
+
+Sources for Appendix D:
+
+Alternative Text. WebAIM. (n.d.).
+[https://webaim.org/techniques/alttext/](https://webaim.org/techniques/alttext/)
+
+Brewer, C., Harrower, M., & Pennsylvania State
+University. (n.d.). ColorBrewer : Color Advice for Maps. ColorBrewer.
+[https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+
+Create and verify PDF accessibility (Acrobat Pro).
+Adobe. (2023, October 30).
+[https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html)
+
+How to choose a font for accessibility.
+Siteimprove. (n.d.).
+[https://www.siteimprove.com/glossary/accessible-fonts/](https://www.siteimprove.com/glossary/accessible-fonts/)
+
+Image Description Guidelines. Diagram Center.
+(n.d.).
+[http://diagramcenter.org/table-of-contents-2.html#toc](http://diagramcenter.org/table-of-contents-2.html#toc)
+
+Improve accessibility with the Accessibility
+Checker. Microsoft Support. (n.d.).
+[https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Newer_Mac_versions](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Newer_Mac_versions)
+
+Link text needs to be uniquely identifiable within
+the page. NC State University IT Accessibility. (n.d.).
+[https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/links/link-text-needs-to-be-uniquely-identifiable-within-the-page/](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/links/link-text-needs-to-be-uniquely-identifiable-within-the-page/)
+
+Non-text Contrast (Level AA). w3. (2024, April 4).
+[https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
+
+Oxford, Emily and Woodbrook, Rachel. (2023).
+Accessibility Data Curation Primer. [Data Curation Network GitHub
+Repository.](https://github.com/DataCurationNetwork/data-primers)
+
+Tables. Penn State Accessibility. (n.d.).
+[https://accessibility.psu.edu/tables/](https://accessibility.psu.edu/tables/)
 
 # Bibliography[^116] 
 

@@ -1,13 +1,16 @@
 **Current Version:**  
-V1.3
+V2.0
 
 **License:**  
 CC BY 4.0
 
 **Citation:**
-Oxford, Emily and Woodbrook, Rachel. (2023). Accessibility Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+Oxford, Emily, Woodbrook, Rachel, and Pullen, Brandie. (2024). Accessibility Data Curation Primer, version 2. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
 Version:
+
+V2.0: Summary of changes: adding appendix created by Brandie Pullen and Rachel Woodbrook; updated citation. Updates implemented by Mikala Narlock, October 2024.
+
 V1.3
 
 Summary of changes: updating missing link in PAC 2021 section to link out to tool. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
