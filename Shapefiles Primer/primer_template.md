@@ -10,15 +10,15 @@
 - [x] Add section on using QGIS to inspect Shapefiles.
 - [x] Check other GIS primers for data citation suggestions and add as needed.
 - [x] Move GIS Shapefile repositories section under paragraph on registries, clearinghouses, and trusted repositories.
-- [ ] **I'v got a question: do we want dataset or dataset?**
-- [ ] Verify that dataset or dataset is spelled consistently.
-- [ ] **I'v got a question: do we want title or sentence capitalization for headings?**
-- [ ] Verify that heading capitalization is consistent.
-- [ ] **I'v got a question: do we want to capitalize Shapefile?**
-- [ ] Verify that capitalization of Shapefile or Shapefile is consistent.
-- [ ] Please check Inspecting Shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?
-- [ ] **Add bibliography of resources cited in the text. (Laura & all contribute)**
-- [ ] Add localized CURATED checklist for Appendix A (Karl)
+- [x] **I'v got a question: do we want dataset or dataset?**
+- [x] Verify that dataset or dataset is spelled consistently.
+- [x] **I'v got a question: do we want title or sentence capitalization for headings?**
+- [x] Verify that heading capitalization is consistent.
+- [x] **I'v got a question: do we want to capitalize Shapefile?**
+- [x] Verify that capitalization of Shapefile or Shapefile is consistent.
+- [x] Please check Inspecting Shapefiles with QGIS. Do the steps make sense to you from the perspective of someone who works with GIS data all the time?
+- [x] **Add bibliography of resources cited in the text. (Laura & all contribute)**
+- [x] Add localized CURATED checklist for Appendix A (Karl)
 - [ ] ... additional to-do items go here
 
 ## Overview
