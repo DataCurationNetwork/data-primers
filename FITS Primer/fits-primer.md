@@ -117,7 +117,7 @@ current version is FITS 4.0, released in 2016 and updated in 2018.
 
     - **NAXIS\[...\]**: and so on for every data axis
 
-    - The follow keywords are optional but widely used:
+    - The following keywords are optional but widely used:
 
       - **HISTORY:** This keyword is commonly used to describe the history of steps and procedures associated with the processing of the associated data.
 
@@ -198,11 +198,13 @@ deposited in institutional repositories.
 
 # Key questions to ask yourself
 
-- What type of data is in each FITS file? (i.e. image, table, spectra)
+- How large is the dataset/how many files does it contain?
 
 - What type of object does each file represent? (i.e. star, galaxy, planet)
 
-- How large is the dataset/how many files does it contain?
+- What type of data is in each FITS file? (i.e. image, table, spectra)
+
+- What type of object does each file represent? (i.e. star, galaxy, planet)
 
 - How many extensions does each FITS file have?
 
@@ -220,9 +222,10 @@ deposited in institutional repositories.
 
 - Is there a metadata standard for the objects that are represented? (i.e. star or galaxy identifiers, WCS coordinates)
 
+- If not, does the header for each data unit include sufficient metadata for the data it describes?
+
 - What units of measurement does the author use or indicate in the headers fields, if any?
 
-- If not, does the header for each data unit include sufficient metadata for the data it describes?
 
 # Key clarifications to get from researcher 
 
