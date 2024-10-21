@@ -2,7 +2,7 @@
 
 # FITS Primer 
 
-Authors:
+Authors: Lubov McKone - Johns Hopkins, Robyn DeRocchis - Burrell College of Osteopathic Medicine, Rebecca Orozco - United States Air Force Academy
 
 Mentor: Rachel Woodbrook
 
@@ -13,10 +13,8 @@ Peer reviewers: Michael Lenard; Henrik Spoon; Jon Wheeler
 |   Topic   |   Description   |
 | :------------- | :------------- |
 | File Extension | .fits, .fit. fts |
-| MIME Type | :application/fits and image/fits (<a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000317.shtml#:~:text=Flexible%20Image%20Transport%20System%20(FITS)%20was%20initially%20developed%20by%20astronomers,International%20Astronomical%20Union%20in%201982.">Library
-of Congress, 2023</a>) |
-| Structure | “A FITS file consists of one or more Header + Data Units (HDUs), where the first HDU is called the <em>primary HDU</em>, or <em>primary array</em>. The primary array may be empty or contain an N-dimensional array of pixels, such as a 1-D spectrum, a 2-D image, or a 3-D data cube. Data types supported in the primary array in FITS_3 are: unsigned 8-bit bytes, 16, 32, and 64-bit signed integers, and 32 and 64-bit single or double precision floating point reals” (<a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000317.shtml#:~:text=Flexible%20Image%20Transport%20System%20(FITS)%20was%20initially%20developed%20by%20astronomers,International%20Astronomical%20Union%20in%201982.">Library
-of Congress, 2023</a>) |
+| MIME Type | :application/fits and image/fits (<a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000317.shtml#:~:text=Flexible%20Image%20Transport%20System%20(FITS)%20was%20initially%20developed%20by%20astronomers,International%20Astronomical%20Union%20in%201982.">Library of Congress, 2023</a>) |
+| Structure | “A FITS file consists of one or more Header + Data Units (HDUs), where the first HDU is called the <em>primary HDU</em>, or <em>primary array</em>. The primary array may be empty or contain an N-dimensional array of pixels, such as a 1-D spectrum, a 2-D image, or a 3-D data cube. Data types supported in the primary array in FITS_3 are: unsigned 8-bit bytes, 16, 32, and 64-bit signed integers, and 32 and 64-bit single or double precision floating point reals” (<a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000317.shtml#:~:text=Flexible%20Image%20Transport%20System%20(FITS)%20was%20initially%20developed%20by%20astronomers,International%20Astronomical%20Union%20in%201982.">Library of Congress, 2023</a>) |
 | Versions | Current Version 4.0 (13 August 2018) <a href="https://fits.gsfc.nasa.gov/fits_standard.html">FITS Standard Document</a> |
 | Primary fields or areas of use | Astronomy |
 | Source and affiliation | FITS is an open format developed and maintained by the FITS Working Group under the International Astronomical Union (<a href="https://fits.gsfc.nasa.gov/iaufwg/">IAU-FWG</a>) |
@@ -26,7 +24,6 @@ of Congress, 2023</a>) |
 | Date Created | 2024-05-07 |
 | Created by | Lubov McKone - Johns Hopkins<br><br>Robyn DeRocchis - Burrell College of Osteopathic Medicine<br><br>Rebecca Orozco - United States Air Force Academy<br><br>Rachel Woodbrook - University of Michigan |
 | Date updated and summary of changes made | Version 1: May 24, 2024 |
-| :------------- | :------------- |
 
 
 **Suggested Citation:** McKone, Lubov; DeRocchis, Robyn; Orozco,
@@ -55,7 +52,7 @@ October 23-24, 2023.*
 [Resources for reviewing data](#resources-for-reviewing-data)
 
 [Software for viewing or analyzing data](#software-for-viewing-or-analyzing-data)
- [Software for viewing FITS files](#software-for-viewing-fits-files) [Working with FITS files programmatically](#working-with-fits-files-programmatically) [Viewing FITS images](#viewing-fits-images)
+> [Software for viewing FITS files](#software-for-viewing-fits-files)<br><br>[Working with FITS files programmatically](#working-with-fits-files-programmatically)<br><br>[Viewing FITS images](#viewing-fits-images)
 
 [Preservation actions](#preservation-actions)
 
@@ -307,7 +304,7 @@ minimum:
 
 - ***[FITS Viewer (FV)](https://heasarc.gsfc.nasa.gov/ftools/fv/):*** a free and easy to use graphical program for viewing and editing any FITS format image or table. The *FV* software is small, completely self-contained and ready to run on Linux, macOS, and Windows PCs. This tool is helpful for curators to get a bird's-eye view of the number, type, and dimensions of HDUs present in a given FITS file. Below is an example of how an image file with one HDU appears in FV. There are options to view the header unit, and to view the data unit as an image or as a table:
 
-<figure> <img src="fits-1.png" style="" alt="screenshot from FITS Viewer"> <figcaption>Sample summary of a FITS file in FITS Viewer.</figcaption> </figure>
+<figure> <img src="fits-2.png" style="" alt="screenshot from FITS Viewer"> <figcaption>Sample summary of a FITS file in FITS Viewer.</figcaption> </figure>
 
 If there were additional HDUs in the file, they would appear as
 additional rows below the Image HDU.
@@ -320,7 +317,6 @@ additional rows below the Image HDU.
 
 - [***List of FITS I/O Libraries***](https://fits.gsfc.nasa.gov/fits_libraries.html): A list of libraries that read and write FITS files in different programming languages.
 
-## 
 
 ## Viewing FITS images
 
@@ -468,7 +464,7 @@ Document throughout curation activities
 - Evaluation of FAIR principles
 
 
-**Bibliography**
+## Bibliography
 
 Baggett, S., et al. 2002, in HST WFPC2 Data Handbook, v. 4.0, ed. B. Mobasher, Baltimore, STScI
 
