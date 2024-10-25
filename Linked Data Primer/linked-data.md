@@ -11,7 +11,7 @@ Peer reviewers: Jennifer Moore, Brandie Pullen, and Michael Lenard
 
 Suggested citation: Provo, A., Burns, H., Lamorte, M., and Jiao, C. (2024) Linked Data Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
 
-## Summary
+# Summary
 
 
 |   Topic   |   Description   |
@@ -29,7 +29,7 @@ Suggested citation: Provo, A., Burns, H., Lamorte, M., and Jiao, C. (2024) Linke
 
 
 
-## Table of Contents
+# Table of Contents
 
 [Introduction](#introduction)
 
@@ -58,7 +58,7 @@ Suggested citation: Provo, A., Burns, H., Lamorte, M., and Jiao, C. (2024) Linke
 
 [References](#references)
 
-## Introduction
+# Introduction
 
 This Linked Data Primer will support academics and information
 professionals knowledgeable with or who have experience working on
@@ -84,9 +84,9 @@ graphs may be covered in additional primers. The references and further
 reading sections in this primer can help those looking for additional
 information on the specifics of Linked Data in practice.
 
-## Overview of Linked Data
+# Overview of Linked Data
 
-### Definition of Linked Data
+## Definition of Linked Data
 
 “Linked Data” is a term used to describe a concept and data standards or
 best practices that allow structured data to be more easily shared and
@@ -114,7 +114,7 @@ Linked Data may or may not be open.There is a growing Linked Open Data
 movement working to incorporate linked data standards for open and
 publicly available data.
 
-### Description of format
+## Description of format
 
 The building block of Linked Data is the
 “[triple](https://en.wikipedia.org/wiki/Semantic_triple)”
@@ -150,9 +150,10 @@ include TriG[^7] (based on Turtle) and N-quads.[^8]
 <figure> <img src="linked-data-1.png" style="" alt="visual representation of linked data"> <figcaption>Diagram from Chapter 7. RDF : Resource Description Framework, in XML: Looking at the Forest Instead of the Trees by Guy Lapalme (Lapalme, 2022)</figcaption> </figure>
 
 
-### Linked Data in practice
 
-#### Web examples
+## Linked Data in practice
+
+### Web examples
 
 An example of Linked Data is seen in structured data embedded on
 webpages using RDF syntaxes such as JSON-LD, RDFa (Resource Description
@@ -162,6 +163,7 @@ search results. Some institutional and data repository software embeds
 this form of Linked Data into public webpages.
 
 <figure> <img src="linked-data-2.png" style="" alt="visual representation of linked data metadata"> <figcaption>Linked data example. Source: https://json-ld.org/</figcaption> </figure>
+
 
 
 Another example of Linked Data is
@@ -183,7 +185,7 @@ works.
 
 
 
-#### Linked Data in Research Contexts
+### Linked Data in Research Contexts
 
 Linked Data standards can be used for various purposes: to outline the
 structure someone should follow to create their data and/or to encode
@@ -221,7 +223,7 @@ Some examples of potential researcher Linked Data deposits include:
 
 For further examples, see the Appendix.
 
-## Key curatorial questions and strategies based on the FAIR principles
+# Key curatorial questions and strategies based on the FAIR principles
 
 Given the complex nature of Linked Data as well as the various threats
 associated with its preservation,[^20] it is important to connect Linked
@@ -238,7 +240,7 @@ Following are questions and considerations to give direction to your
 application of the CURATE(D) steps to Linked Data, based on the FAIR
 principles:
 
-### Findable
+## Findable
 
 What metadata exists or would be appropriate for this dataset?
 
@@ -250,7 +252,7 @@ Example metadata schemas and strategies:
 
 - Named graphs can be used to track provenance, data versioning, and access control as the graph itself is identified by a URI which can then be used as the subject of additional RDF triple statements providing this information (Dodds & Davis, 2022).
 
-### Interoperable
+## Interoperable
 
 What format of the data is most important to future users and is
 feasible to curate?
@@ -265,7 +267,7 @@ Data formats and functionality options:
 
 - Functionality and performance of the web experience, implying the need for Web Archiving techniques
 
-### Accessible
+## Accessible
 
 Is it important that the SPARQL endpoint be maintained?
 
@@ -275,7 +277,7 @@ Access strategies:
 
 - Maintaining linkages and information about previous domain names is important both for provenance and authenticity. If projects have their own domain name, they can be transferred or rescued via OWL (Web Ontology Language) statements.[^24]
 
-### Reusable
+## Reusable
 
 What documentation would be helpful for researchers seeking to reuse
 the data?
@@ -300,7 +302,7 @@ Recommended documentation or information to include in a README:
 
 - Orchestration services (e.g., activity streams (Snell & Prodromou, 2017))
 
-## CURATE(D) Steps for Linked Data
+# CURATE(D) Steps for Linked Data
 
 Here we list considerations and key questions specific to Linked Data
 for the Check, Understand, Augment, and Transform steps of the CURATE(D)
@@ -308,7 +310,7 @@ Checklist. The Request, Evaluate, and Document steps apply more on a
 case-by-case basis, and are therefore harder to generalize for the
 CURATE(D) Checklist.
 
-### C - CHECK
+## C - CHECK
 
 Depending on where the data are stored and how, you can use software
 listed in [Appendix: Semantic
@@ -318,7 +320,7 @@ dependencies (such as data being stored in a shared platform like
 Wikidata, or visualizations being based on data from a live SPARQL
 endpoint).
 
-#### Key questions
+### Key questions
 
 - Where are the data stored (local triplestore, shared platform like Wikidata or LINCs, etc)?
 
@@ -336,7 +338,7 @@ endpoint).
 
   2.  If live, is there documentation indicating information such as the SPARQL query used as well as the date and time the query was run?
 
-### U - UNDERSTAND
+## U - UNDERSTAND
 
 As you do a deeper dive into the data, you can ask more questions about
 data sources, intended uses, and dependencies. At this stage, it is
@@ -347,7 +349,7 @@ be taken offline (resulting in URIs no longer resolving). These
 questions will help you communicate with depositors during the Request
 step.
 
-#### Key questions
+### Key questions
 
 - Were the data compiled from an outside source or database, such as a library catalog or Wikidata?
 
@@ -397,7 +399,7 @@ helpful:
 
 - Is there a plan in place for future users of the data?
 
-#### Ethical considerations
+### Ethical considerations
 
 - If the data were compiled by outside sources, check to ensure they are from trusted sources.
 
@@ -409,14 +411,14 @@ helpful:
 
 - See [Ethics in Linked Data Checklist](https://zenodo.org/records/10258209), especially sub-sections Oppression & Harm, Identity Management & Privacy, Data Sovereignty & Intellectual Property
 
-### A - AUGMENT
+## A - AUGMENT
 
 In the augment step, ensure that documentation exists for data models,
 ontologies, and vocabularies. Depending on the file formats chosen for
 curation, you may also want to create a metadata description using VoID,
 or create metadata in your repository system.
 
-#### Key questions
+### Key questions
 
 - Are conceptual models, ontologies, vocabularies/thesauruses, or taxonomies being used in the dataset referenced and documented in the README?
 
@@ -424,7 +426,7 @@ or create metadata in your repository system.
 
 - What visualizations of data models or other diagrams would be useful?
 
-### T - TRANSFORM
+## T - TRANSFORM
 
 At the transform step, you may need to facilitate export from a
 triplestore or help provide parameters for project developers to create
@@ -436,17 +438,17 @@ consider the costs associated with crawling/capturing numerous web pages
 (even a small Linked Data project can involve many pages!). You can use
 software listed in Appendix: Semantic Software to transform data files.
 
-#### Key questions
+### Key questions
 
 - What are the cost and storage considerations for different transformation options (data dumps, web archiving, etc)?
 
-#### Ethical considerations
+### Ethical considerations
 
 - When transforming, exporting, extracting, or creating data dumps, ensure that the integrity of the data is not lost. Depending on the source and endpoint, there may be differences that show up that need to be adjusted. An example of issues with transformation is special characters or names that may need review after an export.
 
 - Are there naming conventions for the data that need to be considered when transforming the data in any way.
 
-## Further Reading
+# Further Reading
 
 In addition to the references cited in this primer, we recommend the
 following resources for additional learning and information.
@@ -477,13 +479,13 @@ van Hooland, S., & Verborgh, R. (2017). Linked Data for Librarians. [https://cou
 
 Watson, B. M., Provo, A. A., & Burlingame, K. (Eds.). (2023). Ethics in linked data. Library Juice Press.
 
-## Appendix: Semantic Software
+# Appendix: Semantic Software
 
 Following are selected text editors, platforms, editors, and tools for
 working with Linked Data. Some, especially taxonomy and ontology
 management systems, may require a paid subscription.
 
-### Text Editors
+## Text Editors
 
 - Notepad++: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 
@@ -491,7 +493,7 @@ management systems, may require a paid subscription.
 
 - Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-### Taxonomy/Ontology Management Systems
+## Taxonomy/Ontology Management Systems
 
 - Graphifi: [https://www.graphifi.com/](https://www.graphifi.com/)
 
@@ -507,7 +509,7 @@ management systems, may require a paid subscription.
 
 - Protege: [https://protege.stanford.edu/](https://protege.stanford.edu/)
 
-### Knowledge Graphs/Graph Databases
+## Knowledge Graphs/Graph Databases
 
 - Neo4j: [https://neo4j.com/](https://neo4j.com/)
 
@@ -523,7 +525,7 @@ management systems, may require a paid subscription.
 
 - Wikibase: [https://www.mediawiki.org/wiki/Wikibase](https://www.mediawiki.org/wiki/Wikibase)
 
-### RDF Parsing, Conversion, and Visualization tools/packages
+## RDF Parsing, Conversion, and Visualization tools/packages
 
 - RDF Grapher: [https://www.ldf.fi/service/rdf-grapher](https://www.ldf.fi/service/rdf-grapher)
 
@@ -535,7 +537,7 @@ management systems, may require a paid subscription.
 
 - RDF Shape: [https://rdfshape.weso.es/](https://rdfshape.weso.es/)
 
-### RDF entity schema editors
+## RDF entity schema editors
 
 - YASHE: [https://www.weso.es/YASHE/](https://www.weso.es/YASHE/)
 
@@ -547,19 +549,19 @@ management systems, may require a paid subscription.
 
 - Zazuko SHACL playground: [https://shacl-playground.zazuko.com/](https://shacl-playground.zazuko.com/)
 
-### Web archiving tools
+## Web archiving tools
 
 - Memento Tracer: [http://tracer.mementoweb.org/](http://tracer.mementoweb.org/)
 
 - Archive-It: [https://archive-it.org/](https://archive-it.org/)
 
-## Appendix: Linked Data Project Examples
+# Appendix: Linked Data Project Examples
 
 Here we list a selection of examples related to knowledge- and database
 projects, schemas, and controlled vocabularies. The authors welcome
 suggestions for additional examples.
 
-### Wikibase projects
+## Wikibase projects
 
 These projects use the Wikibase software in local implementations
 
@@ -571,7 +573,7 @@ These projects use the Wikibase software in local implementations
 
 - Black Bibliography Project: [https://blackbibliog.org/](https://blackbibliog.org/)
 
-### Wikidata sub-projects
+## Wikidata sub-projects
 
 These projects use Wikidata’s shared platform to create and store data
 
@@ -587,7 +589,7 @@ These projects use Wikidata’s shared platform to create and store data
 
   - Homepage: [https://duraeuroposarchive.org/](https://duraeuroposarchive.org/)
 
-### Other projects
+## Other projects
 
 These projects use various infrastructure and triplestores besides
 Wikibase
@@ -602,13 +604,13 @@ Wikibase
 
 - Projects using RO-Crate specification: [https://www.researchobject.org/ro-crate/in-use/](https://www.researchobject.org/ro-crate/in-use/)
 
-### Large-scale knowledge bases
+## Large-scale knowledge bases
 
 - Wikidata: [https://www.wikidata.org/wiki/Wikidata:Main_Page](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 
 - The DBpedia project, a prominent example of Linked Data in practice: [https://www.dbpedia.org/](https://www.dbpedia.org/)
 
-### Metadata schemas and ontologies implemented as Linked Data
+## Metadata schemas and ontologies implemented as Linked Data
 
 - Vocabulary of Interlinked Datasets (VoID)
 
@@ -630,7 +632,7 @@ Wikibase
 
   - Homepage: [https://cidoc-crm.org/](https://cidoc-crm.org/)
 
-### Controlled vocabularies available as Linked Data
+## Controlled vocabularies available as Linked Data
 
 - Getty Vocabularies as LOD: [https://www.getty.edu/research/tools/vocabularies/lod/index.html](https://www.getty.edu/research/tools/vocabularies/lod/index.html)
 
@@ -640,11 +642,11 @@ Wikibase
 
 - Gender, Sex, and Sexuality Ontology (GSSO): [https://gsso.research.cchmc.org/#!/about](https://gsso.research.cchmc.org/#!/about)
 
-## Appendix: Linked Data Standards and Specifications
+# Appendix: Linked Data Standards and Specifications
 
 Here we list selected Linked Data standards and specifications
 
-### Specifications and Schemas
+## Specifications and Schemas
 
 - Resource Description Framework (RDF):
 
@@ -668,7 +670,7 @@ Here we list selected Linked Data standards and specifications
 
   - Specification: [<span class="mark">https://www.w3.org/TR/shacl/</span>](https://www.w3.org/TR/shacl/)
 
-### Syntaxes
+## Syntaxes
 
 - RDF/XML:
 
@@ -692,7 +694,7 @@ Here we list selected Linked Data standards and specifications
 
   - N-Quads specification: [https://www.w3.org/TR/2014/REC-n-quads-20140225/](https://www.w3.org/TR/2014/REC-n-quads-20140225/)
 
-## Glossary
+# Glossary
 
 |   Term   |   Definition    |
 | :------------- | :------------- |
@@ -719,7 +721,7 @@ Here we list selected Linked Data standards and specifications
 | <a href="https://www.w3.org/RDF/">RDF</a> | Resource Description Framework. A model showing the relationships between data on the web. |
 | RDF/XML | Syntax used to express an RDF graph in an XML document, sometimes referred to as simply RDF. |
 | Semantic web | “The Semantic Web is a vision for the web where data is machine-readable, represented by facts, concepts, places, and people in a way that a computer can process. Instead of searching through billions and billions of text-based documents, imagine being able to query the web as if it was one huge database. Linked data is the means by which to achieve the vision of the Semantic Web.” “23 Linked Data Things \| Minitex." >Accessed August 13, 2022. https://minitex.umn.edu/services/digital-initiatives-metadata/23-linked-data-things. |
-| href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> | SPARQL Protocol and RDF Query Language. The query language used for documents and databases that are mapped to RDF. |
+| <a href="https://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> | SPARQL Protocol and RDF Query Language. The query language used for documents and databases that are mapped to RDF. |
 | Subject | In the RDF data model, the subject is one of two resources (the other being the object) and is identified by its URI. It is one of the three things that make a triple. https://www.iro.umontreal.ca/~lapalme/ForestInsteadOfTheTrees/HTML/ch07s01.html |
 | Taxonomy | Taxonomies are hierarchical structures consisting of related concepts, typically subject-based, meant to convey a family of concepts. |
 | Text string | Also referred to just as a string, text strings are a series of characters. While frequently composed of letters and words, text strings may also include numbers, special characters, punctuation, and more. |
@@ -731,7 +733,7 @@ Here we list selected Linked Data standards and specifications
 
 
 
-## References
+# References
 
 Alexander, K., Cyganiak, R., Hausenblas, M., & Zhao, J. (2011). Describing Linked Datasets with the VoID Vocabulary (NOTE-void-20110303). W3C. http://www.w3.org/TR/2011/NOTE-void-20110303/
 
@@ -838,6 +840,6 @@ Zhao, J., Alexander, K., Hausenblas, M., & Cyganiak, R. (2011). Vocabulary of In
     and primer
     ([https://shex.io/shex-primer/](https://shex.io/shex-primer/))
 
-[^26]: [<span class="mark">https://www.w3.org/TR/shacl/</span>](https://www.w3.org/TR/shacl/)
+[^26]: [https://www.w3.org/TR/shacl/](https://www.w3.org/TR/shacl/)
 
 [^27]: [https://www.wikidata.org/w/index.php?title=Wikidata:Schemas&oldid=1914665676](https://www.wikidata.org/w/index.php?title=Wikidata:Schemas&oldid=1914665676)
