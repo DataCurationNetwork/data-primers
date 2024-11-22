@@ -30,17 +30,16 @@ Affiliate Contributors (external peer reviewers): Eric C. Kansa, PhD (Open Conte
 
 [Data Types](#data-types)
 
-[Data Repositories](#data-repositories)
+[Data Repositories](#data-repositories)<br>
 [Repository Types](#repository-types)
 >[Selecting a Repository](#selecting-a-repository)
 
-[Metadata](#metadata)
+[Metadata](#metadata)<br>
 [Metadata Standards](#metadata-standards)
 >[Archaeology Specific MetadataFields](#archaeology-specific-metadata-fields)<br>
 >[Supplementary Documentation](#supplementary-documentation)
 
-[Ethical and Legal
-Considerations](#ethical-and-legal-considerations)
+[Ethical and Legal Considerations](#ethical-and-legal-considerations)<br>
 [CARE Principles](#care-principles)
 >[Open Data and Data Accessibility](#open-data-and-data-accessibility)
 
