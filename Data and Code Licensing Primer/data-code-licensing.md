@@ -174,95 +174,15 @@ licenses](https://creativecommons.org/share-your-work/cclicenses/):
 
 |   License Type   |   License Logo   |   What it does   |   Allows for commercial use?   |
 | :------------- | :------------- | :------------- | :------------- |
-|   License Type   |   License Logo   |   What it does   |   Allows for commercial use?   |
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 26%" />
-<col style="width: 33%" />
-<col style="width: 21%" />
-</colgroup>
-<thead>
-<tr class="header">
-<strong>License Type</strong>
-<strong>License Logo</strong>
-<strong>What It does</strong>
-<strong>Allows for Commercial Use?</strong>
-</tr>
-<tr class="odd">
-CC-BY
-<img src="media/image7.png"
-style="width:1.47917in;height:0.51389in" />
-Enables reusers to distribute, remix, adapt, and build upon the
-material in any medium or format, so long as attribution is given to the
-creator.
-Yes
-</tr>
-<tr class="header">
-CC BY-SA
-<img src="media/image2.png"
-style="width:1.47917in;height:0.51389in" />
-Enables reusers to distribute, remix, adapt, and build upon the
-material in any medium or format, so long as attribution is given to the
-creator. If you remix, adapt, or build upon the material, you must
-license the modified material under identical terms.
-Yes
-</tr>
-<tr class="odd">
-CC BY-NC
-<img src="media/image1.png"
-style="width:1.47917in;height:0.51389in" />
-Enables reusers to distribute, remix, adapt, and build upon the
-material in any medium or format for noncommercial purposes only, and
-only so long as attribution is given to the creator.
-No
-</tr>
-<tr class="header">
-CC BY-SA-NC
-<img src="media/image3.png"
-style="width:1.47917in;height:0.51389in" />
-Enables reusers to distribute, remix, adapt, and build upon the
-material in any medium or format for noncommercial purposes only, and
-only so long as attribution is given to the creator. If you remix,
-adapt, or build upon the material, you must license the modified
-material under identical terms.
-No
-</tr>
-<tr class="odd">
-CC BY-ND
-<img src="media/image6.png"
-style="width:1.47917in;height:0.51389in" />
-Enables reusers to copy and distribute the material in any medium or
-format in unadapted form only, and only so long as attribution is given
-to the creator.
-Yes
-</tr>
-<tr class="header">
-CC BY-NC-ND
-<img src="media/image4.png"
-style="width:1.47917in;height:0.51389in" />
-Enables reusers to copy and distribute the material in any medium or
-format in unadapted form only, for noncommercial purposes only, and only
-so long as attribution is given to the creator.
-No
-</tr>
-<tr class="odd">
-CC0 (CC Zero)
-<img src="media/image5.png"
-style="width:1.47917in;height:0.52778in" />
-<p>CC0 (aka CC Zero) is a public dedication tool (rather than a
-license), which enables creators to waive their copyright and put their
-works into the worldwide public domain. CC0 enables reusers to
-distribute, remix, adapt, and build upon the material in any medium or
-format, with no conditions.</p>
-<p>While use of CC0 does not require attribution, scholarly norms expect
-datasets available under these terms to be fully attributed.</p>
-Any conditions
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+|   CC BY   |   <figure> <img src="data-code-licensing-1.png" alt="CC BY Logo" style=""></figure>   |   Enables reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator.   |   Yes   |
+|   CC BY-SA   |  <figure> <img src="data-code-licensing-2.png" alt="CC BY-SA Logo." style=""></figure>   |   Enables reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.   |   Yes   |
+|   CC BY-NC   |   <figure> <img src="data-code-licensing-3.png" alt="CC BY-NC Logo." style=""></figure>   |   Enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator.   |   No   |
+|   CC BY-SA-NC  |   <figure> <img src="data-code-licensing-4.png" alt="CC BY-SA-NC Logo." style=""></figure>   |   Enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.   |   No   |
+|   CC BY-ND   |   <figure> <img src="data-code-licensing-5.png" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure>   |   Enables reusers to copy and distribute the material in any medium or format in unadapted form only, and only so long as attribution is given to the creator.    |   Yes   |
+|   CC BY-NC-ND   |   <figure> <img src="data-code-licensing-6.png" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure>   |  Enables reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator.  |   No   |
+|   CCO (CC Zero)  |   <figure> <img src="data-code-licensing-7.png" alt="Screenshot of ArcGIS Pro menu." style=""> <fig caption>Figure 1: View of the top menu options in ArcGIS Pro with the ‘View’ tab active and the “Catalog Pane” emphasized.</figcaption> </figure>   |   CC0 (aka CC Zero) is a public dedication tool (rather than a license), which enables creators to waive their copyright and put their works into the worldwide public domain. CC0 enables reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions.
+While use of CC0 does not require attribution, scholarly norms expect datasets available under these terms to be fully attributed.   |   Any conditions  |
+
 
 Note: While other kinds of licenses, such as [Open Data
 Commons licenses](https://opendatacommons.org/), may be applied to
