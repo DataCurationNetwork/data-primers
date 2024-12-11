@@ -5,6 +5,8 @@
 
 Authors: Lisa Chinn, Matthew Murray 🦇, amd Isaac Wink 
 
+Affiliate Contributors (peer reviewers): Talya Cooper, Laura Hjerpe, Katherine Klosek, Sophia Lafferty-Hess, Allison Langham-Puttrow, and Jiebei Luo.
+
 DCN Mentors: Jennifer Huck, University of Virginia 
 
 
