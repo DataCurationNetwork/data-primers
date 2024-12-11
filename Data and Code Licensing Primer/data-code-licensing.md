@@ -15,8 +15,7 @@ DCN Mentors: Jennifer Huck, University of Virginia
 | Summary | Evaluating and selecting copyright licenses applied to research datasets and code in a U.S. context.|
 | Primary fields or areas of use | Relevant to all fields in which data or code are shared. |
 | Key questions for curation review | <li>Does copyright, a data use agreement, or terms of service impact how a researcher may reuse and disseminate previously created datasets or code?</li><li>When choosing a copyright license for their own dataset or code, what copyright, institutional, and funder factors may impact a researcher’s choice of license?</li> |
-| Context-specific considerations | Consider data use agreements, institutional policies covering data
-ownership, and funder requirements for data sharing. |
+| Context-specific considerations | Consider data use agreements, institutional policies covering data ownership, and funder requirements for data sharing. |
 | Tools for curation review | Tables of commonly-applied copyright licenses to datasets and code. (see below) |
 | Date created | November 11, 2024 |
 | Created by | <a href="https://orcid.org/0000-0003-2801-2874">Lisa Chinn</a>, <a href="https://orcid.org/0000-0001-5799-8471">Matthew Murray🦇</a>, <a href="https://orcid.org/0009-0009-5750-2283">Isaac Wink</a><br><br> DCN Mentor: Jennifer Huck |
@@ -266,12 +265,9 @@ copyright may be limited in how they are permitted to release the code
 due to licenses that apply to projects as a whole. Consider the
 following scenarios:
 
-- Code A is owned by a student because it was written on their own time
-  > using their own computer and is submitted to an open-source project.
+- Code A is owned by a student because it was written on their own time using their own computer and is submitted to an open-source project.
 
-- Code B is owned by an institution because it was written by a staff
-  > member during work hours using an institutionally supplied computer
-  > and is submitted to an open-source project.
+- Code B is owned by an institution because it was written by a staff member during work hours using an institutionally supplied computer and is submitted to an open-source project.
 
 In both of these scenarios, the copyright holder differs; however,
 because the open-source project requires contributions to be submitted
@@ -304,81 +300,16 @@ code or software itself and may not be suitable for small pieces of code
 not. Permissive licenses allow users more freedom in how they reuse code
 and all of the following licenses allow for commercial use.
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 27%" />
-<col style="width: 39%" />
-</colgroup>
-<thead>
-<tr class="header">
-<strong>License Name</strong>
-<strong>Type of License</strong>
-<strong>Requirements on Reuse of Code or Software</strong>
-</tr>
-<tr class="odd">
-<a href="https://choosealicense.com/licenses/apache-2.0/">Apache
-License 2.0</a>
-Permissive License
-<ul>
-<li><blockquote>
-<p>Full license and copyright information must be included.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Changes to code must be specified.</p>
-</blockquote></li>
-</ul>
-</tr>
-<tr class="header">
-<a href="https://en.wikipedia.org/wiki/BSD_licenses">BSD
-licenses</a> (assorted variations)
-Permissive License
-<ul>
-<li><blockquote>
-<p>Full license and copyright information must be included.</p>
-</blockquote></li>
-</ul>
-</tr>
-<tr class="odd">
-<a href="https://choosealicense.com/licenses/cc0-1.0/">CC0:
-Creative Commons Zero v1.0 Universal</a>
-Public Domain Waiver
-<ul>
-<li><blockquote>
-<p>Does not need to include full license or copyright information.</p>
-</blockquote></li>
-</ul>
-</tr>
-<tr class="header">
-<a href="https://choosealicense.com/licenses/gpl-3.0/">GPL: GNU
-General Public License 3.0</a>
-Copyleft License
-<ul>
-<li><blockquote>
-<p>Full license and copyright information must be included.</p>
-</blockquote></li>
-<li><blockquote>
-<p>Changes to code must be specified.</p>
-</blockquote></li>
-<li><blockquote>
-<p>The source code for any software must also be released.</p>
-</blockquote></li>
-</ul>
-</tr>
-<tr class="odd">
-<a href="https://choosealicense.com/licenses/mit/">MIT
-License</a> (the most popular license on GitHub)
-Permissive License
-<ul>
-<li><blockquote>
-<p>Full license and copyright information must be included.</p>
-</blockquote></li>
-</ul>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+|   License Name   |   Type of License |   Requirements on Reuse of Code or Software  |
+| :------------- | :------------- | :------------- |
+|   <a href="https://choosealicense.com/licenses/apache-2.0/">Apache License 2.0</a>   | Permissive License |   <li>Full license and copyright information must be included.</li><li>Changes to code must be specified.</li>  |
+|   <a href="https://en.wikipedia.org/wiki/BSD_licenses">BSD licenses</a> (assorted variations)   |   Permissive License |   <li>Full license and copyright information must be included.</li>  |
+|   <a href="https://choosealicense.com/licenses/cc0-1.0/">CC0: Creative Commons Zero v1.0 Universal</a>   |  Public Domain Waiver |   <li>Does not need to include full license or copyright information.</li>  |
+|   <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL: GNU General Public License 3.0</a>  |   Copyleft License |   <li>Full license and copyright information must be included.</li><li>Changes to code must be specified.</li><li>The source code for any software must also be released.</li>  |
+|   <a href="https://choosealicense.com/licenses/mit/">MIT License</a> (the most popular license on GitHub)   |   Permissive License |   <li>Full license and copyright information must be included.</li>  |
+
+
 
 ## What license should be used for computer code?
 
@@ -391,12 +322,12 @@ how a [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 license works). It’s also possible that an institution will have a
 preferred license that they require code to be released under.
 
-| What is the researcher doing?                                                                                          | What sort of license should be used?                                                                                                                                                                                                                                                                                                                                              |
-|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creating entirely new code from scratch                                                                                    | The researcher gets to choose whichever license they want for their work. They should make sure that any collaborators working on the project with them are aware of the selected license.                                                                                                                                                                                            |
-| Forking an existing project (copying an existing piece of code to develop it separately from existing projects/developers) | When creating a fork, check to see what license is being used for the existing project. Some licenses will require the use of the same license as the original projects, while others will allow a new license for the code to be used.                                                                                                                                               |
-| Creating new code that requires other pieces of code or libraries as dependencies                                          | Some licenses require that any code that uses libraries or other code as dependencies must use the same license, while others allow a new license to be used. [Some licenses](https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs) may be modified from the default version with additional permissions or exceptions that allow them to be used as dependencies. |
-| Contributing to an existing project                                                                                        | Those contributing to an existing project should use whichever license the project already uses, otherwise, their code may not be accepted.                                                                                                                                                                                                                                           |
+|   What is the researcher doing?    |   What sort of license should be used?   |
+| :------------- | :------------- |
+| Creating entirely new code from scratch | The researcher gets to choose whichever license they want for their work. They should make sure that any collaborators working on the project with them are aware of the selected license.|
+| Forking an existing project (copying an existing piece of code to develop it separately from existing projects/developers) | When creating a fork, check to see what license is being used for the existing project. Some licenses will require the use of the same license as the original projects, while others will allow a new license for the code to be used. |
+| Creating new code that requires other pieces of code or libraries as dependencies | Some licenses require that any code that uses libraries or other code as dependencies must use the same license, while others allow a new license to be used. [Some licenses](https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs) may be modified from the default version with additional permissions or exceptions that allow them to be used as dependencies. |
+| Contributing to an existing project | Those contributing to an existing project should use whichever license the project already uses, otherwise, their code may not be accepted.|
 
 ## Code Documentation
 
@@ -556,11 +487,11 @@ researcher’s situation with regards to copyright.
 
 How to Avoid Giving Legal Advice
 
-| When a researcher asks…                                                                                                           | Curators should…                                                                            | Curators should not…                                         |
+| When a researcher asks…           | Curators should…   | Curators should not…                  |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| If they can republish an existing dataset as part of a new combined dataset.                                                          | Help the researcher locate and understand a license or data use agreement that applies to the dataset. | Tell the researcher they are definitely permitted to reuse the dataset. |
-| If they have full copyright over a dataset they have produced.                                                                        | Provide information on what other groups might have a copyright claim to a dataset in general.         | Offer a determination that the researcher has exclusive copyright.      |
-| If they can include certain information (such as images, text of books, or social media posts) in a published dataset under fair use. | Offer resources on making a fair use determination.                                                    | Perform a fair use analysis for the researcher.                         |
+| If they can republish an existing dataset as part of a new combined dataset.            | Help the researcher locate and understand a license or data use agreement that applies to the dataset. | Tell the researcher they are definitely permitted to reuse the dataset. |
+| If they have full copyright over a dataset they have produced.   | Provide information on what other groups might have a copyright claim to a dataset in general.         | Offer a determination that the researcher has exclusive copyright.      |
+| If they can include certain information (such as images, text of books, or social media posts) in a published dataset under fair use. | Offer resources on making a fair use determination.      | Perform a fair use analysis for the researcher.  |
 
 ## Choosing a license for a newly created dataset
 
