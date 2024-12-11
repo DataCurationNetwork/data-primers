@@ -32,15 +32,12 @@ Suggested Citation: Chinn, Lisa; Murray 🦇, Matthew; and Wink, Isaac. (2024). 
 [Common Licenses Applied to Datasets](#common-licenses-applied-to-datasets)
 
 [Code Ownership](#code-ownership)
-
 > [Who owns the copyright on computer code?](#who-owns-the-copyright-on-computer-code)<br><br>[Common Licenses Applied to Code](#common-licenses-applied-to-code)<br><br>[What license should be used for computer code?](#what-license-should-be-used-for-computer-code)<br><br>[Code Documentation](#code-documentation)
 
 [Institutional Policies Impacting Data Licensing and Ownership](#institutional-policies-impacting-data-licensing-and-ownership)
-
 > [Institutional data governance does not always address research data](#institutional-data-governance-does-not-always-address-research-data)<br><br>[Data Ownership](#data-ownership)
 
 [Interpreting and Applying Dataset Licenses](#interpreting-and-applying-dataset-licenses)
-
 > [A note on legal advice](#a-note-on-legal-advice)<br><br>[Choosing a license for a newly created dataset](#choosing-a-license-for-a-newly-created-dataset)<br><br>[Factors impacting data sharing](#factors-impacting-data-sharing)<br><br>[Helping researchers choose a license](#helping-researchers-choose-a-license)<br><br>[Navigating and Interpreting Licenses Applied to Datasets That Are Being Reused](#navigating-and-interpreting-licenses-applied-to-datasets-that-are-being-reused)<br><br>[Navigating and Interpreting Licenses Applied to Code That Is Being Reused](#navigating-and-interpreting-licenses-applied-to-code-that-is-being-reused)<br><br>[Challenges to Understanding Licenses](#challenges-to-understanding-licenses)
 
 [Conclusion](#conclusion)
@@ -417,22 +414,8 @@ Health’s National Center for Advancing Translational
 Science](https://toolkit.ncats.nih.gov/glossary/data-ownership/)
 defines data ownership broadly and within the context of [data
 registries](https://toolkit.ncats.nih.gov/glossary/registry/):
-
-> “[Data](https://toolkit.ncats.nih.gov/glossary/data/) ownership
-> refers to both the possession of and responsibility for information.
-> Data owners have the ability to access, create, modify, package,
-> derive benefit from, sell, or remove data, as well as the right to
-> assign these access privileges to others. Data in a
-> [registry](https://toolkit.ncats.nih.gov/glossary/registry/)
-> traditionally has been owned by the registry sponsor. If there is more
-> than one sponsor of the registry, ownership of the data should be
-> clearly defined and legally documented. However, increasingly
-> [patient](https://toolkit.ncats.nih.gov/glossary/patient/)
-> registries, especially those sponsored by rare and genetic disease
-> patient groups and umbrella organizations, are providing more
-> ownership rights to individual participants, including allowing
-> participants to decide on a case by case basis who can view or access
-> their data.”
+ 
+> “[Data](https://toolkit.ncats.nih.gov/glossary/data/) ownership refers to both the possession of and responsibility for information. Data owners have the ability to access, create, modify, package, derive benefit from, sell, or remove data, as well as the right to assign these access privileges to others. Data in a [registry](https://toolkit.ncats.nih.gov/glossary/registry/) traditionally has been owned by the registry sponsor. If there is more than one sponsor of the registry, ownership of the data should be clearly defined and legally documented. However, increasingly [patient](https://toolkit.ncats.nih.gov/glossary/patient/) registries, especially those sponsored by rare and genetic disease patient groups and umbrella organizations, are providing more ownership rights to individual participants, including allowing participants to decide on a case by case basis who can view or access their data.”
 
 Here, the landscape for data ownership is context-specific: up to now,
 we have seen registry sponsors, most commonly disciplinary societies,
@@ -609,22 +592,20 @@ be safe than sorry. However, bequeathing data to the public domain is
 often an appropriate choice for most datasets (in the absence of ethical
 constraints) for several reasons:
 
-1.  If the dataset could reasonably be considered a non-creative
-    > arrangement of facts, the research may not have a copyright claim
-    > anyway.
+1.  If the dataset could reasonably be considered a non-creative arrangement of facts, the research may not have a copyright claim anyway.
 
 2.  A CC0 waiver prevents the problem of “[attribution
-    > stacking](https://blog.datadryad.org/2023/05/30/good-data-practices-removing-barriers-to-data-reuse-with-cc0-licensing/)”
-    > and removes friction to future reuse by ensuring reusers that the
-    > researcher will not pursue a copyright infringement claim.
+ stacking](https://blog.datadryad.org/2023/05/30/good-data-practices-removing-barriers-to-data-reuse-with-cc0-licensing/)”
+ and removes friction to future reuse by ensuring reusers that the
+ researcher will not pursue a copyright infringement claim.
 
 3.  If the researcher is concerned about plagiarism or intellectual
-    > theft, maintaining a strong copyright claim is not the right tool
-    > for addressing that problem. An individual who attempts to pass
-    > off the researcher’s data as their own will have violated dominant
-    > norms of research integrity, regardless of whether or not the
-    > dataset was copyrighted. Applying a CC0 waiver to a dataset does
-    > not extinguish the researcher’s right to not be plagiarized.
+ theft, maintaining a strong copyright claim is not the right tool
+ for addressing that problem. An individual who attempts to pass
+ off the researcher’s data as their own will have violated dominant
+ norms of research integrity, regardless of whether or not the
+ dataset was copyrighted. Applying a CC0 waiver to a dataset does
+ not extinguish the researcher’s right to not be plagiarized.
 
 Explaining these factors to researchers may make them more comfortable
 with the idea of removing all copyright limitations on the reuse of
@@ -723,164 +704,10 @@ regarding the reuse of data or which licenses to apply to new datasets
 and code belong to the researcher, even when the curator may disagree.
 
 # Bibliography and Further Reading
-
-> *About CC Licenses*. (n.d.). Creative Commons. Retrieved July 2, 2024,
-> from
-> [https://creativecommons.org/share-your-work/cclicenses/](https://creativecommons.org/share-your-work/cclicenses/)
->
-> Barsness, S., Cummins, J., Fernandez, M., James, A., Pierce Farrier
-> K., Pringle, J., Carroll, SR. Taitingfong, R., & Wieker, A. (2023).
-> *CARE Data Principles Primer*. Data Curation Network. Retrieved July
-> 2, 2024, from
-> <https://github.com/DataCurationNetwork/data-primers/blob/main/CARE%20Primer/care-primer.md>.
->
-> Benson, S. R. (2019). *Fear & Fair Use: Addressing the Affective
-> Domain*. [Association of College and Research Libraries.
-> https://hdl.handle.net/2142/105485](https://hdl.handle.net/2142/105485).
->
-> *Best Practices for Sharing Research Software \| Data Science at NIH*.
-> (n.d.). National Institutes of Health. Retrieved November 11, 2024,
-> from
-> [https://datascience.nih.gov/tools-and-analytics/best-practices-for-sharing-research-software-faq](https://datascience.nih.gov/tools-and-analytics/best-practices-for-sharing-research-software-faq)
->
-> *BSD 3-Clause No Nuclear License.* (2009). Software Package Data
-> Exchange. Retrieved November 11, 2024, from
-> [https://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License.html](https://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License.html)
->
-> *CARE Principles*. (2023, January 23). Global Indigenous Data
-> Alliance.
-> [https://www.gida-global.org/care](https://www.gida-global.org/care)
->
-> *Chapter XI: Other Post Award Requirements and Considerations -
-> Proposal & Award Policies & Procedures Guide (PAPPG) (NSF 24-1).* (May
-> 20, 2024). National Science Foundation. Retrieved November 11, 2024,
-> from
-> [https://new.nsf.gov/policies/pappg/24-1/ch-11-other-post-award-requirements](https://new.nsf.gov/policies/pappg/24-1/ch-11-other-post-award-requirements)
->
-> *Code of Best Practices in Fair Use for Software Preservation*.
-> (2012). Association of Research Libraries. Retrieved November 11,
-> 2024, from
-> [https://www.arl.org/wp-content/uploads/2014/01/code-of-best-practices-fair-use.pdf](https://www.arl.org/wp-content/uploads/2014/01/code-of-best-practices-fair-use.pdf).
->
-> *Compendium of U.S. Copyright Office Practices, 313.3(C) Facts.*
-> (n.d.). U.S. Copyright Office*.* Retrieved July 2, 2024, from
-> [https://www.copyright.gov/comp3/](https://www.copyright.gov/comp3/)
->
-> *Data Governance*. (n.d.). University of Wisconsin-Madison. Retrieved
-> July 2, 2024, from
-> [https://data.wisc.edu/data-governance/](https://data.wisc.edu/data-governance/)
->
-> *Data ownership*. (n.d.). National Center for Advancing Translational
-> Sciences. Retrieved July 2, 2024, from
-> [https://toolkit.ncats.nih.gov/glossary/data-ownership](https://toolkit.ncats.nih.gov/glossary/data-ownership)
->
-> Darragh, Jen; Hofelich Mohr, Alicia; Hunt, Shanda; Woodbrook, Rachel;
-> Fearon, Dave; Moore, Jennifer; and Hadley, Hannah. (2020). *Human
-> Subjects Data Essentials Data Curation Primer.* Data Curation
-> Network*.* Retrieved July 2, 2024, from
-> [https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md).
->
-> *Dear Colleague Letter: Office of Polar Programs Data, Code, and
-> Sample Management Policy.* (2022, July 14). National Science
-> Foundation. Retrieved November 11, 2024, from
-> [https://www.nsf.gov/pubs/2022/nsf22106/nsf22106.jsp](https://www.nsf.gov/pubs/2022/nsf22106/nsf22106.jsp)
->
-> *FAIR Principles*. (n.d.). GO FAIR. Retrieved July 2, 2024, from
-> [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
->
-> Fadler, M., & Legner, C. (2022). Data ownership revisited: Clarifying
-> data accountabilities in times of big data and analytics. *Journal of
-> Business Analytics*, *5*(1), 123–139.
-> [https://doi.org/10.1080/2573234X.2021.1945961](https://doi.org/10.1080/2573234X.2021.1945961)
->
-> *Feist Publications, Inc. V. Rural Tel. Serv. Co. : 499 U.S. 340
-> (1991): Justia US Supreme Court Center*. Retrieved July 2, 2024, from
-> [https://supreme.justia.com/cases/federal/us/499/340/](https://supreme.justia.com/cases/federal/us/499/340/)
->
-> *Frequently Asked Questions about the GNU Licenses*. (n.d.). Free
-> Software Foundation. Retrieved November 11, 2024, from
-> [https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs](https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs)
->
-> Friedlander, A. (2023). NASA’s public access plan. *National
-> Aeronautics and Space Administration*. Retrieved July 2, 2024, from
-> [https://www.nasa.gov/wp-content/uploads/2021/12/nasa-ocs-public-access-plan-may-2023.pdf](https://www.nasa.gov/wp-content/uploads/2021/12/nasa-ocs-public-access-plan-may-2023.pdf).
-> .
->
-> Gent, E. *Public AI Training Datasets Are Rife With Licensing Errors*.
-> (2023, November 8). IEEE Spectrum*.* Retrieved July 2, 2024, from
-> <https://spectrum.ieee.org/data-ai>.
->
-> *GNU Free Documentation License v1.3*. (2008). Free Software
-> Foundation. Retrieved November 11, 2024, from
-> [https://www.gnu.org/licenses/fdl-1.3.en.html](https://www.gnu.org/licenses/fdl-1.3.en.html)
->
-> *Good data practices: Removing barriers to data reuse with CC0
-> licensing*. (2023, May 30) Dryad. Retrieved July 2, 2024, from
-> <https://blog.datadryad.org/2023/05/30/good-data-practices-removing-barriers-to-data-reuse-with-cc0-licensing/>.
->
-> Hollich, S. (2024, April 24). *MJFF Data Community - Creative Commons
-> Training: Copyright and Open Licensing* \[Video recording\]. Zenodo.
-> [https://doi.org/10.5281/zenodo.11062207](https://doi.org/10.5281/zenodo.11062207)
->
-> *Know Your Copyrights*. (n.d.). Association of Research Libraries.
-> Retrieved November 11, 2024, from
-> [https://www.arl.org/know-your-copyrights/](https://www.arl.org/know-your-copyrights/)
->
-> *Monkey selfie copyright dispute.* (2024). In *Wikipedia*.
-> [https://en.wikipedia.org/w/index.php?title=Monkey_selfie_copyright_dispute&oldid=1254626044](https://en.wikipedia.org/w/index.php?title=Monkey_selfie_copyright_dispute&oldid=1254626044)
->
-> *Open Data Commons: Legal tools for open data*. (n.d.). Open Data
-> Commons. Retrieved November 11, 2024, from
-> [https://opendatacommons.org/](https://opendatacommons.org/)
->
-> *Research Data Ownership Policy*. (2019). Harvard University Office of
-> the Vice Provost for Research.
-> <https://cpb-us-e1.wpmucdn.com/websites.harvard.edu/dist/6/18/files/2020/07/data_ownership_policy_08.06.19.pdf>.
->
-> Saenen, B. (2024). *Developing and Aligning Policies on Research
-> Software: Recommendations for Research Funding and Research Performing
-> Organisations*.
-> [https://doi.org/10.5281/zenodo.13740999](https://doi.org/10.5281/zenodo.13740999)
->
-> *TLDRLegal—Software Licenses Explained in Plain English*. (n.d.).
-> Retrieved November 11, 2024, from
-> [https://www.tldrlegal.com/](https://www.tldrlegal.com/)
->
-> *What is Copyright?* (n.d.). U.S. Copyright Office. Retrieved November
-> 11, 2024, from
-> [https://www.copyright.gov/what-is-copyright/](https://www.copyright.gov/what-is-copyright/)
->
-> *Writing a Data Management & Sharing Plan \| Data Sharing*. (n.d.).
-> National Institues of Health. Retrieved November 11, 2024, from
-> [https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#elements-to-include-in-a-data-management-and-sharing-plan](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#elements-to-include-in-a-data-management-and-sharing-plan)
+ *About CC Licenses*. (n.d.). Creative Commons. Retrieved July 2, 2024, from [https://creativecommons.org/share-your-work/cclicenses/](https://creativecommons.org/share-your-work/cclicenses/) Barsness, S., Cummins, J., Fernandez, M., James, A., Pierce Farrier K., Pringle, J., Carroll, SR. Taitingfong, R., & Wieker, A. (2023). *CARE Data Principles Primer*. Data Curation Network. Retrieved July 2, 2024, from <https://github.com/DataCurationNetwork/data-primers/blob/main/CARE%20Primer/care-primer.md>. Benson, S. R. (2019). *Fear & Fair Use: Addressing the Affective Domain*. [Association of College and Research Libraries. https://hdl.handle.net/2142/105485](https://hdl.handle.net/2142/105485). *Best Practices for Sharing Research Software \| Data Science at NIH*. (n.d.). National Institutes of Health. Retrieved November 11, 2024, from [https://datascience.nih.gov/tools-and-analytics/best-practices-for-sharing-research-software-faq](https://datascience.nih.gov/tools-and-analytics/best-practices-for-sharing-research-software-faq) *BSD 3-Clause No Nuclear License.* (2009). Software Package Data Exchange. Retrieved November 11, 2024, from [https://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License.html](https://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License.html) *CARE Principles*. (2023, January 23). Global Indigenous Data Alliance. [https://www.gida-global.org/care](https://www.gida-global.org/care) *Chapter XI: Other Post Award Requirements and Considerations - Proposal & Award Policies & Procedures Guide (PAPPG) (NSF 24-1).* (May 20, 2024). National Science Foundation. Retrieved November 11, 2024, from [https://new.nsf.gov/policies/pappg/24-1/ch-11-other-post-award-requirements](https://new.nsf.gov/policies/pappg/24-1/ch-11-other-post-award-requirements) *Code of Best Practices in Fair Use for Software Preservation*. (2012). Association of Research Libraries. Retrieved November 11, 2024, from [https://www.arl.org/wp-content/uploads/2014/01/code-of-best-practices-fair-use.pdf](https://www.arl.org/wp-content/uploads/2014/01/code-of-best-practices-fair-use.pdf). *Compendium of U.S. Copyright Office Practices, 313.3(C) Facts.* (n.d.). U.S. Copyright Office*.* Retrieved July 2, 2024, from [https://www.copyright.gov/comp3/](https://www.copyright.gov/comp3/) *Data Governance*. (n.d.). University of Wisconsin-Madison. Retrieved July 2, 2024, from [https://data.wisc.edu/data-governance/](https://data.wisc.edu/data-governance/) *Data ownership*. (n.d.). National Center for Advancing Translational Sciences. Retrieved July 2, 2024, from [https://toolkit.ncats.nih.gov/glossary/data-ownership](https://toolkit.ncats.nih.gov/glossary/data-ownership) Darragh, Jen; Hofelich Mohr, Alicia; Hunt, Shanda; Woodbrook, Rachel; Fearon, Dave; Moore, Jennifer; and Hadley, Hannah. (2020). *Human Subjects Data Essentials Data Curation Primer.* Data Curation Network*.* Retrieved July 2, 2024, from [https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md). *Dear Colleague Letter: Office of Polar Programs Data, Code, and Sample Management Policy.* (2022, July 14). National Science Foundation. Retrieved November 11, 2024, from [https://www.nsf.gov/pubs/2022/nsf22106/nsf22106.jsp](https://www.nsf.gov/pubs/2022/nsf22106/nsf22106.jsp) *FAIR Principles*. (n.d.). GO FAIR. Retrieved July 2, 2024, from [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/) Fadler, M., & Legner, C. (2022). Data ownership revisited: Clarifying data accountabilities in times of big data and analytics. *Journal of Business Analytics*, *5*(1), 123–139. [https://doi.org/10.1080/2573234X.2021.1945961](https://doi.org/10.1080/2573234X.2021.1945961) *Feist Publications, Inc. V. Rural Tel. Serv. Co. : 499 U.S. 340 (1991): Justia US Supreme Court Center*. Retrieved July 2, 2024, from [https://supreme.justia.com/cases/federal/us/499/340/](https://supreme.justia.com/cases/federal/us/499/340/) *Frequently Asked Questions about the GNU Licenses*. (n.d.). Free Software Foundation. Retrieved November 11, 2024, from [https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs](https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs) Friedlander, A. (2023). NASA’s public access plan. *National Aeronautics and Space Administration*. Retrieved July 2, 2024, from [https://www.nasa.gov/wp-content/uploads/2021/12/nasa-ocs-public-access-plan-may-2023.pdf](https://www.nasa.gov/wp-content/uploads/2021/12/nasa-ocs-public-access-plan-may-2023.pdf). . Gent, E. *Public AI Training Datasets Are Rife With Licensing Errors*. (2023, November 8). IEEE Spectrum*.* Retrieved July 2, 2024, from <https://spectrum.ieee.org/data-ai>. *GNU Free Documentation License v1.3*. (2008). Free Software Foundation. Retrieved November 11, 2024, from [https://www.gnu.org/licenses/fdl-1.3.en.html](https://www.gnu.org/licenses/fdl-1.3.en.html) *Good data practices: Removing barriers to data reuse with CC0 licensing*. (2023, May 30) Dryad. Retrieved July 2, 2024, from <https://blog.datadryad.org/2023/05/30/good-data-practices-removing-barriers-to-data-reuse-with-cc0-licensing/>. Hollich, S. (2024, April 24). *MJFF Data Community - Creative Commons Training: Copyright and Open Licensing* \[Video recording\]. Zenodo. [https://doi.org/10.5281/zenodo.11062207](https://doi.org/10.5281/zenodo.11062207) *Know Your Copyrights*. (n.d.). Association of Research Libraries. Retrieved November 11, 2024, from [https://www.arl.org/know-your-copyrights/](https://www.arl.org/know-your-copyrights/) *Monkey selfie copyright dispute.* (2024). In *Wikipedia*. [https://en.wikipedia.org/w/index.php?title=Monkey_selfie_copyright_dispute&oldid=1254626044](https://en.wikipedia.org/w/index.php?title=Monkey_selfie_copyright_dispute&oldid=1254626044) *Open Data Commons: Legal tools for open data*. (n.d.). Open Data Commons. Retrieved November 11, 2024, from [https://opendatacommons.org/](https://opendatacommons.org/) *Research Data Ownership Policy*. (2019). Harvard University Office of the Vice Provost for Research. <https://cpb-us-e1.wpmucdn.com/websites.harvard.edu/dist/6/18/files/2020/07/data_ownership_policy_08.06.19.pdf>. Saenen, B. (2024). *Developing and Aligning Policies on Research Software: Recommendations for Research Funding and Research Performing Organisations*. [https://doi.org/10.5281/zenodo.13740999](https://doi.org/10.5281/zenodo.13740999) *TLDRLegal—Software Licenses Explained in Plain English*. (n.d.). Retrieved November 11, 2024, from [https://www.tldrlegal.com/](https://www.tldrlegal.com/) *What is Copyright?* (n.d.). U.S. Copyright Office. Retrieved November 11, 2024, from [https://www.copyright.gov/what-is-copyright/](https://www.copyright.gov/what-is-copyright/) *Writing a Data Management & Sharing Plan \| Data Sharing*. (n.d.). National Institues of Health. Retrieved November 11, 2024, from [https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#elements-to-include-in-a-data-management-and-sharing-plan](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#elements-to-include-in-a-data-management-and-sharing-plan)
 
 # Additional Resources on Navigating Licenses
-
-> Creative Commons Licenses:
->
-> *About CC Licenses*. (n.d.). Creative Commons. Retrieved July 2, 2024,
-> from <https://creativecommons.org/share-your-work/cclicenses/>.
->
-> Open Source Licenses for Software:
->
-> *Choose an open source license*. (n.d.). Choose a License. Retrieved
-> July 2, 2024, from
-> [https://choosealicense.com/](https://choosealicense.com/)
->
-> *Licenses*. (n.d.). Open Source Initiative. Retrieved November 11,
-> 2024, from
-> [https://opensource.org/licenses](https://opensource.org/licenses)
->
-> Joinup Licensing Assistant:
->
-> *JLA - Find and compare software licenses*. (n.d.). Joinup. Retrieved
-> July 2, 2024, from
-> [https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses)
->
-> GitHub Repository Licenses:
->
-> *Licensing a repository*. (n.d.). GitHub. Retrieved July 2, 2024, from
-> [https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+ Creative Commons Licenses: *About CC Licenses*. (n.d.). Creative Commons. Retrieved July 2, 2024, from <https://creativecommons.org/share-your-work/cclicenses/>. Open Source Licenses for Software: *Choose an open source license*. (n.d.). Choose a License. Retrieved July 2, 2024, from [https://choosealicense.com/](https://choosealicense.com/) *Licenses*. (n.d.). Open Source Initiative. Retrieved November 11, 2024, from [https://opensource.org/licenses](https://opensource.org/licenses) Joinup Licensing Assistant: *JLA - Find and compare software licenses*. (n.d.). Joinup. Retrieved July 2, 2024, from [https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses](https://joinup.ec.europa.eu/collection/eupl/solution/joinup-licensing-assistant/jla-find-and-compare-software-licenses) GitHub Repository Licenses: *Licensing a repository*. (n.d.). GitHub. Retrieved July 2, 2024, from [https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 [^1]: A “fact” is something that is not created, but already exists and
     is discovered and recorded. This applies to scientific, historical,
