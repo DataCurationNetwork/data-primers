@@ -487,7 +487,7 @@ action based on that information. The curator should avoid giving the
 impression that they are making a legal determination of the
 researcher’s situation with regards to copyright.
 
-How to Avoid Giving Legal Advice
+### How to Avoid Giving Legal Advice
 
 | When a researcher asks…           | Curators should…   | Curators should not…                  |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
