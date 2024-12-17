@@ -3,7 +3,7 @@
 
 # A Primer for Applying and Interpreting Licenses for Research Data and Code
 
-Authors: Lisa Chinn, Matthew Murray 🦇, amd Isaac Wink 
+Authors: Lisa Chinn, Matthew Murray 🦇, and Isaac Wink 
 
 Affiliate Contributors (peer reviewers): Talya Cooper, Laura Hjerpe, Katherine Klosek, Sophia Lafferty-Hess, Allison Langham-Puttrow, and Jiebei Luo.
 
