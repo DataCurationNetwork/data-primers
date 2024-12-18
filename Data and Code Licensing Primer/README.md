@@ -13,6 +13,6 @@ V1.0
 
 Summary of changes: Primer uploaded to GitHub
 
-Date [mm/dd/yyyy]: 12/171/2023
+Date [mm/dd/yyyy]: 12/17/2023
 
 Note: please add change date in descending order
