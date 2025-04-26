@@ -134,7 +134,7 @@ If there is insufficient documentation included to answer these questions, you s
 
 See also: Appendix 1 - Best Practices: Pre-production, Production, Post-production
 
-Oral history data are broader than a specific file type or set of technical standards, and the types of metadata that you will want to be checking for are somewhat broad and related in several cases to ethical and technical considerations given above. The Oral History Association provides [a set of metadata tools](https:/oha.archipelago.nyc) and resources, including a full list of metadata elements and an online tool to create a customized element set. Key metadata elements for curation are included here below:
+Oral history data are broader than a specific file type or set of technical standards, and the types of metadata that you will want to be checking for are somewhat broad and related in several cases to ethical and technical considerations given above. The Oral History Association provides [a set of metadata tools](https://oralhistory.org/metadata-assessment-and-planning-tool/) and resources, including a full list of metadata elements and an online tool to create a customized element set. Key metadata elements for curation are included here below:
 
 ### Administrative metadata:
 
@@ -277,9 +277,9 @@ What metadata should be collected? What standards will be applied? What are the 
 
 **Suggested metadata schemas:**
 
-[TEI (Text Encoding Initiative)]() 
+[TEI (Text Encoding Initiative)](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
 
-Guideline for encoding machine-readable (in the fields of humanities and social sciences). Used to describe the structural hierarchies, divisions, and characteristics of a given file (audio/video). 
+Guideline for encoding machine-readable (in the fields of humanities and social sciences). Used to describe the structural hierarchies, divisions, and characteristics of a given file (audio/video).
 
 [PBCore](http://pbcore.org/elements)
 
@@ -289,7 +289,7 @@ Public Broadcasting Metadata Dictionary (PBCore) is made up of elements, which c
 
 Metadata Encoding and Transmission Standard identified the structural metadata found in audio/video file formats. METS is a “wrapper” with a number of elements which provide a hierarchical structure for oral history files.
 
-[OHA Metadata for Oral History: An Interactive Toolkit](https://oha.archipelago.nyc)
+[OHA Metadata for Oral History: An Interactive Toolkit](https://oralhistory.org/metadata-assessment-and-planning-tool/)
 
 The Oral History Association (OHA) Metadata Task Force provides metadata tools and resources, including a metadata elements list, an interactive element-set building tool, and practitioner profiles in which oral historians describe the factors that guide their metadata decisions. 
 
@@ -385,13 +385,11 @@ Dunaway, D. K., & Baum, W. K. (1996). Oral History: An Interdisciplinary Antholo
 
 Frisch, M., & Lambert, D. (2012). Mapping Approaches To Oral History Content Management in The Digital Age. Retrieved from Oral History in the Digital Age: http://ohda.matrix.msu.edu/2012/07/mapping/
 
-Froh, G. (2007). Making Sense of Metadata: A Practical Overview for Oral Historians. Retrieved from https://www.slideshare.net/GeoffFroh/oha-2008-making-sense-of-metadata-a-practical-overview-for-oral-historians-presentation
-
 High, S., & Sworn, D. (2009). After the Interview: The Interpretive Challenges of Oral History Video Indexing. Digital Studies/le Champ Numérique, 1(2). doi:http://doi.org/10.16995/dscn.110
 
 International Association of Sound and Audiovisual Archives. (n.d.). Guidelines on the Production and Preservation of Digital Audio Objects (web edition). Retrieved from 3.8 Structural Metadata – METS: https://www.iasa-web.org/tc04/structural-metadata-mets
 
-Jones, S. (2018). A brief guide to using the software ELAN. LEARN Nagoya.
+Jones, S. (2018). A brief guide to using the software ELAN. LEARN Nagoya. https://www.academia.edu/37810888/A_brief_guide_to_using_the_software_ELAN 
 
 Library of Congress AV Prototype Coordinator. (2003). AV Prototype Project. Retrieved from Explanation: DigiProv (Digital Provenance) Extension Schema: http://www.loc.gov/rr/mopic/avprot/DD_PMD.html
 
@@ -409,13 +407,11 @@ Technical Committee - International Association of Sound and AudioVisual Archive
 
 The National Recording Preservation Board. (2010). The State of Recorded Sound Preservation in the United States: A National Legacy at Risk in the Digital Age. Washington, D.C.: Council on Library and Information Resources and The Library of Congress.
 
-Uchefuna, C., & Carline, K. (2019). Data Curation · Oral History Methods. Michigan State University, Lab for the Education and Advancement in Digital Research (LEADR). Retrieved December 20, 2019, from http://projects.leadr.msu.edu/oralhistorymethods/curation
-
 Vos, J. (2012). New Roots: An Oral History Metadata Case Study at the University of North Carolina at Chapel Hill. Retrieved from Oral History in the Digital Age: http://ohda.matrix.msu.edu/2015/10/new-roots-an-oral-history-metadata-case-study-at-the-university-of-north-carolina-at-chapel-hill/
 
 # Appendix 2: filetype CURATED checklist
 
-The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps https://datacurationnetwork.org/resources/resources-2/.
+The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps https://datacurationnetwork.org/outputs/workflows/.
 
 **Check files and read documentation**
 
@@ -458,9 +454,9 @@ The following CURATED checklist model is based on the Digital Curation Network�
 
 [Archiving Oral History: manual for best practices](https://www.oralhistory.org/archives-principles-and-best-practices-complete-manual/)
 
-[Oral History in the digital age - best practices](http://wiki.ohda.matrix.msu.edu/index.php/Best_Practices)
+[Oral History in the digital age - best practices](https://ohda.matrix.msu.edu/2012/06/metadata/)
 
-[Oral History methods - data curation](http://projects.leadr.msu.edu/oralhistorymethods/curation)
+[Oral History methods - data curation](https://dh.matrix.msu.edu/wp-content/uploads/2014/05/OH_Methods.pdf)
 
 [Oral History Association](https://www.oralhistory.org)
 
@@ -468,7 +464,7 @@ The following CURATED checklist model is based on the Digital Curation Network�
 
 If the researcher is looking for something other than a data repository deposit, there are some options:
 
-[Oral History Metadata Synchronizer](http://nunncenter.org/ohms-info/) - Kentucky is an example of a platform that is both a “back-end, **web-based application** where interviews are imported, and metadata is created” as well as a viewer or **user interface** to experience and interact with the data. The system requests content from a digital repository and loads the content into the viewer and aligns the transcription based on time-stamped metadata. The metadata serves multiple purposes including discovery, identification, and time alignment. 
+[Oral History Metadata Synchronizer](https://www.oralhistoryonline.org) - Kentucky is an example of a platform that is both a “back-end, **web-based application** where interviews are imported, and metadata is created” as well as a viewer or **user interface** to experience and interact with the data. The system requests content from a digital repository and loads the content into the viewer and aligns the transcription based on time-stamped metadata. The metadata serves multiple purposes including discovery, identification, and time alignment. 
 
 Another platform that is both a traditional digital repository and an exhibit viewer for oral histories is [Omeka](https://omeka.org). For example [Curatescape](https://curatescape.org) a web and mobile app framework built on top of Omeka, presents oral histories in context with community stories. Curatescape/Omeka is designed for “small to mid-sized cultural organizations, preservation groups, or educational institutions an opportunity to reclaim their interpretive voice and reconnect to their communities and audiences.” ([source](https://curatescape.org/about/))
 

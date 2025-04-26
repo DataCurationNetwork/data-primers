@@ -1,5 +1,5 @@
 **Current Version:**  
-V1.0
+V1.1
 
 **License:**  
 CC BY 4.0
@@ -10,6 +10,11 @@ Pryse, J.A.; Harp, Matthew; Mannheimer, Sara; Marsolek, Wanda; and Cowles, Wind.
 **Funding:**
 This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building the Data Curation Community: Advancing Specialized Data Curation".
 
+Version: V1.1
+
+Summary of changes: updated broken links in Oral History Primer. Updates implemeneted by Shawna Taylor.
+
+Date [mm/dd/yy]: 04/26/2025
 
 Version:
 V1.0
