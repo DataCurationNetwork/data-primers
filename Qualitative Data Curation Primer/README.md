@@ -12,9 +12,9 @@ This primer was developed as part of the IMLS grant #RE-85-18-0040-18 "Building 
 
 Version:
 V1.1
-Summary of changes: updated broken links in the Qualitative Data Curation Primer. Updates implemeneted by Shawna Taylor.
+Summary of changes: Updated broken links in the Qualitative Data Curation Primer. Updates implemented by Shawna Taylor.
 
-Date [mm/dd/yy]: 04/26/2025
+Date [mm/dd/yyyy]: 04/28/2025
 
 Version:
 V1.0

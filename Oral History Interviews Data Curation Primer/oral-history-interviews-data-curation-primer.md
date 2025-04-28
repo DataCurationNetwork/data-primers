@@ -23,7 +23,7 @@ _This work was created as part of the “Specialized Data Curation” Workshop #
 
 [Description of format](#description-of-format)
 
-[Examples What does a typical oral history dataset look like](#examples-what-does-a-typical-oral-history-dataset-look-like)
+[Examples: What does a typical oral history dataset look like](#examples-what-does-a-typical-oral-history-dataset-look-like)
 
 [Workflow](#workflow)
 
@@ -63,13 +63,13 @@ Oral histories can come in the form of digitized analog audio or videotape recor
 
 The primary output for research purposes is typically considered to be a written transcript of the audio and/or video recording of the interview. Thus, the minimum information needed for a complete oral history dataset is a transcript and a documentation/readme file. Audio and/or video files may also be included; while they have typically been considered as secondary products, this perception is evolving and oral history datasets are increasingly including audio and/or video files. Additional key information for an oral history dataset includes interview documentation and rights statements. Further, it is important to know that the transcript is likely to not be a verbatim copy of the audio; this is within accepted protocols for this type of data. Audio and video may be in compressed or uncompressed formats; technical issues of working with transcriptions, audio, and video files are addressed below (See Appendix 1). 
 
-Like other data formats, oral history datasets can contain information from a wide range of topics. Like other kinds of data that draw information from human sources, there are important ethical issues to be aware of for curation, in addition to technical issues. Oral histories may cover sensitive personal or cultural information, but even if they do not, community ethics guidelines require that the process, from interview to data preservation and use, be guided by respect for both the narrators and their communities. Ethical issues of working with oral history is addressed in more detail below; for further, additional information on ethics in oral history projects, see [OHA Statement on Ethics](https://www.oralhistory.org/oha-statement-on-ethics/). 
+Like other data formats, oral history datasets can contain information from a wide range of topics. Like other kinds of data that draw information from human sources, there are important ethical issues to be aware of for curation, in addition to technical issues. Oral histories may cover sensitive personal or cultural information, but even if they do not, community ethics guidelines require that the process, from interview to data preservation and use, be guided by respect for both the narrators and their communities. Ethical issues of working with oral history is addressed in more detail below; for further, additional information on ethics in oral history projects, see [OHA Statement on Ethics](https://www.oralhistory.org/oha-statement-on-ethics/).
 
 Historically, the importance of transcription stemmed from the practice of destroying recordings and leaving only the transcript. Current practices evolved and now some researchers seek the audio or video recording as the first “primary” document, which means curators of oral history research have more variance in data types to process that requires greater context for them to be reused.
 
-# Examples What does a typical oral history dataset look like
+# Examples: What does a typical oral history dataset look like
 
-A model for better data analysis and curation with respect to oral histories involves a number of structured detailed fields that facilitate reliable research retrievability. The following fields are structured to address current data as well as format migration data to aid in discoverability. 
+A model for better data analysis and curation with respect to oral histories involves a number of structured detailed fields that facilitate reliable research retrievability. The following fields are structured to address current data as well as format migration data to aid in discoverability.
 
 ![](OralHistory_1.jpeg)
 
@@ -161,7 +161,7 @@ Oral history data are broader than a specific file type or set of technical stan
 ### Preservation metadata
 
 - Information about the physical condition of the recording, and any copies that have been made of it. You may need to record this metadata when you make multiple backup copies.
-- Record file migrations and reformatting, such as transformation from obsolete formats. Note the use of obsolete hardware and software, to determine accessibility issues. 
+- Record file migrations and reformatting, such as transformation from obsolete formats. Note the use of obsolete hardware and software, to determine accessibility issues.
 
 ### Rights and access metadata
 
@@ -197,7 +197,7 @@ While oral histories typically include the audio or audio-visual recordings, tra
 Once you have confirmed the above it is now time to inventory the files and make sure you have original, unaltered versions of your oral history collection.
 
 - Inventory and assess files by reviewing documentation and looking at file folders from original storage. Can you open and access the files? Do they match inventory lists and other documentation? Ask yourself if the file names match, do you have any conflicts such as similar file names or are they using special characters or non-descriptive file names which could inhibit retrieval or software interaction.
-- Perform preservation actions such as fixity checks. You may have specific workflows and archival processes to follow based on institutional policy or guidance. However, at a minimum you can run a basic checksum request and log the resulting hashes for files you are managing against their original sources. The checksum log can be kept as a form of metadata and used for periodic checks to ensure durability and long term fixity. 
+- Perform preservation actions such as fixity checks. You may have specific workflows and archival processes to follow based on institutional policy or guidance. However, at a minimum you can run a basic checksum request and log the resulting hashes for files you are managing against their original sources. The checksum log can be kept as a form of metadata and used for periodic checks to ensure durability and long term fixity.
 - Prepare for long term storage and access as appropriately determined by steps 3.1 to 3.4. Audio/video files, transcriptions, supplementary materials, and metadata should be backed up onto a sustainably managed, trusted storage option, such as institution-supported storage or a cloud-based service. If managing your own back-up solution, you would ideally create two back-up copies stored in separate physical locations.
 
 To learn more about software for interacting with Oral Histories and considerations for preparing them for future re-use and aggregation/discovery see: Appendix 3 - Additional Resources Interacting and Using Oral Histories 
@@ -233,13 +233,13 @@ Oliver, K., & Oliver, K. (n.d.). Michael Frisch: “Oral History in the Digital 
 
 ### Suggested Best Practices
 
-When preparing an oral history for future research and curation it is important to follow the suggested guidelines which will assist data curators, researchers, and patrons, access the information in an efficient, thorough manner. The three components of oral history packaging are preproduction, production, and post production. Oral historians should give extensive attention to each component at the start of any oral history project. Appendix 1 presents guidelines for how to conduct and package an oral history regardless of analog or digital format for future curation projects as well as long-term preservation management. 
+When preparing an oral history for future research and curation it is important to follow the suggested guidelines which will assist data curators, researchers, and patrons, access the information in an efficient, thorough manner. The three components of oral history packaging are preproduction, production, and post production. Oral historians should give extensive attention to each component at the start of any oral history project. Appendix 1 presents guidelines for how to conduct and package an oral history regardless of analog or digital format for future curation projects as well as long-term preservation management.
 
 ### Preproduction
 
-In the early stages of creating an oral history it is important to plan the project to properly sustain the materials for long-term accessibility and retrievability. The steps listed will help guide the preproduction elements. 
+In the early stages of creating an oral history it is important to plan the project to properly sustain the materials for long-term accessibility and retrievability. The steps listed will help guide the preproduction elements.
 
-**Intention of interview** 
+**Intention of interview**
 
 What is the purpose of the oral history? Who is your audience? What research has been conducted to prepare for oral history? Are there additional skills or individuals that might assist with preparing for the oral history?
 
@@ -261,7 +261,7 @@ Are there existing materials on the subject in the collection and have they been
 
 Has a rights statement been read to the interviewee? What are the limits of the rights (literary, royalties, embargo limit)? The rights statement and permission form will include:
 
-- Check in at interview and again when making publically available
+- Check in at interview and again when making publicly available
 - Rights Declaration
 - Rights Holder Name
 - Rights Holder Contact Designation
