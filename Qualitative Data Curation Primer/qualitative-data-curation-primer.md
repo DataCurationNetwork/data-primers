@@ -77,7 +77,7 @@ Necessary
 - Codebook
 - Readme
 - Instrument for data collection (e.g., survey, interview, etc), if applicable
-- Documentation generated in the Qualitative Data Analysis Software (QDAS) application (e.g., Nvivo, atlas.TI, etc.): memos, notes, networks, classifications
+- Documentation generated in the Qualitative Data Analysis Software (QDAS) application (e.g., Nvivo, ATLAS.ti, etc.): memos, notes, networks, classifications
 
 Ideally:
 - Informed consent statement(s) or assent (see [the Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md))
@@ -95,7 +95,7 @@ This is not an exhaustive list of considerations, but every potential repository
 - Data sensitivity -- How sensitive is the data? What protections should be in place? Can the repository provide the appropriate level of protection to meet relevant legal or regulatory requirements?
 - Persistence -- Will the repository be able to provide a persistent and unique identifier for your data?
 - Preservation -- Some repositories are preservation focused and may require strict compliance with their regulations. Are there any format restrictions on what the repository will accept? Are there strict metadata standards you must comply with? If preservation is crucial, do they have a contingency plan in the event they must suspend service? Have they received certification from any national or international agencies?
-- Costs -- Many repositories have a cost-recovery model in place for deposits, particularly for largedatasets. Does the repository charge for upload or maintenance of the data? If so, is there funding vailable to cover these expenses?
+- Costs -- Many repositories have a cost-recovery model in place for deposits, particularly for large datasets. Does the repository charge for upload or maintenance of the data? If so, is there funding vailable to cover these expenses?
 - Access -- Can your data be made openly accessible? Do you need to restrict access to part or all of the Data? Do you need to add collaborators as “Editors” to the data? Do you need to have usage statistics tracked? If so, can the repository provide that information?
 
 In addition to the above requirements, consider how the data and any publication records, such as presentations and articles, will be linked together regardless of where the content is stored. If the publisher will store both the data and the publication, consider storing a backup copy of the data in another repository that is publicly available, such as an institutional repository.
@@ -114,7 +114,7 @@ Enabling reuse involves both technical actions (i.e., converting proprietary or 
 
 While qualitative data can help explain phenomena and describe the world, it doesn’t have the same history of preservation and sharing that quantitative data does (Qualitative Data Repository [QDR], n.d.). Because of this, researchers may not consider depositing their data once their research projects are completed, and if they do, researchers and curators may have difficulties preparing the data for deposit.
 
-Similar to the sharing of quantitative data, sharing qualitative data provides numerous benefits for researchers. As will be discussed later on in this primer, the increased trust and transparency and ability to reuse the data are among the key benefits to sharing qualitative data. Encouraging researchers to deposit their files could aid in the preservation of the data, rather than having them be disposed of once the particular research project has been completed (QDR, n.d.). Preserving the qualitative data could allow for easier access to data for longitudinal studies by multiple research teams that currently may be difficult to complete. In addition, sharing qualitative data can allow for a deeper analysis with the ability to have more individuals study the data and provide additional insights (Elman and Kapiszewski, 2017). Finally, as long as deposited data is publically available, it could provide students and researchers learning how to analyze qualitative data a useful dataset to practice on and examine (Elman and Kapiszewski, 2017).
+Similar to the sharing of quantitative data, sharing qualitative data provides numerous benefits for researchers. As will be discussed later on in this primer, the increased trust and transparency and ability to reuse the data are among the key benefits to sharing qualitative data. Encouraging researchers to deposit their files could aid in the preservation of the data, rather than having them be disposed of once the particular research project has been completed (QDR, n.d.). Preserving the qualitative data could allow for easier access to data for longitudinal studies by multiple research teams that currently may be difficult to complete. In addition, sharing qualitative data can allow for a deeper analysis with the ability to have more individuals study the data and provide additional insights (Elman and Kapiszewski, 2017). Finally, as long as deposited data is publicly available, it could provide students and researchers learning how to analyze qualitative data a useful dataset to practice on and examine (Elman and Kapiszewski, 2017).
 
 Although there are benefits to sharing qualitative data through depositing it, there are also challenges. The primary one is that in the United States, data generated in the course of qualitative research is not broadly shared or deposited in repositories and researchers may not think about that possibility (QDR, n.d.). Numerous rounds of outreach to researchers conducting qualitative research may be necessary. This could range from letting them know that your repository accepts qualitative data to working with them to prepare their IRB submissions. If researchers express interest in depositing their data without planning for it when going through the ethics review process, they may run into difficulties.
 
@@ -209,7 +209,7 @@ Use this guide along with other primers, such as the Human Participants Data Ess
 - ❏ Codebook
 - ❏ Readme
 - ❏ Instrument for data collection (e.g., survey, interview, etc), if applicable
-- ❏ Documentation generated in the Qualitative Data Analysis Software (QDAS) application (e.g., Nvivo, atlas.TI, etc.): memos, notes, networks, classifications
+- ❏ Documentation generated in the Qualitative Data Analysis Software (QDAS) application (e.g., Nvivo, ATLAS.ti, etc.): memos, notes, networks, classifications
 
 ## U- Understand
 
@@ -237,7 +237,7 @@ Use this guide along with other primers, such as the Human Participants Data Ess
 ## T-Transform
 
 ❏ Transform file formats for reuse
-- ❏ Many QDAS are proprietary, so interoperability between them is not expected. See the software-specific primers (i.e., [Atlas.ti](https://github.com/DataCurationNetwork/data-primers/blob/master/Atlas.ti%20Data%20Curation%20Primer/AtlasTI-data-curation-primer.md), [NVivo](https://github.com/DataCurationNetwork/data-primers/blob/master/NVivo%20Data%20Curation%20Primer/NVivo-data-curation-primer.md)) for guidance in extracting key information from QDAS.
+- ❏ Many QDAS are proprietary, so interoperability between them is not expected. See the software-specific primers (i.e., [ATLAS.ti](https://github.com/DataCurationNetwork/data-primers/blob/master/Atlas.ti%20Data%20Curation%20Primer/AtlasTI-data-curation-primer.md), [NVivo](https://github.com/DataCurationNetwork/data-primers/blob/master/NVivo%20Data%20Curation%20Primer/NVivo-data-curation-primer.md)) for guidance in extracting key information from QDAS.
 - ❏ When the original source files are not available or are in proprietary formats, consider exporting them to common, openly defined file formats.
 - ❏ When possible, convert files into open-definition, common file formats based on the recommendations from the Library of Congress: https://www.loc.gov/preservation/resources/rfs/RFS%202019-2020.pdf.
 
