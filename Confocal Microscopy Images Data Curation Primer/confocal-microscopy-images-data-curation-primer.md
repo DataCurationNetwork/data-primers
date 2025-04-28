@@ -6,24 +6,17 @@
 
 |   Topic   |   Description   |
 | :------------- | :------------- |
-| File Extensions | .lsm (Zeiss - proprietary)<sup>1</sup> <br> .czi (Zeiss - proprietary) <br> .nd2 (Nikon NIS-Elements 2 - proprietary) <br> .lif (Lecia - proprietary) <br> .oib (Olympus - proprietary) <br> .zip <br> .tiff (open source - recommended for archiving)<sup>2</sup>   |
+| File Extensions | .lsm (Zeiss - proprietary)[^1] <br> .czi (Zeiss - proprietary) <br> .nd2 (Nikon NIS-Elements 2 - proprietary) <br> .lif (Lecia - proprietary) <br> .oib (Olympus - proprietary) <br> .zip <br> .tiff (open source - recommended for archiving)[^2]   |
 | MIME Type | Image/tiff |
 | Structure | Tiff stack, images and text |
 | Versions | Multiple (20xx-2019) |
 | Primary fields or areas of use | Biology, health, engineering, chemistry |
 | Source and affiliation | Multiple companies - microscopy software |
-| Metadata | ABCD: [Access to Biological Collections Data](https://github.com/tdwg/abcd) (ABCD) (Version 3.0 2019)<sup>3</sup> <br> OME: [OME-XML - Open Microscopy Environment XML](https://github.com/tdwg/abcd) (2012)<sup>4</sup> |
+| Metadata | ABCD: [Access to Biological Collections Data](https://github.com/tdwg/abcd) (ABCD) (Version 3.0 2019)[^3] <br> OME: [OME-XML - Open Microscopy Environment XML](https://github.com/tdwg/abcd) (2012)[^4] |
 | Tools for curation review | Word or text editor, ImageJ or image viewer |
 | Date Created | 2019-07-01 |
 | Created by | Susan Ivey- North Carolina State University <br> Amy Koshoffer - University of Cincinnati <br> Gretchen Sneff - Temple University <br> Huajin Wang - Carnegie Mellon University <br> Team Mentor - Lisa Johnston – University of Minnesota |
 
-<p  id="note1"><sup>1</sup> "CZI The File Format for the Microscope - Zeiss." https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html. Accessed 26 Jul. 2019. </p>
-
-<p  id="note1"><sup>2</sup> Supported Formats — Bio-Formats 6.0.1 documentation." 13 Mar. 2019, https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. Accessed 26 Jul. 2019. </p>
-
-<p  id="note1"><sup>3</sup> Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) http://www.tdwg.org/standards/115. </p>
-
-<p  id="note1"><sup>4</sup> OME format page. (2019-07-09). Retrieved from  https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. </p>
 
 ----------------------------
 **Suggested Citation:** Ivey, Susan; Koshoffer, Amy; Sneff, Gretchen; Wang, Huajin. (2019). Confocal Microscopy Images Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
@@ -59,7 +52,7 @@ Notes:
 
 Confocal microscopy is a type of microscopy technique to image objects that are too small to view with the unassisted human eye. It uses narrow wavelengths of light (in the visible spectrum 380 nm to 700 nm) generated from a laser to image different types of materials (biological, material). The light is also directed through a spatial pinhole so that out of focus light is not used in creating the image. The advantages to researchers of using confocal microscopy over simple light microscopy are mainly: 1) the ability to view thin sections of an optically thick sample (e.g., a whole cell) by blocking out-of-plane light, 2) the ability to label and image different cell or tissue types concurrently, and 3) reconstruction of 3-dimensional structures by stacking 2-dimensional images collected through the entire depth-offield of the sample. Researchers are able to “optically section” a sample to look through it at high resolution. The high-resolution 3D images (often called “z-stacks”) that can be created through confocal microscopy are one attribute of confocal image data that distinguishes it from other types of image data.
 
-To generate a confocal image from a sample (i.e. biological or material specimen), the samples are fixed to preserve the subcellular structure and stained with dyes that are targeted to specific proteins or subcellular structures. These dyes emit fluorescent light under laser beams of specific wavelengths, allowing the illumination of the target subcellular structure with a confocal microscope. Then samples are mounted on a glass slide and covered with a glass coverslip. The specimen is then placed on the microscope platform and the parameters of the microscope are optimized to capture the fluorescent light image(s) (at specific excitation/emission wavelengths) and sometimes a brightfield (white light) image. The result is often multiple images of the same area of sample captured at different wavelengths. Images of the different lasers and brightfield can be separated into individual channels or merged as a multicolor image. Also, with most microscopes, the parameters can be saved and reused for future experiments<sup>5</sup>. Some of the parameters are: pinhole size, objectives used, zoom and digital magnification, height of microscope platform, number of scans (which gives distance in height captured or z length), speed of scan, image averaging, lasers used, power of laser, and brightfield image settings. After the images are captured, they are sometimes processed for region of interest, background subtraction, and other post capture modifications. The final images that will be used for publication can be the single channel image, a merged image, a processed image, a z-stack, or a cropped version of these previously mentioned images.
+To generate a confocal image from a sample (i.e. biological or material specimen), the samples are fixed to preserve the subcellular structure and stained with dyes that are targeted to specific proteins or subcellular structures. These dyes emit fluorescent light under laser beams of specific wavelengths, allowing the illumination of the target subcellular structure with a confocal microscope. Then samples are mounted on a glass slide and covered with a glass coverslip. The specimen is then placed on the microscope platform and the parameters of the microscope are optimized to capture the fluorescent light image(s) (at specific excitation/emission wavelengths) and sometimes a brightfield (white light) image. The result is often multiple images of the same area of sample captured at different wavelengths. Images of the different lasers and brightfield can be separated into individual channels or merged as a multicolor image. Also, with most microscopes, the parameters can be saved and reused for future experiments[^5]. Some of the parameters are: pinhole size, objectives used, zoom and digital magnification, height of microscope platform, number of scans (which gives distance in height captured or z length), speed of scan, image averaging, lasers used, power of laser, and brightfield image settings. After the images are captured, they are sometimes processed for region of interest, background subtraction, and other post capture modifications. The final images that will be used for publication can be the single channel image, a merged image, a processed image, a z-stack, or a cropped version of these previously mentioned images.
 
 Many microscopes operate using proprietary software (e.g. Zeiss confocal scopes generate the .czi file format). However, best practice is to save images in both the raw data format, which may or may not be a proprietary format with specific instrument and experiment metadata, and a lossless format such as a .tiff file. To preserve and protect the raw data, make copies of images, then convert and export the images as .tiff files.
 
@@ -77,29 +70,19 @@ When researchers share their data via a data repository, they may share the raw,
 
 The purpose of this primer is to guide a data curator through the curation process for confocal images. It describes the image specifics, as well as what details and metadata from the instrumentation and experiment is needed to understand the images and use them for further research or educational purposes.
 
-<p  id="note1"><sup>5</sup> "Confocal Microscopy in a Nutshell | Imaging & Microscopy - Research ...." 17 Aug. 2016, https://www.imaging-git.com/science/light-microscopy/confocal-microscopy-nutshell. Accessed 26 Jul. 2019. </p>
-
 ### Confocal data format description
 
 Many microscopes produce proprietary formats, but it is recommended that users convert to TIFF to be submitted to repository, because it is sufficient to reproduce analysis using the TIFF format.
 
 ![](Confocal2.JPG)
 
-(Example confocal image - Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse<sup>6</sup>)
+(Example confocal image - Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse[^6])
 
-[**Cell Image Library:**](http://www.cellimagelibrary.org/home)<sup>7</sup> a well  curated cell imaging database, where datasets are associated with a project ID, and tagged by biological properties (e.g. species, process, cell type), equipment type (e.g. confocal or EM), imaging settings, sample preparation method, etc. This repository is an appropriate subject repository for these types of data.
+[**Cell Image Library:**](http://www.cellimagelibrary.org/home)[^7] a well  curated cell imaging database, where datasets are associated with a project ID, and tagged by biological properties (e.g. species, process, cell type), equipment type (e.g. confocal or EM), imaging settings, sample preparation method, etc. This repository is an appropriate subject repository for these types of data.
 
-- CIL Project: P1723, Localization of Metabotropic Glutamate Receptors in Alpha Synuclein<sup>8</sup>, is an example of a project that contains many well-documented datasets.
+- CIL Project: P1723, Localization of Metabotropic Glutamate Receptors in Alpha Synuclein[^8], is an example of a project that contains many well-documented datasets.
 
-- However, not all examples in the library are well labeled. For example, CIP Project 38979, a confocal image of breast cancer cells in culture<sup>9</sup>, has no details, and only gives DOI and ARK.
-
-<p  id="note1"><sup>6</sup> Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. "The Cell Image Library." http://www.cellimagelibrary.org/images/CCDB_4065 Accessed 26 Jul. 2019 </p>
-
-<p  id="note1"><sup>7</sup> The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. </p>
-
-<p  id="note1"><sup>8</sup> CIL Project: P1723 -Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. (2019-07-09). Retrieved from http://www.cellimagelibrary.org/P1723  </p>
-
-<p  id="note1"><sup>9</sup> A confocal image of breast cancer cells in culture. (2019-07-09) Retrieved from http://www.cellimagelibrary.org/images/38979 </p>
+- However, not all examples in the library are well labeled. For example, CIP Project 38979, a confocal image of breast cancer cells in culture[^9], has no details, and only gives DOI and ARK.
 
 ### Key curatorial questions
 
@@ -117,21 +100,21 @@ Many microscopes produce proprietary formats, but it is recommended that users c
 
 7. Who is the intended user community (researchers, education, media outlet, general public)?
 
-8. Are there any search, discovery, or access requirements that need to be met for this community (example – contribution page of [Cell Image Library:](http://www.cellimagelibrary.org/home) <sup>7</sup>)?
+8. Are there any search, discovery, or access requirements that need to be met for this community (example – contribution page of [Cell Image Library:](http://www.cellimagelibrary.org/home) [^10])?
 
 9. Does any of the data need to be restricted due to privacy concerns?
 
-<p  id="note1"><sup>7</sup> The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. </p>
+
 
 ### Applicable metadata standards, core elements, and readme requirements
 
 **Metadata standards:** There are two standards commonly used for microscopy images.
 
-- The OME Model<sup>4</sup> is a specification for storing data on biological imaging. The model includes image parameters, such as XYZ dimensions* and pixels type, as well as extensive metadata on, for example, image acquisition, annotation, and regions of interest (ROIs). This common specification is essential for the exchange of image data between different software packages
+- The OME Model [^11] is a specification for storing data on biological imaging. The model includes image parameters, such as XYZ dimensions* and pixels type, as well as extensive metadata on, for example, image acquisition, annotation, and regions of interest (ROIs). This common specification is essential for the exchange of image data between different software packages
 
-- The Access to Biological Collections Data (ABCD) schema<sup>3</sup> is the schema used in the [Cell Image Library](https://www.re3data.org/repository/r3d100000023)<sup>7</sup>. The ABCD schema is an evolving comprehensive standard for the access to and exchange of data about specimens and observations (a.k.a. primary biodiversity data). The ABCD Schema attempts to be comprehensive and highly structured, supporting data from a wide variety of databases. It is compatible with several existing data standards. Parallel structures exist so that either (or both) atomised data and free-text can be accommodated.
+- The Access to Biological Collections Data (ABCD) schema[^12] is the schema used in the [Cell Image Library](https://www.re3data.org/repository/r3d100000023)[^13]. The ABCD schema is an evolving comprehensive standard for the access to and exchange of data about specimens and observations (a.k.a. primary biodiversity data). The ABCD Schema attempts to be comprehensive and highly structured, supporting data from a wide variety of databases. It is compatible with several existing data standards. Parallel structures exist so that either (or both) atomised data and free-text can be accommodated.
 
-**Elements:** Use core elements from one of the above schemas, in addition to the following descriptors specific to microscopy (Cell Image Library contribution page – Submit<sup>7</sup>)
+**Elements:** Use core elements from one of the above schemas, in addition to the following descriptors specific to microscopy (Cell Image Library contribution page – Submit[^14])
 
 1. Biological or Material Source (e.g., organism, cell type, cellular components, and fixation method, sectioning, etc. if applicable)
 
@@ -143,37 +126,26 @@ Many microscopes produce proprietary formats, but it is recommended that users c
 
 5. Magnification of image (either a scale bar or a note with microns/pixel) *dimensions - size of images
 
-**Documentation:** A readme file should be included for every dataset. A minimum requirement would be at the dataset level; a readme for each child work should be included as needed. Cornell provides [an excellent guide](https://data.research.cornell.edu/content/readme#recommendedcontent)<sup>10</sup> for creating readme files and what is recommended minimum content for data reuse.
+**Documentation:** A readme file should be included for every dataset. A minimum requirement would be at the dataset level; a readme for each child work should be included as needed. Cornell provides [an excellent guide](https://data.research.cornell.edu/content/readme#recommendedcontent)[^15] for creating readme files and what is recommended minimum content for data reuse.
 
-**Licensing information:** The recommendation for licensing data is to apply the CC0 public domain dedication to the work<sup>11</sup>. This would clarify that the creator releases any copyright to the work. However, with images, the decision is not so straightforward. Copyrighted works are those that require creative or design choices, and the creation of confocal images require some choices by the researcher. Also, some publications allow researchers to maintain copyright of their submitted images while some do not. Researchers should check with the publisher to determine their author’s rights. If the researcher can retain copyright, they may also wish to add a license. The license communicates what limitations the researcher wants to place on the work. For guidance, researchers can refer to the Creative Commons website<sup>12</sup> or the Cell Image Library licensing page<sup>7</sup> or refer to the policies of publishers or intended repositories for permitted licenses.
+**Licensing information:** The recommendation for licensing data is to apply the CC0 public domain dedication to the work[^21]. This would clarify that the creator releases any copyright to the work. However, with images, the decision is not so straightforward. Copyrighted works are those that require creative or design choices, and the creation of confocal images require some choices by the researcher. Also, some publications allow researchers to maintain copyright of their submitted images while some do not. Researchers should check with the publisher to determine their author’s rights. If the researcher can retain copyright, they may also wish to add a license. The license communicates what limitations the researcher wants to place on the work. For guidance, researchers can refer to the Creative Commons website[^16] or the Cell Image Library licensing page[^22] or refer to the policies of publishers or intended repositories for permitted licenses.
 
 ### Resources/Software for viewing or analyzing data
 
-**Resource:** Fiji/ImageJ - https://imagej.nih.gov/ij/<sup>13</sup>- LMS browser
+**Resource:** Fiji/ImageJ - [https://imagej.net/ij/index.html](https://imagej.net/ij/index.html)[^17] - LMS browser
 
 > Purpose: This is an open source java-based image viewer and analysis software. Open and analyze many file types such as .lsm confocal images, .jpeg, and .tiff file formats. <br> When to use: after image capture  <br> Barrier: learning curve
 
-**Resource:** (Adobe) Photoshop - https://www.adobe.com<sup>14</sup>
+
+**Resource:** (Adobe) Photoshop - [https://www.adobe.com](https://www.adobe.com)[^18]
 
 > Purpose: to open images and make edits, add text, etc. <br> When to use: after image capture <br> Barrier: cost, learning curve is steep, proprietary software Edits should not be made if planning to analyze the images or uniform edits should be made to all images.
 
-**Resource:** Omero - https://www.openmicroscopy.org/index.html<sup>4</sup> (the system used by the [cell image library](http://www.cellimagelibrary.org/home)<sup>7</sup>)
+**Resource:** Omero - https://www.openmicroscopy.org/index.html[^19] (the system used by the [cell image library](http://www.cellimagelibrary.org/home)[^20])
 
 > Purpose: to view, organize, analyze, and share microscopy images <br> When to use: after image capture. Depending on need to share data <br> Barrier: Open Source project - possible lack of support or sustainability
 
-<p  id="note1"><sup>3</sup> Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) http://www.tdwg.org/standards/115. </p>
 
-<p  id="note1"><sup>4</sup> OME format page. (2019-07-09). Retrieved from  https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. </p>
-
-<p  id="note1"><sup>7</sup> The Cell Image Library, http://www.cellimagelibrary.org Accessed 26 Jul. 2019. </p>
-
-<p  id="note1"><sup>11</sup>  "Copyright and Data » Data Ab Initio." 17 Mar. 2016, http://dataabinitio.com/?p=632. Accessed 26 Jul. 2019. </p>
-
-<p  id="note1"><sup>12</sup> Creative Commons Homepage. (2019-07-22) Retrieved from https://creativecommons.org Accessed 26 Jul. 2019. </p>
-
-<p  id="note1"><sup>13</sup> ImageJ Website home page. (2019-07-09). Retrieved from https://imagej.nih.gov/ij/index.html Accessed 26 Jul. 2019. </p>
-
-<p  id="note1"><sup>14</sup> Adobe Photoshop Homepage (2019-07-09). Retrieved from https://www.adobe.com/ Accessed 26 Jul. 2019. </p>
 
 ### Preservation actions
 
@@ -227,23 +199,15 @@ To identify the MIME type, change the file extension to .zip, then unzip and you
 
 ### What to look for to make sure this file meets FAIR principles
 
-The FAIR Guiding Principles can be used to check that curation actions increase the discovery and re-use of data.<sup>15</sup>
+The FAIR Guiding Principles can be used to check that curation actions increase the discovery and re-use of data.[^23]
 
-**F**indability. Look for rich metadata that is appropriate to the field of study and that sufficiently describes the subject. The metadata schema employed should be widely used in the community and explicitly identified. For example, Open Microscopy Environment XML (OME-XML). Metadata<sup>16</sup> should be in a format that can be captured by repositories and be searchable. The record to which the image files are a part should have a unique identifier, such as a DOI (digital object identifier), handle or persistent URI (uniform resource identifier).
+**F**indability. Look for rich metadata that is appropriate to the field of study and that sufficiently describes the subject. The metadata schema employed should be widely used in the community and explicitly identified. For example, Open Microscopy Environment XML (OME-XML). Metadata[^24] should be in a format that can be captured by repositories and be searchable. The record to which the image files are a part should have a unique identifier, such as a DOI (digital object identifier), handle or persistent URI (uniform resource identifier).
 
-**A**ccessibility. Look for metadata that is both human-readable (for example: text, html) and machinereadable (for example: text, json, xml). The image files should be downloadable. The images should be in formats that are easily viewed. The entries or records should make use of a unique identifier, such as a DOI (digital object identifier)<sup>17</sup>, handle or persistent URI (uniform resource identifier).
+**A**ccessibility. Look for metadata that is both human-readable (for example: text, html) and machinereadable (for example: text, json, xml). The image files should be downloadable. The images should be in formats that are easily viewed. The entries or records should make use of a unique identifier, such as a DOI (digital object identifier)[^25], handle or persistent URI (uniform resource identifier).
 
-**I**nteroperability. Look for the use of community-agreed-upon and shared ontologies or standard vocabularies, for example, the Gene Ontology or others found on BioPortal<sup>18</sup>
+**I**nteroperability. Look for the use of community-agreed-upon and shared ontologies or standard vocabularies, for example, the Gene Ontology or others found on BioPortal[^26]
 
 **R**eusability. Look for a data use license or public domain dedication. Look for provenance information, including attribution information, details about the creation of the dataset, and version information.
-
-<p  id="note1"><sup>15</sup> Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. Retrieved from https://doi.org/10.1038/sdata.2016.18 </p>
-
-<p  id="note1"><sup>16</sup> “Metadata overview” in Harvard biomedical data management. Retrieved from https://datamanagement.hms.harvard.edu/metadata-overview. Accessed 26 Jul 2019. </p>
-
-<p  id="note1"><sup>17</sup> “Persistent Identifiers” in the Digital Preservation Handbook, 2nd Edition,  http://handbook.dpconline.org/, Digital Preservation Coalition © 2015. Accessed 26 Jul 2019. </p>
-
-<p  id="note1"><sup>18</sup> http://bioportal.bioontology.org/. Accessed 26 Jul 2019 </p>
 
 
 ### Ways in which fields may use this format
@@ -265,3 +229,57 @@ Similar to z-stacks: composite images – Care should be taken to weigh the cost
 1. [Confocal Microscopy Wikipedia article](https://en.wikipedia.org/wiki/Confocal_microscopy)
 
 2. [Duke University’s Light Microscopy Core Facility’s Guides and Tutorials website](https://microscopy.duke.edu/guides-tutorials)
+
+# Footnotes
+[^1]: "CZI The File Format for the Microscope - Zeiss." [https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html#](https://www.zeiss.com/microscopy/en/products/software/zeiss-zen/czi-image-file-format.html#)
+
+[^2]: Supported Formats — Bio-Formats 6.0.1 documentation." 13 Mar. 2019, [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html) https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html. Accessed 26 Jul. 2019. 
+
+[^3]: Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) [http://www.tdwg.org/standards/115](http://www.tdwg.org/standards/115). 
+
+[^4]: OME format page. (2019-07-09). Retrieved from  [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html)
+
+[^5]: "Confocal Microscopy in a Nutshell | Imaging & Microscopy - Research ...." 17 Aug. 2016, [https://www.imaging-git.com/science/light-microscopy/confocal-microscopy-nutshell](https://www.imaging-git.com/science/light-microscopy/confocal-microscopy-nutshell). Accessed 26 Jul. 2019. 
+
+[^6]: Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. "The Cell Image Library." [http://www.cellimagelibrary.org/images/CCDB_4065](http://www.cellimagelibrary.org/images/CCDB_4065) Accessed 26 Jul. 2019 
+
+[^7]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
+
+[^8]: CIL Project: P1723 -Localization of Metabotropic Glutamate Receptors in Alpha Synuclein Overexpressing Mouse. (2019-07-09). Retrieved from [Cell Images Library](http://cellimagelibrary.org/images?k=Localization+of+Metabotropic+Glutamate+Receptors+in+Alpha+Synuclein+Overexpressing+Mouse&simple_search=Search&per_page=10&page=1)
+
+[^9]: A confocal image of breast cancer cells in culture. (2019-07-09) Retrieved from [http://www.cellimagelibrary.org/images/38979](http://www.cellimagelibrary.org/images/38979)
+
+[^10]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
+
+[^11]: OME format page. (2019-07-09). Retrieved from  [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html)
+
+[^12] Access to Biological Collections Data task group. 2007. Access to Biological Collection Data (ABCD), Version 2.06. Biodiversity Information Standards (TDWG) [http://www.tdwg.org/standards/115](http://www.tdwg.org/standards/115). 
+ 
+[^13]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
+
+[^14]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
+
+[^15]: "Copyright and Data » Data Ab Initio." 17 Mar. 2016, [http://dataabinitio.com/?p=632](http://dataabinitio.com/?p=632). Accessed 26 Jul. 2019. 
+
+[^16]: Creative Commons Homepage. (2019-07-22) Retrieved from [https://creativecommons.org](https://creativecommons.org) Accessed 26 Jul. 2019. 
+
+[^17]: ImageJ Website home page. (2019-07-09). Retrieved from [https://imagej.net/ij/index.html](https://imagej.net/ij/index.html)
+
+[^18]: Adobe Photoshop Homepage (2019-07-09). Retrieved from [https://www.adobe.com/](https://www.adobe.com/) Accessed 26 Jul. 2019. 
+
+[^19]: OME format page. (2019-07-09). Retrieved from  [https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html](https://docs.openmicroscopy.org/bio-formats/6.0.1/supported-formats.html)
+
+[^20]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org) Accessed 26 Jul. 2019. 
+
+[^21]: "Copyright and Data » Data Ab Initio." 17 Mar. 2016, [http://dataabinitio.com/?p=632](http://dataabinitio.com/?p=632). Accessed 26 Jul. 2019. 
+
+[^22]: The Cell Image Library, [http://www.cellimagelibrary.org](http://www.cellimagelibrary.org)Accessed 26 Jul. 2019. 
+
+[^23]: Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. Retrieved from [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+
+[^24]: “Metadata overview” in Harvard biomedical data management. Retrieved from [https://datamanagement.hms.harvard.edu/metadata-overview](https://datamanagement.hms.harvard.edu/metadata-overview). Accessed 26 Jul 2019. 
+
+[^25]: “Persistent Identifiers” in the Digital Preservation Handbook, 2nd Edition, [https://www.project-consult.de/files/DPC_Digital_Preservation_Handbook_V2_2015.pdf](https://www.project-consult.de/files/DPC_Digital_Preservation_Handbook_V2_2015.pdf), Digital Preservation Coalition © 2015. Accessed 26 Jul 2019. 
+
+[^26]: [http://bioportal.bioontology.org/](http://bioportal.bioontology.org/). Accessed 26 Jul 2019 
+

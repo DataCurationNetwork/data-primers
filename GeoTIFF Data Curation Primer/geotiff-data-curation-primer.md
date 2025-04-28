@@ -12,7 +12,7 @@
 | Versions |Revision 1.0, subtype of tiff revision 6.0|
 | Primary fields or areas of use |Any field that intersects with geographic information systems (GIS) and remote sensing. Examples include the earth sciences, urban planning, archaeology, etc.|
 | Source and affiliation |Open, extension to Aldus-Adobe’s public domain tiff |
-| Metadata standards |<ul><li>[ISO 19139](https://www.iso.org/standard/67253.html)</li><li>[FDGC](https://www.fgdc.gov/metadata/csdgm-standard)</li><li>[OGC (Open Geospatial Consortium) GeoTIFF Standard v1.1](https://www.ogc.org/standards)</li><li>[GeoBlacklight 1.0](https://geoblacklight.org/projects/geoblacklight-schema/)|
+| Metadata standards |<ul><li>[ISO 19139](https://www.iso.org/standard/67253.html)</li><li>[FDGC](https://www.fgdc.gov/metadata/csdgm-standard)</li><li>[OGC (Open Geospatial Consortium) GeoTIFF Standard v1.1](https://www.ogc.org/standards)</li><li>[GeoBlacklight 1.0](https://opengeometadata.org/gbl-1.0/)|
 | Key questions for curation review |<ul><li>Measurement unit</li><li>Temporal information</li><li>Geospatial information</li><li>File naming convention|
 | Tools for curation review |Example in this primer uses QGIS. Other applications include: USGS’s dlgv32, Esri ArcGIS suite, ERDAS, MapInfo, Global Mapper, Python, R|
 | Date Created |20 March 2020|
@@ -196,9 +196,9 @@ https://earthdata.nasa.gov/esdis/eso/standards-and-references/geotiff
 
 #### Geoblacklight
 
-https://geoblacklight.org/projects/geoblacklight-schema/ 
+[https://opengeometadata.org/gbl-1.0/](https://opengeometadata.org/gbl-1.0/)
 
-https://github.com/geoblacklight/geoblacklight/wiki/GeoBlacklight-Metadata
+[https://github.com/geoblacklight/geoblacklight/wiki/GeoBlacklight-Metadata](https://github.com/geoblacklight/geoblacklight/wiki/GeoBlacklight-Metadata)
 
 The GeoBlacklight Schema is a user-friendly metadata schema for GIS resource discovery, and focuses solely on discovery use cases. Text search, faceted search and refinement, and spatial search and relevancy are among the primary features that the schema enables.
 
@@ -210,7 +210,7 @@ Further information about Geoblacklight metadata, including required and recomme
 
 #### Cloud Optimized GeoTIFF 
 
-https://github.com/cogeotiff/cog-spec/blob/master/spec.md
+[https://github.com/cogeotiff/cog-spec/blob/master/spec.md](https://github.com/cogeotiff/cog-spec/blob/master/spec.md)
 
 Cloud Optimized GeoTIFFs (COGs) are GeoTIFFs that are formatted such that only needed sections of an image can be extracted for analysis. This allows a user to download smaller files prior and effectively stream raster data on the fly. It also allows geospatial data to live on the cloud, reducing storage needs for individual research groups. The main difference between a GeoTIFF and COG is the order of the TIFF components.
 

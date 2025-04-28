@@ -14,7 +14,7 @@ Related DCN Primers:
 
 [Nvivo Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/NVivo%20Data%20Curation%20Primer/NVivo-data-curation-primer.md)
 
-[Human Subjects Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Subjects%20Data%20Essentials%20Data%20Curation%20Primer/human-subjects-data-essentials-data-curation-primer.md)
+[Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md)
 
 # Format Overview
 
@@ -33,27 +33,29 @@ Related DCN Primers:
 
 [^1]: ATLAS.ti primer
 
+**Suggested Citation:** Castillo, Diana; Coates, Heather; Narlock, Mikala. 2020. Qualitative Data Curation Primer. [Data Curation Network GitHub Repository.](https://github.com/DataCurationNetwork/data-primers)
+
 # Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:undetermined orderedList:0 -->
 
-- [Scope](#Scope)
-- [What is Qualitative Data?](#what-is-Qualitative-Data?)
+- [Scope](#scope)
+- [What is Qualitative Data?](#what-is-qualitative-data)
 - [Files needed for curation of a qualitative dataset](#files-needed-for-curation-of-a-qualitative-dataset)
 - [Selecting an appropriate data repository](#selecting-an-appropriate-data-repository)
-- [Steps & Tools for Reuse of Qualitative Data](#steps-tools-for-reuse-of-qualitative-data)
+- [Steps & Tools for Reuse of Qualitative Data](#steps--tools-for-reuse-of-qualitative-data)
 - [Benefits and challenges of sharing qualitative data](#benefits-and-challenges-of-sharing-qualitative-data)
 - [Reproducibility, transparency, and maximizing reuse](#reproducibility-transparency-and-maximizing-reuse)
 - [Why readme files are important for qualitative data](#why-readme-files-are-important-for-qualitative-data)
 - [Example qualitative datasets and sample citations](#example-qualitative-datasets-and-sample-citations)
 - [Workflow based on the Data Curation Network CURATED steps](#workflow-based-on-the-data-curation-network-curated-steps)
--   [C-Check](#ccheck)
--   [U-Understand](#uunderstand)
--   [R-Request](#rrequest)
--   [A-Augment](#aaugment)
--   [T-Transform](#ttransform)
--   [E-Evaluate](#eevaluate)
--   [D-Document](#ddocument)
+-   [C-Check](#c-check)
+-   [U-Understand](#u-understand)
+-   [R-Request](#r-request)
+-   [A-Augment](#a-augment)
+-   [T-Transform](#t-transform)
+-   [E-Evaluate](#e-evaluate)
+-   [D-Document](#d-document)
 - [Bibliography](#bibliography)
 
 <!-- /TOC -->
@@ -78,8 +80,8 @@ Necessary
 - Documentation generated in the Qualitative Data Analysis Software (QDAS) application (e.g., Nvivo, atlas.TI, etc.): memos, notes, networks, classifications
 
 Ideally:
-- Informed consent statement(s) or assent (see the Human Subjects Data Essentials Primer)
-- IRB protocol (see the Human Subjects Data Essentials Primer)
+- Informed consent statement(s) or assent (see [the Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md))
+- IRB protocol (see [the Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md))
 - Study protocol or procedures manual
 - Data Management Plan --To indicate how long the data needs to be preserved/accessible, and any other stipulations on sharing/management.
 
@@ -195,12 +197,12 @@ When describing the data, analysis, and project, it is important to have robust 
 
 # Workflow based on the Data Curation Network CURATED steps
 
-Use this guide along with other primers, such as the Human Subjects Data Essentials Primer and Curation of Data Collected via Informed Consent, to determine the best next steps for your repository and institution. You can ensure you have completed a job-well-done with the Data Curation Network’s CURATE checklist:
+Use this guide along with other primers, such as the Human Participants Data Essentials Primer and Curation of Data Collected via Informed Consent, to determine the best next steps for your repository and institution. You can ensure you have completed a job-well-done with the Data Curation Network’s CURATE checklist:
 
 ## C- Check
 
 ❏ Completion of Consent Form Assessment
-❏ Screen files to ensure that no sensitive data is included (See (Human Subjects Data Essentials Primer)[https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Subjects%20Data%20Essentials%20Data%20Curation%20Primer/human-subjects-data-essentials-data-curation-primer.md])
+❏ Screen files to ensure that no sensitive data is included (See [Human Participants Data Essentials Primer](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md))
 ❏ Check for the following necessary files (and link to above list of recommended files)
 - ❏ Original source data, when possible, and as long as it is de-identified
 - ❏ Processed data (e.g., transcripts), if applicable
@@ -228,20 +230,20 @@ Use this guide along with other primers, such as the Human Subjects Data Essenti
 ❏ Augment metadata for findability
 - ❏ Work with the depositor to create a readme file that contains project information, a file directory, information about data sources
 
-❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data. (See (Human Subjects Data Essentials Primer)[https://github.com/DataCurationNetwork/data-primers/blob/master/Human%20Subjects%20Data%20Essentials%20Data%20Curation%20Primer/human-subjects-data-essentials-data-curation-primer.md])
+❏ Augment the internal record with a copy of the consent form or agreement and potentially note in the readme file that the consent indicated public sharing of the data. (See [Human Participants Data Essentials Primer.](https://github.com/DataCurationNetwork/data-primers/blob/main/Human%20Participants%20Data%20Essentials%20Data%20Curation%20Primer/human-participants-data-essentials-data-curation-primer.md))
 
 ❏ If the readme was created by the depositor, check for the elements listed above (See “Why readme files are important for qualitative data”)
 
 ## T-Transform
 
 ❏ Transform file formats for reuse
-- ❏ Many QDAS are proprietary, so interoperability between them is not expected. See the software-specific primers (i.e., (Atlas.ti)[https://github.com/DataCurationNetwork/data-primers/blob/master/Atlas.ti%20Data%20Curation%20Primer/AtlasTI-data-curation-primer.md], (NVivo)[https://github.com/DataCurationNetwork/data-primers/blob/master/NVivo%20Data%20Curation%20Primer/NVivo-data-curation-primer.md]) for guidance in extracting key information from QDAS.
+- ❏ Many QDAS are proprietary, so interoperability between them is not expected. See the software-specific primers (i.e., [Atlas.ti](https://github.com/DataCurationNetwork/data-primers/blob/master/Atlas.ti%20Data%20Curation%20Primer/AtlasTI-data-curation-primer.md), [NVivo](https://github.com/DataCurationNetwork/data-primers/blob/master/NVivo%20Data%20Curation%20Primer/NVivo-data-curation-primer.md)) for guidance in extracting key information from QDAS.
 - ❏ When the original source files are not available or are in proprietary formats, consider exporting them to common, openly defined file formats.
 - ❏ When possible, convert files into open-definition, common file formats based on the recommendations from the Library of Congress: https://www.loc.gov/preservation/resources/rfs/RFS%202019-2020.pdf.
 
 ## E-Evaluate
 
-❏ Evaluate for FAIRness (See evaluation tools at https://fairshake.cloud/rubric/8/assessments/ or https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/)
+❏ Evaluate for FAIRness (See evaluation tools at https://fairshake.cloud/rubric/8/ or https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/)
 - ❏ Evaluate the record to ensure the data is Findable, Accessible, Interoperable, and Reusable. For qualitative data, the focus should be on exporting as much contextual information about how the inquiry process was conducted and using accessible file formats.
     -	 ❏ Findable - Ensure the dataset is described with relevant metadata, including an abstract; assign a DOI; choose an appropriate repository to make the data available.
     -	 ❏ Accessible - This varies depending on the file formats; refer back to transform point about using common, openly defined file formats
@@ -268,26 +270,18 @@ Corti, L. (2018, July 5). Show me the data: Research reproducibility for qualita
 Creswell, J. W. (2007). Qualitative inquiry & research design: Choosing among five approaches (2nd Edition). Sage Publications.
 
 Elman, C., & Kapiszewski, D. (2017, August 9). Benefits and Challenges of Making Qualitative Research More Transparent. Inside Higher Ed.
-https://www.insidehighered.com/blogs/rethinking-research/benefits-and-challenges-making-qualitative-r
-esearch-more-transparent
+https://www.insidehighered.com/blogs/rethinking-research/benefits-and-challenges-making-qualitative-research-more-transparent
 
-Flick, U. (2014). Mapping the field. In Flick, U. The SAGE handbook of qualitative data analysis (pp. 3-18). London: SAGE Publications Ltd doi: 10.4135/9781446282243
+Flick, U. (2014). Mapping the field. In Flick, U. The SAGE handbook of qualitative data analysis (pp. 3-18). London: SAGE Publications Ltd. https://doi.org/10.4135/9781446282243
 
-Flick, U. (2018). Doing qualitative data collection – charting the routes. In Flick, U. The sage handbook of qualitative data collection (pp. 3-16). London: SAGE Publications Ltd doi: 10.4135/9781526416070
+Flick, U. (2018). Doing qualitative data collection – charting the routes. In Flick, U. The sage handbook of qualitative data collection (pp. 3-16). London: SAGE Publications Ltd. https://doi.org/10.4135/9781526416070
 
-Hiles, D. R. (2008). Transparency. In The Sage encyclopedia of qualitative research methods. Sage. https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n467
+Given, L. M. (2008). Transparency. In L. M. Given (Ed.), The SAGE encyclopedia of qualitative research methods (pp. 891-892). SAGE Publications. https://methods.sagepub.com/reference/sage-encyc-qualitative-research-methods/n467.xml
 
 Lincoln, Y. S. & Guba, E. G. (1985). Naturalistic inquiry. Beverly Hills, CA: Sage. Moravcsik, A. (2014). Transparency: The Revolution in Qualitative Research. PS: Political Science & Politics, 47(1), 48–53. https://doi.org/10.1017/S1049096513001789
 
-OpenAIRE: How to select a data repository? https://www.openaire.eu/opendatapilot-repository-guide Patton, M. Q. (1999). Enhancing the quality and credibility of qualitative analysis. Health Services Research, 34(5 Pt 2), 1189–1208.
+OpenAIRE: How to select a data repository? Patton, M. Q. (1999). Enhancing the quality and credibility of qualitative analysis. Health Services Research, 34(5 Pt 2), 1189–1208. https://web.archive.org/web/20220509122528/https://www.openaire.eu/opendatapilot-repository-guide.
 
 Qualitative Data Repository. (n.d.). About the Qualitative Data Repository. Retrieved March 24, 2020, from https://qdr.syr.edu/about
 
 Saumure, K. & Given. L. M. (2008). Rigor in Qualitative Research. In The Sage encyclopedia of qualitative research methods. Sage. https://dx-doi-org.proxy.ulib.uits.iu.edu/10.4135/9781412963909.n409
-
-
-
-
-
-
-

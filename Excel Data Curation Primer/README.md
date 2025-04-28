@@ -1,6 +1,6 @@
 #### Current Version:
 
-V1.0
+V1.2
 
 #### License:
 
@@ -18,10 +18,25 @@ _____________
 
 #### Please update the following fields with each contribution
 
-#### Version:
+Version:
+V1.2
 
-#### Summary of changes:
+Summary of changes: Updated broken links within primer for DataOne dictionary and in reference section. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
 
-#### Date [mm/dd/yyyy]
+Date [mm/dd/yyyy]: 02/12/2024
+
+Version:
+V1.1
+
+Summary of changes: Updated broken links within primer for Excel support, NNLM data dictionary, and updated links in the reference section. Updates implemented by Jodecy Guerra, DCN intern, Spring 2024.
+
+Date [mm/dd/yyyy]: 02/07/2024
+
+Version:
+V1.0
+
+Summary of changes: Primer uploaded to GitHub 
+
+Date [mm/dd/yyyy]: 02/07/2019
 
 Note: please add change date in descending order

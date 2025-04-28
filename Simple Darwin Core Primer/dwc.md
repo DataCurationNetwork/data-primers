@@ -22,7 +22,7 @@ DCN Mentor: Jake Carlson
 | Created by | M. N. O’Donnell and L. M. Delserone <br> DCN Mentor - Jake Carlson|
 | Date updated and summary of changes made | 2023-04. DCN reviewers’ revisions incorporated |
 
-Suggested Citation: O’Donell, Megan N. and Delserone, Leslie M. (2023). Simple Darwin Core for Non-Biologists Primer. Data Curation Network[GitHub Repository](https://github.com/DataCurationNetwork/data-primers).
+**Suggested Citation:** O’Donell, Megan N. and Delserone, Leslie M. (2023). Simple Darwin Core for Non-Biologists Primer. Data Curation Network[GitHub Repository](https://github.com/DataCurationNetwork/data-primers).
 
 [Introduction](#introduction)
 

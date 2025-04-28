@@ -2,6 +2,9 @@
 
 # Twitter Primer
 
+> [!NOTE]
+> The X (formerly Twitter) API has been updated since the publication of this primer. As a result, the information contained herein may not reflect the latest developments or changes. The DCN is aware of the disconnect, but note that there is helpful information for legacy Twitter or other social media datasets in this primer.
+
 ## Overview
 
 |   Topic   |   Description   |

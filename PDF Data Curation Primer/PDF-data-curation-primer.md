@@ -74,7 +74,7 @@ This work was created as part of the “Specialized Data Curation” Workshop #2
 
 - electronic forms to gather data and integrate with business systems.
 
-<sub>*List adapted from ​ https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf, p vii.*</sub>
+<sub>*List adapted from [https://www.adobe.com/acrobat/about-adobe-pdf.html](https://www.adobe.com/acrobat/about-adobe-pdf.html)​, p vii.*</sub>
 
 ### Standards, Specifications, and Subsets
 
@@ -119,29 +119,29 @@ Data description documents provide additional details relating to the data to al
 **Common Types**
 
 - Codebooks and Data Dictionaries:  
-  - Additional Recommendations: ​ www.dataone.org/best-practices/create-data-dictionary
-  - Example: American Time Use Survey data dictionaries: ​ www.bls.gov/tus/dictionaries.htm 
-  - Blank Template: ​ https://data.nal.usda.gov/data-dictionary-blank-template
+  - Additional Recommendations:  [https://dataoneorg.github.io/Education/bestpractices/create-a-data](https://dataoneorg.github.io/Education/bestpractices/create-a-data)
+  - Example: American Time Use Survey data dictionaries:  [https://www.bls.gov/tus/dictionaries.htm​](https://www.bls.gov/tus/dictionaries.htm​) 
+  - Blank Template: [https://data.nal.usda.gov/data-dictionary-blank-template](https://data.nal.usda.gov/data-dictionary-blank-template)
 
 - README Files: 
-  - Additional Recommendations: ​ https://data.research.cornell.edu/content/readme
-  - Example: Implicit Association Test README - ​ https://osf.io/s27xd/ 
-  - Blank Template: ​ https://cornell.app.box.com/v/ReadmeTemplate 
+  - Additional Recommendations: [https://data.research.cornell.edu/content/readme](https://data.research.cornell.edu/content/readme)
+  - Example: Implicit Association Test README - [https://osf.io/s27xd/](https://osf.io/s27xd/)
+  - Blank Template: [https://cornell.app.box.com/v/ReadmeTemplate](https://cornell.app.box.com/v/ReadmeTemplate)
 
 - Survey Instruments - usually exported from the program
-  - Additional Recommendations:<br> ​ https://res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1 (Section 3.1.3. Survey Instrument)
-  - Example: Child Care Market Rate Survey instrument - ​ https://doi.org/10.3886/ICPSR23262.v2 (Questionnaire.pdf)  
+  - Additional Recommendations:<br> [https://res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1](https://res.mdpi.com/data/data-03-00045/article_deploy/data-03-00045-v2.pdf?filename=&attachment=1)​ (Section 3.1.3. Survey Instrument)
+  - Example: Child Care Market Rate Survey instrument - ​ [https://doi.org/10.3886/ICPSR23262.v2](https://doi.org/10.3886/ICPSR23262.v2) (Questionnaire.pdf)  
 
 ## Reporting Related Methods and Results
 
 Other related files that are often stored as PDF documents are those describing or including the research methods or  findings. These include protocols, figures, and the research manuscript or article itself. See below for examples.
 
 - Data collection methods
-  - Example 1: computational biology research steps: ​ https://conservancy.umn.edu/handle/11299/176334  (Methods.pdf) 
-  - Example 2: systematic review search strategy, quality appraisal, etc.:  ​ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008964/ (Supplementary Materials)
+  - Example 1: computational biology research steps: [http://dx.doi.org/10.13020/D6QG61](http://dx.doi.org/10.13020/D6QG61)
+  - Example 2: systematic review search strategy, quality appraisal, etc.: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008964/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008964/) (Supplementary Materials)
 
 - Charts, tables, and visualizations of findings
-  - Example: figures from a geohistorical immigrant study:  ​ https://doi.org/10.7910/DVN/8PY6Q6/0VO9FK 
+  - Example: figures from a geohistorical immigrant study: [https://doi.org/10.7910/DVN/8PY6Q6/0VO9FK](https://doi.org/10.7910/DVN/8PY6Q6/0VO9FK) 
 
 Sharing the underlying data as only the publication or in graphs or charts is common but impractical or labor-intensive.  “‘Send me your data—pdf is fine,’ said no one ever” by Rivers (2013) details basic steps to better share these files along  with the machine-actionable data. These supplemental files reporting methods and findings, including the manuscript  itself, as PDF documents along with the data files can assist with interpretation of the data and related findings. 
 
@@ -175,7 +175,7 @@ Mobile applications allowing for reading PDF documents include Amazon Kindle app
 
 ***__Uses Definitions__: ​ creating - saving a document as .pdf, editing - editing a document that began as a .pdf and saving it as .pdf,  reading - opening and viewing .pdf files, converting - converting content from a .pdf file to another type, analyzing - analyzing  content in .pdf files.**
 
-<sub>*Information adapted from https://en.wikipedia.org/wiki/List_of_PDF_software*</sub>
+<sub>*Information adapted from [https://en.wikipedia.org/wiki/List_of_PDF_software](https://en.wikipedia.org/wiki/List_of_PDF_software)*</sub>
 
 ## PDF CURATED Checklist
 
@@ -185,7 +185,7 @@ The following checklist is adapted from the original Data Curation Network (2018
 
 <p><ul><li>
 
-**Check**​ data files and read documentation <ul><li> Files open as expected </li> <input type="checkbox"> Troubleshooting Issues: <br> &nbsp; &nbsp; <input type="checkbox"> Cannot open PDF file in browser/on computer: <br> &nbsp; &nbsp; &nbsp; &nbsp; https://helpx.adobe.com/acrobat/kb/cant-open-pdf.html <br> &nbsp; &nbsp; <input type="checkbox"> Cannot open PDF file in Acrobat created from InDesign or Illustrator: <br> &nbsp; &nbsp; &nbsp; &nbsp; https://helpx.adobe.com/indesign/kb/cannot-open-pdf-file-acrobat.html <br> &nbsp; &nbsp; <input type="checkbox"> Lack of embedded fonts renders PDF incorrectly (not relevant if transforming to PDF/A, see below  for additional information): <br>  &nbsp; &nbsp; &nbsp; &nbsp; https://helpx.adobe.com/acrobat/kb/missing-or-garbled-text-converting.html <br> &nbsp; &nbsp; <input type="checkbox"> Find solutions to additional issues on the Adobe Support Community Forum: <br> &nbsp; &nbsp; &nbsp; &nbsp; https://community.adobe.com/ <br> &nbsp; &nbsp; <input type="checkbox"> Use third-party services/tools to repair PDF files. Please note that these are examples of tools to  work with PDF files and not an exhaustive list. You should experiment with these and/or other tools before implementing in your organization. <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> SysInfoTools PDF Recovery Tool: ​https://www.sysinfotools.com/recovery/pdf-recovery.php <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Sejda Repair PDF: ​https://www.sejda.com/repair-pdf <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Kernel for PDF Repair: ​https://www.nucleustechnologies.com/pdf-repair-tool.html <br> &nbsp; &nbsp; <input type="checkbox"> Other Issues __________ <li> File does not have inappropriate protections or security features enabled preventing curation (not relevant if  transforming to PDF/A, see below for additional information) </li> &nbsp; &nbsp; <input type="checkbox"> Troubleshooting Issues: <br> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Remove password protection on PDF files if you have access to Acrobat Pro: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; https://acrobat.adobe.com/us/en/acrobat/how-to/unlock-pdf.html <br> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Find information on security for PDFs on the Adobe website: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; https://helpx.adobe.com/acrobat/using/overview-security-acrobat-pdfs.html#overview_of_security_in_acrobat_and_pdfs <li> Metadata quality is rich, accurate, and complete </li> &nbsp; &nbsp; <input type="checkbox"> Metadata has issues _________ <li> Documentation Type (circle) </li> &nbsp; &nbsp; <input type="checkbox"> Readme / Codebook / Data Dictionary / Other: ________________________ <br> &nbsp; &nbsp; <input type="checkbox"> Missing/None <br> &nbsp; &nbsp; <input type="checkbox"> Needs work <li> Human subjects data, if present </li> &nbsp; &nbsp; <input type="checkbox"> Request consent form / participation agreement </ul></li><li>
+**Check**​ data files and read documentation <ul><li> Files open as expected </li> <input type="checkbox"> Troubleshooting Issues: <br> &nbsp; &nbsp; <input type="checkbox"> Cannot open PDF file in browser/on computer: <br> &nbsp; &nbsp; &nbsp; &nbsp; [https://helpx.adobe.com/acrobat/kb/cant-open-pdf.html](https://helpx.adobe.com/acrobat/kb/cant-open-pdf.html)  <br> &nbsp; &nbsp; <input type="checkbox"> Cannot open PDF file in Acrobat created from InDesign or Illustrator: <br> &nbsp; &nbsp; &nbsp; &nbsp; [https://helpx.adobe.com/indesign/kb/cannot-open-pdf-file-acrobat.html](https://helpx.adobe.com/indesign/kb/cannot-open-pdf-file-acrobat.html) <br> &nbsp; &nbsp; <input type="checkbox"> Lack of embedded fonts renders PDF incorrectly (not relevant if transforming to PDF/A, see below  for additional information): <br>  &nbsp; &nbsp; &nbsp; &nbsp; [https://helpx.adobe.com/acrobat/kb/missing-or-garbled-text-converting.html](https://helpx.adobe.com/acrobat/kb/missing-or-garbled-text-converting.html) <br> &nbsp; &nbsp; <input type="checkbox"> Find solutions to additional issues on the Adobe Support Community Forum: <br> &nbsp; &nbsp; &nbsp; &nbsp; [https://community.adobe.com/](https://community.adobe.com/) <br> &nbsp; &nbsp; <input type="checkbox"> Use third-party services/tools to repair PDF files. Please note that these are examples of tools to  work with PDF files and not an exhaustive list. You should experiment with these and/or other tools before implementing in your organization. <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> SysInfoTools PDF Recovery Tool: [https://www.sysinfotools.com/recovery/pdf-recovery.php](https://www.sysinfotools.com/recovery/pdf-recovery.php)  <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Sejda Repair PDF: [https://www.sejda.com/repair-pdf](https://www.sejda.com/repair-pdf)  <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Kernel for PDF Repair: [https://www.nucleustechnologies.com/pdf-repair.html](https://www.nucleustechnologies.com/pdf-repair.html) <br> &nbsp; &nbsp; <input type="checkbox"> Other Issues __________ <li> File does not have inappropriate protections or security features enabled preventing curation (not relevant if  transforming to PDF/A, see below for additional information) </li> &nbsp; &nbsp; <input type="checkbox"> Troubleshooting Issues: <br> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Remove password protection on PDF files if you have access to Acrobat Pro: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [https://acrobat.adobe.com/us/en/acrobat/how-to/unlock-pdf.html](https://acrobat.adobe.com/us/en/acrobat/how-to/unlock-pdf.html) <br> &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox"> Find information on security for PDFs on the Adobe website: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [https://helpx.adobe.com/acrobat/using/overview-security-acrobat-pdfs.html#overview_of_security_in_acrobat_and_pdfs](https://helpx.adobe.com/acrobat/using/overview-security-acrobat-pdfs.html#overview_of_security_in_acrobat_and_pdfs) <li> Metadata quality is rich, accurate, and complete </li> &nbsp; &nbsp; <input type="checkbox"> Metadata has issues _________ <li> Documentation Type (circle) </li> &nbsp; &nbsp; <input type="checkbox"> Readme / Codebook / Data Dictionary / Other: ________________________ <br> &nbsp; &nbsp; <input type="checkbox"> Missing/None <br> &nbsp; &nbsp; <input type="checkbox"> Needs work <li> Human subjects data, if present </li> &nbsp; &nbsp; <input type="checkbox"> Request consent form / participation agreement </ul></li><li>
 
 **Understand** ​the data (or try to) <ul><li> Organization of data well-structured </li><li> Headers clearly defined </li> &nbsp; &nbsp; <input type="checkbox"> Define headers <br> &nbsp; &nbsp; <input type="checkbox"> Clarify use of “blanks” <br> &nbsp; &nbsp; <input type="checkbox"> Clarify units of measurement <li> Quality control clearly defined </li> &nbsp; &nbsp; <input type="checkbox"> Unclear quality control <br> &nbsp; &nbsp; <input type="checkbox"> Update/add Methodology </ul></li><li>
 
@@ -204,34 +204,33 @@ The following checklist is adapted from the original Data Curation Network (2018
 
 1. The FAIR Data Principles (2016). Available at ​ https://www.force11.org/group/fairgroup/fairprinciples
 
-2. PDF/A Family, PDF for Long-term Preservation (2019). Available at  www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml  
+2. PDF/A Family, PDF for Long-term Preservation (2019). Available at https://www.loc.gov/preservation/digital/formats/fdd/fdd000318.shtml
 
 ## References 
 
-> Adobe Systems, Inc. (n.d.a). ​About Adobe PDF.​ Retrieved from  https://acrobat.adobe.com/us/en/acrobat/about-adobe-pdf.html
+> Adobe Systems, Inc. (n.d.a). ​About Adobe PDF.​ Retrieved from [https://acrobat.adobe.com/us/en/acrobat/about-adobe-pdf.html](https://acrobat.adobe.com/us/en/acrobat/about-adobe-pdf.html)
 
-> Adobe Systems, Inc. (n.d.b). PDF Reference and Adobe Extensions to the PDF Specification. Retrieved from  https://www.adobe.com/devnet/pdf/pdf_reference.html 
+> Adobe Systems, Inc. (n.d.b). PDF Reference and Adobe Extensions to the PDF Specification. Retrieved from [https://www.adobe.com/devnet/pdf/pdf_reference.html](https://www.adobe.com/devnet/pdf/pdf_reference.html)
 
-> Adobe Systems, Inc. (2008). ​Document management - Portable document format - Part 1: PDF 1.7. ​Retrieved from  https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf 
+> Adobe Systems, Inc. (2008). ​Document management - Portable document format - Part 1: PDF 1.7. ​Retrieved from [https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/PDF32000_2008.pdf](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/PDF32000_2008.pdf)
 
-> Arms, C. R., & Fleischhauer, C. (2019). PDF/A-3, PDF for long-term preservation, use of ISO 32000-1, with  embedded files. Retrieved from https://www.loc.gov/preservation/digital/formats/fdd/fdd000360.shtml 
+> Arms, C. R., & Fleischhauer, C. (2019). PDF/A-3, PDF for long-term preservation, use of ISO 32000-1, with  embedded files. Retrieved from [https://www.loc.gov/preservation/digital/formats/fdd/fdd000360.shtml](https://www.loc.gov/preservation/digital/formats/fdd/fdd000360.shtml)
 
-> Data Curation Network. (2018). ​Checklist of CURATED steps. ​Retrieved from  https://datacurationnetwork.org/resources-2 
+> Data Curation Network. (2018). ​Checklist of CURATED steps. ​Retrieved from [http://z.umn.edu/curate](http://z.umn.edu/curate)
 
-> Dunning, A., de Smaele, M., & Böhmer, Jasmin. (2017). Are the FAIR Data Principles fair? ​International Journal of  Digital Curation. 12​(2) . Retrieved from https://doi.org/10.2218/ijdc.v12i2.567. 
+> Dunning, A., de Smaele, M., & Böhmer, Jasmin. (2017). Are the FAIR Data Principles fair? ​International Journal of  Digital Curation. 12​(2) . Retrieved from [https://doi.org/10.2218/ijdc.v12i2.567](https://doi.org/10.2218/ijdc.v12i2.567)
 
-> History of the Portable Document Format (PDF). (2018, December 16). In ​Wikipedia​. Retrieved from  https://en.wikipedia.org/w/index.php?title=History_of_the_Portable_Document_Format_(PDF)&oldid=87 3991566 
+> History of the Portable Document Format (PDF). (2018, December 16). In ​Wikipedia​. Retrieved from [https://en.wikipedia.org/wiki/History_of_PDF](https://en.wikipedia.org/wiki/History_of_PDF)
 
-> Janée, G., Sawchuk, S., & Yoo, H. J. (2019). Microsoft Excel data curation primer. ​Data Curation Network Primers, 1​. Retrieved from https://conservancy.umn.edu/handle/11299/202816 
+> Janée, G., Sawchuk, S., & Yoo, H. J. (2019). Microsoft Excel data curation primer. ​Data Curation Network Primers, 1​. Retrieved from [https://hdl.handle.net/11299/202816](https://hdl.handle.net/11299/202816)
 
-> Johnson, D. (2014, February 17). The 8 most popular document formats on the web [Blog post]. Retrieved from http://duff-johnson.com/2014/02/17/the-8-most-popular-document-formats-on-the-web 
+> Johnson, D. (2014, February 17). The 8 most popular document formats on the web [Blog post]. Retrieved from [https://web.archive.org/web/20141202155936/http://duff-johnson.com/2014/02/17/the-8-most-popular-document-formats-on-the-web/](https://web.archive.org/web/20141202155936/http://duff-johnson.com/2014/02/17/the-8-most-popular-document-formats-on-the-web/)
 
-> Johnston, L. (Ed.). (2017). ​Curating research data. Volume one: Practical strategies for your digital repository​.  Chicago, Illinois: Association of College and Research Libraries, a division of the American Library Association. 
+> Johnston, L. (Ed.). (2017). ​Curating research data. Volume one: Practical strategies for your digital repository​.  Chicago, Illinois: Association of College and Research Libraries, a division of the American Library Association. Retrieved from [https://hdl.handle.net/11299/185335](https://hdl.handle.net/11299/185335)
 
-> PDF Association. (2017, July 31).​ ISO 32000-2 (PDF 2.0)​. Retrieved from  https://www.pdfa.org/resource/iso-32000-2-pdf-2-0 
+> PDF Association. (2017, July 31).​ ISO 32000-2 (PDF 2.0)​. Retrieved from [https://pdfa.org/resource/iso-32000-pdf/](https://pdfa.org/resource/iso-32000-pdf/)
 
-> Rivers, C. (2018, April 8). “Send me your data: PDF is fine” said no one ever (how to share your data effectively)  [Blog post]. Retrieved from  http://www.caitlinrivers.com/blog/send-me-your-data-pdf-is-fine-said-no-one-ever-how-to-share-your-data-effectively 
-
+> Rivers, C. (2018, April 8). “Send me your data: PDF is fine” said no one ever (how to share your data effectively)  [Blog post]. Retrieved from [https://web.archive.org/web/20180428173004/http://www.caitlinrivers.com/blog/send-me-your-data-pdf-is-fine-said-no-one-ever-how-to-share-your-data-effectively](https://web.archive.org/web/20180428173004/http://www.caitlinrivers.com/blog/send-me-your-data-pdf-is-fine-said-no-one-ever-how-to-share-your-data-effectively)
 
  
 
