@@ -28,6 +28,7 @@ potential for reuse?).
 > <li> <a href="https://www.gida-global.org/care">CARE Principles for Indigenous Data Governance</a> </li>
 > <li> <a href="https://www.urban.org/research/publication/principles-advancing-equitable-data-practice">Principles for Advancing Equitable Data Practice</a> </li>
 
+To cite, please use: Data Curation Network. "The DCN CURATE(D) Steps." z.umn.edu/curate
 
 # Checklist of CURATE(D) Steps Performed by the DCN
 
