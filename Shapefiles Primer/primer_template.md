@@ -146,6 +146,38 @@ Seven typical elements include Author, Publication, Year, Title of the data, Pub
 
 *Did the researcher include data reuse limitations in the metadata or documentation?*  Example: "The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only. Their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are not legal land descriptions." [TIGER/Line Shapefile Legal Disclaimers](https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2023/TGRSHP2023_TechDoc_Ch1.pdf).
 
+## Commonly Used Coordinate Systems and Projections by Region
+
+A coordinate system is a framework used to define the positions of points in space. In geographic information systems (GIS), coordinate systems are essential for accurately mapping and analyzing spatial data. There are two primary types of coordinate systems: geographic and projected.
+
+Geographic coordinate systems use a three-dimensional spherical surface to define locations on the Earth. They are based on latitude and longitude, with a datum providing the reference model for the Earth's shape. The most common datum used globally is the WGS84.
+
+Projected coordinate systems, on the other hand, represent the curved surface of the Earth on a flat plane. This involves mathematical transformations known as map projections, which convert the spherical coordinates into two-dimensional Cartesian coordinates (x, y). Different projections are used based on the needs of the map, such as minimizing distortion in area, shape, distance, or direction. Examples include the Universal Transverse Mercator (UTM) and Albers Equal-Area projections. The choice of coordinate system and projection is crucial for accurately representing spatial data and ensuring consistency across different datasets.
+
+Here are some commonly used coordinate systems and map projections in different regions:
+Global
+1.	WGS84 (World Geodetic System 1984): A global geographic coordinate system used for GPS and most international mapping.
+2.	UTM (Universal Transverse Mercator): A global projected coordinate system that divides the world into a series of 6-degree longitudinal zones, each with its own projection.
+North America
+1.	NAD83 (North American Datum 1983): A geographic coordinate system commonly used in North America.
+2.	NAD27 (North American Datum 1927): An older geographic coordinate system, still used for some historical data.
+3.	State Plane Coordinate System (SPCS): A set of projected coordinate systems used in the United States, each state having one or more zones tailored to minimize distortion.
+Europe
+1.	ETRS89 (European Terrestrial Reference System 1989): The standard coordinate system for Europe.
+2.	British National Grid (OSGB36): A projected coordinate system used in Great Britain.
+Australia
+1.	GDA94 (Geocentric Datum of Australia 1994): A geographic coordinate system widely used in Australia.
+2.	MGA (Map Grid of Australia): A projected coordinate system based on UTM, using the GDA94 datum.
+Asia
+1.	Tokyo Datum: A geographic coordinate system used historically in Japan.
+2.	China Geodetic Coordinate System 2000 (CGCS2000): The modern geographic coordinate system for China.
+South America
+1.	SIRGAS (Geocentric Reference System for the Americas): A continental system used across South America, similar to WGS84.
+Africa
+1.	Cape Datum: An older geographic coordinate system used in South Africa.
+2.	Hartebeesthoek94 (Hartebeesthoek Radio Astronomy Observatory 1994): The current standard geographic coordinate system for South Africa.
+Middle East
+1.	Ain el Abd 1970: A geographic coordinate system used in several Middle Eastern countries.
 
 ## Key clarifications to get from researcher
 
