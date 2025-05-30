@@ -6,7 +6,7 @@ Authors: Leah Everritt, Jen Ferguson, and Emily Simpson.
 
 DCN Mentor: Jonathan Wheeler, University of New Mexico (jwheel01@unm.edu)
 
-Affiliate Contributors (external peer reviewers): Lauren Phegley (University of Pennsylvania), Brandi Pullen (Virginia Tech University), Amy Schuler (Cary Institute of Ecosystem Studies)
+Affiliate Contributors (external peer reviewers): Lauren Phegley (University of Pennsylvania), Brandie Pullen (Virginia Tech University), Amy Schuler (Cary Institute of Ecosystem Studies)
 
 
 |   Topic   |   Description   |
