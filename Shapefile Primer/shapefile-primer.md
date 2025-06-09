@@ -15,8 +15,8 @@ Mentor: Aditya Ranganath
 | Versions  | Original Release: [ESRI Shapefile Technical Description (1998)](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf) with subsequent extensions by [ESRI](https://www.esri.com/en-us/home)  |
 | Primary fields or areas of use  | Shapefiles are broadly used across many disciplines in which [non-topological vector geometries](https://www.esri.com/news/arcuser/0401/topo.html) (i.e. point, line, polygon) and attributes associated with those geometries (e.g. observation timestamp, well depth, street address, population​, etc.​) are stored, visualized, analyzed, and exchanged.  |
 | Source and affiliation  | [ESRI](https://www.esri.com/en-us/about/about-esri/company), formerly Environmental Systems Research Institute, Inc.  |
-| Metadata standards ([FGDC Geospatial Metadata Standards and Guidelines](https://www.fgdc.gov/metadata/geospatial-metadata-standards))  | The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards (numbered 191\*\* in the ISO/TC 211 *Geographic information/Geomatics* “Geographic Information” standards collection) are the currently recommended metadata standards-based for geospatial data, including Shapefiles    U.S. Federal Geographic Data Committee *Content Standard for Digital Geospatial Metadata (CSDGM)* (deprecated)   |
-| Key questions for curation review  | ​ ​ ​ ​ ​Are all required and recommended files included?   |
+| Metadata standards ([FGDC Geospatial Metadata Standards and Guidelines](https://www.fgdc.gov/metadata/geospatial-metadata-standards))  | The [ISO 19115](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19115-1.html) base standard and related family of standards (numbered 191\*\* in the ISO/TC 211 *Geographic information/Geomatics* “Geographic Information” standards collection) are the currently recommended metadata standards-based for geospatial data, including Shapefiles. Some legacy geospatial datasets will have U.S. Federal Geographic Data Committee *Content Standard for Digital Geospatial Metadata (CSDGM)* which is now deprecated.|
+| Key questions for curation review  | ​​Are all required and recommended files included?   |
 | Tools for curation review  | Desktop Geographic Information System (GIS): [QGIS](https://www.qgis.org/en/site/)   |
 | Date Created  | June 24, 2024  |
 | Created by  | Laura Hjerpe, Karl Benedict, Wenjie Wang  |
@@ -27,7 +27,7 @@ Mentor: Aditya Ranganath
 [Shapefiles within the broader context of Spatial Data formats](#Shapefiles-within-the-broader-context-of-Spatial-Data-formats)
 
 [Examples of Geospatial Repositories through which Shapefiles May be Discovered and Accessed](#Examples-of-Geospatial-Repositories-through-which-Shapefiles-May-be-Discovered-and-Accessed)
->[Note on the Complementary Roles of Geospatial Registries, Clearinghouses, and Repositories](#Note-on-the-Complementary-Roles-of-Geospatial-Registries,-Clearinghouses,-and-Repositories)
+> [Note on the Complementary Roles of Geospatial Registries, Clearinghouses, and Repositories](#Note-on-the-Complementary-Roles-of-Geospatial-Registries,-Clearinghouses,-and-Repositories)
 
 [Shapefile Dataset Examples](#Shapefile-Dataset-Examples) 
 
@@ -320,7 +320,7 @@ letter suffix/extension), subsequent system development has relaxed this
 length requirement while still
 [recommending](https://community.esri.com/t5/data-management-blog/how-to-name-things-in-arcgis/ba-p/897194)
 that Shapefile names start with an alpha character (a-Z), contain no
-spaces, and limit the use of special characters to “\_” if used. . **All
+spaces, and limit the use of special characters to “\_” if used. **All
 files must share the same name prefix and be co-located within the same
 file system directory/folder, with this co-location requirement often
 facilitated through sharing Shapefiles as a compressed archive file such
@@ -556,8 +556,8 @@ from many sources, such as digitized georeferenced images, surveys or
 field-based data collection, geocoding, or a derivative generated
 algorithmic processing of another dataset. In addition, the software and
 hardware used to produce and/or work with this data should be described.
-See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01), page
-5. If ArcGIS or other software was used, the version should be
+See [Preserving Geospatial Data](http://doi.org/10.7207/twr23-01) below. 
+If ArcGIS or other software was used, the version should be
 indicated. For examples of descriptions of lineage and tools used to
 create the Shapefiles, see *Shapefile Dataset Examples* above.
 
@@ -720,7 +720,7 @@ use case specific requirements for discovery, access, understanding, and
 use. Formalized requirements representing this guidance is are specified
 as application profiles (e.g. the [FGDC North American Profile of
 ISO19115:2003 - Geographic Information - Metadata
-(2007)](https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf))
+(2007)](https://www.fgdc.gov/standards/projects/incits-l1-standards-projects/NAP-Metadata/napMetadataProfileV11_7-26-07.pdf)
 and profiles listed in the [RDA Metadata Standards
 Catalog](https://rdamsc.bath.ac.uk/msc/m22)). Examples of these
 guidelines documents and technical specifications include:
