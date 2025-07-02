@@ -99,7 +99,7 @@ R is a plain text file that can be opened in any text editor, but in order to wo
     - [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
 
 - Tutorials created by RStudio:
-    - [RStudio Primers](https://www.rstudio.com/online-learning/)
+    - [RStudio Primers](https://education.rstudio.com)
 
 - Online books:
     - [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/). Peng, R. D. (2019).
@@ -237,7 +237,7 @@ Finally, data curators and depositors alike may benefit from the following readi
 
 <sup><a id = "accessibility-footnote-4">4</a></sup> Godfrey, A.J.R., Loots, M.T., 2015. Advice From Blind Teachers on How to Teach Statistics to Blind Students. Journal of Statistics Education 23, 4, pp. 10. https://doi.org/10.1080/10691898.2015.11889746
 
-<sup><a id = "accessibility-footnote-5">5</a></sup> Conversation with [U-M Accessibility Team](https://accessibility.umich.edu/about-us) (Darrell Williams)
+<sup><a id = "accessibility-footnote-5">5</a></sup> Conversation with [U-M Accessibility Team](https://ecrt.umich.edu/about-us/) (Darrell Williams)
 
 ## Preservation actions
 

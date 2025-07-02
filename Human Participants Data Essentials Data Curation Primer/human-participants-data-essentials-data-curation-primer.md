@@ -265,7 +265,7 @@ Some general guidelines for depositors to consider in planning for future data c
 
 **Expert determination:** A HIPAA de-identification standard that relies on statistical and scientific methodologies. This method may be more suitable than Safe Harbor to address indirect (quasi) identifiers.
 
-**HIPAA:** (Health Insurance Portability and Accountability Act of 1996) United States law that provides privacy standards to protect identifying health information. HIPAA establishes conditions for sharing and reuse of health information by researchers. See: [Research/HHS.gov](Research/HHS.gov).
+**HIPAA:** (Health Insurance Portability and Accountability Act of 1996) United States law that provides privacy standards to protect identifying health information. HIPAA establishes conditions for sharing and reuse of health information by researchers. See: [Research/HHS.gov]([https://www.hhs.gov/programs/research/index.html).
 
 **Honest broker:** An honest broker is a third party group or individual working with the researcher who manages the de-identification of data to ensure only non-identifying data goes to the research team and any other appropriate outlets.
 
@@ -336,7 +336,7 @@ Fearon, Dave. (2023). â€œGuides: Protecting Identifiers in Human Subjects Data.â
 
 #### University of Michigan
 
-- [IRB-HSBS Biospecimen Consent Template](https://research-compliance.umich.edu/new-irb-hsbs-biospecimen-consent-template) with data sharing language
+- [IRB-HSBS Biospecimen Consent Template](https://hrpp.umich.edu/irb-health-sciences-and-behavioral-sciences-hsbs/informed-consent-guidelines-templates/) with data sharing language
 - [IRB-HSBS General Informed Consent Template](https://research-compliance.umich.edu/new-irb-hsbs-general-informed-consent-template) with data sharing language
 
 # Appendix C Human Participant CURATED checklist

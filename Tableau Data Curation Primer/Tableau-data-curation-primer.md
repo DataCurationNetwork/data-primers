@@ -207,7 +207,7 @@ This primer is intended as a living document, one that should be regularly evalu
 
 # Appendix A: filetype CURATED checklist
 
-The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps https://datacurationnetwork.org/resources/resources-2/.
+The following CURATED checklist model is based on the Digital Curation Network’s standardized set of C-U-R-A-T-E-D steps https://datacuration.network/outputs/workflows/.
 
 **Check** files and read documentation
 - View the files in Tableau desktop and Tableau Public to see the files in their native formats.
