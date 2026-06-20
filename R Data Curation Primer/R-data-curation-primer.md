@@ -95,15 +95,15 @@ R is a plain text file that can be opened in any text editor, but in order to wo
 - Software Carpentry lessons are generally more accessible for new learners. An overview of the RStudio interface is included in [this tutorial](http://swcarpentry.github.io/r-novice-gapminder/).
 
 - Tutorials as part of the R Network:
-    - [The R Manuals](https://cran.r-project.org/manuals.html#R-exts)
+    - [The R Manuals](https://cran.r-project.org/manuals.html)
     - [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
 
 - Tutorials created by RStudio:
     - [RStudio Primers](https://education.rstudio.com)
 
 - Online books:
-    - [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/). Peng, R. D. (2019).
-    - [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](http://r4ds.had.co.nz/). Wickham, H., & Grolemund, G. (2017).​
+    - [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/). Peng, R. D. (2022).
+    - [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.hadley.nz/). (2nd ed.) Wickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023).
 
 ## Key questions to ask yourself
 
