@@ -63,7 +63,20 @@
 
 <tr>
 <td> Tools for curation review </td>
-<td> <ul><li>A Windows PC with Access (Access does not run on Mac). Recent versions of Access (e.g., 2016) should be able to open down to Access 2000</li></ul> </td>
+<td>
+  <ul>
+    <li>A Windows PC with Microsoft Access for full-fidelity inspection and for
+      exporting forms, reports, macros, modules, and relationship metadata. Recent
+      versions of Access (e.g., 2016) should be able to open down to Access 2000.</li>
+    <li>A modern browser for local, read-only inspection of supported MDB/ACCDB
+      tables, fields, and records. No Windows, Microsoft Access, Java, or ODBC is
+      required: the selected database opens in the browser tab and is not uploaded to
+      the service. This works on macOS, Linux, and Windows.</li>
+  </ul>
+  <p>For example, DBConvert provides an <a
+  href="https://streams.dbconvert.com/mdb-viewer">online MDB/ACCDB viewer</a>
+  that opens supported databases locally in the browser.</p>
+</td>
 </tr>
 
 <tr>
